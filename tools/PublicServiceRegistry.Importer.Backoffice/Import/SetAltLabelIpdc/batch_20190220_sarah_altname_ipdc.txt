@@ -1,0 +1,1079 @@
+Id|ExportNaarOrafin|NaamAflopend sorteren|ipdc-ID-link|Alternatieve naam ipdc (=titel)
+DVR000000001|False|Werkplek duaal leren|1468|Werkplek duaal leren
+DVR000000002|True|Subsidies aan havenbedrijven voor bepaalde havenkapiteindiensten|237|Subsidie aan havenbedrijven voor bepaalde havenkapiteinsdiensten
+DVR000000004|True|Decretale subsidiëring topsport|514|Subsidies voor internationale topsportevenementen
+DVR000000005|True|Pimp je Speelplaats|1385|Projectoproep voor Pimp je speelplaats 4
+DVR000000012|True|Subsidies aan de verenigingen waar armen het woord nemen|1335|Erkenning en subsidiëring van de verenigingen waar armen het woord nemen
+DVR000000018|True|Kmo-portefeuille|198|Subsidie voor opleiding en advies voor kmo's en zelfstandigen (kmo-portefeuille)
+DVR000000022|True|Erkenning en subsidiëring van voorzieningen van de bijzondere jeugdbijstand|593|Erkenning en subsidiëring van voorzieningen van de bijzondere jeugdbijstand
+DVR000000024|True|Erkenning en subsidiëring van sociaal-toeristische verenigingen|577|Erkenning en subsidiëring van sociaal-toeristische verenigingen
+DVR000000028|True|Vlaamse renovatiepremie (RENO)|516|Vlaamse renovatiepremie
+DVR000000034|True|Subsidiëring evenementen - cat. A|514|Subsidies voor internationale topsportevenementen
+DVR000000035|True|Subsidiëring evenementen - cat. B|514|Subsidies voor internationale topsportevenementen
+DVR000000036|True|Subsidiëring evenementen - cat. C|514|Subsidies voor internationale topsportevenementen
+DVR000000037|True|Subsidiëring evenementen - cat. D|514|Subsidies voor internationale topsportevenementen
+DVR000000054|True|Erfgoedpremie|700|Erfgoedpremie voor beschermde monumenten en landschappen - standaardprocedure
+DVR000000055|True|Erfgoedpremie meerjarenovereenkomst|1504|Meerjarenpremieovereenkomst voor onroerend erfgoed
+DVR000000058|True|Onderzoekspremie|1545|Onderzoekspremie voor beschermde monumenten en landschappen
+DVR000000059|True|Premie voor varend erfgoed - BVR van 4/6/2004|932|Onderhoudspremie en beheerspremie voor varend erfgoed
+DVR000000060|True|Premie voor varend erfgoed - BVR van 27/11/2015|932|Onderhoudspremie en beheerspremie voor varend erfgoed
+DVR000000079|True|Subsidies voor de opmaak van een beheerplan|398|Subsidie voor de opmaak van een bosbeheerplan
+DVR000000083|True|Bebossing/herbebossing/inkomenssteun|433|Subsidie voor herbebossing en bebossing
+DVR000000085|True|Ondersteuning wildbeheereenheden|196|Subsidies voor wildbeheereenheden
+DVR000000088|True|Subsidie voor openstellen bos|428|Subsidie voor het openstellen van privébos
+DVR000000089|True|Subsidie ecologische bosfunctie|414|Subsidie ecologische bosfunctie
+DVR000000100|True|Subsidies aan autonoom vrijwilligerswerk in de zorgsector|488|Erkenning en subsidiëring van het autonoom vrijwilligerswerk in de zorgsector
+DVR000000101|True|Subsidies aan voorzieningen algemeen welzijnswerk|465|Erkenning en subsidiëring van voorzieningen voor algemeen welzijnswerk
+DVR000000102|True|Subsidies aan centra voor tele-onthaal|441|Erkenning en subsidiëring van de Centra voor Tele-onthaal
+DVR000000104|True|Subsidies juridische eerstelijnsbijstand|38|Juridische hulp
+DVR000000106|True|Projectsubsidies in het kader van armoedebestrijding|328|Subsidies voor projecten van armoedebestrijding
+DVR000000145|True|Vlaamse verbeterings- en aanpassingspremie (VAP)|675|Vlaamse verbeteringspremie
+DVR000000146|True|Huursubsidie|697|De Vlaamse huursubsidie
+DVR000000147|True|Huurpremie|692|Vlaamse huurpremie voor kandidaat-huurders van een sociale woning
+DVR000000164|True|Verzekering gewaarborgd wonen|185|Verzekering gewaarborgd wonen
+DVR000000202|True|Subsidie ikv biologische productiemethode (hectaresteun)|480|Hectaresteun voor de toepassing van de biologische productiemethode
+DVR000000203|True|Subsidie voor boslandbouwsystemen (agroforestry)|468|Subsidie voor boslandbouwsystemen (agroforestry)
+DVR000000207|True|Subsidie ikv Kratos/bedrijfsadvies|519|KRATOS, het Vlaams Bedrijfsadviessysteem voor land- en tuinbouwers
+DVR000000210|True|Subsidie ikv Europese schoolfruit, -groenten en -melkregeling|382|Subsidie voor schoolfruit, schoolgroenten en schoolmelk
+DVR000000211|True|Subsidie voor zorgboerderijen|218|Subsidie voor zorgboerderijen
+DVR000000212|True|Subsidie voor fokkerij|478|Subsidie voor erkende fokkerijverenigingen en -organisaties
+DVR000000214|True|Subsidie voor controlekosten biologische landbouw|562|Subsidie voor controlekosten voor de biologische landbouw
+DVR000000217|True|Werkingssubsidie voor VLAM (Vlaams Centrum voor Agro- en Visserijmarketing)|560|Bijdragen van  landbouw, tuinbouw, visserij en agrovoeding aan VLAM
+DVR000000225|True|Kmo-groeisubsidie|1399|Kmo-groeisubsidie: steun voor groeitrajecten bij kmo's
+DVR000000226|True|Ontwikkelingsproject|1539|Subsidie voor ondernemingen met een innovatief ontwikkelingsproject
+DVR000000227|True|Onderzoeksproject|1540|Subsidie voor ondernemingen met een innovatief onderzoeksproject
+DVR000000228|True|Strategische transformatiesteun (STS)|1146|Strategische transformatiesteun
+DVR000000229|True|Ecologisch en veilig transport|1467|Subsidie voor ecologisch en veilig transport
+DVR000000230|True|Ecologiepremie plus|200|Ecologiepremie Plus voor ondernemingen
+DVR000000231|True|Strategische ecologiesteun (STRES)|1220|Strategische ecologiesteun voor ondernemingen
+DVR000000232|True|Compensatie indirecte emissiekosten|990|Subsidie voor bedrijven ter compensatie van indirecte emissiekosten
+DVR000000233|True|Hinderpremie|1440|Hinderpremie
+DVR000000235|True|Innovatiemandaten|281|Innovatiemandaat
+DVR000000236|True|Baekeland-mandaat|313|Baekeland-mandaat
+DVR000000238|True|Bedrijventerreinen|355|Subsidie voor de (her)ontwikkeling van bedrijventerreinen
+DVR000000242|True|Bedrijvencentra en doorgangsgebouwen|310|Subsidie voor bedrijvencentra en doorgangsgebouwen
+DVR000000247|True|KMO-haalbaarheidsstudie|269|Subsidie voor een kmo-haalbaarheidsstudie
+DVR000000248|True|KMO-innovatieprojecten|312|Subsidie voor een kmo-innovatieproject
+DVR000000249|True|Sprint-Project|1230|Subsidie voor een Sprint-project
+DVR000000250|True|O&O-bedrijfsproject|279|Steun aan bedrijven voor een onderzoeks- en ontwikkelingsproject (O&O-project)
+DVR000000252|True|VIS-Trajecten|280|Steun voor innovatieve samenwerkingsverbanden (VIS-trajecten)
+DVR000000253|True|Inkomenscompensatievergoeding - Vlaams Gewest|737|Inkomenscompensatievergoeding
+DVR000000254|True|Rentetoelage voor hinder bij openbare werken|367|Rentetoelage bij hinder openbare werken
+DVR000000268|True|Subsidies mobiliteitsverenigingen|256|Erkenning en subsidiëring van een mobiliteitsvereniging
+DVR000000278|True|Onderzoeksinfrastructuur - Lissabonstrategie|275|Subsidie voor onderzoeksinfrastructuur
+DVR000000300|True|Financiering zorg via organisaties die zorg en ondersteuning bieden: kortverblijf|82|Tijdelijke opvang in een centrum voor kortverblijf
+DVR000000336|True|Beurs Circusdecreet Bijscholing en opleiding circuskunstenaars Beurzen internationale bijscholing|610|Subsidie voor circuskunsten
+DVR000000337|True|Beurs Circusdecreet Bijscholing en opleiding circuskunstenaars Deelname aan opleidingen tot docent|610|Subsidie voor circuskunsten
+DVR000000349|True|Decreet Jeugdverblijfcentra ondersteuningsstructuren vzw Centrum voor jeugdtoerisme|704|Subsidies voor een jeugdverblijfcentrum en hostel
+DVR000000350|True|Decreet Jeugdverblijfcentra ondersteuningsstructuren vzw Vlaamse Jeugdherbergen|704|Subsidies voor een jeugdverblijfcentrum en hostel
+DVR000001353|True|Enveloppe Decreet Jeugdverblijfcentra Jeugdverblijfcentra, Hostels, ondersteuningsstructuren en de vzw ADJ Subsidiëring van ADJ, CJT en VJH|704|Subsidies voor een jeugdverblijfcentrum en hostel
+DVR000001360|True|Erkenning Cultureel-erfgoeddecreet (nieuw CED) Kwaliteitslabel|234|Kwaliteitslabel voor collectiebeherende cultureel-erfgoedinstellingen
+DVR000001361|True|Erkenning cultuureducatieve verenigingen|635|Erkenning en subsidiëring van cultuureducatieve verenigingen
+DVR000001362|True|Erkenning Landelijk georganiseerde jeugdverenigingen|634|Erkenning en subsidiëring van een landelijk georganiseerde jeugdvereniging
+DVR000001364|True|Erkenning verenigingen informatie en participatie|636|Erkenning en subsidiëring van verenigingen die werken rond  informatie en participatie
+DVR000001413|True|Nieuwe disciplines (Amateurkunsten)|611|Erkenning en subsidiëring van amateurkunsten
+DVR000001421|True|Personeelssubsidie Decreet Jeugdverblijfcentra Jeugdverblijfcentra, Hostels, ondersteuningsstructuren en de vzw ADJ Centra met personeel -en werkingsubsidie|704|Subsidies voor een jeugdverblijfcentrum en hostel
+DVR000001431|True|Projectsubsidie Circusdecreet Creatie van circuskunstproducties|610|Subsidie voor circuskunsten
+DVR000001432|True|Projectsubsidie Circusdecreet Ondersteuning en promotie circuskunsten Promotie van circuskunsten|610|Subsidie voor circuskunsten
+DVR000001433|True|Projectsubsidie Circusdecreet Spreiding van circuskunstproducties Eénjarige festivals|610|Subsidie voor circuskunsten
+DVR000001434|True|Projectsubsidie Circusdecreet Spreiding van circuskunstproducties Internationale spreiding van Vlaamse circusproductie|610|Subsidie voor circuskunsten
+DVR000001435|True|Projectsubsidie Circusdecreet Spreiding van circuskunstproducties Meerjarige festivals|610|Subsidie voor circuskunsten
+DVR000001436|True|Projectsubsidie Circusdecreet Spreiding van circuskunstproducties Nomadische tournees in Vlaanderen|610|Subsidie voor circuskunsten
+DVR000001445|True|Projectsubsidie Participatiedecreet Projecten ter bevordering van de participatie van kansengroepen in cultuur, jeugdwerk of sport|614|Subsidie voor participatieprojecten kansengroepen
+DVR000001448|True|Projectsubsidie voor internationale cultureel erfgoedprojecten|258|Subsidies voor projecten in de cultureel-erfgoedsector
+DVR000001449|True|Projectsubsidie voor ontwikkelingsgerichte cultureel erfgoedprojecten|258|Subsidies voor projecten in de cultureel-erfgoedsector
+DVR000001462|True|Subsidiëring cultuureducatieve verenigingen|635|Erkenning en subsidiëring van cultuureducatieve verenigingen
+DVR000001464|True|Subsidiëring Landelijk georganiseerde jeugdverenigingen|634|Erkenning en subsidiëring van een landelijk georganiseerde jeugdvereniging
+DVR000001465|True|Subsidiëring verenigingen informatie en participatieJeugd|636|Erkenning en subsidiëring van verenigingen die werken rond  informatie en participatie
+DVR000001497|True|Vrijetijdspas|40|Vrijetijdspas
+DVR000001502|True|Werkingssubsidie Circusdecreet Ondersteuning en promotie circuskunsten Ondersteuning circuscentrum|610|Subsidie voor circuskunsten
+DVR000001508|True|Werkingssubsidie en Personeelssubsidie Decreet Jeugdverblijfcentra Jeugdverblijfcentra en Hostels|704|Subsidies voor een jeugdverblijfcentrum en hostel
+DVR000001517|True|Werkingssubsidie Participatiedecreet Hobbyverenigingen|616|Subsidie voor hobbyverenigingen
+DVR000001518|True|Werkingssubsidie Participatiedecreet Laagdrempelige educatie voor kansengroepen|615|Subsidie voor laagdrempelige educatie voor kansengroepen
+DVR000001614|True|GK - Projectsubsidie Gelijke kansen|526|Subsidie voor projecten van Gelijke Kansen
+DVR000001622|True|Brussel - Subsidie Projecten voor Brussel (Subsidiegids)|368|Subsidie voor projecten in Brussel
+DVR000001626|True|Vlaamse Rand - Facultatieve subsidie faciliteitengemeenten|515|Subsidie voor projecten in de faciliteitengemeenten in de Vlaamse Rand
+DVR000001627|True|Vlaamse Rand - Impulsprojectsubsidie|1391|Impulssubsidie voor projecten in de Vlaamse Rand
+DVR000001656|True|Subsidies leegstaande bedrijfsruimten (verwerving en sanering - variabel krediet)|531|Premie voor bestrijding van leegstand en verwaarlozing van bedrijfsruimten voor nieuwe eigenaars
+DVR000001683|True|Subsidie kinderopvang - subsidie voor inkomenstarief gezinsopvang|1130|Kinderopvang met inkomenstarief
+DVR000001684|True|Subsidie kinderopvang - subsidie voor inkomenstarief groepsopvang|1130|Kinderopvang met inkomenstarief
+DVR000001717|True|Adoptiepremie|806|Adoptiepremie
+DVR000001744|True|Zorgbudget voor zwaar zorgbehoevenden|365|Zorgbudget voor zwaar zorgbehoevenden van de Vlaamse sociale bescherming
+DVR000001745|True|Zorgbudget voor ouderen met zorgnood|131|Zorgbudget voor ouderen met een zorgnood (vroeger tegemoetkoming voor hulp aan bejaarden genoemd)
+DVR000001750|True|Reglementaire subsidies samenwerkingsinitiatieven eerstelijnsgezondheidszorg (SEL)|467|Erkenning en subsidiëring van de samenwerkingsinitiatieven eerstelijnsgezondheidszorg (SEL)
+DVR000001793|True|Erkenning psychiatrische verzorgingstehuizen|440|Erkenning van de psychiatrische verzorgingstehuizen
+DVR000001794|True|Erkenning en subsidiëring diensten voor thuisverpleging|412|Erkenning en subsidiëring van de diensten voor thuisverpleging
+DVR000001803|True|Dienstencheques|130|Vlaamse dienstencheques
+DVR000001808|True|VOP|220|Vlaamse ondersteuningspremie (VOP) voor werkgevers
+DVR000001809|True|Aanwervingsincentive|1436|Aanwervingsincentive voor langdurig werkzoekenden
+DVR000001810|True|Transitiepremie|1486|Transitiepremie
+DVR000001817|True|ESF- subsidies|336|Subsidies voor sociale tewerkstellingsprojecten
+DVR000001818|True|Aanmoedigingspremies|699|Aanmoedigingspremie voor tijdskrediet
+DVR000001819|True|Vlaams zorgkrediet|1421|Vlaams zorgkrediet voor de openbare sector
+DVR000001820|True|Ervaringsfonds|1229|Ervaringsfonds voor werkgevers
+DVR000001821|False|Arbeidskaarten|582|Arbeidskaart
+DVR000001822|False|Beroepskaarten|961|Beroepskaart voor vreemdelingen
+DVR000001828|True|Betaald educatief verlof|1344|Betaald educatief verlof voor werknemers in de privésector
+DVR000001830|False|Ervaringsbewijs|332|Ervaringsbewijs
+DVR000001832|False|Opleidingscheques|199|Opleidingscheques voor werknemers
+DVR000001834|True|Beschutte werkplaatsen|343|Erkenning en ondersteuning van een beschutte werkplaats
+DVR000001836|True|Sociale werkplaatsen|341|Erkenning en ondersteuning van een sociale werkplaats
+DVR000001840|True|Arbeidszorg|345|Subsidies voor de omkadering van arbeidszorgmedewerkers
+DVR000001841|False|SINE|1469|Sociale inschakelingseconomie (SINE)
+DVR000001842|True|Invoegbedrijven|339|Erkenning en ondersteuning van een invoegbedrijf
+DVR000001855|False|Werkhervattingstoeslag (uitdovend)|889|Werkhervattingstoeslag voor werkzoekenden van 55 jaar of meer
+DVR000001857|False|Loopbaanonderbreking (uitdovend)|1365|Federale uitkering voor gewone loopbaanonderbreking
+DVR000001885|True|Subsidies in kader van het decreet mobiliteitsbeleid – Projectsubsidies|294|Subsidie voor een mobiliteitsproject van een vereniging
+DVR000001889|True|Leertijd|563|Leertijd
+DVR000001890|True|Ondernemerschapstrajecten|334|Praktijkgerichte ondernemerschapstrajecten (Syntra Vlaanderen)
+DVR000002017|False|Kaphout afvoeren|1|Kaphout afvoeren
+DVR000002018|False|Financiële tegemoetkoming in de begrafeniskosten voor oud-strijders|2|Financiële tegemoetkoming in de begrafeniskosten voor oud-strijders
+DVR000002019|False|Eensluidend verklaarde kopie|3|Eensluidend verklaarde kopie
+DVR000002020|False|Ophalen van glas via de glascontainer|4|Ophalen van glas via de glascontainer
+DVR000002021|False|Huisvuilstickers|5|Huisvuilstickers
+DVR000002022|False|Hulp nodig bij vervullen administratieve taken|7|Hulp nodig bij vervullen administratieve taken
+DVR000002023|False|Gemeentelijke premie voor inbraakpreventie|9|Gemeentelijke premie voor inbraakpreventie
+DVR000002024|False|Inleveren bouwafval en bouwresten|10|Inleveren bouwafval en bouwresten
+DVR000002025|False|Onthaal nieuwe inwoners|13|Onthaal nieuwe inwoners
+DVR000002026|False|Ophalen kerstboom|14|Ophalen kerstboom
+DVR000002027|False|Huis-aan-huisinzameling van glas|15|Huis-aan-huisinzameling van glas
+DVR000002028|False|Huis-aan-huisinzameling van grofvuil|16|Huis-aan-huisinzameling van grofvuil
+DVR000002029|False|Huis-aan-huisinzameling van klein gevaarlijk afval|17|Huis-aan-huisinzameling van klein gevaarlijk afval
+DVR000002030|False|Huis-aan-huisinzameling van papier en karton|18|Huis-aan-huisinzameling van papier en karton
+DVR000002031|False|Huis-aan-huisinzameling van plastic-, metaal- en drankverpakkingen (PMD)|19|Huis-aan-huisinzameling van plastic-, metaal- en drankverpakkingen (PMD)
+DVR000002032|False|Huis-aan-huisinzameling van restafval|20|Huis-aan-huisinzameling van restafval
+DVR000002033|False|Huis-aan-huisinzameling van snoeihout|21|Huis-aan-huisinzameling van snoeihout
+DVR000002034|False|Peterschap van een grafmonument|22|Peterschap van een grafmonument
+DVR000002035|False|Sorteerpasje|23|Sorteerpasje
+DVR000002036|False|Afhalen weggehaalde fiets/bromfiets|24|Afhalen weggehaalde fiets/bromfiets
+DVR000002037|False|Afhalen gevonden voorwerpen|25|Afhalen gevonden voorwerpen
+DVR000002038|False|Toelating voor het aanleggen van een geveltuin|26|Toelating voor het aanleggen van een geveltuin
+DVR000002039|False|Toelating om bij een evenement af te wijken van het geluidsniveau|27|Toelating om bij een evenement af te wijken van het geluidsniveau
+DVR000002040|False|Verkoop gevonden fietsen en bromfietsen|28|Verkoop gevonden fietsen en bromfietsen
+DVR000002041|False|Premie voor het aanleggen van een geveltuin|30|Premie voor het aanleggen van een geveltuin
+DVR000002042|False|Premie voor het aanleggen van een groendak|31|Premie voor het aanleggen van een groendak
+DVR000002043|False|Premie voor een huwelijksjubileum|32|Premie voor een huwelijksjubileum
+DVR000002044|False|Bruikleen of hergebruik van een grafmonument|33|Bruikleen of hergebruik van een grafmonument
+DVR000002045|False|Speelpleinwerking|34|Speelpleinwerking
+DVR000002046|False|Cultuurcheque|35|Cultuurcheque
+DVR000002047|False|Taxicheques|36|Taxicheques
+DVR000002048|False|Dringende steun in noodsituaties|37|Dringende steun in noodsituaties
+DVR000002049|False|Zorgtariefpas|39|Zorgtariefpas
+DVR000002050|False|Tussenkomst eerste maand huishuur|41|Tussenkomst eerste maand huishuur
+DVR000002051|False|Financiële tussenkomst voor de aanpassing van de woning van ouderen en personen met een handicap|42|Financiële tussenkomst voor de aanpassing van de woning van ouderen en personen met een handicap
+DVR000002052|False|Arbeidstrajectbegeleiding|43|Arbeidstrajectbegeleiding
+DVR000002053|False|Atelierwerking|44|Atelierwerking
+DVR000002054|False|Openbare computerruimten|45|Openbare computerruimten
+DVR000002055|False|Gebruiken van computerklassen|46|Gebruiken van computerklassen
+DVR000002056|False|Gebruik van een fuifruimte|47|Gebruik van een fuifruimte
+DVR000002057|False|Schoollokalen huren buiten de schooluren|48|Schoollokalen huren buiten de schooluren
+DVR000002058|False|Infrastructuur en materiaal gebruiken voor sociaal-culturele activiteiten|49|Infrastructuur en materiaal gebruiken voor sociaal-culturele activiteiten
+DVR000002059|False|Jeugdcentrum gebruiken voor jongerenactiviteiten|50|Jeugdcentrum gebruiken voor jongerenactiviteiten
+DVR000002060|False|Kookinfrastructuur gebruiken|51|Kookinfrastructuur gebruiken
+DVR000002061|False|Uitlenen van evenementenmateriaal|52|Uitlenen van evenementenmateriaal
+DVR000002062|False|Gebruiken van een polyvalente ruimte|53|Gebruiken van een polyvalente ruimte
+DVR000002063|False|Gebruiken van een repetitieruimte|54|Gebruiken van een repetitieruimte
+DVR000002064|False|Gebruiken van een speelterrein|55|Gebruiken van een speelterrein
+DVR000002065|False|Gebruik van sportinfrastructuur|56|Gebruik van sportinfrastructuur
+DVR000002066|False|Gebruiken van studieruimten|57|Gebruiken van studieruimten
+DVR000002067|False|Gebruiken van een theaterinfrastructuur|58|Gebruiken van een theaterinfrastructuur
+DVR000002068|False|Bibliotheekvoorzieningen voor personen met een beperking|59|Bibliotheekvoorzieningen voor personen met een beperking
+DVR000002069|False|Boekenuitleendienst aan huis|60|Boekenuitleendienst aan huis
+DVR000002070|False|Boodschappendienst|61|Boodschappendienst
+DVR000002071|False|Budgetbegeleiding|62|Budgetbegeleiding
+DVR000002072|False|Budgetbeheer|63|Budgetbeheer
+DVR000002073|False|Buitenschoolse kinderopvang|64|Buitenschoolse kinderopvang
+DVR000002074|False|Crisisopvang|65|Crisisopvang
+DVR000002075|False|Cultuurkorting voor studenten|66|Cultuurkorting voor studenten
+DVR000002076|False|Dienst aangepast vervoer voor minder mobiele personen|67|Dienst aangepast vervoer voor minder mobiele personen
+DVR000002077|False|Doorgangswoning, transitwoning of noodwoning|68|Doorgangswoning, transitwoning of noodwoning
+DVR000002078|False|Financiële tussenkomst bij het betalen van uw energiefacturen|69|Financiële tussenkomst bij het betalen van uw energiefacturen
+DVR000002079|False|Financiële tussenkomst bij hospitalisatiekosten|70|Financiële tussenkomst bij hospitalisatiekosten
+DVR000002080|False|Financiële tussenkomst voor deelname van kinderen en jongeren aan het georganiseerde vrijetijdsaanbod|71|Financiële tussenkomst voor deelname van kinderen en jongeren aan het georganiseerde vrijetijdsaanbod
+DVR000002081|False|Aanvragen van een gidsbeurt|72|Aanvragen van een gidsbeurt
+DVR000002082|False|Grabbelpas|73|Grabbelpas
+DVR000002083|False|Gratis bonnen voor tweedehandsaankopen|74|Gratis bonnen voor tweedehandsaankopen
+DVR000002084|False|Gratis vuilniszakken|75|Gratis vuilniszakken
+DVR000002085|False|Huistaakbegeleiding|76|Huistaakbegeleiding
+DVR000002086|False|Gemeentelijke financiële tussenkomst in de huurkosten|77|Gemeentelijke financiële tussenkomst in de huurkosten
+DVR000002087|False|Financiële tussenkomst in de huurwaarborg|78|Financiële tussenkomst in de huurwaarborg
+DVR000002088|False|Financiële tegemoetkoming voor jeugdactiviteiten|79|Financiële tegemoetkoming voor jeugdactiviteiten
+DVR000002089|False|Kopie van een archiefdocument|80|Kopie van een archiefdocument
+DVR000002090|False|Cultuurkaart|81|Cultuurkaart
+DVR000002091|False|Mantelzorgpremie|83|Mantelzorgpremie
+DVR000002092|False|Financiële tussenkomst in mutualiteitsbijdragen|84|Financiële tussenkomst in mutualiteitsbijdragen
+DVR000002093|False|Nieuwjaarsgeschenk voor chronisch zieken of personen met een handicap|86|Nieuwjaarsgeschenk voor chronisch zieken of personen met een handicap
+DVR000002094|False|Ter beschikking stellen van een palliatieve kamer|87|Ter beschikking stellen van een palliatieve kamer
+DVR000002095|False|Aanvragen van een parkeerplaats voor personen met een handicap|88|Aanvragen van een parkeerplaats voor personen met een handicap
+DVR000002096|False|Gemeentelijke premie voor het opstarten van een kinderdagverblijf|89|Gemeentelijke premie voor het opstarten van een kinderdagverblijf
+DVR000002097|False|Projectsubsidie cultuur|90|Projectsubsidie cultuur
+DVR000002098|False|Psychosociale hulp|91|Psychosociale hulp
+DVR000002099|False|Archiefdocumenten raadplegen|92|Archiefdocumenten raadplegen
+DVR000002100|False|Borgstelling voor een woonzorgcentrum|93|Borgstelling voor een woonzorgcentrum
+DVR000002101|False|Financiële tussenkomst in de schoolkosten|94|Financiële tussenkomst in de schoolkosten
+DVR000002102|False|Schuldbemiddeling|95|Schuldbemiddeling
+DVR000002103|False|Vermindering op de huisvuilbelasting|96|Vermindering op de huisvuilbelasting
+DVR000002104|False|Sportkorting voor studenten|97|Sportkorting voor studenten
+DVR000002105|False|Strijkatelier of strijkwinkel|98|Strijkatelier of strijkwinkel
+DVR000002106|False|Subsidie voor het aankopen van groot materiaal voor jeugdwerk|99|Subsidie voor het aankopen van groot materiaal voor jeugdwerk
+DVR000002107|False|Subsidie voor het bevorderen van diversiteit in sport, cultuur en jeugd|100|Subsidie voor het bevorderen van diversiteit in sport, cultuur en jeugd
+DVR000002108|False|Gemeentelijke subsidie voor erfgoedverenigingen|101|Gemeentelijke subsidie voor erfgoedverenigingen
+DVR000002109|False|Gemeentelijke subsidie voor investeringen in infrastructuur in het jeugdwerk|102|Gemeentelijke subsidie voor investeringen in infrastructuur in het jeugdwerk
+DVR000002110|False|Subsidie ouderbetrokkenheid bij school|104|Subsidie ouderbetrokkenheid bij school
+DVR000002111|False|Subsidie voor het organiseren van sportevenementen|105|Subsidie voor het organiseren van sportevenementen
+DVR000002112|False|Thuisopvang voor zieke kinderen|106|Thuisopvang voor zieke kinderen
+DVR000002113|False|Tussenkomst voor haarverzorging|107|Tussenkomst voor haarverzorging
+DVR000002114|False|Thuiszorg - Huishoudelijke hulp|108|Thuiszorg - Huishoudelijke hulp
+DVR000002115|False|Maaltijdbedeling aan huis|109|Maaltijdbedeling aan huis
+DVR000002116|False|Thuiszorg - Oppasdienst|110|Thuiszorg - Oppasdienst
+DVR000002117|False|Persoonsverzorging|111|Persoonsverzorging
+DVR000002118|False|Voetverzorging|112|Voetverzorging
+DVR000002119|False|Toelage voor instellingen voor personen met een handicap|113|Toelage voor instellingen voor personen met een handicap
+DVR000002120|False|Gemeentelijke premie voor de opvang van personen met een handicap|114|Gemeentelijke premie voor de opvang van personen met een handicap
+DVR000002121|False|Tussenkomst in farmaceutische en (para-) medische kosten|115|Tussenkomst in farmaceutische en (para-) medische kosten
+DVR000002122|False|Tussenkomst in de taxikosten|116|Tussenkomst in de taxikosten
+DVR000002123|False|Tweedehandskledij|117|Tweedehandskledij
+DVR000002124|False|Ontlenen van boeken, cd's, dvd's en ander bibliotheekmateriaal|118|Ontlenen van boeken, cd's, dvd's en ander bibliotheekmateriaal
+DVR000002125|False|Ontlenen van materiaal voor jeugdactiviteiten en jeugdwerk|119|Ontlenen van materiaal voor jeugdactiviteiten en jeugdwerk
+DVR000002126|False|Financiële tussenkomst voor een verblijf in een woonzorgcentrum|120|Financiële tussenkomst  voor een verblijf in een woonzorgcentrum
+DVR000002127|False|Vervoer minder mobiele personen|121|Vervoer minder mobiele personen
+DVR000002128|False|Voedselpakketten|122|Voedselpakketten
+DVR000002129|False|Gemeentelijke premie voorhuwelijkssparen|123|Gemeentelijke premie voorhuwelijkssparen
+DVR000002130|False|Voorschotten op sociale uitkeringen|124|Voorschotten op sociale uitkeringen
+DVR000002131|False|Financiële tussenkomst voor waterverbruik|125|Financiële tussenkomst voor waterverbruik
+DVR000002132|False|Erkenning als verdeler van officiële afvalzakken|127|Erkenning als verdeler van officiële afvalzakken
+DVR000002133|False|Leefloon|134|Leefloon
+DVR000002134|False|Noodoproepen|135|Noodoproepen
+DVR000002135|False|Overlevingspensioen|136|Overlevingspensioen
+DVR000002136|False|Huwelijk|139|Huwelijk
+DVR000002137|False|Wettelijk samenwonen|144|Wettelijk samenwonen
+DVR000002138|False|Buitenlandse huwelijksakte erkennen en overschrijven|145|Buitenlandse huwelijksakte erkennen en overschrijven
+DVR000002139|False|Collectieve schuldenregeling|146|Collectieve schuldenregeling
+DVR000002140|False|Kids-ID: Elektronisch identiteitsdocument voor kinderen onder de 12 jaar|147|Kids-ID: Elektronisch identiteitsdocument voor kinderen onder de 12 jaar
+DVR000002141|False|Elektronische identiteitskaart (eID)|148|Elektronische identiteitskaart (eID)
+DVR000002142|False|Nietig verklaren van een huwelijk|149|Nietig verklaren van een huwelijk
+DVR000002143|False|Internationaal rijbewijs|152|Internationaal rijbewijs
+DVR000002144|False|Federaal token|155|Federaal token
+DVR000002145|False|Een kind erkennen|156|Een kind erkennen
+DVR000002146|False|Geboorteaangifte|157|Geboorteaangifte
+DVR000002147|False|Orgaandonatie|158|Orgaandonatie
+DVR000002148|False|Overlijdensaangifte|159|Overlijdensaangifte
+DVR000002149|False|Parkeerkaart voor personen met een handicap|160|Parkeerkaart voor personen met een handicap
+DVR000002150|False|Wilsverklaring inzake euthanasie|163|Wilsverklaring inzake euthanasie
+DVR000002151|False|Huwelijksaangifte|173|Huwelijksaangifte
+DVR000002152|False|Fiets huren|175|Fiets huren
+DVR000002153|False|Premie voor superisolerend glas|180|Premie voor superisolerend glas
+DVR000002154|False|Bewonerskaart|181|Bewonerskaart
+DVR000002155|False|Jachtverlof en jachtvergunning|186|Jachtverlof en jachtvergunning
+DVR000002156|False|Visverlof|187|Visverlof
+DVR000002157|False|Verplichte keuring van uw privériolering voor afvoer van afval- of regenwater|188|Verplichte keuring van uw privériolering voor afvoer van afval- of regenwater
+DVR000002158|False|Vrijstelling of vermindering van inschrijvingsgeld in het volwassenenonderwijs|189|Vrijstelling of vermindering van inschrijvingsgeld in het volwassenenonderwijs
+DVR000002159|False|Een diploma secundair onderwijs behalen via het secundair volwassenenonderwijs (vroeger tweedekansonderwijs)|190|Een diploma secundair onderwijs behalen via het secundair volwassenenonderwijs (vroeger tweedekansonderwijs)
+DVR000002160|False|Begeleiding van inburgeraars (het Inburgeringstraject)|193|Begeleiding van inburgeraars (het Inburgeringstraject)
+DVR000002161|False|Verplichte keuring van de waterleidingen bij nieuwbouw en renovatie|194|Verplichte keuring van de waterleidingen bij nieuwbouw en renovatie
+DVR000002162|False|Erkenning van een wildbeheereenheid|195|Erkenning van een wildbeheereenheid
+DVR000002163|False|Premie voor het behalen van een diploma secundair onderwijs via het volwassenenonderwijs|197|Premie voor het behalen van een diploma secundair onderwijs via het volwassenenonderwijs
+DVR000002164|False|Verhoogde vermindering van de onroerende voorheffing voor bescheiden woning|201|Verhoogde vermindering van de onroerende voorheffing voor bescheiden woning
+DVR000002165|False|Eurovignet voor vrachtwagens|202|Eurovignet voor vrachtwagens
+DVR000002166|False|Ophalen GFT|203|Ophalen GFT
+DVR000002167|False|Erkenning van mestvoerders|204|Erkenning van mestvoerders
+DVR000002168|False|Registratie van verzenders van meststoffen|205|Registratie van verzenders van meststoffen
+DVR000002169|False|Aangifte bij de Mestbank|206|Aangifte bij de Mestbank
+DVR000002170|False|Subsidies in het kader van cultuurkuur en dynamo3|208|Subsidies in het kader van cultuurkuur en dynamo3
+DVR000002171|False|Startbanenproject 'Scholen voor Jongeren - Jongeren voor Scholen' voor een positief schoolklimaat|209|Startbanenproject 'Scholen voor Jongeren - Jongeren voor Scholen' voor een positief schoolklimaat
+DVR000002172|False|Lerarenkaart|210|Lerarenkaart
+DVR000002173|False|Startbanenproject Verkeersveiligheid voor veiliger woon-schoolverkeer|211|Startbanenproject Verkeersveiligheid voor veiliger woon-schoolverkeer
+DVR000002174|False|Bevolkingsonderzoek bij pasgeborenen naar aangeboren aandoeningen via een bloedonderzoek|212|Bevolkingsonderzoek bij pasgeborenen naar aangeboren aandoeningen via een bloedonderzoek
+DVR000002175|False|Erasmus uitwisselingsprogramma en Erasmusbeurs om in het buitenland te studeren|213|Erasmus uitwisselingsprogramma en Erasmusbeurs om in het buitenland te studeren
+DVR000002176|False|Aanvraag tot onderzoek van het binnenmilieu in een woning of openbaar gebouw|214|Aanvraag tot onderzoek van het binnenmilieu in een woning of openbaar gebouw
+DVR000002177|False|Energieprestatiecertificaat voor een publiek gebouw|216|Energieprestatiecertificaat voor een publiek gebouw
+DVR000002178|False|Jaarlijkse verkeersbelasting voor aan te geven voertuigen|217|Jaarlijkse verkeersbelasting voor aan te geven voertuigen
+DVR000002179|False|Erkenning van bedrijfsgezondheidsdiensten|221|Erkenning van bedrijfsgezondheidsdiensten
+DVR000002180|False|Gratis controle van putwater bij eigen grondwaterwinning|222|Gratis controle van putwater bij eigen grondwaterwinning
+DVR000002181|False|Individuele Beroepsopleiding (IBO) voor werkzoekenden|223|Individuele Beroepsopleiding (IBO) voor werkzoekenden
+DVR000002182|False|Ontheffing van loodsplicht voor kleine zeeschepen|225|Ontheffing van loodsplicht voor kleine zeeschepen
+DVR000002183|False|Jaarlijkse verkeersbelasting voor personenwagens en aanverwante voertuigen|227|Jaarlijkse verkeersbelasting voor personenwagens en aanverwante voertuigen
+DVR000002184|False|Onroerende voorheffing|228|Onroerende voorheffing
+DVR000002185|False|Heffing op de winning van grondwater|235|Heffing op de winning van grondwater
+DVR000002186|False|Erkenning als Vlaams ontwikkelingsfonds voor microfinanciering in de ontwikkelingssamenwerking|236|Erkenning als Vlaams ontwikkelingsfonds voor microfinanciering in de ontwikkelingssamenwerking
+DVR000002187|False|Vergunning voor watervang|238|Vergunning voor watervang
+DVR000002188|False|Sociaal tarief en vrijstelling van de heffing op de waterverontreiniging|241|Sociaal tarief en vrijstelling van de heffing op de waterverontreiniging
+DVR000002189|False|Omgevingsvergunning voor het wijzigen van kleine landschapselementen of vegetaties|242|Omgevingsvergunning voor het wijzigen van kleine landschapselementen of vegetaties
+DVR000002190|False|Omnipas 65+|245|Omnipas 65+
+DVR000002191|False|Kaart voor kosteloze begeleider van een persoon met een handicap op het openbaar vervoer|246|Kaart voor kosteloze begeleider van een persoon met een handicap op het openbaar vervoer
+DVR000002192|False|Gratis abonnement van De Lijn voor personen met een handicap|247|Gratis abonnement van De Lijn voor personen met een handicap
+DVR000002193|False|Buzzy Pazz of Omnipas 'Vervoersgarantie' (VG)|248|Buzzy Pazz of Omnipas 'Vervoersgarantie' (VG)
+DVR000002194|False|Euregio-ticket (dagpas bus en trein gebied Euregio Maas - Rijn)|249|Euregio-ticket (dagpas bus en trein gebied Euregio Maas - Rijn)
+DVR000002195|False|Gratis abonnement van NMBS en De Lijn voor oorlogsinvaliden en oud-strijders|250|Gratis abonnement van NMBS en De Lijn voor oorlogsinvaliden en oud-strijders
+DVR000002196|False|Attest voor personenvervoer voor eigen rekening|252|Attest voor personenvervoer voor eigen rekening
+DVR000002197|False|Machtiging voor de tijdelijke vervanging van een voertuig van een taxidienst of verhuurdienst|253|Machtiging voor de tijdelijke vervanging van een voertuig van een taxidienst of verhuurdienst
+DVR000002198|False|Vergunning voor het uitbaten van een taxidienst|254|Vergunning voor het uitbaten van een taxidienst
+DVR000002199|False|Vergunning voor de verhuur van voertuigen met bestuurder|255|Vergunning voor de verhuur van voertuigen met bestuurder
+DVR000002200|False|Vergunning voor het organiseren van grensoverschrijdend geregeld vervoer|257|Vergunning voor het organiseren van grensoverschrijdend geregeld vervoer
+DVR000002201|False|Erkenning en subsidiëring van kunstenaars en professionele kunstenorganisaties|259|Erkenning en subsidiëring van kunstenaars en professionele kunstenorganisaties
+DVR000002202|False|Erkenning en subsidiëring van sportfederaties en organisaties voor sportieve vrijetijdsbesteding|261|Erkenning en subsidiëring van sportfederaties en organisaties voor sportieve vrijetijdsbesteding
+DVR000002203|False|Erkenning en vergunning van een radio-omroep|263|Erkenning en vergunning van een radio-omroep
+DVR000002204|False|Praktische ondersteuning voor sportpromotionele evenementen|265|Praktische ondersteuning voor sportpromotionele evenementen
+DVR000002205|False|Subsidiedatabank voor ondernemingen|268|Subsidiedatabank voor ondernemingen
+DVR000002206|False|Aspirantenmandaat|272|Aspirantenmandaat
+DVR000002207|False|Steun voor kmo's bij toepassing van milieu- en energievriendelijke technologie (PRODEM)|274|Steun voor kmo's bij toepassing van milieu- en energievriendelijke technologie (PRODEM)
+DVR000002208|False|Investering van risicokapitaal in beloftevolle kmo's (Arkimedes)|276|Investering van risicokapitaal in beloftevolle kmo's (Arkimedes)
+DVR000002209|False|Investering in een creatieve onderneming (CultuurInvest)|277|Investering in een creatieve onderneming (CultuurInvest)
+DVR000002210|False|Vergunning of overeenkomst om bijzondere vormen van geregeld vervoer te organiseren|283|Vergunning of overeenkomst om bijzondere vormen van geregeld vervoer te organiseren
+DVR000002211|False|Ontheffing van loodsplicht voor grote zeeschepen|284|Ontheffing van loodsplicht voor grote zeeschepen
+DVR000002212|False|Vergunning voor het privégebruik van waterwegen en hun aanhorigheden|285|Vergunning voor het privégebruik van waterwegen en hun aanhorigheden
+DVR000002213|False|Buzzy Pazz of Omnipas 'Verhoogde Tegemoetkoming' (VT)|289|Buzzy Pazz of Omnipas 'Verhoogde Tegemoetkoming' (VT)
+DVR000002214|False|Bemiddelaar Grootschalige Vlaamse Infrastructuurprojecten|290|Bemiddelaar Grootschalige Vlaamse Infrastructuurprojecten
+DVR000002215|False|Subsidies voor duurzaam woon-werkverkeer via het Pendelfonds|292|Subsidies voor duurzaam woon-werkverkeer via het Pendelfonds
+DVR000002216|False|Subsidie voor een actieprogramma duurzame mobiliteit van een niet-erkende mobiliteitsvereniging|293|Subsidie voor een actieprogramma duurzame mobiliteit van een niet-erkende mobiliteitsvereniging
+DVR000002217|False|Doctoraatsbeurs strategisch basisonderzoek|296|Doctoraatsbeurs strategisch basisonderzoek
+DVR000002218|False|Klinische doctoraatsbeurs|299|Klinische doctoraatsbeurs
+DVR000002219|False|Bijzondere doctoraatsbeurs|300|Bijzondere doctoraatsbeurs
+DVR000002220|False|Mandaat postdoctoraal onderzoeker|301|Mandaat postdoctoraal onderzoeker
+DVR000002221|False|Fundamenteel klinisch mandaat|302|Fundamenteel klinisch mandaat
+DVR000002222|False|Krediet voor individuele onderzoeker|303|Krediet voor individuele onderzoeker
+DVR000002223|False|Steun voor wetenschappelijke internationale samenwerking en contacten|306|Steun voor wetenschappelijke internationale samenwerking en contacten
+DVR000002224|False|Waarborgregeling boven 1,5 miljoen euro|314|Waarborgregeling boven 1,5 miljoen euro
+DVR000002225|False|Groeifinanciering|316|Groeifinanciering
+DVR000002226|False|Voordelige lening aan bedrijf uit de sociale economie (Sociaal Investeringsfonds)|320|Voordelige lening aan bedrijf uit de sociale economie (Sociaal Investeringsfonds)
+DVR000002227|False|Een gekend kind adopteren|323|Een gekend kind adopteren
+DVR000002228|False|Een ongekend kind adopteren|324|Een ongekend kind adopteren
+DVR000002229|False|Erkenning sociale huisvestingsmaatschappijen|329|Erkenning sociale huisvestingsmaatschappijen
+DVR000002230|False|Tegemoetkoming in kosten kinderopvang voor werkzoekenden in opleiding|331|Tegemoetkoming in kosten kinderopvang voor werkzoekenden in opleiding
+DVR000002231|False|Tegemoetkoming voor werkgevers die outplacementbegeleiding aanbieden|333|Tegemoetkoming voor werkgevers die outplacementbegeleiding aanbieden
+DVR000002232|False|Stimulanspremie voor werkzoekenden in opleiding|337|Stimulanspremie voor werkzoekenden in opleiding
+DVR000002233|False|Subsidies voor de omkadering van arbeidszorgmedewerkers|345|Subsidies voor de omkadering van arbeidszorgmedewerkers
+DVR000002234|False|Grafconcessies en concessies voor columbaria en urnenvelden|346|Grafconcessies en concessies voor columbaria en urnenvelden
+DVR000002235|False|Erkenning als natuurreservaat|347|Erkenning als natuurreservaat
+DVR000002236|False|Erkenning als terreinbeherende natuurvereniging|348|Erkenning als terreinbeherende natuurvereniging
+DVR000002237|False|Erkenning en subsidiëring van bosgroepen (verenigingen van boseigenaars)|349|Erkenning en subsidiëring van bosgroepen (verenigingen van boseigenaars)
+DVR000002238|False|Erkenning en subsidiëring van integratiecentra|350|Erkenning en subsidiëring van integratiecentra
+DVR000002239|False|Erkenning en subsidiering van opvangcentra voor vogels en wilde dieren|351|Erkenning en subsidiering van opvangcentra voor vogels en wilde dieren
+DVR000002240|False|Erkenning en subsidiëring van de ondersteuningscentra en het overlegcentrum voor etnisch-culturele minderheden|354|Erkenning en subsidiëring van de ondersteuningscentra en het overlegcentrum voor etnisch-culturele minderheden
+DVR000002241|False|Erkenning als centrum voor het depollueren, ontmantelen en vernietigen van afgedankte voertuigen|359|Erkenning als centrum voor het depollueren, ontmantelen en vernietigen van afgedankte voertuigen
+DVR000002242|False|Waarborgregeling tot 1,5 miljoen euro|360|Waarborgregeling tot 1,5 miljoen euro
+DVR000002243|False|Plaatsing van een jongere in een gemeenschapsinstelling|363|Plaatsing van een jongere in een gemeenschapsinstelling
+DVR000002244|False|Verplichte verwarmingsaudit voor cv-installatie die ouder is dan 5 jaar|372|Verplichte verwarmingsaudit voor cv-installatie die ouder is dan 5 jaar
+DVR000002245|False|Premie voor het installeren van een roetfilter in oudere dieselwagens|373|Premie voor het installeren van een roetfilter in oudere dieselwagens
+DVR000002246|False|Erkenning als laboratorium voor afvalstoffen, andere materialen en bodemstalen|375|Erkenning als laboratorium voor afvalstoffen, andere materialen en bodemstalen
+DVR000002247|False|Erkenning als uitzendbureau|379|Erkenning als uitzendbureau
+DVR000002248|False|Erkenning als ARKIV|381|Erkenning als ARKIV
+DVR000002249|False|Erkenning getuigschrift/diploma na leertijd|384|Erkenning getuigschrift/diploma na leertijd
+DVR000002250|False|Erkenning getuigschrift/diploma ondernemersopleiding|385|Erkenning getuigschrift/diploma ondernemersopleiding
+DVR000002251|False|Registratie als dienstverlener in het kader van de kmo-portefeuille|386|Registratie als dienstverlener in het kader van de kmo-portefeuille
+DVR000002252|False|Erkenning van testcentra voor het leveren van ervaringsbewijzen|387|Erkenning van testcentra voor het leveren van ervaringsbewijzen
+DVR000002253|False|Erkenning van een producent van vegetatief teeltmateriaal van wijnstokken|392|Erkenning van een producent van vegetatief teeltmateriaal van wijnstokken
+DVR000002254|False|Afschotplan voor grofwild|399|Afschotplan voor grofwild
+DVR000002255|False|Erkenning van lokale geloofsgemeenschappen|402|Erkenning van lokale geloofsgemeenschappen
+DVR000002256|False|Subsidies aan verenigingen voor projecten met een meerwaarde voor natuur en milieu|403|Subsidies aan verenigingen voor projecten met een meerwaarde voor natuur en milieu
+DVR000002257|False|Milieuheffing voor het storten en verbranden van afvalstoffen|405|Milieuheffing voor het storten en verbranden van afvalstoffen
+DVR000002258|False|Erkenning van kopers en exploitanten van hout in openbare bossen|409|Erkenning van kopers en exploitanten van hout in openbare bossen
+DVR000002259|False|Verzekering burgerlijke aansprakelijkheid voor beheerders van bossen en natuurreservaten|415|Verzekering burgerlijke aansprakelijkheid voor beheerders van bossen en natuurreservaten
+DVR000002260|False|Vergoeding voor schade veroorzaakt door wild of door een beschermde diersoort|416|Vergoeding voor schade veroorzaakt door wild of door een beschermde diersoort
+DVR000002261|False|Compensatieplicht bij ontbossing|417|Compensatieplicht bij ontbossing
+DVR000002262|False|Kapmachtiging|418|Kapmachtiging
+DVR000002263|False|Erkenning als bodemsaneringsdeskundige type 1 of type 2|421|Erkenning als bodemsaneringsdeskundige type 1 of type 2
+DVR000002264|False|Erkenning of melding en subsidiëring van de verenigingen van gebruikers en mantelzorgers|423|Erkenning of melding en subsidiëring van de verenigingen van gebruikers en mantelzorgers
+DVR000002265|False|Subsidie voor een regenwaterput (hemelwaterput)|424|Subsidie voor een regenwaterput (hemelwaterput)
+DVR000002266|False|Toestemming of machtiging voor een activiteit in een bos of natuurreservaat|426|Toestemming of machtiging voor een activiteit in een bos of natuurreservaat
+DVR000002267|False|Verklaring van selectieve sloop of ontmanteling|427|Verklaring van selectieve sloop of ontmanteling
+DVR000002268|False|Toelating tot invoer van dierlijke bijproducten (DBP) vanuit een andere Europese lidstaat|430|Toelating tot invoer van dierlijke bijproducten (DBP) vanuit een andere Europese lidstaat
+DVR000002269|False|Melden van de overdracht van een risicogrond|431|Melden van de overdracht van een risicogrond
+DVR000002270|False|Een sociale woning huren bij een sociale huisvestingsmaatschappij|432|Een sociale woning huren bij een sociale huisvestingsmaatschappij
+DVR000002271|False|Een sociale woning huren bij een sociaal verhuurkantoor|434|Een sociale woning huren bij een sociaal verhuurkantoor
+DVR000002272|False|Verplichte haalbaarheidsstudie naar alternatieve energiesystemen voor grote gebouwen|435|Verplichte haalbaarheidsstudie naar alternatieve energiesystemen voor grote gebouwen
+DVR000002273|False|Beheerovereenkomst tussen de Vlaamse Landmaatschappij en landbouwers|436|Beheerovereenkomst tussen de Vlaamse Landmaatschappij en landbouwers
+DVR000002274|False|Erkenning van de psychiatrische verzorgingstehuizen|440|Erkenning van de psychiatrische verzorgingstehuizen
+DVR000002275|False|Adviezen inzake de relatie tussen de kwaliteit van het milieu en gezondheid|443|Adviezen inzake de relatie tussen de kwaliteit van het milieu en gezondheid
+DVR000002276|False|Vaccins gratis ter beschikking van de vaccinatoren|445|Vaccins gratis ter beschikking van de vaccinatoren
+DVR000002277|False|Vaccinatiekaart|446|Vaccinatiekaart
+DVR000002278|False|Normen voor ziekenhuizen|448|Normen voor ziekenhuizen
+DVR000002279|False|Subsidies voor investeringen in welzijns- en gezondheidsvoorzieningen|452|Subsidies voor investeringen in welzijns- en gezondheidsvoorzieningen
+DVR000002280|False|Overlegplatforms Geestelijke Gezondheidszorg|455|Overlegplatforms Geestelijke Gezondheidszorg
+DVR000002281|False|Subsidiëring van projecten en bijzondere initiatieven inzake Jongerenwelzijn|458|Subsidiëring van projecten en bijzondere initiatieven inzake Jongerenwelzijn
+DVR000002282|False|Heffing op de waterverontreiniging|462|Heffing op de waterverontreiniging
+DVR000002283|False|Voordelige lening voor ondernemingen (Win-winlening)|466|Voordelige lening voor ondernemingen (Win-winlening)
+DVR000002284|False|Subsidie voor de verwarringstechniek in de fruitteelt|472|Subsidie voor de verwarringstechniek in de fruitteelt
+DVR000002285|False|Subsidie voor mechanische onkruidbestrijding|473|Subsidie voor mechanische onkruidbestrijding
+DVR000002286|False|Premie voor het behoud van de gespecialiseerde zoogkoeienhouderij|474|Premie voor het behoud van de gespecialiseerde zoogkoeienhouderij
+DVR000002287|False|Subsidie voor de bescherming van de genetische diversiteit van rundveerassen|475|Subsidie voor de bescherming van de genetische diversiteit van rundveerassen
+DVR000002288|False|Subsidie voor de bescherming van de genetische diversiteit van schapenrassen|476|Subsidie voor de bescherming van de genetische diversiteit van schapenrassen
+DVR000002289|False|Subsidie voor de bedrijfseigen teelt van plantaardige eiwitbronnen (vlinderbloemigen)|479|Subsidie voor de bedrijfseigen teelt van plantaardige eiwitbronnen (vlinderbloemigen)
+DVR000002290|False|Subsidie voor milieuvriendelijke sierteelt|481|Subsidie voor milieuvriendelijke sierteelt
+DVR000002291|False|Subsidie voor de bescherming van de genetische diversiteit van oude rassen hoogstammige fruitbomen|482|Subsidie voor de bescherming van de genetische diversiteit van oude rassen hoogstammige fruitbomen
+DVR000002292|False|Erkenning en subsidiëring van de instellingen voor schuldbemiddeling|485|Erkenning en subsidiëring van de instellingen voor schuldbemiddeling
+DVR000002293|False|Buzzy Pazz, van 6 tot 24 jaar|486|Buzzy Pazz, van 6 tot 24 jaar
+DVR000002294|False|Legalisatie van Vlaamse getuigschriften en diploma's|487|Legalisatie van Vlaamse getuigschriften en diploma's
+DVR000002295|False|Huur van een betaalbare woning in de Vlaamse rand rond Brussel via Vlabinvest|489|Huur van een betaalbare woning in de Vlaamse rand rond Brussel via Vlabinvest
+DVR000002296|False|Subsidie voor ontwikkelingseducatie|491|Subsidie voor ontwikkelingseducatie
+DVR000002297|False|Grondstofverklaring voor gebruik van een bepaald materiaal als grondstof|492|Grondstofverklaring voor gebruik van een bepaald materiaal als grondstof
+DVR000002298|False|Integraal Milieujaarverslag (IMJV)|493|Integraal Milieujaarverslag (IMJV)
+DVR000002299|False|Registratie als vervoerder van afvalstoffen|494|Registratie als vervoerder van afvalstoffen
+DVR000002300|False|Registratie als inzamelaar, handelaar of makelaar van afvalstoffen|495|Registratie als inzamelaar, handelaar of makelaar van afvalstoffen
+DVR000002301|False|Vermindering van de onroerende voorheffing voor grootoorlogsverminkten|496|Vermindering van de onroerende voorheffing voor grootoorlogsverminkten
+DVR000002302|False|Vergunning voor invoer, uitvoer en doorvoer van strategische goederen|497|Vergunning voor invoer, uitvoer en doorvoer van strategische goederen
+DVR000002303|False|Premie van de netbeheerder voor isolatie van een buitenmuur langs de buitenzijde|498|Premie van de netbeheerder voor isolatie van een buitenmuur langs de buitenzijde
+DVR000002304|False|Premie van de netbeheerder voor de isolatie van een spouwmuur|499|Premie van de netbeheerder voor de isolatie van een spouwmuur
+DVR000002305|False|Premie van de netbeheerder voor vloerisolatie of kelderisolatie|500|Premie van de netbeheerder voor vloerisolatie of kelderisolatie
+DVR000002306|False|Premie van de netbeheerder voor een warmtepomp|501|Premie van de netbeheerder voor een warmtepomp
+DVR000002307|False|Kortingbon voor beschermde afnemers bij aankoop van een energiezuinige wasmachine of koelkast|502|Kortingbon voor beschermde afnemers bij aankoop van een energiezuinige wasmachine of koelkast
+DVR000002308|False|Vrijstelling van de bijdrage voor de zuivering van het afvalwater|504|Vrijstelling van de bijdrage voor de zuivering van het afvalwater
+DVR000002309|False|Speciale onderwijsleermiddelen voor leerlingen, studenten of cursisten met een handicap|505|Speciale onderwijsleermiddelen voor leerlingen, studenten of cursisten met een handicap
+DVR000002310|False|FSC-boscertificaat|506|FSC-boscertificaat
+DVR000002311|False|Subsidies voor sportevenementen|507|Subsidies voor sportevenementen
+DVR000002312|False|Overnamesteun voor de jonge landbouwer|508|Overnamesteun voor de jonge landbouwer
+DVR000002313|False|Investeringssteun voor land- en tuinbouwers|509|Investeringssteun voor land- en tuinbouwers
+DVR000002314|False|Investeringssteun aan de agrovoedingssector|512|Investeringssteun aan de agrovoedingssector
+DVR000002315|False|Investeringssteun aan de omkaderingssector voor land- en tuinbouw|513|Investeringssteun aan de omkaderingssector voor land- en tuinbouw
+DVR000002316|False|Omgevingsvergunning voor de exploitatie van ingedeelde inrichtingen of activiteiten|517|Omgevingsvergunning voor de exploitatie van ingedeelde inrichtingen of activiteiten
+DVR000002317|False|Bodemattest|518|Bodemattest
+DVR000002318|False|Erkenning van controleartsen in het kader van dopingbestrijding|520|Erkenning van controleartsen in het kader van dopingbestrijding
+DVR000002319|False|Subsidie voor bijzondere journalistiek|522|Subsidie voor bijzondere journalistiek
+DVR000002320|False|Subsidies voor de audiovisuele sector|523|Subsidies voor de audiovisuele sector
+DVR000002321|False|Subsidies voor de letterensector|524|Subsidies voor de letterensector
+DVR000002322|False|Uitwisseling van plannen van ondergrondse kabels en leidingen (Kabel en Leiding Informatieportaal KLIP)|527|Uitwisseling van plannen van ondergrondse kabels en leidingen (Kabel en Leiding Informatieportaal KLIP)
+DVR000002323|False|Premie 50+|528|Premie 50+
+DVR000002324|False|Planologisch attest|530|Planologisch attest
+DVR000002325|False|Milieueffectrapport (MER)|532|Milieueffectrapport (MER)
+DVR000002326|False|Conformiteitsattest voor (huur)woningen|536|Conformiteitsattest voor (huur)woningen
+DVR000002327|False|Heffing op de leegstand en verwaarlozing van bedrijfsgebouwen|537|Heffing op de leegstand en verwaarlozing van bedrijfsgebouwen
+DVR000002328|False|Erkenning als laboratorium voor de analyse van water, lucht of bodem (deeldomein bodembescherming)|538|Erkenning als laboratorium voor de analyse van water, lucht of bodem (deeldomein bodembescherming)
+DVR000002329|False|Erkenning als opleidingscentrum brandertechnici of stookolietechnici|539|Erkenning als opleidingscentrum brandertechnici of stookolietechnici
+DVR000002330|False|Erkenning als milieucoördinator|540|Erkenning als milieucoördinator
+DVR000002331|False|Erkenning als opleidingscentrum voor de vorming van milieucoördinatoren|541|Erkenning als opleidingscentrum voor de vorming van milieucoördinatoren
+DVR000002332|False|Erkenning als veiligheidsrapporteringsdeskundige (VR-deskundige)|542|Erkenning als veiligheidsrapporteringsdeskundige (VR-deskundige)
+DVR000002333|False|Erkenning als milieudeskundige|543|Erkenning als milieudeskundige
+DVR000002334|False|Certificering van examencentra koeltechniek|544|Certificering van examencentra koeltechniek
+DVR000002335|False|Erkenning van technici en bedrijven voor brandbeveiligingsapparatuur|546|Erkenning van technici en bedrijven voor brandbeveiligingsapparatuur
+DVR000002336|False|Erkenning als opleidingscentrum voor klimaatregelingssytemen in bepaalde motorvoertuigen|547|Erkenning als opleidingscentrum voor klimaatregelingssytemen in bepaalde motorvoertuigen
+DVR000002337|False|Planbatenheffing, belasting op de meerwaarde van een grond na een bestemmingswijziging|548|Planbatenheffing, belasting op de meerwaarde van een grond na een bestemmingswijziging
+DVR000002338|False|Erkenning als technicus vloeibare brandstof, gasvormige brandstof en verwarmingsaudit|549|Erkenning als technicus vloeibare brandstof, gasvormige brandstof en verwarmingsaudit
+DVR000002339|False|Erkenning als technicus stookolietanks|550|Erkenning als technicus stookolietanks
+DVR000002340|False|Certificering van koeltechnici en koeltechnische bedrijven|551|Certificering van koeltechnici en koeltechnische bedrijven
+DVR000002341|False|Meting van straling rond zendantennes|553|Meting van straling rond zendantennes
+DVR000002342|False|Melding van de intentie tot hennepteelt|557|Melding van de intentie tot hennepteelt
+DVR000002343|False|Kapitaalschadecompensatie voor eigenaars van landbouwgronden|558|Kapitaalschadecompensatie voor eigenaars van landbouwgronden
+DVR000002344|False|Gebruikerscompensatie voor landbouwgronden|559|Gebruikerscompensatie voor landbouwgronden
+DVR000002345|False|Identificatie als landbouwer|561|Identificatie als landbouwer
+DVR000002346|False|Stageovereenkomst|564|Stageovereenkomst
+DVR000002347|False|Erkenning als ruimtelijke planner|565|Erkenning als ruimtelijke planner
+DVR000002348|False|Belasting op de inverkeerstelling (BIV)|566|Belasting op de inverkeerstelling (BIV)
+DVR000002349|False|Premie van de netbeheerder voor dakisolatie of zoldervloerisolatie in een woning of appartement|567|Premie van de netbeheerder voor dakisolatie of zoldervloerisolatie in een woning of appartement
+DVR000002350|False|Premie van de netbeheerder voor hoogrendementsglas in een woning of appartement|568|Premie van de netbeheerder voor hoogrendementsglas in een woning of appartement
+DVR000002351|False|Premie van de netbeheerder voor een condensatieketel (voor beschermde afnemers)|569|Premie van de netbeheerder voor een condensatieketel (voor beschermde afnemers)
+DVR000002352|False|Verkavelingsvergunning|570|Verkavelingsvergunning
+DVR000002353|False|Erkenning tot energiedeskundige type A|571|Erkenning tot energiedeskundige type A
+DVR000002354|False|Erkenning tot energiedeskundige type C|572|Erkenning tot energiedeskundige type C
+DVR000002355|False|Erkenning tot energiedeskundige type B|573|Erkenning tot energiedeskundige type B
+DVR000002356|False|Erkenning van een milieuvriendelijk toeristisch bedrijf (ecolabel De Groene Sleutel)|574|Erkenning van een milieuvriendelijk toeristisch bedrijf (ecolabel De Groene Sleutel)
+DVR000002357|False|Erkenning van een kampeerautovriendelijk logies|576|Erkenning van een kampeerautovriendelijk logies
+DVR000002358|False|Vergunning van een reisbureau of toeristisch verhuurkantoor|578|Vergunning van een reisbureau of toeristisch verhuurkantoor
+DVR000002359|False|Stedenbouwkundig attest|579|Stedenbouwkundig attest
+DVR000002360|False|Kooprecht voor huurders van een sociale huurwoning|580|Kooprecht voor huurders van een sociale huurwoning
+DVR000002361|False|Attest ter vervanging van een verloren diploma of getuigschrift|581|Attest ter vervanging van een verloren diploma of getuigschrift
+DVR000002362|False|Arbeidsvergunning|583|Arbeidsvergunning
+DVR000002363|False|Toegankelijkheidslabel voor toegankelijk logies|585|Toegankelijkheidslabel voor toegankelijk logies
+DVR000002364|False|Erkenning en vergunning van diensten en voorzieningen die ondersteuning bieden aan personen met een handicap|586|Erkenning en vergunning van diensten en voorzieningen die ondersteuning bieden aan personen met een handicap
+DVR000002365|False|Erkenning van gidsen en reisleiders|599|Erkenning van gidsen en reisleiders
+DVR000002366|False|Erkenning van een particuliere televisie-omroep|600|Erkenning van een particuliere televisie-omroep
+DVR000002367|False|Budgetmeter|601|Budgetmeter
+DVR000002368|False|Aanvullende verkeersbelasting voor LPG-installaties|602|Aanvullende verkeersbelasting voor LPG-installaties
+DVR000002369|False|Hulplijn geweld, misbruik en kindermishandeling|603|Hulplijn geweld, misbruik en kindermishandeling
+DVR000002370|False|Heffing op ongeschikte en onbewoonbare woningen|604|Heffing op ongeschikte en onbewoonbare woningen
+DVR000002371|False|Erkenning en subsidiëring van de Logo's (Lokaal Gezondheids Overleg)|607|Erkenning en subsidiëring van de Logo's (Lokaal Gezondheids Overleg)
+DVR000002372|False|Erkenning en subsidiëring van amateurkunsten|611|Erkenning en subsidiëring van amateurkunsten
+DVR000002373|False|Subsidie voor sensibiliserende initiatieven van de Vlaamse Gebarentaal|612|Subsidie voor sensibiliserende initiatieven van de Vlaamse Gebarentaal
+DVR000002374|False|Subsidies voor leesbevordering|613|Subsidies voor leesbevordering
+DVR000002375|False|Subsidie voor verenigingen met een specifieke opdracht voor de cultuur-, jeugdwerk- en sportsector|617|Subsidie voor verenigingen met een specifieke opdracht voor de cultuur-, jeugdwerk- en sportsector
+DVR000002376|False|Subsidie voor verenigingen voor culturele en sportieve participatie van gedetineerden|618|Subsidie voor verenigingen voor culturele en sportieve participatie van gedetineerden
+DVR000002377|False|Erkenning en subsidiëring van organisaties voor sociaal-cultureel volwassenenwerk|619|Erkenning en subsidiëring van organisaties voor sociaal-cultureel volwassenenwerk
+DVR000002378|False|Omgevingsvergunning voor stedenbouwkundige handelingen|620|Omgevingsvergunning voor stedenbouwkundige handelingen
+DVR000002379|False|Erkenning van een fietsvriendelijk logies|621|Erkenning van een fietsvriendelijk logies
+DVR000002380|False|Betalingsrechten voor de landbouw|622|Betalingsrechten voor de landbouw
+DVR000002381|False|Erkenning als MER-deskundige|625|Erkenning als MER-deskundige
+DVR000002382|False|Kennisgeving voor uitzending door een televisie-omroep|627|Kennisgeving voor uitzending door een televisie-omroep
+DVR000002383|False|Attesten voor jeugdwerkers|628|Attesten voor jeugdwerkers
+DVR000002384|False|Vermindering van de onroerende voorheffing voor kinderbijslaggerechtigde kinderen|630|Vermindering van de onroerende voorheffing voor kinderbijslaggerechtigde kinderen
+DVR000002385|False|Vermindering van de onroerende voorheffing voor bescheiden woning|631|Vermindering van de onroerende voorheffing voor bescheiden woning
+DVR000002386|False|Subsidie voor stages bij internationale organisaties|633|Subsidie voor stages bij internationale organisaties
+DVR000002387|False|Subsidie voor experimenteel jeugdwerk|637|Subsidie voor experimenteel jeugdwerk
+DVR000002388|False|Kampeertenten lenen|638|Kampeertenten lenen
+DVR000002389|False|Subsidies voor internationaal ondernemen|639|Subsidies voor internationaal ondernemen
+DVR000002390|False|Exportmeter|640|Exportmeter
+DVR000002391|False|Leerlingenkaart|642|Leerlingenkaart
+DVR000002392|False|Subsidies voor de bouw en renovatie van scholen|643|Subsidies voor de bouw en renovatie van scholen
+DVR000002393|False|Een vrijstelling aanvragen in het hoger onderwijs of toegang krijgen tot het hoger onderwijs via eerdere studies of werkervaring|644|Een vrijstelling aanvragen in het hoger onderwijs of toegang krijgen tot het hoger onderwijs via eerdere studies of werkervaring
+DVR000002394|False|Sloopinventaris afvalstoffen|645|Sloopinventaris afvalstoffen
+DVR000002395|False|Aansluiten bij de Vlaamse Sociale Bescherming|649|Aansluiten bij de Vlaamse Sociale Bescherming
+DVR000002396|False|Minimale levering van elektriciteit en aardgas voor wie een budgetmeter heeft|650|Minimale levering van elektriciteit en aardgas voor wie een budgetmeter heeft
+DVR000002397|False|Verplicht onderhoud van uw cv-installatie (centrale verwarming)|651|Verplicht onderhoud van uw cv-installatie (centrale verwarming)
+DVR000002398|False|EPC Bouw|652|EPC Bouw
+DVR000002399|False|Medaille voor sociaal-culturele inzet|653|Medaille voor sociaal-culturele inzet
+DVR000002400|False|Controle en onderhoud van de stookolietank van een woning|654|Controle en onderhoud van de stookolietank van een woning
+DVR000002401|False|Proportionele vermindering van de onroerende voorheffing|658|Proportionele vermindering van de onroerende voorheffing
+DVR000002402|False|Verkooprechten (Registratiebelastingen)|659|Verkooprechten (Registratiebelastingen)
+DVR000002403|False|Schenkbelasting (Registratiebelasting)|660|Schenkbelasting (Registratiebelasting)
+DVR000002404|False|Erfbelasting|661|Erfbelasting
+DVR000002405|False|Vrijstelling van erfbelasting op de gezinswoning voor de langstlevende partner|662|Vrijstelling van erfbelasting op de gezinswoning voor de langstlevende partner
+DVR000002406|False|Recht op hypotheekvestiging (Registratiebelastingen)|663|Recht op hypotheekvestiging (Registratiebelastingen)
+DVR000002407|False|Verdeelrechten (Registratiebelastingen)|664|Verdeelrechten (Registratiebelastingen)
+DVR000002408|False|Aankoop van een sociale woning of bouwgrond bij een sociale huisvestingsmaatschappij (SHM)|665|Aankoop van een sociale woning of bouwgrond bij een sociale huisvestingsmaatschappij (SHM)
+DVR000002409|False|Vermindering van de verkooprechten voor een bescheiden woning (Klein beschrijf)|666|Vermindering van de verkooprechten voor een bescheiden woning (Klein beschrijf)
+DVR000002410|False|Meeneembaarheid van verkooprechten|667|Meeneembaarheid van verkooprechten
+DVR000002411|False|Vermindering van de verkooprechten voor een enige woning (Abattement)|668|Vermindering van de verkooprechten voor een enige woning (Abattement)
+DVR000002412|False|Vermindering van de verkooprechten bij een hypothecaire lening voor een enige woning (Bijabattement)|669|Vermindering van de verkooprechten bij een hypothecaire lening voor een enige woning (Bijabattement)
+DVR000002413|False|Vermindering van de verkooprechten bij renovatie van een verwaarloosd of leegstaand pand (Renovatie-abattement)|670|Vermindering van de verkooprechten bij renovatie van een verwaarloosd of leegstaand pand (Renovatie-abattement)
+DVR000002414|False|Huisonderwijs voor leerplichtige kinderen|671|Huisonderwijs voor leerplichtige kinderen
+DVR000002415|False|Tegemoetkoming in reis- en verblijfkosten voor internationale samenwerking rond volksontwikkeling en lokaal cultuurbeleid|673|Tegemoetkoming in reis- en verblijfkosten voor internationale samenwerking rond volksontwikkeling en lokaal cultuurbeleid
+DVR000002416|False|Vakantieaanbod met korting voor mensen die het financieel moeilijk hebben|674|Vakantieaanbod met korting voor mensen die het financieel moeilijk hebben
+DVR000002417|False|Toelatingsexamens arts en tandarts|677|Toelatingsexamens arts en tandarts
+DVR000002418|False|Tijdelijk Onderwijs Aan Huis (TOAH) voor zieke leerlingen|678|Tijdelijk Onderwijs Aan Huis (TOAH) voor zieke leerlingen
+DVR000002419|False|Een getuigschrift basisonderwijs behalen via de Examencommissie basisonderwijs|679|Een getuigschrift basisonderwijs behalen via de Examencommissie basisonderwijs
+DVR000002420|False|Een diploma of getuigschrift secundair onderwijs behalen via de Examencommissie secundair onderwijs|680|Een diploma of getuigschrift secundair onderwijs behalen via de Examencommissie secundair onderwijs
+DVR000002421|False|Leerlingenvervoer in het buitengewoon onderwijs|681|Leerlingenvervoer in het buitengewoon onderwijs
+DVR000002422|False|Vermindering van de onroerende voorheffing voor personen met een handicap|682|Vermindering van de onroerende voorheffing voor personen met een handicap
+DVR000002423|False|Geïntegreerd onderwijs: GON-begeleiding in het onderwijs|683|Geïntegreerd onderwijs: GON-begeleiding in het onderwijs
+DVR000002424|False|Groenestroomcertificaten voor zonnepanelen|684|Groenestroomcertificaten voor zonnepanelen
+DVR000002425|False|Studietoelage voor het hoger onderwijs|685|Studietoelage voor het hoger onderwijs
+DVR000002426|False|Schooltoelage voor het basisonderwijs en het secundair onderwijs|686|Schooltoelage voor het basisonderwijs en het secundair onderwijs
+DVR000002427|False|Verhoogde investeringsaftrek voor energiebesparende investeringen door bedrijven|687|Verhoogde investeringsaftrek voor energiebesparende investeringen door bedrijven
+DVR000002428|False|Vermindering van de onroerende voorheffing voor huurders|688|Vermindering van de onroerende voorheffing voor huurders
+DVR000002429|False|Attest voor de erkenning van een Vlaams diploma of getuigschrift in het buitenland|689|Attest voor de erkenning van een Vlaams diploma of getuigschrift in het buitenland
+DVR000002430|False|Premie van de netbeheerder voor een zonneboiler|690|Premie van de netbeheerder voor een zonneboiler
+DVR000002431|False|Vermindering van de onroerende voorheffing voor een energiezuinig nieuw gebouw|691|Vermindering van de onroerende voorheffing voor een energiezuinig nieuw gebouw
+DVR000002432|False|Leerkrediet voor studenten hoger onderwijs|693|Leerkrediet voor studenten hoger onderwijs
+DVR000002433|False|Diploma hoger onderwijs behalen via een diplomacontract|694|Diploma hoger onderwijs behalen via een diplomacontract
+DVR000002434|False|Credits hoger onderwijs behalen via een creditcontract|695|Credits hoger onderwijs behalen via een creditcontract
+DVR000002435|False|Diploma hoger onderwijs behalen via een examencontract|696|Diploma hoger onderwijs behalen via een examencontract
+DVR000002436|False|Opgraving van een stoffelijk overschot of urne|698|Opgraving van een stoffelijk overschot of urne
+DVR000002437|False|Verplichte keuring van een nieuwe of gewijzigde cv-installatie|701|Verplichte keuring van een nieuwe of gewijzigde cv-installatie
+DVR000002438|False|EPC bij verkoop of verhuur van een woning|702|EPC bij verkoop of verhuur van een woning
+DVR000002439|False|Erkenning van scholen en andere onderwijsinstellingen|703|Erkenning van scholen en andere onderwijsinstellingen
+DVR000002440|False|Vlaamse Woonlening of de sociale lening bij de VMSW|705|Vlaamse Woonlening of de sociale lening bij de VMSW
+DVR000002441|False|Bevolkingsonderzoek Borstkanker|706|Bevolkingsonderzoek Borstkanker
+DVR000002442|False|Melden van gebreken aan wegen, fietspaden, wegverlichting, ... in Vlaanderen|710|Melden van gebreken aan wegen, fietspaden, wegverlichting, ... in Vlaanderen
+DVR000002443|False|Doorlichtingsverslag van een school of een centrum voor leerlingenbegeleiding|716|Doorlichtingsverslag van een school of een centrum voor leerlingenbegeleiding
+DVR000002444|False|Vergunning tot het rijden in een voetgangerszone|719|Vergunning tot het rijden in een voetgangerszone
+DVR000002445|False|Subsidie voor het organiseren van een jeugdfuif|720|Subsidie voor het organiseren van een jeugdfuif
+DVR000002446|False|Poetshulp|721|Poetshulp
+DVR000002447|False|Inkomensvervangende tegemoetkoming voor personen met een handicap|726|Inkomensvervangende tegemoetkoming voor personen met een handicap
+DVR000002448|False|Veranderen van familienaam|727|Veranderen van familienaam
+DVR000002449|False|Rustpensioen|728|Rustpensioen
+DVR000002450|False|Raming van uw toekomstige pensioenrechten|729|Raming van uw toekomstige pensioenrechten
+DVR000002451|False|Voorlopig rijbewijs|730|Voorlopig rijbewijs
+DVR000002452|False|Stemmen bij verkiezingen|731|Stemmen bij verkiezingen
+DVR000002453|False|Visum en verblijfsdocumenten om in België te verblijven|732|Visum en verblijfsdocumenten om in België te verblijven
+DVR000002454|False|Brandveiligheidsattest voor horeca-uitbaters|733|Brandveiligheidsattest voor horeca-uitbaters
+DVR000002455|False|Vergunning voor het verstrekken van gegiste en/of sterke dranken|734|Vergunning voor het verstrekken van gegiste en/of sterke dranken
+DVR000002456|False|Elektronische vreemdelingenkaart|735|Elektronische vreemdelingenkaart
+DVR000002457|False|Exploitatievergunning voor de horeca|736|Exploitatievergunning voor de horeca
+DVR000002458|False|Hygiëneattest|739|Hygiëneattest
+DVR000002459|False|Identiteitsbewijs voor een niet-Belgisch kind|740|Identiteitsbewijs voor een niet-Belgisch kind
+DVR000002460|False|Moraliteitsattest|741|Moraliteitsattest
+DVR000002461|False|Overlijdensaangifte van een doodgeboren kind|743|Overlijdensaangifte van een doodgeboren kind
+DVR000002462|False|Buitenlandse overlijdensakte erkennen en overschrijven in België|744|Buitenlandse overlijdensakte erkennen en overschrijven in België
+DVR000002463|False|Registratie poliovaccinatie|746|Registratie poliovaccinatie
+DVR000002464|False|Reistoelating voor minderjarigen|747|Reistoelating voor minderjarigen
+DVR000002465|False|Registratie van de slachting van een dier|748|Registratie van de slachting van een dier
+DVR000002466|False|Sociaal tarief voor elektriciteit en aardgas (sociale maximumprijzen)|749|Sociaal tarief voor elektriciteit en aardgas (sociale maximumprijzen)
+DVR000002467|False|Sociaal telefoontarief|750|Sociaal telefoontarief
+DVR000002468|False|Omgevingsvergunning voor kleinhandelsactiviteiten|751|Omgevingsvergunning voor kleinhandelsactiviteiten
+DVR000002469|False|Attest van de interventie van de brandweer|754|Attest van de interventie van de brandweer
+DVR000002470|False|Toelating voor het organiseren van manifestaties ter bevordering van de plaatselijke handel/braderieën|755|Toelating voor het organiseren van manifestaties ter bevordering van de plaatselijke handel/braderieën
+DVR000002471| |Wettiging handtekening|756|Wettiging handtekening
+DVR000002472|False|Nachtvergunning voor de horeca|757|Nachtvergunning voor de horeca
+DVR000002473|False|Instapstage - VDAB|758|Instapstage - VDAB
+DVR000002474|False|Gemeentelijke werkingssubsidie voor erkende jeugdverenigingen|760|Gemeentelijke werkingssubsidie voor erkende jeugdverenigingen
+DVR000002475|False|Gebruiken van een tentoonstellingsruimte|761|Gebruiken van een tentoonstellingsruimte
+DVR000002476|False|Gemeentelijke premie voor een startende ondernemer|762|Gemeentelijke premie voor een startende ondernemer
+DVR000002477|False|Werkingssubsidie voor sportverenigingen|763|Werkingssubsidie voor sportverenigingen
+DVR000002478|False|Subsidie voor een startende jeugdvereniging|764|Subsidie voor een startende jeugdvereniging
+DVR000002479|False|Subsidie voor de vorming van trainers of begeleiders|765|Subsidie voor de vorming van trainers of begeleiders
+DVR000002480|False|Subsidie voor het onvruchtbaar maken van een huiskat|766|Subsidie voor het onvruchtbaar maken van een huiskat
+DVR000002481|False|Tegemoetkoming in de gemeentelijke opcentiemen|767|Tegemoetkoming in de gemeentelijke opcentiemen
+DVR000002482|False|Vergunning voor het plaatsen van een tijdelijk terras|768|Vergunning voor het plaatsen van een tijdelijk terras
+DVR000002483|False|Klusjesdienst|769|Klusjesdienst
+DVR000002484|False|Personenalarmsysteem|770|Personenalarmsysteem
+DVR000002485|False|Toelating voor het uitdelen van flyers op markten, evenementen en openbare plaatsen|772|Toelating voor het uitdelen van flyers op markten, evenementen en openbare plaatsen
+DVR000002486|False|Toelating voor het uitdelen van productstalen op markten, evenementen of op openbare plaatsen|773|Toelating voor het uitdelen van productstalen op markten, evenementen of op openbare plaatsen
+DVR000002487|False|Vergunning voor een circusstandplaats|774|Vergunning voor een circusstandplaats
+DVR000002488|False|Vergunning voor straatanimatie en straatmuzikanten|775|Vergunning voor straatanimatie en straatmuzikanten
+DVR000002489|False|Vergunning om koopwaar en voorwerpen uit te stallen op openbaar domein|776|Vergunning om koopwaar en voorwerpen uit te stallen op openbaar domein
+DVR000002490|False|Laatste wilsbeschikking|777|Laatste wilsbeschikking
+DVR000002491|False|Attest van hoofdverblijfplaats (bewijs van woonst)|778|Attest van hoofdverblijfplaats (bewijs van woonst)
+DVR000002492|False|Attest van leven|779|Attest van leven
+DVR000002493|False|Attest van Belgische nationaliteit|780|Attest van Belgische nationaliteit
+DVR000002494|False|Attest van gezinssamenstelling|781|Attest van gezinssamenstelling
+DVR000002495|False|Akte van overlijden|782|Akte van overlijden
+DVR000002496|False|Akte van geboorte|783|Akte van geboorte
+DVR000002497|False|Akte van huwelijk|784|Akte van huwelijk
+DVR000002498|False|Akte van echtscheiding|785|Akte van echtscheiding
+DVR000002499|False|Crisisopvang voor zorgbehoevende ouderen|787|Crisisopvang voor zorgbehoevende ouderen
+DVR000002500|False|Dagopvang voor ouderen|788|Dagopvang voor ouderen
+DVR000002501|False|Gemeentelijke geboortepremie|789|Gemeentelijke geboortepremie
+DVR000002502|False|Medisch-sociale toelage voor volwassenen met een handicap|790|Medisch-sociale toelage voor volwassenen met een handicap
+DVR000002503|False|Flats voor personen met een handicap|791|Flats voor personen met een handicap
+DVR000002504|False|Tussenkomst voor Nederlandse taallessen|792|Tussenkomst voor Nederlandse taallessen
+DVR000002505|False|Oppas en gezelschap voor thuiswonende ouderen|793|Oppas en gezelschap voor thuiswonende ouderen
+DVR000002506|False|Gemeentelijke premie voor palliatieve thuiszorg|794|Gemeentelijke premie voor palliatieve thuiszorg
+DVR000002507|False|Vakantietoelage voor personen met een handicap|795|Vakantietoelage voor personen met een handicap
+DVR000002508|False|Seniorenwoningen|796|Seniorenwoningen
+DVR000002509|False|Serviceflat en assistentiewoning|797|Serviceflat en assistentiewoning
+DVR000002510|False|Sociaal restaurant|798|Sociaal restaurant
+DVR000002511|False|Sociale correctie op het gedifferentieerd tarief voor afvalverwerking|799|Sociale correctie op het gedifferentieerd tarief voor afvalverwerking
+DVR000002512|False|Sociale premie water en elektriciteit voor personen met een laag inkomen|800|Sociale premie water en elektriciteit voor personen met een laag inkomen
+DVR000002513|False|Sociale premie water, gas en elektriciteit voor gezinnen|801|Sociale premie water, gas en elektriciteit voor gezinnen
+DVR000002514|False|Thuiszorg - Haarverzorging|802|Thuiszorg - Haarverzorging
+DVR000002515|False|Tussenkomst in het leefgeld|803|Tussenkomst in het leefgeld
+DVR000002516|False|Tussenkomst in de kosten voor het vaccin tegen baarmoederhalskanker|804|Tussenkomst in de kosten voor het vaccin tegen baarmoederhalskanker
+DVR000002517|False|Woonbegeleiding|805|Woonbegeleiding
+DVR000002518|False|Inhaalpremie voor langdurige arbeidsongeschiktheid|807|Inhaalpremie voor langdurige arbeidsongeschiktheid
+DVR000002519|False|Tegemoetkoming voor hulp van derden bij arbeidsongeschiktheid|808|Tegemoetkoming voor hulp van derden bij arbeidsongeschiktheid
+DVR000002520|False|Ziekte- en invaliditeitsuitkering|809|Ziekte- en invaliditeitsuitkering
+DVR000002521|False|Arbeidsongevallenverzekering|810|Arbeidsongevallenverzekering
+DVR000002522|False|Verlaagd btw-tarief voor personen met een handicap voor de aankoop van een wagen|811|Verlaagd btw-tarief voor personen met een handicap voor de aankoop van een wagen
+DVR000002523|False|Basisbankdienst|812|Basisbankdienst
+DVR000002524|False|Belastingkrediet voor kinderen ten laste|814|Belastingkrediet voor kinderen ten laste
+DVR000002525|False|Belastingvrije som bij opvang van een ouder familielid|815|Belastingvrije som bij opvang van een ouder familielid
+DVR000002526|False|Belastingvermindering voor dakisolatie|816|Belastingvermindering voor dakisolatie
+DVR000002527|False|Bemiddeling|817|Bemiddeling
+DVR000002528|False|Beroepsziekten|818|Beroepsziekten
+DVR000002529|False|Bijzonder Solidariteitsfonds voor uitzonderlijke gezondheidskosten|819|Bijzonder Solidariteitsfonds voor uitzonderlijke gezondheidskosten
+DVR000002530|False|Blindenstok|820|Blindenstok
+DVR000002531|False|Tegemoetkoming chronische wonden|821|Tegemoetkoming chronische wonden
+DVR000002532|False|Dringende medische hulp voor mensen zonder wettig verblijf|823|Dringende medische hulp voor mensen zonder wettig verblijf
+DVR000002533|False|Equivalent leefloon|827|Equivalent leefloon
+DVR000002534|False|Belastingvermindering voor de kosten voor kinderopvang|828|Belastingvermindering voor de kosten voor kinderopvang
+DVR000002535|False|Kraamgeld (geboortepremie)|829|Kraamgeld (geboortepremie)
+DVR000002536|False|Globaal medisch dossier|831|Globaal medisch dossier
+DVR000002537|False|Incontinentieforfait|832|"Incontinentieforfait	"
+DVR000002538|False|Installatiepremie voor dak- en thuislozen|834|Installatiepremie voor dak- en thuislozen
+DVR000002539|False|Integratietegemoetkoming voor personen met een handicap|835|Integratietegemoetkoming voor personen met een handicap
+DVR000002540|False|Jobkorting federale overheid|836|Jobkorting federale overheid
+DVR000002541|False|Juridische tweedelijnsbijstand (Pro-Deoadvocaat)|837|Juridische tweedelijnsbijstand (Pro-Deoadvocaat)
+DVR000002542|False|Tegemoetkoming in de reiskosten van kankerpatiënten|838|Tegemoetkoming in de reiskosten van kankerpatiënten
+DVR000002543|False|Kinderbijslag van 18 tot 25 jaar|839|Kinderbijslag van 18 tot 25 jaar
+DVR000002544|False|Gewaarborgd kraamgeld|840|Gewaarborgd kraamgeld
+DVR000002545|False|Gewaarborgde gezinsbijslag|841|Gewaarborgde gezinsbijslag
+DVR000002546|False|Leeftijdsbijslag bij de kinderbijslag|842|Leeftijdsbijslag bij de kinderbijslag
+DVR000002547|False|Jaarlijkse bijslag bij het kindergeld (schoolpremie)|843|Jaarlijkse bijslag bij het kindergeld (schoolpremie)
+DVR000002548|False|Toeslag bij de kinderbijslag voor langdurig werklozen en gepensioneerden|844|Toeslag bij de kinderbijslag voor langdurig werklozen en gepensioneerden
+DVR000002549|False|Wezenbijslag|847|Wezenbijslag
+DVR000002550|False|Verlengde kinderbijslag|848|"Verlengde kinderbijslag	"
+DVR000002551|False|Vrijstelling voor studies in het kader van knelpuntberoepen|849|Vrijstelling voor studies in het kader van knelpuntberoepen
+DVR000002552|False|Inkomstenvrijstelling voor leefloners|851|Inkomstenvrijstelling voor leefloners
+DVR000002553|False|Lokaal Opvang Initiatief (LOI) voor asielzoekers|852|Lokaal Opvang Initiatief (LOI) voor asielzoekers
+DVR000002554|False|Verlof voor medische bijstand|853|Verlof voor medische bijstand
+DVR000002555|False|Maximumfactuur voor medische kosten|854|Maximumfactuur voor medische kosten
+DVR000002556|False|Melden van discriminatie|855|Melden van discriminatie
+DVR000002557|False|Mobiliteitstoeslag voor wie het werk hervat in loondienst|856|Mobiliteitstoeslag voor wie het werk hervat in loondienst
+DVR000002558|False|Negatieve wilsverklaring|857|Negatieve wilsverklaring
+DVR000002559|False|Hulp bij het betalen van onderhoudsgeld of alimentatie|859|Hulp bij het betalen van onderhoudsgeld of alimentatie
+DVR000002560|False|Voorschot op de alimentatievordering|860|Voorschot op de alimentatievordering
+DVR000002561|False|Regeling begrafeniskosten bij onvoldoende middelen|861|Regeling begrafeniskosten bij onvoldoende middelen
+DVR000002562|False|Palliatief forfait - Toelage voor thuisverzorging|862|Palliatief forfait - Toelage voor thuisverzorging
+DVR000002563|False|Palliatief verlof|863|Palliatief verlof
+DVR000002564|False|Toeslag belastingvrije som bij personenbelasting|868|Toeslag belastingvrije som bij personenbelasting
+DVR000002565|False|Tegemoetkoming voor pijnstillers voor chronisch zieken|869|"Tegemoetkoming voor pijnstillers voor chronisch zieken 	"
+DVR000002566|False|Referentieadres|872|Referentieadres
+DVR000002567|False|Tussenkomst voor socio-culturele en sportieve participatie voor mensen in armoede|877|Tussenkomst voor socio-culturele en sportieve participatie voor mensen in armoede
+DVR000002568|False|Gratis tandverzorging tot 18 jaar|879|Gratis tandverzorging tot 18 jaar
+DVR000002569|False|Kortingskaart NMBS voor grote gezinnen|880|Kortingskaart NMBS voor grote gezinnen
+DVR000002570|False|Kortingskaart NMBS 'Verhoogde tegemoetkoming'|881|Kortingskaart NMBS 'Verhoogde tegemoetkoming'
+DVR000002571|False|Verminderingskaart NMBS voor personen met een visuele handicap|882|Verminderingskaart NMBS voor personen met een visuele handicap
+DVR000002572|False|Seniorenbiljet NMBS vanaf 65 jaar|883|Seniorenbiljet NMBS vanaf 65 jaar
+DVR000002573|False|Voorrangskaart NMBS voor een zitplaats op de trein|884|Voorrangskaart NMBS voor een zitplaats op de trein
+DVR000002574|False|Verhoogde tegemoetkoming voor gezondheidszorgen|885|Verhoogde tegemoetkoming voor gezondheidszorgen
+DVR000002575|False|Verwarmingstoelage via het Sociaal Verwarmingsfonds|886|Verwarmingstoelage via het Sociaal Verwarmingsfonds
+DVR000002576|False|Vrijstelling van draagplicht van de veiligheidsgordel|887|Vrijstelling van draagplicht van de veiligheidsgordel
+DVR000002577|False|Onkostenvergoeding voor vrijwilligerswerk|888|Onkostenvergoeding voor vrijwilligerswerk
+DVR000002578|False|Tijdelijke inschrijving bij het ziekenfonds voor wie verblijft in België|893|Tijdelijke inschrijving bij het ziekenfonds voor wie verblijft in België
+DVR000002579|False|Zorgforfait voor chronisch zieken|894|"Zorgforfait voor chronisch zieken	"
+DVR000002580|False|Burenbemiddeling|897|Burenbemiddeling
+DVR000002581|False|Gratis energiescan|898|Gratis energiescan
+DVR000002582|False|Gezinsvakantie|899|Gezinsvakantie
+DVR000002583|False|Advies om de toegankelijkheid van een woning voor ouderen te verbeteren|900|Advies om de toegankelijkheid van een woning voor ouderen te verbeteren
+DVR000002584|False|Sociale samenhang - Buurthuis|901|Sociale samenhang - Buurthuis
+DVR000002585|False|Ontlenen van taalstimulerend materiaal bij de Taal-o-theek|902|Ontlenen van taalstimulerend materiaal bij de Taal-o-theek
+DVR000002586|False|Dringend ziekenvervoer|903|Dringend ziekenvervoer
+DVR000002587|False|Financiële tegemoetkoming voor incontinentiemateriaal|904|Financiële tegemoetkoming voor incontinentiemateriaal
+DVR000002588|False|Gemeentelijke tussenkomst bij de aankoop van een Buzzy Pazz bij De Lijn|906|Gemeentelijke tussenkomst bij de aankoop van een Buzzy Pazz bij De Lijn
+DVR000002589|False|Gemeentelijke aanpassingspremie voor personen met een handicap|907|Gemeentelijke aanpassingspremie voor personen met een handicap
+DVR000002590|False|Boodschappendienst met dienstencheques|908|Boodschappendienst met dienstencheques
+DVR000002591|False|Hulp bij verplaatsing met dienstencheques|909|Hulp bij verplaatsing met dienstencheques
+DVR000002592|False|Europees rijbewijs|925|Europees rijbewijs
+DVR000002593|False|Aangifte van een adreswijziging bij uw stad of gemeente|926|Aangifte van een adreswijziging bij uw stad of gemeente
+DVR000002594|False|Een stookolietank buiten gebruik stellen|927|Een stookolietank buiten gebruik stellen
+DVR000002595|False|Zorgwonen|934|Zorgwonen
+DVR000002596|False|Huur van een sociale woning bij het Vlaams Woningfonds|936|Huur van een sociale woning bij het Vlaams Woningfonds
+DVR000002597|False|Sociale lening bij een erkende kredietmaatschappij|937|Sociale lening bij een erkende kredietmaatschappij
+DVR000002598|False|Premies voor sociale isolatieprojecten voor huurwoningen|938|Premies voor sociale isolatieprojecten voor huurwoningen
+DVR000002599|False|E-peilpremie voor energiezuinige nieuwbouw|939|E-peilpremie voor energiezuinige nieuwbouw
+DVR000002600|False|Uittreksel uit het strafregister|940|Uittreksel uit het strafregister
+DVR000002601|False|Combinatiepremie voor gelijktijdige investering in raamvervanging en muurisolatie|941|Combinatiepremie voor gelijktijdige investering in raamvervanging en muurisolatie
+DVR000002602|False|Machtiging tot het uitoefenen van ambulante activiteiten (leurkaart)|942|Machtiging tot het uitoefenen van ambulante activiteiten (leurkaart)
+DVR000002603|False|Subsidie voor de huur van niet-gemeentelijke sportzalen|943|Subsidie voor de huur van niet-gemeentelijke sportzalen
+DVR000002604|False|Subsidie voor de (her)aanleg van sportvelden of het (ver)bouwen van sportinfrastructuur|944|Subsidie voor de (her)aanleg van sportvelden of het (ver)bouwen van sportinfrastructuur
+DVR000002605|False|Sportkamp|945|Sportkamp
+DVR000002606|False|Subsidie voor meer en betere sportgekwalificeerde jeugdsportwerkers|946|Subsidie voor meer en betere sportgekwalificeerde jeugdsportwerkers
+DVR000002607|False|Een speelstraat organiseren|947|Een speelstraat organiseren
+DVR000002608|False|Kampvervoer voor jeugdverenigingen|948|Kampvervoer voor jeugdverenigingen
+DVR000002609|False|Belgisch paspoort|949|Belgisch paspoort
+DVR000002610|False|Huurgarantiefonds voor verhuurders|950|Huurgarantiefonds voor verhuurders
+DVR000002611|False|Subsidie voor bewoonde zwaluwnesten|951|Subsidie voor bewoonde zwaluwnesten
+DVR000002612|False|Subsidie voor een compostvat, compostbak of wormenbak|952|Subsidie voor een compostvat, compostbak of wormenbak
+DVR000002613|False|Subsidie voor de aanleg en het beheer van kleine landschapselementen|953|Subsidie voor de aanleg en het beheer van kleine landschapselementen
+DVR000002614|False|Signalisatievergunning|955|Signalisatievergunning
+DVR000002615|False|Advies van de Lokale Adviescommissie (LAC) over afsluiting of heraansluiting van elektriciteit, aardgas of water|956|Advies van de Lokale Adviescommissie (LAC) over afsluiting of heraansluiting van elektriciteit, aardgas of water
+DVR000002616|False|Vlaamse Kredietbemiddelaar|957|Vlaamse Kredietbemiddelaar
+DVR000002617|False|Premie voor buitensporige directe kost bij verplicht archeologisch onderzoek|959|Premie voor buitensporige directe kost bij verplicht archeologisch onderzoek
+DVR000002618|False|Beroepskaart voor vreemdelingen|961|Beroepskaart voor vreemdelingen
+DVR000002619|False|Starteo, een voordelige lening voor startende zelfstandigen en kleine ondernemingen|962|Starteo, een voordelige lening voor startende zelfstandigen en kleine ondernemingen
+DVR000002620|False|Business Angels+lening (BA+lening)|963|Business Angels+lening (BA+lening)
+DVR000002621|False|Startlening+|"
+ 964  "|#N/A
+DVR000002622|False|Optimeo, een voordelige lening voor zelfstandigen en kleine ondernemingen die hun zaak willen uitbreiden|965|Optimeo, een voordelige lening voor zelfstandigen en kleine ondernemingen die hun zaak willen uitbreiden
+DVR000002623|False|Getuigschrift van vakbekwaam slachten|967|Getuigschrift van vakbekwaam slachten
+DVR000002624|False|Vergunning voor commercieel vervoer van dieren|968|Vergunning voor commercieel vervoer van dieren
+DVR000002625|False|Keuring vervoermiddel bij commercieel vervoer van dieren|969|Keuring vervoermiddel bij commercieel vervoer van dieren
+DVR000002626|False|Getuigschrift van vakbekwaamheid bij commercieel vervoer van dieren|970|Getuigschrift van vakbekwaamheid bij commercieel vervoer van dieren
+DVR000002627|False|Erkenning als dierentuin|971|Erkenning als dierentuin
+DVR000002628|False|Erkenning als hondenkwekerij, kattenkwekerij, dierenasiel, dierenpension of handelszaak voor dieren|972|Erkenning als hondenkwekerij, kattenkwekerij, dierenasiel, dierenpension of handelszaak voor dieren
+DVR000002629|False|Erkenning als proefdierlabo of als fokker van proefdieren|973|Erkenning als proefdierlabo of als fokker van proefdieren
+DVR000002630|False|Melden van verwaarloosde of mishandelde dieren|974|Melden van verwaarloosde of mishandelde dieren
+DVR000002631|False|Hondenpaspoort en registratiebewijs voor een hond|975|Hondenpaspoort en registratiebewijs voor een hond
+DVR000002632|False|Vergunning voor het plaatsen van een strandcabine|976|Vergunning voor het plaatsen van een strandcabine
+DVR000002633|False|Advies over brandpreventie in uw woning|984|Advies over brandpreventie in uw woning
+DVR000002634|False|Gratis internet in de bibliotheek|989|Gratis internet in de bibliotheek
+DVR000002635|False|Aangifte van een verhuis naar het buitenland|991|Aangifte van een verhuis naar het buitenland
+DVR000002636|False|Aanvraag van een stage|992|Aanvraag van een stage
+DVR000002637|False|Huren van een parkeerplaats op een binnenkoer|993|Huren van een parkeerplaats op een binnenkoer
+DVR000002638|False|Gratis optreden op uw buurtfeest|994|Gratis optreden op uw buurtfeest
+DVR000002639|False|Subsidie voor het organiseren van een buurtfeest|995|Subsidie voor het organiseren van een buurtfeest
+DVR000002640|False|Projectsubsidie voor een duurzaam artistiek initiatief|996|Projectsubsidie voor een duurzaam artistiek initiatief
+DVR000002641|False|Projectsubsidie voor jongeren|997|Projectsubsidie voor jongeren
+DVR000002642|False|Aanvraag voor het plaatsen van een tijdelijke fietsenstalling|999|Aanvraag voor het plaatsen van een tijdelijke fietsenstalling
+DVR000002643|False|Aanvraag voor het plaatsen van een permanente fietsenstalling|1000|Aanvraag voor het plaatsen van een permanente fietsenstalling
+DVR000002644|False|Fietsregistratie op een evenement|1003|Fietsregistratie op een evenement
+DVR000002645|False|Belasting op vaste reclame zichtbaar van op de openbare weg|1015|Belasting op vaste reclame zichtbaar van op de openbare weg
+DVR000002646|False|Beerputten ruimen|1026|Beerputten ruimen
+DVR000002647|False|Premie voor klein comfort in uw woning|1029|Premie voor klein comfort in uw woning
+DVR000002648|False|Aankopen van kippen|1035|Aankopen van kippen
+DVR000002649|False|Belasting op het aansluiten op de openbare riolering|1037|Belasting op het aansluiten op de openbare riolering
+DVR000002650|False|Beveiligingsadvies van woningen|1069|Beveiligingsadvies van woningen
+DVR000002651|False|Subsidie voor preventieprojecten in scholen|1070|Subsidie voor preventieprojecten in scholen
+DVR000002652|False|Labelen van fietsen|1071|Labelen van fietsen
+DVR000002653|False|Premie voor de aanleg van een voetpad op het openbaar domein|1080|Premie voor de aanleg van een voetpad op het openbaar domein
+DVR000002654|False|Premie voor een rookmelder|1096|Premie voor een rookmelder
+DVR000002655|False|Premie voor binneninrichting van winkels|1106|Premie voor binneninrichting van winkels
+DVR000002656|False|Gevelrenovatiepremie|1108|Gevelrenovatiepremie
+DVR000002657|False|Huisnummer|1116|Huisnummer
+DVR000002658|False|Subsidie voor het organiseren van lokale economische initiatieven|1120|Subsidie voor het organiseren van lokale economische initiatieven
+DVR000002659|False|Vergunning voor het laden en lossen|1122|Vergunning voor het laden en lossen
+DVR000002660|False|Belasting op het geven van een filmvoorstelling|1125|Belasting op het geven van een filmvoorstelling
+DVR000002661|False|Belasting op het verstrekken van logies|1127|Belasting op het verstrekken van logies
+DVR000002662|False|Huisnummerplaatje|1128|Huisnummerplaatje
+DVR000002663|False|Stage- en leerwerkplaatsen bij de Vlaamse overheid|1129|Stage- en leerwerkplaatsen bij de Vlaamse overheid
+DVR000002664|False|Een diploma secundair onderwijs behalen|1131|Een diploma secundair onderwijs behalen
+DVR000002665|False|Een getuigschrift basisonderwijs behalen|1132|Een getuigschrift basisonderwijs behalen
+DVR000002666|False|Energielening|1134|Energielening
+DVR000002667|False|Belastingvermindering voor de enige en eigen woning (woonbonus)|1135|Belastingvermindering voor de enige en eigen woning (woonbonus)
+DVR000002668|False|Vergunning beenhouwer-spekslager|1139|Vergunning beenhouwer-spekslager
+DVR000002669|False|Machtiging tot het uitoefenen van kermisactiviteiten|1140|Machtiging tot het uitoefenen van kermisactiviteiten
+DVR000002670|False|Gratis IE-scan|1141|Gratis IE-scan
+DVR000002671|False|Advies voor ondernemers over aangewezen financieringsmix - Finmix|1142|Advies voor ondernemers over aangewezen financieringsmix - Finmix
+DVR000002672|False|Trajectbegeleiding innovatieve start-ups en scale-ups|1143|Trajectbegeleiding innovatieve start-ups en scale-ups
+DVR000002673|False|Ongeschikt of onbewoonbaar verklaren van een woning|1151|Ongeschikt of onbewoonbaar verklaren van een woning
+DVR000002674|False|Inclusief Onderwijs (ION-begeleiding)|1212|Inclusief Onderwijs (ION-begeleiding)
+DVR000002675|False|Werkloosheidsuitkering|1213|Werkloosheidsuitkering
+DVR000002676|False|Toeslag bij de kinderbijslag voor eenoudergezinnen|1214|Toeslag bij de kinderbijslag voor eenoudergezinnen
+DVR000002677|False|Toeslag op de kinderbijslag voor kinderen met een handicap|1215|Toeslag op de kinderbijslag voor kinderen met een handicap
+DVR000002678|False|Inschakelingsuitkering voor werkzoekende schoolverlaters|1216|Inschakelingsuitkering voor werkzoekende schoolverlaters
+DVR000002679|False|Stemmen met een volmacht|1217|Stemmen met een volmacht
+DVR000002680|False|Ouderschapsverlof|1225|Ouderschapsverlof
+DVR000002681|False|Auteursrecht|1227|Auteursrecht
+DVR000002682|False|Examens ondernemersvaardigheden bij de Centrale Examencommissie|1228|Examens ondernemersvaardigheden bij de Centrale Examencommissie
+DVR000002683|False|Octrooi of patent|1232|Octrooi of patent
+DVR000002684|False|Vermindering erfbelasting bij overdracht van familiale ondernemingen en vennootschappen|1234|Vermindering erfbelasting bij overdracht van familiale ondernemingen en vennootschappen
+DVR000002685|False|Erasmus voor jonge ondernemers|1238|Erasmus voor jonge ondernemers
+DVR000002686|False|Vrijstelling van schenkbelasting voor de overdracht van familiale ondernemingen en vennootschappen|1239|Vrijstelling van schenkbelasting voor de overdracht van familiale ondernemingen en vennootschappen
+DVR000002687|False|Vrijstelling van erfbelasting voor de wettelijke terugkeer van schenkingen|1240|Vrijstelling van erfbelasting voor de wettelijke terugkeer van schenkingen
+DVR000002688|False|Stedenbouwkundig uittreksel|1241|Stedenbouwkundig uittreksel
+DVR000002689|False|Bijstand van een tolk voor dove of slechthorende werknemers, zelfstandigen en werkzoekenden met een arbeidshandicap|1246|Bijstand van een tolk voor dove of slechthorende werknemers, zelfstandigen en werkzoekenden met een arbeidshandicap
+DVR000002690|False|Tegemoetkoming voor arbeidsgereedschap, -kleding en arbeidspostaanpassingen|1247|Tegemoetkoming voor arbeidsgereedschap, -kleding en arbeidspostaanpassingen
+DVR000002691|False|Belastingvermindering voor beveiligen van woningen|1253|Belastingvermindering voor beveiligen van woningen
+DVR000002692|False|Cambio-voordeel bij jaarbonnement van De Lijn|1312|Cambio-voordeel bij jaarbonnement van De Lijn
+DVR000002693|False|Melden van gezondheidsproblemen bij honden na aankoop|1325|Melden van gezondheidsproblemen bij honden na aankoop
+DVR000002694|False|Vrijstelling van de belasting op inverkeerstelling (BIV) en de verkeersbelasting (VKB) voor personen met een handicap|1327|Vrijstelling van de belasting op inverkeerstelling (BIV) en de verkeersbelasting (VKB) voor personen met een handicap
+DVR000002695|False|Erkenning voor het houden van een zoogdier dat niet op de positieve lijst staat|1336|Erkenning voor het houden van een zoogdier dat niet op de positieve lijst staat
+DVR000002696|False|Vrijstelling van bepaalde werkloosheidsverplichtingen bij volgen van opleiding die voorbereidt op zelfstandig beroep|1337|Vrijstelling van bepaalde werkloosheidsverplichtingen bij volgen van opleiding die voorbereidt op zelfstandig beroep
+DVR000002697|False|Vergunning voor een collecte|1338|Vergunning voor een collecte
+DVR000002698|False|Toelating tot crematie|1339|Toelating tot crematie
+DVR000002699|False|Kinderopvangtoeslag voor alleenstaande werkzoekenden die weer aan de slag gaan|1343|Kinderopvangtoeslag voor alleenstaande werkzoekenden die weer aan de slag gaan
+DVR000002700|False|Kmo-cofinanciering|1346|Cofinanciering
+DVR000002701|False|Ecocheques|1347|Ecocheques
+DVR000002702|False|Taxshelter voor startende ondernemingen|1348|Taxshelter voor startende ondernemingen
+DVR000002703|False|Krediet voor onderzoekers voor een lang verblijf in het buitenland|1350|Krediet voor onderzoekers voor een lang verblijf in het buitenland
+DVR000002704|False|Krediet voor onderzoekers voor deelname aan een workshop of een cursus in het buitenland|1351|Krediet voor onderzoekers voor deelname aan een workshop of een cursus in het buitenland
+DVR000002705|False|Krediet voor een kort verblijf in het buitenland|1352|Krediet voor een kort verblijf in het buitenland
+DVR000002706|False|Krediet voor deelname van onderzoekers aan congres in buitenland|1353|Krediet voor deelname van onderzoekers aan congres in buitenland
+DVR000002707|False|Verplichte energieaudit voor grote ondernemingen|1354|Verplichte energieaudit voor grote ondernemingen
+DVR000002708|False|Erkenning als toeristisch centrum|1361|Erkenning als toeristisch centrum
+DVR000002709|False|Startbonus|1362|Startbonus
+DVR000002710|False|Federale uitkering voor tijdskrediet|1366|Federale uitkering voor tijdskrediet
+DVR000002711|False|Federale uitkering voor ouderschapsverlof, verlof voor medische bijstand of palliatief verlof|1368|Federale uitkering voor ouderschapsverlof, verlof voor medische bijstand of palliatief verlof
+DVR000002712|False|Innovatiepremie voor creatieve werknemers|1369|Innovatiepremie voor creatieve werknemers
+DVR000002713|False|Korting op treinticket voor werkzoekenden die op sollicitatiegesprek gaan|1371|Korting op treinticket voor werkzoekenden die op sollicitatiegesprek gaan
+DVR000002714|False|Melding van tijdelijke afwezigheid|1373|Melding van tijdelijke afwezigheid
+DVR000002715|False|Premie voor een hakselaar|1374|Premie voor een hakselaar
+DVR000002716|False|Vaste standplaats op de wekelijkse markt|1376|Vaste standplaats op de wekelijkse markt
+DVR000002717|False|Niet-productieve investeringssteun land- en tuinbouwers|1377|Niet-productieve investeringssteun land- en tuinbouwers
+DVR000002718|False|Vergoedingen van netbeheerders bij laattijdige (her)aansluiting en stroomonderbreking|1378|Vergoedingen van netbeheerders bij laattijdige (her)aansluiting en stroomonderbreking
+DVR000002719|False|Premie voor een nieuw zero-emissie-voertuig|1379|Premie voor een nieuw zero-emissie-voertuig
+DVR000002720|False|Vestigingsvergunning voor een nachtwinkel|1380|Vestigingsvergunning voor een nachtwinkel
+DVR000002721|False|Aangifte afwijking op de wekelijkse rustdag|1381|Aangifte afwijking op de wekelijkse rustdag
+DVR000002722|False|Vergunning voor tijdelijke bewegwijzering van een manifestatie|1382|Vergunning voor tijdelijke bewegwijzering van een manifestatie
+DVR000002723|False|Permanente bewegwijzering van een onderneming|1383|Permanente bewegwijzering van een onderneming
+DVR000002724|False|Rattenvergif|1384|Rattenvergif
+DVR000002725|False|Antireclamesticker|1386|Antireclamesticker
+DVR000002726|False|Sociaal tarief voor water|1387|Sociaal tarief voor water
+DVR000002727|False|Aanvraag tijdelijk parkeerverbod|1388|Aanvraag tijdelijk parkeerverbod
+DVR000002728|False|Aanpassingen aan het openbaar domein|1389|Aanpassingen aan het openbaar domein
+DVR000002729|False|Inname openbaar domein|1390|Inname openbaar domein
+DVR000002730|False|Belasting op economische bedrijvigheid|1392|Belasting op economische bedrijvigheid
+DVR000002731|False|Activeringsheffing op onbebouwde gronden|1393|Activeringsheffing op onbebouwde gronden
+DVR000002732|False|Gedeeld verblijf|1394|Gedeeld verblijf
+DVR000002733|False|Premie voor de installateur die een roetfilter plaatst|1395|Premie voor de installateur die een roetfilter plaatst
+DVR000002734|False|Aanvraag van de vrijstelling van de kilometerheffing in Vlaanderen|1396|Aanvraag van de vrijstelling van de kilometerheffing in Vlaanderen
+DVR000002735|False|Kilometerheffing voor vrachtwagens|1397|Kilometerheffing voor vrachtwagens
+DVR000002736|False|Premie van de netbeheerder voor na-isolatie van een buitenmuur langs de binnenzijde|1398|Premie van de netbeheerder voor na-isolatie van een buitenmuur langs de binnenzijde
+DVR000002737|False|Premie voor het plaatsen van een infiltratievoorziening|1402|Premie voor het plaatsen van een infiltratievoorziening
+DVR000002738|False|Aankoop van een compostbak of compostvat|1403|Aankoop van een compostbak of compostvat
+DVR000002739|False|Inleveren PMD afval|1404|Inleveren PMD afval
+DVR000002740|False|Inleveren papier en karton|1405|Inleveren papier en karton
+DVR000002741|False|Snoeihout verhakselen|1406|Snoeihout verhakselen
+DVR000002742|False|Inleveren snoeihout|1407|Inleveren snoeihout
+DVR000002743|False|Inleveren kerstboom|1408|Inleveren kerstboom
+DVR000002744|False|Composteerbare zakken|1409|Composteerbare zakken
+DVR000002745|False|Belasting op het huis-aan-huis verspreiden van ongeadresseerd reclamedrukwerk|1410|Belasting op het huis-aan-huis verspreiden van ongeadresseerd reclamedrukwerk
+DVR000002746|False|Omgevingsvergunning|1411|Omgevingsvergunning
+DVR000002747|False|Vrijstelling van doorstorting van bedrijfsvoorheffing bij investering in steunzones|1412|Vrijstelling van doorstorting van bedrijfsvoorheffing bij investering in steunzones
+DVR000002748|False|Machtiging voor standplaats op kermis|1413|Machtiging voor standplaats op kermis
+DVR000002749|False|Eretitel voor uitvoerende mandatarissen en raadsleden|1414|Eretitel voor uitvoerende mandatarissen en raadsleden
+DVR000002750|False|Ereteken voor lokale en provinciale mandatarissen en personeel|1416|Ereteken voor lokale en provinciale mandatarissen en personeel
+DVR000002751|False|Subsidie teelt van vezelvlas met verminderde bemesting|1419|Subsidie teelt van vezelvlas met verminderde bemesting
+DVR000002752|False|Subsidie teelt van vezelhennep met verminderde bemesting|1420|Subsidie teelt van vezelhennep met verminderde bemesting
+DVR000002753|False|Tegemoetkoming in de kosten woon-werkverkeer voor personen met een handicap|1423|Tegemoetkoming in de kosten woon-werkverkeer voor personen met een handicap
+DVR000002754|False|Verplaatsingsvergoeding voor werkzoekenden die een erkende opleiding volgen|1424|Verplaatsingsvergoeding voor werkzoekenden die een erkende opleiding volgen
+DVR000002755|False|Verblijfsvergoeding bij opleiding VDAB|1426|Verblijfsvergoeding bij opleiding VDAB
+DVR000002756|False|Vermindering van de onroerende voorheffing voor ingrijpende energetische renovatie|1427|Vermindering van de onroerende voorheffing voor ingrijpende energetische renovatie
+DVR000002757|False|Toegang tot de LEZ in Antwerpen|1428|Toegang tot de LEZ in Antwerpen
+DVR000002758|False|Burenpremie voor collectieve renovatieprojecten|1431|Burenpremie voor collectieve renovatieprojecten
+DVR000002759|False|Totaalrenovatiebonus van de netbeheerder (BENO-pass)|1432|Totaalrenovatiebonus van de netbeheerder (BENO-pass)
+DVR000002760|False|Bevolkingsonderzoek dikkedarmkanker|1433|Bevolkingsonderzoek dikkedarmkanker
+DVR000002761|False|Bevolkingsonderzoek baarmoederhalskanker|1434|Bevolkingsonderzoek baarmoederhalskanker
+DVR000002762|False|Professionele erkenning van een buitenlands lerarendiploma in Vlaanderen|1435|Professionele erkenning van een buitenlands lerarendiploma in Vlaanderen
+DVR000002763|False|Instaptoets lerarenopleiding|1437|Instaptoets lerarenopleiding
+DVR000002764|False|Beroepsinlevingsstage (BIS)|1438|Beroepsinlevingsstage (BIS)
+DVR000002765|False|Aanmelding en erkenning van een toeristisch logies|1439|Aanmelding en erkenning van een toeristisch logies
+DVR000002766|False|Toegang tot de LEZ in Brussel|1441|Toegang tot de LEZ in Brussel
+DVR000002767|False|Persoonlijk assistentiebudget voor personen met een handicap (PAB)|1446|Persoonlijk assistentiebudget voor personen met een handicap (PAB)
+DVR000002768|False|Rechtstreeks toegankelijke hulp (RTH) voor personen met een handicap|1447|Rechtstreeks toegankelijke hulp (RTH) voor personen met een handicap
+DVR000002769|False|BE-Alert waarschuwingssysteem bij noodsituaties|1449|BE-Alert waarschuwingssysteem bij noodsituaties
+DVR000002770|False|Uw handicap laten erkennen en hulp aanvragen bij het VAPH|1422|Uw handicap laten erkennen en hulp aanvragen bij het VAPH
+DVR000002771|False|Bijkomende sluitingspremie|1451|Bijkomende sluitingspremie
+DVR000002772|False|Afzonderlijke sluitingspremie|1452|Afzonderlijke sluitingspremie
+DVR000002773|False|Sportmateriaal lenen|1453|Sportmateriaal lenen
+DVR000002774|False|Bekers en medailles aanvragen voor een sportevenement|1454|Bekers en medailles aanvragen voor een sportevenement
+DVR000002775|False|Een jachtplan bekijken of aanpassen|1455|Een jachtplan bekijken of aanpassen
+DVR000002776|False|Ondersteuning voor leerlingen met specifieke onderwijsbehoeften|1456|Ondersteuning voor leerlingen met specifieke onderwijsbehoeften
+DVR000002777|False|Herbruikbare bekers ontlenen|1457|Herbruikbare bekers ontlenen
+DVR000002778|False|Niet-dringende interventies van de brandweer bij extreem weer|1458|Niet-dringende interventies van de brandweer bij extreem weer
+DVR000002779|False|Erkenning als EPB-verslaggever|1459|Erkenning als EPB-verslaggever
+DVR000002780|False|Vrijstelling van de jaarlijkse verkeersbelasting en de BIV voor milieuvriendelijke voertuigen|1460|Vrijstelling van de jaarlijkse verkeersbelasting en de BIV voor milieuvriendelijke voertuigen
+DVR000002781|False|Gelijkwaardigheidserkenning van een buitenlands diploma of getuigschrift in Vlaanderen|1461|Gelijkwaardigheidserkenning van een buitenlands diploma of getuigschrift in Vlaanderen
+DVR000002782|False|Verlaagde schenkbelasting voor een energetische renovatie van een gebouw|1462|Verlaagde schenkbelasting voor een energetische renovatie van een gebouw
+DVR000002783|False|Bewegen op verwijzing|1463|Bewegen op verwijzing
+DVR000002784|False|City Pass|1464|City Pass
+DVR000002785|False|Voorleessoftware voor leerlingen met een leesbeperking|1465|Voorleessoftware voor leerlingen met een leesbeperking
+DVR000002786|False|Europese handicapkaart of European Disability Card (EDC)|1466|Europese handicapkaart of European Disability Card (EDC)
+DVR000002787|False|Passende beoordeling|1470|Passende beoordeling
+DVR000002788|False|Gratis verzekering voor vrijwilligers|1471|Gratis verzekering voor vrijwilligers
+DVR000002789|False|Aanpassing van de geslachtsregistratie|1472|Aanpassing van de geslachtsregistratie
+DVR000002790|False|Het Groeipakket|1473|Het Groeipakket
+DVR000002791|False|De voortoets|1474|De voortoets
+DVR000002792|False|Erkenning als airco-energiedeskundige|1475|Erkenning als airco-energiedeskundige
+DVR000002793|False|Jaarlijkse aangifte van waterverbruik (grootverbruikers)|1476|Jaarlijkse aangifte van waterverbruik (grootverbruikers)
+DVR000002794|False|Energetische keuring van airconditioningsystemen|1477|Energetische keuring van airconditioningsystemen
+DVR000002795|False|Rookstopbegeleiding|1478|Rookstopbegeleiding
+DVR000002796|False|Ventilatiesysteem aanmelden voor de totaalrenovatiebonus (BENO-pass)|1479|Ventilatiesysteem aanmelden voor de totaalrenovatiebonus (BENO-pass)
+DVR000002797|False|CurieuzeNeuzen Vlaanderen (onderzoek luchtkwaliteit)|1480|CurieuzeNeuzen Vlaanderen (onderzoek luchtkwaliteit)
+DVR000002798|False|Erkenning als technicus voor klimaatregelingsapparatuur in bepaalde motorvoertuigen|1481|Erkenning als technicus voor klimaatregelingsapparatuur in bepaalde motorvoertuigen
+DVR000002799|False|Wijk-werken|1482|Wijk-werken
+DVR000002800|False|Attest van wettelijke samenwoning|1483|Attest van wettelijke samenwoning
+DVR000002801|False|Vergoeding voor schade door slechte staat van de weg of door wegenwerken|1484|Vergoeding voor schade door slechte staat van de weg of door wegenwerken
+DVR000002802|False|Attest van verblijfplaats met het oog op een huwelijk|1485|Attest van verblijfplaats met het oog op een huwelijk
+DVR000002803|False|Overheidsopdrachten voor werken|1487|Overheidsopdrachten voor werken
+DVR000002804|False|Overheidsopdrachten voor leveringen|1488|Overheidsopdrachten voor leveringen
+DVR000002805|False|Overheidsopdrachten voor diensten|1489|Overheidsopdrachten voor diensten
+DVR000002806|False|Attest van wijze van teraardebestelling en/of rituelen|1490|Attest van wijze van teraardebestelling en/of rituelen
+DVR000002807|False|Attest van Belgische kiezer|1491|Attest van Belgische kiezer
+DVR000002808|False|Akte van prenatale erkenning|1492|Akte van prenatale erkenning
+DVR000002809|False|Akte van erkenning|1493|Akte van erkenning
+DVR000002810|False|Opleidingsdatabank opleidingsverlof WSE|1494|Opleidingsdatabank opleidingsverlof WSE
+DVR000002811|False|Uittreksel uit het bevolkingsregister|1495|Uittreksel uit het bevolkingsregister
+DVR000002812|False|Akte van adoptie|1496|Akte van adoptie
+DVR000002813|False|Akte van verklaring van naamskeuze|1497|Akte van verklaring van naamskeuze
+DVR000002814|False|Akte van naamsverandering|1498|Akte van naamsverandering
+DVR000002815|False|Akte van voornaamsverandering|1499|Akte van voornaamsverandering
+DVR000002816|False|Akte van aanpassing van de registratie van het geslacht|1500|Akte van aanpassing van de registratie van het geslacht
+DVR000002817|False|Akte van betwisting vaderschap|1501|Akte van betwisting vaderschap
+DVR000002818|False|Akte van Belgische nationaliteit|1502|Akte van Belgische nationaliteit
+DVR000002819|False|Akte van een levenloos kind|1503|Akte van een levenloos kind
+DVR000002820|False|Vakantie voor oudere werknemers die het werk hervatten - seniorvakantie|1505|Vakantie voor oudere werknemers die het werk hervatten - seniorvakantie
+DVR000002821|False|Kinderbijslag tot 18 jaar|1506|Kinderbijslag tot 18 jaar
+DVR000002822|False|Reisdocument voor staatlozen, vluchtelingen en vreemdelingen|1507|Reisdocument voor staatlozen, vluchtelingen en vreemdelingen
+DVR000002823|False|Jaarlijkse verkeersbelasting voor oldtimers|1508|Jaarlijkse verkeersbelasting voor oldtimers
+DVR000002824|False|Verkooprecht sinds 1 juni 2018|1509|Verkooprecht sinds 1 juni 2018
+DVR000002825|False|Erkenning als metaaldetectorist|1511|Erkenning als metaaldetectorist
+DVR000002826|False|Erkenning als archeoloog|1512|Erkenning als archeoloog
+DVR000002827|False|Ontheffing van het ontbossingsverbod|1513|Ontheffing van het ontbossingsverbod
+DVR000002828|False|Vakantieschakel|1514|Vakantieschakel
+DVR000002829|False|Belasting op de inverkeerstelling (BIV) voor oldtimers|1515|Belasting op de inverkeerstelling (BIV) voor oldtimers
+DVR000002830|False|Onbelast bijverdienen|1516|Onbelast bijverdienen
+DVR000002831|False|Toeslag op de kinderbijslag voor langdurig zieken en arbeidsongeschikten|1517|Toeslag op de kinderbijslag voor langdurig zieken en arbeidsongeschikten
+DVR000002832|False|Mobiliteitsvergoeding (cash for car)|1518|Mobiliteitsvergoeding (cash for car)
+DVR000002833|False|Mobiliteitsbudget|1519|Mobiliteitsbudget
+DVR000002834|False|Praktisch jachtexamen|1520|Praktisch jachtexamen
+DVR000002835|False|Theoretisch jachtexamen|1521|Theoretisch jachtexamen
+DVR000002836|False|Subsidie voor een volkstuin 2018|1522|Subsidie voor een volkstuin 2018
+DVR000002837|False|Generieke terugmelding|1524|Generieke terugmelding
+DVR000002838|False|Kadastraal uittreksel|1525|Kadastraal uittreksel
+DVR000002839|False|De sociale toeslag (Groeipakket)|1526|De sociale toeslag (Groeipakket)
+DVR000002840|False|De zorgtoeslagen (groeipakket)|1527|De zorgtoeslag voor specifieke ondersteuningsbehoeften (Groeipakket)
+DVR000002841|False|De kinderopvangtoeslag (Groeipakket)|1528|De kinderopvangtoeslag (Groeipakket)
+DVR000002842|False|De kleutertoeslag (Groeipakket)|1529|De kleutertoeslag (Groeipakket)
+DVR000002843|False|De schooltoeslag vanaf schooljaar 2019-2020 (Groeipakket)|1530|De schooltoeslag vanaf schooljaar 2019-2020 (Groeipakket)
+DVR000002844|False|Startbedrag (Groeipakket)|1531|Startbedrag (Groeipakket)
+DVR000002845|False|Basisbedrag (Groeipakket)|1532|Basisbedrag (Groeipakket)
+DVR000002846|False|Schoolbonus (Groeipakket)|1533|Schoolbonus (Groeipakket)
+DVR000002847|False|Veranderen van voornaam|1534|Veranderen van voornaam
+DVR000002848|False|Student-zelfstandige|1535|Student-zelfstandige
+DVR000002849|False|Maaltijdcheques|1536|Maaltijdcheques
+DVR000002850|False|Bewijs van beroepsbekwaamheid voor gereglementeerde beroepen|1537|Bewijs van beroepsbekwaamheid voor gereglementeerde beroepen
+DVR000002851|False|MuseumPASSmusées|1538|MuseumPASSmusées
+DVR000002852|False|Mijn Burgerprofiel|1541|Mijn Burgerprofiel
+DVR000002853|False|Vrijstelling doorstorting bedrijfsvoorheffing voor onderzoekers|1542|Vrijstelling doorstorting bedrijfsvoorheffing voor onderzoekers
+DVR000002854|False|Erkenning van technici voor elektrische schakelinrichtingen|"1543
+"|#N/A
+DVR000002856|False|Schadevergoeding van het Vlaams Rampenfonds|1547|Schadevergoeding van het Vlaams Rampenfonds
+DVR000002857|False|Pleegzorgtoeslag (Groeipakket)|1548|Pleegzorgtoeslag (Groeipakket)
+DVR000002858|False|Wezentoeslag (Groeipakket)|1549|Wezentoeslag (Groeipakket)
+DVR000002859|False|Aanloopsteun voor de ontwikkeling van kleine landbouwbedrijven|1550|#N/A
+DVR000002860|False|Huurwaarborglening van het Vlaams Woningfonds|1551|#N/A
+DVR000002861|False|Premie van de netbeheerder voor een warmtepompboiler|1552|#N/A
+DVR000002862|False|Vrijstelling van de onroerende voorheffing na verbouwing van een handelspand|1553|#N/A
+DVR000002863|False|Vrijstelling van de onroerende voorheffing na sloop en vervanging van een ongeschikte of onbewoonbare woning|1554|#N/A
+DVR000002864|False|Vrijstelling van de onroerende voorheffing na sloop en vervanging van een leegstaande of verwaarloosde bedrijfsruimte|1555|#N/A
+DVR000002865|False|Gedeeltelijke vrijstelling van de onroerende voorheffing na verbouwing van een handelspand in een kernwinkelgebied|1556|#N/A
+DVR000002866|False|Vrijstelling van de onroerende voorheffing na verbouwing van een handelspand in een winkelarm gebied|1557|#N/A
+DVR000002867|False|Sloop- en heropbouwpremie|1558|#N/A
+DVR000002868|False|Toelating om in een maatwerkplaats te werken|1559|#N/A
+DVR000002869|False|Subsidie voor ontwikkelingssamenwerking|12|Subsidie voor ontwikkelingssamenwerking
+DVR000002870|False|Juridische hulp|38|Juridische hulp
+DVR000002871|False|Tijdelijke opvang in een centrum voor kortverblijf|82|Tijdelijke opvang in een centrum voor kortverblijf
+DVR000002872|False|Naschoolse sportactiviteit|85|Naschoolse sportactiviteit
+DVR000002873|False|Gemeentelijke subsidie voor jeugdprojecten|103|Gemeentelijke subsidie voor jeugdprojecten
+DVR000002874|False|Werkingssubsidie voor sociaal-culturele verenigingen|126|Werkingssubsidie voor sociaal-culturele verenigingen
+DVR000002875|False|Ondersteuning via opvoedingswinkels|215|Ondersteuning via opvoedingswinkels
+DVR000002876|False|Loopbaanbegeleiding|219|Loopbaanbegeleiding
+DVR000002877|False|Subsidies voor projecten in de cultureel-erfgoedsector|258|Subsidies voor projecten in de cultureel-erfgoedsector
+DVR000002878|False|Erkenning als natuurreservaat|347|Erkenning als natuurreservaat
+DVR000002879|False|Erkenning en subsidiëring van de dagcentra voor palliatieve zorg|413|Erkenning en subsidiëring van de dagcentra voor palliatieve zorg
+DVR000002880|False|Erkenning en subsidiëring van de dagverzorgingscentra voor ouderen|442|Erkenning en subsidiëring van de dagverzorgingscentra voor ouderen
+DVR000002881|False|Erkenning en subsidiëring van de centra voor kortverblijf voor ouderen|450|Erkenning en subsidiëring van de centra voor kortverblijf voor ouderen
+DVR000002882|False|Erkenning en subsidiëring van de sector samenlevingsopbouw|456|Erkenning en subsidiëring van de sector samenlevingsopbouw
+DVR000002883|False|Erkenning en subsidiëring van de samenwerkingsinitiatieven eerstelijnsgezondheidszorg (SEL)|467|Erkenning en subsidiëring van de samenwerkingsinitiatieven eerstelijnsgezondheidszorg (SEL)
+DVR000002884|False|Subsidies voor internationale topsportevenementen|514|Subsidies voor internationale topsportevenementen
+DVR000002885|False|Erkenning en subsidiëring van Toerisme voor Allen-verblijven|575|Erkenning en subsidiëring van Toerisme voor Allen-verblijven
+DVR000002886|False|Erkenning en subsidiëring van de woonzorgcentra en rust- en verzorgingstehuizen.|592|Erkenning en subsidiëring van de woonzorgcentra en rust- en verzorgingstehuizen.
+DVR000002887|False|Erkenning en subsidiëring van serviceflats voor ouderen|594|Erkenning en subsidiëring van serviceflats voor ouderen
+DVR000002888|False|Subsidie voor circuskunsten|610|Subsidie voor circuskunsten
+DVR000002889|False|Vlaamse aanpassingspremie|676|Vlaamse aanpassingspremie
+DVR000002890|False|Subsidies voor een jeugdverblijfcentrum en hostel|704|Subsidies voor een jeugdverblijfcentrum en hostel
+DVR000002891|False|Gezinszorg|905|Gezinszorg
+DVR000002892|False|Onderhoudspremie en beheerspremie voor varend erfgoed|932|Onderhoudspremie en beheerspremie voor varend erfgoed
+DVR000002893|False|Woonkrediet van het Vlaams Woningfonds|935|Woonkrediet van het Vlaams Woningfonds
+DVR000002894|False|Outplacement voor werknemers|960|Outplacement voor werknemers
+DVR000002895|False|Schadevergoeding bij een landbouwramp|966|Schadevergoeding bij een landbouwramp
+DVR000002896|False|Stagebonus|1364|Stagebonus
+DVR000002897|False|Vlaamse doelgroepvermindering voor jongeren|1417|Vlaamse doelgroepvermindering voor jongeren
+DVR000002898|False|Vlaamse doelgroepvermindering voor oudere werknemers|1418|Vlaamse doelgroepvermindering voor oudere werknemers
+DVR000002899|False|Erfgoedpremie beschermde monumenten en landschappen - bijzondere procedure|1544|Erfgoedpremie beschermde monumenten en landschappen - bijzondere procedure
+DVR000002900|False|Subsidie voor een diversiteitsplan|229|Subsidie voor een diversiteitsplan
+DVR000002901|False|Subsidie aan havenbedrijven voor bepaalde havenkapiteinsdiensten|237|Subsidie aan havenbedrijven voor bepaalde havenkapiteinsdiensten
+DVR000002902|False|Start- en investeringssteun visserij- en aquacultuursector|240|Start- en investeringssteun voor de visserij- en de aquacultuursector
+DVR000002903|False|De Lijn - Buzzy Pazz of Omnipas bij inleveren nummerplaat|244|Buzzy Pazz of Omnipas van De Lijn bij inleveren nummerplaat (tot 31 januari 2016)
+DVR000002904|False|Vlaams innovatienetwerk (VIN)|271|Vlaams innovatienetwerk (VIN)
+DVR000002905|False|KidsInvest|278|Financiering van zelfstandige kinderopvang (KidsInvest)
+DVR000002906|False|Projectgebonden subsidies of medefinanciering aan havenbedrijven|286|Projectgebonden subsidies of medefinanciering aan havenbedrijven
+DVR000002907|False|Medefinanciering instandhouding en onderhoud maritieme toegangswegen|287|Medefinanciering van de instandhouding en het onderhoud van maritieme toegangswegen met aanmeerinstallaties
+DVR000002908|False|Kwaliteitsmerk voor autosnelwegparkings in Vlaanderen|291|Kwaliteitsmerk voor autosnelwegparkings in Vlaanderen
+DVR000002909|False|Seed & Early Stage|315|Risicokapitaal voor startende onderneming (Seed & Early Stage)
+DVR000002910|False|Archief - Voordelige lening voor innoverende onderneming (Innovatiemezzanine)|319|Voordelige lening voor innoverende onderneming (Innovatiemezzanine)
+DVR000002911|False|Erkenning classificeerders voor de indeling van geslachte runderen|369|Erkenning van classificeerders voor de indeling van geslachte runderen
+DVR000002912|False|Erkenning classificeerders voor de indeling van geslachte varkens|370|Erkenning van classificeerders voor de indeling van geslachte varkens
+DVR000002913|False|Archief - Erkenning toezichthouders op de indeling van geslachte runderen en varkens|371|Erkenning van toezichthouders op de indeling van geslachte runderen en varkens
+DVR000002914|False|Erkenning gespecialiseerd pluimveebedrijf|374|Erkenning van een gespecialiseerd pluimveebedrijf
+DVR000002915|False|Kwaliteitscontrole en herkomstcontrole bosbouwkundig teeltmateriaal|376|Kwaliteitscontrole en herkomstcontrole van bosbouwkundig teeltmateriaal
+DVR000002916|False|Kwaliteitscontrole en certificering aardappelpootgoed|377|Kwaliteitscontrole en certificering van teeltmateriaal - aardappelpootgoed
+DVR000002917|False|Subsidie schoolmelk|383|Subsidie voor schoolmelk
+DVR000002918|False|Erkenning operator van aardappelpootgoed|388|Erkenning van een operator van aardappelpootgoed
+DVR000002919|False|Erkenning leverancier van bosbouwkundig teeltmateriaal|389|Erkenning van een leverancier van bosbouwkundig teeltmateriaal
+DVR000002920|False|Erkenning loontrieerder van zaaizaden|390|Erkenning van loontrieerder van zaaizaden
+DVR000002921|False|Erkenning operator actief in de sector zaaizaad (productie en handel)|391|Erkenning van een operator die actief is in de sector zaaizaad (productie en handel)
+DVR000002922|False|Erkenning operator van teeltmateriaal fruit-, groente- en siergewassen|393|Erkenning van een operator van teeltmateriaal van fruit-, groente- en siergewassen
+DVR000002923|False|Kwaliteitscontrole en certificering fruitgewassen|394|Kwaliteitscontrole en certificering van fruitgewassen
+DVR000002924|False|Kwaliteitscontrole en certificering zaaizaden|395|Kwaliteitscontrole en certificering van teeltmateriaal - zaaizaden
+DVR000002925|False|Kwaliteitscontrole groentegewassen|396|Kwaliteitscontrole van teeltmateriaal - groentegewassen
+DVR000002926|False|Kwaliteitscontrole siergewassen|397|Kwaliteitscontrole van teeltmateriaal - siergewassen
+DVR000002927|False|Erkenning hopbereider|400|Erkenning van een hopbereider
+DVR000002928|False|Kwaliteitscontrole en certificering hop|401|Kwaliteitscontrole en certificering van hop
+DVR000002929|False|Erkenning fokkersverenigingen - Bijhouden rasstamboeken|533|Erkenning van fokkersverenigingen voor het bijhouden van rasstamboeken
+DVR000002930|False|Erkenning fokkersverenigingen - bijhouden registers hybride dieren|534|Erkenning van fokkersverenigingen voor het bijhouden van registers voor hybride fokdieren
+DVR000002931|False|Zoötechnische erkenning centra voor sperma, eicellen of embryo|535|Zoötechnische erkenning voor centra voor sperma, eicellen en/of embryo’s van landbouwdieren
+DVR000002932|False|Erkenning keuringsinstelling koeltechnische bedrijven en examencentra|545|Erkenning van keuringsinstellingen voor de keuring van koeltechnische bedrijven en van examencentra koeltechniek
+DVR000002933|False|Aanmelden nieuw ras van landbouw- of groentegewassen|556|Aanmelden van een nieuw ras van landbouw- of groentegewassen
+DVR000002934|False|Erkenning en subsidiëring voorzieningen opvang van kinderen met een handicap|587|Erkenning en subsidiëring van voorzieningen voor opvang van kinderen en jongeren met een handicap
+DVR000002935|False|Erkenning en subsidiëring ambulante begeleidingsdiensten gehandicapten|588|Erkenning en subsidiëring van begeleidingsdiensten voor personen met een handicap
+DVR000002936|False|Persoonlijke-assistentiebudget voor personen met een handicap|589|Persoonlijk-assistentiebudget voor personen met een handicap (PAB)
+DVR000002937|False|Tegemoetkoming voor hulpmiddelen voor personen met een handicap|595|Tegemoetkoming voor hulpmiddelen voor personen met een handicap
+DVR000002938|False|Archief - Aanmelden en vergunnen van een toeristisch logies|596|Aanmelden en vergunnen van een toeristisch logies
+DVR000002939|False|Subsidie originele en innoverende stadsprojecten|605|Subsidie voor originele en innoverende stadsprojecten
+DVR000002940|False|Tegemoetkoming voor bijzonder cultuuraanbod Podium|608|Tegemoetkoming voor bijzonder cultuuraanbod Podium
+DVR000002941|False|Opname in het aanbod Podium|609|Opname in artiestendatabank 'Podium'
+DVR000002942|False|Attest hinder openbare werken|738|Attest hinder openbare werken
+DVR000002943|False|Inkomensgarantie voor ouderen|833|Inkomensgarantie voor ouderen
+DVR000002944|False|Kinderbijslag van 18 tot 25 jaar|839|Kinderbijslag van 18 tot 25 jaar
+DVR000002945|False|Gewaarborgd kraamgeld|840|Gewaarborgd kraamgeld
+DVR000002946|False|Gewaarborgde gezinsbijslag|841|Gewaarborgde gezinsbijslag
+DVR000002947|False|Jaarlijkse bijslag bij het kindergeld (schoolpremie)|843|Jaarlijkse bijslag bij het kindergeld (schoolpremie)
+DVR000002948|False|Toeslag bij de kinderbijslag voor langdurig werklozen en gepensioneerden|844|Toeslag bij de kinderbijslag voor langdurig werklozen en gepensioneerden
+DVR000002949|False|Wezenbijslag|847|Wezenbijslag
+DVR000002950|False|Initio, een voordelige lening voor zelfstandigen en kleine ondernemingen|1144|Initio, een voordelige lening voor startende ondernemers
+DVR000002951|False|Toeslag bij de kinderbijslag voor eenoudergezinnen|1214|Toeslag bij de kinderbijslag voor eenoudergezinnen
+DVR000002952|False|Toeslag op de kinderbijslag voor kinderen met een handicap|1215|Toeslag op de kinderbijslag voor kinderen met een handicap
+DVR000002953|False|Loopbaanonderbreking in de openbare sector|1224|Loopbaanonderbreking in de openbare sector
+DVR000002954|False|Steun voor een portfolio van haalbaarheidsstudies voor bedrijven|1231|Steun voor een portfolio van haalbaarheidsstudies voor bedrijven
+DVR000002955|False|Vrijstelling schenkingsrechten voor overdracht familiale ondernemingen en vennootschappen|1235|Vrijstelling van schenkingsrechten voor de overdracht van familiale ondernemingen en vennootschappen
+DVR000002956|False|Vermindering erfbelasting voor overdracht familiale ondernemingen en vennootschappen|1237|Vermindering van erfbelasting voor de overdracht van familiale ondernemingen en vennootschappen
+DVR000002957|False|Verslag voor toegang tot het buitengewoon onderwijs|1263|Verslag voor toegang tot het buitengewoon onderwijs
+DVR000002958|False|Belastingvermindering voor verhuurders die renoveren en hun woningen verhuren aan sociaal verhuurkantoor.|1265|Belastingvermindering voor verhuurders die renoveren en hun woning verhuren aan een sociaal verhuurkantoor
+DVR000002959|False|Uw handicap laten erkennen en hulp aanvragen bij het VAPH|1422|Uw handicap laten erkennen en hulp aanvragen bij het VAPH
+DVR000002960|False|Young in BXL - subsidie voor Straatburgerschap|1425|Young in BXL - subsidie voor Straatburgerschap
+DVR000002961|False|Europese gehandicaptenkaart|1443|Europese gehandicaptenkaart
+DVR000002962|False|Subsidie voor het correct afstellen van verwarmingsinstallaties op school|1444|Subsidie voor het correct afstellen van verwarmingsinstallaties op school
+DVR000002963|False|Het Persoonsvolgend budget voor personen met een handicap (PVB)|1445|Het Persoonsvolgend budget voor personen met een handicap (PVB)
+DVR000002964|False|Tegemoetkoming voor hulpmiddelen voor personen met een handicap|595|Tegemoetkoming voor hulpmiddelen voor personen met een handicap
+DVR000002965|False|Kinderbijslag tot 18 jaar|1506|Kinderbijslag tot 18 jaar
+DVR000002966|False|Toeslag op de kinderbijslag voor langdurig zieken en arbeidsongeschikten|1517|Toeslag op de kinderbijslag voor langdurig zieken en arbeidsongeschikten

@@ -1,0 +1,249 @@
+{
+  "name": "publicservice-registry",
+  "version": "0.0.1",
+  "description": "Public Service Registry",
+  "author": "Basisregisters Vlaanderen",
+  "license": "EUPL-1.2",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:informatievlaanderen/publicservice-registry.git"
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --config config/webpack.babel.js",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --config config/webpack.babel.js --inline --progress",
+    "unit": "jest --config test/ui/unit/jest.conf.js",
+    "unit-watch": "jest --config test/ui/unit/jest.conf.js --watchAll",
+    "unit-coverate": "jest --config test/ui/unit/jest.conf.js --coverage",
+    "e2e": "node test/ui/e2e/runner.js",
+    "test": "npm run unit && npm run e2e",
+    "lint": "eslint --ext .js,.vue src test/ui/unit test/ui/e2e/specs",
+    "commit": "git-cz",
+    "semantic-release": "semantic-release"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-plugin-array-includes": "^2.0.3",
+    "babel-polyfill": "^6.26.0",
+    "es6-shim": "^0.35.3",
+    "file-saver": "^1.3.8",
+    "jwt-decode": "^2.2.0",
+    "oidc-client": "^1.5.2",
+    "promise.prototype.finally": "^3.1.0",
+    "retry-axios": "^0.3.2",
+    "uuid": "^3.2.1",
+    "vee-validate": "^2.0.9",
+    "vue": "^2.5.16",
+    "vue-moment": "^4.0.0",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "vuex-router-sync": "^5.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "7.2.1",
+    "@commitlint/config-conventional": "7.1.2",
+    "@commitlint/prompt": "7.2.1",
+    "@semantic-release/changelog": "3.0.1",
+    "@semantic-release/commit-analyzer": "6.1.0",
+    "@semantic-release/exec": "3.3.1",
+    "@semantic-release/git": "7.0.5",
+    "@semantic-release/npm": "5.1.2",
+    "@semantic-release/github": "5.2.6",
+    "@semantic-release/release-notes-generator": "7.1.4",
+    "@vue/test-utils": "^1.0.0-beta.24",
+    "@webpack-blocks/assets": "^1.0.0",
+    "@webpack-blocks/webpack": "^1.0.0",
+    "autoprefixer": "^8.3.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.3",
+    "babel-helper-vue-jsx-merge-props": "^2.0.3",
+    "babel-jest": "^24.5.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-dynamic-import-node": "^1.2.0",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-syntax-object-rest-spread": "^6.13.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.22.0",
+    "babel-plugin-transform-vue-jsx": "^3.7.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.22.0",
+    "babel-register": "^6.22.0",
+    "chalk": "^2.4.0",
+    "chromedriver": "^2.38.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.1",
+    "cross-env": "^5.1.4",
+    "cross-spawn": "^6.0.5",
+    "css-loader": "^0.28.11",
+    "commitizen": "3.0.5",
+    "cz-conventional-changelog": "2.1.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^11.3.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-import-resolver-webpack": "^0.9.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-vue": "^4.5.0",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^1.1.11",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^2.30.1",
+    "husky": "1.2.1",
+    "jest": "^24.5.0",
+    "jest-serializer-vue": "^1.0.0",
+    "lodash": "^4.17.11",
+    "nightwatch": "^1.0.14",
+    "node-notifier": "^5.1.2",
+    "node-sass": "^4.11.0",
+    "optimize-css-assets-webpack-plugin": "^3.2.0",
+    "postcss-import": "^11.1.0",
+    "postcss-loader": "^2.1.4",
+    "postcss-url": "^7.3.2",
+    "progress-bar-webpack-plugin": "^1.11.0",
+    "rimraf": "^2.6.0",
+    "sass-loader": "^7.0.1",
+    "selenium-server": "^3.11.0",
+    "semver": "^5.3.0",
+    "shelljs": "^0.8.1",
+    "style-loader": "^0.21.0",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "url-loader": "^1.0.1",
+    "vue-jest": "^2.5.0",
+    "vue-loader": "^14.2.2",
+    "vue-style-loader": "^4.1.0",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^3.11.0",
+    "webpack-bundle-analyzer": "^2.11.1",
+    "webpack-dev-server": "^2.11.2",
+    "webpack-merge": "^4.1.2",
+    "form-data": "2.3.3",
+    "semantic-release": "15.13.0",
+    "merge": ">=1.2.1"
+  },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "not ie <= 9"
+  ],
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "release": {
+    "branch": "master",
+    "verifyConditions": [
+      "@semantic-release/changelog",
+      "@semantic-release/git",
+      "@semantic-release/github"
+    ],
+    "analyzeCommits": {
+      "path": "@semantic-release/commit-analyzer",
+      "preset": "angular",
+      "releaseRules": [
+        {
+          "breaking": true,
+          "release": "major"
+        },
+        {
+          "type": "docs",
+          "scope": "README",
+          "release": "patch"
+        },
+        {
+          "type": "refactor",
+          "release": "patch"
+        },
+        {
+          "type": "chore",
+          "scope": "breaking",
+          "release": "major"
+        }
+      ],
+      "parserOpts": {
+        "noteKeywords": [
+          "BREAKING CHANGE",
+          "BREAKING CHANGES",
+          "BREAKING"
+        ]
+      }
+    },
+    "generateNotes": {
+      "path": "@semantic-release/release-notes-generator",
+      "preset": "angular",
+      "parserOpts": {
+        "noteKeywords": [
+          "BREAKING CHANGE",
+          "BREAKING CHANGES",
+          "BREAKING"
+        ]
+      },
+      "writerOpts": {
+        "commitsSort": [
+          "scope",
+          "subject"
+        ]
+      }
+    },
+    "prepare": [
+      {
+        "path": "@semantic-release/changelog",
+        "changelogFile": "CHANGELOG.md"
+      },
+      {
+        "path": "@semantic-release/npm",
+        "npmPublish": false
+      },
+      {
+        "path": "@semantic-release/exec",
+        "cmd": "BITBUCKET_BUILD_NUMBER=${nextRelease.version} ./build.sh Push"
+      },
+      {
+        "path": "@semantic-release/git",
+        "assets": [
+          "CHANGELOG.md",
+          "package.json",
+          "package-lock.json"
+        ],
+        "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+      }
+    ],
+    "publish": [
+      {
+        "path": "@semantic-release/github",
+        "assets": [
+          {
+            "path": "dist/**/*.nupkg"
+          }
+        ]
+      },
+      {
+        "path": "@semantic-release/exec",
+        "cmd": "node packages/Be.Vlaanderen.Basisregisters.Build.Pipeline/Content/ci-nuget.js dist/nuget/Be.Vlaanderen.Basisregisters.PublicServiceRegistry.Api.Backoffice.${nextRelease.version}.nupkg"
+      },
+      {
+        "path": "@semantic-release/exec",
+        "cmd": "./packages/Be.Vlaanderen.Basisregisters.Build.Pipeline/Content/ci-confluence.sh"
+      }
+    ],
+    "success": [
+      "@semantic-release/github"
+    ],
+    "fail": false
+  }
+}

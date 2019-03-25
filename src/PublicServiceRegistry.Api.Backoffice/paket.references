@@ -1,0 +1,17 @@
+Be.Vlaanderen.Basisregisters.Api
+Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Formatters.Csv
+Be.Vlaanderen.Basisregisters.EventHandling.Autofac
+Be.Vlaanderen.Basisregisters.DataDog.Tracing.Autofac
+
+Serilog.Sinks.Network
+
+Microsoft.AspNetCore.Authentication.OpenIdConnect
+Microsoft.AspNetCore.Authentication.Cookies
+Microsoft.AspNetCore.Authentication.JwtBearer
+Microsoft.Extensions.Configuration.UserSecrets
+
+Microsoft.IdentityModel.Tokens
+IdentityModel
+
+SourceLink.Embed.AllSourceFiles
+SourceLink.Copy.PdbFiles

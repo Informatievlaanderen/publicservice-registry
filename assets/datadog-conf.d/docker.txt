@@ -1,0 +1,2 @@
+docker run
+    -d -e DD_API_KEY=xxx -v /d/projects/publicservice-registry/datadog-conf.d/:/conf.d/ -e DD_LOGS_ENABLED=true -e DD_TAGS=role:test-serilog -p 8125:8125 -p 10125:10125/udp datadog/agent:latest

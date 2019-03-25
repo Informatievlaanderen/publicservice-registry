@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Import\Update\batch_20180515_sarah.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Import\SetAltLabelSubsidieRegister\batch_20190220_sarah_altname_subsidieregister.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Import\SetAltLabelIpdc\batch_20190220_sarah_altname_ipdc.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Import\SetCompetentAuthority\batch_20190220_sarah_compauth.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Import\Register\batch_20190111_sarah.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="paket.references" />
+    <Compile Include="Rop.fs" />
+    <Compile Include="Csv.fs" />
+    <Compile Include="JsonRequests.fs" />
+    <Compile Include="ActivePatterns.fs" />
+    <Compile Include="Backoffice.fs" />
+    <Compile Include="Register.fs" />
+    <Compile Include="SetCompetentAuthority.fs" />
+    <Compile Include="SetAltNameSubsidieRegister.fs" />
+    <Compile Include="Info.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+  <Import Project="..\..\.paket\Paket.Restore.targets" />
+</Project>

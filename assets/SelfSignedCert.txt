@@ -1,0 +1,5 @@
+$cert = New-SelfSignedCertificate -DnsName "dev.dienstverlening.vlaanderen.be" -CertStoreLocation "cert:\LocalMachine\My" 
+$rootStore = New-Object System.Security.Cryptography.X509Certificates.X509Store -ArgumentList Root, LocalMachine 
+$rootStore.Open("MaxAllowed") 
+$rootStore.Add($cert) 
+$rootStore.Close()

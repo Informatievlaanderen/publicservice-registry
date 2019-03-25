@@ -1,0 +1,1136 @@
+id|naam|bevoegdeAuthoriteit
+1|Kaphout afvoeren |
+2|Financiële tegemoetkoming in de begrafeniskosten voor oud-strijders|
+3|Eensluidend verklaarde kopie|
+4|Ophalen van glas via de glascontainer|
+5|Huisvuilstickers|
+6|Hulp nodig bij vervullen administratieve taken|
+7|Gemeentelijke premie voor inbraakpreventie |
+8|Inleveren bouwafval en bouwresten|
+9|Onthaal nieuwe inwoners|
+10|Ophalen kerstboom|
+11|Huis-aan-huisinzameling van glas|
+12|Huis-aan-huisinzameling van grofvuil|
+13|Huis-aan-huisinzameling van klein gevaarlijk afval|
+14|Huis-aan-huisinzameling van papier en karton|
+15|Huis-aan-huisinzameling van plastic-, metaal- en drankverpakkingen (PMD)|
+16|Huis-aan-huisinzameling van restafval|
+17|Huis-aan-huisinzameling van snoeihout|
+18|Peterschap van een grafmonument|
+19|Sorteerpasje|
+20|Afhalen weggehaalde fiets/bromfiets|
+21|Afhalen gevonden voorwerpen|
+22|Toelating voor het aanleggen van een geveltuin|
+23|Toelating om bij een evenement af te wijken van het geluidsniveau|
+24|Verkoop gevonden fietsen en bromfietsen|
+25|Premie voor het aanleggen van een geveltuin|
+26|Premie voor het aanleggen van een groendak|
+27|Premie voor een huwelijksjubileum|
+28|Bruikleen of hergebruik van een grafmonument|
+29|Speelpleinwerking|
+30|Cultuurcheque|
+31|Taxicheques|
+32|Dringende steun in noodsituaties|
+33|Zorgtariefpas|
+34|Tussenkomst eerste maand huishuur|
+35|Financiële tussenkomst voor de aanpassing van de woning van ouderen en personen met een handicap  |
+36|Arbeidstrajectbegeleiding|
+37|Atelierwerking|
+38|Openbare computerruimten|
+39|Gebruiken van computerklassen|
+40|Gebruik van een fuifruimte|
+41|Schoollokalen huren buiten de schooluren|
+42|Infrastructuur en materiaal gebruiken voor sociaal-culturele activiteiten|
+43|Jeugdcentrum gebruiken voor jongerenactiviteiten|
+44|Kookinfrastructuur gebruiken|
+45|Uitlenen van evenementenmateriaal|
+46|Gebruiken van een polyvalente ruimte|
+47|Gebruiken van een repetitieruimte|
+48|Gebruiken van een speelterrein|
+49|Gebruik van sportinfrastructuur|
+50|Gebruiken van studieruimten|
+51|Gebruiken van een theaterinfrastructuur|
+52|Bibliotheekvoorzieningen voor personen met een beperking|
+53|Boekenuitleendienst aan huis|
+54|Boodschappendienst|
+55|Budgetbegeleiding|
+56|Budgetbeheer|
+57|Buitenschoolse kinderopvang|
+58|Crisisopvang |
+59|Cultuurkorting voor studenten|
+60|Dienst aangepast vervoer voor minder mobiele personen|
+61|Doorgangswoning, transitwoning of noodwoning|
+62|Financiële tussenkomst bij het betalen van uw energiefacturen|
+63|Financiële tussenkomst bij hospitalisatiekosten|
+64|Financiële tussenkomst voor deelname van kinderen en jongeren aan het georganiseerde vrijetijdsaanbod|
+65|Aanvragen van een gidsbeurt|
+66|Grabbelpas|
+67|Gratis bonnen voor tweedehandsaankopen|
+68|Gratis vuilniszakken|
+69|Huistaakbegeleiding|
+70|Gemeentelijke financiële tussenkomst in de huurkosten|
+71|Financiële tussenkomst in de huurwaarborg|
+72|Financiële tegemoetkoming voor jeugdactiviteiten|
+73|Kopie van een archiefdocument|
+74|Cultuurkaart|
+75|Mantelzorgpremie|
+76|Financiële tussenkomst in mutualiteitsbijdragen|
+77|Nieuwjaarsgeschenk voor chronisch zieken of personen met een handicap|
+78|Ter beschikking stellen van een palliatieve kamer|
+79|Aanvragen van een parkeerplaats voor personen met een handicap|
+80|Gemeentelijke premie voor het opstarten van een kinderdagverblijf|
+81|Projectsubsidie cultuur|
+82|Psychosociale hulp |
+83|Archiefdocumenten raadplegen|
+84|Borgstelling voor een woonzorgcentrum|
+85|Financiële tussenkomst in de schoolkosten|
+86|Schuldbemiddeling|
+87|Vermindering op de huisvuilbelasting|
+88|Sportkorting voor studenten|
+89|Strijkatelier of strijkwinkel|
+90|Subsidie voor het aankopen van groot materiaal voor jeugdwerk|
+91|Subsidie voor het bevorderen van diversiteit in sport, cultuur en jeugd|
+92|Gemeentelijke subsidie voor erfgoedverenigingen|
+93|Gemeentelijke subsidie voor investeringen in infrastructuur in het jeugdwerk|
+94|Subsidie ouderbetrokkenheid bij school|
+95|Subsidie voor het organiseren van sportevenementen|
+96|Thuisopvang voor zieke kinderen|
+97|Tussenkomst voor haarverzorging|
+98|Thuiszorg - Huishoudelijke hulp|
+99|Maaltijdbedeling aan huis|
+100|Thuiszorg - Oppasdienst|
+101|Persoonsverzorging|
+102|Voetverzorging|
+103|Toelage voor instellingen voor personen met een handicap|
+104|Gemeentelijke premie voor de opvang van personen met een handicap|
+105|Tussenkomst in farmaceutische en (para-) medische kosten|
+106|Tussenkomst in de taxikosten|
+107|Tweedehandskledij|
+108|Ontlenen van boeken, cd's, dvd's en ander bibliotheekmateriaal|
+109|Ontlenen van materiaal voor jeugdactiviteiten en jeugdwerk|
+110|Financiële tussenkomst  voor een verblijf in een woonzorgcentrum|
+111|Vervoer minder mobiele personen|
+112|Voedselpakketten|
+113|Gemeentelijke premie voorhuwelijkssparen|
+114|Voorschotten op sociale uitkeringen|
+115|Financiële tussenkomst voor waterverbruik|
+116|Erkenning als verdeler van officiële afvalzakken|
+117|Leefloon|
+118|Noodoproepen|
+119|Overlevingspensioen|
+120|Huwelijk|
+121|Wettelijk samenwonen|
+122|Buitenlandse huwelijksakte erkennen en overschrijven|
+123|Collectieve schuldenregeling|
+124|Kids-ID: Elektronisch identiteitsdocument voor kinderen onder de 12 jaar|
+125|Elektronische identiteitskaart (eID)|
+126|Nietig verklaren van een huwelijk|
+127|Internationaal rijbewijs|
+128|Federaal token|
+129|Een kind erkennen|
+130|Geboorteaangifte|
+131|Orgaandonatie|
+132|Overlijdensaangifte|
+133|Parkeerkaart voor personen met een handicap|
+134|Wilsverklaring inzake euthanasie|
+135|Huwelijksaangifte|
+136|Fiets huren|
+137|Premie voor superisolerend glas|
+138|Bewonerskaart|
+139|Jachtverlof en jachtvergunning|
+140|Visverlof|
+141|Verplichte keuring van uw privériolering voor afvoer van afval- of regenwater|
+142|Vrijstelling of vermindering van inschrijvingsgeld in het volwassenenonderwijs|
+143|Een diploma secundair onderwijs behalen via het secundair volwassenenonderwijs (vroeger tweedekansonderwijs)|
+144|Begeleiding van inburgeraars (het Inburgeringstraject)|
+145|Verplichte keuring van de waterleidingen bij nieuwbouw en renovatie|
+146|Erkenning van een wildbeheereenheid|
+147|Premie voor het behalen van een diploma secundair onderwijs via het volwassenenonderwijs|
+148|Verhoogde vermindering van de onroerende voorheffing voor bescheiden woning|
+149|Eurovignet voor vrachtwagens|
+150|Ophalen GFT|
+151|Erkenning van mestvoerders|
+152|Registratie van verzenders van meststoffen|
+153|Aangifte bij de Mestbank|
+154|Subsidies in het kader van cultuurkuur en dynamo3|
+155|Startbanenproject 'Scholen voor Jongeren - Jongeren voor Scholen' voor een positief schoolklimaat|
+156|Lerarenkaart|
+157|Startbanenproject Verkeersveiligheid voor veiliger woon-schoolverkeer|
+158|Bevolkingsonderzoek bij pasgeborenen naar aangeboren aandoeningen via een bloedonderzoek|
+159|Erasmus uitwisselingsprogramma en Erasmusbeurs om in het buitenland te studeren|
+160|Aanvraag tot onderzoek van het binnenmilieu in een woning of openbaar gebouw|
+161|Energieprestatiecertificaat voor een publiek gebouw|
+162|Jaarlijkse verkeersbelasting voor aan te geven voertuigen|
+163|Erkenning van bedrijfsgezondheidsdiensten|
+164|Gratis controle van putwater bij eigen grondwaterwinning|
+165|Individuele Beroepsopleiding (IBO) voor werkzoekenden|
+166|Ontheffing van loodsplicht voor kleine zeeschepen|
+167|Jaarlijkse verkeersbelasting voor personenwagens en aanverwante voertuigen|
+168|Onroerende voorheffing|
+169|Heffing op de winning van grondwater|
+170|Erkenning als Vlaams ontwikkelingsfonds voor microfinanciering in de ontwikkelingssamenwerking|
+171|Vergunning voor watervang|
+172|Sociaal tarief en vrijstelling van de heffing op de waterverontreiniging|
+173|Omgevingsvergunning voor het wijzigen van kleine landschapselementen of vegetaties|
+174|Omnipas 65+|
+175|Kaart voor kosteloze begeleider van een persoon met een handicap op het openbaar vervoer|
+176|Gratis abonnement van De Lijn voor personen met een handicap|
+177|Buzzy Pazz of Omnipas 'Vervoersgarantie' (VG)|
+178|Euregio-ticket (dagpas bus en trein gebied Euregio Maas - Rijn)|
+179|Gratis abonnement van NMBS en De Lijn voor oorlogsinvaliden en oud-strijders|
+180|Attest voor personenvervoer voor eigen rekening|
+181|Machtiging voor de tijdelijke vervanging van een voertuig van een taxidienst of verhuurdienst|
+182|Vergunning voor het uitbaten van een taxidienst|
+183|Vergunning voor de verhuur van voertuigen met bestuurder|
+184|Vergunning voor het organiseren van grensoverschrijdend geregeld vervoer|
+185|Erkenning en subsidiëring van kunstenaars en professionele kunstenorganisaties|
+186|Erkenning en subsidiëring van sportfederaties en organisaties voor sportieve vrijetijdsbesteding|
+187|Erkenning en vergunning van een radio-omroep|
+188|Praktische ondersteuning voor sportpromotionele evenementen|
+189|Subsidiedatabank voor ondernemingen|
+190|Aspirantenmandaat|
+191|Steun voor kmo's bij toepassing van milieu- en energievriendelijke technologie (PRODEM)|
+192|Investering van risicokapitaal in beloftevolle kmo's (Arkimedes)|
+193|Investering in een creatieve onderneming (CultuurInvest)|
+194|Vergunning of overeenkomst om bijzondere vormen van geregeld vervoer te organiseren|
+195|Ontheffing van loodsplicht voor grote zeeschepen|
+196|Vergunning voor het privégebruik van waterwegen en hun aanhorigheden|
+197|Buzzy Pazz of Omnipas 'Verhoogde Tegemoetkoming' (VT)|
+198|Bemiddelaar Grootschalige Vlaamse Infrastructuurprojecten|
+199|Subsidies voor duurzaam woon-werkverkeer via het Pendelfonds|
+200|Subsidie voor een actieprogramma duurzame mobiliteit van een niet-erkende mobiliteitsvereniging|
+201|Doctoraatsbeurs strategisch basisonderzoek|
+202|Klinische doctoraatsbeurs|
+203|Bijzondere doctoraatsbeurs|
+204|Mandaat postdoctoraal onderzoeker|
+205|Fundamenteel klinisch mandaat|
+206|Krediet voor individuele onderzoeker|
+207|Steun voor wetenschappelijke internationale samenwerking en contacten|
+208|Waarborgregeling boven 1,5 miljoen euro|
+209|Groeifinanciering|
+210|Voordelige lening aan bedrijf uit de sociale economie (Sociaal Investeringsfonds)|
+211|Een gekend kind adopteren|
+212|Een ongekend kind adopteren|
+213|Erkenning sociale huisvestingsmaatschappijen|
+214|Tegemoetkoming in kosten kinderopvang voor werkzoekenden in opleiding|
+215|Tegemoetkoming voor werkgevers die outplacementbegeleiding aanbieden|
+216|Stimulanspremie voor werkzoekenden in opleiding|
+217|Subsidies voor de omkadering van arbeidszorgmedewerkers|
+218|Grafconcessies en concessies voor columbaria en urnenvelden|
+219|Erkenning als natuurreservaat|
+220|Erkenning als terreinbeherende natuurvereniging|
+221|Erkenning en subsidiëring van bosgroepen (verenigingen van boseigenaars)|
+222|Erkenning en subsidiëring van integratiecentra|
+223|Erkenning en subsidiering van opvangcentra voor vogels en wilde dieren|
+224|Erkenning en subsidiëring van de ondersteuningscentra en het overlegcentrum voor etnisch-culturele minderheden|
+225|Erkenning als centrum voor het depollueren, ontmantelen en vernietigen van afgedankte voertuigen|
+226|Waarborgregeling tot 1,5 miljoen euro|
+227|Plaatsing van een jongere in een gemeenschapsinstelling|
+228|Verplichte verwarmingsaudit voor cv-installatie die ouder is dan 5 jaar|
+229|Premie voor het installeren van een roetfilter in oudere dieselwagens|
+230|Erkenning als laboratorium voor afvalstoffen, andere materialen en bodemstalen|
+231|Erkenning als uitzendbureau|
+232|Erkenning als ARKIV|
+233|Erkenning getuigschrift/diploma na leertijd|
+234|Erkenning getuigschrift/diploma ondernemersopleiding|
+235|Registratie als dienstverlener in het kader van de kmo-portefeuille|
+236|Erkenning van testcentra voor het leveren van ervaringsbewijzen|
+237|Erkenning van een producent van vegetatief teeltmateriaal van wijnstokken|
+238|Afschotplan voor grofwild|
+239|Erkenning van lokale geloofsgemeenschappen|
+240|Subsidies aan verenigingen voor projecten met een meerwaarde voor natuur en milieu|
+241|Milieuheffing voor het storten en verbranden van afvalstoffen|
+242|Erkenning van kopers en exploitanten van hout in openbare bossen|
+243|Verzekering burgerlijke aansprakelijkheid voor beheerders van bossen en natuurreservaten|
+244|Vergoeding voor schade veroorzaakt door wild of door een beschermde diersoort|
+245|Compensatieplicht bij ontbossing|
+246|Kapmachtiging|
+247|Erkenning als bodemsaneringsdeskundige type 1 of type 2|
+248|Erkenning of melding en subsidiëring van de verenigingen van gebruikers en mantelzorgers|
+249|Subsidie voor een regenwaterput (hemelwaterput)|
+250|Toestemming of machtiging voor een activiteit in een bos of natuurreservaat|
+251|Verklaring van selectieve sloop of ontmanteling|
+252|Toelating tot invoer van dierlijke bijproducten (DBP) vanuit een andere Europese lidstaat|
+253|Melden van de overdracht van een risicogrond|
+254|Een sociale woning huren bij een sociale huisvestingsmaatschappij|
+255|Een sociale woning huren bij een sociaal verhuurkantoor|
+256|Verplichte haalbaarheidsstudie naar alternatieve energiesystemen voor grote gebouwen|
+257|Beheerovereenkomst tussen de Vlaamse Landmaatschappij en landbouwers|
+258|Erkenning van de psychiatrische verzorgingstehuizen|
+259|Adviezen inzake de relatie tussen de kwaliteit van het milieu en gezondheid|
+260|Vaccins gratis ter beschikking van de vaccinatoren|
+261|Vaccinatiekaart|
+262|Normen voor ziekenhuizen|
+263|Subsidies voor investeringen in welzijns- en gezondheidsvoorzieningen|
+264|Overlegplatforms Geestelijke Gezondheidszorg|
+265|Subsidiëring van projecten en bijzondere initiatieven inzake Jongerenwelzijn|
+266|Heffing op de waterverontreiniging|
+267|Voordelige lening voor ondernemingen (Win-winlening)|
+268|Subsidie voor de verwarringstechniek in de fruitteelt|
+269|Subsidie voor mechanische onkruidbestrijding|
+270|Premie voor het behoud van de gespecialiseerde zoogkoeienhouderij|
+271|Subsidie voor de bescherming van de genetische diversiteit van rundveerassen|
+272|Subsidie voor de bescherming van de genetische diversiteit van schapenrassen|
+273|Subsidie voor de bedrijfseigen teelt van plantaardige eiwitbronnen (vlinderbloemigen)|
+274|Subsidie voor milieuvriendelijke sierteelt|
+275|Subsidie voor de bescherming van de genetische diversiteit van oude rassen hoogstammige fruitbomen|
+276|Erkenning en subsidiëring van de instellingen voor schuldbemiddeling|
+277|Buzzy Pazz, van 6 tot 24 jaar|
+278|Legalisatie van Vlaamse getuigschriften en diploma's|
+279|Huur van een betaalbare woning in de Vlaamse rand rond Brussel via Vlabinvest|
+280|Subsidie voor ontwikkelingseducatie|
+281|Grondstofverklaring voor gebruik van een bepaald materiaal als grondstof|
+282|Integraal Milieujaarverslag (IMJV)|
+283|Registratie als vervoerder van afvalstoffen|
+284|Registratie als inzamelaar, handelaar of makelaar van afvalstoffen|
+285|Vermindering van de onroerende voorheffing voor grootoorlogsverminkten|
+286|Vergunning voor invoer, uitvoer en doorvoer van strategische goederen|
+287|Premie van de netbeheerder voor isolatie van een buitenmuur langs de buitenzijde|
+288|Premie van de netbeheerder voor de isolatie van een spouwmuur|
+289|Premie van de netbeheerder voor vloerisolatie of kelderisolatie|
+290|Premie van de netbeheerder voor een warmtepomp|
+291|Kortingbon voor beschermde afnemers bij aankoop van een energiezuinige wasmachine of koelkast|
+292|Vrijstelling van de bijdrage voor de zuivering van het afvalwater|
+293|Speciale onderwijsleermiddelen voor leerlingen, studenten of cursisten met een handicap|
+294|FSC-boscertificaat|
+295|Subsidies voor sportevenementen|
+296|Overnamesteun voor de jonge landbouwer|
+297|Investeringssteun voor land- en tuinbouwers|
+298|Investeringssteun aan de agrovoedingssector|
+299|Investeringssteun aan de omkaderingssector voor land- en tuinbouw|
+300|Omgevingsvergunning voor de exploitatie van ingedeelde inrichtingen of activiteiten|
+301|Bodemattest|
+302|Erkenning van controleartsen in het kader van dopingbestrijding|
+303|Subsidie voor bijzondere journalistiek|
+304|Subsidies voor de audiovisuele sector|
+305|Subsidies voor de letterensector|
+306|Uitwisseling van plannen van ondergrondse kabels en leidingen (Kabel en Leiding Informatieportaal KLIP)|
+307|Premie 50+|
+308|Planologisch attest|
+309|Milieueffectrapport (MER)|
+310|Conformiteitsattest voor (huur)woningen|
+311|Heffing op de leegstand en verwaarlozing van bedrijfsgebouwen|
+312|Erkenning als laboratorium voor de analyse van water, lucht of bodem (deeldomein bodembescherming)|
+313|Erkenning als opleidingscentrum brandertechnici of stookolietechnici|
+314|Erkenning als milieucoördinator|
+315|Erkenning als opleidingscentrum voor de vorming van milieucoördinatoren|
+316|Erkenning als veiligheidsrapporteringsdeskundige (VR-deskundige)|
+317|Erkenning als milieudeskundige|
+318|Certificering van examencentra koeltechniek|
+319|Erkenning van technici en bedrijven voor brandbeveiligingsapparatuur|
+320|Erkenning als opleidingscentrum voor klimaatregelingssytemen in bepaalde motorvoertuigen|
+321|Planbatenheffing, belasting op de meerwaarde van een grond na een bestemmingswijziging|
+322|Erkenning als technicus vloeibare brandstof, gasvormige brandstof en verwarmingsaudit|
+323|Erkenning als technicus stookolietanks|
+324|Certificering van koeltechnici en koeltechnische bedrijven|
+325|Meting van straling rond zendantennes|
+326|Melding van de intentie tot hennepteelt|
+327|Kapitaalschadecompensatie voor eigenaars van landbouwgronden|
+328|Gebruikerscompensatie voor landbouwgronden|
+329|Identificatie als landbouwer|
+330|Stageovereenkomst|
+331|Erkenning als ruimtelijke planner|
+332|Belasting op de inverkeerstelling (BIV)|
+333|Premie van de netbeheerder voor dakisolatie of zoldervloerisolatie in een woning of appartement|
+334|Premie van de netbeheerder voor hoogrendementsglas in een woning of appartement|
+335|Premie van de netbeheerder voor een condensatieketel (voor beschermde afnemers)|
+336|Verkavelingsvergunning|
+337|Erkenning tot energiedeskundige type A|
+338|Erkenning tot energiedeskundige type C|
+339|Erkenning tot energiedeskundige type B|
+340|Erkenning van een milieuvriendelijk toeristisch bedrijf (ecolabel De Groene Sleutel)|
+341|Erkenning van een kampeerautovriendelijk logies|
+342|Vergunning van een reisbureau of toeristisch verhuurkantoor|
+343|Stedenbouwkundig attest|
+344|Kooprecht voor huurders van een sociale huurwoning|
+345|Attest ter vervanging van een verloren diploma of getuigschrift|
+346|Arbeidsvergunning|
+347|Toegankelijkheidslabel voor toegankelijk logies|
+348|Erkenning en vergunning van diensten en voorzieningen die ondersteuning bieden aan personen met een handicap|
+349|Erkenning van gidsen en reisleiders|
+350|Erkenning van een particuliere televisie-omroep|
+351|Budgetmeter|
+352|Aanvullende verkeersbelasting voor LPG-installaties|
+353|Hulplijn geweld, misbruik en kindermishandeling|
+354|Heffing op ongeschikte en onbewoonbare woningen|
+355|Erkenning en subsidiëring van de Logo's (Lokaal Gezondheids Overleg)|
+356|Erkenning en subsidiëring van amateurkunsten|
+357|Subsidie voor sensibiliserende initiatieven van de Vlaamse Gebarentaal|
+358|Subsidies voor leesbevordering|
+359|Subsidie voor verenigingen met een specifieke opdracht voor de cultuur-, jeugdwerk- en sportsector|
+360|Subsidie voor verenigingen voor culturele en sportieve participatie van gedetineerden|
+361|Erkenning en subsidiëring van organisaties voor sociaal-cultureel volwassenenwerk|
+362|Omgevingsvergunning voor stedenbouwkundige handelingen|
+363|Erkenning van een fietsvriendelijk logies|
+364|Betalingsrechten voor de landbouw|
+365|Erkenning als MER-deskundige|
+366|Kennisgeving voor uitzending door een televisie-omroep|
+367|Attesten voor jeugdwerkers|
+368|Vermindering van de onroerende voorheffing voor kinderbijslaggerechtigde kinderen|
+369|Vermindering van de onroerende voorheffing voor bescheiden woning|
+370|Subsidie voor stages bij internationale organisaties|
+371|Subsidie voor experimenteel jeugdwerk|
+372|Kampeertenten lenen|
+373|Subsidies voor internationaal ondernemen|
+374|Exportmeter|
+375|Leerlingenkaart|
+376|Subsidies voor de bouw en renovatie van scholen|
+377|Een vrijstelling aanvragen in het hoger onderwijs of toegang krijgen tot het hoger onderwijs via eerdere studies of werkervaring|
+378|Sloopinventaris afvalstoffen|
+379|Aansluiten bij de Vlaamse Sociale Bescherming|
+380|Minimale levering van elektriciteit en aardgas voor wie een budgetmeter heeft|
+381|Verplicht onderhoud van uw cv-installatie (centrale verwarming)|
+382|EPC Bouw|
+383|Medaille voor sociaal-culturele inzet|
+384|Controle en onderhoud van de stookolietank van een woning|
+385|Proportionele vermindering van de onroerende voorheffing|
+386|Verkooprechten (Registratiebelastingen)|
+387|Schenkbelasting (Registratiebelasting)|
+388|Erfbelasting |
+389|Vrijstelling van erfbelasting op de gezinswoning voor de langstlevende partner|
+390|Recht op hypotheekvestiging (Registratiebelastingen)|
+391|Verdeelrechten (Registratiebelastingen)|
+392|Aankoop van een sociale woning of bouwgrond bij een sociale huisvestingsmaatschappij (SHM)|
+393|Vermindering van de verkooprechten voor een bescheiden woning (Klein beschrijf)|
+394|Meeneembaarheid van verkooprechten|
+395|Vermindering van de verkooprechten voor een enige woning (Abattement)|
+396|Vermindering van de verkooprechten bij een hypothecaire lening voor een enige woning (Bijabattement)|
+397|Vermindering van de verkooprechten bij renovatie van een verwaarloosd of leegstaand pand (Renovatie-abattement)|
+398|Huisonderwijs voor leerplichtige kinderen|
+399|Tegemoetkoming in reis- en verblijfkosten voor internationale samenwerking rond volksontwikkeling en lokaal cultuurbeleid|
+400|Vakantieaanbod met korting voor mensen die het financieel moeilijk hebben|
+401|Toelatingsexamens arts en tandarts|
+402|Tijdelijk Onderwijs Aan Huis (TOAH) voor zieke leerlingen|
+403|Een getuigschrift basisonderwijs behalen via de Examencommissie basisonderwijs|
+404|Een diploma of getuigschrift secundair onderwijs behalen via de Examencommissie secundair onderwijs|
+405|Leerlingenvervoer in het buitengewoon onderwijs|
+406|Vermindering van de onroerende voorheffing voor personen met een handicap|
+407|Geïntegreerd onderwijs: GON-begeleiding in het onderwijs|
+408|Groenestroomcertificaten voor zonnepanelen|
+409|Studietoelage voor het hoger onderwijs|
+410|Schooltoelage voor het basisonderwijs en het secundair onderwijs|
+411|Verhoogde investeringsaftrek voor energiebesparende investeringen door bedrijven|
+412|Vermindering van de onroerende voorheffing voor huurders|
+413|Attest voor de erkenning van een Vlaams diploma of getuigschrift in het buitenland|
+414|Premie van de netbeheerder voor een zonneboiler|
+415|Vermindering van de onroerende voorheffing voor een energiezuinig nieuw gebouw|
+416|Leerkrediet voor studenten hoger onderwijs|
+417|Diploma hoger onderwijs behalen via een diplomacontract|
+418|Credits hoger onderwijs behalen via een creditcontract|
+419|Diploma hoger onderwijs behalen via een examencontract|
+420|Opgraving van een stoffelijk overschot of urne|
+421|Verplichte keuring van een nieuwe of gewijzigde cv-installatie|
+422|EPC bij verkoop of verhuur van een woning|
+423|Erkenning van scholen en andere onderwijsinstellingen|
+424|Vlaamse Woonlening of de sociale lening bij de VMSW|
+425|Bevolkingsonderzoek Borstkanker|
+426|Melden van gebreken aan wegen, fietspaden, wegverlichting, ... in Vlaanderen|
+427|Doorlichtingsverslag van een school of een centrum voor leerlingenbegeleiding|
+428|Vergunning tot het rijden in een voetgangerszone|
+429|Subsidie voor het organiseren van een jeugdfuif|
+430|Poetshulp|
+431|Inkomensvervangende tegemoetkoming voor personen met een handicap|
+432|Veranderen van familienaam|
+433|Rustpensioen|
+434|Raming van uw toekomstige pensioenrechten|
+435|Voorlopig rijbewijs|
+436|Stemmen bij verkiezingen|
+437|Visum en verblijfsdocumenten om in België te verblijven|
+438|Brandveiligheidsattest voor horeca-uitbaters|
+439|Vergunning voor het verstrekken van gegiste en/of sterke dranken|
+440|Elektronische vreemdelingenkaart|
+441|Exploitatievergunning voor de horeca|
+442|Hygiëneattest|
+443|Identiteitsbewijs voor een niet-Belgisch kind|
+444|Moraliteitsattest|
+445|Overlijdensaangifte van een doodgeboren kind|
+446|Buitenlandse overlijdensakte erkennen en overschrijven in België|
+447|Registratie poliovaccinatie|
+448|Reistoelating voor minderjarigen|
+449|Registratie van de slachting van een dier|
+450|Sociaal tarief voor elektriciteit en aardgas (sociale maximumprijzen)|
+451|Sociaal telefoontarief|
+452|Omgevingsvergunning voor kleinhandelsactiviteiten|
+453|Attest van de interventie van de brandweer|
+454|Toelating voor het organiseren van manifestaties ter bevordering van de plaatselijke handel/braderieën|
+455|Wettiging handtekening|
+456|Nachtvergunning voor de horeca|
+457|Instapstage - VDAB|
+458|Gemeentelijke werkingssubsidie voor erkende jeugdverenigingen|
+459|Gebruiken van een tentoonstellingsruimte|
+460|Gemeentelijke premie voor een startende ondernemer|
+461|Werkingssubsidie voor sportverenigingen|
+462|Subsidie voor een startende jeugdvereniging|
+463|Subsidie voor de vorming van trainers of begeleiders|
+464|Subsidie voor het onvruchtbaar maken van een huiskat|
+465|Tegemoetkoming in de gemeentelijke opcentiemen|
+466|Vergunning voor het plaatsen van een tijdelijk terras |
+467|Klusjesdienst|
+468|Personenalarmsysteem|
+469|Toelating voor het uitdelen van flyers op markten, evenementen en openbare plaatsen|
+470|Toelating voor het uitdelen van productstalen op markten, evenementen of op openbare plaatsen|
+471|Vergunning voor een circusstandplaats|
+472|Vergunning voor straatanimatie en straatmuzikanten|
+473|Vergunning om koopwaar en voorwerpen uit te stallen op openbaar domein|
+474|Laatste wilsbeschikking|
+475|Attest van hoofdverblijfplaats (bewijs van woonst)|
+476|Attest van leven|
+477|Attest van Belgische nationaliteit|
+478|Attest van gezinssamenstelling|
+479|Akte van overlijden|
+480|Akte van geboorte|
+481|Akte van huwelijk|
+482|Akte van echtscheiding|
+483|Crisisopvang voor zorgbehoevende ouderen|
+484|Dagopvang voor ouderen|
+485|Gemeentelijke geboortepremie|
+486|Medisch-sociale toelage voor volwassenen met een handicap|
+487|Flats voor personen met een handicap|
+488|Tussenkomst voor Nederlandse taallessen|
+489|Oppas en gezelschap voor thuiswonende ouderen|
+490|Gemeentelijke premie voor palliatieve thuiszorg|
+491|Vakantietoelage voor personen met een handicap|
+492|Seniorenwoningen|
+493|Serviceflat en assistentiewoning|
+494|Sociaal restaurant|
+495|Sociale correctie op het gedifferentieerd tarief voor afvalverwerking|
+496|Sociale premie water en elektriciteit voor personen met een laag inkomen|
+497|Sociale premie water, gas en elektriciteit voor gezinnen|
+498|Thuiszorg - Haarverzorging|
+499|Tussenkomst in het leefgeld|
+500|Tussenkomst in de kosten voor het vaccin tegen baarmoederhalskanker|
+501|Woonbegeleiding|
+502|Inhaalpremie voor langdurige arbeidsongeschiktheid|
+503|Tegemoetkoming voor hulp van derden bij arbeidsongeschiktheid|
+504|Ziekte- en invaliditeitsuitkering|
+505|Arbeidsongevallenverzekering|
+506|Verlaagd btw-tarief voor personen met een handicap voor de aankoop van een wagen|
+507|Basisbankdienst|
+508|Belastingkrediet voor kinderen ten laste|
+509|Belastingvrije som bij opvang van een ouder familielid|
+510|Belastingvermindering voor dakisolatie|
+511|Bemiddeling|
+512|Beroepsziekten|
+513|Bijzonder Solidariteitsfonds voor uitzonderlijke gezondheidskosten|
+514|Blindenstok |
+515|Tegemoetkoming chronische wonden |
+516|Dringende medische hulp voor mensen zonder wettig verblijf |
+517|Equivalent leefloon |
+518|Belastingvermindering voor de kosten voor kinderopvang|
+519|Kraamgeld (geboortepremie)|
+520|Globaal medisch dossier |
+521|"Incontinentieforfait	"|
+522|Installatiepremie voor dak- en thuislozen |
+523|Integratietegemoetkoming voor personen met een handicap|
+524|Jobkorting federale overheid|
+525|Juridische tweedelijnsbijstand (Pro-Deoadvocaat)|
+526|Tegemoetkoming in de reiskosten van kankerpatiënten|
+527|Kinderbijslag van 18 tot 25 jaar|
+528|Gewaarborgd kraamgeld |
+529|Gewaarborgde gezinsbijslag|
+530|Leeftijdsbijslag bij de kinderbijslag|
+531|Jaarlijkse bijslag bij het kindergeld (schoolpremie)|
+532|Toeslag bij de kinderbijslag voor langdurig werklozen en gepensioneerden|
+533|Wezenbijslag|
+534|"Verlengde kinderbijslag	"|
+535|Vrijstelling voor studies in het kader van knelpuntberoepen |
+536|Inkomstenvrijstelling voor leefloners|
+537|Lokaal Opvang Initiatief (LOI) voor asielzoekers|
+538|Verlof voor medische bijstand|
+539|Maximumfactuur voor medische kosten|
+540|Melden van discriminatie|
+541|Mobiliteitstoeslag voor wie het werk hervat in loondienst |
+542|Negatieve wilsverklaring|
+543|Hulp bij het betalen van onderhoudsgeld of alimentatie|
+544|Voorschot op de alimentatievordering|
+545|Regeling begrafeniskosten bij onvoldoende middelen|
+546|Palliatief forfait - Toelage voor thuisverzorging|
+547|Palliatief verlof|
+548|Toeslag belastingvrije som bij personenbelasting|
+549|"Tegemoetkoming voor pijnstillers voor chronisch zieken 	"|
+550|Referentieadres |
+551|Tussenkomst voor socio-culturele en sportieve participatie voor mensen in armoede|
+552|Gratis tandverzorging tot 18 jaar|
+553|Kortingskaart NMBS voor grote gezinnen|
+554|Kortingskaart NMBS 'Verhoogde tegemoetkoming'|
+555|Verminderingskaart NMBS voor personen met een visuele handicap|
+556|Seniorenbiljet NMBS vanaf 65 jaar|
+557|Voorrangskaart NMBS voor een zitplaats op de trein|
+558|Verhoogde tegemoetkoming voor gezondheidszorgen|
+559|Verwarmingstoelage via het Sociaal Verwarmingsfonds|
+560|Vrijstelling van draagplicht van de veiligheidsgordel |
+561|Onkostenvergoeding voor vrijwilligerswerk|
+562|Tijdelijke inschrijving bij het ziekenfonds voor wie verblijft in België|
+563|"Zorgforfait voor chronisch zieken	"|
+564|Burenbemiddeling|
+565|Gratis energiescan|
+566|Gezinsvakantie|
+567|Advies om de toegankelijkheid van een woning voor ouderen te verbeteren|
+568|Sociale samenhang - Buurthuis |
+569|Ontlenen van taalstimulerend materiaal bij de Taal-o-theek|
+570|Dringend ziekenvervoer|
+571|Financiële tegemoetkoming voor incontinentiemateriaal|
+572|Gemeentelijke tussenkomst bij de aankoop van een Buzzy Pazz bij De Lijn|
+573|Gemeentelijke aanpassingspremie voor personen met een handicap|
+574|Boodschappendienst met dienstencheques|
+575|Hulp bij verplaatsing met dienstencheques |
+576|Europees rijbewijs|
+577|Aangifte van een adreswijziging bij uw stad of gemeente|
+578|Een stookolietank buiten gebruik stellen|
+579|Zorgwonen|
+580|Huur van een sociale woning bij het Vlaams Woningfonds|
+581|Sociale lening bij een erkende kredietmaatschappij|
+582|Premies voor sociale isolatieprojecten voor huurwoningen|
+583|E-peilpremie voor energiezuinige nieuwbouw|
+584|Uittreksel uit het strafregister|
+585|Combinatiepremie voor gelijktijdige investering in raamvervanging en muurisolatie|
+586|Machtiging tot het uitoefenen van ambulante activiteiten (leurkaart)|
+587|Subsidie voor de huur van niet-gemeentelijke sportzalen|
+588|Subsidie voor de (her)aanleg van sportvelden of het (ver)bouwen van sportinfrastructuur|
+589|Sportkamp|
+590|Subsidie voor meer en betere sportgekwalificeerde jeugdsportwerkers|
+591|Een speelstraat organiseren|
+592|Kampvervoer voor jeugdverenigingen|
+593|Belgisch paspoort|
+594|Huurgarantiefonds voor verhuurders|
+595|Subsidie voor bewoonde zwaluwnesten|
+596|Subsidie voor een compostvat, compostbak of wormenbak|
+597|Subsidie voor de aanleg en het beheer van kleine landschapselementen|
+598|Signalisatievergunning|
+599|Advies van de Lokale Adviescommissie (LAC) over afsluiting of heraansluiting van elektriciteit, aardgas of water|
+600|Vlaamse Kredietbemiddelaar|
+601|Premie voor buitensporige directe kost bij verplicht archeologisch onderzoek|
+602|Beroepskaart voor vreemdelingen|
+603|Starteo, een voordelige lening voor startende zelfstandigen en kleine ondernemingen|
+604|Business Angels+lening (BA+lening)|
+605|Startlening+ |
+606|Optimeo, een voordelige lening voor zelfstandigen en kleine ondernemingen die hun zaak willen uitbreiden|
+607|Getuigschrift van vakbekwaam slachten|
+608|Vergunning voor commercieel vervoer van dieren|
+609|Keuring vervoermiddel bij commercieel vervoer van dieren|
+610|Getuigschrift van vakbekwaamheid bij commercieel vervoer van dieren|
+611|Erkenning als dierentuin|
+612|Erkenning als hondenkwekerij, kattenkwekerij, dierenasiel, dierenpension of handelszaak voor dieren|
+613|Erkenning als proefdierlabo of als fokker van proefdieren|
+614|Melden van verwaarloosde of mishandelde dieren|
+615|Hondenpaspoort en registratiebewijs voor een hond|
+616|Vergunning voor het plaatsen van een strandcabine|
+617|Advies over brandpreventie in uw woning|
+618|Gratis internet in de bibliotheek|
+619|Aangifte van een verhuis naar het buitenland|
+620|Aanvraag van een stage |
+621|Huren van een parkeerplaats op een binnenkoer|
+622|Gratis optreden op uw buurtfeest|
+623|Subsidie voor het organiseren van een buurtfeest|
+624|Projectsubsidie voor een duurzaam artistiek initiatief|
+625|Projectsubsidie voor jongeren |
+626|Aanvraag voor het plaatsen van een tijdelijke fietsenstalling|
+627|Aanvraag voor het plaatsen van een permanente fietsenstalling|
+628|Fietsregistratie op een evenement|
+629|Belasting op vaste reclame zichtbaar van op de openbare weg|
+630|Beerputten ruimen|
+631|Premie voor klein comfort in uw woning|
+632|Aankopen van kippen |
+633|Belasting op het aansluiten op de openbare riolering|
+634|Beveiligingsadvies van woningen|
+635|Subsidie voor preventieprojecten in scholen|
+636|Labelen van fietsen|
+637|Premie voor de aanleg van een voetpad op het openbaar domein|
+638|Premie voor een rookmelder|
+639|Premie voor binneninrichting van winkels|
+640|Gevelrenovatiepremie|
+641|Huisnummer|
+642|Subsidie voor het organiseren van lokale economische initiatieven|
+643|Vergunning voor het laden en lossen|
+644|Belasting op het geven van een filmvoorstelling|
+645|Belasting op het verstrekken van logies|
+646|Huisnummerplaatje|
+647|Stage- en leerwerkplaatsen bij de Vlaamse overheid|
+648|Een diploma secundair onderwijs behalen|
+649|Een getuigschrift basisonderwijs behalen |
+650|Energielening|
+651|Belastingvermindering voor de enige en eigen woning (woonbonus)|
+652|Vergunning beenhouwer-spekslager|
+653|Machtiging tot het uitoefenen van kermisactiviteiten|
+654|Gratis IE-scan|
+655|Advies voor ondernemers over aangewezen financieringsmix - Finmix|
+656|Trajectbegeleiding innovatieve start-ups en scale-ups|
+657|Ongeschikt of onbewoonbaar verklaren van een woning|
+658|Inclusief Onderwijs (ION-begeleiding)|
+659|Werkloosheidsuitkering|
+660|Toeslag bij de kinderbijslag voor eenoudergezinnen|
+661|Toeslag op de kinderbijslag voor kinderen met een handicap|
+662|Inschakelingsuitkering voor werkzoekende schoolverlaters|
+663|Stemmen met een volmacht|
+664|Ouderschapsverlof |
+665|Auteursrecht|
+666|Examens ondernemersvaardigheden bij de Centrale Examencommissie|
+667|Octrooi of patent|
+668|Vermindering erfbelasting bij overdracht van familiale ondernemingen en vennootschappen|
+669|Erasmus voor jonge ondernemers|
+670|Vrijstelling van schenkbelasting voor de overdracht van familiale ondernemingen en vennootschappen|
+671|Vrijstelling van erfbelasting voor de wettelijke terugkeer van schenkingen|
+672|Stedenbouwkundig uittreksel|
+673|Bijstand van een tolk voor dove of slechthorende werknemers, zelfstandigen en werkzoekenden met een arbeidshandicap|
+674|Tegemoetkoming voor arbeidsgereedschap, -kleding en arbeidspostaanpassingen|
+675|Belastingvermindering voor beveiligen van woningen|
+676|Cambio-voordeel bij jaarbonnement van De Lijn|
+677|Melden van gezondheidsproblemen bij honden na aankoop|
+678|Vrijstelling van de belasting op inverkeerstelling (BIV) en de verkeersbelasting (VKB) voor personen met een handicap|
+679|Erkenning voor het houden van een zoogdier dat niet op de positieve lijst staat|
+680|Vrijstelling van bepaalde werkloosheidsverplichtingen bij volgen van opleiding die voorbereidt op zelfstandig beroep|
+681|Vergunning voor een collecte|
+682|Toelating tot crematie|
+683|Kinderopvangtoeslag voor alleenstaande werkzoekenden die weer aan de slag gaan|
+684|Kmo-cofinanciering|
+685|Ecocheques|
+686|Taxshelter voor startende ondernemingen|
+687|Krediet voor onderzoekers voor een lang verblijf in het buitenland|
+688|Krediet voor onderzoekers voor deelname aan een workshop of een cursus in het buitenland|
+689|Krediet voor een kort verblijf in het buitenland|
+690|Krediet voor deelname van onderzoekers aan congres in buitenland|
+691|Verplichte energieaudit voor grote ondernemingen|
+692|Erkenning als toeristisch centrum|
+693|Startbonus|
+694|Federale uitkering voor tijdskrediet|
+695|Federale uitkering voor ouderschapsverlof, verlof voor medische bijstand of palliatief verlof|
+696|Innovatiepremie voor creatieve werknemers|
+697|Korting op treinticket voor werkzoekenden die op sollicitatiegesprek gaan|
+698|Melding van tijdelijke afwezigheid|
+699|Premie voor een hakselaar|
+700|Vaste standplaats op de wekelijkse markt|
+701|Niet-productieve investeringssteun land- en tuinbouwers|
+702|Vergoedingen van netbeheerders bij laattijdige (her)aansluiting en stroomonderbreking|
+703|Premie voor een nieuw zero-emissie-voertuig|
+704|Vestigingsvergunning voor een nachtwinkel|
+705|Aangifte afwijking op de wekelijkse rustdag|
+706|Vergunning voor tijdelijke bewegwijzering van een manifestatie|
+707|Permanente bewegwijzering van een onderneming|
+708|Rattenvergif|
+709|Antireclamesticker|
+710|Sociaal tarief voor water|
+711|Aanvraag tijdelijk parkeerverbod|
+712|Aanpassingen aan het openbaar domein|
+713|Inname openbaar domein|
+714|Belasting op economische bedrijvigheid|
+715|Activeringsheffing op onbebouwde gronden|
+716|Gedeeld verblijf|
+717|Premie voor de installateur die een roetfilter plaatst|
+718|Aanvraag van de vrijstelling van de kilometerheffing in Vlaanderen|
+719|Kilometerheffing voor vrachtwagens|
+720|Premie van de netbeheerder voor na-isolatie van een buitenmuur langs de binnenzijde|
+721|Premie voor het plaatsen van een infiltratievoorziening|
+722|Aankoop van een compostbak of compostvat|
+723|Inleveren PMD afval|
+724|Inleveren papier en karton|
+725|Snoeihout verhakselen|
+726|Inleveren snoeihout|
+727|Inleveren kerstboom|
+728|Composteerbare zakken|
+729|Belasting op het huis-aan-huis verspreiden van ongeadresseerd reclamedrukwerk|
+730|Omgevingsvergunning|
+731|Vrijstelling van doorstorting van bedrijfsvoorheffing bij investering in steunzones|
+732|Machtiging voor standplaats op kermis|
+733|Eretitel voor uitvoerende mandatarissen en raadsleden|
+734|Ereteken voor lokale en provinciale mandatarissen en personeel|
+735|Subsidie teelt van vezelvlas met verminderde bemesting|
+736|Subsidie teelt van vezelhennep met verminderde bemesting|
+737|Tegemoetkoming in de kosten woon-werkverkeer voor personen met een handicap|
+738|Verplaatsingsvergoeding voor werkzoekenden die een erkende opleiding volgen|
+739|Verblijfsvergoeding bij opleiding VDAB|
+740|Vermindering van de onroerende voorheffing voor ingrijpende energetische renovatie|
+741|Toegang tot de LEZ in Antwerpen|
+742|Burenpremie voor collectieve renovatieprojecten|
+743|Totaalrenovatiebonus van de netbeheerder (BENO-pass)|
+744|Bevolkingsonderzoek dikkedarmkanker|
+745|Bevolkingsonderzoek baarmoederhalskanker|
+746|Professionele erkenning van een buitenlands lerarendiploma in Vlaanderen|
+747|Instaptoets lerarenopleiding|
+748|Beroepsinlevingsstage (BIS)|
+749|Aanmelding en erkenning van een toeristisch logies|
+750|Toegang tot de LEZ in Brussel|
+751|Persoonlijk assistentiebudget voor personen met een handicap (PAB)|
+752|Rechtstreeks toegankelijke hulp (RTH) voor personen met een handicap|
+753|BE-Alert waarschuwingssysteem bij noodsituaties|
+754|Uw handicap laten erkennen en hulp aanvragen bij het VAPH|
+755|Bijkomende sluitingspremie|
+756|Afzonderlijke sluitingspremie |
+757|Sportmateriaal lenen|
+758|Bekers en medailles aanvragen voor een sportevenement|
+759|Een jachtplan bekijken of aanpassen|
+760|Ondersteuning voor leerlingen met specifieke onderwijsbehoeften|
+761|Herbruikbare bekers ontlenen|
+762|Niet-dringende interventies van de brandweer bij extreem weer|
+763|Erkenning als EPB-verslaggever|
+764|Vrijstelling van de jaarlijkse verkeersbelasting en de BIV voor milieuvriendelijke voertuigen|
+765|Gelijkwaardigheidserkenning van een buitenlands diploma of getuigschrift in Vlaanderen|
+766|Verlaagde schenkbelasting voor een energetische renovatie van een gebouw|
+767|Bewegen op verwijzing|
+768|City Pass|
+769|Voorleessoftware voor leerlingen met een leesbeperking|
+770|Europese handicapkaart of European Disability Card (EDC)|
+771|Passende beoordeling|
+772|Gratis verzekering voor vrijwilligers|
+773|Aanpassing van de geslachtsregistratie|
+774|Het Groeipakket|
+775|De voortoets|
+776|Erkenning als airco-energiedeskundige|
+777|Jaarlijkse aangifte van waterverbruik (grootverbruikers)|
+778|Energetische keuring van airconditioningsystemen|
+779|Rookstopbegeleiding|
+780|Ventilatiesysteem aanmelden voor de totaalrenovatiebonus (BENO-pass)|
+781|CurieuzeNeuzen Vlaanderen (onderzoek luchtkwaliteit)|
+782|Erkenning als technicus voor klimaatregelingsapparatuur in bepaalde motorvoertuigen|
+783|Wijk-werken|
+784|Attest van wettelijke samenwoning|
+785|Vergoeding voor schade door slechte staat van de weg of door wegenwerken|
+786|Attest van verblijfplaats met het oog op een huwelijk|
+787|Overheidsopdrachten voor werken|
+788|Overheidsopdrachten voor leveringen|
+789|Overheidsopdrachten voor diensten|
+790|Attest van wijze van teraardebestelling en/of rituelen|
+791|Attest van Belgische kiezer|
+792|Akte van prenatale erkenning|
+793|Akte van erkenning|
+794|Opleidingsdatabank opleidingsverlof WSE|
+795|Uittreksel uit het bevolkingsregister|
+796|Akte van adoptie|
+797|Akte van verklaring van naamskeuze|
+798|Akte van naamsverandering|
+799|Akte van voornaamsverandering|
+800|Akte van aanpassing van de registratie van het geslacht|
+801|Akte van betwisting vaderschap|
+802|Akte van Belgische nationaliteit|
+803|Akte van een levenloos kind|
+804|Vakantie voor oudere werknemers die het werk hervatten - seniorvakantie|
+805|Kinderbijslag tot 18 jaar|
+806|Reisdocument voor staatlozen, vluchtelingen en vreemdelingen|
+807|Jaarlijkse verkeersbelasting voor oldtimers |
+808|Verkooprecht sinds 1 juni 2018|
+809|Erkenning als metaaldetectorist|
+810|Erkenning als archeoloog|
+811|Ontheffing van het ontbossingsverbod|
+812|Vakantieschakel|
+813|Belasting op de inverkeerstelling (BIV) voor oldtimers |
+814|Onbelast bijverdienen|
+815|Toeslag op de kinderbijslag voor langdurig zieken en arbeidsongeschikten|
+816|Mobiliteitsvergoeding (cash for car)|
+817|Mobiliteitsbudget|
+818|Praktisch jachtexamen|
+819|Theoretisch jachtexamen|
+820|Subsidie voor een volkstuin 2018|
+821|Generieke terugmelding|
+822|Kadastraal uittreksel|
+823|De sociale toeslag (Groeipakket)|
+824|De zorgtoeslagen (groeipakket)|
+825|De kinderopvangtoeslag (Groeipakket)|
+826|De kleutertoeslag (Groeipakket)|
+827|De schooltoeslag vanaf schooljaar 2019-2020 (Groeipakket)|
+828|Startbedrag (Groeipakket)|
+829|Basisbedrag (Groeipakket)|
+830|Schoolbonus (Groeipakket)|
+831|Veranderen van voornaam|
+832|Student-zelfstandige|
+833|Maaltijdcheques|
+834|Bewijs van beroepsbekwaamheid voor gereglementeerde beroepen|
+835|MuseumPASSmusées|
+836|Mijn Burgerprofiel|
+837|Vrijstelling doorstorting bedrijfsvoorheffing voor onderzoekers|
+838|Erkenning van technici voor elektrische schakelinrichtingen|
+839|Verlaagde schenkbelasting voor een gebouw met conformiteitsattest dat verhuurd wordt|
+840|Schadevergoeding van het Vlaams Rampenfonds|
+841|Pleegzorgtoeslag (Groeipakket)|
+842|Wezentoeslag (Groeipakket)|
+843|Aanloopsteun voor de ontwikkeling van kleine landbouwbedrijven|
+844|Huurwaarborglening van het Vlaams Woningfonds|
+845|Premie van de netbeheerder voor een warmtepompboiler|
+846|Vrijstelling van de onroerende voorheffing na verbouwing van een hand|
+847|Vrijstelling van de onroerende voorheffing na sloop en vervanging van een ongeschikte of onbewoonbare woning |
+848|Vrijstelling van de onroerende voorheffing na sloop en vervanging van een leegstaande of verwaarloosde bedrijfsruimte|
+849|Gedeeltelijke vrijstelling van de onroerende voorheffing na verbouwing van een handelspand in een kernwinkelgebied |
+850|Vrijstelling van de onroerende voorheffing na verbouwing van een handelspand in een winkelarm gebied |
+851|Sloop- en heropbouwpremie|
+852|Toelating om in een maatwerkplaats te werken|
+853|Subsidie voor ontwikkelingssamenwerking|
+854|Juridische hulp|
+855|Tijdelijke opvang in een centrum voor kortverblijf|
+856|Naschoolse sportactiviteit|
+857|Gemeentelijke subsidie voor jeugdprojecten|
+858|Werkingssubsidie voor sociaal-culturele verenigingen|
+859|Ondersteuning via opvoedingswinkels|
+860|Loopbaanbegeleiding|
+861|Subsidies voor projecten in de cultureel-erfgoedsector|
+862|Erkenning als natuurreservaat|
+863|Erkenning en subsidiëring van de dagcentra voor palliatieve zorg|
+864|Erkenning en subsidiëring van de dagverzorgingscentra voor ouderen|
+865|Erkenning en subsidiëring van de centra voor kortverblijf voor ouderen|
+866|Erkenning en subsidiëring van de sector samenlevingsopbouw|
+867|Erkenning en subsidiëring van de samenwerkingsinitiatieven eerstelijnsgezondheidszorg (SEL)|
+868|Subsidies voor internationale topsportevenementen|
+869|Erkenning en subsidiëring van Toerisme voor Allen-verblijven|
+870|Erkenning en subsidiëring van de woonzorgcentra en rust- en verzorgingstehuizen.|
+871|Erkenning en subsidiëring van serviceflats voor ouderen|
+872|Subsidie voor circuskunsten|
+873|Vlaamse aanpassingspremie|
+874|Subsidies voor een jeugdverblijfcentrum en hostel|
+875|Gezinszorg|
+876|Onderhoudspremie en beheerspremie voor varend erfgoed|
+877|Woonkrediet van het Vlaams Woningfonds|
+878|Outplacement voor werknemers|
+879|Schadevergoeding bij een landbouwramp|
+880|Stagebonus |
+881|Vlaamse doelgroepvermindering voor jongeren|
+882|Vlaamse doelgroepvermindering voor oudere werknemers|
+883|Erfgoedpremie beschermde monumenten en landschappen - bijzondere procedure|
+884|Subsidie voor een diversiteitsplan|
+885|Subsidie aan havenbedrijven voor bepaalde havenkapiteinsdiensten|
+886|Start- en investeringssteun visserij- en aquacultuursector|
+887|De Lijn - Buzzy Pazz of Omnipas bij inleveren nummerplaat|
+888|Vlaams innovatienetwerk (VIN)|
+889|KidsInvest|
+890|Projectgebonden subsidies of medefinanciering aan havenbedrijven|
+891|Medefinanciering instandhouding en onderhoud maritieme toegangswegen|
+892|Kwaliteitsmerk voor autosnelwegparkings in Vlaanderen|
+893|Seed & Early Stage|
+894|Archief - Voordelige lening voor innoverende onderneming (Innovatiemezzanine)|
+895|Erkenning classificeerders voor de indeling van geslachte runderen|
+896|Erkenning classificeerders voor de indeling van geslachte varkens|
+897|Archief - Erkenning toezichthouders op de indeling van geslachte runderen en varkens|
+898|Erkenning gespecialiseerd pluimveebedrijf|
+899|Kwaliteitscontrole en herkomstcontrole bosbouwkundig teeltmateriaal|
+900|Kwaliteitscontrole en certificering aardappelpootgoed|
+901|Subsidie schoolmelk|
+902|Erkenning operator van aardappelpootgoed|
+903|Erkenning leverancier van bosbouwkundig teeltmateriaal|
+904|Erkenning loontrieerder van zaaizaden |
+905|Erkenning operator actief in de sector zaaizaad (productie en handel)|
+906|Erkenning operator van teeltmateriaal fruit-, groente- en siergewassen|
+907|Kwaliteitscontrole en certificering fruitgewassen|
+908|Kwaliteitscontrole en certificering zaaizaden|
+909|Kwaliteitscontrole groentegewassen|
+910|Kwaliteitscontrole siergewassen|
+911|Erkenning hopbereider|
+912|Kwaliteitscontrole en certificering hop|
+913|Erkenning fokkersverenigingen - Bijhouden rasstamboeken|
+914|Erkenning fokkersverenigingen - bijhouden registers hybride dieren|
+915|Zoötechnische erkenning centra voor sperma, eicellen of embryo|
+916|Erkenning keuringsinstelling koeltechnische bedrijven en examencentra|
+917|Aanmelden nieuw ras van landbouw- of groentegewassen|
+918|Erkenning en subsidiëring voorzieningen opvang van kinderen met een handicap|
+919|Erkenning en subsidiëring ambulante begeleidingsdiensten gehandicapten|
+920|Persoonlijke-assistentiebudget voor personen met een handicap|
+921|Tegemoetkoming voor hulpmiddelen voor personen met een handicap|
+922|Archief - Aanmelden en vergunnen van een toeristisch logies|
+923|Subsidie originele en innoverende stadsprojecten|
+924|Tegemoetkoming voor bijzonder cultuuraanbod Podium|
+925|Opname in het aanbod Podium|
+926|Attest hinder openbare werken|
+927|Inkomensgarantie voor ouderen|
+928|Kinderbijslag van 18 tot 25 jaar|
+929|Gewaarborgd kraamgeld |
+930|Gewaarborgde gezinsbijslag|
+931|Jaarlijkse bijslag bij het kindergeld (schoolpremie)|
+932|Toeslag bij de kinderbijslag voor langdurig werklozen en gepensioneerden|
+933|Wezenbijslag|
+934|Initio, een voordelige lening voor zelfstandigen en kleine ondernemingen|
+935|Toeslag bij de kinderbijslag voor eenoudergezinnen|
+936|Toeslag op de kinderbijslag voor kinderen met een handicap|
+937|Loopbaanonderbreking in de openbare sector|
+938|Steun voor een portfolio van haalbaarheidsstudies voor bedrijven|
+939|Vrijstelling schenkingsrechten voor overdracht familiale ondernemingen en vennootschappen|
+940|Vermindering erfbelasting voor overdracht familiale ondernemingen en vennootschappen|
+941|Verslag voor toegang tot het buitengewoon onderwijs|
+942|Belastingvermindering voor verhuurders die renoveren en hun woningen verhuren aan sociaal verhuurkantoor.|
+943|Uw handicap laten erkennen en hulp aanvragen bij het VAPH|
+944|Young in BXL - subsidie voor Straatburgerschap|
+945|Europese gehandicaptenkaart|
+946|Subsidie voor het correct afstellen van verwarmingsinstallaties op school|
+947|Het Persoonsvolgend budget voor personen met een handicap (PVB)|
+948|Tegemoetkoming voor hulpmiddelen voor personen met een handicap|
+949|Kinderbijslag tot 18 jaar|
+950|Toeslag op de kinderbijslag voor langdurig zieken en arbeidsongeschikten|
+951|Werkingssubsidie voor de werking van het Kenniscentrum Vlaamse Steden|
+952|Raamcontracten buiten de basis scope van Het Facilitair Bedrijf-raamcontracten|
+953|Toegangsbeheer|
+954|Digitale handtekening|
+955|Gebruikersbeheer|
+956|Generiek Informatieplatform Openbaar Domein (GIPOD)|
+957|Informatiecatalogus|
+958|Interbestuurlijke Product- en Dienstencatalogus (IPDC)|
+959|Vlaams Open data Portaal|
+960|Begeleiding van ondernemingen bij business case|
+961|Vlimpers module Vacaturemarkt|
+962|Premie voor diplomagerichte opleidingen in het secundair volwassenenonderwijs|
+963|Individuele ontheffing voor verboden activiteiten in het Vlaams Ecologisch Netwerk|
+964|Aanvragen en rapporteren afwijking op het soortenbesluit en jachtregelgeving|
+965|Indienen jachtplan|
+966|Melding bestrijding (canadese gans, damhert, edelhert, grauwe gans, houtduif, kievit, konijn, moeflon, smient, vos, wild zwijn, wilde eend)|
+967|Melding bijzondere jacht (canadese gans, damhert, edelhert, grauwe gans, houtduif, kievit, konijn, moeflon, smient, vos, wild zwijn, wilde eend)|
+968|Staalname everzwijn|
+969|Vergunning voor het wijzigen van vegetarie of van kleine landschapselementen|
+970|Verwijderen van een perceel uit een jachtplan|
+971|Wildrapport|
+972|Certificatie van schepen|
+973|Duplicaat van een Verklaring matroos|
+974|informatieverstrekking binnenvaart (River Information Services)|
+975|Verklaring matroos|
+976|Radarpatent|
+977|Rijnpatent|
+978|verkoop van vaarvignet (pleziervaart)|
+979|Beurs voor het doorgeven van vakmanschap in een meester-leerling-traject|
+980|attestering Federale wetgeving tax shelter audiovisueel |
+981|erkenningsprocedure Mediadecreet erkenningen lokale radio's |
+982|Geïntegreerde woonbonus|
+983|Advies verlenen en communicatie verspreiden over de Nederlandse taal via de Taaltelefoon|
+984|Erkennen van algemene rampen en schadebedragen uitbetalen aan geteisterden (Rampenfonds)|
+985|Goedkeuren van jachtplannen en toekennen van jachtverloven en -vergunningen|
+986|Subsidie aan Fonds voor Scheepsjongeren|
+987|Erkenning als centrum voor voortplantingstechnieken|
+988|Erkenning van het bedrijf ikv pluimveehouderij|
+989|Erkenning als vereniging of organisatie voor stamboekwerking of vereenvoudigd beheer|
+990|Aanvragen van bemonsteringen voor kwaliteitscontrole teeltmateriaal|
+991|Directe steun - jonge landbouwer|
+992|Directe steun - vergroening|
+993|Directe steun- basisbetaling|
+994|Financieringsinstrument voor de Vlaamse Visserij- en aquacultuursector: projectsteun|
+995|Inschrijving van rassen van landbouw-, groente- en fruitgewassen|
+996|Inschrijving van teelten voor productie van zaaizaad en pootgoed|
+997|Waarborgen Vlaams Landbouwinvesteringsfonds|
+998|VLAREM wegwijzer|
+999|Kennisgeving zendantennes radioamateur|
+1000|Erkenning voor verenigingen voor projecten met een meerwaarde voor natuur en milieu|
+1001|Milieunavigator|
+1002|Lage emissiezone: systeem voor handhaving|
+1003|Advies of Milieueffectrapportage nodig is|
+1004|Advies of ruimtelijk veiligheidrapport nodig is|
+1005|Bepaling Sevesostatus|
+1006|Conformiteitsattest zendantennes|
+1007|Invordering retributies erkenningen|
+1008|Ruimtelijk Uitvoeringsplan|
+1009|Stiltegebieden|
+1010|Columbus (studiekeuzebegeleiding)|
+1011|Slachtofferonthaal bij een gerechtelijke procedure|
+1012|Vlaams opleidingsverlof|
+1013|Onderzoekspremie voor opmaak beheersplan|
+1014|Advies voor vergunningsplichtige handelingen|
+1015|Metaaldetectievondsten melden|
+1016|Archeologisch traject bij vergunningsaanvragen|
+1017|Archeologisch traject bij wetenschappelijk onderzoek|
+1018|Beheersplan opmaken|
+1019|Beschermingsprocedure|
+1020|Erfgoedlening|
+1021|Toelatingen voor niet-vergunningsplichtige handelingen|
+1022|Toevalsvondsten melden|
+1023|Vermindering personenbelasting|
+1024|Vermindering verkooprecht en schenkbelasting|
+1025|Monitoring van tarieven en capaciteiten van stortplaatsen en verbrandingsinstallaties|
+1026|Beheren van risicogronden (gemeentelijke inventaris)|
+1027|Benchmarking en adviesverlening aan gemeenten qua beleid op vlak van huishoudelijke afvalstoffen|
+1028|Berekenen van materiaalprestaties van gebouwen|
+1029|In en uitvoer van afvalstoffen (EVOA richtlijn)|
+1030|Melding sluiting risico-activiteit|
+1031|Ontvangen en verwerken van bodemonderzoek|
+1032|Opvolgen en uitvoeren van ambtshalve sanering|
+1033|Platform voor bedrijven voor het valoriseren van afvalstoffen|
+1034|Registratie voor vooraf goedgekeurde inrichting voor het verwerken van afvalstoffen|
+1035|Vrijstelling van onderzoeksplicht|
+1036|Vergunnen en subsidiëren van vergunde zorgaanbieders|
+1037|Certificatie van gebouwen bij verkoop en nieuwbouw (EPB)|
+1038|Energie-audit grote ondernemingen|
+1039|Uitvoeren van een energieprestatiecertificaat (EPC) certificatie|
+1040|Vrijstelling onroerende voorheffing voor materieel en outillage|
+1041|Vrijstelling van de onroerende voorheffing voor nationale domeingoederen|
+1042|Vrijstelling van de verkeersbelasting en de BIV voor elektrische voertuigen en voertuigen op aardgas (CNG/LNG)|
+1043|Gedeeltelijke vrijstelling van de onroerende voorheffing na renovatie van een verwaarloosde of onbewoonbare woning|
+1044|Verlaagd tarief voor beroepskopers|
+1045|Verlaagde schenkbelasting voor een gebouw met conformiteitsattest dat verhuurd wordt|
+1046|Vrijstelling van de onroerende voorheffing na verbouwen van een handelspand|
+1047|Vrijstelling van erfbelasting voor personen met een handicap|
+1048|Toelating om in een beschutte werkplaats te werken|
+1049|Een arbeidshandicap erkennen|
+1050|Begeleiding bij het zoeken van de juiste baan - VDAB|
+1051|Beroepsopleiding voor werkzoekenden, werknemers en zelfstandigen|
+1052|Sollicitatiecoaching voor werkzoekenden|
+1053|Uitvoeren van bedrijfsdoorlichting in het kader van het mestdecreet|
+1054|Vergoeding bij realiseren gebruiksruil|
+1055|Vergoeding gebiedsgericht project|
+1056|Vergoeding natuurinrichting|
+1057|Uittreksel akte natuurinrichting|
+1058|Uittreksel akte ruilverkaverling|
+1059|Aanvraag koopplicht|
+1060|Subsidies voor landinrichtingswerken|
+1061|Koop, verkoop en ruil van grond via de Vlaamse Grondenbank|
+1062|Aanvraag voor vergoeding vrijwillige bedrijfsverplaatsing, bedrijfsreconversie of bedrijfsstopzetting|
+1063|Begeleiden en ondersteunen van plattelandsinitiatieven|
+1064|Ondersteunen van projecten Omgevingskwaliteit|
+1065|Subsidiëren LEADER-samenwerkingsprojecten|
+1066|Uitbetalingen compensatie cultuurschade|
+1067|Recht van voorkoop in Vlaanderen|
+1068|Verstrekken en beheren van schuldsaldoverzekering|
+1069|Aanbieden van een financiële planningstool aan woonactoren|
+1070|Ontwikkelen en verlenen van vorming aan woonactoren|
+1071|Beheren van rekening-courant van Sociale Huisvestingsmaatschappijen|
+1072|Doorbetalingsgarantie voor eigenaars van Sociale VerhuurKantoor (SVK)-woningen |
+1073|Openbare ruimte aanleggen|
+1074|Technische en administratieve ondersteuning bieden van start ontwerp tot oplevering van de bouwwerken|
+1075|Financiering voor sociale bouwprojecten|
+1076|Verstrekken van leningen aan initiatiefnemers|
+1077|Vergunningsbesluit|
+1078|Subsidiëring Polders & Wateringen|
+1079|Aanvraag of melding van de verbreking van de verzegeling van een watermeter of aanvraag van een (her)verzegeling|
+1080|Aanvraag tot vrijstelling van de heffingen op de waterverontreiniging om sociale reden|
+1081|Aanvraag van een vrijstelling van de heffing op de waterverontreiniging bij het gebruik van een IBA - Verklaring van de burgemeester|
+1082|Aanvraag voorschot subsidieerbare werken: verklaring op erewoord|
+1083|Subsidie kleinschalige waterzuiveringsinstallatie|
+1084|Activiteiten in het kader van het reglementering inzake de kwaliteit en levering van water bestemd voor menselijke consumptie|
+1085|Advies bodemsaneringsdossier|
+1086|Advies mbt grondwater|
+1087|Advies mbt lozing in de atmosfeer|
+1088|Advies mbt lozing van afvalwater|
+1089|Advies mbt omgevingsvergunning|
+1090|Adviezen - reguleren tarief saneringscomponenten|
+1091|Adviezen en behandeling afwijkingsaanvragen mbt pesticidengebruik, onderhouden website Zonderisgezonder, opmaken rapport Duurzaam Pesticidengebruik|
+1092|Subsidies riolering|
+1093|Erkenning voor boorbedrijven|
+1094|Inlichtingen mbt bemonstering van afvalwater|
+1095|Heffingsbiljet grondwater en afvalwater|
+1096|Jaarlijkse rapportering van de zelfcontrole op private waterbevoorrading voor menselijke consumptie|
+1097|Machtiging werken waterlopen|
+1098|Melding buitengebruikstelling waterwinning|
+1099|Melding ingebruikname eigen waterwinning|
+1100|Melding van de bemonstering voor de heffing op de waterverontreiniging|
+1101|Melding van de ingebruikname van een grondwaterwinning voor grootverbruikers|
+1102|Melding van de overstap van een zuivere eigenwater­winning naar een gemengde eigenwaterwinning (eigen waterwinning en leidingwater)|
+1103|Melding van meet- en bemonsteringsgegevens van het geloosde afvalwater voor de heffing op de waterverontreiniging|
+1104|Melding van meet- en bemonsteringsgegevens van het opgenomen oppervlaktewater voor de heffing op de waterverontreiniging|
+1105|Prestatievergelijking drinkwatermaatschappijen|
+1106|Project Rio-Leren|
+1107|Rapportering gemeentelijke sanering|
+1108|Rattenbestrijding|
+1109|Slibruiming|
+1110|Subsidieprogramma gemeentelijke saneringsinfrastructuur|
+1111|Subsidiëring Polders|
+1112|Vraagafhankelijk vervoer|
+1113|Inruilen nummerplaat voor abonnement|
+1114|Fietsvergoeding|
+1115|Derdebetalersovereenkomsten|
+1116|Verhoogde Tegemoetkoming (VT) [vroeger WIGW Omnio]|
+1117|Verkoop abonnementen|
+1118|Verkoop tickets|
+1119|Belastingvermindering bij renovatieovereenkomst (papa- en mamalening)|
+1120|Een voorlopige erkenning als paramedicus omzetten naar een definitieve erkenning|
+1121|Een erkenning aanvragen als paramedicus|
+1122|Een voordeel (of derogatie) op basis van verworven rechten aanvragen voor een paramedisch beroep|
+1123|Een erkenning aanvragen als kinesitherapeut voor een bijzondere beroepsbekwaamheid|
+1124|Een erkenning aanvragen als arts|
+1125|Een erkenning aanvragen als tandarts|
+1126|Financiering van lokale multidisciplinaire netwerken|
+1127|Geïntegreerde Diensten voor Thuisverzorging|
+1128|Gezondheidsgegevens raadplegen via de Patient Health Viewer|
+1129|Palliatieve samenwerkingsverbanden|
+1130|Zich registreren als zorgkundige|
+1131|Een erkenning aanvragen als verpleegkundige voor een bijzondere beroepstitel of een bijzondere beroepsbekwaamheid|
+1132|Een erkenning aanvragen als ziekenhuisapotheker|
+1133|Een erkenning aanvragen om met een buitenlands diploma van binnen de EER of Zwitserland een gezondheidszorgberoep uit te oefenen|
+1134|Een erkenning aanvragen voor een van de drie bijzondere beroepstitels: algemene tandheelkunde, orthodontie of parodontologie.|
+1135|Een erkenning aanvragen als arts-specialist of huisarts|

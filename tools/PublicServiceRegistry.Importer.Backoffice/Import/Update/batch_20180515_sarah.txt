@@ -1,0 +1,280 @@
+id|naam|bevoegdeAuthoriteit
+1|Subsidies Vlaanderen maakt deel uit van een slagkrachtige EU|OVO000032
+2|Subsidies Vlaanderen heeft goede relaties met buitenlandse overheden|OVO000032
+3|Subsidies Vlaanderen is gericht aanwezig in multilaterale organisaties|OVO000032
+4|Subsidies Vlaanderen is gekend als sterke en innovatieve economie |OVO000032
+5|Subsidies Vlaanderen is erkend als logistieke toegangspoort tot Europa|OVO000032
+6|Subsidies Vlaanderen staat te boek als een top toeristische bestemming|OVO000032
+7|Subsidies Vlaanderen is synoniem voor state of the art |OVO000032
+8|Subsidies Vlaanderen geldt als place to be voor onderwijs en wetenschap|OVO000032
+9|Subsidies Expats in binnen- en buitenland zijn geïnspireerd door Vlaanderen|OVO000032
+10|Subsidies Vlaanderen is wereldwijd nog prominenter gepositioneerd als sterke en innovatieve economie|OVO000032
+11|Subsidies Internationalisering staat nog meer centraal in de groeistrategie van bedrijven en clusters|OVO000032
+12|Subsidies Een meer gerichte internationalisering versterkt het economisch weefsel in Vlaanderen|OVO000032
+13|Subsidies Een vrijere en eerlijkere internationale handel is gunstig voor de Vlaamse economie|OVO000032
+14|Subsidies De internationale bereikbaarheid van de Vlaanderen verzekert de concurrentiepositie van de Vlaamse economie|OVO000032
+15|Subsidies De Vlaamse samenwerking blijft concentreerd op de partnerlanden in Zuidelijk Afrika|OVO000032
+16|Subsidies We spelen permanent in op belangrijke trends en evoluties in Zuidelijk Afrika|OVO000032
+17|Subsidies Vlaanderen leeft internationale verbintenissen inzake internationale klimaatbijstand na|OVO000032
+18|Subsidies Vlaanderen schakelt zich in de internationale armoede agenda in|OVO000032
+19|Subsidies Vlaanderen streeft naar een betere naleving van de rechten van de mens wereldwijd|OVO000032
+20|Subsidies De herdenking van de Eerste Wereldoorlog versterkt de vredesgedachte|OVO000032
+21|Subsidies Vlaanderen draagt zijn expertise uit inzake trauma en transformatie|OVO000032
+22|Subsidies Good governance is een rode draad door de Vlaamse ontwikkelingssamenwerking|OVO000032
+23|Subsidies Bedrijven ondernemen duurzaam en 'maatschappelijk verantwoord' in het buitenland|OVO000032
+24|Subsidies Er is respect voor arbeids- en milieunormen|OVO000032
+25|Subsidies Vlaanderen voert een verantwoord(elijk) vergunningsbeleid voor handel en strategische goederen|OVO000032
+26|_niet van toepassing|OVO000032
+27|_maatregel nog toe te voegen|OVO000032
+28|Facultatieve subsidie Beleid Binnenland|OVO001835
+29|Investeringssubsidie crematoria|OVO001835
+30|Investeringssubsidie gebouwen erediensten en niet confessionele dienstverlening|OVO001835
+31|Werkingssubsidie Beleid Binnenland|OVO001835
+32|Facultatieve subsidie Integratie- en Inburgeringsbeleid|OVO001835
+33|Nominatim subsidie Gelijke kansen|OVO001835
+34|Projectsubsidie Gelijke kansen|OVO001835
+35|Projectsubsidie integratie- en inburgeringsbeleid|OVO001835
+36|Werkingssubsidie Gelijke kansen|OVO001835
+37|Werkingssubsidie Integratie- en inburgeringsbeleid|OVO001835
+38|Facultatieve subsidie i.k.v. stedenbeleid|OVO001835
+39|Projectsubsidie i.k.v. duurzame en creatieve steden|OVO001835
+40|Subsidie aan stadsvernieuwingsprojecten|OVO001835
+41|Werkingssubsidie stedenbeleid|OVO001835
+42|Subsidie Projecten voor Brussel (Subsidiegids)|OVO001835
+43|Projectsubsidie Brussel (buiten subsidiegids)|OVO001835
+44|Investeringssubsidie aan VGC |OVO001835
+45|Ad nominatim subsidie Brussel & Vlaamse Rand|OVO001835
+46|Facultatieve subsidie faciliteitengemeenten|OVO001835
+47|Impulsprojectsubsidie Vlaamse Rand|OVO001835
+48|_niet van toepassing|OVO001835
+49|_maatregel nog toe te voegen|OVO001835
+50|Ad nominatum subsidie|OVO003323
+51|"Doelgerichte subsidies milieu, klimaat en duurzaamheid"|OVO003323
+52|"ESPON-bijdrage voor intergewestelijke en internationale projecten, cofinanciering voor communautaire initiatieven inzake ruimtelijke ordening"|OVO003323
+53|"Financiering internationale projecten of initiatieven ter uitvoering van internationale engagementen gerelateerd aan het milieu- en natuurbeleid, duurzame ontwikkeling en ontwikkelingssamenwerking (o.a. water, klimaat, biodiversiteit)"|OVO003323
+54|Klimaatprijs|OVO003323
+55|Subsidie apparatuur geluidsmeting (handhaving)|OVO003323
+56|Subsidie apparatuur geluidsmeting (meting en registratie)|OVO003323
+57|Subsidie bevordering dierenwelzijn|OVO003323
+58|Subsidie bevordering luchtkwaliteit|OVO003323
+59|Subsidie erosiebestrijdingsmaatregelen en werkingsuitgaven bodembescherming en valorisatie ondergrond (kleinschalige erosiebestrijdingswerken)|OVO003323
+60|Subsidie erosiebestrijdingsmaatregelen en werkingsuitgaven bodembescherming en valorisatie ondergrond (opmaak erosiebestrijdingsplan)|OVO003323
+61|Subsidie erosiebestrijdingsmaatregelen en werkingsuitgaven bodembescherming en valorisatie ondergrond (werking erosiecoördinator)|OVO003323
+62|Subsidie ondersteuning in het kader van algemeen belang bij invulling van bovengemeentelijke saneringsverplichting|OVO003323
+63|Subsidie ondersteuning organisaties doorwerken ruimtelijk beleid|OVO003323
+64|Subsidie opmaak vergunningenregister en plannenregister|OVO003323
+65|Subsidie vergoeding planschade (Rubiconfonds)|OVO003323
+66|Subsidie voor opmaak en actualisatie register onbebouwde percelen|OVO003323
+67|Subsidie voor Steunpunt Milieu en Gezondheid|OVO003323
+68|"Subsidie voor Vlaamse Geotheek, Databank Ondergrond Vlaanderen"|OVO003323
+69|Subsidies bestuurskracht ruimtelijke projecten|OVO003323
+70|Subsidies bijdragen aan multilaterale milieu- en natuurverdragen en samenwerkingsakkoorden (milieu)|OVO003323
+71|Subsidies bijdragen multilaterale energieverdragen en samenwerkingsakkoorden (energie)|OVO003323
+72|Subsidies DAC-statuut |OVO003323
+73|Subsidies digitale omgevingsvergunningenloket|OVO003323
+74|Subsidies erkende milieu- en natuurverenigingen|OVO003323
+75|Subsidies leegstaande bedrijfsruimten (vernieuwingsfonds)|OVO003323
+76|Subsidies leegstaande bedrijfsruimten (verwerving en sanering - variabel krediet)|OVO003323
+77|Subsidies projecten in het kader van maatregelenpakket Clean Power for Transport (CPT)|OVO003323
+78|Subsidies projecten Klimaatfonds|OVO003323
+79|Subsidies projecten realisatie van laad- en tankinfrastructuur (BENEFIC)|OVO003323
+80|Subsidies Samenwerkingsovereenkomst - Gemeenten|OVO003323
+81|Subsidies Samenwerkingsovereenkomst - Provincies|OVO003323
+82|Subsidies uitvoering natuur- en milieutaken door doelgroepwerknemers  |OVO003323
+83|Subsidies VIA-akkoorden - eindejaarspremie|OVO003323
+84|Subsidies VIA-akkoorden - uitbreidingstewerkstelling|OVO003323
+85|Subsidies voor projecten in uitvoering van Vlaams strategisch belang (coördinatie)|OVO003323
+86|Subsidies voor projecten in uitvoering van Vlaams strategisch belang (verwerving)|OVO003323
+87|Subsidies voor ruimtelijke impulsprojecten|OVO003323
+88|Subsidies voor uitvoering van landinrichtingsplannen (uitdovend)|OVO003323
+89|_niet van toepassing|OVO003323
+90|_maatregel nog toe te voegen|OVO003323
+91|Erkenning en subsidiëring inloopteams|OVO000061
+92|Erkenning en subsidiëring consultatiebureaus|OVO000061
+93|Subsidies voor leveringen aan voorzieningen preventieve zorg en voor huisbezoeken|OVO000061
+94|Subsidies aan ziekenhuizen met kraamkliniek voor infovergadering kind op komst|OVO000061
+95|Subsidies aan prenatale steunpunten|OVO000061
+96|Erkenning en subsidiëring expertisecentra kraamzorg|OVO000061
+97|Erkenning en subsidiëring huizen van het kind|OVO000061
+98|Subsidie/toelage vormingsinitiatieven kinderopvang|OVO000061
+99|Projectsubsidies kinderopvang|OVO000061
+100|Subsidie voor de gemandateerde voorzieningen ikv kinderopvang|OVO000061
+101|Subsidie kinderopvang - basissubsidie gezinsopvang|OVO000061
+102|Subsidie kinderopvang - basissubsidie groepsopvang |OVO000061
+103|Subsidie kinderopvang - subsidie voor inkomenstarief gezinsopvang|OVO000061
+104|Subsidie kinderopvang - subsidie voor inkomenstarief groepsopvang|OVO000061
+105|Subsidie kinderopvang - plussubsidie gezinsopvang|OVO000061
+106|Subsidie kinderopvang - plussubsidie groepsopvang|OVO000061
+107|Subsidie voor kinderopvang met flexibele openingstijden gezinsopvang|OVO000061
+108|Subsidie voor kinderopvang met flexibele openingstijden groepsopvang|OVO000061
+109|Subsidie kinderopvang - subsidie voor individuele inclusieve gezinsopvang|OVO000061
+110|Subsidie kinderopvang - subsidie voor individuele inclusieve groepsopvang|OVO000061
+111|Subsidie kinderopvang - subsidie voor structurele inclusieve gezinsopvang|OVO000061
+112|Subsidie kinderopvang - subsidie voor structurele inclusieve groepsopvang|OVO000061
+113|Subsidie kinderopvang - subsidie voor Centrum inclusieve kinderopvang|OVO000061
+114|Subsidie groepsopvang samenwerking|OVO000061
+115|Subsidie voor basisaanbod buitenschoolse opvang|OVO000061
+116|Subsidie voor initiatief buitenschoolse opvang|OVO000061
+117|Subsidie voor inkomenstarief buitenschoolse opvang|OVO000061
+118|Subsidie voor kinderen uit achtergestelde gebieden|OVO000061
+119|Subsidie voor buitenschoolse opvang in een afzonderlijke binnenruimte|OVO000061
+120|Subsidie voor buitenschoolse opvang met flexibele openingstijden|OVO000061
+121|Subsidie voor occasionele buitenschoolse opvang|OVO000061
+122|Subsidie voor individuele inclusieve buitenschoolse opvang|OVO000061
+123|Subsidie voor structurele inclusieve buitenschoolse opvang|OVO000061
+124|Subsidie buitenschoolse opvang - subsidie voor generatiepact|OVO000061
+125|"Subsidie voor gemandateerde voorzieningen, coördinatiepunten en flexibele opvangpools"|OVO000061
+126|Subsidie voor lokale dienst buurtgerichte buitenschoolse opvang|OVO000061
+127|Subsidie voor projecten vanuit het vroegere FCUD en voor personeelsleden met een gewezen gescostatuut|OVO000061
+128|Subsidie kinderopvang en buitenschoolse opvang ter uitvoering van VIA|OVO000061
+129|Projectsubsidie kinderopvang - ivm werknemersstatuut|OVO000061
+130|Projectsubsidie ivm pedagogische ondersteuning|OVO000061
+131|Erkenning en subsidiëring vertrouwenscentra kinderopvang|OVO000061
+132|Erkenning en subsidiëring centra voor kinderzorg en gezinsondersteuning|OVO000061
+133|Projectsubsidies PGO en adoptie|OVO000061
+134|Projectsubsidies gezinsondersteuning|OVO000061
+135|Erkenning en subsidiëring opvoedingswinkels|OVO000061
+136|Erkenning en subsidiëring groepsgericht aanbod opvoedingsondersteuning|OVO000061
+137|Adoptiepremie|OVO000061
+138|KOALA|OVO000061
+139|Projecten K&G en armoede (vroegere klaverbladen): project|OVO000061
+140|Ambulant aanbod pgo schoolgaande kinderen (De Ruimtevaart)|OVO000061
+141|Erkenning en subsidiëring mobiel aanbod door vrijwilligers|OVO000061
+142|Erkenning en subsidiëring opvoedingslijn|OVO000061
+143|Subsidies voor spel- en ontmoetingsinitiatieven|OVO000061
+144|Steunpunt WVG (de kindcheck)|OVO000061
+145|Mobiel aanbod taal en ontwikkelingsstimulering |OVO000061
+146|Subsidie adoptie - Begeleiding ongepland zwangeren|OVO000061
+147|Subsidie adoptie - Facultatieve subsidie MO|OVO000061
+148|Subsidie adoptie - Forfaitaire subsidie informatiegesprekken|OVO000061
+149|Subsidie adoptie - Basissubsidie BIAD|OVO000061
+150|Subsidie adoptie - Basissubsidie|OVO000061
+151|_niet van toepassing|OVO000061
+152|_maatregel nog toe te voegen|OVO000061
+153|Prijsuitreikingen van de KAGB aan onderzoekers |OVO000367
+154|Prijsuitreikingen van de KAGB aan onderwijsinstellingen van de institutionele overheid|OVO000367
+155|_niet van toepassing|OVO000367
+156|_maatregel nog toe te voegen|OVO000367
+157|Tegemoetkoming van de Vlaamse Sociale Bescherming voor niet-medische zorg (tenlasteneming)|OVO000120
+158|Werkingssubsidies aan zorgkassen|OVO000120
+159|Specifieke werkingssubsidie Vlaamse Zorgkas|OVO000120
+160|Vergoeding voor indicatiestellers zorgkassen |OVO000120
+161|Basisondersteuningsbudget zorgkassen|OVO000120
+162|Subsidie tenlastenemingen aan zorgkassen|OVO000120
+163|Investeringssubsidie aan de zorgkassen|OVO000120
+164|Zorgbudget voor zwaar zorgbehoevenden |OVO000120
+165|Zorgbudget voor ouderen met zorgnood|OVO000120
+166|Zorgbudget voor mensen met een handicap|OVO000120
+167|_niet van toepassing|OVO000120
+168|_maatregel nog toe te voegen|OVO000120
+169|Facultatieve subsidies ikv eerstelijnsgezondheidszorg|OVO000059
+170|Reglementaire subsidies samenwerkingsinitiatieven eerstelijnsgezondheidszorg (SEL)|OVO000059
+171|Reglementaire subsidies voor erkende palliatieve samenwerkingsverbanden|OVO000059
+172|Reglementaire subsidies voor erkende netwerken palliatieve zorg|OVO000059
+173|Reglementaire subsidie huisartsenkringen (HAK)|OVO000059
+174|financiële ondersteuning huisartsenpraktijken (impulseo)|OVO000059
+175|Reglementaire subsidies voor Geïntegreerde Diensten voor Thuisverzorging|OVO000059
+176|Subsidies voor koepels van ziekenhuizen en geestelijke gezondheidszorg|OVO000059
+177|Subsidies voor proeftuinen GGZ|OVO000059
+178|Subsidies voor centra voor de menselijke erfelijkheid|OVO000059
+179|Subsidies voor voorzieningen in de gezondheidszorg in uitvoering van het sociaal akkoord|OVO000059
+180|Subsidies voor Centra Geestelijke Gezondheidszorg|OVO000059
+181|Subsidie aan Vlaamse Vereniging voor Geestelijke Gezondheid|OVO000059
+182|Subsidie voor associatie beelvorming|OVO000059
+183|Subsidie voor familieplatform geestelijke gezondheid|OVO000059
+184|Subsidie voor overlegplatformen geestelijke gezondheid|OVO000059
+185|Projectsubsidies voor de geestelijke gezondheidszorg (GGZ)|OVO000059
+186|Subsidies op basis van beheersovereenkomsten Preventief gezondheidsbeleid|OVO000059
+187|Subsidies op basis van andere overeenkomsten Preventief gezondheidsbeleid|OVO000059
+188|Gereglementeerde subsidies Preventief gezondheidsbeleid|OVO000059
+189|Facultatieve subsidies Preventief gezondheidsbeleid|OVO000059
+190|Subsidiëring woonzorgcentra en rust- en verzorgingstehuizen.|OVO000059
+191|Subsidiëring dagverzorgingscentra conform art. 51 voor ouderen|OVO000059
+192|Subsidiëring dagverzorgingscentra niet-conform art. 51 voor ouderen|OVO000059
+193|Subsidiëring dagcentra voor palliatieve zorg|OVO000059
+194|Subsidiëring centra voor kortverblijf voor ouderen|OVO000059
+195|Tegemoetkoming voor ex-gesco bij ouderenvoorzieningen|OVO000059
+196|Tegemoetkoming voor ex-dac bij ouderenvoorzieningen|OVO000059
+197|Projectsubsidies ouderenzorg|OVO000059
+198|Subsidies aan netwerken voor de zorg voor dementerende personen en hun omgeving |OVO000059
+199|subsidiëring serviceflats voor ouderen|OVO000059
+200|Subsidies voor erkende verenigingen van gebruikers en mantelzorgers|OVO000059
+201|Subsidies voor erkende lokale dienstencentra|OVO000059
+202|Subsidies voor erkende regionale dienstencentra|OVO000059
+203|Subsidies voor personenalarmtoestellen in erkende lokale dienstencentra|OVO000059
+204|Subsidies voor personenalarmtoestellen in erkende regionale dienstencentra|OVO000059
+205|Subsidies voor erkende diensten voor oppashulp |OVO000059
+206|Subsidies voor erkende diensten maatschappelijk werk van het ziekenfonds |OVO000059
+207|Subsidies voor erkende diensten voor gastopvang |OVO000059
+208|Projectsubsidies voor de thuiszorg|OVO000059
+209|Subsidies voor animatiewerking in woonzorgcentra|OVO000059
+210|Subsidies voor erkende diensten voor gezinszorg en aanvullende thuiszorg|OVO000059
+211|Subsidies voor erkende diensten voor logistieke hulp |OVO000059
+212|Subsidies voor Overlegplatforms Geestelijke Gezondheidszorg|OVO000059
+213|Erkenning psychiatrische verzorgingstehuizen|OVO000059
+214|Erkenning en subsidiëring diensten voor thuisverpleging|OVO000059
+215|Epidemiologisch onderzoek en indicatorenverzameling|OVO000059
+216|Subsidie stimulering gegevensdeling in de zorg|OVO000059
+217|Subsidie voor het wetenschappelijk instituut volksgezondheid|OVO000059
+218|Subsidie voor demonstratieprojecten Vlaanderen medisch centrum|OVO000059
+219|Academische prijzen van de Koninklijke Academie voor Geneeskunde|OVO000059
+220|Subsidiëring CEBAM vzw voor het verstrekken van evidence-based gezondheidsvoorlichting|OVO000059
+221|_niet van toepassing|OVO000059
+222|_maatregel nog toe te voegen|OVO000059
+223|Dienstencheques|OVO000076
+224|Opleidingsfonds dienstencheques|OVO000076
+225|Doelgroepkorting|OVO000076
+226|Sectorkorting|OVO000076
+227|Mentorkorting|OVO000076
+228|VOP|OVO000076
+229|Aanwervingsincentive|OVO000076
+230|Transitiepremie|OVO000076
+231|GESCO|OVO000076
+232|DAC|OVO000076
+233|Jongerenbonus|OVO000076
+234|Startbaanovereenkomsten|OVO000076
+235|Werkervaring|OVO000076
+236|Regionale toetsing|OVO000076
+237|ESF- subsidies|OVO000076
+238|Aanmoedigingspremies|OVO000076
+239|Vlaams zorgkrediet|OVO000076
+240|Ervaringsfonds|OVO000076
+241|Arbeidskaarten|OVO000076
+242|Beroepskaarten|OVO000076
+243|Uitzendkantoren|OVO000076
+244|Administratieve geldboeten|OVO000076
+245|Toezicht|OVO000076
+246|Uitvoering kwaliteitsdecreet|OVO000076
+247|Bestrijding discriminatie|OVO000076
+248|Betaald educatief verlof|OVO000076
+249|Start- en stagebonus|OVO000076
+250|Ervaringsbewijs|OVO000076
+251|Sociale promotie|OVO000076
+252|Opleidingscheques|OVO000076
+253|Sectorconvenants|OVO000076
+254|Beschutte werkplaatsen|OVO000076
+255|Investeringssubsidies BW|OVO000076
+256|Sociale werkplaatsen|OVO000076
+257|Collectief maatwerk|OVO000076
+258|Individueel maatwerk|OVO000076
+259|Lokale diensteneconomie|OVO000076
+260|Arbeidszorg|OVO000076
+261|SINE|OVO000076
+262|Invoegbedrijven|OVO000076
+263|VIA|OVO000076
+264|ERSV|OVO000076
+265|Activiteitencooperaties|OVO000076
+266|Adviespremies|OVO000076
+267|Regierol|OVO000076
+268|BNCTO / Tracé|OVO000076
+269|Ondernemerschap & MVO (S)|OVO000076
+270|Ondernemerschap & MVO (OH)|OVO000076
+271|Loopbaan en diversiteit|OVO000076
+272|Focus op talent (S)|OVO000076
+273|Focus op talent (OH)|OVO000076
+274|Activa-uitkeringen (uitdovend)|OVO000076
+275|Werkhervattingstoeslag (uitdovend)|OVO000076
+276|Doelgroepkorting Gesco's SW|OVO000076
+277|Loopbaanonderbreking (uitdovend)|OVO000076
+278|Ondersteuning tewerkstellingsbeleid (onderzoek)|OVO000076
+279|Leningen hernieuwbare energie|OVO000076

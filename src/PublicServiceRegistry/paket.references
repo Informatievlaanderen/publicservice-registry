@@ -1,0 +1,17 @@
+Autofac
+Microsoft.Extensions.Logging.Abstractions
+Newtonsoft.Json
+SqlStreamStore.MsSql
+
+Be.Vlaanderen.Basisregisters.AggregateSource
+Be.Vlaanderen.Basisregisters.AggregateSource.ExplicitRouting
+
+Be.Vlaanderen.Basisregisters.CommandHandling
+Be.Vlaanderen.Basisregisters.CommandHandling.SqlStreamStore
+
+Be.Vlaanderen.Basisregisters.EventHandling
+
+Be.Vlaanderen.Basisregisters.Utilities.HexByteConvertor
+
+SourceLink.Embed.AllSourceFiles
+SourceLink.Copy.PdbFiles

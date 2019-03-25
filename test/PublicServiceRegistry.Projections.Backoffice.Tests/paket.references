@@ -1,0 +1,15 @@
+Microsoft.NETCore.App
+
+Microsoft.NET.Test.Sdk
+
+xunit
+xunit.runner.visualstudio
+xunit.categories
+FluentAssertions
+AutoFixture
+AutoFixture.Idioms
+AutoFixture.Xunit2
+CompareNETObjects
+Moq
+
+Be.Vlaanderen.Basisregisters.ProjectionHandling.Connector.Testing

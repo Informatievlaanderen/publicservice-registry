@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "baseUrl": "./src/PublicServiceRegistry.UI/app/",
+    "paths": {
+      "app/*": ["./src/PublicServiceRegistry.UI/app/*"],
+      "components/*": ["./src/PublicServiceRegistry.UI/app/components/*"],
+      "pages/*": ["./src/PublicServiceRegistry.UI/app/pages/*"],
+      "services/*": ["./src/PublicServiceRegistry.UI/app/services/*"],
+      "store/*": ["./src/PublicServiceRegistry.UI/app/store/*"],
+      "strings/*": ["./src/PublicServiceRegistry.UI/app/strings/*"]
+    }
+  },
+  "include": [
+      "./src/PublicServiceRegistry.UI/app/**/*"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
+}

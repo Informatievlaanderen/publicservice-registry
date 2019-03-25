@@ -1,0 +1,872 @@
+Id|NaamAflopend sorteren|nieuwe verantwoordelijke entiteit|nieuwe OVO-code verantw ent
+DVR000002133|Leefloon123|POD Maatschappelijke integratie|OVO027345
+DVR000002134|Noodoproepen|Algemene Directie van de Civiele Veiligheid|OVO027254
+DVR000002135|Overlevingspensioen|Federale Pensioendienst|OVO024764
+DVR000002136|Huwelijk|Federale Overheid|OVO027233
+DVR000002137|Wettelijk samenwonen|Federale Overheid|OVO027233
+DVR000002138|Buitenlandse huwelijksakte erkennen en overschrijven|Federale Overheidsdienst Buitenlandse Zaken, Buitenlandse Handel En Ontwikkelingssamenwerking|OVO024762
+DVR000002139|Collectieve schuldenregeling|Federale Overheidsdienst Justitie|OVO003988
+DVR000002140|Kids-ID: Elektronisch identiteitsdocument voor kinderen onder de 12 jaar|Bevolking en Identiteitskaarten|OVO027249
+DVR000002141|Elektronische identiteitskaart (eID)|Bevolking en Identiteitskaarten|OVO027249
+DVR000002142|Nietig verklaren van een huwelijk|Federale Overheidsdienst Justitie|OVO003988
+DVR000002143|Internationaal rijbewijs|Federale Overheidsdienst Mobiliteit en Vervoer|OVO004067
+DVR000002144|Federaal token|Federale Overheidsdienst Beleid en Ondersteuning|OVO025178
+DVR000002145|Een kind erkennen|Federale Overheidsdienst Justitie|OVO003988
+DVR000002146|Geboorteaangifte|Federale Overheidsdienst Justitie|OVO003988
+DVR000002147|Orgaandonatie|Federale Overheidsdienst Volksgezondheid, Veiligheid van de Voedselketen en Leefmilieu|OVO008238
+DVR000002148|Overlijdensaangifte|Federale Overheid|OVO027233
+DVR000002149|Parkeerkaart voor personen met een handicap|Directie-generaal Personen met een Handicap|OVO027282
+DVR000002150|Wilsverklaring inzake euthanasie|Federale Overheidsdienst Volksgezondheid, Veiligheid van de Voedselketen en Leefmilieu|OVO008238
+DVR000002151|Huwelijksaangifte|Federale Overheid|OVO027233
+DVR000002154|Bewonerskaart|Federale Overheid|OVO027233
+DVR000002155|Jachtverlof en jachtvergunning|Agentschap voor Natuur en Bos|OVO000089
+DVR000002156|Visverlof|Agentschap voor Natuur en Bos|OVO000089
+DVR000002157|Verplichte keuring van uw privériolering voor afvoer van afval- of regenwater|Vlaamse Milieumaatschappij|OVO000092
+DVR000002158|Vrijstelling of vermindering van inschrijvingsgeld in het volwassenenonderwijs|Departement Onderwijs en Vorming|OVO000049
+DVR000002159|Een diploma secundair onderwijs behalen via het secundair volwassenenonderwijs (vroeger tweedekansonderwijs)|Departement Onderwijs en Vorming|OVO000049
+DVR000002160|Begeleiding van inburgeraars (het Inburgeringstraject)|Agentschap Integratie en Inburgering|OVO001846
+DVR000002161|Verplichte keuring van de waterleidingen bij nieuwbouw en renovatie|Vlaamse Maatschappij voor Watervoorziening (De Watergroep)|OVO000111
+DVR000002162|Erkenning van een wildbeheereenheid|Agentschap voor Natuur en Bos|OVO000089
+DVR000002163|Premie voor het behalen van een diploma secundair onderwijs via het volwassenenonderwijs|Agentschap voor Hoger Onderwijs, Volwassenenonderwijs, Kwalificaties en Studietoelagen|OVO001951
+DVR000002164|Verhoogde vermindering van de onroerende voorheffing voor bescheiden woning|Vlaamse Belastingdienst|OVO000031
+DVR000002167|Erkenning van mestvoerders|Vlaamse Landmaatschappij|OVO000094
+DVR000002168|Registratie van verzenders van meststoffen|Vlaamse Landmaatschappij|OVO000094
+DVR000002169|Aangifte bij de Mestbank|Vlaamse Landmaatschappij|OVO000094
+DVR000002170|Subsidies in het kader van cultuurkuur en dynamo3|Departement Onderwijs en Vorming|OVO000049
+DVR000002171|Startbanenproject 'Scholen voor Jongeren - Jongeren voor Scholen' voor een positief schoolklimaat|Agentschap voor Onderwijsdiensten|OVO000050
+DVR000002172|Lerarenkaart|Departement Onderwijs en Vorming|OVO000049
+DVR000002173|Startbanenproject Verkeersveiligheid voor veiliger woon-schoolverkeer|Agentschap voor Onderwijsdiensten|OVO000050
+DVR000002174|Bevolkingsonderzoek bij pasgeborenen naar aangeboren aandoeningen via een bloedonderzoek|Agentschap Zorg en Gezondheid|OVO000059
+DVR000002175|Erasmus uitwisselingsprogramma en Erasmusbeurs om in het buitenland te studeren|Europese Commissie|OVO004097
+DVR000002176|Aanvraag tot onderzoek van het binnenmilieu in een woning of openbaar gebouw|Agentschap Zorg en Gezondheid|OVO000059
+DVR000002177|Energieprestatiecertificaat voor een publiek gebouw|Vlaams Energieagentschap |OVO000090
+DVR000002178|Jaarlijkse verkeersbelasting voor aan te geven voertuigen|Dienst inschrijving voertuigen|OVO027269
+DVR000002179|Erkenning van bedrijfsgezondheidsdiensten|Agentschap Zorg en Gezondheid|OVO000059
+DVR000002180|Gratis controle van putwater bij eigen grondwaterwinning|Vlaamse Milieumaatschappij|OVO000092
+DVR000002181|Individuele Beroepsopleiding (IBO) voor werkzoekenden|Vlaamse Dienst voor Arbeidsbemiddeling en Beroepsopleiding|OVO000078
+DVR000002182|Ontheffing van loodsplicht voor kleine zeeschepen|Agentschap voor Maritieme Dienstverlening en Kust|OVO000097
+DVR000002183|Jaarlijkse verkeersbelasting voor personenwagens en aanverwante voertuigen|Dienst inschrijving voertuigen|OVO027269
+DVR000002184|Onroerende voorheffing|Vlaamse Belastingdienst|OVO000031
+DVR000002185|Heffing op de winning van grondwater|Vlaamse Milieumaatschappij|OVO000092
+DVR000002186|Erkenning als Vlaams ontwikkelingsfonds voor microfinanciering in de ontwikkelingssamenwerking|Departement Buitenlandse Zaken|OVO000032
+DVR000002187|Vergunning voor watervang|De Vlaamse Waterweg|OVO000112
+DVR000002188|Sociaal tarief en vrijstelling van de heffing op de waterverontreiniging|Vlaamse Milieumaatschappij|OVO000092
+DVR000002189|Omgevingsvergunning voor het wijzigen van kleine landschapselementen of vegetaties|Agentschap voor Natuur en Bos|OVO000089
+DVR000002190|Omnipas 65+|Vlaamse Vervoermaatschappij - De Lijn|OVO000100
+DVR000002191|Kaart voor kosteloze begeleider van een persoon met een handicap op het openbaar vervoer|Nationale Maatschappij der Belgische Spoorwegen|OVO003863
+DVR000002192|Gratis abonnement van De Lijn voor personen met een handicap|Vlaamse Vervoermaatschappij - De Lijn|OVO000100
+DVR000002193|Buzzy Pazz of Omnipas 'Vervoersgarantie' (VG)|Vlaamse Vervoermaatschappij - De Lijn|OVO000100
+DVR000002194|Euregio-ticket (dagpas bus en trein gebied Euregio Maas - Rijn)|Vlaamse Vervoermaatschappij - De Lijn|OVO000100
+DVR000002195|Gratis abonnement van NMBS en De Lijn voor oorlogsinvaliden en oud-strijders|Nationale Maatschappij der Belgische Spoorwegen|OVO003863
+DVR000002196|Attest voor personenvervoer voor eigen rekening|Departement Mobiliteit en Openbare Werken|OVO000096
+DVR000002197|Machtiging voor de tijdelijke vervanging van een voertuig van een taxidienst of verhuurdienst|Departement Mobiliteit en Openbare Werken|OVO000096
+DVR000002198|Vergunning voor het uitbaten van een taxidienst|Departement Mobiliteit en Openbare Werken|OVO000096
+DVR000002199|Vergunning voor de verhuur van voertuigen met bestuurder|Departement Mobiliteit en Openbare Werken|OVO000096
+DVR000002200|Vergunning voor het organiseren van grensoverschrijdend geregeld vervoer|Departement Mobiliteit en Openbare Werken|OVO000096
+DVR000002201|Erkenning en subsidiëring van kunstenaars en professionele kunstenorganisaties|Departement Cultuur, Jeugd en Media|OVO000067
+DVR000002202|Erkenning en subsidiëring van sportfederaties en organisaties voor sportieve vrijetijdsbesteding|Sport Vlaanderen|OVO000070
+DVR000002203|Erkenning en vergunning van een radio-omroep|Vlaamse Regulator voor de Media|OVO000071
+DVR000002204|Praktische ondersteuning voor sportpromotionele evenementen|Sport Vlaanderen|OVO000070
+DVR000002205|Subsidiedatabank voor ondernemingen|Agentschap Innoveren en Ondernemen|OVO000039
+DVR000002206|Aspirantenmandaat|Fonds Wetenschappelijk Onderzoek Vlaanderen|OVO025831
+DVR000002207|Steun voor kmo's bij toepassing van milieu- en energievriendelijke technologie (PRODEM)|Vlaamse Instelling voor Technologisch Onderzoek|OVO000041
+DVR000002208|Investering van risicokapitaal in beloftevolle kmo's (Arkimedes)|ParticipatieMaatschappij Vlaanderen|OVO000044
+DVR000002209|Investering in een creatieve onderneming (CultuurInvest)|ParticipatieMaatschappij Vlaanderen|OVO000044
+DVR000002210|Vergunning of overeenkomst om bijzondere vormen van geregeld vervoer te organiseren|Departement Mobiliteit en Openbare Werken|OVO000096
+DVR000002211|Ontheffing van loodsplicht voor grote zeeschepen|Agentschap voor Maritieme Dienstverlening en Kust|OVO000097
+DVR000002212|Vergunning voor het privégebruik van waterwegen en hun aanhorigheden|De Vlaamse Waterweg|OVO000112
+DVR000002213|Buzzy Pazz of Omnipas 'Verhoogde Tegemoetkoming' (VT)|Vlaamse Vervoermaatschappij - De Lijn|OVO000100
+DVR000002214|Bemiddelaar Grootschalige Vlaamse Infrastructuurprojecten|Departement Mobiliteit en Openbare Werken|OVO000096
+DVR000002215|Subsidies voor duurzaam woon-werkverkeer via het Pendelfonds|Departement Mobiliteit en Openbare Werken|OVO000096
+DVR000002216|Subsidie voor een actieprogramma duurzame mobiliteit van een niet-erkende mobiliteitsvereniging|Departement Mobiliteit en Openbare Werken|OVO000096
+DVR000002217|Doctoraatsbeurs strategisch basisonderzoek|Fonds Wetenschappelijk Onderzoek Vlaanderen|OVO025831
+DVR000002218|Klinische doctoraatsbeurs|Fonds Wetenschappelijk Onderzoek Vlaanderen|OVO025831
+DVR000002219|Bijzondere doctoraatsbeurs|Fonds Wetenschappelijk Onderzoek Vlaanderen|OVO025831
+DVR000002220|Mandaat postdoctoraal onderzoeker|Fonds Wetenschappelijk Onderzoek Vlaanderen|OVO025831
+DVR000002221|Fundamenteel klinisch mandaat|Fonds Wetenschappelijk Onderzoek Vlaanderen|OVO025831
+DVR000002222|Krediet voor individuele onderzoeker|Fonds Wetenschappelijk Onderzoek Vlaanderen|OVO025831
+DVR000002223|Steun voor wetenschappelijke internationale samenwerking en contacten|Fonds Wetenschappelijk Onderzoek Vlaanderen|OVO025831
+DVR000002224|Waarborgregeling boven 1,5 miljoen euro|ParticipatieMaatschappij Vlaanderen|OVO000044
+DVR000002225|Groeifinanciering|ParticipatieMaatschappij Vlaanderen|OVO000044
+DVR000002226|Voordelige lening aan bedrijf uit de sociale economie (Sociaal Investeringsfonds)|ParticipatieMaatschappij Vlaanderen|OVO000044
+DVR000002227|Een gekend kind adopteren|Vlaams Centrum voor Adoptie|OVO000376
+DVR000002228|Een ongekend kind adopteren|Vlaams Centrum voor Adoptie|OVO000376
+DVR000002229|Erkenning sociale huisvestingsmaatschappijen|Wonen-Vlaanderen|OVO000106
+DVR000002230|Tegemoetkoming in kosten kinderopvang voor werkzoekenden in opleiding|Vlaamse Dienst voor Arbeidsbemiddeling en Beroepsopleiding|OVO000078
+DVR000002231|Tegemoetkoming voor werkgevers die outplacementbegeleiding aanbieden|Vlaamse Dienst voor Arbeidsbemiddeling en Beroepsopleiding|OVO000078
+DVR000002232|Stimulanspremie voor werkzoekenden in opleiding|Vlaamse Dienst voor Arbeidsbemiddeling en Beroepsopleiding|OVO000078
+DVR000002233|Subsidies voor de omkadering van arbeidszorgmedewerkers|Departement Werk en Sociale Economie|OVO000076
+DVR000002234|Grafconcessies en concessies voor columbaria en urnenvelden|Agentschap Binnenlands Bestuur|OVO001835
+DVR000002235|Erkenning als natuurreservaat|Agentschap voor Natuur en Bos|OVO000089
+DVR000002236|Erkenning als terreinbeherende natuurvereniging|Agentschap voor Natuur en Bos|OVO000089
+DVR000002238|Erkenning en subsidiëring van integratiecentra|Gelijke Kansen, Integratie en Inburgering|OVO001706
+DVR000002239|Erkenning en subsidiering van opvangcentra voor vogels en wilde dieren|Agentschap voor Natuur en Bos|OVO000089
+DVR000002240|Erkenning en subsidiëring van de ondersteuningscentra en het overlegcentrum voor etnisch-culturele minderheden|Gelijke Kansen, Integratie en Inburgering|OVO001706
+DVR000002241|Erkenning als centrum voor het depollueren, ontmantelen en vernietigen van afgedankte voertuigen|Openbare Vlaamse Afvalstoffenmaatschappij|OVO000091
+DVR000002242|Waarborgregeling tot 1,5 miljoen euro|ParticipatieMaatschappij Vlaanderen|OVO000044
+DVR000002243|Plaatsing van een jongere in een gemeenschapsinstelling|Jongerenwelzijn|OVO000058
+DVR000002244|Verplichte verwarmingsaudit voor cv-installatie die ouder is dan 5 jaar|Departement Omgeving|OVO003323
+DVR000002245|Premie voor het installeren van een roetfilter in oudere dieselwagens|Departement Omgeving|OVO003323
+DVR000002246|Erkenning als laboratorium voor afvalstoffen, andere materialen en bodemstalen|Openbare Vlaamse Afvalstoffenmaatschappij|OVO000091
+DVR000002247|Erkenning als uitzendbureau|Departement Werk en Sociale Economie|OVO000076
+DVR000002248|Erkenning als ARKIV|ParticipatieMaatschappij Vlaanderen|OVO000044
+DVR000002249|Erkenning getuigschrift/diploma na leertijd|Vlaams Agentschap voor Ondernemersvorming - Syntra Vlaanderen|OVO000079
+DVR000002250|Erkenning getuigschrift/diploma ondernemersopleiding|Vlaams Agentschap voor Ondernemersvorming - Syntra Vlaanderen|OVO000079
+DVR000002251|Registratie als dienstverlener in het kader van de kmo-portefeuille|Agentschap Innoveren en Ondernemen|OVO000039
+DVR000002252|Erkenning van testcentra voor het leveren van ervaringsbewijzen|Afdeling ESF en Duurzaam Ondernemen|OVO002958
+DVR000002253|Erkenning van een producent van vegetatief teeltmateriaal van wijnstokken|Departement Landbouw en Visserij|OVO000082
+DVR000002254|Afschotplan voor grofwild|Agentschap voor Natuur en Bos|OVO000089
+DVR000002255|Erkenning van lokale geloofsgemeenschappen|Agentschap Binnenlands Bestuur|OVO001835
+DVR000002256|Subsidies aan verenigingen voor projecten met een meerwaarde voor natuur en milieu|Departement Omgeving|OVO003323
+DVR000002257|Milieuheffing voor het storten en verbranden van afvalstoffen|Openbare Vlaamse Afvalstoffenmaatschappij|OVO000091
+DVR000002258|Erkenning van kopers en exploitanten van hout in openbare bossen|Agentschap voor Natuur en Bos|OVO000089
+DVR000002259|Verzekering burgerlijke aansprakelijkheid voor beheerders van bossen en natuurreservaten|Agentschap voor Natuur en Bos|OVO000089
+DVR000002260|Vergoeding voor schade veroorzaakt door wild of door een beschermde diersoort|Agentschap voor Natuur en Bos|OVO000089
+DVR000002261|Compensatieplicht bij ontbossing|Agentschap voor Natuur en Bos|OVO000089
+DVR000002262|Kapmachtiging|Agentschap voor Natuur en Bos|OVO000089
+DVR000002263|Erkenning als bodemsaneringsdeskundige type 1 of type 2|Openbare Vlaamse Afvalstoffenmaatschappij|OVO000091
+DVR000002264|Erkenning of melding en subsidiëring van de verenigingen van gebruikers en mantelzorgers|Agentschap Zorg en Gezondheid|OVO000059
+DVR000002265|Subsidie voor een regenwaterput (hemelwaterput)|Vlaamse Milieumaatschappij|OVO000092
+DVR000002266|Toestemming of machtiging voor een activiteit in een bos of natuurreservaat|Agentschap voor Natuur en Bos|OVO000089
+DVR000002267|Verklaring van selectieve sloop of ontmanteling|Openbare Vlaamse Afvalstoffenmaatschappij|OVO000091
+DVR000002268|Toelating tot invoer van dierlijke bijproducten (DBP) vanuit een andere Europese lidstaat|Openbare Vlaamse Afvalstoffenmaatschappij|OVO000091
+DVR000002269|Melden van de overdracht van een risicogrond|Openbare Vlaamse Afvalstoffenmaatschappij|OVO000091
+DVR000002270|Een sociale woning huren bij een sociale huisvestingsmaatschappij|Vlaamse Maatschappij voor Sociaal Wonen|OVO000103
+DVR000002271|Een sociale woning huren bij een sociaal verhuurkantoor|Vlaamse Maatschappij voor Sociaal Wonen|OVO000103
+DVR000002272|Verplichte haalbaarheidsstudie naar alternatieve energiesystemen voor grote gebouwen|Vlaams Energieagentschap |OVO000090
+DVR000002273|Beheerovereenkomst tussen de Vlaamse Landmaatschappij en landbouwers|Vlaamse Landmaatschappij|OVO000094
+DVR000002274|Erkenning van de psychiatrische verzorgingstehuizen|Agentschap Zorg en Gezondheid|OVO000059
+DVR000002275|Adviezen inzake de relatie tussen de kwaliteit van het milieu en gezondheid|Agentschap Zorg en Gezondheid|OVO000059
+DVR000002276|Vaccins gratis ter beschikking van de vaccinatoren|Agentschap Zorg en Gezondheid|OVO000059
+DVR000002277|Vaccinatiekaart|Agentschap Zorg en Gezondheid|OVO000059
+DVR000002278|Normen voor ziekenhuizen|Agentschap Zorg en Gezondheid|OVO000059
+DVR000002279|Subsidies voor investeringen in welzijns- en gezondheidsvoorzieningen|Departement Welzijn, Volksgezondheid en Gezin|OVO000056
+DVR000002280|Overlegplatforms Geestelijke Gezondheidszorg|Agentschap Zorg en Gezondheid|OVO000059
+DVR000002281|Subsidiëring van projecten en bijzondere initiatieven inzake Jongerenwelzijn|Jongerenwelzijn|OVO000058
+DVR000002282|Heffing op de waterverontreiniging|Vlaamse Milieumaatschappij|OVO000092
+DVR000002283|Voordelige lening voor ondernemingen (Win-winlening)|ParticipatieMaatschappij Vlaanderen|OVO000044
+DVR000002284|Subsidie voor de verwarringstechniek in de fruitteelt|Departement Landbouw en Visserij|OVO000082
+DVR000002285|Subsidie voor mechanische onkruidbestrijding|Departement Landbouw en Visserij|OVO000082
+DVR000002286|Premie voor het behoud van de gespecialiseerde zoogkoeienhouderij|Departement Landbouw en Visserij|OVO000082
+DVR000002287|Subsidie voor de bescherming van de genetische diversiteit van rundveerassen|Departement Landbouw en Visserij|OVO000082
+DVR000002288|Subsidie voor de bescherming van de genetische diversiteit van schapenrassen|Departement Landbouw en Visserij|OVO000082
+DVR000002289|Subsidie voor de bedrijfseigen teelt van plantaardige eiwitbronnen (vlinderbloemigen)|Departement Landbouw en Visserij|OVO000082
+DVR000002290|Subsidie voor milieuvriendelijke sierteelt|Departement Landbouw en Visserij|OVO000082
+DVR000002291|Subsidie voor de bescherming van de genetische diversiteit van oude rassen hoogstammige fruitbomen|Departement Landbouw en Visserij|OVO000082
+DVR000002292|Erkenning en subsidiëring van de instellingen voor schuldbemiddeling|Departement Welzijn, Volksgezondheid en Gezin|OVO000056
+DVR000002293|Buzzy Pazz, van 6 tot 24 jaar|Vlaamse Vervoermaatschappij - De Lijn|OVO000100
+DVR000002294|Legalisatie van Vlaamse getuigschriften en diploma's|Departement Onderwijs en Vorming|OVO000049
+DVR000002295|Huur van een betaalbare woning in de Vlaamse rand rond Brussel via Vlabinvest|Vlabinvest - Agentschap voor grond- en woonbeleid voor Vlaams-Brabant|OVO003297
+DVR000002296|Subsidie voor ontwikkelingseducatie|Departement Buitenlandse Zaken|OVO000032
+DVR000002297|Grondstofverklaring voor gebruik van een bepaald materiaal als grondstof|Openbare Vlaamse Afvalstoffenmaatschappij|OVO000091
+DVR000002298|Integraal Milieujaarverslag (IMJV)|Openbare Vlaamse Afvalstoffenmaatschappij|OVO000091
+DVR000002299|Registratie als vervoerder van afvalstoffen|Openbare Vlaamse Afvalstoffenmaatschappij|OVO000091
+DVR000002300|Registratie als inzamelaar, handelaar of makelaar van afvalstoffen|Openbare Vlaamse Afvalstoffenmaatschappij|OVO000091
+DVR000002301|Vermindering van de onroerende voorheffing voor grootoorlogsverminkten|Vlaamse Belastingdienst|OVO000031
+DVR000002302|Vergunning voor invoer, uitvoer en doorvoer van strategische goederen|Departement Buitenlandse Zaken|OVO000032
+DVR000002303|Premie van de netbeheerder voor isolatie van een buitenmuur langs de buitenzijde|Vlaams Energieagentschap |OVO000090
+DVR000002304|Premie van de netbeheerder voor de isolatie van een spouwmuur|Vlaams Energieagentschap |OVO000090
+DVR000002305|Premie van de netbeheerder voor vloerisolatie of kelderisolatie|Vlaams Energieagentschap |OVO000090
+DVR000002306|Premie van de netbeheerder voor een warmtepomp|Vlaams Energieagentschap |OVO000090
+DVR000002307|Kortingbon voor beschermde afnemers bij aankoop van een energiezuinige wasmachine of koelkast|Vlaams Energieagentschap |OVO000090
+DVR000002309|Speciale onderwijsleermiddelen voor leerlingen, studenten of cursisten met een handicap|Departement Onderwijs en Vorming|OVO000049
+DVR000002310|FSC-boscertificaat|Agentschap voor Natuur en Bos|OVO000089
+DVR000002311|Subsidies voor sportevenementen|Sport Vlaanderen|OVO000070
+DVR000002312|Overnamesteun voor de jonge landbouwer|Departement Landbouw en Visserij|OVO000082
+DVR000002313|Investeringssteun voor land- en tuinbouwers|Departement Landbouw en Visserij|OVO000082
+DVR000002314|Investeringssteun aan de agrovoedingssector|Departement Landbouw en Visserij|OVO000082
+DVR000002315|Investeringssteun aan de omkaderingssector voor land- en tuinbouw|Departement Landbouw en Visserij|OVO000082
+DVR000002316|Omgevingsvergunning voor de exploitatie van ingedeelde inrichtingen of activiteiten|Departement Omgeving|OVO003323
+DVR000002317|Bodemattest|Openbare Vlaamse Afvalstoffenmaatschappij|OVO000091
+DVR000002318|Erkenning van controleartsen in het kader van dopingbestrijding|Sport Vlaanderen|OVO000070
+DVR000002320|Subsidies voor de audiovisuele sector|Vlaams Audiovisueel Fonds|OVO000175
+DVR000002321|Subsidies voor de letterensector|Vlaams Fonds voor de Letteren|OVO000174
+DVR000002322|Uitwisseling van plannen van ondergrondse kabels en leidingen (Kabel en Leiding Informatieportaal KLIP)|agentschap Informatie Vlaanderen|OVO002949
+DVR000002323|Premie 50+|Vlaamse Dienst voor Arbeidsbemiddeling en Beroepsopleiding|OVO000078
+DVR000002324|Planologisch attest|Departement Omgeving|OVO003323
+DVR000002325|Milieueffectrapport (MER)|Departement Omgeving|OVO003323
+DVR000002326|Conformiteitsattest voor (huur)woningen|Wonen-Vlaanderen|OVO000106
+DVR000002327|Heffing op de leegstand en verwaarlozing van bedrijfsgebouwen|Vlaamse Belastingdienst|OVO000031
+DVR000002328|Erkenning als laboratorium voor de analyse van water, lucht of bodem (deeldomein bodembescherming)|Departement Omgeving|OVO003323
+DVR000002329|Erkenning als opleidingscentrum brandertechnici of stookolietechnici|Departement Omgeving|OVO003323
+DVR000002330|Erkenning als milieucoördinator|Departement Omgeving|OVO003323
+DVR000002331|Erkenning als opleidingscentrum voor de vorming van milieucoördinatoren|Departement Omgeving|OVO003323
+DVR000002332|Erkenning als veiligheidsrapporteringsdeskundige (VR-deskundige)|Departement Omgeving|OVO003323
+DVR000002333|Erkenning als milieudeskundige|Departement Omgeving|OVO003323
+DVR000002334|Certificering van examencentra koeltechniek|Departement Omgeving|OVO003323
+DVR000002335|Erkenning van technici en bedrijven voor brandbeveiligingsapparatuur|Departement Omgeving|OVO003323
+DVR000002336|Erkenning als opleidingscentrum voor klimaatregelingssytemen in bepaalde motorvoertuigen|Departement Omgeving|OVO003323
+DVR000002337|Planbatenheffing, belasting op de meerwaarde van een grond na een bestemmingswijziging|Vlaamse Belastingdienst|OVO000031
+DVR000002338|Erkenning als technicus vloeibare brandstof, gasvormige brandstof en verwarmingsaudit|Departement Omgeving|OVO003323
+DVR000002339|Erkenning als technicus stookolietanks|Departement Omgeving|OVO003323
+DVR000002340|Certificering van koeltechnici en koeltechnische bedrijven|Departement Omgeving|OVO003323
+DVR000002341|Meting van straling rond zendantennes|Departement Omgeving|OVO003323
+DVR000002342|Melding van de intentie tot hennepteelt|Departement Landbouw en Visserij|OVO000082
+DVR000002343|Kapitaalschadecompensatie voor eigenaars van landbouwgronden|Vlaamse Landmaatschappij|OVO000094
+DVR000002344|Gebruikerscompensatie voor landbouwgronden|Vlaamse Landmaatschappij|OVO000094
+DVR000002345|Identificatie als landbouwer|Departement Landbouw en Visserij|OVO000082
+DVR000002346|Stageovereenkomst|Vlaams Agentschap voor Ondernemersvorming - Syntra Vlaanderen|OVO000079
+DVR000002347|Erkenning als ruimtelijke planner|Departement Omgeving|OVO003323
+DVR000002348|Belasting op de inverkeerstelling (BIV)|Vlaamse Belastingdienst|OVO000031
+DVR000002349|Premie van de netbeheerder voor dakisolatie of zoldervloerisolatie in een woning of appartement|Vlaams Energieagentschap |OVO000090
+DVR000002350|Premie van de netbeheerder voor hoogrendementsglas in een woning of appartement|Vlaams Energieagentschap |OVO000090
+DVR000002351|Premie van de netbeheerder voor een condensatieketel (voor beschermde afnemers)|Vlaams Energieagentschap |OVO000090
+DVR000002352|Verkavelingsvergunning|Departement Omgeving|OVO003323
+DVR000002353|Erkenning tot energiedeskundige type A|Vlaams Energieagentschap |OVO000090
+DVR000002354|Erkenning tot energiedeskundige type C|Vlaams Energieagentschap |OVO000090
+DVR000002355|Erkenning tot energiedeskundige type B|Vlaams Energieagentschap |OVO000090
+DVR000002356|Erkenning van een milieuvriendelijk toeristisch bedrijf (ecolabel De Groene Sleutel)|Toerisme Vlaanderen|OVO000034
+DVR000002357|Erkenning van een kampeerautovriendelijk logies|Toerisme Vlaanderen|OVO000034
+DVR000002358|Vergunning van een reisbureau of toeristisch verhuurkantoor|Toerisme Vlaanderen|OVO000034
+DVR000002359|Stedenbouwkundig attest|Departement Omgeving|OVO003323
+DVR000002360|Kooprecht voor huurders van een sociale huurwoning|Vlaamse Maatschappij voor Sociaal Wonen|OVO000103
+DVR000002361|Attest ter vervanging van een verloren diploma of getuigschrift|Departement Onderwijs en Vorming|OVO000049
+DVR000002362|Arbeidsvergunning|Federale Overheidsdienst Werkgelegenheid, Arbeid en Sociaal Overleg|OVO004018
+DVR000002363|Toegankelijkheidslabel voor toegankelijk logies|Toerisme Vlaanderen|OVO000034
+DVR000002364|Erkenning en vergunning van diensten en voorzieningen die ondersteuning bieden aan personen met een handicap|Vlaams Agentschap voor Personen met een Handicap|OVO000060
+DVR000002365|Erkenning van gidsen en reisleiders|Toerisme Vlaanderen|OVO000034
+DVR000002366|Erkenning van een particuliere televisie-omroep|Vlaamse Regulator voor de Media|OVO000071
+DVR000002367|Budgetmeter|Vlaamse Regulator van de Elektriciteits- en Gasmarkt|OVO000093
+DVR000002368|Aanvullende verkeersbelasting voor LPG-installaties|Vlaamse Belastingdienst|OVO000031
+DVR000002369|Hulplijn geweld, misbruik en kindermishandeling|Departement Welzijn, Volksgezondheid en Gezin|OVO000056
+DVR000002370|Heffing op ongeschikte en onbewoonbare woningen|Vlaamse Belastingdienst|OVO000031
+DVR000002371|Erkenning en subsidiëring van de Logo's (Lokaal Gezondheids Overleg)|Agentschap Zorg en Gezondheid|OVO000059
+DVR000002372|Erkenning en subsidiëring van amateurkunsten|Departement Cultuur, Jeugd en Media|OVO000067
+DVR000002373|Subsidie voor sensibiliserende initiatieven van de Vlaamse Gebarentaal|Departement Cultuur, Jeugd en Media|OVO000067
+DVR000002374|Subsidies voor leesbevordering|Vlaams Fonds voor de Letteren|OVO000174
+DVR000002375|Subsidie voor verenigingen met een specifieke opdracht voor de cultuur-, jeugdwerk- en sportsector|Departement Cultuur, Jeugd en Media|OVO000067
+DVR000002376|Subsidie voor verenigingen voor culturele en sportieve participatie van gedetineerden|Departement Cultuur, Jeugd en Media|OVO000067
+DVR000002377|Erkenning en subsidiëring van organisaties voor sociaal-cultureel volwassenenwerk|Departement Cultuur, Jeugd en Media|OVO000067
+DVR000002378|Omgevingsvergunning voor stedenbouwkundige handelingen|Departement Omgeving|OVO003323
+DVR000002379|Erkenning van een fietsvriendelijk logies|Toerisme Vlaanderen|OVO000034
+DVR000002380|Betalingsrechten voor de landbouw|Departement Landbouw en Visserij|OVO000082
+DVR000002381|Erkenning als MER-deskundige|Departement Omgeving|OVO003323
+DVR000002382|Kennisgeving voor uitzending door een televisie-omroep|Vlaamse Regulator voor de Media|OVO000071
+DVR000002383|Attesten voor jeugdwerkers|Departement Cultuur, Jeugd en Media|OVO000067
+DVR000002384|Vermindering van de onroerende voorheffing voor kinderbijslaggerechtigde kinderen|Vlaamse Belastingdienst|OVO000031
+DVR000002385|Vermindering van de onroerende voorheffing voor bescheiden woning|Vlaamse Belastingdienst|OVO000031
+DVR000002386|Subsidie voor stages bij internationale organisaties|Departement Buitenlandse Zaken|OVO000032
+DVR000002387|Subsidie voor experimenteel jeugdwerk|Departement Cultuur, Jeugd en Media|OVO000067
+DVR000002388|Kampeertenten lenen|Departement Cultuur, Jeugd en Media|OVO000067
+DVR000002389|Subsidies voor internationaal ondernemen|Vlaams Agentschap voor Internationaal Ondernemen|OVO000035
+DVR000002390|Exportmeter|Vlaams Agentschap voor Internationaal Ondernemen|OVO000035
+DVR000002391|Leerlingenkaart|Vlaamse Scholierenkoepel|OVO008590
+DVR000002392|Subsidies voor de bouw en renovatie van scholen|Agentschap voor Infrastructuur in het Onderwijs|OVO000053
+DVR000002393|Een vrijstelling aanvragen in het hoger onderwijs of toegang krijgen tot het hoger onderwijs via eerdere studies of werkervaring|Departement Onderwijs en Vorming|OVO000049
+DVR000002394|Sloopinventaris afvalstoffen|Openbare Vlaamse Afvalstoffenmaatschappij|OVO000091
+DVR000002395|Aansluiten bij de Vlaamse Sociale Bescherming|Agentschap Vlaamse Sociale Bescherming|OVO000120
+DVR000002396|Minimale levering van elektriciteit en aardgas voor wie een budgetmeter heeft|Vlaams Energieagentschap |OVO000090
+DVR000002397|Verplicht onderhoud van uw cv-installatie (centrale verwarming)|Departement Omgeving|OVO003323
+DVR000002398|EPC Bouw|Vlaams Energieagentschap |OVO000090
+DVR000002399|Medaille voor sociaal-culturele inzet|Departement Cultuur, Jeugd en Media|OVO000067
+DVR000002400|Controle en onderhoud van de stookolietank van een woning|Departement Omgeving|OVO003323
+DVR000002401|Proportionele vermindering van de onroerende voorheffing|Vlaamse Belastingdienst|OVO000031
+DVR000002402|Verkooprechten (Registratiebelastingen)|Vlaamse Belastingdienst|OVO000031
+DVR000002403|Schenkbelasting (Registratiebelasting)|Vlaamse Belastingdienst|OVO000031
+DVR000002404|Erfbelasting|Vlaamse Belastingdienst|OVO000031
+DVR000002405|Vrijstelling van erfbelasting op de gezinswoning voor de langstlevende partner|Vlaamse Belastingdienst|OVO000031
+DVR000002406|Recht op hypotheekvestiging (Registratiebelastingen)|Vlaamse Belastingdienst|OVO000031
+DVR000002407|Verdeelrechten (Registratiebelastingen)|Vlaamse Belastingdienst|OVO000031
+DVR000002408|Aankoop van een sociale woning of bouwgrond bij een sociale huisvestingsmaatschappij (SHM)|Vlaamse Maatschappij voor Sociaal Wonen|OVO000103
+DVR000002409|Vermindering van de verkooprechten voor een bescheiden woning (Klein beschrijf)|Vlaamse Belastingdienst|OVO000031
+DVR000002410|Meeneembaarheid van verkooprechten|Vlaamse Belastingdienst|OVO000031
+DVR000002411|Vermindering van de verkooprechten voor een enige woning (Abattement)|Vlaamse Belastingdienst|OVO000031
+DVR000002412|Vermindering van de verkooprechten bij een hypothecaire lening voor een enige woning (Bijabattement)|Vlaamse Belastingdienst|OVO000031
+DVR000002413|Vermindering van de verkooprechten bij renovatie van een verwaarloosd of leegstaand pand (Renovatie-abattement)|Vlaamse Belastingdienst|OVO000031
+DVR000002414|Huisonderwijs voor leerplichtige kinderen|Agentschap voor Onderwijsdiensten|OVO000050
+DVR000002415|Tegemoetkoming in reis- en verblijfkosten voor internationale samenwerking rond volksontwikkeling en lokaal cultuurbeleid|Departement Cultuur, Jeugd en Media|OVO000067
+DVR000002416|Vakantieaanbod met korting voor mensen die het financieel moeilijk hebben|Toerisme Vlaanderen|OVO000034
+DVR000002417|Toelatingsexamens arts en tandarts|Agentschap voor Hoger Onderwijs, Volwassenenonderwijs, Kwalificaties en Studietoelagen|OVO001951
+DVR000002418|Tijdelijk Onderwijs Aan Huis (TOAH) voor zieke leerlingen|Agentschap voor Onderwijsdiensten|OVO000050
+DVR000002419|Een getuigschrift basisonderwijs behalen via de Examencommissie basisonderwijs|Departement Onderwijs en Vorming|OVO000049
+DVR000002420|Een diploma of getuigschrift secundair onderwijs behalen via de Examencommissie secundair onderwijs|Agentschap voor Hoger Onderwijs, Volwassenenonderwijs, Kwalificaties en Studietoelagen|OVO001951
+DVR000002421|Leerlingenvervoer in het buitengewoon onderwijs|Departement Onderwijs en Vorming|OVO000049
+DVR000002422|Vermindering van de onroerende voorheffing voor personen met een handicap|Vlaamse Belastingdienst|OVO000031
+DVR000002423|Geïntegreerd onderwijs: GON-begeleiding in het onderwijs|Agentschap voor Onderwijsdiensten|OVO000050
+DVR000002424|Groenestroomcertificaten voor zonnepanelen|Vlaams Energieagentschap |OVO000090
+DVR000002425|Studietoelage voor het hoger onderwijs|Agentschap voor Hoger Onderwijs, Volwassenenonderwijs, Kwalificaties en Studietoelagen|OVO001951
+DVR000002426|Schooltoelage voor het basisonderwijs en het secundair onderwijs|Agentschap voor Hoger Onderwijs, Volwassenenonderwijs, Kwalificaties en Studietoelagen|OVO001951
+DVR000002427|Verhoogde investeringsaftrek voor energiebesparende investeringen door bedrijven|Federale Overheidsdienst Financiën|OVO005190
+DVR000002428|Vermindering van de onroerende voorheffing voor huurders|Vlaamse Belastingdienst|OVO000031
+DVR000002429|Attest voor de erkenning van een Vlaams diploma of getuigschrift in het buitenland|Agentschap voor Hoger Onderwijs, Volwassenenonderwijs, Kwalificaties en Studietoelagen|OVO001951
+DVR000002430|Premie van de netbeheerder voor een zonneboiler|Vlaams Energieagentschap |OVO000090
+DVR000002431|Vermindering van de onroerende voorheffing voor een energiezuinig nieuw gebouw|Vlaamse Belastingdienst|OVO000031
+DVR000002432|Leerkrediet voor studenten hoger onderwijs|Agentschap voor Hoger Onderwijs, Volwassenenonderwijs, Kwalificaties en Studietoelagen|OVO001951
+DVR000002433|Diploma hoger onderwijs behalen via een diplomacontract|Agentschap voor Hoger Onderwijs, Volwassenenonderwijs, Kwalificaties en Studietoelagen|OVO001951
+DVR000002434|Credits hoger onderwijs behalen via een creditcontract|Agentschap voor Hoger Onderwijs, Volwassenenonderwijs, Kwalificaties en Studietoelagen|OVO001951
+DVR000002435|Diploma hoger onderwijs behalen via een examencontract|Agentschap voor Hoger Onderwijs, Volwassenenonderwijs, Kwalificaties en Studietoelagen|OVO001951
+DVR000002436|Opgraving van een stoffelijk overschot of urne|Agentschap Binnenlands Bestuur|OVO001835
+DVR000002437|Verplichte keuring van een nieuwe of gewijzigde cv-installatie|Departement Omgeving|OVO003323
+DVR000002438|EPC bij verkoop of verhuur van een woning|Vlaams Energieagentschap |OVO000090
+DVR000002439|Erkenning van scholen en andere onderwijsinstellingen|Nederlands-Vlaamse Accreditatieorganisatie|OVO003772
+DVR000002440|Vlaamse Woonlening of de sociale lening bij de VMSW|Vlaamse Maatschappij voor Sociaal Wonen|OVO000103
+DVR000002441|Bevolkingsonderzoek Borstkanker|Agentschap Zorg en Gezondheid|OVO000059
+DVR000002442|Melden van gebreken aan wegen, fietspaden, wegverlichting, ... in Vlaanderen|Agentschap Wegen en Verkeer|OVO000098
+DVR000002443|Doorlichtingsverslag van een school of een centrum voor leerlingenbegeleiding|Onderwijsinspectie|OVO002410
+DVR000002447|Inkomensvervangende tegemoetkoming voor personen met een handicap|Federale Overheidsdienst Sociale Zekerheid|OVO008217
+DVR000002448|Veranderen van familienaam|Federale Overheidsdienst Justitie|OVO003988
+DVR000002449|Rustpensioen|Federale Pensioendienst|OVO024764
+DVR000002450|Raming van uw toekomstige pensioenrechten|Federale Pensioendienst|OVO024764
+DVR000002451|Voorlopig rijbewijs|Federale Overheidsdienst Mobiliteit en Vervoer|OVO004067
+DVR000002452|Stemmen bij verkiezingen|Federale Overheidsdienst Binnenlandse Zaken|OVO008237
+DVR000002453|Visum en verblijfsdocumenten om in België te verblijven|Federale Overheidsdienst Binnenlandse Zaken|OVO008237
+DVR000002456|Elektronische vreemdelingenkaart|Federale Overheidsdienst Binnenlandse Zaken|OVO008237
+DVR000002459|Identiteitsbewijs voor een niet-Belgisch kind|Federale Overheidsdienst Binnenlandse Zaken|OVO008237
+DVR000002462|Buitenlandse overlijdensakte erkennen en overschrijven in België|Federale Overheidsdienst Buitenlandse Zaken, Buitenlandse Handel En Ontwikkelingssamenwerking|OVO024762
+DVR000002463|Registratie poliovaccinatie|Federale Overheidsdienst Volksgezondheid, Veiligheid van de Voedselketen en Leefmilieu|OVO008238
+DVR000002464|Reistoelating voor minderjarigen|Federale Overheidsdienst Buitenlandse Zaken, Buitenlandse Handel En Ontwikkelingssamenwerking|OVO024762
+DVR000002466|Sociaal tarief voor elektriciteit en aardgas (sociale maximumprijzen)|Federale Overheidsdienst Economie, Middenstand, KMO en Energie|OVO004539
+DVR000002467|Sociaal telefoontarief|Belgisch Instituut Voor Postdiensten En Telecommunicatie|OVO019809
+DVR000002468|Omgevingsvergunning voor kleinhandelsactiviteiten|Agentschap Innoveren en Ondernemen|OVO000039
+DVR000002469|Attest van de interventie van de brandweer|Federale Overheidsdienst Binnenlandse Zaken|OVO008237
+DVR000002470|Toelating voor het organiseren van manifestaties ter bevordering van de plaatselijke handel/braderieën|Federale Overheidsdienst Economie, Middenstand, KMO en Energie|OVO004539
+DVR000002473|Instapstage - VDAB|Vlaamse Dienst voor Arbeidsbemiddeling en Beroepsopleiding|OVO000078
+DVR000002490|Laatste wilsbeschikking|Agentschap Binnenlands Bestuur|OVO001835
+DVR000002491|Attest van hoofdverblijfplaats (bewijs van woonst)|Federale Overheidsdienst Binnenlandse Zaken|OVO008237
+DVR000002492|Attest van leven|Federale Overheidsdienst Binnenlandse Zaken|OVO008237
+DVR000002493|Attest van Belgische nationaliteit|Federale Overheidsdienst Binnenlandse Zaken|OVO008237
+DVR000002494|Attest van gezinssamenstelling|Federale Overheidsdienst Binnenlandse Zaken|OVO008237
+DVR000002495|Akte van overlijden|Federale Overheidsdienst Binnenlandse Zaken|OVO008237
+DVR000002496|Akte van geboorte|Federale Overheidsdienst Binnenlandse Zaken|OVO008237
+DVR000002497|Akte van huwelijk|Federale Overheidsdienst Binnenlandse Zaken|OVO008237
+DVR000002498|Akte van echtscheiding|Federale Overheidsdienst Binnenlandse Zaken|OVO008237
+DVR000002518|Inhaalpremie voor langdurige arbeidsongeschiktheid|Rijksinstituut voor Ziekte- en Invaliditeitsverzekering|OVO004200
+DVR000002519|Tegemoetkoming voor hulp van derden bij arbeidsongeschiktheid|Rijksinstituut voor Ziekte- en Invaliditeitsverzekering|OVO004200
+DVR000002520|Ziekte- en invaliditeitsuitkering|Rijksinstituut voor Ziekte- en Invaliditeitsverzekering|OVO004200
+DVR000002521|Arbeidsongevallenverzekering|Federaal agentschap voor beroepsrisico’s|OVO027181
+DVR000002522|Verlaagd btw-tarief voor personen met een handicap voor de aankoop van een wagen|Federale Overheidsdienst Financiën|OVO005190
+DVR000002523|Basisbankdienst|Federale Overheidsdienst Economie, Middenstand, KMO en Energie|OVO004539
+DVR000002524|Belastingkrediet voor kinderen ten laste|Federale Overheidsdienst Financiën|OVO005190
+DVR000002525|Belastingvrije som bij opvang van een ouder familielid|Federale Overheidsdienst Financiën|OVO005190
+DVR000002526|Belastingvermindering voor dakisolatie|Federale Overheidsdienst Financiën|OVO005190
+DVR000002527|Bemiddeling|Federale Overheidsdienst Justitie|OVO003988
+DVR000002528|Beroepsziekten|Federaal agentschap voor beroepsrisico’s|OVO027181
+DVR000002529|Bijzonder Solidariteitsfonds voor uitzonderlijke gezondheidskosten|Rijksinstituut voor Ziekte- en Invaliditeitsverzekering|OVO004200
+DVR000002530|Blindenstok|Federale Overheidsdienst Sociale Zekerheid|OVO008217
+DVR000002531|Tegemoetkoming chronische wonden|Rijksinstituut voor ziekte- en invaliditeitsverzekering |OVO004200
+DVR000002533|Equivalent leefloon|Programmatorische Federale Overheidsdienst Maatschappelijke Integratie|OVO027345
+DVR000002534|Belastingvermindering voor de kosten voor kinderopvang|Federale Overheidsdienst Financiën|OVO005190
+DVR000002535|Kraamgeld (geboortepremie)|Federaal Agentschap voor de kinderbijslag|OVO003903
+DVR000002536|Globaal medisch dossier|Rijksinstituut voor ziekte- en invaliditeitsverzekering |OVO004200
+DVR000002537|Incontinentieforfait|Rijksinstituut voor ziekte- en invaliditeitsverzekering |OVO004200
+DVR000002538|Installatiepremie voor dak- en thuislozen|Programmatorische Federale Overheidsdienst Maatschappelijke Integratie|OVO027345
+DVR000002539|Integratietegemoetkoming voor personen met een handicap|Federale Overheidsdienst Sociale Zekerheid|OVO008217
+DVR000002540|Jobkorting federale overheid|Federale Overheidsdienst Financiën|OVO005190
+DVR000002541|Juridische tweedelijnsbijstand (Pro-Deoadvocaat)|Federale Overheidsdienst Justitie|OVO003988
+DVR000002542|Tegemoetkoming in de reiskosten van kankerpatiënten|Rijksinstituut voor ziekte- en invaliditeitsverzekering |OVO004200
+DVR000002543|Kinderbijslag van 18 tot 25 jaar|Federaal Agentschap voor de kinderbijslag|OVO003903
+DVR000002544|Gewaarborgd kraamgeld|Federaal Agentschap voor de kinderbijslag|OVO003903
+DVR000002545|Gewaarborgde gezinsbijslag|Federaal Agentschap voor de kinderbijslag|OVO003903
+DVR000002546|Leeftijdsbijslag bij de kinderbijslag|Federaal Agentschap voor de kinderbijslag|OVO003903
+DVR000002547|Jaarlijkse bijslag bij het kindergeld (schoolpremie)|Federaal Agentschap voor de kinderbijslag|OVO003903
+DVR000002548|Toeslag bij de kinderbijslag voor langdurig werklozen en gepensioneerden|Federaal Agentschap voor de kinderbijslag|OVO003903
+DVR000002549|Wezenbijslag|Federaal Agentschap voor de kinderbijslag|OVO003903
+DVR000002550|Verlengde kinderbijslag|Federaal Agentschap voor de kinderbijslag|OVO003903
+DVR000002551|Vrijstelling voor studies in het kader van knelpuntberoepen|Rijksdienst voor Arbeidsvoorziening|OVO025169
+DVR000002552|Inkomstenvrijstelling voor leefloners|Programmatorische Federale Overheidsdienst Maatschappelijke Integratie|OVO027345
+DVR000002553|Lokaal Opvang Initiatief (LOI) voor asielzoekers|Programmatorische Federale Overheidsdienst Maatschappelijke Integratie|OVO027345
+DVR000002554|Verlof voor medische bijstand|Rijksdienst voor Arbeidsvoorziening|OVO025169
+DVR000002555|Maximumfactuur voor medische kosten|Rijksinstituut voor ziekte- en invaliditeitsverzekering |OVO004200
+DVR000002556|Melden van discriminatie|Unia - Interfederaal Gelijkekansencentrum|OVO003858
+DVR000002560|Voorschot op de alimentatievordering| Federale Overheidsdienst Financiën|OVO005190
+DVR000002562|Palliatief forfait - Toelage voor thuisverzorging|Rijksinstituut voor ziekte- en invaliditeitsverzekering |OVO004200
+DVR000002563|Palliatief verlof|Rijksdienst voor Arbeidsvoorziening|OVO025169
+DVR000002564|Toeslag belastingvrije som bij personenbelasting|Federale Overheidsdienst Financiën|OVO005190
+DVR000002565|Tegemoetkoming voor pijnstillers voor chronisch zieken|Rijksinstituut voor ziekte- en invaliditeitsverzekering |OVO004200
+DVR000002567|Tussenkomst voor socio-culturele en sportieve participatie voor mensen in armoede|Programmatorische Federale Overheidsdienst Maatschappelijke Integratie|OVO027345
+DVR000002568|Gratis tandverzorging tot 18 jaar|Rijksinstituut voor ziekte- en invaliditeitsverzekering |OVO004200
+DVR000002569|Kortingskaart NMBS voor grote gezinnen|Nationale Maatschappij der Belgische Spoorwegen|OVO003863
+DVR000002570|Kortingskaart NMBS 'Verhoogde tegemoetkoming'|Nationale Maatschappij der Belgische Spoorwegen|OVO003863
+DVR000002571|Verminderingskaart NMBS voor personen met een visuele handicap|Federale Overheidsdienst Sociale Zekerheid|OVO008217
+DVR000002572|Seniorenbiljet NMBS vanaf 65 jaar|Nationale Maatschappij der Belgische Spoorwegen|OVO003863
+DVR000002573|Voorrangskaart NMBS voor een zitplaats op de trein|Nationale Maatschappij der Belgische Spoorwegen|OVO003863
+DVR000002574|Verhoogde tegemoetkoming voor gezondheidszorgen|Rijksinstituut voor ziekte- en invaliditeitsverzekering |OVO004200
+DVR000002575|Verwarmingstoelage via het Sociaal Verwarmingsfonds|Sociaal Verwarmingsfonds|OVO027368
+DVR000002576|Vrijstelling van draagplicht van de veiligheidsgordel|Federale Overheidsdienst Mobiliteit en Vervoer|OVO004067
+DVR000002577|Onkostenvergoeding voor vrijwilligerswerk|Vlaams Steunpunt Vrijwilligerswerk|OVO021371
+DVR000002579|Zorgforfait voor chronisch zieken|Rijksinstituut voor ziekte- en invaliditeitsverzekering |OVO004200
+DVR000002586|Dringend ziekenvervoer|Rijksinstituut voor ziekte- en invaliditeitsverzekering |OVO004200
+DVR000002588|Gemeentelijke tussenkomst bij de aankoop van een Buzzy Pazz bij De Lijn|Vlaamse Vervoermaatschappij - De Lijn|OVO000100
+DVR000002592|Europees rijbewijs|Federale Overheidsdienst Mobiliteit en Vervoer|OVO004067
+DVR000002593|Aangifte van een adreswijziging bij uw stad of gemeente|Federale Overheidsdienst Binnenlandse Zaken|OVO008237
+DVR000002594|Een stookolietank buiten gebruik stellen|Departement Omgeving|OVO003323
+DVR000002595|Zorgwonen|Departement Omgeving|OVO003323
+DVR000002596|Huur van een sociale woning bij het Vlaams Woningfonds|Vlaams Woningfonds|OVO001729
+DVR000002598|Premies voor sociale isolatieprojecten voor huurwoningen|Vlaams Energieagentschap|OVO000090
+DVR000002599|E-peilpremie voor energiezuinige nieuwbouw|Vlaams Energieagentschap|OVO000090
+DVR000002600|Uittreksel uit het strafregister|Federale Overheidsdienst Justitie|OVO003988
+DVR000002601|Combinatiepremie voor gelijktijdige investering in raamvervanging en muurisolatie|Vlaams Energieagentschap|OVO000090
+DVR000002602|Machtiging tot het uitoefenen van ambulante activiteiten (leurkaart)|Agentschap Innoveren en Ondernemen|OVO000039
+DVR000002609|Belgisch paspoort|Europese Unie|OVO027501
+DVR000002610|Huurgarantiefonds voor verhuurders|Wonen-Vlaanderen|OVO000106
+DVR000002616|Vlaamse Kredietbemiddelaar|Agentschap Innoveren en Ondernemen|OVO000039
+DVR000002617|Premie voor buitensporige directe kost bij verplicht archeologisch onderzoek|Onroerend Erfgoed|OVO000104
+DVR000002618|Beroepskaart voor vreemdelingen|Departement Werk en Sociale Economie|OVO000076
+DVR000002619|Starteo, een voordelige lening voor startende zelfstandigen en kleine ondernemingen|ParticipatieMaatschappij Vlaanderen|OVO000044
+DVR000002620|Business Angels+lening (BA+lening)|ParticipatieMaatschappij Vlaanderen|OVO000044
+DVR000002621|Startlening+|ParticipatieMaatschappij Vlaanderen|OVO000044
+DVR000002622|Optimeo, een voordelige lening voor zelfstandigen en kleine ondernemingen die hun zaak willen uitbreiden|ParticipatieMaatschappij Vlaanderen|OVO000044
+DVR000002623|Getuigschrift van vakbekwaam slachten|Departement Omgeving|OVO003323
+DVR000002624|Vergunning voor commercieel vervoer van dieren|Departement Omgeving|OVO003323
+DVR000002625|Keuring vervoermiddel bij commercieel vervoer van dieren|Departement Omgeving|OVO003323
+DVR000002626|Getuigschrift van vakbekwaamheid bij commercieel vervoer van dieren|Departement Omgeving|OVO003323
+DVR000002627|Erkenning als dierentuin|Departement Omgeving|OVO003323
+DVR000002628|Erkenning als hondenkwekerij, kattenkwekerij, dierenasiel, dierenpension of handelszaak voor dieren|Departement Omgeving|OVO003323
+DVR000002629|Erkenning als proefdierlabo of als fokker van proefdieren|Departement Omgeving|OVO003323
+DVR000002630|Melden van verwaarloosde of mishandelde dieren|Departement Omgeving|OVO003323
+DVR000002631|Hondenpaspoort en registratiebewijs voor een hond|Departement Omgeving|OVO003323
+DVR000002633|Advies over brandpreventie in uw woning|Federale Overheidsdienst Binnenlandse Zaken|OVO008237
+DVR000002663|Stage- en leerwerkplaatsen bij de Vlaamse overheid|Agentschap Overheidspersoneel|OVO001833
+DVR000002664|Een diploma secundair onderwijs behalen|Departement Onderwijs en Vorming|OVO000049
+DVR000002665|Een getuigschrift basisonderwijs behalen|Departement Onderwijs en Vorming|OVO000049
+DVR000002666|Energielening|Vlaamse Energieagentschap|OVO000090
+DVR000002667|Belastingvermindering voor de enige en eigen woning (woonbonus)|Departement Financiën en Begroting|OVO000029
+DVR000002668|Vergunning beenhouwer-spekslager|Agentschap Innoveren en Ondernemen|OVO000039
+DVR000002669|Machtiging tot het uitoefenen van kermisactiviteiten|Agentschap Innoveren en Ondernemen|OVO000039
+DVR000002670|Gratis IE-scan|Agentschap Innoveren en Ondernemen|OVO000039
+DVR000002671|Advies voor ondernemers over aangewezen financieringsmix - Finmix|Agentschap Innoveren en Ondernemen|OVO000039
+DVR000002672|Trajectbegeleiding innovatieve start-ups en scale-ups|Agentschap Innoveren en Ondernemen|OVO000039
+DVR000002673|Ongeschikt of onbewoonbaar verklaren van een woning|Wonen-Vlaanderen|OVO000106
+DVR000002675|Werkloosheidsuitkering|Rijksdienst voor Arbeidsvoorziening|OVO025169
+DVR000002676|Toeslag bij de kinderbijslag voor eenoudergezinnen|Federaal Agentschap voor de kinderbijslag|OVO003903
+DVR000002677|Toeslag op de kinderbijslag voor kinderen met een handicap|Federaal Agentschap voor de kinderbijslag|OVO003903
+DVR000002678|Inschakelingsuitkering voor werkzoekende schoolverlaters|Rijksdienst voor Arbeidsvoorziening|OVO025169
+DVR000002679|Stemmen met een volmacht|Federale Overheidsdienst Binnenlandse Zaken|OVO008237
+DVR000002680|Ouderschapsverlof|Rijksdienst voor Arbeidsvoorziening|OVO025169
+DVR000002681|Auteursrecht|Federale Overheidsdienst Economie, Middenstand, KMO en Energie|OVO004539
+DVR000002682|Examens ondernemersvaardigheden bij de Centrale Examencommissie|Agentschap Innoveren en Ondernemen|OVO000039
+DVR000002683|Octrooi of patent|Federale Overheidsdienst Economie, Middenstand, KMO en Energie|OVO004539
+DVR000002684|Vermindering erfbelasting bij overdracht van familiale ondernemingen en vennootschappen|Vlaamse Belastingdienst|OVO000031
+DVR000002685|Erasmus voor jonge ondernemers|Europese Commissie|OVO004097
+DVR000002686|Vrijstelling van schenkbelasting voor de overdracht van familiale ondernemingen en vennootschappen|Vlaamse Belastingdienst|OVO000031
+DVR000002687|Vrijstelling van erfbelasting voor de wettelijke terugkeer van schenkingen|Vlaamse Belastingdienst|OVO000031
+DVR000002688|Stedenbouwkundig uittreksel|Departement Omgeving|OVO003323
+DVR000002689|Bijstand van een tolk voor dove of slechthorende werknemers, zelfstandigen en werkzoekenden met een arbeidshandicap|Vlaamse Dienst voor Arbeidsbemiddeling en Beroepsopleiding|OVO000078
+DVR000002690|Tegemoetkoming voor arbeidsgereedschap, -kleding en arbeidspostaanpassingen|Vlaamse Dienst voor Arbeidsbemiddeling en Beroepsopleiding|OVO000078
+DVR000002692|Cambio-voordeel bij jaarbonnement van De Lijn|Cambio|OVO027423
+DVR000002693|Melden van gezondheidsproblemen bij honden na aankoop|Departement Omgeving|OVO003323
+DVR000002694|Vrijstelling van de belasting op inverkeerstelling (BIV) en de verkeersbelasting (VKB) voor personen met een handicap|Vlaamse Belastingdienst|OVO000031
+DVR000002695|Erkenning voor het houden van een zoogdier dat niet op de positieve lijst staat|Departement Omgeving|OVO003323
+DVR000002696|Vrijstelling van bepaalde werkloosheidsverplichtingen bij volgen van opleiding die voorbereidt op zelfstandig beroep|Rijksdienst voor Arbeidsvoorziening|OVO025169
+DVR000002697|Vergunning voor een collecte|Federale Overheidsdienst Binnenlandse Zaken|OVO008237
+DVR000002698|Toelating tot crematie|Agentschap Binnenlands Bestuur|OVO001835
+DVR000002699|Kinderopvangtoeslag voor alleenstaande werkzoekenden die weer aan de slag gaan|Rijksdienst voor Arbeidsvoorziening|OVO025169
+DVR000002700|Kmo-cofinanciering|ParticipatieMaatschappij Vlaanderen|OVO000044
+DVR000002701|Ecocheques|Federale Overheidsdienst Werkgelegenheid, Arbeid en Sociaal Overleg|OVO004018
+DVR000002702|Taxshelter voor startende ondernemingen|Federale Overheidsdienst Financiën|OVO005190
+DVR000002703|Krediet voor onderzoekers voor een lang verblijf in het buitenland| Fonds Wetenschappelijk Onderzoek Vlaanderen|OVO000042
+DVR000002704|Krediet voor onderzoekers voor deelname aan een workshop of een cursus in het buitenland| Fonds Wetenschappelijk Onderzoek Vlaanderen|OVO000042
+DVR000002705|Krediet voor een kort verblijf in het buitenland| Fonds Wetenschappelijk Onderzoek Vlaanderen|OVO000042
+DVR000002706|Krediet voor deelname van onderzoekers aan congres in buitenland| Fonds Wetenschappelijk Onderzoek Vlaanderen|OVO000042
+DVR000002707|Verplichte energieaudit voor grote ondernemingen|Vlaams Energieagentschap|OVO000090
+DVR000002708|Erkenning als toeristisch centrum|Federale Overheidsdienst Werkgelegenheid, Arbeid en Sociaal Overleg|OVO004018
+DVR000002709|Startbonus|Departement Werk en Sociale Economie|OVO000076
+DVR000002710|Federale uitkering voor tijdskrediet|Rijksdienst voor Arbeidsvoorziening|OVO025169
+DVR000002711|Federale uitkering voor ouderschapsverlof, verlof voor medische bijstand of palliatief verlof|Rijksdienst voor Arbeidsvoorziening|OVO025169
+DVR000002712|Innovatiepremie voor creatieve werknemers|Federale Overheidsdienst Economie, Middenstand, KMO en Energie|OVO004539
+DVR000002713|Korting op treinticket voor werkzoekenden die op sollicitatiegesprek gaan|Vlaamse Dienst voor Arbeidsbemiddeling en Beroepsopleiding|OVO000078
+DVR000002714|Melding van tijdelijke afwezigheid|Federale Overheidsdienst Binnenlandse Zaken|OVO008237
+DVR000002716|Vaste standplaats op de wekelijkse markt|Federale Overheidsdienst Economie, Middenstand, KMO en Energie|OVO004539
+DVR000002717|Niet-productieve investeringssteun land- en tuinbouwers|Departement Landbouw en Visserij|OVO000082
+DVR000002718|Vergoedingen van netbeheerders bij laattijdige (her)aansluiting en stroomonderbreking|Vlaamse Regulator van de Elektriciteits- en Gasmarkt|OVO000093
+DVR000002719|Premie voor een nieuw zero-emissie-voertuig|Vlaams Energieagentschap|OVO000090
+DVR000002720|Vestigingsvergunning voor een nachtwinkel|Federale Overheidsdienst Economie, Middenstand, KMO en Energie|OVO004539
+DVR000002721|Aangifte afwijking op de wekelijkse rustdag|Federale Overheidsdienst Economie, Middenstand, KMO en Energie|OVO004539
+DVR000002726|Sociaal tarief voor water|Vlaamse Milieumaatschappij|OVO000092
+DVR000002732|Gedeeld verblijf|Federale Overheidsdienst Binnenlandse Zaken|OVO008237
+DVR000002733|Premie voor de installateur die een roetfilter plaatst|Departement Omgeving|OVO003323
+DVR000002734|Aanvraag van de vrijstelling van de kilometerheffing in Vlaanderen|Vlaamse Belastingdienst|OVO000031
+DVR000002735|Kilometerheffing voor vrachtwagens|Interregionale entiteit VIAPASS|OVO002333
+DVR000002736|Premie van de netbeheerder voor na-isolatie van een buitenmuur langs de binnenzijde|Vlaams Energieagentschap|OVO000090
+DVR000002746|Omgevingsvergunning|Departement Omgeving|OVO003323
+DVR000002747|Vrijstelling van doorstorting van bedrijfsvoorheffing bij investering in steunzones|Federale Overheidsdienst Financiën |OVO005190
+DVR000002748|Machtiging voor standplaats op kermis| Agentschap Innoveren en Ondernemen|OVO000039
+DVR000002749|Eretitel voor uitvoerende mandatarissen en raadsleden|Agentschap Binnenlands Bestuur|OVO001835
+DVR000002750|Ereteken voor lokale en provinciale mandatarissen en personeel|Agentschap Binnenlands Bestuur|OVO001835
+DVR000002751|Subsidie teelt van vezelvlas met verminderde bemesting|Departement Landbouw en Visserij|OVO000082
+DVR000002752|Subsidie teelt van vezelhennep met verminderde bemesting|Departement Landbouw en Visserij|OVO000082
+DVR000002753|Tegemoetkoming in de kosten woon-werkverkeer voor personen met een handicap|Vlaamse Dienst voor Arbeidsbemiddeling en Beroepsopleiding|OVO000078
+DVR000002754|Verplaatsingsvergoeding voor werkzoekenden die een erkende opleiding volgen|Vlaamse Dienst voor Arbeidsbemiddeling en Beroepsopleiding|OVO000078
+DVR000002755|Verblijfsvergoeding bij opleiding VDAB|Agentschap Binnenlands Bestuur|OVO001835
+DVR000002756|Vermindering van de onroerende voorheffing voor ingrijpende energetische renovatie|Vlaamse Belastingdienst|OVO000031
+DVR000002758|Burenpremie voor collectieve renovatieprojecten|Vlaams Energieagentschap|OVO000090
+DVR000002759|Totaalrenovatiebonus van de netbeheerder (BENO-pass)|Vlaams Energieagentschap|OVO000090
+DVR000002760|Bevolkingsonderzoek dikkedarmkanker|Agentschap Zorg en Gezondheid|OVO000059
+DVR000002761|Bevolkingsonderzoek baarmoederhalskanker|Agentschap Zorg en Gezondheid|OVO000059
+DVR000002762|Professionele erkenning van een buitenlands lerarendiploma in Vlaanderen|Agentschap voor Onderwijsdiensten|OVO000050
+DVR000002763|Instaptoets lerarenopleiding|Vlaamse Hogescholenraad|OVO000158
+DVR000002764|Beroepsinlevingsstage (BIS)|Vlaamse Dienst voor Arbeidsbemiddeling en Beroepsopleiding|OVO000078
+DVR000002765|Aanmelding en erkenning van een toeristisch logies|Toerisme Vlaanderen|OVO000034
+DVR000002767|Persoonlijk assistentiebudget voor personen met een handicap (PAB)|Vlaams Agentschap voor Personen met een Handicap|OVO000060
+DVR000002768|Rechtstreeks toegankelijke hulp (RTH) voor personen met een handicap|Vlaams Agentschap voor Personen met een Handicap|OVO000060
+DVR000002769|BE-Alert waarschuwingssysteem bij noodsituaties|Federale Overheidsdienst Binnenlandse Zaken|OVO008237
+DVR000002770|Uw handicap laten erkennen en hulp aanvragen bij het VAPH|Vlaams Agentschap voor Personen met een Handicap|OVO000060
+DVR000002771|Bijkomende sluitingspremie|Agentschap Innoveren en Ondernemen|OVO000039
+DVR000002772|Afzonderlijke sluitingspremie|Agentschap Innoveren en Ondernemen|OVO000039
+DVR000002773|Sportmateriaal lenen|Sport Vlaanderen|OVO000070
+DVR000002774|Bekers en medailles aanvragen voor een sportevenement|Sport Vlaanderen|OVO000070
+DVR000002775|Een jachtplan bekijken of aanpassen|Agentschap voor Natuur en Bos|OVO000089
+DVR000002776|Ondersteuning voor leerlingen met specifieke onderwijsbehoeften|Departement Onderwijs en Vorming|OVO000049
+DVR000002778|Niet-dringende interventies van de brandweer bij extreem weer|Federale Overheidsdienst Binnenlandse Zaken|OVO008237
+DVR000002779|Erkenning als EPB-verslaggever|Vlaams Energieagentschap|OVO000090
+DVR000002780|Vrijstelling van de jaarlijkse verkeersbelasting en de BIV voor milieuvriendelijke voertuigen|Vlaamse Belastingdienst|OVO000031
+DVR000002781|Gelijkwaardigheidserkenning van een buitenlands diploma of getuigschrift in Vlaanderen|Agentschap voor Hoger Onderwijs, Volwassenenonderwijs, Kwalificaties en Studietoelagen|OVO001951
+DVR000002782|Verlaagde schenkbelasting voor een energetische renovatie van een gebouw|Vlaamse Belastingdienst|OVO000031
+DVR000002783|Bewegen op verwijzing|Vlaams Instituut Gezond Leven|OVO027400
+DVR000002784|City Pass|Vlaamse Vervoermaatschappij - De Lijn|OVO000100
+DVR000002785|Voorleessoftware voor leerlingen met een leesbeperking|Departement Onderwijs en Vorming|OVO000049
+DVR000002786|Europese handicapkaart of European Disability Card (EDC)|Europese Commissie|OVO004097
+DVR000002787|Passende beoordeling|Agentschap voor Natuur en Bos|OVO000089
+DVR000002788|Gratis verzekering voor vrijwilligers|Departement Cultuur, Jeugd en Media/ Departement Welzijn, Volksgezondheid en Gezin|OVO000067/ OVO000056
+DVR000002789|Aanpassing van de geslachtsregistratie|Federale Overheidsdienst Justitie|OVO003988
+DVR000002790|Het Groeipakket|Vlaams Agentschap voor de Uitbetaling van Toelagen in het kader van het Gezinsbeleid|OVO008643
+DVR000002791|De voortoets|Agentschap voor Natuur en Bos|OVO000089
+DVR000002792|Erkenning als airco-energiedeskundige|Departement Omgeving|OVO003323
+DVR000002793|Jaarlijkse aangifte van waterverbruik (grootverbruikers)|Vlaamse Milieumaatschappij|OVO000092
+DVR000002794|Energetische keuring van airconditioningsystemen|Departement Omgeving|OVO003323
+DVR000002795|Rookstopbegeleiding|Agentschap Zorg en Gezondheid|OVO000059
+DVR000002796|Ventilatiesysteem aanmelden voor de totaalrenovatiebonus (BENO-pass)|Vlaams Energieagentschap|OVO000090
+DVR000002797|CurieuzeNeuzen Vlaanderen (onderzoek luchtkwaliteit)|Vlaamse Milieumaatschappij|OVO000092
+DVR000002798|Erkenning als technicus voor klimaatregelingsapparatuur in bepaalde motorvoertuigen|Departement Omgeving|OVO003323
+DVR000002799|Wijk-werken|Vlaamse Dienst voor Arbeidsbemiddeling en Beroepsopleiding|OVO000078
+DVR000002800|Attest van wettelijke samenwoning|Federale Overheidsdienst Binnenlandse Zaken|OVO008237
+DVR000002801|Vergoeding voor schade door slechte staat van de weg of door wegenwerken|Agentschap Wegen en Verkeer|OVO000098
+DVR000002802|Attest van verblijfplaats met het oog op een huwelijk|Federale Overheidsdienst Buitenlandse Zaken, Buitenlandse Handel En Ontwikkelingssamenwerking|OVO024762
+DVR000002803|Overheidsopdrachten voor werken|Europese Unie|OVO027501
+DVR000002804|Overheidsopdrachten voor leveringen|Europese Unie|OVO027501
+DVR000002805|Overheidsopdrachten voor diensten|Europese Unie|OVO027501
+DVR000002806|Attest van wijze van teraardebestelling en/of rituelen|Agentschap Binnenlands Bestuur|OVO001835
+DVR000002807|Attest van Belgische kiezer|Federale Overheidsdienst Binnenlandse Zaken|OVO008237
+DVR000002808|Akte van prenatale erkenning|Federale Overheidsdienst Justitie|OVO003988
+DVR000002809|Akte van erkenning|Federale Overheidsdienst Justitie|OVO003988
+DVR000002810|Opleidingsdatabank opleidingsverlof WSE|Departement Werk en Sociale Economie|OVO000076
+DVR000002811|Uittreksel uit het bevolkingsregister|Federale Overheidsdienst Binnenlandse Zaken|OVO008237
+DVR000002813|Akte van verklaring van naamskeuze|Federale Overheidsdienst Justitie|OVO003988
+DVR000002814|Akte van naamsverandering|Federale Overheidsdienst Justitie|OVO003988
+DVR000002815|Akte van voornaamsverandering|Federale Overheidsdienst Justitie|OVO003988
+DVR000002816|Akte van aanpassing van de registratie van het geslacht|Federale Overheidsdienst Justitie|OVO003988
+DVR000002817|Akte van betwisting vaderschap|Federale Overheidsdienst Justitie|OVO003988
+DVR000002818|Akte van Belgische nationaliteit|Federale Overheidsdienst Justitie|OVO003988
+DVR000002819|Akte van een levenloos kind|Federale Overheidsdienst Justitie|OVO003988
+DVR000002820|Vakantie voor oudere werknemers die het werk hervatten - seniorvakantie|Rijksdienst voor Arbeidsvoorziening|OVO025169
+DVR000002821|Kinderbijslag tot 18 jaar|Federaal Agentschap voor de kinderbijslag|OVO003903
+DVR000002822|Reisdocument voor staatlozen, vluchtelingen en vreemdelingen|Federale Overheidsdienst Buitenlandse Zaken, Buitenlandse Handel En Ontwikkelingssamenwerking|OVO024762
+DVR000002823|Jaarlijkse verkeersbelasting voor oldtimers|Vlaamse Belastingdienst|OVO000031
+DVR000002824|Verkooprecht sinds 1 juni 2018|Vlaamse Belastingdienst|OVO000031
+DVR000002825|Erkenning als metaaldetectorist|Onroerend Erfgoed|OVO000104
+DVR000002826|Erkenning als archeoloog|Onroerend Erfgoed|OVO000104
+DVR000002827|Ontheffing van het ontbossingsverbod|Agentschap voor Natuur en Bos|OVO000089
+DVR000002828|Vakantieschakel|Toerisme Vlaanderen|OVO000034
+DVR000002829|Belasting op de inverkeerstelling (BIV) voor oldtimers|Vlaamse Belastingdienst|OVO000031
+DVR000002830|Onbelast bijverdienen|Rijksdienst voor Sociale Zekerheid|OVO015466
+DVR000002831|Toeslag op de kinderbijslag voor langdurig zieken en arbeidsongeschikten|Federaal Agentschap voor de kinderbijslag|OVO003903
+DVR000002832|Mobiliteitsvergoeding (cash for car)|Federale Overheidsdienst Financiën|OVO005190
+DVR000002833|Mobiliteitsbudget|Federale Overheidsdienst Financiën|OVO005190
+DVR000002834|Praktisch jachtexamen|Agentschap voor Natuur en Bos|OVO000089
+DVR000002835|Theoretisch jachtexamen|Agentschap voor Natuur en Bos|OVO000089
+DVR000002836|Subsidie voor een volkstuin 2018|Vlaamse Landmaatschappij|OVO000094
+DVR000002837|Generieke terugmelding|agentschap Informatie Vlaanderen|OVO002949
+DVR000002838|Kadastraal uittreksel|Federale Overheidsdienst Financiën|OVO005190
+DVR000002839|De sociale toeslag (Groeipakket)|Vlaams Agentschap voor de Uitbetaling van Toelagen in het kader van het Gezinsbeleid|OVO008643
+DVR000002840|De zorgtoeslagen (groeipakket)|Vlaams Agentschap voor de Uitbetaling van Toelagen in het kader van het Gezinsbeleid|OVO008643
+DVR000002841|De kinderopvangtoeslag (Groeipakket)|Vlaams Agentschap voor de Uitbetaling van Toelagen in het kader van het Gezinsbeleid|OVO008643
+DVR000002842|De kleutertoeslag (Groeipakket)|Vlaams Agentschap voor de Uitbetaling van Toelagen in het kader van het Gezinsbeleid|OVO008643
+DVR000002843|De schooltoeslag vanaf schooljaar 2019-2020 (Groeipakket)|Vlaams Agentschap voor de Uitbetaling van Toelagen in het kader van het Gezinsbeleid|OVO008643
+DVR000002844|Startbedrag (Groeipakket)|Vlaams Agentschap voor de Uitbetaling van Toelagen in het kader van het Gezinsbeleid|OVO008643
+DVR000002845|Basisbedrag (Groeipakket)|Vlaams Agentschap voor de Uitbetaling van Toelagen in het kader van het Gezinsbeleid|OVO008643
+DVR000002846|Schoolbonus (Groeipakket)|Vlaams Agentschap voor de Uitbetaling van Toelagen in het kader van het Gezinsbeleid|OVO008643
+DVR000002848|Student-zelfstandige|Rijksinstituut voor de Sociale Verzekeringen der Zelfstandigen|OVO027187
+DVR000002849|Maaltijdcheques|Federale Overheidsdienst Werkgelegenheid, Arbeid en Sociaal Overleg|OVO004018
+DVR000002850|Bewijs van beroepsbekwaamheid voor gereglementeerde beroepen|Agentschap Innoveren en Ondernemen|OVO000039
+DVR000002852|Mijn Burgerprofiel| agentschap Informatie Vlaanderen|OVO002949
+DVR000002853|Vrijstelling doorstorting bedrijfsvoorheffing voor onderzoekers|Federale Overheidsdienst Financiën|OVO005190
+DVR000002854|Erkenning van technici voor elektrische schakelinrichtingen|Departement Omgeving|OVO003323
+DVR000002855|Verlaagde schenkbelasting voor een gebouw met conformiteitsattest dat verhuurd wordt|Vlaamse Belastingdienst|OVO000031
+DVR000002856|Schadevergoeding van het Vlaams Rampenfonds|Departement Kanselarij en Bestuur|OVO001827
+DVR000002857|Pleegzorgtoeslag (Groeipakket)|Vlaams Agentschap voor de Uitbetaling van Toelagen in het kader van het Gezinsbeleid|OVO008643
+DVR000002858|Wezentoeslag (Groeipakket)|Vlaams Agentschap voor de Uitbetaling van Toelagen in het kader van het Gezinsbeleid|OVO008643
+DVR000002859|Aanloopsteun voor de ontwikkeling van kleine landbouwbedrijven|Departement Landbouw en Visserij|OVO000082
+DVR000002860|Huurwaarborglening van het Vlaams Woningfonds|Vlaams Woningfonds|OVO001729
+DVR000002861|Premie van de netbeheerder voor een warmtepompboiler|Vlaams Energieagentschap|OVO000090
+DVR000002862|Vrijstelling van de onroerende voorheffing na verbouwing van een handelspand|Vlaamse Belastingsdienst|OVO000031
+DVR000002863|Vrijstelling van de onroerende voorheffing na sloop en vervanging van een ongeschikte of onbewoonbare woning|Vlaamse Belastingsdienst|OVO000031
+DVR000002864|Vrijstelling van de onroerende voorheffing na sloop en vervanging van een leegstaande of verwaarloosde bedrijfsruimte|Vlaamse Belastingsdienst|OVO000031
+DVR000002865|Gedeeltelijke vrijstelling van de onroerende voorheffing na verbouwing van een handelspand in een kernwinkelgebied|Vlaamse Belastingsdienst|OVO000031
+DVR000002866|Vrijstelling van de onroerende voorheffing na verbouwing van een handelspand in een winkelarm gebied|Vlaamse Belastingsdienst|OVO000031
+DVR000002867|Sloop- en heropbouwpremie|Vlaams Energieagentschap|OVO000090
+DVR000002868|Toelating om in een maatwerkplaats te werken|Vlaamse Dienst voor Arbeidsbemiddeling en Beroepsopleiding|OVO000078
+DVR000002875|Ondersteuning via opvoedingswinkels|Opvoedingswinkels|OVO027538
+DVR000002876|Loopbaanbegeleiding|Vlaamse Dienst voor Arbeidsbemiddeling en Beroepsopleiding|OVO000078
+DVR000002877|Subsidies voor projecten in de cultureel-erfgoedsector|Departement Cultuur, Jeugd en Media|OVO000067
+DVR000002878|Erkenning als natuurreservaat|Agentschap voor Natuur en Bos|OVO000089
+DVR000002879|Erkenning en subsidiëring van de dagcentra voor palliatieve zorg|Agentschap Zorg en Gezondheid|OVO000059
+DVR000002880|Erkenning en subsidiëring van de dagverzorgingscentra voor ouderen|Agentschap Zorg en Gezondheid|OVO000059
+DVR000002881|Erkenning en subsidiëring van de centra voor kortverblijf voor ouderen|Agentschap Zorg en Gezondheid|OVO000059
+DVR000002882|Erkenning en subsidiëring van de sector samenlevingsopbouw|Departement Welzijn, Volksgezondheid en Gezin|OVO000056
+DVR000002883|Erkenning en subsidiëring van de samenwerkingsinitiatieven eerstelijnsgezondheidszorg (SEL)|Agentschap Zorg en Gezondheid|OVO000059
+DVR000002884|Subsidies voor internationale topsportevenementen|Sport Vlaanderen|OVO000070
+DVR000002885|Erkenning en subsidiëring van Toerisme voor Allen-verblijven|Toerisme Vlaanderen|OVO000034
+DVR000002886|Erkenning en subsidiëring van de woonzorgcentra en rust- en verzorgingstehuizen.|Agentschap Zorg en Gezondheid|OVO000059
+DVR000002887|Erkenning en subsidiëring van serviceflats voor ouderen|Agentschap Zorg en Gezondheid|OVO000059
+DVR000002888|Subsidie voor circuskunsten|Departement Cultuur, Jeugd en Media|OVO000067
+DVR000002889|Vlaamse aanpassingspremie|Wonen-Vlaanderen|OVO000106
+DVR000002890|Subsidies voor een jeugdverblijfcentrum en hostel|Departement Cultuur, Jeugd en Media|OVO000067
+DVR000002892|Onderhoudspremie en beheerspremie voor varend erfgoed|Onroerend Erfgoed|OVO000104
+DVR000002893|Woonkrediet van het Vlaams Woningfonds|Vlaams Woningfonds|OVO001729
+DVR000002894|Outplacement voor werknemers|Rijksdienst voor Arbeidsvoorziening|OVO025169
+DVR000002895|Schadevergoeding bij een landbouwramp|Departement Landbouw en Visserij|OVO000082
+DVR000002896|Stagebonus|Departement Werk en Sociale Economie|OVO000076
+DVR000002897|Vlaamse doelgroepvermindering voor jongeren|Departement Werk en Sociale Economie|OVO000076
+DVR000002898|Vlaamse doelgroepvermindering voor oudere werknemers|Departement Werk en Sociale Economie|OVO000076
+DVR000002899|Erfgoedpremie beschermde monumenten en landschappen - bijzondere procedure|Onroerend Erfgoed|OVO000104
+DVR000002900|Subsidie voor een diversiteitsplan|Departement Werk en Sociale Economie|OVO000076
+DVR000002901|Subsidie aan havenbedrijven voor bepaalde havenkapiteinsdiensten|Departement Mobiliteit en Openbare Werken|OVO000096
+DVR000002902|Start- en investeringssteun visserij- en aquacultuursector|Departement Landbouw en Visserij|OVO000082
+DVR000002903|De Lijn - Buzzy Pazz of Omnipas bij inleveren nummerplaat|Vlaamse Vervoermaatschappij - De Lijn|OVO000100
+DVR000002904|Vlaams innovatienetwerk (VIN)|Agentschap Innoveren en Ondernemen|OVO000039
+DVR000002905|KidsInvest|ParticipatieMaatschappij Vlaanderen|OVO000044
+DVR000002906|Projectgebonden subsidies of medefinanciering aan havenbedrijven|Departement Mobiliteit en Openbare Werken|OVO000096
+DVR000002907|Medefinanciering instandhouding en onderhoud maritieme toegangswegen|Departement Mobiliteit en Openbare Werken|OVO000096
+DVR000002908|Kwaliteitsmerk voor autosnelwegparkings in Vlaanderen|Departement Mobiliteit en Openbare Werken|OVO000096
+DVR000002909|Seed & Early Stage|ParticipatieMaatschappij Vlaanderen|OVO000044
+DVR000002910|Archief - Voordelige lening voor innoverende onderneming (Innovatiemezzanine)|Agentschap Innoveren en Ondernemen|OVO000039
+DVR000002911|Erkenning classificeerders voor de indeling van geslachte runderen|Departement Landbouw en Visserij|OVO000082
+DVR000002912|Erkenning classificeerders voor de indeling van geslachte varkens|Departement Landbouw en Visserij|OVO000082
+DVR000002913|Archief - Erkenning toezichthouders op de indeling van geslachte runderen en varkens|Departement Landbouw en Visserij|OVO000082
+DVR000002914|Erkenning gespecialiseerd pluimveebedrijf|Departement Landbouw en Visserij|OVO000082
+DVR000002915|Kwaliteitscontrole en herkomstcontrole bosbouwkundig teeltmateriaal|Departement Landbouw en Visserij|OVO000082
+DVR000002916|Kwaliteitscontrole en certificering aardappelpootgoed|Departement Landbouw en Visserij|OVO000082
+DVR000002917|Subsidie schoolmelk|Departement Landbouw en Visserij|OVO000082
+DVR000002918|Erkenning operator van aardappelpootgoed|Departement Landbouw en Visserij|OVO000082
+DVR000002919|Erkenning leverancier van bosbouwkundig teeltmateriaal|Departement Landbouw en Visserij|OVO000082
+DVR000002920|Erkenning loontrieerder van zaaizaden|Departement Landbouw en Visserij|OVO000082
+DVR000002921|Erkenning operator actief in de sector zaaizaad (productie en handel)|Departement Landbouw en Visserij|OVO000082
+DVR000002922|Erkenning operator van teeltmateriaal fruit-, groente- en siergewassen|Departement Landbouw en Visserij|OVO000082
+DVR000002923|Kwaliteitscontrole en certificering fruitgewassen|Departement Landbouw en Visserij|OVO000082
+DVR000002924|Kwaliteitscontrole en certificering zaaizaden|Departement Landbouw en Visserij|OVO000082
+DVR000002925|Kwaliteitscontrole groentegewassen|Departement Landbouw en Visserij|OVO000082
+DVR000002926|Kwaliteitscontrole siergewassen|Departement Landbouw en Visserij|OVO000082
+DVR000002927|Erkenning hopbereider|Departement Landbouw en Visserij|OVO000082
+DVR000002928|Kwaliteitscontrole en certificering hop|Departement Landbouw en Visserij|OVO000082
+DVR000002929|Erkenning fokkersverenigingen - Bijhouden rasstamboeken|Departement Landbouw en Visserij|OVO000082
+DVR000002930|Erkenning fokkersverenigingen - bijhouden registers hybride dieren|Departement Landbouw en Visserij|OVO000082
+DVR000002931|Zoötechnische erkenning centra voor sperma, eicellen of embryo|Departement Landbouw en Visserij|OVO000082
+DVR000002932|Erkenning keuringsinstelling koeltechnische bedrijven en examencentra|Departement Omgeving|OVO003323
+DVR000002933|Aanmelden nieuw ras van landbouw- of groentegewassen|Departement Landbouw en Visserij|OVO000082
+DVR000002934|Erkenning en subsidiëring voorzieningen opvang van kinderen met een handicap|Vlaams Agentschap voor Personen met een Handicap|OVO000060
+DVR000002935|Erkenning en subsidiëring ambulante begeleidingsdiensten gehandicapten|Vlaams Agentschap voor Personen met een Handicap|OVO000060
+DVR000002936|Persoonlijke-assistentiebudget voor personen met een handicap|Vlaams Agentschap voor Personen met een Handicap|OVO000060
+DVR000002937|Tegemoetkoming voor hulpmiddelen voor personen met een handicap|Vlaams Agentschap voor Personen met een Handicap|OVO000060
+DVR000002938|Archief - Aanmelden en vergunnen van een toeristisch logies|Departement Buitenlandse Zaken|OVO000032
+DVR000002939|Subsidie originele en innoverende stadsprojecten|Agentschap Binnenlands Bestuur|OVO001835
+DVR000002940|Tegemoetkoming voor bijzonder cultuuraanbod Podium|Departement Cultuur, Jeugd en Media|OVO000067
+DVR000002941|Opname in het aanbod Podium|Departement Cultuur, Jeugd en Media|OVO000067
+DVR000002943|Inkomensgarantie voor ouderen|Federale Pensioendienst|OVO024764
+DVR000002944|Kinderbijslag van 18 tot 25 jaar|Federaal Agentschap voor de kinderbijslag|OVO003903
+DVR000002945|Gewaarborgd kraamgeld|Federaal Agentschap voor de kinderbijslag|OVO003903
+DVR000002946|Gewaarborgde gezinsbijslag|Federaal Agentschap voor de kinderbijslag|OVO003903
+DVR000002947|Jaarlijkse bijslag bij het kindergeld (schoolpremie)|Federaal Agentschap voor de kinderbijslag|OVO003903
+DVR000002948|Toeslag bij de kinderbijslag voor langdurig werklozen en gepensioneerden|Federaal Agentschap voor de kinderbijslag|OVO003903
+DVR000002949|Wezenbijslag|Federaal Agentschap voor de kinderbijslag|OVO003903
+DVR000002950|Initio, een voordelige lening voor zelfstandigen en kleine ondernemingen|ParticipatieMaatschappij Vlaanderen|OVO000044
+DVR000002951|Toeslag bij de kinderbijslag voor eenoudergezinnen|Federaal Agentschap voor de kinderbijslag|OVO003903
+DVR000002952|Toeslag op de kinderbijslag voor kinderen met een handicap|Federaal Agentschap voor de kinderbijslag|OVO003903
+DVR000002953|Loopbaanonderbreking in de openbare sector|Rijksdienst voor Arbeidsvoorziening|OVO025169
+DVR000002954|Steun voor een portfolio van haalbaarheidsstudies voor bedrijven|Agentschap Innoveren en Ondernemen|OVO000039
+DVR000002955|Vrijstelling schenkingsrechten voor overdracht familiale ondernemingen en vennootschappen|Vlaamse Belastingsdienst|OVO000031
+DVR000002956|Vermindering erfbelasting voor overdracht familiale ondernemingen en vennootschappen|Vlaamse Belastingsdienst|OVO000031
+DVR000002957|Verslag voor toegang tot het buitengewoon onderwijs|Agentschap voor Onderwijsdiensten|OVO000050
+DVR000002958|Belastingvermindering voor verhuurders die renoveren en hun woningen verhuren aan sociaal verhuurkantoor.|Federale Overheidsdienst Financiën|OVO005190
+DVR000002959|Uw handicap laten erkennen en hulp aanvragen bij het VAPH|Vlaams Agentschap voor Personen met een Handicap|OVO000060
+DVR000002960|Young in BXL - subsidie voor Straatburgerschap|Agentschap Binnenlands Bestuur|OVO001835
+DVR000002961|Europese gehandicaptenkaart|Europese Commissie|OVO004097
+DVR000002962|Subsidie voor het correct afstellen van verwarmingsinstallaties op school|Agentschap voor Infrastructuur in het Onderwijs|OVO000053
+DVR000002963|Het Persoonsvolgend budget voor personen met een handicap (PVB)|Vlaams Agentschap voor Personen met een Handicap|OVO000060
+DVR000002964|Tegemoetkoming voor hulpmiddelen voor personen met een handicap|Vlaams Agentschap voor Personen met een Handicap|OVO000060
+DVR000002965|Kinderbijslag tot 18 jaar|Federaal Agentschap voor de kinderbijslag|OVO003903
+DVR000002966|Toeslag op de kinderbijslag voor langdurig zieken en arbeidsongeschikten|Federaal Agentschap voor de kinderbijslag|OVO003903
+DVR000002967|Werkingssubsidie voor de werking van het Kenniscentrum Vlaamse Steden|Agentschap Binnenlands Bestuur|OVO001835
+DVR000002968|Raamcontracten buiten de basis scope van Het Facilitair Bedrijf-raamcontracten|agentschap Facilitair Bedrijf|OVO001834
+DVR000002969|Toegangsbeheer|agentschap Facilitair Bedrijf|OVO001834
+DVR000002970|Digitale handtekening|agentschap Facilitair Bedrijf|OVO001834
+DVR000002971|Gebruikersbeheer|agentschap Facilitair Bedrijf|OVO001834
+DVR000002972|Generiek Informatieplatform Openbaar Domein (GIPOD)|Agentschap Informatie Vlaanderen|OVO002949
+DVR000002973|Informatiecatalogus|Agentschap Informatie Vlaanderen|OVO002949
+DVR000002974|Interbestuurlijke Product- en Dienstencatalogus (IPDC)|Agentschap Informatie Vlaanderen|OVO002949
+DVR000002975|Vlaams Open data Portaal|Agentschap Informatie Vlaanderen|OVO002949
+DVR000002976|Begeleiding van ondernemingen bij business case|Agentschap Innoveren en Ondernemen|OVO000039
+DVR000002977|Vlimpers module Vacaturemarkt|Agentschap Overheidspersoneel|OVO001833
+DVR000002978|Premie voor diplomagerichte opleidingen in het secundair volwassenenonderwijs|Agentschap voor Hoger Onderwijs, Volwassenenonderwijs, Kwalificaties en Studietoelagen|OVO001951
+DVR000002979|Individuele ontheffing voor verboden activiteiten in het Vlaams Ecologisch Netwerk|Agentschap voor Natuur en Bos|OVO000089
+DVR000002980|Aanvragen en rapporteren afwijking op het soortenbesluit en jachtregelgeving|Agentschap voor Natuur en Bos|OVO000089
+DVR000002981|Indienen jachtplan|Agentschap voor Natuur en Bos|OVO000089
+DVR000002982|Melding bestrijding (canadese gans, damhert, edelhert, grauwe gans, houtduif, kievit, konijn, moeflon, smient, vos, wild zwijn, wilde eend)|Agentschap voor Natuur en Bos|OVO000089
+DVR000002983|Melding bijzondere jacht (canadese gans, damhert, edelhert, grauwe gans, houtduif, kievit, konijn, moeflon, smient, vos, wild zwijn, wilde eend)|Agentschap voor Natuur en Bos|OVO000089
+DVR000002984|Staalname everzwijn|Agentschap voor Natuur en Bos|OVO000089
+DVR000002985|Vergunning voor het wijzigen van vegetarie of van kleine landschapselementen|Agentschap voor Natuur en Bos|OVO000089
+DVR000002986|Verwijderen van een perceel uit een jachtplan|Agentschap voor Natuur en Bos|OVO000089
+DVR000002987|Wildrapport|Agentschap voor Natuur en Bos|OVO000089
+DVR000002988|Certificatie van schepen|De Vlaamse Waterweg|OVO000112
+DVR000002989|Duplicaat van een Verklaring matroos|De Vlaamse Waterweg|OVO000112
+DVR000002990|informatieverstrekking binnenvaart (River Information Services)|De Vlaamse Waterweg|OVO000112
+DVR000002991|Verklaring matroos|De Vlaamse Waterweg|OVO000112
+DVR000002992|Radarpatent|De Vlaamse Waterweg|OVO000112
+DVR000002993|Rijnpatent|De Vlaamse Waterweg|OVO000112
+DVR000002994|verkoop van vaarvignet (pleziervaart)|De Vlaamse Waterweg|OVO000112
+DVR000002995|Beurs voor het doorgeven van vakmanschap in een meester-leerling-traject|Departement Cultuur, Jeugd en Media|OVO000067
+DVR000002996|attestering Federale wetgeving tax shelter audiovisueel|Departement Financiën en Begroting|OVO000029
+DVR000002997|erkenningsprocedure Mediadecreet erkenningen lokale radio's|Departement Kanselarij en Bestuur|OVO001827
+DVR000002998|Geïntegreerde woonbonus|Departement Kanselarij en Bestuur|OVO001827
+DVR000002999|Advies verlenen en communicatie verspreiden over de Nederlandse taal via de Taaltelefoon|Departement Kanselarij en Bestuur|OVO001827
+DVR000003000|Erkennen van algemene rampen en schadebedragen uitbetalen aan geteisterden (Rampenfonds)|Departement Landbouw en Visserij|OVO000082
+DVR000003001|Goedkeuren van jachtplannen en toekennen van jachtverloven en -vergunningen|Departement Landbouw en Visserij|OVO000082
+DVR000003002|Subsidie aan Fonds voor Scheepsjongeren|Departement Landbouw en Visserij|OVO000082
+DVR000003003|Erkenning als centrum voor voortplantingstechnieken|Departement Landbouw en Visserij|OVO000082
+DVR000003004|Erkenning van het bedrijf ikv pluimveehouderij|Departement Landbouw en Visserij|OVO000082
+DVR000003005|Erkenning als vereniging of organisatie voor stamboekwerking of vereenvoudigd beheer|Departement Landbouw en Visserij|OVO000082
+DVR000003006|Aanvragen van bemonsteringen voor kwaliteitscontrole teeltmateriaal|Departement Landbouw en Visserij|OVO000082
+DVR000003007|Directe steun - jonge landbouwer|Departement Landbouw en Visserij|OVO000082
+DVR000003008|Directe steun - vergroening|Departement Landbouw en Visserij|OVO000082
+DVR000003009|Directe steun- basisbetaling|Departement Landbouw en Visserij|OVO000082
+DVR000003010|Financieringsinstrument voor de Vlaamse Visserij- en aquacultuursector: projectsteun|Departement Landbouw en Visserij|OVO000082
+DVR000003011|Inschrijving van rassen van landbouw-, groente- en fruitgewassen|Departement Landbouw en Visserij|OVO000082
+DVR000003012|Inschrijving van teelten voor productie van zaaizaad en pootgoed|Departement Omgeving|OVO003323
+DVR000003013|Waarborgen Vlaams Landbouwinvesteringsfonds|Departement Omgeving|OVO003323
+DVR000003014|VLAREM wegwijzer|Departement Omgeving|OVO003323
+DVR000003015|Kennisgeving zendantennes radioamateur|Departement Omgeving|OVO003323
+DVR000003016|Erkenning voor verenigingen voor projecten met een meerwaarde voor natuur en milieu|Departement Omgeving|OVO003323
+DVR000003017|Milieunavigator|Departement Omgeving|OVO003323
+DVR000003018|Lage emissiezone: systeem voor handhaving|Departement Omgeving|OVO003323
+DVR000003019|Advies of Milieueffectrapportage nodig is|Departement Omgeving|OVO003323
+DVR000003020|Advies of ruimtelijk veiligheidrapport nodig is|Departement Omgeving|OVO003323
+DVR000003021|Bepaling Sevesostatus|Departement Omgeving|OVO003323
+DVR000003022|Conformiteitsattest zendantennes|Departement Omgeving|OVO003323
+DVR000003023|Invordering retributies erkenningen|Departement Omgeving|OVO003323
+DVR000003024|Ruimtelijk Uitvoeringsplan|Departement Omgeving|OVO003323
+DVR000003025|Stiltegebieden|Departement Omgeving|OVO003323
+DVR000003026|Columbus (studiekeuzebegeleiding)|Departement Onderwijs en Vorming|OVO000049
+DVR000003027|Slachtofferonthaal bij een gerechtelijke procedure|Departement Welzijn, Volksgezondheid en Gezin|OVO000056
+DVR000003028|Vlaams opleidingsverlof|Departement Werk en Sociale Economie|OVO000076
+DVR000003029|Onderzoekspremie voor opmaak beheersplan|Onroerend Erfgoed|OVO004813
+DVR000003030|Advies voor vergunningsplichtige handelingen|Onroerend Erfgoed|OVO004813
+DVR000003031|Metaaldetectievondsten melden|Onroerend Erfgoed|OVO004813
+DVR000003032|Archeologisch traject bij vergunningsaanvragen|Onroerend Erfgoed|OVO004813
+DVR000003033|Archeologisch traject bij wetenschappelijk onderzoek|Onroerend Erfgoed|OVO004813
+DVR000003034|Beheersplan opmaken|Onroerend Erfgoed|OVO004813
+DVR000003035|Beschermingsprocedure|Onroerend Erfgoed|OVO004813
+DVR000003036|Erfgoedlening|Onroerend Erfgoed|OVO004813
+DVR000003037|Toelatingen voor niet-vergunningsplichtige handelingen|Onroerend Erfgoed|OVO004813
+DVR000003038|Toevalsvondsten melden|Onroerend Erfgoed|OVO004813
+DVR000003039|Vermindering personenbelasting|Onroerend Erfgoed|OVO004813
+DVR000003040|Vermindering verkooprecht en schenkbelasting|Onroerend Erfgoed|OVO004813
+DVR000003041|Monitoring van tarieven en capaciteiten van stortplaatsen en verbrandingsinstallaties|Openbare Vlaamse Afvalstoffenmaatschappij|OVO000091
+DVR000003042|Beheren van risicogronden (gemeentelijke inventaris)|Openbare Vlaamse Afvalstoffenmaatschappij|OVO000091
+DVR000003043|Benchmarking en adviesverlening aan gemeenten qua beleid op vlak van huishoudelijke afvalstoffen|Openbare Vlaamse Afvalstoffenmaatschappij|OVO000091
+DVR000003044|Berekenen van materiaalprestaties van gebouwen|Openbare Vlaamse Afvalstoffenmaatschappij|OVO000091
+DVR000003045|In en uitvoer van afvalstoffen (EVOA richtlijn)|Openbare Vlaamse Afvalstoffenmaatschappij|OVO000091
+DVR000003046|Melding sluiting risico-activiteit|Openbare Vlaamse Afvalstoffenmaatschappij|OVO000091
+DVR000003047|Ontvangen en verwerken van bodemonderzoek|Openbare Vlaamse Afvalstoffenmaatschappij|OVO000091
+DVR000003048|Opvolgen en uitvoeren van ambtshalve sanering|Openbare Vlaamse Afvalstoffenmaatschappij|OVO000091
+DVR000003049|Platform voor bedrijven voor het valoriseren van afvalstoffen|Openbare Vlaamse Afvalstoffenmaatschappij|OVO000091
+DVR000003050|Registratie voor vooraf goedgekeurde inrichting voor het verwerken van afvalstoffen|Openbare Vlaamse Afvalstoffenmaatschappij|OVO000091
+DVR000003051|Vrijstelling van onderzoeksplicht|Openbare Vlaamse Afvalstoffenmaatschappij|OVO000091
+DVR000003052|Vergunnen en subsidiëren van vergunde zorgaanbieders|Vlaams Agentschap voor Personen met een Handicap|OVO000060
+DVR000003053|Certificatie van gebouwen bij verkoop en nieuwbouw (EPB)|Vlaams Energieagentschap|OVO000090
+DVR000003054|Energie-audit grote ondernemingen|Vlaams Energieagentschap|OVO000090
+DVR000003055|Uitvoeren van een energieprestatiecertificaat (EPC) certificatie|Vlaams Energieagentschap|OVO000090
+DVR000003056|Vrijstelling onroerende voorheffing voor materieel en outillage|Vlaamse Belastingdienst|OVO000031
+DVR000003057|Vrijstelling van de onroerende voorheffing voor nationale domeingoederen|Vlaamse Belastingdienst|OVO000031
+DVR000003058|Vrijstelling van de verkeersbelasting en de BIV voor elektrische voertuigen en voertuigen op aardgas (CNG/LNG)|Vlaamse Belastingdienst|OVO000031
+DVR000003059|Gedeeltelijke vrijstelling van de onroerende voorheffing na renovatie van een verwaarloosde of onbewoonbare woning|Vlaamse Belastingdienst|OVO000031
+DVR000003060|Verlaagd tarief voor beroepskopers|Vlaamse Belastingdienst|OVO000031
+DVR000003061|Verlaagde schenkbelasting voor een gebouw met conformiteitsattest dat verhuurd wordt|Vlaamse Belastingdienst|OVO000031
+DVR000003062|Vrijstelling van de onroerende voorheffing na verbouwen van een handelspand|Vlaamse Belastingdienst|OVO000031
+DVR000003063|Vrijstelling van erfbelasting voor personen met een handicap|Vlaamse Belastingdienst|OVO000031
+DVR000003064|Toelating om in een beschutte werkplaats te werken|Vlaamse Dienst voor Arbeidsbemiddeling en Beroepsopleiding|OVO000078
+DVR000003065|Een arbeidshandicap erkennen|Vlaamse Dienst voor Arbeidsbemiddeling en Beroepsopleiding|OVO000078
+DVR000003066|Begeleiding bij het zoeken van de juiste baan - VDAB|Vlaamse Dienst voor Arbeidsbemiddeling en Beroepsopleiding|OVO000078
+DVR000003067|Beroepsopleiding voor werkzoekenden, werknemers en zelfstandigen|Vlaamse Dienst voor Arbeidsbemiddeling en Beroepsopleiding|OVO000078
+DVR000003068|Sollicitatiecoaching voor werkzoekenden|Vlaamse Dienst voor Arbeidsbemiddeling en Beroepsopleiding|OVO000078
+DVR000003069|Uitvoeren van bedrijfsdoorlichting in het kader van het mestdecreet|Vlaamse Landmaatschappij|OVO000094
+DVR000003070|Vergoeding bij realiseren gebruiksruil|Vlaamse Landmaatschappij|OVO000094
+DVR000003071|Vergoeding gebiedsgericht project|Vlaamse Landmaatschappij|OVO000094
+DVR000003072|Vergoeding natuurinrichting|Vlaamse Landmaatschappij|OVO000094
+DVR000003073|Uittreksel akte natuurinrichting|Vlaamse Landmaatschappij|OVO000094
+DVR000003074|Uittreksel akte ruilverkaverling|Vlaamse Landmaatschappij|OVO000094
+DVR000003075|Aanvraag koopplicht|Vlaamse Landmaatschappij|OVO000094
+DVR000003076|Subsidies voor landinrichtingswerken|Vlaamse Landmaatschappij|OVO000094
+DVR000003077|Koop, verkoop en ruil van grond via de Vlaamse Grondenbank|Vlaamse Landmaatschappij|OVO000094
+DVR000003078|Aanvraag voor vergoeding vrijwillige bedrijfsverplaatsing, bedrijfsreconversie of bedrijfsstopzetting|Vlaamse Landmaatschappij|OVO000094
+DVR000003079|Begeleiden en ondersteunen van plattelandsinitiatieven|Vlaamse Landmaatschappij|OVO000094
+DVR000003080|Ondersteunen van projecten Omgevingskwaliteit|Vlaamse Landmaatschappij|OVO000094
+DVR000003081|Subsidiëren LEADER-samenwerkingsprojecten|Vlaamse Landmaatschappij|OVO000094
+DVR000003082|Uitbetalingen compensatie cultuurschade|Vlaamse Landmaatschappij|OVO000094
+DVR000003083|Recht van voorkoop in Vlaanderen|Vlaamse Landmaatschappij|OVO000094
+DVR000003084|Verstrekken en beheren van schuldsaldoverzekering|Vlaamse Maatschappij voor Sociaal Wonen|OVO000103
+DVR000003085|Aanbieden van een financiële planningstool aan woonactoren|Vlaamse Maatschappij voor Sociaal Wonen|OVO000103
+DVR000003086|Ontwikkelen en verlenen van vorming aan woonactoren|Vlaamse Maatschappij voor Sociaal Wonen|OVO000103
+DVR000003087|Beheren van rekening-courant van Sociale Huisvestingsmaatschappijen|Vlaamse Maatschappij voor Sociaal Wonen|OVO000103
+DVR000003088|Doorbetalingsgarantie voor eigenaars van Sociale VerhuurKantoor (SVK)-woningen|Vlaamse Maatschappij voor Sociaal Wonen|OVO000103
+DVR000003089|Openbare ruimte aanleggen|Vlaamse Maatschappij voor Sociaal Wonen|OVO000103
+DVR000003090|Technische en administratieve ondersteuning bieden van start ontwerp tot oplevering van de bouwwerken|Vlaamse Maatschappij voor Sociaal Wonen|OVO000103
+DVR000003091|Financiering voor sociale bouwprojecten|Vlaamse Maatschappij voor Sociaal Wonen|OVO000103
+DVR000003092|Verstrekken van leningen aan initiatiefnemers|Vlaamse Maatschappij voor Sociaal Wonen|OVO000103
+DVR000003093|Vergunningsbesluit|Vlaamse Milieumaatschappij|OVO000092
+DVR000003094|Subsidiëring Polders & Wateringen|Vlaamse Milieumaatschappij|OVO000092
+DVR000003095|Aanvraag of melding van de verbreking van de verzegeling van een watermeter of aanvraag van een (her)verzegeling|Vlaamse Milieumaatschappij|OVO000092
+DVR000003096|Aanvraag tot vrijstelling van de heffingen op de waterverontreiniging om sociale reden|Vlaamse Milieumaatschappij|OVO000092
+DVR000003097|Aanvraag van een vrijstelling van de heffing op de waterverontreiniging bij het gebruik van een IBA - Verklaring van de burgemeester|Vlaamse Milieumaatschappij|OVO000092
+DVR000003098|Aanvraag voorschot subsidieerbare werken: verklaring op erewoord|Vlaamse Milieumaatschappij|OVO000092
+DVR000003099|Subsidie kleinschalige waterzuiveringsinstallatie|Vlaamse Milieumaatschappij|OVO000092
+DVR000003100|Activiteiten in het kader van het reglementering inzake de kwaliteit en levering van water bestemd voor menselijke consumptie|Vlaamse Milieumaatschappij|OVO000092
+DVR000003101|Advies bodemsaneringsdossier|Vlaamse Milieumaatschappij|OVO000092
+DVR000003102|Advies mbt grondwater|Vlaamse Milieumaatschappij|OVO000092
+DVR000003103|Advies mbt lozing in de atmosfeer|Vlaamse Milieumaatschappij|OVO000092
+DVR000003104|Advies mbt lozing van afvalwater|Vlaamse Milieumaatschappij|OVO000092
+DVR000003105|Advies mbt omgevingsvergunning|Vlaamse Milieumaatschappij|OVO000092
+DVR000003106|Adviezen - reguleren tarief saneringscomponenten|Vlaamse Milieumaatschappij|OVO000092
+DVR000003107|Adviezen en behandeling afwijkingsaanvragen mbt pesticidengebruik, onderhouden website Zonderisgezonder, opmaken rapport Duurzaam Pesticidengebruik|Vlaamse Milieumaatschappij|OVO000092
+DVR000003108|Subsidies riolering|Vlaamse Milieumaatschappij|OVO000092
+DVR000003109|Erkenning voor boorbedrijven|Vlaamse Milieumaatschappij|OVO000092
+DVR000003110|Inlichtingen mbt bemonstering van afvalwater|Vlaamse Milieumaatschappij|OVO000092
+DVR000003111|Heffingsbiljet grondwater en afvalwater|Vlaamse Milieumaatschappij|OVO000092
+DVR000003112|Jaarlijkse rapportering van de zelfcontrole op private waterbevoorrading voor menselijke consumptie|Vlaamse Milieumaatschappij|OVO000092
+DVR000003113|Machtiging werken waterlopen|Vlaamse Milieumaatschappij|OVO000092
+DVR000003114|Melding buitengebruikstelling waterwinning|Vlaamse Milieumaatschappij|OVO000092
+DVR000003115|Melding ingebruikname eigen waterwinning|Vlaamse Milieumaatschappij|OVO000092
+DVR000003116|Melding van de bemonstering voor de heffing op de waterverontreiniging|Vlaamse Milieumaatschappij|OVO000092
+DVR000003117|Melding van de ingebruikname van een grondwaterwinning voor grootverbruikers|Vlaamse Milieumaatschappij|OVO000092
+DVR000003118|Melding van de overstap van een zuivere eigenwater­winning naar een gemengde eigenwaterwinning (eigen waterwinning en leidingwater)|Vlaamse Milieumaatschappij|OVO000092
+DVR000003119|Melding van meet- en bemonsteringsgegevens van het geloosde afvalwater voor de heffing op de waterverontreiniging|Vlaamse Milieumaatschappij|OVO000092
+DVR000003120|Melding van meet- en bemonsteringsgegevens van het opgenomen oppervlaktewater voor de heffing op de waterverontreiniging|Vlaamse Milieumaatschappij|OVO000092
+DVR000003121|Prestatievergelijking drinkwatermaatschappijen|Vlaamse Milieumaatschappij|OVO000092
+DVR000003122|Project Rio-Leren|Vlaamse Milieumaatschappij|OVO000092
+DVR000003123|Rapportering gemeentelijke sanering|Vlaamse Milieumaatschappij|OVO000092
+DVR000003124|Rattenbestrijding|Vlaamse Milieumaatschappij|OVO000092
+DVR000003125|Slibruiming|Vlaamse Milieumaatschappij|OVO000092
+DVR000003126|Subsidieprogramma gemeentelijke saneringsinfrastructuur|Vlaamse Milieumaatschappij|OVO000092
+DVR000003127|Subsidiëring Polders|Vlaamse Milieumaatschappij|OVO000092
+DVR000003128|Vraagafhankelijk vervoer|Vlaamse Vervoermaatschappij - De Lijn|OVO000100
+DVR000003129|Inruilen nummerplaat voor abonnement|Vlaamse Vervoermaatschappij - De Lijn|OVO000100
+DVR000003130|Fietsvergoeding|Vlaamse Vervoermaatschappij - De Lijn|OVO000100
+DVR000003131|Derdebetalersovereenkomsten|Vlaamse Vervoermaatschappij - De Lijn|OVO000100
+DVR000003132|Verhoogde Tegemoetkoming (VT) [vroeger WIGW Omnio]|Vlaamse Vervoermaatschappij - De Lijn|OVO000100
+DVR000003133|Verkoop abonnementen|Vlaamse Vervoermaatschappij - De Lijn|OVO000100
+DVR000003134|Verkoop tickets|Vlaamse Vervoermaatschappij - De Lijn|OVO000100
+DVR000003135|Belastingvermindering bij renovatieovereenkomst (papa- en mamalening)|Wonen Vlaanderen|OVO000106
+DVR000003136|Een voorlopige erkenning als paramedicus omzetten naar een definitieve erkenning|Agentschap Zorg en Gezondheid|OVO000059
+DVR000003137|Een erkenning aanvragen als paramedicus|Agentschap Zorg en Gezondheid|OVO000059
+DVR000003138|Een voordeel (of derogatie) op basis van verworven rechten aanvragen voor een paramedisch beroep|Agentschap Zorg en Gezondheid|OVO000059
+DVR000003139|Een erkenning aanvragen als kinesitherapeut voor een bijzondere beroepsbekwaamheid|Agentschap Zorg en Gezondheid|OVO000059
+DVR000003140|Een erkenning aanvragen als arts|Agentschap Zorg en Gezondheid|OVO000059
+DVR000003141|Een erkenning aanvragen als tandarts|Agentschap Zorg en Gezondheid|OVO000059
+DVR000003142|Financiering van lokale multidisciplinaire netwerken|Agentschap Zorg en Gezondheid|OVO000059
+DVR000003143|Geïntegreerde Diensten voor Thuisverzorging|Agentschap Zorg en Gezondheid|OVO000059
+DVR000003144|Gezondheidsgegevens raadplegen via de Patient Health Viewer|Agentschap Zorg en Gezondheid|OVO000059
+DVR000003145|Palliatieve samenwerkingsverbanden|Agentschap Zorg en Gezondheid|OVO000059
+DVR000003146|Zich registreren als zorgkundige|Agentschap Zorg en Gezondheid|OVO000059
+DVR000003147|Een erkenning aanvragen als verpleegkundige voor een bijzondere beroepstitel of een bijzondere beroepsbekwaamheid|Agentschap Zorg en Gezondheid|OVO000059
+DVR000003148|Een erkenning aanvragen als ziekenhuisapotheker|Agentschap Zorg en Gezondheid|OVO000059
+DVR000003149|Een erkenning aanvragen om met een buitenlands diploma van binnen de EER of Zwitserland een gezondheidszorgberoep uit te oefenen|Agentschap Zorg en Gezondheid|OVO000059
+DVR000003150|Een erkenning aanvragen voor een van de drie bijzondere beroepstitels: algemene tandheelkunde, orthodontie of parodontologie.|Agentschap Zorg en Gezondheid|OVO000059
+DVR000003151|Een erkenning aanvragen als arts-specialist of huisarts|Agentschap Zorg en Gezondheid|OVO000059

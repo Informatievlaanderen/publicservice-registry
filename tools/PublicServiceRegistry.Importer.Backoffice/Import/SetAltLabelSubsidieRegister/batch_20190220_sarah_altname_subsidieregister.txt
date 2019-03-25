@@ -1,0 +1,914 @@
+Id|ExportNaarOrafin|NaamAflopend sorteren|Alternatieve naam subsidieregister
+DVR000000002|True|Subsidies aan havenbedrijven voor bepaalde havenkapiteindiensten|Subsidies aan havenbedrijven voor bepaalde havenkapiteindiensten
+DVR000000003|True|Punctuele, decretale of facultatieve investeringssubsidies|Punctuele, decretale of facultatieve investeringssubsidies
+DVR000000004|True|Decretale subsidiëring topsport|Decretale subsidiëring topsport
+DVR000000005|True|Pimp je Speelplaats|Pimp je Speelplaats
+DVR000000006|True|Subsidies steunpunten|Subsidies steunpunten
+DVR000000007|True|Subsidies aan beleidsdomeinoverschrijdende projecten en evenementen die de uitstraling van Vlaanderen bevorderen|Subsidies aan beleidsdomeinoverschrijdende projecten en evenementen die de uitstraling van Vlaanderen bevorderen
+DVR000000008|True|Subsidies Vlaams beleid duurzame ontwikkeling|Subsidies Vlaams beleid duurzame ontwikkeling
+DVR000000009|True|Subsidies in het kader van het bouwmeesterschap|Subsidies in het kader van het bouwmeesterschap
+DVR000000012|True|Subsidies aan de verenigingen waar armen het woord nemen|Subsidies aan de verenigingen waar armen het woord nemen
+DVR000000013|True|Subsidies aan organisaties voor de opleiding van ervaringsdeskundigen in de armoede en sociale uitsluiting|Subsidies aan organisaties voor de opleiding van ervaringsdeskundigen in de armoede en sociale uitsluiting
+DVR000000016|True|Basissubsidie beheermaatregelen|Basissubsidie beheermaatregelen
+DVR000000017|True|Aanvullende subsidie bosomvorming|Aanvullende subsidie bosomvorming
+DVR000000018|True|Kmo-portefeuille|Kmo-portefeuille
+DVR000000019|True|Subsidie ikv agromilieumaatregelen|Subsidie ikv agromilieumaatregelen
+DVR000000020|True|Facultatieve subsidie|Facultatieve subsidie
+DVR000000021|True|Deelname buitenlandse beurs of niche-evenement|Deelname buitenlandse beurs of niche-evenement
+DVR000000022|True|Erkenning en subsidiëring van voorzieningen van de bijzondere jeugdbijstand|Erkenning en subsidiëring van voorzieningen van de bijzondere jeugdbijstand
+DVR000000023|True|Subsidies voor innovatieve projecten ikv duurzaam materialenbeheer|Subsidies voor innovatieve projecten ikv duurzaam materialenbeheer
+DVR000000024|True|Erkenning en subsidiëring van sociaal-toeristische verenigingen|Erkenning en subsidiëring van sociaal-toeristische verenigingen
+DVR000000025|True|Verplaatsings- en verblijfskosten ikv toeleiding|Verplaatsings- en verblijfskosten ikv toeleiding
+DVR000000026|True|Exploitatiesubsidies havens|Exploitatiesubsidies havens
+DVR000000027|True|Vitamine C|Vitamine C
+DVR000000028|True|Vlaamse renovatiepremie (RENO)|Vlaamse renovatiepremie (RENO)
+DVR000000029|True|Ziekenhuizen - strategisch forfait - kapitaal|Ziekenhuizen - strategisch forfait - kapitaal
+DVR000000030|True|Ziekenhuizen - strategisch forfait - intrest|Ziekenhuizen - strategisch forfait - intrest
+DVR000000031|True|Subsidies experimenteel sportbeleid|Subsidies experimenteel sportbeleid
+DVR000000032|True|Nominatieve subsidies|Nominatieve subsidies
+DVR000000033|True|Subsidies internationale sportprojecten|Subsidies internationale sportprojecten
+DVR000000034|True|Subsidiëring evenementen - cat. A|Subsidiëring evenementen - cat. A
+DVR000000035|True|Subsidiëring evenementen - cat. B|Subsidiëring evenementen - cat. B
+DVR000000036|True|Subsidiëring evenementen - cat. C|Subsidiëring evenementen - cat. C
+DVR000000037|True|Subsidiëring evenementen - cat. D|Subsidiëring evenementen - cat. D
+DVR000000038|True|Dotatie aan het agentschap Sport Vlaanderen voor topsport|Dotatie aan het agentschap Sport Vlaanderen voor topsport
+DVR000000039|True|Investeringsdotatie aan Sport Vlaanderen voor Topsportinfrastructuur centra|Investeringsdotatie aan Sport Vlaanderen voor Topsportinfrastructuur centra
+DVR000000040|True|Decreet erkenning/subsidiëring Georganiseerde Sportsector|Decreet erkenning/subsidiëring Georganiseerde Sportsector
+DVR000000041|True|Decretale subsidiëring Lokaal Sportbeleid|Decretale subsidiëring Lokaal Sportbeleid
+DVR000000042|True|Decretale subsidiëring Sport in het Hoger Onderwijs|Decretale subsidiëring Sport in het Hoger Onderwijs
+DVR000000043|True|Decretale subsidiëring in het kader van het decreet op de tewerkstelling in de sport|Decretale subsidiëring in het kader van het decreet op de tewerkstelling in de sport
+DVR000000044|True|Investeringskredieten Lokale Besturen mbt het decreet inhaalbeweging sportinfrastructuur via alternatieve financiering|Investeringskredieten Lokale Besturen mbt het decreet inhaalbeweging sportinfrastructuur via alternatieve financiering
+DVR000000045|True|Investeringskredieten Topsportinfrastructuur|Investeringskredieten Topsportinfrastructuur
+DVR000000046|True|Investeringskredieten sportinfrastructuur Lokale Besturen|Investeringskredieten sportinfrastructuur Lokale Besturen
+DVR000000047|True|Investeringskredieten financiering voetbalstadions|Investeringskredieten financiering voetbalstadions
+DVR000000048|True|Ondersteuning openstellen Schoolsportinfrastructuur experimenteel sportbeleid|Ondersteuning openstellen Schoolsportinfrastructuur experimenteel sportbeleid
+DVR000000049|True|Ondersteuning Beleidsrelevant wetenschappelijk onderzoek|Ondersteuning Beleidsrelevant wetenschappelijk onderzoek
+DVR000000050|True|Investeringsbijdrage uitvoering globaal sportinfrastructuurplan Vlaanderen voor bovenlokale sportinfrastructuur|Investeringsbijdrage uitvoering globaal sportinfrastructuurplan Vlaanderen voor bovenlokale sportinfrastructuur
+DVR000000051|True|Facultatieve project- of werkingssubsidies aan een niet-prioritaire onroerenderfgoedpartner|Facultatieve project- of werkingssubsidies aan een niet-prioritaire onroerenderfgoedpartner
+DVR000000052|True|Subsidies aan prioritaire onroerenderfgoedpartners|Subsidies aan prioritaire onroerenderfgoedpartners
+DVR000000053|True|Premie beheersplannen in beschermde landschappen|Premie beheersplannen in beschermde landschappen
+DVR000000054|True|Erfgoedpremie|Erfgoedpremie
+DVR000000055|True|Erfgoedpremie meerjarenovereenkomst|Erfgoedpremie meerjarenovereenkomst
+DVR000000056|True|Onderhouds- of landschapspremie voor beschermde landschappen|Onderhouds- of landschapspremie voor beschermde landschappen
+DVR000000057|True|Onderhoudspremie voor beschermde monumenten|Onderhoudspremie voor beschermde monumenten
+DVR000000058|True|Onderzoekspremie|Onderzoekspremie
+DVR000000059|True|Premie voor varend erfgoed - BVR van 4/6/2004|Premie voor varend erfgoed - BVR van 4/6/2004
+DVR000000060|True|Premie voor varend erfgoed - BVR van 27/11/2015|Premie voor varend erfgoed - BVR van 27/11/2015
+DVR000000061|True|Restauratiepremie|Restauratiepremie
+DVR000000062|True|Algemene werkingssubsidies erkende intergemeentelijke onroerenderfgoeddiensten|Algemene werkingssubsidies erkende intergemeentelijke onroerenderfgoeddiensten
+DVR000000063|True|Algemene werkingssubsidies erkende onroerenderfgoeddepots|Algemene werkingssubsidies erkende onroerenderfgoeddepots
+DVR000000064|True|Subsidie in functie van een beheersovereenkomst|Subsidie in functie van een beheersovereenkomst
+DVR000000065|True|Projectsubsidie voor educatie en publiekswerking|Projectsubsidie voor educatie en publiekswerking
+DVR000000066|True|Projectsubsidie voor vervolgonderzoek archeologie|Projectsubsidie voor vervolgonderzoek archeologie
+DVR000000067|True|Subsidie erkende archeologiefondsen|Subsidie erkende archeologiefondsen
+DVR000000070|True|Aanvullende subsidie soorten|Aanvullende subsidie soorten
+DVR000000071|True|Aanvullende subsidie opvolging resultaatsindicatoren|Aanvullende subsidie opvolging resultaatsindicatoren
+DVR000000073|True|Projectsubsidie aankoop moo bebossing|Projectsubsidie aankoop moo bebossing
+DVR000000074|True|Projectsubsidie natuur|Projectsubsidie natuur
+DVR000000075|True|Restfinanciering Life|Restfinanciering Life
+DVR000000076|True|Subsidies om terreinen toegankelijk te maken en te houden|Subsidies om terreinen toegankelijk te maken en te houden
+DVR000000077|True|Projectsubsidies openstelling|Projectsubsidies openstelling
+DVR000000078|True|Subsidies voor de werking van de onthaalpoorten|Subsidies voor de werking van de onthaalpoorten
+DVR000000079|True|Subsidies voor de opmaak van een beheerplan|Subsidies voor de opmaak van een beheerplan
+DVR000000080|True|Groenjobs|Groenjobs
+DVR000000081|True|Projectsubsidies Natuur in je Buurt|Projectsubsidies Natuur in je Buurt
+DVR000000082|True|Projectsubsidies VSGB|Projectsubsidies VSGB
+DVR000000083|True|Bebossing/herbebossing/inkomenssteun|Bebossing/herbebossing/inkomenssteun
+DVR000000084|True|Subsidies bevordering en uitvoering beleid|Subsidies bevordering en uitvoering beleid
+DVR000000085|True|Ondersteuning wildbeheereenheden|Ondersteuning wildbeheereenheden
+DVR000000086|True|Ondersteuning VOC's|Ondersteuning VOC's
+DVR000000087|True|Draagvlakverbreding voor natuur bij landbouwers|Draagvlakverbreding voor natuur bij landbouwers
+DVR000000088|True|Subsidie voor openstellen bos|Subsidie voor openstellen bos
+DVR000000089|True|Subsidie ecologische bosfunctie|Subsidie ecologische bosfunctie
+DVR000000090|True|Subsidie erkende natuurreservaten|Subsidie erkende natuurreservaten
+DVR000000091|True|Natuurprojectovereenkomst|Natuurprojectovereenkomst
+DVR000000093|True|Jachtfonds|Jachtfonds
+DVR000000094|True|Visserijfonds|Visserijfonds
+DVR000000095|True|Natuurinrichting|Natuurinrichting
+DVR000000098|True|Subsidies aan het Vlaams Netwerk van verenigingen waar armen het woord nemen|Subsidies aan het Vlaams Netwerk van verenigingen waar armen het woord nemen
+DVR000000099|True|Subsidies aan instituten voor samenlevingsopbouw|Subsidies aan instituten voor samenlevingsopbouw
+DVR000000100|True|Subsidies aan autonoom vrijwilligerswerk in de zorgsector|Subsidies aan autonoom vrijwilligerswerk in de zorgsector
+DVR000000101|True|Subsidies aan voorzieningen algemeen welzijnswerk|Subsidies aan voorzieningen algemeen welzijnswerk
+DVR000000102|True|Subsidies aan centra voor tele-onthaal|Subsidies aan centra voor tele-onthaal
+DVR000000103|True|Subsidies aan samenwerkingsverbanden schuldhulpverlening|Subsidies aan samenwerkingsverbanden schuldhulpverlening
+DVR000000104|True|Subsidies juridische eerstelijnsbijstand|Subsidies juridische eerstelijnsbijstand
+DVR000000105|True|Structurele werkingssubsidies Welzijn en Samenleving|Structurele werkingssubsidies Welzijn en Samenleving
+DVR000000106|True|Projectsubsidies in het kader van armoedebestrijding|Projectsubsidies in het kader van armoedebestrijding
+DVR000000107|True|Projectsubsidies in het kader van samenlevingsopbouw|Projectsubsidies in het kader van samenlevingsopbouw
+DVR000000108|True|Projectsubsidies in het kader van het algemeen welzijnswerk|Projectsubsidies in het kader van het algemeen welzijnswerk
+DVR000000109|True|Facultatieve subsidies in het kader van lidmaatschap voor internationale organisaties|Facultatieve subsidies in het kader van lidmaatschap voor internationale organisaties
+DVR000000110|True|Subsidies in het kader van het welzijnsbeleid|Subsidies in het kader van het welzijnsbeleid
+DVR000000111|True|Subsidies Vlaams intersectoraal akkoord social profit|Subsidies Vlaams intersectoraal akkoord social profit
+DVR000000112|True|Subsidies justitieel beleid|Subsidies justitieel beleid
+DVR000000113|True|Werkingssubsidie aan de Vlaamse Ouderenraad|Werkingssubsidie aan de Vlaamse Ouderenraad
+DVR000000114|True|Subsidies ter stimulering van een inclusief lokaal ouderenbeleid en de beleidsparticipatie van ouderen|Subsidies ter stimulering van een inclusief lokaal ouderenbeleid en de beleidsparticipatie van ouderen
+DVR000000115|True|Subsidies aan de Vlaamse organisatie ter ondersteuning van welzijnsbevordering en samenlevingsopbouw|Subsidies aan de Vlaamse organisatie ter ondersteuning van welzijnsbevordering en samenlevingsopbouw
+DVR000000116|True|Subsidies aan het Steunpunt welzijn, volksgezondheid en gezin|Subsidies aan het Steunpunt welzijn, volksgezondheid en gezin
+DVR000000117|True|Subsidies aan het centrum kwaliteitsbewaking|Subsidies aan het centrum kwaliteitsbewaking
+DVR000000118|True|Projectsubsidies in het kader van de integrale jeugdhulpverlening|Projectsubsidies in het kader van de integrale jeugdhulpverlening
+DVR000000119|True|Subsidies in het kader van het strategisch plan autisme|Subsidies in het kader van het strategisch plan autisme
+DVR000000120|True|Subsidies in het kader van Flanders' care|Subsidies in het kader van Flanders' care
+DVR000000123|True|Subsidies alternatieve financiering - 2006|Subsidies alternatieve financiering - 2006
+DVR000000124|True|Infrastructuurforfait personen met een handicap|Infrastructuurforfait personen met een handicap
+DVR000000125|True|Infrastructuurforfait ouderen|Infrastructuurforfait ouderen
+DVR000000126|True|Subsidies ziekenhuizen - A1/A3|Subsidies ziekenhuizen - A1/A3
+DVR000000127|True|Ziekenhuizen - instandhoudingsforfait (incl. toestelfinanciering)|Ziekenhuizen - instandhoudingsforfait (incl. toestelfinanciering)
+DVR000000128|True|Subsidies klimaatmaatregelen|Subsidies klimaatmaatregelen
+DVR000000129|True|Subsidies duurzame investeringen|Subsidies duurzame investeringen
+DVR000000130|True|Subsidies klassieke sectoren|Subsidies klassieke sectoren
+DVR000000133|True|Subsidie aan pleegzorg|Subsidie aan pleegzorg
+DVR000000134|True|Subsidie aan Ondersteuningsteam Allochtonen|Subsidie aan Ondersteuningsteam Allochtonen
+DVR000000135|True|Subsidie aan psychiatrische klinieken voor de opvang van minderjarigen|Subsidie aan psychiatrische klinieken voor de opvang van minderjarigen
+DVR000000136|True|Subsidie aan (school)internaten voor de opvang van minderjarigen|Subsidie aan (school)internaten voor de opvang van minderjarigen
+DVR000000137|True|Subsidie Intersectoraal Prioritair toe te wijzen Hulpvragen|Subsidie Intersectoraal Prioritair toe te wijzen Hulpvragen
+DVR000000138|True|Subsidie aan zorgnetwerken|Subsidie aan zorgnetwerken
+DVR000000139|True|Subsidies Sociale acties - plaatsingsvermijdend|Subsidies Sociale acties - plaatsingsvermijdend
+DVR000000140|True|Projectsubsidies Jongerenwelzijn in kader vluchtelingen|Projectsubsidies Jongerenwelzijn in kader vluchtelingen
+DVR000000141|True|Projectsubsidies Jongerenwelzijn|Projectsubsidies Jongerenwelzijn
+DVR000000142|True|Subsidies wetenschappelijk onderzoek voor erkende voorzieningen, pleegzorg en gelijkgestelde voorzieningen|Subsidies wetenschappelijk onderzoek voor erkende voorzieningen, pleegzorg en gelijkgestelde voorzieningen
+DVR000000145|True|Vlaamse verbeterings- en aanpassingspremie (VAP)|Vlaamse verbeterings- en aanpassingspremie (VAP)
+DVR000000146|True|Huursubsidie|Huursubsidie
+DVR000000147|True|Huurpremie|Huurpremie
+DVR000000148|True|Subsidies / ondersteuning voor personeels- en werkingskosten aan sociale verhuurkantoren|Subsidies / ondersteuning voor personeels- en werkingskosten aan sociale verhuurkantoren
+DVR000000149|True|Subsidies aan huurdersorganisaties|Subsidies aan huurdersorganisaties
+DVR000000150|True|Subsidies voor taalcursussen in het kader van het sociaal huurstelsel|Subsidies voor taalcursussen in het kader van het sociaal huurstelsel
+DVR000000151|True|Ondersteuning van aanvullende tewerkstelling in de sector wonen|Ondersteuning van aanvullende tewerkstelling in de sector wonen
+DVR000000152|True|Subsidie VHP (Vlaams Huurdersplatform VZW)|Subsidie VHP (Vlaams Huurdersplatform VZW)
+DVR000000153|True|Toelage agentschap voor grond- en woonbeleid in Vlaams Brabant|Toelage agentschap voor grond- en woonbeleid in Vlaams Brabant
+DVR000000154|True|GESCO'S VOOR SHM'S, SVK's en Huurdersbonden|GESCO'S VOOR SHM'S, SVK's en Huurdersbonden
+DVR000000155|True|Huurvermindering|Huurvermindering
+DVR000000156|True|Huurcompensatie|Huurcompensatie
+DVR000000157|True|Alternatieve financiering|Alternatieve financiering
+DVR000000158|True|Verhuurdersorganisaties|Verhuurdersorganisaties
+DVR000000159|True|Ondersteuning lokaal woonbeleid|Ondersteuning lokaal woonbeleid
+DVR000000160|True|Subsidie voor investeringen in residentiële woonwagenterreinen en doortrekkersterreinen voor woonwagenbewoners|Subsidie voor investeringen in residentiële woonwagenterreinen en doortrekkersterreinen voor woonwagenbewoners
+DVR000000161|True|Subsidie aan het Steunpunt Wonen|Subsidie aan het Steunpunt Wonen
+DVR000000162|True|Ondersteuning van initiatieven die bijdragen tot het huisvestingsbeleid (Fonds voor de Huisvesting)|Ondersteuning van initiatieven die bijdragen tot het huisvestingsbeleid (Fonds voor de Huisvesting)
+DVR000000163|True|Compensatie minder-inkomsten voor de bijstelling van de onroerende voorheffing|Compensatie minder-inkomsten voor de bijstelling van de onroerende voorheffing
+DVR000000164|True|Verzekering gewaarborgd wonen|Verzekering gewaarborgd wonen
+DVR000000165|True|Tussenkomst in de huurlasten (Fonds voor de uithuiszettingen)|Tussenkomst in de huurlasten (Fonds voor de uithuiszettingen)
+DVR000000166|True|Tussenkomst fonds voor de financiering van het urgentieprogramma voor de sociale huisvesting (Domus Flandria)|Tussenkomst fonds voor de financiering van het urgentieprogramma voor de sociale huisvesting (Domus Flandria)
+DVR000000167|True|Subsidie aan de LRM (de mijnwerkersleningen)|Subsidie aan de LRM (de mijnwerkersleningen)
+DVR000000168|True|Subsidie Vlaams Woningfonds|Subsidie Vlaams Woningfonds
+DVR000000169|True|Subsidie VMSW|Subsidie VMSW
+DVR000000170|True|Subsidie Garantiefonds|Subsidie Garantiefonds
+DVR000000171|True|Dotatie aan DAB Urgentiefonds|Dotatie aan DAB Urgentiefonds
+DVR000000172|True|Dotatie aan Fonds voor de Uithuiszettingen|Dotatie aan Fonds voor de Uithuiszettingen
+DVR000000175|True|Internationaal maatwerkproject|Internationaal maatwerkproject
+DVR000000176|True|Ontwikkeling en vertaling van digitale internationale commerciële bedrijfscommunicatie|Ontwikkeling en vertaling van digitale internationale commerciële bedrijfscommunicatie
+DVR000000177|True|Oprichting van een prospectiekantoor buiten de EU, Ijsland, Lichtenstein en Noorwegen|Oprichting van een prospectiekantoor buiten de EU, Ijsland, Lichtenstein en Noorwegen
+DVR000000178|True|Prospectiereis buiten de EU, Ijsland, Lichtenstein en Noorwegen|Prospectiereis buiten de EU, Ijsland, Lichtenstein en Noorwegen
+DVR000000179|True|Subsidies voor uitrustingsgoederen|Subsidies voor uitrustingsgoederen
+DVR000000182|True|Subsidies Toerisme voor Allen-Verblijven|Subsidies Toerisme voor Allen-Verblijven
+DVR000000183|True|Logiessubsidie: steun voor erkende toeristische logies|Logiessubsidie: steun voor erkende toeristische logies
+DVR000000184|True|Impulsprogramma's toeristische hefboomprojecten|Impulsprogramma's toeristische hefboomprojecten
+DVR000000185|True|Impulsprogramma Iedereen verdient vakantie|Impulsprogramma Iedereen verdient vakantie
+DVR000000186|True|Management Ondersteuningspunten|Management Ondersteuningspunten
+DVR000000187|True|Strategisch Actieplan Limbrug in het Kwadraat (SALK)|Strategisch Actieplan Limbrug in het Kwadraat (SALK)
+DVR000000188|True|Tewerkstellingsprojecten|Tewerkstellingsprojecten
+DVR000000189|True|Ad nominatim subsidies|Ad nominatim subsidies
+DVR000000192|True|Subsidies in het kader van de circulaire economie|Subsidies in het kader van de circulaire economie
+DVR000000193|True|Subsidies aan erkende kringloopcentra|Subsidies aan erkende kringloopcentra
+DVR000000194|True|Subsidie verwerking krengen|Subsidie verwerking krengen
+DVR000000195|True|Subsidies voor preventie en beheer van het huishoudelijk verpakkingsafval (Werkplan halve euro)|Subsidies voor preventie en beheer van het huishoudelijk verpakkingsafval (Werkplan halve euro)
+DVR000000196|True|Subsidies ikv zwerfvuilbeleid|Subsidies ikv zwerfvuilbeleid
+DVR000000197|True|Subsidies bodemsanering|Subsidies bodemsanering
+DVR000000198|True|Bedrijfsspecifieke overeenkomsten met bedrijven|Bedrijfsspecifieke overeenkomsten met bedrijven
+DVR000000199|True|Subsidie voor sanering van een ernstige historische verontreiniging|Subsidie voor sanering van een ernstige historische verontreiniging
+DVR000000202|True|Subsidie ikv biologische productiemethode (hectaresteun)|Subsidie ikv biologische productiemethode (hectaresteun)
+DVR000000203|True|Subsidie voor boslandbouwsystemen (agroforestry)|Subsidie voor boslandbouwsystemen (agroforestry)
+DVR000000204|True|Subsidie voor landbouwvormingsactiviteiten|Subsidie voor landbouwvormingsactiviteiten
+DVR000000205|True|Subsidie voor demonstratieprojecten|Subsidie voor demonstratieprojecten
+DVR000000206|True|Subsidie voor EIP-Operationele Groepen|Subsidie voor EIP-Operationele Groepen
+DVR000000207|True|Subsidie ikv Kratos/bedrijfsadvies|Subsidie ikv Kratos/bedrijfsadvies
+DVR000000208|True|Subsidie voor oprichting producentenorganisaties|Subsidie voor oprichting producentenorganisaties
+DVR000000209|True|Subsidie ikv bijenteeltprogramma|Subsidie ikv bijenteeltprogramma
+DVR000000210|True|Subsidie ikv Europese schoolfruit, -groenten en -melkregeling|Subsidie ikv Europese schoolfruit, -groenten en -melkregeling
+DVR000000211|True|Subsidie voor zorgboerderijen|Subsidie voor zorgboerderijen
+DVR000000212|True|Subsidie voor fokkerij|Subsidie voor fokkerij
+DVR000000213|True|Subsidie voor bedrijfsadvisering biologische landbouw|Subsidie voor bedrijfsadvisering biologische landbouw
+DVR000000214|True|Subsidie voor controlekosten biologische landbouw|Subsidie voor controlekosten biologische landbouw
+DVR000000215|True|Subsidie voor landbouwcomicen|Subsidie voor landbouwcomicen
+DVR000000216|True|Subsidie voor praktijkcentra land- en tuinbouw|Subsidie voor praktijkcentra land- en tuinbouw
+DVR000000217|True|Werkingssubsidie voor VLAM (Vlaams Centrum voor Agro- en Visserijmarketing)|Werkingssubsidie voor VLAM (Vlaams Centrum voor Agro- en Visserijmarketing)
+DVR000000218|True|Werkingssubsidie voor Boeren op een Kruispunt vzw|Werkingssubsidie voor Boeren op een Kruispunt vzw
+DVR000000219|True|Werkingssubsidie voor Bioforum Vlaanderen vzw|Werkingssubsidie voor Bioforum Vlaanderen vzw
+DVR000000220|True|Subsidie ikv landbouweducatie|Subsidie ikv landbouweducatie
+DVR000000221|True|Subsidie ikv stimulering biologische landbouw|Subsidie ikv stimulering biologische landbouw
+DVR000000222|True|Subsidie ikv land- en tuinbouwbeleid|Subsidie ikv land- en tuinbouwbeleid
+DVR000000225|True|Kmo-groeisubsidie|Kmo-groeisubsidie
+DVR000000226|True|Ontwikkelingsproject|Ontwikkelingsproject
+DVR000000227|True|Onderzoeksproject|Onderzoeksproject
+DVR000000228|True|Strategische transformatiesteun (STS)|Strategische transformatiesteun (STS)
+DVR000000229|True|Ecologisch en veilig transport|Ecologisch en veilig transport
+DVR000000230|True|Ecologiepremie plus|Ecologiepremie plus
+DVR000000231|True|Strategische ecologiesteun (STRES)|Strategische ecologiesteun (STRES)
+DVR000000232|True|Compensatie indirecte emissiekosten|Compensatie indirecte emissiekosten
+DVR000000233|True|Hinderpremie|Hinderpremie
+DVR000000234|True|Sluitingspremie|Sluitingspremie
+DVR000000235|True|Innovatiemandaten|Innovatiemandaten
+DVR000000236|True|Baekeland-mandaat|Baekeland-mandaat
+DVR000000237|True|Screen Flanders|Screen Flanders
+DVR000000238|True|Bedrijventerreinen|Bedrijventerreinen
+DVR000000239|True|Bedrijventerreinmanagement|Bedrijventerreinmanagement
+DVR000000240|True|Beveiliging bedrijventerreinen|Beveiliging bedrijventerreinen
+DVR000000241|True|Incubatoren|Incubatoren
+DVR000000242|True|Bedrijvencentra en doorgangsgebouwen|Bedrijvencentra en doorgangsgebouwen
+DVR000000243|True|VIS-trajecten voor innovatievolgers|VIS-trajecten voor innovatievolgers
+DVR000000244|True|Innovatieclusters (speerpunt + IBN)|Innovatieclusters (speerpunt + IBN)
+DVR000000245|True|Tetra|Tetra
+DVR000000246|True|Subsidies voor landbouwtrajecten|Subsidies voor landbouwtrajecten
+DVR000000247|True|KMO-haalbaarheidsstudie|KMO-haalbaarheidsstudie
+DVR000000248|True|KMO-innovatieprojecten|KMO-innovatieprojecten
+DVR000000249|True|Sprint-Project|Sprint-Project
+DVR000000250|True|O&O-bedrijfsproject|O&O-bedrijfsproject
+DVR000000251|True|Transformationeel geneeskundig onderzoek|Transformationeel geneeskundig onderzoek
+DVR000000252|True|VIS-Trajecten|VIS-Trajecten
+DVR000000253|True|Inkomenscompensatievergoeding - Vlaams Gewest|Inkomenscompensatievergoeding - Vlaams Gewest
+DVR000000254|True|Rentetoelage voor hinder bij openbare werken|Rentetoelage voor hinder bij openbare werken
+DVR000000255|True|VIS-collectief onderzoek|VIS-collectief onderzoek
+DVR000000258|True|Facultatieve subsidie MBM|Facultatieve subsidie MBM
+DVR000000259|True|Subsidies in kader van het decreet mobiliteitsbeleid – Mobiliteitscharter|Subsidies in kader van het decreet mobiliteitsbeleid – Mobiliteitscharter
+DVR000000260|True|Investeringssubsidies havens|Investeringssubsidies havens
+DVR000000263|True|Facultatieve subsidie DAV|Facultatieve subsidie DAV
+DVR000000264|True|Facultatieve subsidie Hinterlandconnectiviteit|Facultatieve subsidie Hinterlandconnectiviteit
+DVR000000265|True|Facultatieve subsidie ontwikkelingssamenwerking|Facultatieve subsidie ontwikkelingssamenwerking
+DVR000000266|True|Subsidies decreet personenvervoer|Subsidies decreet personenvervoer
+DVR000000267|True|Subsidies luchthavens LOM-LEM decreet|Subsidies luchthavens LOM-LEM decreet
+DVR000000268|True|Subsidies mobiliteitsverenigingen|Subsidies mobiliteitsverenigingen
+DVR000000269|True|Subsidies ter compensatie van de openbaredienstverplichting tot het vervoer van personen met een handicap of een ernstig beperkte mobiliteit|Subsidies ter compensatie van de openbaredienstverplichting tot het vervoer van personen met een handicap of een ernstig beperkte mobiliteit
+DVR000000270|True|Subsidies Oprichting Vlaamse Stichting voor Verkeerskunde|Subsidies Oprichting Vlaamse Stichting voor Verkeerskunde
+DVR000000273|True|Thema overschrijdend - internationalisering|Thema overschrijdend - internationalisering
+DVR000000274|True|Thema overschrijdend - beleidsmonitoring/studies/evaluaties/adviezen|Thema overschrijdend - beleidsmonitoring/studies/evaluaties/adviezen
+DVR000000275|True|Thema overschrijdend - EX FFEU|Thema overschrijdend - EX FFEU
+DVR000000276|True|Toegang tot financiering voor ondernemingen - economisch overheidsinstrumentarium|Toegang tot financiering voor ondernemingen - economisch overheidsinstrumentarium
+DVR000000277|True|Domeinspecifiek fundamenteel wetenschappelijk onderzoek|Domeinspecifiek fundamenteel wetenschappelijk onderzoek
+DVR000000278|True|Onderzoeksinfrastructuur - Lissabonstrategie|Onderzoeksinfrastructuur - Lissabonstrategie
+DVR000000279|True|Post Initieel Onderwijs|Post Initieel Onderwijs
+DVR000000280|True|Brugfunctie tussen fundamenteel en toegepast onderzoek|Brugfunctie tussen fundamenteel en toegepast onderzoek
+DVR000000281|True|Wetenschapspopularisering en -communicatie - sensibiliseren en samenleving|Wetenschapspopularisering en -communicatie - sensibiliseren en samenleving
+DVR000000284|True|Toeleiding naar zorg en ondersteuning en naar hulpmiddelen|Toeleiding naar zorg en ondersteuning en naar hulpmiddelen
+DVR000000285|True|Schoolopleiding (reiskosten)|Schoolopleiding (reiskosten)
+DVR000000286|True|Hulpmiddelen|Hulpmiddelen
+DVR000000287|True|Financieren van rechtstreeks toegankelijke zorg en ondersteuning|Financieren van rechtstreeks toegankelijke zorg en ondersteuning
+DVR000000288|True|Terugvorderbaar vs PVB/PAB werkkapitaal minderjarigen (esr 83): PAB werkkapitaal minderjarigen|Terugvorderbaar vs PVB/PAB werkkapitaal minderjarigen (esr 83): PAB werkkapitaal minderjarigen
+DVR000000289|True|Terugvorderbaar vs PVB/PAB werkkapitaal minderjarigen (esr 83): PVB terugvorderbare voorschotten|Terugvorderbaar vs PVB/PAB werkkapitaal minderjarigen (esr 83): PVB terugvorderbare voorschotten
+DVR000000290|True|PVB cash-besteding|PVB cash-besteding
+DVR000000291|True|PAB budgetten|PAB budgetten
+DVR000000292|True|PVB voucher-besteding|PVB voucher-besteding
+DVR000000293|True|Financiering zorg via organisaties die zorg en ondersteuning bieden: MFC|Financiering zorg via organisaties die zorg en ondersteuning bieden: MFC
+DVR000000294|True|Financiering zorg via organisaties die zorg en ondersteuning bieden: PVC minderjarigen|Financiering zorg via organisaties die zorg en ondersteuning bieden: PVC minderjarigen
+DVR000000295|True|Financiering zorg via organisaties die zorg en ondersteuning bieden: IPH (prioritaire hulp minderjarigen)|Financiering zorg via organisaties die zorg en ondersteuning bieden: IPH (prioritaire hulp minderjarigen)
+DVR000000296|True|Financiering zorg via organisaties die zorg en ondersteuning bieden: PVB organisatiegebonden kosten|Financiering zorg via organisaties die zorg en ondersteuning bieden: PVB organisatiegebonden kosten
+DVR000000297|True|Financiering zorg via organisaties die zorg en ondersteuning bieden: vergoedingen via instellingen buiten Vlaanderen|Financiering zorg via organisaties die zorg en ondersteuning bieden: vergoedingen via instellingen buiten Vlaanderen
+DVR000000298|True|Financiering zorg via organisaties die zorg en ondersteuning bieden: ODB-units|Financiering zorg via organisaties die zorg en ondersteuning bieden: ODB-units
+DVR000000299|True|Financiering zorg via organisaties die zorg en ondersteuning bieden: gespecialiseerde units voor geïnterneerden|Financiering zorg via organisaties die zorg en ondersteuning bieden: gespecialiseerde units voor geïnterneerden
+DVR000000300|True|Financiering zorg via organisaties die zorg en ondersteuning bieden: kortverblijf|Financiering zorg via organisaties die zorg en ondersteuning bieden: kortverblijf
+DVR000000301|True|Infrastructuursubsidies|Infrastructuursubsidies
+DVR000000302|True|Oninvorderbare ten onrechte uitbetaalde tegemoetkomingen|Oninvorderbare ten onrechte uitbetaalde tegemoetkomingen
+DVR000000303|True|Ondersteunende en intermediaire organisaties - aan vzw's tbv gezinnen: bijstandsorganisaties|Ondersteunende en intermediaire organisaties - aan vzw's tbv gezinnen: bijstandsorganisaties
+DVR000000304|True|Ondersteunende en intermediaire organisaties - aan vzw's tbv gezinnen: CAB - doventolken|Ondersteunende en intermediaire organisaties - aan vzw's tbv gezinnen: CAB - doventolken
+DVR000000305|True|Ondersteunende en intermediaire organisaties - aan vzw's tbv gezinnen: teletolken (Vlaamse infolijn)|Ondersteunende en intermediaire organisaties - aan vzw's tbv gezinnen: teletolken (Vlaamse infolijn)
+DVR000000306|True|Ondersteunende en intermediaire organisaties - aan vzw's tbv gezinnen: mentororganisatie|Ondersteunende en intermediaire organisaties - aan vzw's tbv gezinnen: mentororganisatie
+DVR000000307|True|Ondersteunende en intermediaire organisaties - aan vzw's tbv gezinnen: KATHO - assistentiehonden|Ondersteunende en intermediaire organisaties - aan vzw's tbv gezinnen: KATHO - assistentiehonden
+DVR000000308|True|Ondersteunende en intermediaire organisaties - aan vzw's tbv gezinnen: ROG|Ondersteunende en intermediaire organisaties - aan vzw's tbv gezinnen: ROG
+DVR000000309|True|Ondersteunende en intermediaire organisaties - aan vzw's tbv gezinnen: VGPH|Ondersteunende en intermediaire organisaties - aan vzw's tbv gezinnen: VGPH
+DVR000000310|True|Ondersteunende en intermediaire organisaties - aan vzw's tbv gezinnen: VVI|Ondersteunende en intermediaire organisaties - aan vzw's tbv gezinnen: VVI
+DVR000000311|True|Ondersteunende en intermediaire organisaties - aan vzw's tbv gezinnen: vertrouwenartsencentrum|Ondersteunende en intermediaire organisaties - aan vzw's tbv gezinnen: vertrouwenartsencentrum
+DVR000000312|True|Ondersteunende en intermediaire organisaties - aan vzw's tbv gezinnen: SEN (consulentenwerking)|Ondersteunende en intermediaire organisaties - aan vzw's tbv gezinnen: SEN (consulentenwerking)
+DVR000000313|True|Ondersteunende en intermediaire organisaties - aan vzw's tbv gezinnen: projectsubsidies|Ondersteunende en intermediaire organisaties - aan vzw's tbv gezinnen: projectsubsidies
+DVR000000314|True|Aanvullende financieringsvormen - aan vzw's tbv gezinnen: DAC|Aanvullende financieringsvormen - aan vzw's tbv gezinnen: DAC
+DVR000000315|True|Ondersteunende en intermediaire organisaties - geldelijke uitkeringen aan gezinnen|Ondersteunende en intermediaire organisaties - geldelijke uitkeringen aan gezinnen
+DVR000000316|True|Aanvullende financieringsvormen - geldelijke uitkeringen aan gezinnen|Aanvullende financieringsvormen - geldelijke uitkeringen aan gezinnen
+DVR000000317|True|Ondersteunende en intermediaire organisaties - uitkeringen in natura aan gezinnen: REVA (onderhoudstoelagen)|Ondersteunende en intermediaire organisaties - uitkeringen in natura aan gezinnen: REVA (onderhoudstoelagen)
+DVR000000318|True|Ondersteunende en intermediaire organisaties - uitkeringen in natura aan gezinnen: vrijetijdsorganisaties|Ondersteunende en intermediaire organisaties - uitkeringen in natura aan gezinnen: vrijetijdsorganisaties
+DVR000000319|True|Ondersteunende en intermediaire organisaties - uitkeringen in natura aan gezinnen: DOP|Ondersteunende en intermediaire organisaties - uitkeringen in natura aan gezinnen: DOP
+DVR000000320|True|Ondersteunende en intermediaire organisaties - uitkeringen in natura aan gezinnen: COS|Ondersteunende en intermediaire organisaties - uitkeringen in natura aan gezinnen: COS
+DVR000000321|True|Aanvullende financieringsvormen - uitkeringen in natura aan gezinnen: maatregelen ikv. de transitie|Aanvullende financieringsvormen - uitkeringen in natura aan gezinnen: maatregelen ikv. de transitie
+DVR000000322|True|Aanvullende financieringsvormen - uitkeringen in natura aan gezinnen: gesco's|Aanvullende financieringsvormen - uitkeringen in natura aan gezinnen: gesco's
+DVR000000323|True|Aanvullende financieringsvormen - uitkeringen in natura aan gezinnen: interne staatshervorming|Aanvullende financieringsvormen - uitkeringen in natura aan gezinnen: interne staatshervorming
+DVR000000326|True|Aanduiding buitenlandse presentatieplek|Aanduiding buitenlandse presentatieplek
+DVR000000327|True|Aanduiding buitenlandse residentieplek|Aanduiding buitenlandse residentieplek
+DVR000000328|True|Aankopen Topstukken|Aankopen Topstukken
+DVR000000329|True|Restauratiesubsidie Topstukkendecreet|Restauratiesubsidie Topstukkendecreet
+DVR000000330|True|Aanpassingen samenwerkingsverbanden radio omroepen|Aanpassingen samenwerkingsverbanden radio omroepen
+DVR000000331|True|Aanvraag voor een tegemoetkoming in de reis- en verblijfskosten voor internationale initiatieven|Aanvraag voor een tegemoetkoming in de reis- en verblijfskosten voor internationale initiatieven
+DVR000000332|True|Ad nominatim subsidies|Ad nominatim subsidies
+DVR000000333|True|Andere Amateurkunstendecreet Punctuele tussenkomst in reiskosten|Andere Amateurkunstendecreet Punctuele tussenkomst in reiskosten
+DVR000000334|True|Andere Lokaal Cultuurbeleid Bibliotheekwerking Brusselse gemeenten Subsidie bibliotheekportalen|Andere Lokaal Cultuurbeleid Bibliotheekwerking Brusselse gemeenten Subsidie bibliotheekportalen
+DVR000000335|True|Andere Reglement internationale initiatieven|Andere Reglement internationale initiatieven
+DVR000000336|True|Beurs Circusdecreet Bijscholing en opleiding circuskunstenaars Beurzen internationale bijscholing|Beurs Circusdecreet Bijscholing en opleiding circuskunstenaars Beurzen internationale bijscholing
+DVR000000337|True|Beurs Circusdecreet Bijscholing en opleiding circuskunstenaars Deelname aan opleidingen tot docent|Beurs Circusdecreet Bijscholing en opleiding circuskunstenaars Deelname aan opleidingen tot docent
+DVR000000338|True|Beurzen voor living human treasures (werktitel)|Beurzen voor living human treasures (werktitel)
+DVR000000339|True|Bilateraal werkprogramma Duitstalige Gemeenschap|Bilateraal werkprogramma Duitstalige Gemeenschap
+DVR000000340|True|Bilateraal werkprogramma Franse Gemeenschap|Bilateraal werkprogramma Franse Gemeenschap
+DVR000000341|True|Bilateraal werkprogramma Hauts-de-France|Bilateraal werkprogramma Hauts-de-France
+DVR000000342|True|Bilateraal werkprogramma Québec|Bilateraal werkprogramma Québec
+DVR000000343|True|CAO podiumkunsten (verbeteren arbeidsomstandigheden kunstenaars-werknemers)|CAO podiumkunsten (verbeteren arbeidsomstandigheden kunstenaars-werknemers)
+DVR000000344|True|Continuering werking provincies - instellingen|Continuering werking provincies - instellingen
+DVR000000345|True|Continuering werking provincies - structurele subsidies|Continuering werking provincies - structurele subsidies
+DVR000000346|True|Culturele projecten (algemeen afgevaardigden van de VR)|Culturele projecten (algemeen afgevaardigden van de VR)
+DVR000000347|True|DAC's Jeugd|DAC's Jeugd
+DVR000000348|True|DAC's Kunsten|DAC's Kunsten
+DVR000000349|True|Decreet Jeugdverblijfcentra ondersteuningsstructuren vzw Centrum voor jeugdtoerisme|Decreet Jeugdverblijfcentra ondersteuningsstructuren vzw Centrum voor jeugdtoerisme
+DVR000000350|True|Decreet Jeugdverblijfcentra ondersteuningsstructuren vzw Vlaamse Jeugdherbergen|Decreet Jeugdverblijfcentra ondersteuningsstructuren vzw Vlaamse Jeugdherbergen
+DVR000001349|True|Decreet Vlaamse Gebarentaal erkenning Vlaams Gebarentaalcentrum|Decreet Vlaamse Gebarentaal erkenning Vlaams Gebarentaalcentrum
+DVR000001350|True|Decreet Vlaamse Gebarentaal projecten VGT|Decreet Vlaamse Gebarentaal projecten VGT
+DVR000001351|True|Dotatie VFL (subsidie voor het geheel van de werking)|Dotatie VFL (subsidie voor het geheel van de werking)
+DVR000001352|True|Energielening voor het plaatsen van fotovoltaïsche installaties bij Cultuur en Jeugd|Energielening voor het plaatsen van fotovoltaïsche installaties bij Cultuur en Jeugd
+DVR000001353|True|Enveloppe Decreet Jeugdverblijfcentra Jeugdverblijfcentra, Hostels, ondersteuningsstructuren en de vzw ADJ Subsidiëring van ADJ, CJT en VJH|Enveloppe Decreet Jeugdverblijfcentra Jeugdverblijfcentra, Hostels, ondersteuningsstructuren en de vzw ADJ Subsidiëring van ADJ, CJT en VJH
+DVR000001354|True|Enveloppe Decreet lokaal Jeugdbeleid Subsidie VGC|Enveloppe Decreet lokaal Jeugdbeleid Subsidie VGC
+DVR000001355|True|Enveloppe Decreet lokaal Jeugdbeleid subsidies Randgemeenten|Enveloppe Decreet lokaal Jeugdbeleid subsidies Randgemeenten
+DVR000001356|True|Enveloppe Decreet Vernieuwd Vlaams jeugd en kinderrechtenbeleid subsidies cultuur educatieve verenigingen|Enveloppe Decreet Vernieuwd Vlaams jeugd en kinderrechtenbeleid subsidies cultuur educatieve verenigingen
+DVR000001357|True|Enveloppe Decreet Vernieuwd Vlaams jeugd en kinderrechtenbeleid Subsidies landelijk georganiseerd jeugdwerk|Enveloppe Decreet Vernieuwd Vlaams jeugd en kinderrechtenbeleid Subsidies landelijk georganiseerd jeugdwerk
+DVR000001358|True|Enveloppe Decreet Vernieuwd Vlaams jeugd en kinderrechtenbeleid subsidies verenigingen participatie en informatie|Enveloppe Decreet Vernieuwd Vlaams jeugd en kinderrechtenbeleid subsidies verenigingen participatie en informatie
+DVR000001359|True|Enveloppe Decreet Vernieuwd Vlaams jeugd en kinderrechtenbeleid Vlaamse instellingen jeugdbeleid|Enveloppe Decreet Vernieuwd Vlaams jeugd en kinderrechtenbeleid Vlaamse instellingen jeugdbeleid
+DVR000001360|True|Erkenning Cultureel-erfgoeddecreet (nieuw CED) Kwaliteitslabel|Erkenning Cultureel-erfgoeddecreet (nieuw CED) Kwaliteitslabel
+DVR000001361|True|Erkenning cultuureducatieve verenigingen|Erkenning cultuureducatieve verenigingen
+DVR000001362|True|Erkenning Landelijk georganiseerde jeugdverenigingen|Erkenning Landelijk georganiseerde jeugdverenigingen
+DVR000001363|True|Erkenning politieke jongerenbewegingen|Erkenning politieke jongerenbewegingen
+DVR000001364|True|Erkenning verenigingen informatie en participatie|Erkenning verenigingen informatie en participatie
+DVR000001365|True|Eurimages|Eurimages
+DVR000001366|True|Experimentele projecten|Experimentele projecten
+DVR000001367|True|Expertisecentrum voor Islamitische culturen in Vlaanderen|Expertisecentrum voor Islamitische culturen in Vlaanderen
+DVR000001368|True|Facultatieve subsidie Europees Muziekfestival voor de Jeugd|Facultatieve subsidie Europees Muziekfestival voor de Jeugd
+DVR000001369|True|Facultatieve subsidie EUYO|Facultatieve subsidie EUYO
+DVR000001370|True|FARO|FARO
+DVR000001371|True|FoCI investeringssubsidies voor culturele infrastructuur met bovenlokaal belang|FoCI investeringssubsidies voor culturele infrastructuur met bovenlokaal belang
+DVR000001372|True|Gemeentelijk cultuurbeleid - Faciliteitengemeenten in de Vlaamse Rand|Gemeentelijk cultuurbeleid - Faciliteitengemeenten in de Vlaamse Rand
+DVR000001373|True|Gesco's cultureel erfgoed|Gesco's cultureel erfgoed
+DVR000001374|True|Innovatieve partnerprojecten|Innovatieve partnerprojecten
+DVR000001375|True|Intergemeentelijke samenwerking Lokaal cultuurbeleid|Intergemeentelijke samenwerking Lokaal cultuurbeleid
+DVR000001376|True|internationaal cultuurbeleid (projecten)|internationaal cultuurbeleid (projecten)
+DVR000001377|True|Internationale en interregionale jeugdsamenwerking|Internationale en interregionale jeugdsamenwerking
+DVR000001378|True|Internationale Jeugdsamenwerking Zuid-Afrika|Internationale Jeugdsamenwerking Zuid-Afrika
+DVR000001379|True|Jeugdverenigingen met een bijzondere opdracht|Jeugdverenigingen met een bijzondere opdracht
+DVR000001380|True|KD2 spreiding kunstwerken jaardossier|KD2 spreiding kunstwerken jaardossier
+DVR000001381|True|Kenniscentrum MediaWijsheid|Kenniscentrum MediaWijsheid
+DVR000001382|True|Kunstendecreet : doorbraaktraject kunstenaar|Kunstendecreet : doorbraaktraject kunstenaar
+DVR000001383|True|Kunstendecreet : doorbraaktraject kunstenaar - experimentele projectoproep|Kunstendecreet : doorbraaktraject kunstenaar - experimentele projectoproep
+DVR000001384|True|Kunstendecreet : doorbraaktraject organisatie|Kunstendecreet : doorbraaktraject organisatie
+DVR000001385|True|Kunstendecreet : JAARDOSSIER|Kunstendecreet : JAARDOSSIER
+DVR000001386|True|Kunstendecreet : Jaardossier Kunstinstelling|Kunstendecreet : Jaardossier Kunstinstelling
+DVR000001387|True|Kunstendecreet : Jaardossier Kunstloket|Kunstendecreet : Jaardossier Kunstloket
+DVR000001388|True|Kunstendecreet : Jaardossier Steunpunt|Kunstendecreet : Jaardossier Steunpunt
+DVR000001389|True|Kunstendecreet : Jaardossier VAI|Kunstendecreet : Jaardossier VAI
+DVR000001390|True|Kunstendecreet : kortlopende beurs|Kunstendecreet : kortlopende beurs
+DVR000001391|True|Kunstendecreet : kunstenaarstoelage|Kunstendecreet : kunstenaarstoelage
+DVR000001392|True|Kunstendecreet : Kunstendecreetcofinanciering kunstproject|Kunstendecreet : Kunstendecreetcofinanciering kunstproject
+DVR000001393|True|Kunstendecreet : meerjarige beurs|Kunstendecreet : meerjarige beurs
+DVR000001394|True|Kunstendecreet : partnerproject|Kunstendecreet : partnerproject
+DVR000001395|True|Kunstendecreet : projectsubsidie kunstenaar|Kunstendecreet : projectsubsidie kunstenaar
+DVR000001396|True|Kunstendecreet : projectsubsidie netwerkevenement|Kunstendecreet : projectsubsidie netwerkevenement
+DVR000001397|True|Kunstendecreet : projectsubsidie netwerkorganisatie|Kunstendecreet : projectsubsidie netwerkorganisatie
+DVR000001398|True|Kunstendecreet : projectsubsidie organisatie|Kunstendecreet : projectsubsidie organisatie
+DVR000001399|True|Kunstendecreet : residentietoelage|Kunstendecreet : residentietoelage
+DVR000001400|True|Kunstendecreet : tussenkomst buitenlands publiek presentatiemoment kunstenaar|Kunstendecreet : tussenkomst buitenlands publiek presentatiemoment kunstenaar
+DVR000001401|True|Kunstendecreet : tussenkomst buitenlands publiek presentatiemoment organisatie|Kunstendecreet : tussenkomst buitenlands publiek presentatiemoment organisatie
+DVR000001402|True|Kunstendecreet : werkingssubsidie Kunstenloket|Kunstendecreet : werkingssubsidie Kunstenloket
+DVR000001403|True|Kunstendecreet : werkingssubsidie kunstinstelling|Kunstendecreet : werkingssubsidie kunstinstelling
+DVR000001404|True|Kunstendecreet : werkingssubsidie organisatie|Kunstendecreet : werkingssubsidie organisatie
+DVR000001405|True|Kunstendecreet : werkingssubsidie spreiding van kunstwerken|Kunstendecreet : werkingssubsidie spreiding van kunstwerken
+DVR000001406|True|Kunstendecreet : werkingssubsidie steunpunt|Kunstendecreet : werkingssubsidie steunpunt
+DVR000001407|True|Kunstendecreet : werkingssubsidie Vai|Kunstendecreet : werkingssubsidie Vai
+DVR000001408|True|Kunstenloket/Cultuurloket|Kunstenloket/Cultuurloket
+DVR000001409|True|Lokaal Jeugdbeleid|Lokaal Jeugdbeleid
+DVR000001410|True|Media-initiatieven in het binnenland (o.a. oproep innoverende journalistieke projecten)|Media-initiatieven in het binnenland (o.a. oproep innoverende journalistieke projecten)
+DVR000001411|True|MMMechelen feest vzw|MMMechelen feest vzw
+DVR000001412|True|Nationale commissie voor de rechten van het kind|Nationale commissie voor de rechten van het kind
+DVR000001413|True|Nieuwe disciplines (Amateurkunsten)|Nieuwe disciplines (Amateurkunsten)
+DVR000001414|True|Nominatum BVN (het beste van Vlaanderen en Nederland)|Nominatum BVN (het beste van Vlaanderen en Nederland)
+DVR000001415|True|Nominatum mediaacademie|Nominatum mediaacademie
+DVR000001416|True|Nominatum nieuws in de klas|Nominatum nieuws in de klas
+DVR000001417|True|Openbare bibliotheek - Faciliteitengemeenten in de Vlaamse Rand|Openbare bibliotheek - Faciliteitengemeenten in de Vlaamse Rand
+DVR000001418|True|Opleidingssteun ter bevordering van een divers en kwaliteitsvol aanbod in een duurzaam en pluriform Vlaams Medialandschap|Opleidingssteun ter bevordering van een divers en kwaliteitsvol aanbod in een duurzaam en pluriform Vlaams Medialandschap
+DVR000001419|True|Oproepen vernieuwend onderzoek Jeugd - Ad hoc|Oproepen vernieuwend onderzoek Jeugd - Ad hoc
+DVR000001420|True|Overgangsmaatregelen transitie provincies 2018-2019|Overgangsmaatregelen transitie provincies 2018-2019
+DVR000001421|True|Personeelssubsidie Decreet Jeugdverblijfcentra Jeugdverblijfcentra, Hostels, ondersteuningsstructuren en de vzw ADJ Centra met personeel -en werkingsubsidie|Personeelssubsidie Decreet Jeugdverblijfcentra Jeugdverblijfcentra, Hostels, ondersteuningsstructuren en de vzw ADJ Centra met personeel -en werkingsubsidie
+DVR000001422|True|Project- en werkingssubsidie Begrotingsdecreet 0-gereglementeerde subsidies (nominatim/met overeenkomst)|Project- en werkingssubsidie Begrotingsdecreet 0-gereglementeerde subsidies (nominatim/met overeenkomst)
+DVR000001423|True|Projectoproep Europees Erfgoedjaar|Projectoproep Europees Erfgoedjaar
+DVR000001424|True|Projectoproep ikv de preventie van radicalisering|Projectoproep ikv de preventie van radicalisering
+DVR000001425|True|Projectoproep vernieuwende projecten Jeugd|Projectoproep vernieuwende projecten Jeugd
+DVR000001426|True|Projectoproepen Jeugd - Ad hoc|Projectoproepen Jeugd - Ad hoc
+DVR000001427|True|Projectsubsidie Amateurkunstendecreet Amateurkunstprojecten Binnenland|Projectsubsidie Amateurkunstendecreet Amateurkunstprojecten Binnenland
+DVR000001428|True|Projectsubsidie Amateurkunstendecreet Amateurkunstprojecten Buitenland|Projectsubsidie Amateurkunstendecreet Amateurkunstprojecten Buitenland
+DVR000001429|True|Projectsubsidie Begrotingsdecreet Ondersteuning innoverende journalistieke projecten|Projectsubsidie Begrotingsdecreet Ondersteuning innoverende journalistieke projecten
+DVR000001430|True|Projectsubsidie Begrotingsdecreet Ondersteuning media-iniatieven Ad-hoc subsidies (0-gereglementeerd)|Projectsubsidie Begrotingsdecreet Ondersteuning media-iniatieven Ad-hoc subsidies (0-gereglementeerd)
+DVR000001431|True|Projectsubsidie Circusdecreet Creatie van circuskunstproducties|Projectsubsidie Circusdecreet Creatie van circuskunstproducties
+DVR000001432|True|Projectsubsidie Circusdecreet Ondersteuning en promotie circuskunsten Promotie van circuskunsten|Projectsubsidie Circusdecreet Ondersteuning en promotie circuskunsten Promotie van circuskunsten
+DVR000001433|True|Projectsubsidie Circusdecreet Spreiding van circuskunstproducties Eénjarige festivals|Projectsubsidie Circusdecreet Spreiding van circuskunstproducties Eénjarige festivals
+DVR000001434|True|Projectsubsidie Circusdecreet Spreiding van circuskunstproducties Internationale spreiding van Vlaamse circusproductie|Projectsubsidie Circusdecreet Spreiding van circuskunstproducties Internationale spreiding van Vlaamse circusproductie
+DVR000001435|True|Projectsubsidie Circusdecreet Spreiding van circuskunstproducties Meerjarige festivals|Projectsubsidie Circusdecreet Spreiding van circuskunstproducties Meerjarige festivals
+DVR000001436|True|Projectsubsidie Circusdecreet Spreiding van circuskunstproducties Nomadische tournees in Vlaanderen|Projectsubsidie Circusdecreet Spreiding van circuskunstproducties Nomadische tournees in Vlaanderen
+DVR000001437|True|Projectsubsidie Cultureel-erfgoeddecreet (nieuw CED) internationale tussenkomsten|Projectsubsidie Cultureel-erfgoeddecreet (nieuw CED) internationale tussenkomsten
+DVR000001438|True|Projectsubsidie Cultureel-erfgoeddecreet (nieuw CED) projecten|Projectsubsidie Cultureel-erfgoeddecreet (nieuw CED) projecten
+DVR000001439|True|Projectsubsidie Decreet Vernieuwd Vlaams jeugd en kinderrechtenbeleid projecten verenigingen|Projectsubsidie Decreet Vernieuwd Vlaams jeugd en kinderrechtenbeleid projecten verenigingen
+DVR000001440|True|Projectsubsidie Decreet Vlaamse Gebarentaal Projecten Vlaamse Gebarentaal|Projectsubsidie Decreet Vlaamse Gebarentaal Projecten Vlaamse Gebarentaal
+DVR000001441|True|Projectsubsidie erkende verenigingen Jeugd|Projectsubsidie erkende verenigingen Jeugd
+DVR000001442|True|Projectsubsidie Experimentele projecten Jeugd|Projectsubsidie Experimentele projecten Jeugd
+DVR000001443|True|Projectsubsidie Participatiedecreet Aanbod kansengroepen gemeenschapscentra|Projectsubsidie Participatiedecreet Aanbod kansengroepen gemeenschapscentra
+DVR000001444|True|Projectsubsidie Participatiedecreet Projecten Lotto-middelen (incl. algemeen cultureel belang)|Projectsubsidie Participatiedecreet Projecten Lotto-middelen (incl. algemeen cultureel belang)
+DVR000001445|True|Projectsubsidie Participatiedecreet Projecten ter bevordering van de participatie van kansengroepen in cultuur, jeugdwerk of sport|Projectsubsidie Participatiedecreet Projecten ter bevordering van de participatie van kansengroepen in cultuur, jeugdwerk of sport
+DVR000001446|True|Projectsubsidie Reglement waarderen collecties projecten collectiewaardering|Projectsubsidie Reglement waarderen collecties projecten collectiewaardering
+DVR000001447|True|Subsidies ad nominatim aan infrastructuurprojecten|Subsidies ad nominatim aan infrastructuurprojecten
+DVR000001448|True|Projectsubsidie voor internationale cultureel erfgoedprojecten|Projectsubsidie voor internationale cultureel erfgoedprojecten
+DVR000001449|True|Projectsubsidie voor ontwikkelingsgerichte cultureel erfgoedprojecten|Projectsubsidie voor ontwikkelingsgerichte cultureel erfgoedprojecten
+DVR000001450|True|Projectsubsidie - Begrotingsdecreet Ondernemingsrugzakjes|Projectsubsidie - Begrotingsdecreet Ondernemingsrugzakjes
+DVR000001451|True|Projectsubsidies aan sociaal-culturele volwassenenorganisaties|Projectsubsidies aan sociaal-culturele volwassenenorganisaties
+DVR000001452|True|Projectsubsidies ondernemerschap en artistieke expressie jeugdhuizen|Projectsubsidies ondernemerschap en artistieke expressie jeugdhuizen
+DVR000001453|True|Projectsubsidies pilootprojecten waarderen van cultureel erfgoed|Projectsubsidies pilootprojecten waarderen van cultureel erfgoed
+DVR000001454|True|Projectsubsidies voor bovenlokale cultuurprojecten|Projectsubsidies voor bovenlokale cultuurprojecten
+DVR000001455|True|Projectsubsidies voor cultureelerfgoedwerking op landelijk en internationaal niveau|Projectsubsidies voor cultureelerfgoedwerking op landelijk en internationaal niveau
+DVR000001456|True|Projectsubsidies voor internationale cultureel erfgoedprojecten die cofinanciering vereisen|Projectsubsidies voor internationale cultureel erfgoedprojecten die cofinanciering vereisen
+DVR000001457|True|Projectsubsidies voor internationale projecten die cofinanciering vereisen|Projectsubsidies voor internationale projecten die cofinanciering vereisen
+DVR000001458|True|Reglement Immateriaal Cultureel Erfgoed|Reglement Immateriaal Cultureel Erfgoed
+DVR000001459|True|Spreiding van kunstwerken|Spreiding van kunstwerken
+DVR000001460|True|Subsidie Participatiedecreet - Eénjarige projecten - Cultuur, jeugd, sport|Subsidie Participatiedecreet - Eénjarige projecten - Cultuur, jeugd, sport
+DVR000001461|True|Subsidie Participatiedecreet - Meerjarige projecten - Cultuur, jeugd, sport|Subsidie Participatiedecreet - Meerjarige projecten - Cultuur, jeugd, sport
+DVR000001462|True|Subsidiëring cultuureducatieve verenigingen|Subsidiëring cultuureducatieve verenigingen
+DVR000001463|True|Subsidiëring Ijzertorenmemoriaal (Diksmuide)|Subsidiëring Ijzertorenmemoriaal (Diksmuide)
+DVR000001464|True|Subsidiëring Landelijk georganiseerde jeugdverenigingen|Subsidiëring Landelijk georganiseerde jeugdverenigingen
+DVR000001465|True|Subsidiëring verenigingen informatie en participatieJeugd|Subsidiëring verenigingen informatie en participatieJeugd
+DVR000001466|True|Subsidies aan sociaal-culturele volwassenenorganisaties met een werking binnen specifieke regio’s|Subsidies aan sociaal-culturele volwassenenorganisaties met een werking binnen specifieke regio’s
+DVR000001467|True|Subsidies brusselse podia (soort subsidie is afhankelijk van het podium)|Subsidies brusselse podia (soort subsidie is afhankelijk van het podium)
+DVR000001468|True|Subsidies projecten mediawijsheid|Subsidies projecten mediawijsheid
+DVR000001469|True|Subsidies regionale omroepen|Subsidies regionale omroepen
+DVR000001470|True|Subsidies voor geprofessionaliseerde jeugdhuizen|Subsidies voor geprofessionaliseerde jeugdhuizen
+DVR000001471|True|Subsidies voor geprofessionaliseerde werkingen met kinderen en jongeren met een handicap|Subsidies voor geprofessionaliseerde werkingen met kinderen en jongeren met een handicap
+DVR000001472|True|Subsidies voor intergemeentelijke samenwerking voor bovenlokaal jeugdwerk|Subsidies voor intergemeentelijke samenwerking voor bovenlokaal jeugdwerk
+DVR000001473|True|Subsidies voor jeugdwerk met maatschappelijk kwetsbare kinderen en jongeren|Subsidies voor jeugdwerk met maatschappelijk kwetsbare kinderen en jongeren
+DVR000001474|True|Subsidies voor niet periodieke publicaties (Cultureel erfgoed) (projectsubsidie)|Subsidies voor niet periodieke publicaties (Cultureel erfgoed) (projectsubsidie)
+DVR000001475|True|Subsidies voor sociaal-culturele volwassenenorganisaties met een werking in het Nederlandse taalgebied en het tweetalige gebied Brussel-Hoofdstad|Subsidies voor sociaal-culturele volwassenenorganisaties met een werking in het Nederlandse taalgebied en het tweetalige gebied Brussel-Hoofdstad
+DVR000001476|True|Subsidies voor sociaal-culturele volwassenenorganisaties met een werking in het Nederlandse taalgebied.|Subsidies voor sociaal-culturele volwassenenorganisaties met een werking in het Nederlandse taalgebied.
+DVR000001477|True|Subsidies voor vrijwilligerswerking met kinderen en jongeren met een handicap|Subsidies voor vrijwilligerswerking met kinderen en jongeren met een handicap
+DVR000001478|True|Taalstimulering jeugdwerk|Taalstimulering jeugdwerk
+DVR000001479|True|TaxShelter Podiumkunsten|TaxShelter Podiumkunsten
+DVR000001480|True|TaxShelter Podiumkunsten - tweede Certificaat|TaxShelter Podiumkunsten - tweede Certificaat
+DVR000001481|True|Tewerkstelling DAC cultureel erfgoed|Tewerkstelling DAC cultureel erfgoed
+DVR000001482|True|Tewerkstelling DAC Lokaal cultuurbeleid|Tewerkstelling DAC Lokaal cultuurbeleid
+DVR000001483|True|Tewerkstelling DAC Lokaal en Vlaams jeugdbeleid|Tewerkstelling DAC Lokaal en Vlaams jeugdbeleid
+DVR000001484|True|Tewerkstelling DAC Normalisering SCW|Tewerkstelling DAC Normalisering SCW
+DVR000001485|True|Tewerkstelling DAC Sociaal-cultureel volwassenenwerk|Tewerkstelling DAC Sociaal-cultureel volwassenenwerk
+DVR000001486|True|Tewerkstelling Decreet Vlaams Intersectorale Akkoorden Kunsten|Tewerkstelling Decreet Vlaams Intersectorale Akkoorden Kunsten
+DVR000001487|True|Tewerkstelling Decreet Vlaams Intersectorale Akkoorden Sociaal-cultureel werk|Tewerkstelling Decreet Vlaams Intersectorale Akkoorden Sociaal-cultureel werk
+DVR000001488|True|Tewerkstelling en werking DAC jeugdhuizen subsidiëren jeugdhuizen voor de uitvoering van een bovenlokaal project|Tewerkstelling en werking DAC jeugdhuizen subsidiëren jeugdhuizen voor de uitvoering van een bovenlokaal project
+DVR000001489|True|Tewerkstelling Gesco-regularisatie Decretaal gesubsidieerde organisaties|Tewerkstelling Gesco-regularisatie Decretaal gesubsidieerde organisaties
+DVR000001490|True|Tewerkstelling Gesco-regularisatie Los gesubsidieerde organisaties|Tewerkstelling Gesco-regularisatie Los gesubsidieerde organisaties
+DVR000001491|True|Transitiereglement voor de subsidiëring van culturele projecten met een regionale uitstraling 2018-2019|Transitiereglement voor de subsidiëring van culturele projecten met een regionale uitstraling 2018-2019
+DVR000001492|True|Tussenkomsten voor internationale reis en verblijfskosten van cultureel erfgoedorganisaties = Subsidies competentieontwikkeling in een internationaal CE perspectief (reglement)|Tussenkomsten voor internationale reis en verblijfskosten van cultureel erfgoedorganisaties = Subsidies competentieontwikkeling in een internationaal CE perspectief (reglement)
+DVR000001493|True|Tussenkomsten voor internationale uitwisseling nieuwe CE - decreet|Tussenkomsten voor internationale uitwisseling nieuwe CE - decreet
+DVR000001494|True|Vlaamse bijdrage aan Europees Audiovisueel Observatorium|Vlaamse bijdrage aan Europees Audiovisueel Observatorium
+DVR000001495|True|Vlaamse Erfgoedbibliotheek|Vlaamse Erfgoedbibliotheek
+DVR000001496|True|Vlaamse vereniging van beroepsjournalisten|Vlaamse vereniging van beroepsjournalisten
+DVR000001497|True|Vrijetijdspas|Vrijetijdspas
+DVR000001498|True|Werkingssubsidie Amateurkunstendecreet Landelijke amateurkunstenorganisaties|Werkingssubsidie Amateurkunstendecreet Landelijke amateurkunstenorganisaties
+DVR000001499|True|Werkingssubsidie Amateurkunstendecreet Steunpunten|Werkingssubsidie Amateurkunstendecreet Steunpunten
+DVR000001500|True|Werkingssubsidie Begrotingsdecreet dotaties|Werkingssubsidie Begrotingsdecreet dotaties
+DVR000001501|True|Werkingssubsidie Begrotingsdecreet Nominatim|Werkingssubsidie Begrotingsdecreet Nominatim
+DVR000001502|True|Werkingssubsidie Circusdecreet Ondersteuning en promotie circuskunsten Ondersteuning circuscentrum|Werkingssubsidie Circusdecreet Ondersteuning en promotie circuskunsten Ondersteuning circuscentrum
+DVR000001503|True|Werkingssubsidie Cultureel-erfgoeddecreet - collectiebeherende functies|Werkingssubsidie Cultureel-erfgoeddecreet - collectiebeherende functies
+DVR000001504|True|Werkingssubsidie Cultureel-erfgoeddecreet - landelijke dienstverlenende rollen|Werkingssubsidie Cultureel-erfgoeddecreet - landelijke dienstverlenende rollen
+DVR000001505|True|Werkingssubsidie Cultureel-erfgoeddecreet - regionale dienstverlenende rollen|Werkingssubsidie Cultureel-erfgoeddecreet - regionale dienstverlenende rollen
+DVR000001506|True|Werkingssubsidie Cultureel-erfgoeddecreet - steunpunt|Werkingssubsidie Cultureel-erfgoeddecreet - steunpunt
+DVR000001507|True|Werkingssubsidie Decreet Vlaamse Gebarentaal Centrum Vlaamse Gebarentaal|Werkingssubsidie Decreet Vlaamse Gebarentaal Centrum Vlaamse Gebarentaal
+DVR000001508|True|Werkingssubsidie en Personeelssubsidie Decreet Jeugdverblijfcentra Jeugdverblijfcentra en Hostels|Werkingssubsidie en Personeelssubsidie Decreet Jeugdverblijfcentra Jeugdverblijfcentra en Hostels
+DVR000001509|True|Werkingssubsidie KANTL|Werkingssubsidie KANTL
+DVR000001510|True|Werkingssubsidie lokaal cultureel erfgoedbeleid voor intergemeentelijke samenwerkingsverbanden|Werkingssubsidie lokaal cultureel erfgoedbeleid voor intergemeentelijke samenwerkingsverbanden
+DVR000001511|True|Werkingssubsidie Lokaal Cultuurbeleid Bibliotheekwerking Brusselse gemeenten Openbare bibliotheek|Werkingssubsidie Lokaal Cultuurbeleid Bibliotheekwerking Brusselse gemeenten Openbare bibliotheek
+DVR000001512|True|Werkingssubsidie Lokaal Cultuurbeleid Convenant VGC|Werkingssubsidie Lokaal Cultuurbeleid Convenant VGC
+DVR000001513|True|Werkingssubsidie Lokaal Cultuurbeleid Cultuurbeleidsplanning Brusselse gemeenten|Werkingssubsidie Lokaal Cultuurbeleid Cultuurbeleidsplanning Brusselse gemeenten
+DVR000001514|True|Werkingssubsidie Lokaal Cultuurbeleid Intergemeentelijke samenwerking cultuuraanbod en communicatie|Werkingssubsidie Lokaal Cultuurbeleid Intergemeentelijke samenwerking cultuuraanbod en communicatie
+DVR000001515|True|Werkingssubsidie Lokaal Cultuurbeleid Ondersteuning organisaties met specifieke opdracht|Werkingssubsidie Lokaal Cultuurbeleid Ondersteuning organisaties met specifieke opdracht
+DVR000001516|True|Werkingssubsidie Participatiedecreet Bibliotheekwerking voor gedetineerden|Werkingssubsidie Participatiedecreet Bibliotheekwerking voor gedetineerden
+DVR000001517|True|Werkingssubsidie Participatiedecreet Hobbyverenigingen|Werkingssubsidie Participatiedecreet Hobbyverenigingen
+DVR000001518|True|Werkingssubsidie Participatiedecreet Laagdrempelige educatie voor kansengroepen|Werkingssubsidie Participatiedecreet Laagdrempelige educatie voor kansengroepen
+DVR000001519|True|Werkingssubsidie Participatiedecreet Lokale netwerken voor de bevordering van de vrijetijdsparticipatie van personen in armoede|Werkingssubsidie Participatiedecreet Lokale netwerken voor de bevordering van de vrijetijdsparticipatie van personen in armoede
+DVR000001520|True|Werkingssubsidie Participatiedecreet Participatie-instellingen (Demos en publiq)|Werkingssubsidie Participatiedecreet Participatie-instellingen (Demos en publiq)
+DVR000001521|True|Werkingssubsidie Participatiedecreet Participatie-instellingen (Rode Antraciet)|Werkingssubsidie Participatiedecreet Participatie-instellingen (Rode Antraciet)
+DVR000001522|True|Werkingssubsidie Participatiedecreet Verenigingen met een specifieke opdracht|Werkingssubsidie Participatiedecreet Verenigingen met een specifieke opdracht
+DVR000001523|True|Werkingssubsidie Sociaal-Cultureel Volwassenenwerk Belangenbehartiging|Werkingssubsidie Sociaal-Cultureel Volwassenenwerk Belangenbehartiging
+DVR000001524|True|Werkingssubsidie Sociaal-Cultureel Volwassenenwerk Bewegingen|Werkingssubsidie Sociaal-Cultureel Volwassenenwerk Bewegingen
+DVR000001525|True|Werkingssubsidie Sociaal-Cultureel Volwassenenwerk Steunpunt|Werkingssubsidie Sociaal-Cultureel Volwassenenwerk Steunpunt
+DVR000001526|True|Werkingssubsidie Sociaal-Cultureel Volwassenenwerk Verenigingen Landelijke verenigingen|Werkingssubsidie Sociaal-Cultureel Volwassenenwerk Verenigingen Landelijke verenigingen
+DVR000001527|True|Werkingssubsidie Sociaal-Cultureel Volwassenenwerk Verenigingen Startsubsidies|Werkingssubsidie Sociaal-Cultureel Volwassenenwerk Verenigingen Startsubsidies
+DVR000001528|True|Werkingssubsidie Sociaal-Cultureel Volwassenenwerk Vormingsinstellingen Federatie van vormingsdiensten voor personen met een handicap|Werkingssubsidie Sociaal-Cultureel Volwassenenwerk Vormingsinstellingen Federatie van vormingsdiensten voor personen met een handicap
+DVR000001529|True|Werkingssubsidie Sociaal-Cultureel Volwassenenwerk Vormingsinstellingen Gespecialiseerde vormingsinstellingen|Werkingssubsidie Sociaal-Cultureel Volwassenenwerk Vormingsinstellingen Gespecialiseerde vormingsinstellingen
+DVR000001530|True|Werkingssubsidie Sociaal-Cultureel Volwassenenwerk Vormingsinstellingen Syndicale vormingsinstellingen|Werkingssubsidie Sociaal-Cultureel Volwassenenwerk Vormingsinstellingen Syndicale vormingsinstellingen
+DVR000001531|True|Werkingssubsidie Sociaal-Cultureel Volwassenenwerk Vormingsinstellingen Volkshogescholen|Werkingssubsidie Sociaal-Cultureel Volwassenenwerk Vormingsinstellingen Volkshogescholen
+DVR000001532|True|Werkingssubsidie Sociaal-Cultureel Volwassenenwerk Vormingsinstellingen Vormingsinstellingen voor personen met een handicap|Werkingssubsidie Sociaal-Cultureel Volwassenenwerk Vormingsinstellingen Vormingsinstellingen voor personen met een handicap
+DVR000001533|True|Werkingssubsidie voor besturen voor dienstverlenende rollen op regionaal niveau|Werkingssubsidie voor besturen voor dienstverlenende rollen op regionaal niveau
+DVR000001534|True|Werkingssubsidie voor de internationale profilering van kunstcollecties|Werkingssubsidie voor de internationale profilering van kunstcollecties
+DVR000001535|True|Werkingssubsidie voor de uitgave van een periodieke cultureel erfgoedpublicatie|Werkingssubsidie voor de uitgave van een periodieke cultureel erfgoedpublicatie
+DVR000001536|True|Werkingssubsidie voor de uitvoering van een cultureel erfgoedbeleid door de Vlaamse Gemeenschapscommissie|Werkingssubsidie voor de uitvoering van een cultureel erfgoedbeleid door de Vlaamse Gemeenschapscommissie
+DVR000001537|True|Werkingssubsidie voor een cultureelerfgoedorganisatie die de cultureelerfgoedwerking opneemt voor het immaterieel cultureel erfgoed|Werkingssubsidie voor een cultureelerfgoedorganisatie die de cultureelerfgoedwerking opneemt voor het immaterieel cultureel erfgoed
+DVR000001538|True|Werkingssubsidie voor een erkend museum|Werkingssubsidie voor een erkend museum
+DVR000001539|True|Werkingssubsidie voor een erkende culturele archiefinstelling|Werkingssubsidie voor een erkende culturele archiefinstelling
+DVR000001540|True|Werkingssubsidie voor het lokale cultureel erfgoedbeleid van Antwerpen Gent Brugge Leuven en Mechelen|Werkingssubsidie voor het lokale cultureel erfgoedbeleid van Antwerpen Gent Brugge Leuven en Mechelen
+DVR000001541|True|Werkingssubsidie voor het regionaal cultureel erfgoedbeleid|Werkingssubsidie voor het regionaal cultureel erfgoedbeleid
+DVR000001542|True|Werkingssubsidie voor landelijke expertisecentra voor cultureel erfgoed|Werkingssubsidie voor landelijke expertisecentra voor cultureel erfgoed
+DVR000001543|True|Werkingssubsidie voor landelijke organisaties voor volkscultuur|Werkingssubsidie voor landelijke organisaties voor volkscultuur
+DVR000001544|True|Werkingssubsidie voor ondertiteling Mediadecreet Art 151 toegankelijkheid|Werkingssubsidie voor ondertiteling Mediadecreet Art 151 toegankelijkheid
+DVR000001545|True|Werkingssubsidies sociaal-culturele volwassenenorganisaties met een werking binnen specifieke regio’s|Werkingssubsidies sociaal-culturele volwassenenorganisaties met een werking binnen specifieke regio’s
+DVR000001546|True|Werkingssubsidies voor cultureelerfgoedinstellingen|Werkingssubsidies voor cultureelerfgoedinstellingen
+DVR000001547|True|Werkingssubsidies voor de functies op landelijk en regionaal niveau|Werkingssubsidies voor de functies op landelijk en regionaal niveau
+DVR000001548|True|Werkingssubsidies voor een ondersteunende organisatie.|Werkingssubsidies voor een ondersteunende organisatie.
+DVR000001549|True|Werkingssubsidies voor intergemeentelijke samenwerkingsverbanden|Werkingssubsidies voor intergemeentelijke samenwerkingsverbanden
+DVR000001550|True|Werkingssubsidies voor sociaal-culturele volwassenenorganisaties|Werkingssubsidies voor sociaal-culturele volwassenenorganisaties
+DVR000001554|True|Premie buitensporige opgravingskosten|Premie buitensporige opgravingskosten
+DVR000001557|True|Subsidie aan jongeren gemeenschapsinstellingen|Subsidie aan jongeren gemeenschapsinstellingen
+DVR000001558|True|G-sport clubs|G-sport clubs
+DVR000001575|True|Subsidies verplaatsing leidingen|Subsidies verplaatsing leidingen
+DVR000001576|True|Subsidies in kader van het decreet mobiliteitsbeleid – Fietsfonds|Subsidies in kader van het decreet mobiliteitsbeleid – Fietsfonds
+DVR000001579|True|Subsidie aan multidisciplinaire teams Jeugdhulp|Subsidie aan multidisciplinaire teams Jeugdhulp
+DVR000001581|True|Subsidies Vlaanderen maakt deel uit van een slagkrachtige EU|Subsidies Vlaanderen maakt deel uit van een slagkrachtige EU
+DVR000001582|True|Subsidies Vlaanderen heeft goede relaties met buitenlandse overheden|Subsidies Vlaanderen heeft goede relaties met buitenlandse overheden
+DVR000001583|True|Subsidies Vlaanderen is gericht aanwezig in multilaterale organisaties|Subsidies Vlaanderen is gericht aanwezig in multilaterale organisaties
+DVR000001584|True|Subsidies Vlaanderen is gekend als sterke en innovatieve economie|Subsidies Vlaanderen is gekend als sterke en innovatieve economie
+DVR000001585|True|Subsidies Vlaanderen is erkend als logistieke toegangspoort tot Europa|Subsidies Vlaanderen is erkend als logistieke toegangspoort tot Europa
+DVR000001586|True|Subsidies Vlaanderen staat te boek als een top toeristische bestemming|Subsidies Vlaanderen staat te boek als een top toeristische bestemming
+DVR000001587|True|Subsidies Vlaanderen is synoniem voor state of the art|Subsidies Vlaanderen is synoniem voor state of the art
+DVR000001588|True|Subsidies Vlaanderen geldt als place to be voor onderwijs en wetenschap|Subsidies Vlaanderen geldt als place to be voor onderwijs en wetenschap
+DVR000001589|True|Subsidies Expats in binnen- en buitenland zijn geïnspireerd door Vlaanderen|Subsidies Expats in binnen- en buitenland zijn geïnspireerd door Vlaanderen
+DVR000001590|True|Subsidies Vlaanderen is wereldwijd nog prominenter gepositioneerd als sterke en innovatieve economie|Subsidies Vlaanderen is wereldwijd nog prominenter gepositioneerd als sterke en innovatieve economie
+DVR000001591|True|Subsidies Internationalisering staat nog meer centraal in de groeistrategie van bedrijven en clusters|Subsidies Internationalisering staat nog meer centraal in de groeistrategie van bedrijven en clusters
+DVR000001592|True|Subsidies Een meer gerichte internationalisering versterkt het economisch weefsel in Vlaanderen|Subsidies Een meer gerichte internationalisering versterkt het economisch weefsel in Vlaanderen
+DVR000001593|True|Subsidies Een vrijere en eerlijkere internationale handel is gunstig voor de Vlaamse economie|Subsidies Een vrijere en eerlijkere internationale handel is gunstig voor de Vlaamse economie
+DVR000001594|True|Subsidies De internationale bereikbaarheid van de Vlaanderen verzekert de concurrentiepositie van de Vlaamse economie|Subsidies De internationale bereikbaarheid van de Vlaanderen verzekert de concurrentiepositie van de Vlaamse economie
+DVR000001595|True|Subsidies De Vlaamse samenwerking blijft concentreerd op de partnerlanden in Zuidelijk Afrika|Subsidies De Vlaamse samenwerking blijft concentreerd op de partnerlanden in Zuidelijk Afrika
+DVR000001596|True|Subsidies We spelen permanent in op belangrijke trends en evoluties in Zuidelijk Afrika|Subsidies We spelen permanent in op belangrijke trends en evoluties in Zuidelijk Afrika
+DVR000001597|True|Subsidies Vlaanderen leeft internationale verbintenissen inzake internationale klimaatbijstand na|Subsidies Vlaanderen leeft internationale verbintenissen inzake internationale klimaatbijstand na
+DVR000001598|True|Subsidies Vlaanderen schakelt zich in de internationale armoede agenda in|Subsidies Vlaanderen schakelt zich in de internationale armoede agenda in
+DVR000001599|True|Subsidies Vlaanderen streeft naar een betere naleving van de rechten van de mens wereldwijd|Subsidies Vlaanderen streeft naar een betere naleving van de rechten van de mens wereldwijd
+DVR000001600|True|Subsidies De herdenking van de Eerste Wereldoorlog versterkt de vredesgedachte|Subsidies De herdenking van de Eerste Wereldoorlog versterkt de vredesgedachte
+DVR000001601|True|Subsidies Vlaanderen draagt zijn expertise uit inzake trauma en transformatie|Subsidies Vlaanderen draagt zijn expertise uit inzake trauma en transformatie
+DVR000001602|True|Subsidies Good governance is een rode draad door de Vlaamse ontwikkelingssamenwerking|Subsidies Good governance is een rode draad door de Vlaamse ontwikkelingssamenwerking
+DVR000001603|True|Subsidies Bedrijven ondernemen duurzaam en 'maatschappelijk verantwoord' in het buitenland|Subsidies Bedrijven ondernemen duurzaam en 'maatschappelijk verantwoord' in het buitenland
+DVR000001604|True|Subsidies Er is respect voor arbeids- en milieunormen|Subsidies Er is respect voor arbeids- en milieunormen
+DVR000001605|True|Subsidies Vlaanderen voert een verantwoord(elijk) vergunningsbeleid voor handel en strategische goederen|Subsidies Vlaanderen voert een verantwoord(elijk) vergunningsbeleid voor handel en strategische goederen
+DVR000001608|True|Binnenland - Facultatieve subsidie Beleid Binnenland|Binnenland - Facultatieve subsidie Beleid Binnenland
+DVR000001609|True|Gesubs Infra - Investeringssubsidie crematoria|Gesubs Infra - Investeringssubsidie crematoria
+DVR000001610|True|Gesubs Infra - Investeringssubsidie gebouwen erediensten en niet confessionele dienstverlening|Gesubs Infra - Investeringssubsidie gebouwen erediensten en niet confessionele dienstverlening
+DVR000001611|True|Binnenland - Werkingssubsidie Beleid Binnenland|Binnenland - Werkingssubsidie Beleid Binnenland
+DVR000001614|True|GK - Projectsubsidie Gelijke kansen|GK - Projectsubsidie Gelijke kansen
+DVR000001615|True|I&I - Projectsubsidie integratie- en inburgeringsbeleid|I&I - Projectsubsidie integratie- en inburgeringsbeleid
+DVR000001616|True|GK - Werkingssubsidie Gelijke kansen|GK - Werkingssubsidie Gelijke kansen
+DVR000001617|True|I&I - Werkingssubsidie Integratie- en inburgeringsbeleid|I&I - Werkingssubsidie Integratie- en inburgeringsbeleid
+DVR000001618|True|Stedenbeleid - Facultatieve subsidie i.k.v. stedenbeleid|Stedenbeleid - Facultatieve subsidie i.k.v. stedenbeleid
+DVR000001619|True|Stedenbeleid - Projectsubsidie i.k.v. duurzame en creatieve steden|Stedenbeleid - Projectsubsidie i.k.v. duurzame en creatieve steden
+DVR000001620|True|Stedenbeleid - Stadsvernieuwingsprojecten|Stedenbeleid - Stadsvernieuwingsprojecten
+DVR000001621|True|Stedenbeleid - Werkingssubsidie stedenbeleid|Stedenbeleid - Werkingssubsidie stedenbeleid
+DVR000001622|True|Brussel - Subsidie Projecten voor Brussel (Subsidiegids)|Brussel - Subsidie Projecten voor Brussel (Subsidiegids)
+DVR000001623|True|Brussel - Projectsubsidie Brussel (buiten subsidiegids)|Brussel - Projectsubsidie Brussel (buiten subsidiegids)
+DVR000001624|True|Brussel - Investeringssubsidie aan VGC|Brussel - Investeringssubsidie aan VGC
+DVR000001625|True|Brussel - Ad nominatim subsidie Brussel|Brussel - Ad nominatim subsidie Brussel
+DVR000001626|True|Vlaamse Rand - Facultatieve subsidie faciliteitengemeenten|Vlaamse Rand - Facultatieve subsidie faciliteitengemeenten
+DVR000001627|True|Vlaamse Rand - Impulsprojectsubsidie|Vlaamse Rand - Impulsprojectsubsidie
+DVR000001630|True|Ad nominatum subsidie|Ad nominatum subsidie
+DVR000001631|True|Doelgerichte subsidies milieu, klimaat en duurzaamheid|Doelgerichte subsidies milieu, klimaat en duurzaamheid
+DVR000001632|True|ESPON-bijdrage voor intergewestelijke en internationale projecten, cofinanciering voor communautaire initiatieven inzake ruimtelijke ordening|ESPON-bijdrage voor intergewestelijke en internationale projecten, cofinanciering voor communautaire initiatieven inzake ruimtelijke ordening
+DVR000001633|True|Financiering internationale projecten of initiatieven ter uitvoering van internationale engagementen gerelateerd aan het milieu- en natuurbeleid, duurzame ontwikkeling en ontwikkelingssamenwerking (o.a. water, klimaat, biodiversiteit)|Financiering internationale projecten of initiatieven ter uitvoering van internationale engagementen gerelateerd aan het milieu- en natuurbeleid, duurzame ontwikkeling en ontwikkelingssamenwerking (o.a. water, klimaat, biodiversiteit)
+DVR000001634|True|Klimaatprijs|Klimaatprijs
+DVR000001635|True|Subsidie apparatuur geluidsmeting (handhaving)|Subsidie apparatuur geluidsmeting (handhaving)
+DVR000001636|True|Subsidie apparatuur geluidsmeting (meting en registratie)|Subsidie apparatuur geluidsmeting (meting en registratie)
+DVR000001637|True|Subsidie bevordering dierenwelzijn|Subsidie bevordering dierenwelzijn
+DVR000001638|True|Subsidie bevordering luchtkwaliteit|Subsidie bevordering luchtkwaliteit
+DVR000001639|True|Subsidie erosiebestrijdingsmaatregelen en werkingsuitgaven bodembescherming en valorisatie ondergrond (kleinschalige erosiebestrijdingswerken)|Subsidie erosiebestrijdingsmaatregelen en werkingsuitgaven bodembescherming en valorisatie ondergrond (kleinschalige erosiebestrijdingswerken)
+DVR000001640|True|Subsidie erosiebestrijdingsmaatregelen en werkingsuitgaven bodembescherming en valorisatie ondergrond (opmaak erosiebestrijdingsplan)|Subsidie erosiebestrijdingsmaatregelen en werkingsuitgaven bodembescherming en valorisatie ondergrond (opmaak erosiebestrijdingsplan)
+DVR000001641|True|Subsidie erosiebestrijdingsmaatregelen en werkingsuitgaven bodembescherming en valorisatie ondergrond (werking erosiecoördinator)|Subsidie erosiebestrijdingsmaatregelen en werkingsuitgaven bodembescherming en valorisatie ondergrond (werking erosiecoördinator)
+DVR000001642|True|Subsidie ondersteuning in het kader van algemeen belang bij invulling van bovengemeentelijke saneringsverplichting|Subsidie ondersteuning in het kader van algemeen belang bij invulling van bovengemeentelijke saneringsverplichting
+DVR000001643|True|Subsidie ondersteuning organisaties doorwerken ruimtelijk beleid|Subsidie ondersteuning organisaties doorwerken ruimtelijk beleid
+DVR000001644|True|Subsidie opmaak vergunningenregister en plannenregister|Subsidie opmaak vergunningenregister en plannenregister
+DVR000001645|True|Subsidie vergoeding planschade (Rubiconfonds)|Subsidie vergoeding planschade (Rubiconfonds)
+DVR000001646|True|Subsidie voor opmaak en actualisatie register onbebouwde percelen|Subsidie voor opmaak en actualisatie register onbebouwde percelen
+DVR000001647|True|Subsidie voor Steunpunt Milieu en Gezondheid|Subsidie voor Steunpunt Milieu en Gezondheid
+DVR000001648|True|Subsidie voor Vlaamse Geotheek, Databank Ondergrond Vlaanderen|Subsidie voor Vlaamse Geotheek, Databank Ondergrond Vlaanderen
+DVR000001649|True|Subsidies bestuurskracht ruimtelijke projecten|Subsidies bestuurskracht ruimtelijke projecten
+DVR000001650|True|Subsidies bijdragen aan multilaterale milieu- en natuurverdragen en samenwerkingsakkoorden (milieu)|Subsidies bijdragen aan multilaterale milieu- en natuurverdragen en samenwerkingsakkoorden (milieu)
+DVR000001651|True|Subsidies bijdragen multilaterale energieverdragen en samenwerkingsakkoorden (energie)|Subsidies bijdragen multilaterale energieverdragen en samenwerkingsakkoorden (energie)
+DVR000001652|True|Subsidies DAC-statuut|Subsidies DAC-statuut
+DVR000001653|True|Subsidies digitale omgevingsvergunningenloket|Subsidies digitale omgevingsvergunningenloket
+DVR000001654|True|Subsidies erkende milieu- en natuurverenigingen|Subsidies erkende milieu- en natuurverenigingen
+DVR000001655|True|Subsidies leegstaande bedrijfsruimten (vernieuwingsfonds)|Subsidies leegstaande bedrijfsruimten (vernieuwingsfonds)
+DVR000001656|True|Subsidies leegstaande bedrijfsruimten (verwerving en sanering - variabel krediet)|Subsidies leegstaande bedrijfsruimten (verwerving en sanering - variabel krediet)
+DVR000001657|True|Subsidies projecten in het kader van maatregelenpakket Clean Power for Transport (CPT)|Subsidies projecten in het kader van maatregelenpakket Clean Power for Transport (CPT)
+DVR000001658|True|Subsidies projecten Klimaatfonds|Subsidies projecten Klimaatfonds
+DVR000001659|True|Subsidies projecten realisatie van laad- en tankinfrastructuur (BENEFIC)|Subsidies projecten realisatie van laad- en tankinfrastructuur (BENEFIC)
+DVR000001660|True|Subsidies Samenwerkingsovereenkomst - Gemeenten|Subsidies Samenwerkingsovereenkomst - Gemeenten
+DVR000001661|True|Subsidies Samenwerkingsovereenkomst - Provincies|Subsidies Samenwerkingsovereenkomst - Provincies
+DVR000001662|True|Subsidies uitvoering natuur- en milieutaken door doelgroepwerknemers|Subsidies uitvoering natuur- en milieutaken door doelgroepwerknemers
+DVR000001663|True|Subsidies VIA-akkoorden - eindejaarspremie|Subsidies VIA-akkoorden - eindejaarspremie
+DVR000001664|True|Subsidies VIA-akkoorden - uitbreidingstewerkstelling|Subsidies VIA-akkoorden - uitbreidingstewerkstelling
+DVR000001665|True|Subsidies voor projecten in uitvoering van Vlaams strategisch belang (coördinatie)|Subsidies voor projecten in uitvoering van Vlaams strategisch belang (coördinatie)
+DVR000001666|True|Subsidies voor projecten in uitvoering van Vlaams strategisch belang (verwerving)|Subsidies voor projecten in uitvoering van Vlaams strategisch belang (verwerving)
+DVR000001667|True|Subsidies voor ruimtelijke impulsprojecten|Subsidies voor ruimtelijke impulsprojecten
+DVR000001668|True|Subsidies voor uitvoering van landinrichtingsplannen (uitdovend)|Subsidies voor uitvoering van landinrichtingsplannen (uitdovend)
+DVR000001671|True|Erkenning en subsidiëring inloopteams|Erkenning en subsidiëring inloopteams
+DVR000001672|True|Erkenning en subsidiëring consultatiebureaus|Erkenning en subsidiëring consultatiebureaus
+DVR000001673|True|Subsidies voor leveringen aan voorzieningen preventieve zorg en voor huisbezoeken|Subsidies voor leveringen aan voorzieningen preventieve zorg en voor huisbezoeken
+DVR000001674|True|Subsidies aan ziekenhuizen met kraamkliniek voor infovergadering kind op komst|Subsidies aan ziekenhuizen met kraamkliniek voor infovergadering kind op komst
+DVR000001675|True|Subsidies aan prenatale steunpunten|Subsidies aan prenatale steunpunten
+DVR000001676|True|Erkenning en subsidiëring expertisecentra kraamzorg|Erkenning en subsidiëring expertisecentra kraamzorg
+DVR000001677|True|Erkenning en subsidiëring huizen van het kind|Erkenning en subsidiëring huizen van het kind
+DVR000001678|True|Subsidie/toelage vormingsinitiatieven kinderopvang|Subsidie/toelage vormingsinitiatieven kinderopvang
+DVR000001679|True|Projectsubsidies kinderopvang|Projectsubsidies kinderopvang
+DVR000001680|True|Subsidie voor de gemandateerde voorzieningen ikv kinderopvang|Subsidie voor de gemandateerde voorzieningen ikv kinderopvang
+DVR000001681|True|Subsidie kinderopvang - basissubsidie gezinsopvang|Subsidie kinderopvang - basissubsidie gezinsopvang
+DVR000001682|True|Subsidie kinderopvang - basissubsidie groepsopvang|Subsidie kinderopvang - basissubsidie groepsopvang
+DVR000001683|True|Subsidie kinderopvang - subsidie voor inkomenstarief gezinsopvang|Subsidie kinderopvang - subsidie voor inkomenstarief gezinsopvang
+DVR000001684|True|Subsidie kinderopvang - subsidie voor inkomenstarief groepsopvang|Subsidie kinderopvang - subsidie voor inkomenstarief groepsopvang
+DVR000001685|True|Subsidie kinderopvang - plussubsidie gezinsopvang|Subsidie kinderopvang - plussubsidie gezinsopvang
+DVR000001686|True|Subsidie kinderopvang - plussubsidie groepsopvang|Subsidie kinderopvang - plussubsidie groepsopvang
+DVR000001687|True|Subsidie voor kinderopvang met flexibele openingstijden gezinsopvang|Subsidie voor kinderopvang met flexibele openingstijden gezinsopvang
+DVR000001688|True|Subsidie voor kinderopvang met flexibele openingstijden groepsopvang|Subsidie voor kinderopvang met flexibele openingstijden groepsopvang
+DVR000001689|True|Subsidie kinderopvang - subsidie voor individuele inclusieve gezinsopvang|Subsidie kinderopvang - subsidie voor individuele inclusieve gezinsopvang
+DVR000001690|True|Subsidie kinderopvang - subsidie voor individuele inclusieve groepsopvang|Subsidie kinderopvang - subsidie voor individuele inclusieve groepsopvang
+DVR000001691|True|Subsidie kinderopvang - subsidie voor structurele inclusieve gezinsopvang|Subsidie kinderopvang - subsidie voor structurele inclusieve gezinsopvang
+DVR000001692|True|Subsidie kinderopvang - subsidie voor structurele inclusieve groepsopvang|Subsidie kinderopvang - subsidie voor structurele inclusieve groepsopvang
+DVR000001693|True|Subsidie kinderopvang - subsidie voor Centrum inclusieve kinderopvang|Subsidie kinderopvang - subsidie voor Centrum inclusieve kinderopvang
+DVR000001694|True|Subsidie groepsopvang samenwerking|Subsidie groepsopvang samenwerking
+DVR000001695|True|Subsidie voor basisaanbod buitenschoolse opvang|Subsidie voor basisaanbod buitenschoolse opvang
+DVR000001696|True|Subsidie voor initiatief buitenschoolse opvang|Subsidie voor initiatief buitenschoolse opvang
+DVR000001697|True|Subsidie voor inkomenstarief buitenschoolse opvang|Subsidie voor inkomenstarief buitenschoolse opvang
+DVR000001698|True|Subsidie voor kinderen uit achtergestelde gebieden|Subsidie voor kinderen uit achtergestelde gebieden
+DVR000001699|True|Subsidie voor buitenschoolse opvang in een afzonderlijke binnenruimte|Subsidie voor buitenschoolse opvang in een afzonderlijke binnenruimte
+DVR000001700|True|Subsidie voor buitenschoolse opvang met flexibele openingstijden|Subsidie voor buitenschoolse opvang met flexibele openingstijden
+DVR000001701|True|Subsidie voor occasionele buitenschoolse opvang|Subsidie voor occasionele buitenschoolse opvang
+DVR000001702|True|Subsidie voor individuele inclusieve buitenschoolse opvang|Subsidie voor individuele inclusieve buitenschoolse opvang
+DVR000001703|True|Subsidie voor structurele inclusieve buitenschoolse opvang|Subsidie voor structurele inclusieve buitenschoolse opvang
+DVR000001704|True|Subsidie buitenschoolse opvang - subsidie voor generatiepact|Subsidie buitenschoolse opvang - subsidie voor generatiepact
+DVR000001705|True|Subsidie voor gemandateerde voorzieningen, coördinatiepunten en flexibele opvangpools|Subsidie voor gemandateerde voorzieningen, coördinatiepunten en flexibele opvangpools
+DVR000001706|True|Subsidie voor lokale dienst buurtgerichte buitenschoolse opvang|Subsidie voor lokale dienst buurtgerichte buitenschoolse opvang
+DVR000001707|True|Subsidie voor projecten vanuit het vroegere FCUD en voor personeelsleden met een gewezen gescostatuut|Subsidie voor projecten vanuit het vroegere FCUD en voor personeelsleden met een gewezen gescostatuut
+DVR000001708|True|Subsidie kinderopvang en buitenschoolse opvang ter uitvoering van VIA|Subsidie kinderopvang en buitenschoolse opvang ter uitvoering van VIA
+DVR000001709|True|Projectsubsidie kinderopvang - ivm werknemersstatuut|Projectsubsidie kinderopvang - ivm werknemersstatuut
+DVR000001710|True|Projectsubsidie ivm pedagogische ondersteuning|Projectsubsidie ivm pedagogische ondersteuning
+DVR000001711|True|Erkenning en subsidiëring vertrouwenscentra kinderopvang|Erkenning en subsidiëring vertrouwenscentra kinderopvang
+DVR000001712|True|Erkenning en subsidiëring centra voor kinderzorg en gezinsondersteuning|Erkenning en subsidiëring centra voor kinderzorg en gezinsondersteuning
+DVR000001713|True|Projectsubsidies PGO en adoptie|Projectsubsidies PGO en adoptie
+DVR000001714|True|Projectsubsidies gezinsondersteuning|Projectsubsidies gezinsondersteuning
+DVR000001715|True|Erkenning en subsidiëring opvoedingswinkels|Erkenning en subsidiëring opvoedingswinkels
+DVR000001716|True|Erkenning en subsidiëring groepsgericht aanbod opvoedingsondersteuning|Erkenning en subsidiëring groepsgericht aanbod opvoedingsondersteuning
+DVR000001717|True|Adoptiepremie|Adoptiepremie
+DVR000001718|True|KOALA|KOALA
+DVR000001719|True|Projecten K&G en armoede (vroegere klaverbladen): project|Projecten K&G en armoede (vroegere klaverbladen): project
+DVR000001720|True|Ambulant aanbod pgo schoolgaande kinderen (De Ruimtevaart)|Ambulant aanbod pgo schoolgaande kinderen (De Ruimtevaart)
+DVR000001721|True|Erkenning en subsidiëring mobiel aanbod door vrijwilligers|Erkenning en subsidiëring mobiel aanbod door vrijwilligers
+DVR000001722|True|Erkenning en subsidiëring opvoedingslijn|Erkenning en subsidiëring opvoedingslijn
+DVR000001723|True|Subsidies voor spel- en ontmoetingsinitiatieven|Subsidies voor spel- en ontmoetingsinitiatieven
+DVR000001724|True|Steunpunt WVG (de kindcheck)|Steunpunt WVG (de kindcheck)
+DVR000001725|True|Mobiel aanbod taal en ontwikkelingsstimulering|Mobiel aanbod taal en ontwikkelingsstimulering
+DVR000001726|True|Subsidie adoptie - Begeleiding ongepland zwangeren|Subsidie adoptie - Begeleiding ongepland zwangeren
+DVR000001727|True|Subsidie adoptie - Facultatieve subsidie MO|Subsidie adoptie - Facultatieve subsidie MO
+DVR000001728|True|Subsidie adoptie - Forfaitaire subsidie informatiegesprekken|Subsidie adoptie - Forfaitaire subsidie informatiegesprekken
+DVR000001729|True|Subsidie adoptie - Basissubsidie BIAD|Subsidie adoptie - Basissubsidie BIAD
+DVR000001730|True|Subsidie adoptie - Basissubsidie|Subsidie adoptie - Basissubsidie
+DVR000001733|True|Prijsuitreikingen van de KAGB aan onderzoekers|Prijsuitreikingen van de KAGB aan onderzoekers
+DVR000001734|True|Prijsuitreikingen van de KAGB aan onderwijsinstellingen van de institutionele overheid|Prijsuitreikingen van de KAGB aan onderwijsinstellingen van de institutionele overheid
+DVR000001737|True|Tegemoetkoming van de Vlaamse Sociale Bescherming voor niet-medische zorg (tenlasteneming)|Tegemoetkoming van de Vlaamse Sociale Bescherming voor niet-medische zorg (tenlasteneming)
+DVR000001738|True|Werkingssubsidies aan zorgkassen|Werkingssubsidies aan zorgkassen
+DVR000001739|True|Specifieke werkingssubsidie Vlaamse Zorgkas|Specifieke werkingssubsidie Vlaamse Zorgkas
+DVR000001740|True|Vergoeding voor indicatiestellers zorgkassen|Vergoeding voor indicatiestellers zorgkassen
+DVR000001741|True|Basisondersteuningsbudget zorgkassen|Basisondersteuningsbudget zorgkassen
+DVR000001742|True|Subsidie tenlastenemingen aan zorgkassen|Subsidie tenlastenemingen aan zorgkassen
+DVR000001743|True|Investeringssubsidie aan de zorgkassen|Investeringssubsidie aan de zorgkassen
+DVR000001744|True|Zorgbudget voor zwaar zorgbehoevenden|Zorgbudget voor zwaar zorgbehoevenden
+DVR000001745|True|Zorgbudget voor ouderen met zorgnood|Zorgbudget voor ouderen met zorgnood
+DVR000001746|True|Zorgbudget voor mensen met een handicap|Zorgbudget voor mensen met een handicap
+DVR000001749|True|Facultatieve subsidies ikv eerstelijnsgezondheidszorg|Facultatieve subsidies ikv eerstelijnsgezondheidszorg
+DVR000001750|True|Reglementaire subsidies samenwerkingsinitiatieven eerstelijnsgezondheidszorg (SEL)|Reglementaire subsidies samenwerkingsinitiatieven eerstelijnsgezondheidszorg (SEL)
+DVR000001751|True|Reglementaire subsidies voor erkende palliatieve samenwerkingsverbanden|Reglementaire subsidies voor erkende palliatieve samenwerkingsverbanden
+DVR000001752|True|Reglementaire subsidies voor erkende netwerken palliatieve zorg|Reglementaire subsidies voor erkende netwerken palliatieve zorg
+DVR000001753|True|Reglementaire subsidie huisartsenkringen (HAK)|Reglementaire subsidie huisartsenkringen (HAK)
+DVR000001754|True|financiële ondersteuning huisartsenpraktijken (impulseo)|financiële ondersteuning huisartsenpraktijken (impulseo)
+DVR000001755|True|Reglementaire subsidies voor Geïntegreerde Diensten voor Thuisverzorging|Reglementaire subsidies voor Geïntegreerde Diensten voor Thuisverzorging
+DVR000001756|True|Subsidies voor koepels van ziekenhuizen en geestelijke gezondheidszorg|Subsidies voor koepels van ziekenhuizen en geestelijke gezondheidszorg
+DVR000001757|True|Subsidies voor proeftuinen GGZ|Subsidies voor proeftuinen GGZ
+DVR000001758|True|Subsidies voor centra voor de menselijke erfelijkheid|Subsidies voor centra voor de menselijke erfelijkheid
+DVR000001759|True|Subsidies voor voorzieningen in de gezondheidszorg in uitvoering van het sociaal akkoord|Subsidies voor voorzieningen in de gezondheidszorg in uitvoering van het sociaal akkoord
+DVR000001760|True|Subsidies voor Centra Geestelijke Gezondheidszorg|Subsidies voor Centra Geestelijke Gezondheidszorg
+DVR000001761|True|Subsidie aan Vlaamse Vereniging voor Geestelijke Gezondheid|Subsidie aan Vlaamse Vereniging voor Geestelijke Gezondheid
+DVR000001762|True|Subsidie voor associatie beelvorming|Subsidie voor associatie beelvorming
+DVR000001763|True|Subsidie voor familieplatform geestelijke gezondheid|Subsidie voor familieplatform geestelijke gezondheid
+DVR000001764|True|Subsidie voor overlegplatformen geestelijke gezondheid|Subsidie voor overlegplatformen geestelijke gezondheid
+DVR000001765|True|Projectsubsidies voor de geestelijke gezondheidszorg (GGZ)|Projectsubsidies voor de geestelijke gezondheidszorg (GGZ)
+DVR000001766|True|Subsidies op basis van beheersovereenkomsten Preventief gezondheidsbeleid|Subsidies op basis van beheersovereenkomsten Preventief gezondheidsbeleid
+DVR000001767|True|Subsidies op basis van andere overeenkomsten Preventief gezondheidsbeleid|Subsidies op basis van andere overeenkomsten Preventief gezondheidsbeleid
+DVR000001768|True|Gereglementeerde subsidies Preventief gezondheidsbeleid|Gereglementeerde subsidies Preventief gezondheidsbeleid
+DVR000001769|True|Facultatieve subsidies Preventief gezondheidsbeleid|Facultatieve subsidies Preventief gezondheidsbeleid
+DVR000001770|True|Subsidiëring woonzorgcentra en rust- en verzorgingstehuizen.|Subsidiëring woonzorgcentra en rust- en verzorgingstehuizen.
+DVR000001771|True|Subsidiëring dagverzorgingscentra conform art. 51 voor ouderen|Subsidiëring dagverzorgingscentra conform art. 51 voor ouderen
+DVR000001772|True|Subsidiëring dagverzorgingscentra niet-conform art. 51 voor ouderen|Subsidiëring dagverzorgingscentra niet-conform art. 51 voor ouderen
+DVR000001773|True|Subsidiëring dagcentra voor palliatieve zorg|Subsidiëring dagcentra voor palliatieve zorg
+DVR000001774|True|Subsidiëring centra voor kortverblijf voor ouderen|Subsidiëring centra voor kortverblijf voor ouderen
+DVR000001775|True|Tegemoetkoming voor ex-gesco bij ouderenvoorzieningen|Tegemoetkoming voor ex-gesco bij ouderenvoorzieningen
+DVR000001776|True|Tegemoetkoming voor ex-dac bij ouderenvoorzieningen|Tegemoetkoming voor ex-dac bij ouderenvoorzieningen
+DVR000001777|True|Projectsubsidies ouderenzorg|Projectsubsidies ouderenzorg
+DVR000001778|True|Subsidies aan netwerken voor de zorg voor dementerende personen en hun omgeving|Subsidies aan netwerken voor de zorg voor dementerende personen en hun omgeving
+DVR000001779|True|Subsidiëring serviceflats voor ouderen|Subsidiëring serviceflats voor ouderen
+DVR000001780|True|Subsidies voor erkende verenigingen van gebruikers en mantelzorgers|Subsidies voor erkende verenigingen van gebruikers en mantelzorgers
+DVR000001781|True|Subsidies voor erkende lokale dienstencentra|Subsidies voor erkende lokale dienstencentra
+DVR000001782|True|Subsidies voor erkende regionale dienstencentra|Subsidies voor erkende regionale dienstencentra
+DVR000001783|True|Subsidies voor personenalarmtoestellen in erkende lokale dienstencentra|Subsidies voor personenalarmtoestellen in erkende lokale dienstencentra
+DVR000001784|True|Subsidies voor personenalarmtoestellen in erkende regionale dienstencentra|Subsidies voor personenalarmtoestellen in erkende regionale dienstencentra
+DVR000001785|True|Subsidies voor erkende diensten voor oppashulp|Subsidies voor erkende diensten voor oppashulp
+DVR000001786|True|Subsidies voor erkende diensten maatschappelijk werk van het ziekenfonds|Subsidies voor erkende diensten maatschappelijk werk van het ziekenfonds
+DVR000001787|True|Subsidies voor erkende diensten voor gastopvang|Subsidies voor erkende diensten voor gastopvang
+DVR000001788|True|Projectsubsidies voor de thuiszorg|Projectsubsidies voor de thuiszorg
+DVR000001789|True|Subsidies voor animatiewerking in woonzorgcentra|Subsidies voor animatiewerking in woonzorgcentra
+DVR000001790|True|Subsidies voor erkende diensten voor gezinszorg en aanvullende thuiszorg|Subsidies voor erkende diensten voor gezinszorg en aanvullende thuiszorg
+DVR000001791|True|Subsidies voor erkende diensten voor logistieke hulp|Subsidies voor erkende diensten voor logistieke hulp
+DVR000001792|True|Subsidies voor Overlegplatforms Geestelijke Gezondheidszorg|Subsidies voor Overlegplatforms Geestelijke Gezondheidszorg
+DVR000001793|True|Erkenning psychiatrische verzorgingstehuizen|Erkenning psychiatrische verzorgingstehuizen
+DVR000001794|True|Erkenning en subsidiëring diensten voor thuisverpleging|Erkenning en subsidiëring diensten voor thuisverpleging
+DVR000001795|True|Epidemiologisch onderzoek en indicatorenverzameling|Epidemiologisch onderzoek en indicatorenverzameling
+DVR000001796|True|Subsidie stimulering gegevensdeling in de zorg|Subsidie stimulering gegevensdeling in de zorg
+DVR000001797|True|Subsidie voor het wetenschappelijk instituut volksgezondheid|Subsidie voor het wetenschappelijk instituut volksgezondheid
+DVR000001798|True|Subsidie voor demonstratieprojecten Vlaanderen medisch centrum|Subsidie voor demonstratieprojecten Vlaanderen medisch centrum
+DVR000001799|True|Academische prijzen van de Koninklijke Academie voor Geneeskunde|Academische prijzen van de Koninklijke Academie voor Geneeskunde
+DVR000001800|True|Subsidiëring CEBAM vzw voor het verstrekken van evidence-based gezondheidsvoorlichting|Subsidiëring CEBAM vzw voor het verstrekken van evidence-based gezondheidsvoorlichting
+DVR000001803|True|Dienstencheques|Dienstencheques
+DVR000001804|True|Opleidingsfonds dienstencheques|Opleidingsfonds dienstencheques
+DVR000001805|False|Doelgroepkorting|Doelgroepkorting
+DVR000001806|False|Sectorkorting|Sectorkorting
+DVR000001807|False|Mentorkorting|Mentorkorting
+DVR000001808|True|VOP|VOP
+DVR000001809|True|Aanwervingsincentive|Aanwervingsincentive
+DVR000001810|True|Transitiepremie|Transitiepremie
+DVR000001811|True|GESCO|GESCO
+DVR000001812|True|DAC|DAC
+DVR000001813|True|Jongerenbonus|Jongerenbonus
+DVR000001814|True|Startbaanovereenkomsten|Startbaanovereenkomsten
+DVR000001815|False|Werkervaring|Werkervaring
+DVR000001816|False|Regionale toetsing|Regionale toetsing
+DVR000001817|True|ESF- subsidies|ESF- subsidies
+DVR000001818|True|Aanmoedigingspremies|Aanmoedigingspremies
+DVR000001819|True|Vlaams zorgkrediet|Vlaams zorgkrediet
+DVR000001820|True|Ervaringsfonds|Ervaringsfonds
+DVR000001821|False|Arbeidskaarten|Arbeidskaarten
+DVR000001822|False|Beroepskaarten|Beroepskaarten
+DVR000001823|False|Uitzendkantoren|Uitzendkantoren
+DVR000001824|False|Administratieve geldboeten|Administratieve geldboeten
+DVR000001825|False|Toezicht|Toezicht
+DVR000001826|False|Uitvoering kwaliteitsdecreet|Uitvoering kwaliteitsdecreet
+DVR000001827|False|Bestrijding discriminatie|Bestrijding discriminatie
+DVR000001828|True|Betaald educatief verlof|Betaald educatief verlof
+DVR000001829|True|Start- en stagebonus|Start- en stagebonus
+DVR000001830|False|Ervaringsbewijs|Ervaringsbewijs
+DVR000001831|True|Sociale promotie|Sociale promotie
+DVR000001832|False|Opleidingscheques|Opleidingscheques
+DVR000001833|True|Sectorconvenants|Sectorconvenants
+DVR000001834|True|Beschutte werkplaatsen|Beschutte werkplaatsen
+DVR000001835|True|Investeringssubsidies BW|Investeringssubsidies BW
+DVR000001836|True|Sociale werkplaatsen|Sociale werkplaatsen
+DVR000001837|False|Collectief maatwerk|Collectief maatwerk
+DVR000001838|False|Individueel maatwerk|Individueel maatwerk
+DVR000001839|True|Lokale diensteneconomie|Lokale diensteneconomie
+DVR000001840|True|Arbeidszorg|Arbeidszorg
+DVR000001841|False|SINE|SINE
+DVR000001842|True|Invoegbedrijven|Invoegbedrijven
+DVR000001843|True|VIA|VIA
+DVR000001844|True|ERSV|ERSV
+DVR000001845|True|Activiteitencooperaties|Activiteitencooperaties
+DVR000001846|True|Adviespremies|Adviespremies
+DVR000001847|True|Regierol|Regierol
+DVR000001848|True|BNCTO / Tracé|BNCTO / Tracé
+DVR000001849|True|Ondernemerschap & MVO (S)|Ondernemerschap & MVO (S)
+DVR000001850|True|Ondernemerschap & MVO (OH)|Ondernemerschap & MVO (OH)
+DVR000001851|True|Loopbaan en diversiteit|Loopbaan en diversiteit
+DVR000001852|True|Focus op talent (S)|Focus op talent (S)
+DVR000001853|True|Focus op talent (OH)|Focus op talent (OH)
+DVR000001854|False|Activa-uitkeringen (uitdovend)|Activa-uitkeringen (uitdovend)
+DVR000001855|False|Werkhervattingstoeslag (uitdovend)|Werkhervattingstoeslag (uitdovend)
+DVR000001856|False|Doelgroepkorting Gesco's SW|Doelgroepkorting Gesco's SW
+DVR000001857|False|Loopbaanonderbreking (uitdovend)|Loopbaanonderbreking (uitdovend)
+DVR000001858|True|Ondersteuning tewerkstellingsbeleid (onderzoek)|Ondersteuning tewerkstellingsbeleid (onderzoek)
+DVR000001859|False|Leningen hernieuwbare energie|Leningen hernieuwbare energie
+DVR000001860|True|Tegemoetkoming stoffelijke schade aan voertuigen|Tegemoetkoming stoffelijke schade aan voertuigen
+DVR000001861|True|Gewestwaarborg - Uitwinningen sociale leningen|Gewestwaarborg - Uitwinningen sociale leningen
+DVR000001864|True|Bovenlokale projectondersteuning|Bovenlokale projectondersteuning
+DVR000001867|True|Subsidies voor projecten in het kader van het asbestafbouwbeleid|Subsidies voor projecten in het kader van het asbestafbouwbeleid
+DVR000001868|True|Beheersovereenkomsten plattelandsontwikkeling (omgevingskwaliteit)|Beheersovereenkomsten plattelandsontwikkeling (omgevingskwaliteit)
+DVR000001869|True|Aanpak overbemesting|Aanpak overbemesting
+DVR000001870|True|Plattelandsontwikkeling (omgevingskwaliteit)|Plattelandsontwikkeling (omgevingskwaliteit)
+DVR000001871|True|(Her)aanleg riolering, KWZI's en IBA's|(Her)aanleg riolering, KWZI's en IBA's
+DVR000001876|True|Aanvullende subsidie onbeheerde climaxvegetaties|Aanvullende subsidie onbeheerde climaxvegetaties
+DVR000001877|True|Aankoopsubsidie moo erkenning|Aankoopsubsidie moo erkenning
+DVR000001881|True|Projectoproep Sport na School|Projectoproep Sport na School
+DVR000001884|True|Overdracht wegen|Overdracht wegen
+DVR000001885|True|Subsidies in kader van het decreet mobiliteitsbeleid – Projectsubsidies|Subsidies in kader van het decreet mobiliteitsbeleid – Projectsubsidies
+DVR000001886|True|Verhogen moduledossier|Verhogen moduledossier
+DVR000001887|True|Subsidies in kader van het decreet mobiliteitsbeleid – Samenwerkingsovereenkomst|Subsidies in kader van het decreet mobiliteitsbeleid – Samenwerkingsovereenkomst
+DVR000001888|True|Subsidies ruilverkavelingsprojecten|Subsidies ruilverkavelingsprojecten
+DVR000001889|True|Leertijd|Leertijd
+DVR000001890|True|Ondernemerschapstrajecten|Ondernemerschapstrajecten
+DVR000001893|True|Lokale diensteneconomie (LDE)|Lokale diensteneconomie (LDE)
+DVR000001894|True|(Her)aanleg riolering KWZI's en IBA's|(Her)aanleg riolering KWZI's en IBA's
+DVR000001896|True|Zorggarantiebudget|Zorggarantiebudget
+DVR000001897|True|Subsidie milieuvriendelijke energie|Subsidie milieuvriendelijke energie
+DVR000001898|True|Subsidie milieuvriendelijke energie groene warmte|Subsidie milieuvriendelijke energie groene warmte
+DVR000001899|True|Subsidie milieuvriendelijke energie windturbines|Subsidie milieuvriendelijke energie windturbines
+DVR000001900|True|Subsidie milieuvriendelijke energie batterijtechnologie|Subsidie milieuvriendelijke energie batterijtechnologie
+DVR000001901|True|Subsidie milieuvriendelijke energie micro-wkk|Subsidie milieuvriendelijke energie micro-wkk
+DVR000001902|True|Subsidie milieuvriendelijke energie afbouw certificatenoverschot|Subsidie milieuvriendelijke energie afbouw certificatenoverschot
+DVR000001903|True|Subsidie zero-emissie voertuigen|Subsidie zero-emissie voertuigen
+DVR000001904|True|Subsidie energie-efficiëntie|Subsidie energie-efficiëntie
+DVR000001905|True|Subsidie i.k.v. energieleningen (onder andere energiehuizen)|Subsidie i.k.v. energieleningen (onder andere energiehuizen)
+DVR000001906|True|Subsidie sociale energie-efficiëntieprojecten|Subsidie sociale energie-efficiëntieprojecten
+DVR000001907|True|Subsidie energiescans|Subsidie energiescans
+DVR000001908|True|Subsidie energieconsulentenprojecten|Subsidie energieconsulentenprojecten
+DVR000001909|True|Subsidie andere impulsprojecten (energiefonds)|Subsidie andere impulsprojecten (energiefonds)
+DVR000001910|True|Subsidie andere energiebeleid algemeen|Subsidie andere energiebeleid algemeen
+DVR000001913|True|Gesubs Infra - Haalbaarheidsstudies|Gesubs Infra - Haalbaarheidsstudies
+DVR000001914|True|Stedenbeleid - Grootstedenbeleid|Stedenbeleid - Grootstedenbeleid
+DVR000001915|True|Stedenbeleid - Plattelandsfonds|Stedenbeleid - Plattelandsfonds
+DVR000001916|True|Brussel - Dotatie aan VGC|Brussel - Dotatie aan VGC
+DVR000001917|True|Brussel - Werkingsubsidie niet nominatim Brussel|Brussel - Werkingsubsidie niet nominatim Brussel
+DVR000001918|True|Vlaamse Rand - Ad nominatim subsidie Vlaamse Rand|Vlaamse Rand - Ad nominatim subsidie Vlaamse Rand
+DVR000001919|True|Vlaamse Rand - Werkingsubsidie niet nominatim Vlaamse Rand|Vlaamse Rand - Werkingsubsidie niet nominatim Vlaamse Rand
+DVR000001921|True|Overdracht financiële fondsen bodemsanering - Vlabotex|Overdracht financiële fondsen bodemsanering - Vlabotex
+DVR000001922|True|AMIF-subsidies (Europees Fonds voor Asiel, Migratie en Integratie)|AMIF-subsidies (Europees Fonds voor Asiel, Migratie en Integratie)
+DVR000001923|True|Generieke waarborgregelingen PMV|Generieke waarborgregelingen PMV
+DVR000001924|True|Projectsubsidie Innovatieve Overheidsopdrachten|Projectsubsidie Innovatieve Overheidsopdrachten
+DVR000001925|True|Collectief O&O en Collectieve Kennisverspreiding (COOCK)|Collectief O&O en Collectieve Kennisverspreiding (COOCK)
+DVR000001927|False|Uitbetaling rampenfonds|Uitbetaling rampenfonds
+DVR000001928|True|Subsidies Smart@Fire|Subsidies Smart@Fire
+DVR000001934|True|Brussel - projectsubsidie Vlaams Brusselfonds (VBF)|Brussel - projectsubsidie Vlaams Brusselfonds (VBF)
+DVR000001935|True|Brussel - werkingsubsidie|Brussel - werkingsubsidie
+DVR000001936|True|Brussel - werkingsubsidie Vlaams Brusselfonds (VBF)|Brussel - werkingsubsidie Vlaams Brusselfonds (VBF)
+DVR000001937|True|Brussel - investeringssubsidie Vlaams Brusselfonds (VBF)|Brussel - investeringssubsidie Vlaams Brusselfonds (VBF)
+DVR000001938|True|Subsidie FOLLO leerkrachten|Subsidie FOLLO leerkrachten
+DVR000001939|True|Sportkompas|Sportkompas
+DVR000001940|True|Erasmus for Young Entrepreneurs|Erasmus for Young Entrepreneurs
+DVR000001941|True|Subsidie gezond en ethisch sporten|Subsidie gezond en ethisch sporten
+DVR000001942|True|Werkingssubsidie Participatiedecreet Participatie-instellingen (Demos en publiq) Sport Vlaanderen|Werkingssubsidie Participatiedecreet Participatie-instellingen (Demos en publiq) Sport Vlaanderen
+DVR000001943|True|Werkingssubsidie Participatiedecreet Participatie-instellingen (Rode Antraciet) Sport Vlaanderen|Werkingssubsidie Participatiedecreet Participatie-instellingen (Rode Antraciet) Sport Vlaanderen
+DVR000001944|True|Subsidies aan het Steunpunt welzijn, volksgezondheid en gezin|Subsidies aan het Steunpunt welzijn, volksgezondheid en gezin
+DVR000001945|True|Subsidies aan het Kwaliteitscentrum voor Diagnostiek|Subsidies aan het Kwaliteitscentrum voor Diagnostiek
+DVR000001946|True|Beschut wonen|Beschut wonen
+DVR000001947|True|Stedenbeleid - conceptsubsidie stadsvernieuwingsprojecten|Stedenbeleid - conceptsubsidie stadsvernieuwingsprojecten
+DVR000001948|True|Stedenbeleid - projectsubsidie stadsvernieuwingsprojecten|Stedenbeleid - projectsubsidie stadsvernieuwingsprojecten
+DVR000001949|True|Stedenbeleid - thematische oproep stadsvernieuwingsprojecten|Stedenbeleid - thematische oproep stadsvernieuwingsprojecten
+DVR000001953|True|Subsidie voor de ondersteuning van het maritiem-onderwijs|Subsidie voor de ondersteuning van het maritiem-onderwijs
+DVR000001954|True|Projectsubsidie voor energiebesparende investeringen in gebouwen van de Vlaamse hogescholen en universiteiten|Projectsubsidie voor energiebesparende investeringen in gebouwen van de Vlaamse hogescholen en universiteiten
+DVR000001955|True|"Projectsubsidie voor SIHO in het kader van het dossier ""digitale handboeken''"|"Projectsubsidie voor SIHO in het kader van het dossier ""digitale handboeken''"
+DVR000001956|True|Subsidie aan de universitaire talencentra in het kader van het Vlaamse Inburgeringsbeleid|Subsidie aan de universitaire talencentra in het kader van het Vlaamse Inburgeringsbeleid
+DVR000001957|True|"Subsidie in kader van het actieplan ""Opleiding en tewerkstelling in armoede en sociale uitsluiting"""|"Subsidie in kader van het actieplan ""Opleiding en tewerkstelling in armoede en sociale uitsluiting"""
+DVR000001958|True|Subsidie voor de professionalisering van de actoren in de volwasseneneducatie verhogen op het vlak van e-leren en gecombineerd leren|Subsidie voor de professionalisering van de actoren in de volwasseneneducatie verhogen op het vlak van e-leren en gecombineerd leren
+DVR000001959|True|Beheersovereenkomst Vlaamse Hogescholenraad (VLHORA)|Beheersovereenkomst Vlaamse Hogescholenraad (VLHORA)
+DVR000001960|True|Beheersovereenkomst Vlaamse Interuniversitaire Raad (VLIR)|Beheersovereenkomst Vlaamse Interuniversitaire Raad (VLIR)
+DVR000001961|True|Projectsubsidie aan de Vlaamse Universiteiten en Hogescholenraad (VLUHR)|Projectsubsidie aan de Vlaamse Universiteiten en Hogescholenraad (VLUHR)
+DVR000001962|True|Projectsubsidie aan de vzw SOS Schulden op School voor het schooljaar 2018-2019|Projectsubsidie aan de vzw SOS Schulden op School voor het schooljaar 2018-2019
+DVR000001963|True|Projectsubsidie ikv instaptoets in de geïntegreerde lerarenopleidingen|Projectsubsidie ikv instaptoets in de geïntegreerde lerarenopleidingen
+DVR000001964|True|Projectsubsidie in het kader van de oproep inzake kansengroepen en polarisering|Projectsubsidie in het kader van de oproep inzake kansengroepen en polarisering
+DVR000001965|True|Projectsubsidie KULeuven lerarenopleiders|Projectsubsidie KULeuven lerarenopleiders
+DVR000001966|True|Projectsubsidie om schooluitval aan te pakken|Projectsubsidie om schooluitval aan te pakken
+DVR000001967|True|Projectsubsidie verbeteren arbeidsomstandigheden contractueel onderhoudspersoneel|Projectsubsidie verbeteren arbeidsomstandigheden contractueel onderhoudspersoneel
+DVR000001968|True|Subsidie aan het bijzonder internaat De Rijzende Ster|Subsidie aan het bijzonder internaat De Rijzende Ster
+DVR000001969|True|Subsidie in het kader van de pilootprojecten leerlingenvervoer|Subsidie in het kader van de pilootprojecten leerlingenvervoer
+DVR000001970|True|Subsidie in het kader van SALK|Subsidie in het kader van SALK
+DVR000001971|True|Subsidie om de traumaproblematiek bij asielkinderen aan te pakken|Subsidie om de traumaproblematiek bij asielkinderen aan te pakken
+DVR000001972|True|Subsidie om radicalisering in scholen tegen te gaan|Subsidie om radicalisering in scholen tegen te gaan
+DVR000001973|True|Subsidie om talentvolle sporters binnen het buitengewoon onderwijs voor te bereiden op topsport|Subsidie om talentvolle sporters binnen het buitengewoon onderwijs voor te bereiden op topsport
+DVR000001974|True|Subsidie steunpunt beleidsgericht onderwijsonderzoek|Subsidie steunpunt beleidsgericht onderwijsonderzoek
+DVR000001975|True|Subsidie ter ondersteuning van de beste mini-onderneming van Vlaanderen|Subsidie ter ondersteuning van de beste mini-onderneming van Vlaanderen
+DVR000001976|True|Subsidie ter ondersteuning van de organisatie van een wetenschappelijke conferentie over onderwijs in Vlaanderen|Subsidie ter ondersteuning van de organisatie van een wetenschappelijke conferentie over onderwijs in Vlaanderen
+DVR000001977|True|Subsidie ter ondersteuning van de werking van het Beroepenhuis|Subsidie ter ondersteuning van de werking van het Beroepenhuis
+DVR000001978|True|Subsidie ter ondersteuning van thuisonderwijs voor oncologische patiënten kleuteronderwijs|Subsidie ter ondersteuning van thuisonderwijs voor oncologische patiënten kleuteronderwijs
+DVR000001979|True|Subsidie Universitair steunpunt toetsontwikkeling en peilingen|Subsidie Universitair steunpunt toetsontwikkeling en peilingen
+DVR000001980|True|Subsidie voor de educatieve werking van het Vlaams Instituut voor Archivering|Subsidie voor de educatieve werking van het Vlaams Instituut voor Archivering
+DVR000001981|True|Subsidie voor de kosten verbonden aan de uitvoering van het initiatief burgerschapsvorming|Subsidie voor de kosten verbonden aan de uitvoering van het initiatief burgerschapsvorming
+DVR000001982|True|Subsidie voor de ondersteuning van het Bijzonder Comité voor Herinneringseducatie|Subsidie voor de ondersteuning van het Bijzonder Comité voor Herinneringseducatie
+DVR000001983|True|Subsidie voor de ondersteuning van het onderwijscongres 1000-Old School in de toekomst|Subsidie voor de ondersteuning van het onderwijscongres 1000-Old School in de toekomst
+DVR000001984|True|Subsidie voor de personeels- en werkingskosten die verbonden zijn aan het pilootproject partnerschap ter ondersteuning van scholen voor gewoon basisonderwijs in de begeleiding van leerlingen met emotionele en gedragsproblemen|Subsidie voor de personeels- en werkingskosten die verbonden zijn aan het pilootproject partnerschap ter ondersteuning van scholen voor gewoon basisonderwijs in de begeleiding van leerlingen met emotionele en gedragsproblemen
+DVR000001985|True|Subsidie voor de personeels-en werkingskosten die worden gemaakt bij de verdere uitbouw van de optie 'Islamitische theologie en godsdienstwetenschappen' binnen de Master of Arts in de wereldreligies|Subsidie voor de personeels-en werkingskosten die worden gemaakt bij de verdere uitbouw van de optie 'Islamitische theologie en godsdienstwetenschappen' binnen de Master of Arts in de wereldreligies
+DVR000001986|True|Subsidie voor de verderzetting van het project LARS|Subsidie voor de verderzetting van het project LARS
+DVR000001987|True|Subsidie voor de werking van Adibib Vlaanderen en voor het project 'vrij ter beschikking stellen van voorleessoftware via weblicenties'|Subsidie voor de werking van Adibib Vlaanderen en voor het project 'vrij ter beschikking stellen van voorleessoftware via weblicenties'
+DVR000001988|True|Subsidie voor het aanpakken van de problematiek rond onbetaalde schoolfacturen|Subsidie voor het aanpakken van de problematiek rond onbetaalde schoolfacturen
+DVR000001989|True|Subsidie voor het Agentschap Inburgering en Integratie|Subsidie voor het Agentschap Inburgering en Integratie
+DVR000001990|True|Subsidie voor het dekken van de hoge kosten in de opleiding BSO Vrachtwagenchauffeur|Subsidie voor het dekken van de hoge kosten in de opleiding BSO Vrachtwagenchauffeur
+DVR000001991|True|Subsidie voor het festival Jeugd & Sport|Subsidie voor het festival Jeugd & Sport
+DVR000001992|True|Subsidie voor het netoverschrijdend professionaliseringtraject|Subsidie voor het netoverschrijdend professionaliseringtraject
+DVR000001993|True|Subsidie voor het ondersteunen van 5 scholenbanden projecten tussen Vlaamse scholen en scholen in het Zuiden|Subsidie voor het ondersteunen van 5 scholenbanden projecten tussen Vlaamse scholen en scholen in het Zuiden
+DVR000001994|True|Subsidie voor het onderzoek naar de samenwerking tussen onderwijs en welzijn op de wijk Kiel te Antwerpen|Subsidie voor het onderzoek naar de samenwerking tussen onderwijs en welzijn op de wijk Kiel te Antwerpen
+DVR000001995|True|Subsidie voor het project Vernieuwing Databeheer Onderwijskiezer|Subsidie voor het project Vernieuwing Databeheer Onderwijskiezer
+DVR000001996|True|Subsidie voor het verspreiden van het rookverbod in de onderwijsinstellingen|Subsidie voor het verspreiden van het rookverbod in de onderwijsinstellingen
+DVR000001997|True|Subsidie voor het verwerken van een ouderbevraging rond hefbomen voor een geslaagd inclusietraject tot een publicatie + organisatie publieksmoment lancering publicatie|Subsidie voor het verwerken van een ouderbevraging rond hefbomen voor een geslaagd inclusietraject tot een publicatie + organisatie publieksmoment lancering publicatie
+DVR000001998|True|Subsidie voor impulsen voor een holebibeleid in het onderwijs|Subsidie voor impulsen voor een holebibeleid in het onderwijs
+DVR000001999|True|Werkingssubsidie aan Vlaamse Jonge Ondernemingen 2018-2019|Werkingssubsidie aan Vlaamse Jonge Ondernemingen 2018-2019
+DVR000002000|True|Werkingssubsidie voor het organiseren van restauratieopleidingen|Werkingssubsidie voor het organiseren van restauratieopleidingen
+DVR000002001|True|Projectsubsidie aan de vzw Connectief|Projectsubsidie aan de vzw Connectief
+DVR000002002|True|Projectsubsidie vorming busbegeleiders aan hogescholen|Projectsubsidie vorming busbegeleiders aan hogescholen
+DVR000002003|True|Projectsubsidie vorming van schoolbesturen|Projectsubsidie vorming van schoolbesturen
+DVR000002004|True|Projectsubsidie in kader van een Vlaanderenbreed stageregistratiesysteem|Projectsubsidie in kader van een Vlaanderenbreed stageregistratiesysteem
+DVR000002005|True|Projectsubsidie in kader van de instaptoets in de geïntegreerde lerarenopleidingen|Projectsubsidie in kader van de instaptoets in de geïntegreerde lerarenopleidingen
+DVR000002006|True|Projectsubsidie SODA-app|Projectsubsidie SODA-app
+DVR000002007|True|Subsidie voor de werking van de online chat voor CLB's|Subsidie voor de werking van de online chat voor CLB's
+DVR000002008|True|Subsidie voor aanklampende zorg voor mensen met psychische problemen die sociaal huren|Subsidie voor aanklampende zorg voor mensen met psychische problemen die sociaal huren
+DVR000002009|True|Steunpunt voor geestelijke gezondheid|Steunpunt voor geestelijke gezondheid
+DVR000002010|True|Subsidie voor familieplatform geestelijke gezondheid|Subsidie voor familieplatform geestelijke gezondheid
+DVR000002011|True|Subsidie voor overlegplatformen geestelijke gezondheid|Subsidie voor overlegplatformen geestelijke gezondheid
+DVR000002012|True|Werkingssubsidie mutualiteiten|Werkingssubsidie mutualiteiten
+DVR000002013|True|Ziekenhuistwaalfde|Ziekenhuistwaalfde
+DVR000002014|True|Voorschotten mutualiteiten|Voorschotten mutualiteiten
+DVR000002015|True|Subsidie voor adviserende geneesheren|Subsidie voor adviserende geneesheren
+DVR000002471| |Wettiging handtekening|pagina 7 van de hyperlink vermeldt dat er verschillende instanties (niveau) bevoegd zijn

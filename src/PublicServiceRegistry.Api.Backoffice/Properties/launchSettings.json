@@ -1,0 +1,26 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:13215/",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "PublicServiceRegistry.Api.Backoffice": {
+      "commandName": "Project",
+      "launchUrl": "https://api.dev.dienstverleningen.basisregisters.vlaanderen.be:2444",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "IIS Express": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

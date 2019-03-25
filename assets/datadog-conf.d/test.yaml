@@ -1,0 +1,12 @@
+init_config:
+
+instances:
+    [{}]
+
+logs:
+   - type: udp
+     port: 10125
+     service: serilog-yaml
+     source: datadog-docker
+     sourcecategory: datadog-publicservices
+     tags: datadog-tag1
