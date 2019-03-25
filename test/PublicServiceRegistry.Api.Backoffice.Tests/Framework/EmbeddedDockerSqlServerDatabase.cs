@@ -16,7 +16,7 @@ namespace PublicServiceRegistry.Api.Backoffice.Tests.Framework
         private const string Password =  "E@syP@ssw0rd";
         private const string Image = "microsoft/mssql-server-linux";
         private const string Tag = "2017-latest";
-        private const int Port = 11433;
+        private const int Port = 1433; // 11433;
 
         public EmbeddedDockerSqlServerDatabase(string databaseName)
         {

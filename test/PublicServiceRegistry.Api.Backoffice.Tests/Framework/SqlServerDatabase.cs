@@ -14,7 +14,7 @@ namespace PublicServiceRegistry.Api.Backoffice.Tests.Framework
 
         public SqlServerDatabase(string databaseName)
         {
-            if(Environment.GetEnvironmentVariable("CI") == null)
+            if (Environment.GetEnvironmentVariable("CI") == null)
             {
                 _database = new EmbeddedDockerSqlServerDatabase(databaseName);
             }

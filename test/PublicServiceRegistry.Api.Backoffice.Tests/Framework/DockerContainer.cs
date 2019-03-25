@@ -14,7 +14,13 @@ namespace PublicServiceRegistry.Api.Backoffice.Tests.Framework
         private const string WindowsPipe = "npipe://./pipe/docker_engine";
 
         private static readonly Uri DockerUri =
-            new Uri(Environment.OSVersion.Platform.Equals(PlatformID.Unix) ? UnixPipe : WindowsPipe);
+            new Uri(Environment.GetEnvironmentVariable("DOCKER_HOST") ?? (
+                        Environment.OSVersion.Platform.Equals(PlatformID.Unix)
+                            ? UnixPipe
+                            : WindowsPipe));
+
+        //private static readonly Uri DockerUri =
+        //    new Uri(Environment.OSVersion.Platform.Equals(PlatformID.Unix) ? UnixPipe : WindowsPipe);
 
         private static readonly DockerClientConfiguration DockerClientConfiguration =
             new DockerClientConfiguration(DockerUri);
@@ -46,7 +52,8 @@ namespace PublicServiceRegistry.Api.Backoffice.Tests.Framework
 
         public async Task TryStart(CancellationToken cancellationToken = default)
         {
-            var images = await _dockerClient.Images.ListImagesAsync(new ImagesListParameters
+            var images = await _dockerClient.Images.ListImagesAsync(
+                new ImagesListParameters
                 {
                     MatchName = ImageWithTag
                 },
@@ -58,10 +65,10 @@ namespace PublicServiceRegistry.Api.Backoffice.Tests.Framework
                 await _dockerClient
                     .Images
                     .CreateImageAsync(new ImagesCreateParameters
-                        {
-                            FromImage = _image,
-                            Tag = _tag
-                        },
+                    {
+                        FromImage = _image,
+                        Tag = _tag
+                    },
                         null,
                         IgnoreProgress.Forever,
                         cancellationToken)
@@ -76,7 +83,8 @@ namespace PublicServiceRegistry.Api.Backoffice.Tests.Framework
 
         private async Task<string> FindContainer(CancellationToken cancellationToken)
         {
-            var containers = await _dockerClient.Containers.ListContainersAsync(new ContainersListParameters
+            var containers = await _dockerClient.Containers.ListContainersAsync(
+                new ContainersListParameters
                 {
                     All = true,
                     Filters = new Dictionary<string, IDictionary<string, bool>>
@@ -98,7 +106,7 @@ namespace PublicServiceRegistry.Api.Backoffice.Tests.Framework
         {
             var portBindings = _ports.ToDictionary(
                 pair => $"{pair.Key}/tcp",
-                pair => (IList<PortBinding>) new List<PortBinding>
+                pair => (IList<PortBinding>)new List<PortBinding>
                 {
                     new PortBinding
                     {

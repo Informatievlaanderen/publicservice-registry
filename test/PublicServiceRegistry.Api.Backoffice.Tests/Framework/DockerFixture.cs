@@ -8,7 +8,7 @@ namespace PublicServiceRegistry.Api.Backoffice.Tests.Framework
 
         public DockerFixture()
         {
-            if(Environment.GetEnvironmentVariable("CI") == null)
+            if (Environment.GetEnvironmentVariable("CI") == null)
             {
                 GenerateDatabase = databaseName => new EmbeddedDockerSqlServerDatabase(databaseName);
             }
