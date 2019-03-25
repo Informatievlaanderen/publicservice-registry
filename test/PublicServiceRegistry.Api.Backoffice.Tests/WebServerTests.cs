@@ -31,13 +31,15 @@ namespace PublicServiceRegistry.Api.Backoffice.Tests
 
         private static string AppsettingsJson => Path.Combine(Directory.GetParent(Assembly.GetExecutingAssembly().Location).FullName, "appsettings.json");
 
-        public WebServerTests(DockerFixture fixture, ITestOutputHelper helper)
+        public WebServerTests(
+            DockerFixture fixture,
+            ITestOutputHelper helper)
         {
             _helper = helper;
             _database = fixture.GenerateDatabase(Guid.NewGuid().ToString("N"));
         }
 
-        [Fact(Skip = "Trying to fix build")]
+        [Fact]
         [IntegrationTest]
         public async Task TheServerWorks()
         {
@@ -65,7 +67,7 @@ namespace PublicServiceRegistry.Api.Backoffice.Tests
             Assert.StartsWith("Welcome to the Basisregisters Vlaanderen Public Service Api", responseString);
         }
 
-        [Fact(Skip = "Trying to fix build")]
+        [Fact]
         [IntegrationTest]
         public async Task RoutingWorks()
         {

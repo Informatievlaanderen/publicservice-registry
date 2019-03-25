@@ -1,6 +1,5 @@
 namespace PublicServiceRegistry.Api.Backoffice.Tests.Framework
 {
-    using System;
     using System.Collections.Generic;
     using System.Data.SqlClient;
     using System.Threading;
@@ -16,7 +15,7 @@ namespace PublicServiceRegistry.Api.Backoffice.Tests.Framework
         private const string Password =  "E@syP@ssw0rd";
         private const string Image = "microsoft/mssql-server-linux";
         private const string Tag = "2017-latest";
-        private const int Port = 1433; // 11433;
+        private static readonly int Port = PortManager.GetNextPort();
 
         public EmbeddedDockerSqlServerDatabase(string databaseName)
         {
@@ -43,11 +42,11 @@ namespace PublicServiceRegistry.Api.Backoffice.Tests.Framework
 
         public SqlConnectionStringBuilder CreateMasterConnectionStringBuilder()
             => new SqlConnectionStringBuilder(
-                    $"server=127.0.0.1,{Port};User Id=sa;Password={Password};Initial Catalog=master");
+                    $"server=tcp:localhost,{Port};User Id=sa;Password={Password};Initial Catalog=master");
 
         public SqlConnectionStringBuilder CreateConnectionStringBuilder()
             => new SqlConnectionStringBuilder(
-                    $"server=127.0.0.1,{Port};User Id=sa;Password={Password};Initial Catalog={_databaseName}");
+                    $"server=tcp:localhost,{Port};User Id=sa;Password={Password};Initial Catalog={_databaseName}");
 
         public async Task CreateDatabase(CancellationToken cancellationToken = default)
         {

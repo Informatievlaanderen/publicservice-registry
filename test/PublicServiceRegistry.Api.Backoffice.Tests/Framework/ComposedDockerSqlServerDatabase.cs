@@ -21,11 +21,11 @@ namespace PublicServiceRegistry.Api.Backoffice.Tests.Framework
 
         public SqlConnectionStringBuilder CreateMasterConnectionStringBuilder()
             => new SqlConnectionStringBuilder(
-                    $"server=localhost,1433;User Id=sa;Password={Password};Initial Catalog=master");
+                    $"server=tcp:localhost,1433;User Id=sa;Password={Password};Initial Catalog=master");
 
         public SqlConnectionStringBuilder CreateConnectionStringBuilder()
             => new SqlConnectionStringBuilder(
-                    $"server=localhost,1433;User Id=sa;Password={Password};Initial Catalog={_databaseName}");
+                    $"server=tcp:localhost,1433;User Id=sa;Password={Password};Initial Catalog={_databaseName}");
 
         public async Task CreateDatabase(CancellationToken cancellationToken = default)
         {
