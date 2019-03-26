@@ -1,15 +1,19 @@
 namespace PublicServiceRegistry.Api.Backoffice.Labels.Responses
 {
     using System.Collections.Generic;
+    using System.Runtime.Serialization;
     using Swashbuckle.AspNetCore.Filters;
 
+    [DataContract(Name = "Label", Namespace = "")]
     public class LabelListResponse
     {
         /// <summary>Id van het alternatieve benamingstype.</summary>
-        public string Id { get; }
+        [DataMember(Name = "Id", Order = 1)]
+        public string Id { get; set; }
 
         /// <summary>Alternatieve benaming.</summary>
-        public string Naam { get; }
+        [DataMember(Name = "Naam", Order = 2)]
+        public string Naam { get; set; }
 
         public LabelListResponse(
             string id,

@@ -1,16 +1,20 @@
 namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Responses
 {
     using System.Collections.Generic;
+    using System.Runtime.Serialization;
     using Labels.Responses;
     using Swashbuckle.AspNetCore.Filters;
 
+    [DataContract(Name = "Levensloop", Namespace = "")]
     public class LifeCycleResponse
     {
         /// <summary>Id van het alternatieve benamingstype.</summary>
-        public string Id { get; }
+        [DataMember(Name = "Id", Order = 1)]
+        public string Id { get; set; }
 
         /// <summary>Alternatieve benaming.</summary>
-        public string Naam { get; }
+        [DataMember(Name = "Naam", Order = 2)]
+        public string Naam { get; set; }
 
         public LifeCycleResponse(
             string id,
