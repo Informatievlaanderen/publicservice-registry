@@ -297,10 +297,10 @@ export default class {
           });
       },
 
-      loadLifeCycleStages({ commit }) {
+      loadLifeCycleStageTypes({ commit }) {
         commitRoot(commit, LOADING_ON);
 
-        return api.getLifeCycleStages()
+        return api.getLifeCycleStageTypes()
           .then(lifeCycleStages => commit(SET_LIFECYCLESTAGES, lifeCycleStages.data))
           .catch((error) => {
             commitRoot(commit, SET_ALERT, alerts.toAlert(error));
