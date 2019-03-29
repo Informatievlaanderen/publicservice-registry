@@ -15,27 +15,27 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceLifeCycle
         {
             When<Envelope<StageWasAddedToLifeCycle>>(async (context, message, ct) =>
             {
+                var publicServiceLifeCycleItem = new PublicServiceLifeCycleItem
+                {
+                    PublicServiceId = message.Message.PublicServiceId,
+                    LocalId = message.Message.Id,
+                    LifeCycleStage = message.Message.LifeCycleStage,
+                    From = message.Message.From,
+                    To = message.Message.To
+                };
+
+                await context
+                    .PublicServiceLifeCycleList
+                    .AddAsync(publicServiceLifeCycleItem, ct);
+            });
+
+            When<Envelope<PeriodOfLifeCycleStageWasChanged>>(async (context, message, ct) =>
+            {
                 var publicServiceLifeCycleItem = await FindPublicServiceLifeCycleItemOrNull(
                     context,
                     message.Message.PublicServiceId,
                     message.Message.Id,
                     ct);
-
-                if (publicServiceLifeCycleItem == null)
-                {
-                    publicServiceLifeCycleItem = new PublicServiceLifeCycleItem
-                    {
-                        PublicServiceId = message.Message.PublicServiceId,
-                        LocalId = message.Message.Id,
-                        LifeCycleStage = message.Message.LifeCycleStage,
-                        From = message.Message.From,
-                        To = message.Message.To
-                    };
-
-                    await context
-                        .PublicServiceLifeCycleList
-                        .AddAsync(publicServiceLifeCycleItem, ct);
-                }
 
                 publicServiceLifeCycleItem.From = message.Message.From;
                 publicServiceLifeCycleItem.To = message.Message.To;

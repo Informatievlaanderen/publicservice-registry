@@ -90,6 +90,9 @@ export default {
       isLoggedIn: 'user/isLoggedIn'
     }),
   },
+  mounted() {
+    this.$store.dispatch('services/loadLifeCycleStages');
+  },
   data() {
     return {
       title: 'DIENSTVERLENINGSREGISTER',

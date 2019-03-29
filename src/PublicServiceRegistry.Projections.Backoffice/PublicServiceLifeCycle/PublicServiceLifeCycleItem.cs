@@ -10,8 +10,8 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceLifeCycle
         public string PublicServiceId { get; set; }
         public int LocalId { get; set; }
         public string LifeCycleStage { get; set; }
-        public DateTimeOffset? From { get; set; }
-        public DateTimeOffset? To { get; set; }
+        public DateTime? From { get; set; }
+        public DateTime? To { get; set; }
     }
 
     public class PublicServiceLifeCycleConfiguration : IEntityTypeConfiguration<PublicServiceLifeCycleItem>

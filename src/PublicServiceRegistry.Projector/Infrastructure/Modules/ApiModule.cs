@@ -58,7 +58,7 @@ namespace PublicServiceRegistry.Projector.Infrastructure.Modules
 
                 .RegisterEventstreamModule(_configuration)
 
-                .RegisterModule(new ProjectorModule(_loggerFactory));
+                .RegisterModule<ProjectorModule>();
 
             RegisterBackofficeProjections(builder);
             RegisterLastChangedProjections(builder);

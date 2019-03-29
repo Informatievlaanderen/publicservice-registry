@@ -9,7 +9,7 @@
       <dv-date-picker
         id="from"
         name="Geldig vanaf"
-        :value="initialFrom"
+        :value="from"
         @change.native="updateChangedFrom"
         :validation="'required|date_format:DD.MM.YYYY' + (to ? '|before:' + to + ', true' : '')"
         :disabled="inputDisabled" />
@@ -42,35 +42,19 @@
 <script>
 import { mapGetters } from 'vuex';
 
-import {
-  UPDATE_MYSERVICE_NAME,
-  UPDATE_MYSERVICE_COMPETENTAUTHORITY,
-  UPDATE_MYSERVICE_ISSUBSIDY,
-} from 'store/services';
-
-import DvDataTable from 'components/data-table/DataTable';
-import DvRouteButton from 'components/buttons/RouteButton';
 import DvFormRow from 'components/form-elements/form-row/FormRow';
 import DvLabel from 'components/form-elements/label/Label';
 import DvButton from 'components/form-elements/button/Button';
-import DvInputField from 'components/form-elements/input-field/InputField';
 import DvDatePicker from 'components/form-elements/date-picker/DatePicker';
-import DvSelect from 'components/form-elements/select/Select';
-import DvCheckbox from 'components/form-elements/checkbox/Checkbox';
 import DvFormError from 'components/form-elements/form-error/FormError';
 
 export default {
   inject: ['$validator'],
   components: {
-    DvRouteButton,
-    DvDataTable,
     DvFormRow,
     DvLabel,
-    DvInputField,
     DvDatePicker,
-    DvSelect,
     DvButton,
-    DvCheckbox,
     DvFormError,
   },
   computed: {
@@ -79,69 +63,61 @@ export default {
       isLoading: 'isLoading',
     }),
     ...mapGetters('services', {
-      lifeCycleStages: 'lifeCycleStages',
-      lifeCycleStage: 'lifeCycleStage'
+      currentLifeCycleStage: 'currentLifeCycleStage'
     }),
-    localLifeCycleStage() {
-      return this.lifeCycleStage(this.$route.params.localId);
+    from() {
+      return this.localState.from || this.currentLifeCycleStage.from;
     },
-    initialFrom() {
-      return this.localLifeCycleStage.from;
+    to() {
+      return this.localState.to || this.currentLifeCycleStage.to;
     },
     inputDisabled() {
-      return this.isLoading;
+      return this.isLoading;B
     },
     buttonDisabled() {
       return this.isLoading || this.$validator.errors.any();
     },
-    localLifeCyclesStages() {
-      return this.lifeCycleStages.map((x) => {
-        return {
-          type: 'option',
-          value: x.id,
-          label: x.id,
-          selected: x.id == this.selectedLifeCycleStage,
-        };
-      });
-    },
   },
   methods: {
     updateChangedFrom(event){
-      this.from = event.target.value;
+      this.localState.from = event.target.value;
     },
     updateChangedTo(event){
-      this.to = event.target.value;
-    },
-    updateSelectedLifeCycleStage(event) {
-      this.selectedLifeCycleStage = event.target.value;
+      this.localState.to = event.target.value;
     },
     save() {
       this.$validator.validateAll()
         .then(isSucces => {
           if(isSucces){
             this.$store.dispatch(
-              "services/setPeriodForLifeCycle", {
+              "services/changePeriodForLifeCycleStage", {
                 params: this.$router.currentRoute.params,
                 data: {
-                  levensloopfase: this.selectedLifeCycleStage,
-                  vanaf: this.$formatDate(this.from),
-                  tot: this.$formatDate(this.to),
+                  from: this.from,
+                  to: this.to,
                 }
               });
           }
         })
         .catch(error => {
+          console.error(error);
         });
     }
   },
   mounted() {
-    this.$store.dispatch('services/loadLifeCycleStages');
+    this.$store.dispatch(
+      'services/loadLifeCycleStage',
+      {
+        publicServiceId: this.$route.params.id,
+        lifeCycleStageId: this.$route.params.localId
+      });
   },
   data() {
     return {
-      from: '',
-      to: '',
-      selectedLifeCycleStage: '',
+      localState: {
+        from: null,
+        to: null,
+      }
     };
   },
 };

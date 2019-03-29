@@ -84,6 +84,11 @@ export default {
     return axios.get(location);
   },
 
+  getLifeCycleStage(publicServiceId, lifeCycleStageId) {
+    const location = `/v1/dienstverleningen/${publicServiceId}/levensloop/fases/${lifeCycleStageId}`;
+    return axios.get(location);
+  },
+
   updateAlternativeLabels(id, labels) {
     const location = `/v1/dienstverleningen/${id}/alternatievebenamingen`;
     return axios.patch(location, { labels });
@@ -92,6 +97,11 @@ export default {
   addStageToLifeCycle(id, data) {
     const location = `/v1/dienstverleningen/${id}/levensloop/fases`;
     return axios.post(location, data);
+  },
+
+  changePeriodOfLifeCycleStage({ publicServiceId, lifeCycleStageId, body }) {
+    const location = `/v1/dienstverleningen/${publicServiceId}/levensloop/fases/${lifeCycleStageId}`;
+    return axios.put(location, body);
   },
 
   removeService(id, reasonForRemoval) {

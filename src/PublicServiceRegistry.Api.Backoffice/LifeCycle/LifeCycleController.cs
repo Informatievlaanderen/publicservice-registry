@@ -13,12 +13,14 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
     using Be.Vlaanderen.Basisregisters.Api.Search.Sorting;
     using Be.Vlaanderen.Basisregisters.CommandHandling;
     using Infrastructure;
+    using Infrastructure.ETag;
     using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Http;
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.EntityFrameworkCore;
     using Newtonsoft.Json.Converters;
     using Projections.Backoffice;
+    using PublicService.Responses;
     using Queries;
     using Requests;
     using Responses;
@@ -69,6 +71,51 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
         }
 
         /// <summary>
+        /// Vraag een levensfase van de dienstverlening op.
+        /// </summary>
+        /// <param name="context"></param>
+        /// <param name="id">Identificator van de dienstverlening.</param>
+        /// <param name="faseId">Identificator van de dienstverlening.</param>
+        /// <param name="cancellationToken"></param>
+        /// <response code="200">Als de fase van de dienstverlening gevonden is.</response>
+        /// <response code="404">Als de fase van de dienstverlening niet gevonden kan worden.</response>
+        /// <response code="500">Als er een interne fout is opgetreden.</response>
+        [HttpGet("fases/{faseId}")]
+        [ProducesResponseType(typeof(PublicServiceResponse), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(BasicApiProblem), StatusCodes.Status404NotFound)]
+        [ProducesResponseType(typeof(BasicApiProblem), StatusCodes.Status412PreconditionFailed)]
+        [ProducesResponseType(typeof(BasicApiProblem), StatusCodes.Status500InternalServerError)]
+        [SwaggerResponseExample(StatusCodes.Status200OK, typeof(PublicServiceResponseExamples), jsonConverter: typeof(StringEnumConverter))]
+        [SwaggerResponseExample(StatusCodes.Status404NotFound, typeof(PublicServiceNotFoundResponseExamples), jsonConverter: typeof(StringEnumConverter))]
+        [SwaggerResponseExample(StatusCodes.Status412PreconditionFailed, typeof(PreconditionFailedResponseExamples), jsonConverter: typeof(StringEnumConverter))]
+        [SwaggerResponseExample(StatusCodes.Status500InternalServerError, typeof(InternalServerErrorResponseExamples), jsonConverter: typeof(StringEnumConverter))]
+        [AllowAnonymous]
+        public async Task<IActionResult> Put(
+            [FromServices] BackofficeContext context,
+            [FromRoute] string id,
+            [FromRoute] int faseId,
+            CancellationToken cancellationToken = default)
+        {
+            var projectionPosition = await context.GetProjectionPositionAsync(cancellationToken);
+            Response.Headers.Add(PublicServiceHeaderNames.LastObservedPosition, projectionPosition.ToString());
+
+            var publicService =
+                await context
+                    .PublicServiceLifeCycleList
+                    .AsNoTracking()
+                    .SingleOrDefaultAsync(item => item.PublicServiceId == id && item.LocalId == faseId, cancellationToken);
+
+            if (publicService == null)
+                return NotFound();
+
+            return Ok(
+                new LifeCycleStageResponse(
+                    publicService.LifeCycleStage,
+                    publicService.From,
+                    publicService.To));
+        }
+
+        /// <summary>
         /// Voeg een levensfase toe aan de levenscyclus van een dienstverlening.
         /// </summary>
         /// <param name="commandId">Unieke id voor het verzoek.</param>
@@ -98,7 +145,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
         }
 
         /// <summary>
-        /// Voeg een levensfase toe aan de levenscyclus van een dienstverlening.
+        /// Pas een levensfase aan in de levenscyclus van een dienstverlening.
         /// </summary>
         /// <param name="commandId">Unieke id voor het verzoek.</param>
         /// <param name="id">Id van de bestaande dienstverlening.</param>
@@ -113,7 +160,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
         public async Task<IActionResult> Put(
             [FromCommandId] Guid? commandId,
             [FromRoute] string id,
-            [FromRoute] string faseId,
+            [FromRoute] int faseId,
             [FromBody] ChangePeriodOfLifeCycleStageRequest request,
             CancellationToken cancellationToken = default)
         {
@@ -123,7 +170,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
             return Accepted(
                 await Bus.Dispatch(
                     commandId ?? Guid.NewGuid(),
-                    ChangePeriodOfLifeCycleStageRequestMapping.Map(id, request),
+                    ChangePeriodOfLifeCycleStageRequestMapping.Map(id, faseId, request),
                     GetMetadata(),
                     cancellationToken));
         }

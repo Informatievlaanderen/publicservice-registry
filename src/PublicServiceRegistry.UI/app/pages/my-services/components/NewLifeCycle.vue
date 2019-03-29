@@ -142,7 +142,6 @@ export default {
     }
   },
   mounted() {
-    this.$store.dispatch('services/loadLifeCycleStages');
   },
   data() {
     return {
