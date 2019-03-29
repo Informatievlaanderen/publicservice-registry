@@ -30,7 +30,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycleStageType
         [HttpGet]
         [ProducesResponseType(typeof(List<LifeCycleStageTypeListResponse>), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(BasicApiProblem), StatusCodes.Status500InternalServerError)]
-        [SwaggerResponseExample(StatusCodes.Status200OK, typeof(LifeCycleStageListResponseExamples), jsonConverter: typeof(StringEnumConverter))]
+        [SwaggerResponseExample(StatusCodes.Status200OK, typeof(LifeCycleStageTypeListResponseExamples), jsonConverter: typeof(StringEnumConverter))]
         [SwaggerResponseExample(StatusCodes.Status500InternalServerError, typeof(InternalServerErrorResponseExamples), jsonConverter: typeof(StringEnumConverter))]
         [AllowAnonymous]
         public IActionResult List(
