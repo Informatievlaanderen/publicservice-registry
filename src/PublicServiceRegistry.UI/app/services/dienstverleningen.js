@@ -61,7 +61,7 @@ export default {
     return axios.get('/v1/alternatievebenamingstypes');
   },
 
-  getLifeCycleStages() {
+  getLifeCycleStageTypes() {
     return axios.get('/v1/levensloopfasetypes');
   },
 

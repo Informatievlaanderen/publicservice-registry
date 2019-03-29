@@ -91,7 +91,7 @@ export default {
     }),
   },
   mounted() {
-    this.$store.dispatch('services/loadLifeCycleStages');
+    this.$store.dispatch('services/loadLifeCycleStageTypes');
   },
   data() {
     return {
