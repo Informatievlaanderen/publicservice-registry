@@ -14,7 +14,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycleStageType.Responses
         public LifeCycleStageTypeListResponse(string id) => Id = id;
     }
 
-    public class LifeCycleStageListResponseExamples : IExamplesProvider
+    public class LifeCycleStageTypeListResponseExamples : IExamplesProvider
     {
         public object GetExamples() =>
             new List<LifeCycleStageTypeListResponse>
