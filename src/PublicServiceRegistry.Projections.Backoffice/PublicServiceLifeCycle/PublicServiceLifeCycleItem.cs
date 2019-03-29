@@ -9,7 +9,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceLifeCycle
     {
         public string PublicServiceId { get; set; }
         public int LocalId { get; set; }
-        public string LifeCycleStage { get; set; }
+        public string LifeCycleStageType { get; set; }
         public DateTime? From { get; set; }
         public DateTime? To { get; set; }
     }
@@ -25,7 +25,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceLifeCycle
                 .ForSqlServerIsClustered();
 
             b.Property(p => p.LocalId).IsRequired();
-            b.Property(p => p.LifeCycleStage).IsRequired();
+            b.Property(p => p.LifeCycleStageType).IsRequired();
             b.Property(p => p.From);
             b.Property(p => p.To);
         }

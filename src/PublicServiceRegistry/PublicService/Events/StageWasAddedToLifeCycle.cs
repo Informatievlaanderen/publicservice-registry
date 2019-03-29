@@ -10,18 +10,18 @@ namespace PublicServiceRegistry.PublicService.Events
     {
         public string PublicServiceId { get; }
         public int Id { get; }
-        public string LifeCycleStage { get; }
+        public string LifeCycleStageType { get; }
         public DateTime? From { get; }
         public DateTime? To { get; }
 
         public StageWasAddedToLifeCycle(PublicServiceId publicServiceId,
             int id,
-            LifeCycleStage lifeCycleStage,
+            LifeCycleStageType lifeCycleStageType,
             LifeCycleStagePeriod period)
         {
             PublicServiceId = publicServiceId;
             Id = id;
-            LifeCycleStage = lifeCycleStage;
+            LifeCycleStageType = lifeCycleStageType;
             From = period.Start;
             To = period.End;
         }
@@ -30,13 +30,13 @@ namespace PublicServiceRegistry.PublicService.Events
         private StageWasAddedToLifeCycle(
             string publicServiceId,
             int id,
-            string lifeCycleStage,
+            string lifeCycleStageType,
             DateTime? from,
             DateTime? to) :
             this(
                 new PublicServiceId(publicServiceId),
                 id,
-                PublicServiceRegistry.LifeCycleStage.Parse(lifeCycleStage),
+                PublicServiceRegistry.LifeCycleStageType.Parse(lifeCycleStageType),
                 new LifeCycleStagePeriod(new ValidFrom(from), new ValidTo(to)))
         {
         }

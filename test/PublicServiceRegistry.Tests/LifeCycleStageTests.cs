@@ -15,7 +15,7 @@ namespace PublicServiceRegistry.Tests
         public LifeCycleStageTests()
         {
             _fixture = new Fixture();
-            _knownValues = Array.ConvertAll(LifeCycleStage.All, type => type.ToString());
+            _knownValues = Array.ConvertAll(LifeCycleStageType.All, type => type.ToString());
         }
 
         [Fact]
@@ -37,31 +37,31 @@ namespace PublicServiceRegistry.Tests
                 new EqualsOtherAssertion(_fixture),
                 new EqualsSuccessiveAssertion(_fixture),
                 new GetHashCodeSuccessiveAssertion(_fixture)
-            ).Verify(typeof(LifeCycleStage));
+            ).Verify(typeof(LifeCycleStageType));
         }
 
         [Fact]
         public void ActiveReturnsExpectedResult()
         {
-            Assert.Equal("Active", LifeCycleStage.Active);
+            Assert.Equal("Active", LifeCycleStageType.Active);
         }
 
         [Fact]
         public void UnderDevelopmentReturnsExpectedResult()
         {
-            Assert.Equal("UnderDevelopment", LifeCycleStage.UnderDevelopment);
+            Assert.Equal("UnderDevelopment", LifeCycleStageType.UnderDevelopment);
         }
 
         [Fact]
         public void PhasingOutReturnsExpectedResult()
         {
-            Assert.Equal("PhasingOut", LifeCycleStage.PhasingOut);
+            Assert.Equal("PhasingOut", LifeCycleStageType.PhasingOut);
         }
 
         [Fact]
         public void StoppedReturnsExpectedResult()
         {
-            Assert.Equal("Stopped", LifeCycleStage.Stopped);
+            Assert.Equal("Stopped", LifeCycleStageType.Stopped);
         }
 
         [Fact]
@@ -70,19 +70,19 @@ namespace PublicServiceRegistry.Tests
             Assert.Equal(
                 new[]
                 {
-                    LifeCycleStage.Active,
-                    LifeCycleStage.UnderDevelopment,
-                    LifeCycleStage.PhasingOut,
-                    LifeCycleStage.Stopped,
+                    LifeCycleStageType.Active,
+                    LifeCycleStageType.UnderDevelopment,
+                    LifeCycleStageType.PhasingOut,
+                    LifeCycleStageType.Stopped,
                 },
-                LifeCycleStage.All);
+                LifeCycleStageType.All);
         }
 
         [Fact]
         public void ToStringReturnsExpectedResult()
         {
             var value = _knownValues[new Random().Next(0, _knownValues.Length)];
-            var sut = LifeCycleStage.Parse(value);
+            var sut = LifeCycleStageType.Parse(value);
             var result = sut.ToString();
 
             Assert.Equal(value, result);
@@ -91,34 +91,34 @@ namespace PublicServiceRegistry.Tests
         [Fact]
         public void ParseValueCanNotBeNull()
         {
-            Assert.Throws<ArgumentNullException>(() => LifeCycleStage.Parse(null));
+            Assert.Throws<ArgumentNullException>(() => LifeCycleStageType.Parse(null));
         }
 
         [Fact]
         public void ParseReturnsExpectedResultWhenValueIsWellKnown()
         {
             var value = _knownValues[new Random().Next(0, _knownValues.Length)];
-            Assert.NotNull(LifeCycleStage.Parse(value));
+            Assert.NotNull(LifeCycleStageType.Parse(value));
         }
 
         [Fact]
         public void ParseReturnsExpectedResultWhenValueIsUnknown()
         {
             var value = _fixture.Create<string>();
-            Assert.Throws<FormatException>(() => LifeCycleStage.Parse(value));
+            Assert.Throws<FormatException>(() => LifeCycleStageType.Parse(value));
         }
 
         [Fact]
         public void TryParseValueCanNotBeNull()
         {
-            Assert.Throws<ArgumentNullException>(() => LifeCycleStage.TryParse(null, out _));
+            Assert.Throws<ArgumentNullException>(() => LifeCycleStageType.TryParse(null, out _));
         }
 
         [Fact]
         public void TryParseReturnsExpectedResultWhenValueIsWellKnown()
         {
             var value = _knownValues[new Random().Next(0, _knownValues.Length)];
-            var result = LifeCycleStage.TryParse(value, out var parsed);
+            var result = LifeCycleStageType.TryParse(value, out var parsed);
             Assert.True(result);
             Assert.NotNull(parsed);
             Assert.Equal(value, parsed.ToString());
@@ -128,7 +128,7 @@ namespace PublicServiceRegistry.Tests
         public void TryParseReturnsExpectedResultWhenValueIsUnknown()
         {
             var value = _fixture.Create<string>();
-            var result = LifeCycleStage.TryParse(value, out var parsed);
+            var result = LifeCycleStageType.TryParse(value, out var parsed);
             Assert.False(result);
             Assert.Null(parsed);
         }
@@ -136,14 +136,14 @@ namespace PublicServiceRegistry.Tests
         [Fact]
         public void CanParseValueCanNotBeNull()
         {
-            Assert.Throws<ArgumentNullException>(() => LifeCycleStage.CanParse(null));
+            Assert.Throws<ArgumentNullException>(() => LifeCycleStageType.CanParse(null));
         }
 
         [Fact]
         public void CanParseReturnsExpectedResultWhenValueIsUnknown()
         {
             var value = _fixture.Create<string>();
-            var result = LifeCycleStage.CanParse(value);
+            var result = LifeCycleStageType.CanParse(value);
             Assert.False(result);
         }
 
@@ -151,7 +151,7 @@ namespace PublicServiceRegistry.Tests
         public void CanParseReturnsExpectedResultWhenValueIsWellKnown()
         {
             var value = _knownValues[new Random().Next(0, _knownValues.Length)];
-            var result = LifeCycleStage.CanParse(value);
+            var result = LifeCycleStageType.CanParse(value);
             Assert.True(result);
         }
     }

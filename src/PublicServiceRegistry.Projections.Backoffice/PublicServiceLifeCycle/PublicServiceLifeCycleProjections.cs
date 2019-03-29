@@ -19,7 +19,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceLifeCycle
                 {
                     PublicServiceId = message.Message.PublicServiceId,
                     LocalId = message.Message.Id,
-                    LifeCycleStage = message.Message.LifeCycleStage,
+                    LifeCycleStage = message.Message.LifeCycleStageType,
                     From = message.Message.From,
                     To = message.Message.To
                 };

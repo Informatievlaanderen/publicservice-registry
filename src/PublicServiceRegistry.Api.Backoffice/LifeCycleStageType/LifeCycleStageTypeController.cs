@@ -1,4 +1,4 @@
-namespace PublicServiceRegistry.Api.Backoffice.LifeCycleStage
+namespace PublicServiceRegistry.Api.Backoffice.LifeCycleStageType
 {
     using System.Collections.Generic;
     using System.Linq;
@@ -12,14 +12,14 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycleStage
     using Responses;
     using Security;
     using Swashbuckle.AspNetCore.Filters;
-    using LifeCycleStage = PublicServiceRegistry.LifeCycleStage;
+    using LifeCycleStageType = PublicServiceRegistry.LifeCycleStageType;
 
     [ApiVersion("1.0")]
     [AdvertiseApiVersions("1.0")]
     [ApiRoute("levensfases")]
     [ApiExplorerSettings(GroupName = "Dienstverleningen")]
     [PublicServiceRegistryAuthorize]
-    public class LifeCycleStageController : ApiController
+    public class LifeCycleStageTypeController : ApiController
     {
         /// <summary>
         /// Vraag een lijst met dienstverlening levensloopfases op.
@@ -28,13 +28,13 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycleStage
         /// <response code="200">Als de opvraging van een lijst met dienstverlening levensloopfases gelukt is.</response>
         /// <response code="500">Als er een interne fout is opgetreden.</response>
         [HttpGet]
-        [ProducesResponseType(typeof(List<LifeCycleStageListResponse>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(List<LifeCycleStageTypeListResponse>), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(BasicApiProblem), StatusCodes.Status500InternalServerError)]
         [SwaggerResponseExample(StatusCodes.Status200OK, typeof(LifeCycleStageListResponseExamples), jsonConverter: typeof(StringEnumConverter))]
         [SwaggerResponseExample(StatusCodes.Status500InternalServerError, typeof(InternalServerErrorResponseExamples), jsonConverter: typeof(StringEnumConverter))]
         [AllowAnonymous]
         public IActionResult List(
             [FromServices] BackofficeContext context) =>
-            Ok(LifeCycleStage.All.Select(x => new LifeCycleStageListResponse(x)));
+            Ok(LifeCycleStageType.All.Select(x => new LifeCycleStageTypeListResponse(x)));
     }
 }
