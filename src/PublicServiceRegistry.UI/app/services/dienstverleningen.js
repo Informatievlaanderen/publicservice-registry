@@ -62,7 +62,7 @@ export default {
   },
 
   getLifeCycleStages() {
-    return axios.get('/v1/levensfases');
+    return axios.get('/v1/levensloopfasetypes');
   },
 
   createMyService(service) {
