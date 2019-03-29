@@ -1,5 +1,7 @@
 import uuid from 'uuid';
 
+import moment from 'moment';
+
 import _ from 'lodash';
 
 import axios from 'axios';
@@ -14,6 +16,18 @@ import {
 } from 'store/mutation-types';
 import success from 'store/successes';
 import csvExporter from 'services/csvExporter';
+
+import {
+  ChangePeriodForLifeCycleStage,
+} from 'services/requests';
+
+function formatOptionalDate(date) {
+  if (!date || date === '') {
+    return date;
+  }
+
+  return moment(date).format('DD.MM.YYYY');
+}
 
 const RECEIVE_ALL_SERVICES = 'RECEIVE_ALL_SERVICES';
 const RECEIVE_SORTING = 'RECEIVE_SORTING';
@@ -32,6 +46,8 @@ const RESET_NEWSERVICE = 'RESET_NEWSERVICE';
 
 const SET_LABELTYPES = 'SET_LABELTYPES';
 const SET_LIFECYCLESTAGES = 'SET_LIFECYCLESTAGES';
+
+const SET_CURRENT_LIFECYCLESTAGE = 'SET_CURRENT_LIFECYCLESTAGE';
 
 const SET_ALTERNATIVELABELS = 'SET_ALTERNATIVELABELS';
 const SET_MYSERVICE_LIFECYCLE = 'SET_MYSERVICE_LIFECYCLE';
@@ -68,6 +84,11 @@ const initialState = {
   },
   labelTypes: [],
   lifeCycleStages: [],
+  currentLifeCycleStage: {
+    lifeCycleStageType: '',
+    from: '',
+    to: '',
+  },
   alternativeLabels: [],
   lifeCycle: [],
 };
@@ -101,7 +122,8 @@ const getters = {
     return result;
   }, {}),
   lifeCycle: state => state.lifeCycle || [],
-  lifeCycleStage: state => localId => (state.lifeCycle || []).find(x => x.localId === localId),
+  lifeCycleStage: state => state.lifeCycleStage,
+  currentLifeCycleStage: state => state.currentLifeCycleStage,
   numberOfLifeCycleStages: state => (state.lifeCycle || []).length,
 };
 
@@ -164,6 +186,11 @@ const mutations = {
   },
   [SET_LIFECYCLESTAGES](state, lifeCycleStages) {
     state.lifeCycleStages = lifeCycleStages;
+  },
+  [SET_CURRENT_LIFECYCLESTAGE](state, lifeCycleStage) {
+    state.currentLifeCycleStage.lifeCycleStageType = lifeCycleStage.levensloopfaseType;
+    state.currentLifeCycleStage.from = formatOptionalDate(lifeCycleStage.van);
+    state.currentLifeCycleStage.to = formatOptionalDate(lifeCycleStage.tot);
   },
   [SET_ALTERNATIVELABELS](state, alternativeLabels) {
     state.alternativeLabels = alternativeLabels;
@@ -281,12 +308,38 @@ export default class {
             commitRoot(commit, LOADING_OFF);
           });
       },
+      loadLifeCycleStage({ commit }, { publicServiceId, lifeCycleStageId }) {
+        commitRoot(commit, LOADING_ON);
+
+        return api.getLifeCycleStage(publicServiceId, lifeCycleStageId)
+          .then(lifeCycleStage => commit(SET_CURRENT_LIFECYCLESTAGE, lifeCycleStage.data))
+          .catch((error) => {
+            commitRoot(commit, SET_ALERT, alerts.toAlert(error));
+          }).finally(() => {
+            commitRoot(commit, LOADING_OFF);
+          });
+      },
 
       setPeriodForLifeCycle({ commit }, { params: { id }, data }) {
         commitRoot(commit, LOADING_ON);
 
         api
           .addStageToLifeCycle(id, data)
+          .then(() => {
+            commitRoot(commit, SET_ALERT, success.dienstverleningAangepast);
+          })
+          .catch((error) => {
+            commitRoot(commit, SET_ALERT, alerts.toAlert(error));
+          })
+          .finally(() => commitRoot(commit, LOADING_OFF));
+      },
+
+      changePeriodForLifeCycleStage({ commit }, { params: { id, localId }, data }) {
+        commitRoot(commit, LOADING_ON);
+
+        const request = new ChangePeriodForLifeCycleStage(id, localId, data);
+
+        return api.changePeriodOfLifeCycleStage(request)
           .then(() => {
             commitRoot(commit, SET_ALERT, success.dienstverleningAangepast);
           })

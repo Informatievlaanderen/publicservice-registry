@@ -8,15 +8,9 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Requests
     public class ChangePeriodOfLifeCycleStageRequest
     {
         /// <summary>
-        /// Id van de levensloopfase.
-        /// </summary>
-        public int LevensLoopFaseId { get; set; }
-
-        /// <summary>
         /// Begindatum van de levensloopfase (inclusief).
         /// </summary>
-        public DateTime? Vanaf { get; set; }
-
+        public DateTime? Van { get; set; }
 
         /// <summary>
         /// Einddatum van de levensloopfase (inclusief).
@@ -30,8 +24,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Requests
         {
             return new ChangePeriodOfLifeCycleStageRequest
             {
-                LevensLoopFaseId = '1',
-                Vanaf = DateTime.ParseExact("13.03.2019", "dd.MM.yyyy", CultureInfo.InvariantCulture),
+                Van = DateTime.ParseExact("13.03.2019", "dd.MM.yyyy", CultureInfo.InvariantCulture),
                 Tot = DateTime.ParseExact("13.03.2020", "dd.MM.yyyy", CultureInfo.InvariantCulture),
             };
         }
@@ -39,13 +32,13 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Requests
 
     public static class ChangePeriodOfLifeCycleStageRequestMapping
     {
-        public static ChangePeriodOfLifeCycleStage Map(string id, ChangePeriodOfLifeCycleStageRequest message)
+        public static ChangePeriodOfLifeCycleStage Map(string id, int faseId, ChangePeriodOfLifeCycleStageRequest message)
         {
             return new ChangePeriodOfLifeCycleStage(
                 new PublicServiceId(id),
-                message.LevensLoopFaseId,
+                faseId,
                 new LifeCycleStagePeriod(
-                    new ValidFrom(message.Vanaf),
+                    new ValidFrom(message.Van),
                     new ValidTo(message.Tot)));
         }
     }

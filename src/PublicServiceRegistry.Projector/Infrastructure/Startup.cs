@@ -8,7 +8,6 @@ namespace PublicServiceRegistry.Projector.Infrastructure
     using Be.Vlaanderen.Basisregisters.DataDog.Tracing.Autofac;
     using Autofac;
     using Autofac.Extensions.DependencyInjection;
-    using Be.Vlaanderen.Basisregisters.Projector.Commands;
     using Be.Vlaanderen.Basisregisters.Projector.ConnectedProjections;
     using Configuration;
     using Microsoft.AspNetCore.Builder;
@@ -112,7 +111,7 @@ namespace PublicServiceRegistry.Projector.Infrastructure
             });
 
             var projectionsManager = serviceProvider.GetRequiredService<IConnectedProjectionsManager>();
-            projectionsManager.Send<StartAll>();
+            projectionsManager.Start();
         }
 
         private static string GetApiLeadingText(ApiVersionDescription description)
