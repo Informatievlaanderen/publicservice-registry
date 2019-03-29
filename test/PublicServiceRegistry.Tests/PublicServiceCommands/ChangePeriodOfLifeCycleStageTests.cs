@@ -19,14 +19,14 @@ namespace PublicServiceRegistry.Tests.PublicServiceCommands
             PublicServiceId publicServiceId,
             PublicServiceName publicServiceName,
             ReasonForRemoval reasonForRemoval,
-            LifeCycleStage lifeCycleStage,
+            LifeCycleStageType lifeCycleStageType,
             LifeCycleStagePeriod period,
             int lifeCycleStageLocalId)
         {
             Assert(new Scenario()
                 .Given(publicServiceId,
                     new PublicServiceWasRegistered(publicServiceId, publicServiceName, PrivateZoneId.Unregistered),
-                    new StageWasAddedToLifeCycle(publicServiceId, lifeCycleStageLocalId, lifeCycleStage, period),
+                    new StageWasAddedToLifeCycle(publicServiceId, lifeCycleStageLocalId, lifeCycleStageType, period),
                     new PublicServiceWasRemoved(publicServiceId, reasonForRemoval))
                 .When(new ChangePeriodOfLifeCycleStage(publicServiceId, lifeCycleStageLocalId, period))
                 .Throws(new CannotPerformActionOnRemovedPublicService()));
@@ -37,14 +37,14 @@ namespace PublicServiceRegistry.Tests.PublicServiceCommands
         public void WithValidData(
             PublicServiceId publicServiceId,
             PublicServiceName publicServiceName,
-            LifeCycleStage lifeCycleStage,
+            LifeCycleStageType lifeCycleStageType,
             LifeCycleStagePeriod period,
             int lifeCycleStageLocalId)
         {
             Assert(new Scenario()
                 .Given(publicServiceId,
                     new PublicServiceWasRegistered(publicServiceId, publicServiceName, PrivateZoneId.Unregistered),
-                    new StageWasAddedToLifeCycle(publicServiceId, lifeCycleStageLocalId, lifeCycleStage, period))
+                    new StageWasAddedToLifeCycle(publicServiceId, lifeCycleStageLocalId, lifeCycleStageType, period))
                 .When(new ChangePeriodOfLifeCycleStage(publicServiceId, lifeCycleStageLocalId, period))
                 .Then(publicServiceId,
                     new PeriodOfLifeCycleStageWasChanged(publicServiceId, lifeCycleStageLocalId, period)));
@@ -55,7 +55,7 @@ namespace PublicServiceRegistry.Tests.PublicServiceCommands
         public void WithPeriodThatHasChangedTwice(
             PublicServiceId publicServiceId,
             PublicServiceName publicServiceName,
-            LifeCycleStage lifeCycleStage,
+            LifeCycleStageType lifeCycleStageType,
             LifeCycleStagePeriod period,
             LifeCycleStagePeriod newPeriod,
             int lifeCycleStageLocalId)
@@ -63,7 +63,7 @@ namespace PublicServiceRegistry.Tests.PublicServiceCommands
             Assert(new Scenario()
                 .Given(publicServiceId,
                     new PublicServiceWasRegistered(publicServiceId, publicServiceName, PrivateZoneId.Unregistered),
-                    new StageWasAddedToLifeCycle(publicServiceId, lifeCycleStageLocalId, lifeCycleStage, period),
+                    new StageWasAddedToLifeCycle(publicServiceId, lifeCycleStageLocalId, lifeCycleStageType, period),
                     new PeriodOfLifeCycleStageWasChanged(publicServiceId, lifeCycleStageLocalId, period))
                 .When(new ChangePeriodOfLifeCycleStage(publicServiceId, lifeCycleStageLocalId, newPeriod))
                 .Then(publicServiceId,
@@ -75,7 +75,7 @@ namespace PublicServiceRegistry.Tests.PublicServiceCommands
         public void LifeCycleCannotHaveOverlappingPeriods(
             PublicServiceId publicServiceId,
             PublicServiceName publicServiceName,
-            LifeCycleStage lifeCycleStage)
+            LifeCycleStageType lifeCycleStageType)
         {
             // These two periods are ok because they don't overlap
             var period1 = new LifeCycleStagePeriod(new ValidFrom(2018, 1, 1), new ValidTo(2020, 1, 1));
@@ -86,8 +86,8 @@ namespace PublicServiceRegistry.Tests.PublicServiceCommands
             Assert(new Scenario()
                 .Given(publicServiceId,
                     new PublicServiceWasRegistered(publicServiceId, publicServiceName, PrivateZoneId.Unregistered),
-                    new StageWasAddedToLifeCycle(publicServiceId, 1, lifeCycleStage, period1),
-                    new StageWasAddedToLifeCycle(publicServiceId, 2, lifeCycleStage, period2))
+                    new StageWasAddedToLifeCycle(publicServiceId, 1, lifeCycleStageType, period1),
+                    new StageWasAddedToLifeCycle(publicServiceId, 2, lifeCycleStageType, period2))
                 .When(new ChangePeriodOfLifeCycleStage(publicServiceId, 2, period3))
                 .Throws(new LifeCycleCannotHaveOverlappingPeriods()));
         }
@@ -97,7 +97,7 @@ namespace PublicServiceRegistry.Tests.PublicServiceCommands
         public void LifeCycleOverlapsTakesChangesIntoAccount(
             PublicServiceId publicServiceId,
             PublicServiceName publicServiceName,
-            LifeCycleStage lifeCycleStage)
+            LifeCycleStageType lifeCycleStageType)
         {
             var period1 = new LifeCycleStagePeriod(new ValidFrom(2018, 1, 1), new ValidTo(2018, 1, 1));
             var period2 = new LifeCycleStagePeriod(new ValidFrom(2020, 1, 2), new ValidTo(2022, 1, 1));
@@ -107,9 +107,9 @@ namespace PublicServiceRegistry.Tests.PublicServiceCommands
             Assert(new Scenario()
                 .Given(publicServiceId,
                     new PublicServiceWasRegistered(publicServiceId, publicServiceName, PrivateZoneId.Unregistered),
-                    new StageWasAddedToLifeCycle(publicServiceId, 1, lifeCycleStage, period1),
+                    new StageWasAddedToLifeCycle(publicServiceId, 1, lifeCycleStageType, period1),
                     new PeriodOfLifeCycleStageWasChanged(publicServiceId, 1, period2))
-                .When(new AddStageToLifeCycle(publicServiceId, lifeCycleStage, period3))
+                .When(new AddStageToLifeCycle(publicServiceId, lifeCycleStageType, period3))
                 .Throws(new LifeCycleCannotHaveOverlappingPeriods()));
         }
 
@@ -118,7 +118,7 @@ namespace PublicServiceRegistry.Tests.PublicServiceCommands
         public void LifeCycleStageDoesNotOverlapWhenChangingItsOwnPeriod(
             PublicServiceId publicServiceId,
             PublicServiceName publicServiceName,
-            LifeCycleStage lifeCycleStage)
+            LifeCycleStageType lifeCycleStageType)
         {
             // These two periods are ok because they don't overlap
             var period1 = new LifeCycleStagePeriod(new ValidFrom(2018, 1, 1), new ValidTo(2020, 1, 1));
@@ -129,8 +129,8 @@ namespace PublicServiceRegistry.Tests.PublicServiceCommands
             Assert(new Scenario()
                 .Given(publicServiceId,
                     new PublicServiceWasRegistered(publicServiceId, publicServiceName, PrivateZoneId.Unregistered),
-                    new StageWasAddedToLifeCycle(publicServiceId, 1, lifeCycleStage, period1),
-                    new StageWasAddedToLifeCycle(publicServiceId, 2, lifeCycleStage, period2))
+                    new StageWasAddedToLifeCycle(publicServiceId, 1, lifeCycleStageType, period1),
+                    new StageWasAddedToLifeCycle(publicServiceId, 2, lifeCycleStageType, period2))
                 .When(new ChangePeriodOfLifeCycleStage(publicServiceId, 1, period3))
                 .Then(publicServiceId,
                     new PeriodOfLifeCycleStageWasChanged(publicServiceId, 1, period3)));

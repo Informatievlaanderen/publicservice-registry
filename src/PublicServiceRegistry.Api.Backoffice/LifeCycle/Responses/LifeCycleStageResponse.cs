@@ -3,9 +3,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Responses
     using System;
     using System.Collections.Generic;
     using System.Runtime.Serialization;
-    using Labels.Responses;
     using Swashbuckle.AspNetCore.Filters;
-    using LifeCycleStage = PublicServiceRegistry.LifeCycleStage;
 
     [DataContract(Name = "Levensloop", Namespace = "")]
     public class LifeCycleStageResponse
@@ -44,8 +42,8 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Responses
         public object GetExamples() =>
             new List<LifeCycleStageResponse>
             {
-                new LifeCycleStageResponse(LifeCycleStage.Active.ToString(), DateTime.Now.Date, DateTime.Now.Date.AddDays(1)),
-                new LifeCycleStageResponse(LifeCycleStage.PhasingOut.ToString(), DateTime.Now.Date, DateTime.Now.Date.AddDays(1)),
+                new LifeCycleStageResponse(LifeCycleStageType.Active.ToString(), DateTime.Now.Date, DateTime.Now.Date.AddDays(1)),
+                new LifeCycleStageResponse(LifeCycleStageType.PhasingOut.ToString(), DateTime.Now.Date, DateTime.Now.Date.AddDays(1)),
             };
     }
 }

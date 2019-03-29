@@ -61,11 +61,11 @@ namespace PublicServiceRegistry.PublicService
             }
         }
 
-        public void AddStageToLifeCycle(LifeCycleStage lifeCycleStage, LifeCycleStagePeriod period)
+        public void AddStageToLifeCycle(LifeCycleStageType lifeCycleStageType, LifeCycleStagePeriod period)
         {
             EnsureNotRemoved();
 
-            _lifeCycle.AddStage(lifeCycleStage, period);
+            _lifeCycle.AddStage(lifeCycleStageType, period);
         }
 
         public void ChangePeriodOfLifeCycleStage(int localId, LifeCycleStagePeriod period)

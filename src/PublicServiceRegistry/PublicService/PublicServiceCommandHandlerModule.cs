@@ -76,7 +76,7 @@ namespace PublicServiceRegistry.PublicService
                     var publicService = await publicServices.GetAsync(publicServiceId, ct);
 
                     publicService.AddStageToLifeCycle(
-                        message.Command.LifeCycleStage,
+                        message.Command.LifeCycleStageType,
                         message.Command.LifeCycleStagePeriod);
                 });
 

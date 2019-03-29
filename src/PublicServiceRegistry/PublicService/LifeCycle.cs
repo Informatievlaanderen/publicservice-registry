@@ -43,7 +43,7 @@ namespace PublicServiceRegistry.PublicService
             _publicServiceId = new PublicServiceId(@event.PublicServiceId);
         }
 
-        public void AddStage(LifeCycleStage lifeCycleStage, LifeCycleStagePeriod period)
+        public void AddStage(LifeCycleStageType lifeCycleStageType, LifeCycleStagePeriod period)
         {
             if (_lifeCycleStagePeriods.Any(pair => pair.Value.OverlapsWith(period)))
                 throw new LifeCycleCannotHaveOverlappingPeriods();
@@ -52,7 +52,7 @@ namespace PublicServiceRegistry.PublicService
                 new StageWasAddedToLifeCycle(
                     _publicServiceId,
                     ++_lastUsedId,
-                    lifeCycleStage,
+                    lifeCycleStageType,
                     period));
         }
 

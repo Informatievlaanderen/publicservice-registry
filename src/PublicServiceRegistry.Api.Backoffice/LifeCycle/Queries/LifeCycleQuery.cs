@@ -39,7 +39,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Queries
         {
             public IEnumerable<string> SortableFields { get; } = new[]
             {
-                nameof(PublicServiceLifeCycleItem.LifeCycleStage),
+                nameof(PublicServiceLifeCycleItem.LifeCycleStageType),
                 nameof(PublicServiceLifeCycleItem.From),
                 nameof(PublicServiceLifeCycleItem.To)
             };

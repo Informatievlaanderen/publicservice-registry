@@ -5,6 +5,6 @@ namespace PublicServiceRegistry.Tests.Framework
     public class WithLifeCycleStage : ICustomization
     {
         public void Customize(IFixture fixture) =>
-            fixture.Customize<LifeCycleStage>(c => c.FromFactory<int>(value => LifeCycleStage.All[value % LifeCycleStage.All.Length]));
+            fixture.Customize<LifeCycleStageType>(c => c.FromFactory<int>(value => LifeCycleStageType.All[value % LifeCycleStageType.All.Length]));
     }
 }

@@ -4,16 +4,16 @@ namespace PublicServiceRegistry.PublicService.Commands
     {
         public PublicServiceId PublicServiceId { get; }
 
-        public LifeCycleStage LifeCycleStage { get; }
+        public LifeCycleStageType LifeCycleStageType { get; }
         public LifeCycleStagePeriod LifeCycleStagePeriod { get; }
 
         public AddStageToLifeCycle(
             PublicServiceId publicServiceId,
-            LifeCycleStage lifeCycleStage,
+            LifeCycleStageType lifeCycleStageType,
             LifeCycleStagePeriod lifeCycleStagePeriod)
         {
             PublicServiceId = publicServiceId;
-            LifeCycleStage = lifeCycleStage;
+            LifeCycleStageType = lifeCycleStageType;
             LifeCycleStagePeriod = lifeCycleStagePeriod;
         }
     }
