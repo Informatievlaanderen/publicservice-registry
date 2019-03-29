@@ -16,7 +16,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycleStageType
 
     [ApiVersion("1.0")]
     [AdvertiseApiVersions("1.0")]
-    [ApiRoute("levensfases")]
+    [ApiRoute("levensloopfasetypes")]
     [ApiExplorerSettings(GroupName = "Dienstverleningen")]
     [PublicServiceRegistryAuthorize]
     public class LifeCycleStageTypeController : ApiController
