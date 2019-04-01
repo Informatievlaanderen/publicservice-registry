@@ -17,7 +17,7 @@
         track-by="id">
           <template slot="lifeCycleStage" slot-scope="props">
             <div class="custom-actions">
-              {{props.rowData.lifeCycleStage}}
+              {{props.rowData.lifeCycleStageTypeName}}
             </div>
           </template>
 
