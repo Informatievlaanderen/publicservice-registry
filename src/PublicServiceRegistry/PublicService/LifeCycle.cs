@@ -20,6 +20,7 @@ namespace PublicServiceRegistry.PublicService
             Register<PublicServiceWasRegistered>(When);
             Register<StageWasAddedToLifeCycle>(When);
             Register<PeriodOfLifeCycleStageWasChanged>(When);
+            Register<LifeCycleStageWasRemoved>(When);
         }
 
         private void When(StageWasAddedToLifeCycle @event)
@@ -36,6 +37,11 @@ namespace PublicServiceRegistry.PublicService
             var lifeCycleStagePeriod = new LifeCycleStagePeriod(new ValidFrom(@event.From), new ValidTo(@event.To));
 
             _lifeCycleStagePeriods[@event.Id] = lifeCycleStagePeriod;
+        }
+
+        private void When(LifeCycleStageWasRemoved @event)
+        {
+            _lifeCycleStagePeriods.Remove(@event.LifeCycleStageId);
         }
 
         private void When(PublicServiceWasRegistered @event)
@@ -70,9 +76,15 @@ namespace PublicServiceRegistry.PublicService
                     period));
         }
 
-        private LifeCycleStagePeriod GetPeriodFor(int localId)
+        public void RemoveStage(int lifeCycleStageId)
         {
-            return _lifeCycleStagePeriods.ContainsKey(localId) ? _lifeCycleStagePeriods[localId] : null;
+            if (!_lifeCycleStagePeriods.ContainsKey(lifeCycleStageId))
+                throw new LifeCycleStageWithGivenIdNotFound(lifeCycleStageId);
+
+            Apply(
+                new LifeCycleStageWasRemoved(
+                    _publicServiceId,
+                    lifeCycleStageId));
         }
     }
 }

@@ -26,6 +26,7 @@ namespace PublicServiceRegistry.PublicService
             Register<LabelWasAssigned>(When);
             Register<StageWasAddedToLifeCycle>(When);
             Register<PeriodOfLifeCycleStageWasChanged>(When);
+            Register<LifeCycleStageWasRemoved>(When);
             Register<PublicServiceWasRemoved>(When);
         }
 
@@ -64,6 +65,11 @@ namespace PublicServiceRegistry.PublicService
         }
 
         private void When(PeriodOfLifeCycleStageWasChanged @event)
+        {
+            _lifeCycle.Route(@event);
+        }
+
+        private void When(LifeCycleStageWasRemoved @event)
         {
             _lifeCycle.Route(@event);
         }

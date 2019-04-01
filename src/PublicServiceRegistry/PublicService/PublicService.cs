@@ -75,6 +75,13 @@ namespace PublicServiceRegistry.PublicService
             _lifeCycle.ChangePeriod(localId, period);
         }
 
+        public void RemoveLifeCycleStage(int lifeCycleStageId)
+        {
+            EnsureNotRemoved();
+
+            _lifeCycle.RemoveStage(lifeCycleStageId);
+        }
+
         public void MarkForOrafinExport(bool exportToOrafin)
         {
             EnsureNotRemoved();
