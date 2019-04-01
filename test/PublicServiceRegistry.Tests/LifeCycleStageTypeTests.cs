@@ -6,13 +6,13 @@ namespace PublicServiceRegistry.Tests
     using AutoFixture;
     using AutoFixture.Idioms;
 
-    public class LifeCycleStageTests
+    public class LifeCycleStageTypeTests
     {
         private readonly Fixture _fixture;
 
         private readonly string[] _knownValues;
 
-        public LifeCycleStageTests()
+        public LifeCycleStageTypeTests()
         {
             _fixture = new Fixture();
             _knownValues = Array.ConvertAll(LifeCycleStageType.All, type => type.ToString());
