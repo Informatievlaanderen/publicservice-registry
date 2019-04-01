@@ -185,7 +185,7 @@ const mutations = {
     state.labelTypes = labelTypes;
   },
   [SET_LIFECYCLESTAGETYPES](state, lifeCycleStageTypes) {
-    state.lifeCycleStages = lifeCycleStageTypes;
+    state.lifeCycleStageTypes = lifeCycleStageTypes;
   },
   [SET_CURRENT_LIFECYCLESTAGE](state, lifeCycleStage) {
     state.currentLifeCycleStage.lifeCycleStageType = lifeCycleStage.levensloopfaseType;
