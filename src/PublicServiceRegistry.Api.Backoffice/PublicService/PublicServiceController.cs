@@ -213,13 +213,5 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService
                     GetMetadata(),
                     cancellationToken));
         }
-
-        private static bool HasCaughtUp(string expectedPosition, long projectionPosition)
-        {
-            if (string.IsNullOrWhiteSpace(expectedPosition))
-                return true;
-
-            return Convert.ToInt64(expectedPosition) <= projectionPosition;
-        }
     }
 }

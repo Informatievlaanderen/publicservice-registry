@@ -94,6 +94,18 @@ namespace PublicServiceRegistry.PublicService
                         message.Command.LifeCycleStagePeriod);
                 });
 
+            For<RemoveStageFromLifeCycle>()
+                .AddSqlStreamStore(getStreamStore, getUnitOfWork, eventMapping, eventSerializer)
+                .Handle(async (message, ct) =>
+                {
+                    var publicServices = getPublicServices();
+
+                    var publicServiceId = message.Command.PublicServiceId;
+                    var publicService = await publicServices.GetAsync(publicServiceId, ct);
+
+                    publicService.RemoveLifeCycleStage(message.Command.LifeCycleStageId);
+                });
+
             For<RemovePublicService>()
                 .AddSqlStreamStore(getStreamStore, getUnitOfWork, eventMapping, eventSerializer)
                 .RequiresRole(PublicServiceRegistryClaims.AdminRole)

@@ -21,6 +21,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
     using Newtonsoft.Json.Converters;
     using Projections.Backoffice;
     using PublicService.Responses;
+    using PublicServiceRegistry.PublicService.Commands;
     using Queries;
     using Requests;
     using Responses;
@@ -71,11 +72,11 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
         }
 
         /// <summary>
-        /// Vraag een levensfase van de dienstverlening op.
+        /// Vraag een levensloopfase van de dienstverlening op.
         /// </summary>
         /// <param name="context"></param>
-        /// <param name="id">Identificator van de dienstverlening.</param>
-        /// <param name="faseId">Identificator van de dienstverlening.</param>
+        /// <param name="id">Id van de dienstverlening.</param>
+        /// <param name="faseId">Id van de levensloopfase.</param>
         /// <param name="cancellationToken"></param>
         /// <response code="200">Als de fase van de dienstverlening gevonden is.</response>
         /// <response code="404">Als de fase van de dienstverlening niet gevonden kan worden.</response>
@@ -116,10 +117,10 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
         }
 
         /// <summary>
-        /// Voeg een levensfase toe aan de levenscyclus van een dienstverlening.
+        /// Voeg een levensloopfase toe aan de levenscyclus van een dienstverlening.
         /// </summary>
         /// <param name="commandId">Unieke id voor het verzoek.</param>
-        /// <param name="id">Id van de bestaande dienstverlening.</param>
+        /// <param name="id">Id van de dienstverlening.</param>
         /// <param name="request"></param>
         /// <param name="cancellationToken"></param>
         /// <returns></returns>
@@ -145,11 +146,11 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
         }
 
         /// <summary>
-        /// Pas een levensfase aan in de levenscyclus van een dienstverlening.
+        /// Pas een levensloopfase aan in de levenscyclus van een dienstverlening.
         /// </summary>
         /// <param name="commandId">Unieke id voor het verzoek.</param>
-        /// <param name="id">Id van de bestaande dienstverlening.</param>
-        /// <param name="faseId">Id van de bestaande dienstverlening.</param>
+        /// <param name="id">Id van de dienstverlening.</param>
+        /// <param name="faseId">Id van de levensloopfase.</param>
         /// <param name="request"></param>
         /// <param name="cancellationToken"></param>
         /// <returns></returns>
@@ -171,6 +172,31 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
                 await Bus.Dispatch(
                     commandId ?? Guid.NewGuid(),
                     ChangePeriodOfLifeCycleStageRequestMapping.Map(id, faseId, request),
+                    GetMetadata(),
+                    cancellationToken));
+        }
+
+        /// <summary>
+        /// Verwijder een bestaande levensloopfase.
+        /// </summary>
+        /// <param name="commandId">Unieke id voor het verzoek.</param>
+        /// <param name="id">Id van de dienstverlening.</param>
+        /// <param name="faseId">Id van de levensloopfase.</param>
+        /// <param name="cancellationToken"></param>
+        /// <returns></returns>
+        [HttpDelete("fases/{faseId}")]
+        [ProducesResponseType(typeof(AcceptedResult), StatusCodes.Status202Accepted)]
+        [ProducesResponseType(typeof(BadRequestObjectResult), StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> Delete(
+            [FromCommandId] Guid commandId,
+            [FromRoute] string id,
+            [FromRoute] int faseId,
+            CancellationToken cancellationToken = default)
+        {
+            return Accepted(
+                await Bus.Dispatch(
+                    commandId,
+                    new RemoveStageFromLifeCycle(new PublicServiceId(id), faseId),
                     GetMetadata(),
                     cancellationToken));
         }
