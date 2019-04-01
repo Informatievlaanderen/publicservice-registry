@@ -110,7 +110,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
 
             return Ok(
                 new LifeCycleStageResponse(
-                    publicService.LifeCycleStage,
+                    publicService.LifeCycleStageType,
                     publicService.From,
                     publicService.To));
         }

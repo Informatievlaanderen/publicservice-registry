@@ -3,15 +3,25 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycleStageType.Responses
     using System.Collections.Generic;
     using System.Runtime.Serialization;
     using Swashbuckle.AspNetCore.Filters;
+    using LifeCycleStageType = PublicServiceRegistry.LifeCycleStageType;
 
-    [DataContract(Name = "Levensloopfase", Namespace = "")]
+    [DataContract(Name = "LevensloopfaseType", Namespace = "")]
     public class LifeCycleStageTypeListResponse
     {
         /// <summary>Id van de levensfase.</summary>
         [DataMember(Name = "Id", Order = 1)]
         public string Id { get; set; }
 
-        public LifeCycleStageTypeListResponse(string id) => Id = id;
+
+        /// <summary>Naam van de levensfase.</summary>
+        [DataMember(Name = "Naam", Order = 1)]
+        public string Naam { get; set; }
+
+        public LifeCycleStageTypeListResponse(LifeCycleStageType lifeCycleStageType)
+        {
+            Id = lifeCycleStageType.ToString();
+            Naam = lifeCycleStageType.Translation.Name;
+        }
     }
 
     public class LifeCycleStageTypeListResponseExamples : IExamplesProvider
@@ -19,8 +29,8 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycleStageType.Responses
         public object GetExamples() =>
             new List<LifeCycleStageTypeListResponse>
             {
-                new LifeCycleStageTypeListResponse("Ipdc"),
-                new LifeCycleStageTypeListResponse("Subsidieregister")
+                new LifeCycleStageTypeListResponse(LifeCycleStageType.Active),
+                new LifeCycleStageTypeListResponse(LifeCycleStageType.PhasingOut)
             };
     }
 }

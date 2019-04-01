@@ -5,11 +5,14 @@ namespace PublicServiceRegistry
     public class LifeCycleStageType : IEquatable<LifeCycleStageType>
     {
         private readonly string _value;
+        private readonly DutchTranslation _dutchTranslation;
 
-        public static readonly LifeCycleStageType Active = new LifeCycleStageType(nameof(Active));
-        public static readonly LifeCycleStageType UnderDevelopment = new LifeCycleStageType(nameof(UnderDevelopment));
-        public static readonly LifeCycleStageType PhasingOut = new LifeCycleStageType(nameof(PhasingOut));
-        public static readonly LifeCycleStageType Stopped = new LifeCycleStageType(nameof(Stopped));
+        public DutchTranslation Translation => _dutchTranslation;
+
+        public static readonly LifeCycleStageType Active = new LifeCycleStageType(nameof(Active), new DutchTranslation("Actief"));
+        public static readonly LifeCycleStageType UnderDevelopment = new LifeCycleStageType(nameof(UnderDevelopment), new DutchTranslation("Gepland"));
+        public static readonly LifeCycleStageType PhasingOut = new LifeCycleStageType(nameof(PhasingOut), new DutchTranslation("Uitdovend"));
+        public static readonly LifeCycleStageType Stopped = new LifeCycleStageType(nameof(Stopped), new DutchTranslation("Stopgezet"));
 
         public static readonly LifeCycleStageType[] All =
         {
@@ -19,9 +22,10 @@ namespace PublicServiceRegistry
             Stopped,
         };
 
-        private LifeCycleStageType(string value)
+        private LifeCycleStageType(string value, DutchTranslation dutchTranslation)
         {
             _value = value;
+            _dutchTranslation = dutchTranslation;
         }
 
         public static bool CanParse(string value)
@@ -60,6 +64,15 @@ namespace PublicServiceRegistry
         public static implicit operator string(LifeCycleStageType instance) => instance.ToString();
         public static bool operator ==(LifeCycleStageType left, LifeCycleStageType right) => Equals(left, right);
         public static bool operator !=(LifeCycleStageType left, LifeCycleStageType right) => !Equals(left, right);
-    }
 
+        public class DutchTranslation
+        {
+            internal DutchTranslation(string name)
+            {
+                Name = name;
+            }
+
+            public string Name { get; }
+        }
+    }
 }
