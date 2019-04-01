@@ -9,9 +9,9 @@
       <dv-select
         id="lifeCycleStage"
         name="Levensfase"
-        :options="localLifeCyclesStages"
+        :options="localLifeCyclesStageTypes"
         :include-empty-option="true"
-        @change.native="updateSelectedLifeCycleStage"
+        @change.native="updateSelectedLifeCycleStageType"
         :validation="'required'"
         v-focus
         :disabled="inputDisabled" />
@@ -93,7 +93,7 @@ export default {
       isLoading: 'isLoading',
     }),
     ...mapGetters('services', {
-      lifeCycleStages: 'lifeCycleStages'
+      lifeCycleStageTypes: 'lifeCycleStages'
     }),
     inputDisabled() {
       return this.isLoading;
@@ -101,13 +101,13 @@ export default {
     buttonDisabled() {
       return this.isLoading || this.$validator.errors.any();
     },
-    localLifeCyclesStages() {
-      return this.lifeCycleStages.map((x) => {
+    localLifeCyclesStageTypes() {
+      return this.lifeCycleStageTypes.map((x) => {
         return {
           type: 'option',
           value: x.id,
-          label: x.id,
-          selected: x.id == this.selectedLifeCycleStage,
+          label: x.naam,
+          selected: x.id == this.selectedLifeCycleStageType,
         };
       });
     },
@@ -119,8 +119,8 @@ export default {
     updateChangedTo(event){
       this.to = event.target.value;
     },
-    updateSelectedLifeCycleStage(event) {
-      this.selectedLifeCycleStage = event.target.value;
+    updateSelectedLifeCycleStageType(event) {
+      this.selectedLifeCycleStageType = event.target.value;
     },
     save() {
       this.$validator.validateAll()
@@ -130,7 +130,7 @@ export default {
               "services/setPeriodForLifeCycle", {
                 params: this.$router.currentRoute.params,
                 data: {
-                  levensloopfase: this.selectedLifeCycleStage,
+                  levensloopfaseType: this.selectedLifeCycleStageType,
                   vanaf: this.$formatDate(this.from),
                   tot: this.$formatDate(this.to),
                 }
@@ -147,7 +147,7 @@ export default {
     return {
       from: '',
       to: '',
-      selectedLifeCycleStage: '',
+      selectedLifeCycleStageType: '',
     };
   },
 };

@@ -45,7 +45,7 @@ const SET_MYSERVICE = 'SET_MYSERVICE';
 const RESET_NEWSERVICE = 'RESET_NEWSERVICE';
 
 const SET_LABELTYPES = 'SET_LABELTYPES';
-const SET_LIFECYCLESTAGES = 'SET_LIFECYCLESTAGES';
+const SET_LIFECYCLESTAGETYPES = 'SET_LIFECYCLESTAGES';
 
 const SET_CURRENT_LIFECYCLESTAGE = 'SET_CURRENT_LIFECYCLESTAGE';
 
@@ -83,7 +83,7 @@ const initialState = {
     },
   },
   labelTypes: [],
-  lifeCycleStages: [],
+  lifeCycleStageTypes: [],
   currentLifeCycleStage: {
     lifeCycleStageType: '',
     from: '',
@@ -113,7 +113,7 @@ const getters = {
   },
   paging: state => state.listProperties.paging,
   labelTypes: state => state.labelTypes.map(x => x.id),
-  lifeCycleStages: state => state.lifeCycleStages,
+  lifeCycleStageTypes: state => state.lifeCycleStageTypes,
   alternativeLabels: state => _.reduce(state.alternativeLabels, (result, value) => {
     // eslint-disable-next-line no-param-reassign
     result = result || {};
@@ -184,8 +184,8 @@ const mutations = {
   [SET_LABELTYPES](state, labelTypes) {
     state.labelTypes = labelTypes;
   },
-  [SET_LIFECYCLESTAGES](state, lifeCycleStages) {
-    state.lifeCycleStages = lifeCycleStages;
+  [SET_LIFECYCLESTAGETYPES](state, lifeCycleStageTypes) {
+    state.lifeCycleStages = lifeCycleStageTypes;
   },
   [SET_CURRENT_LIFECYCLESTAGE](state, lifeCycleStage) {
     state.currentLifeCycleStage.lifeCycleStageType = lifeCycleStage.levensloopfaseType;
@@ -301,7 +301,7 @@ export default class {
         commitRoot(commit, LOADING_ON);
 
         return api.getLifeCycleStageTypes()
-          .then(lifeCycleStages => commit(SET_LIFECYCLESTAGES, lifeCycleStages.data))
+          .then(lifeCycleStageTypes => commit(SET_LIFECYCLESTAGETYPES, lifeCycleStageTypes.data))
           .catch((error) => {
             commitRoot(commit, SET_ALERT, alerts.toAlert(error));
           }).finally(() => {
