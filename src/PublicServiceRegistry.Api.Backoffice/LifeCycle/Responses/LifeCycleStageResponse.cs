@@ -42,8 +42,8 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Responses
         public object GetExamples() =>
             new List<LifeCycleStageResponse>
             {
-                new LifeCycleStageResponse(LifeCycleStageType.Active.ToString(), DateTime.Now.Date, DateTime.Now.Date.AddDays(1)),
-                new LifeCycleStageResponse(LifeCycleStageType.PhasingOut.ToString(), DateTime.Now.Date, DateTime.Now.Date.AddDays(1)),
+                new LifeCycleStageResponse(PublicServiceRegistry.LifeCycleStageType.Active.ToString(), DateTime.Now.Date, DateTime.Now.Date.AddDays(1)),
+                new LifeCycleStageResponse(PublicServiceRegistry.LifeCycleStageType.PhasingOut.ToString(), DateTime.Now.Date, DateTime.Now.Date.AddDays(1)),
             };
     }
 }
