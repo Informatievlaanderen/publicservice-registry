@@ -95,19 +95,19 @@ export default {
           name: '__slot:lifeCycleStage',
           sortField: 'LifeCycleStage',
           title: 'Levensfase',
-          widthPercentage: 15,
+          widthPercentage: 50,
         },
         {
           name: '__slot:van',
           sortField: 'From',
           title: 'Van',
-          widthPercentage: 35,
+          widthPercentage: 20,
         },
         {
           name: '__slot:tot',
           sortField: 'To',
           title: 'Tot',
-          widthPercentage: 35,
+          widthPercentage: 20,
         },
         {
           name: '__slot:actions',
