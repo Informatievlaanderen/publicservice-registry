@@ -49,7 +49,7 @@ namespace PublicServiceRegistry.Tests
         [Fact]
         public void UnderDevelopmentReturnsExpectedResult()
         {
-            Assert.Equal("UnderDevelopment", LifeCycleStageType.UnderDevelopment);
+            Assert.Equal("Planned", LifeCycleStageType.Planned);
         }
 
         [Fact]
@@ -71,7 +71,7 @@ namespace PublicServiceRegistry.Tests
                 new[]
                 {
                     LifeCycleStageType.Active,
-                    LifeCycleStageType.UnderDevelopment,
+                    LifeCycleStageType.Planned,
                     LifeCycleStageType.PhasingOut,
                     LifeCycleStageType.Stopped,
                 },

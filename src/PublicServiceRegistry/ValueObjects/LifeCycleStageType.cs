@@ -10,14 +10,14 @@ namespace PublicServiceRegistry
         public DutchTranslation Translation => _dutchTranslation;
 
         public static readonly LifeCycleStageType Active = new LifeCycleStageType(nameof(Active), new DutchTranslation("Actief"));
-        public static readonly LifeCycleStageType UnderDevelopment = new LifeCycleStageType(nameof(UnderDevelopment), new DutchTranslation("Gepland"));
+        public static readonly LifeCycleStageType Planned = new LifeCycleStageType(nameof(Planned), new DutchTranslation("Gepland"));
         public static readonly LifeCycleStageType PhasingOut = new LifeCycleStageType(nameof(PhasingOut), new DutchTranslation("Uitdovend"));
         public static readonly LifeCycleStageType Stopped = new LifeCycleStageType(nameof(Stopped), new DutchTranslation("Stopgezet"));
 
         public static readonly LifeCycleStageType[] All =
         {
             Active,
-            UnderDevelopment,
+            Planned,
             PhasingOut,
             Stopped,
         };
