@@ -43,6 +43,17 @@ const initialState = {
     to: '',
   },
   lifeCycle: [],
+  listProperties: {
+    sorting: {
+      field: '',
+      direction: 'ascending',
+    },
+    paging: {
+      offset: 0,
+      totalItems: 0,
+      limit: 10,
+    },
+  },
 };
 
 // getters
@@ -107,11 +118,13 @@ export default class {
   constructor() {
     this.actions = {
 
-      loadLifeCycle({ commit }, payload = {}) {
+      loadLifeCycle({ commit, state }, payload = {}) {
         commit(RECEIVE_SORTING, {});
         commitRoot(commit, LOADING_ON);
 
-        return api.getLifeCycle(payload.routerParams.id)
+        return api.getLifeCycle(payload.routerParams.id,
+          payload.sortOrder,
+          payload.paging || state.listProperties.paging)
           .then(({ data, headers }) => {
             commit(SET_MYSERVICE_LIFECYCLE, data);
             commit(RECEIVE_SORTING, JSON.parse(headers['x-sorting'] || null));

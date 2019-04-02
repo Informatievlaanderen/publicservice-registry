@@ -79,9 +79,22 @@ export default {
     return axios.get(location);
   },
 
-  getLifeCycle(id) {
+  getLifeCycle(id, sortOrder = {}, paging = {}) {
     const location = `/v1/dienstverleningen/${id}/levensloop/fases`;
-    return axios.get(location);
+
+    const callParameters = {
+      headers: {},
+    };
+
+    if (sortOrder.sortField && sortOrder.direction) {
+      callParameters.headers['x-sorting'] = `${sortOrder.direction},${sortOrder.sortField}`;
+    }
+
+    if (paging.offset != null && paging.limit != null) {
+      callParameters.headers['x-pagination'] = `${paging.offset},${paging.limit}`;
+    }
+
+    return axios.get(location, callParameters);
   },
 
   getLifeCycleStage(publicServiceId, lifeCycleStageId) {
