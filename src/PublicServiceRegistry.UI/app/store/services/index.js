@@ -4,8 +4,6 @@ import moment from 'moment';
 
 import _ from 'lodash';
 
-import axios from 'axios';
-
 import api from 'services/dienstverleningen';
 
 import alerts from 'store/alerts';
@@ -255,17 +253,10 @@ export default class {
       loadAlternativeLabels({ commit }, { id }) {
         commitRoot(commit, LOADING_ON);
 
-        return axios.all([
-          api.getLabelTypes(),
-          api.getAlternativeLabels(id),
-        ]).then(axios.spread((labelTypes, alternativeLabels) => {
-          commit(SET_LABELTYPES, labelTypes.data);
-          commit(SET_ALTERNATIVELABELS, alternativeLabels.data);
-        })).catch((error) => {
-          commitRoot(commit, SET_ALERT, alerts.toAlert(error));
-        }).finally(() => {
-          commitRoot(commit, LOADING_OFF);
-        });
+        return api.getAlternativeLabels(id)
+          .then(alternativeLabels => commit(SET_ALTERNATIVELABELS, alternativeLabels.data))
+          .catch(error => commitRoot(commit, SET_ALERT, alerts.toAlert(error)))
+          .finally(() => commitRoot(commit, LOADING_OFF));
       },
 
       saveAlternativeLabels({ commit }, { params: { id }, labels }) {
@@ -302,17 +293,6 @@ export default class {
           });
       },
 
-      loadLifeCycleStageTypes({ commit }) {
-        commitRoot(commit, LOADING_ON);
-
-        return api.getLifeCycleStageTypes()
-          .then(lifeCycleStageTypes => commit(SET_LIFECYCLESTAGETYPES, lifeCycleStageTypes.data))
-          .catch((error) => {
-            commitRoot(commit, SET_ALERT, alerts.toAlert(error));
-          }).finally(() => {
-            commitRoot(commit, LOADING_OFF);
-          });
-      },
       loadLifeCycleStage({ commit }, { publicServiceId, lifeCycleStageId }) {
         commitRoot(commit, LOADING_ON);
 
@@ -361,7 +341,7 @@ export default class {
 
         return api.removeLifeCycleStage(request)
           .then(() => {
-            commit(REMOVE_LIFECYCLESTAGE, lifeCycleStageId)
+            commit(REMOVE_LIFECYCLESTAGE, lifeCycleStageId);
             commitRoot(commit, SET_ALERT, success.dienstverleningAangepast);
           })
           .catch((error) => {

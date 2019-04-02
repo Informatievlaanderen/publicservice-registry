@@ -92,7 +92,7 @@ export default {
       inputDisabled: 'isLoading',
       isLoading: 'isLoading',
     }),
-    ...mapGetters('services', {
+    ...mapGetters('parameters', {
       lifeCycleStageTypes: 'lifeCycleStageTypes'
     }),
     inputDisabled() {

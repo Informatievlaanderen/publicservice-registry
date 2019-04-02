@@ -61,11 +61,13 @@ export default {
       inputDisabled: 'isLoading',
       isLoading: 'isLoading',
     }),
+    ...mapGetters('parameters', {
+      labelTypes: 'labelTypes',
+    }),
     ...mapGetters('services', {
       myServiceName: 'currentMyServiceName',
       myServiceCompetentAuthority: 'currentMyServiceCompetentAuthority',
       myServiceIsSubsidy: 'currentMyServiceIsSubsidy',
-      labelTypes: 'labelTypes',
       alternativeLabels: 'alternativeLabels',
     }),
     inputDisabled() {
