@@ -23,7 +23,7 @@
 
     <dv-column>
       <div class="cta-title">
-        <h1 class="h2 cta-title__title">Levensloop</h1>
+        <h2 class="h3 cta-title__title">Levensloop</h2>
         <dv-route-button class="button cta-title__cta" text="Voeg levensfase toe" :to="{ name: 'my-service-new-life-cycle' }"/>
       </div>
 
