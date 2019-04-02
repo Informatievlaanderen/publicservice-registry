@@ -36,12 +36,14 @@ export default {
     DvRouteButton,
   },
   computed: {
+    ...mapGetters('parameters', {
+      labelTypes: 'labelTypes',
+    }),
     ...mapGetters('services', {
       myServiceId: 'currentMyServiceId',
       myServiceName: 'currentMyServiceName',
       myServiceCompetentAuthority: 'currentMyServiceCompetentAuthority',
       myServiceIsSubsidy: 'currentMyServiceIsSubsidy',
-      labelTypes: 'labelTypes',
       alternativeLabels: 'alternativeLabels',
     }),
   },

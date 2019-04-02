@@ -14,6 +14,7 @@ import User from 'store/user';
 import localStorage from 'store/user/localstorage';
 import Services from 'store/services';
 import Ipdc from 'store/ipdc';
+import Parameters from 'store/parameters';
 
 import clearAlertOnNavigate from 'store/clearAlertOnNavigate';
 
@@ -144,7 +145,8 @@ const router = routerFactory();
 const store = createStore(
   new User(localStorage, router, oidcClient),
   new Services(router),
-  new Ipdc());
+  new Ipdc(),
+  new Parameters());
 
 // sync(store, router);
 clearAlertOnNavigate(store, router);
