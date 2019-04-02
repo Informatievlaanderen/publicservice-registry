@@ -23,5 +23,15 @@ export class ChangePeriodForLifeCycleStage {
   }
 }
 
+export class RemoveLifeCycleStage {
+  constructor(
+    publicServiceId,
+    lifeCycleStageId) {
+    this.publicServiceId = publicServiceId;
+    this.lifeCycleStageId = lifeCycleStageId;
+  }
+}
+
+
 export default {
 };
