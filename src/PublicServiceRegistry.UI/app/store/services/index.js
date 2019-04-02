@@ -19,6 +19,7 @@ import csvExporter from 'services/csvExporter';
 
 import {
   ChangePeriodForLifeCycleStage,
+  RemoveLifeCycleStage,
 } from 'services/requests';
 
 function formatOptionalDate(date) {
@@ -51,6 +52,7 @@ const SET_CURRENT_LIFECYCLESTAGE = 'SET_CURRENT_LIFECYCLESTAGE';
 
 const SET_ALTERNATIVELABELS = 'SET_ALTERNATIVELABELS';
 const SET_MYSERVICE_LIFECYCLE = 'SET_MYSERVICE_LIFECYCLE';
+const REMOVE_LIFECYCLESTAGE = 'REMOVE_LIFECYCLESTAGE';
 
 function commitRoot(commit, type, payload) {
   commit(type, payload, { root: true });
@@ -198,6 +200,9 @@ const mutations = {
   [SET_MYSERVICE_LIFECYCLE](state, lifeCycle) {
     state.lifeCycle = lifeCycle;
   },
+  [REMOVE_LIFECYCLESTAGE](state, lifeCycleStageId) {
+    state.lifeCycle = state.lifeCycle.filter(x => x.localId !== lifeCycleStageId);
+  },
 };
 
 export default class {
@@ -341,6 +346,22 @@ export default class {
 
         return api.changePeriodOfLifeCycleStage(request)
           .then(() => {
+            commitRoot(commit, SET_ALERT, success.dienstverleningAangepast);
+          })
+          .catch((error) => {
+            commitRoot(commit, SET_ALERT, alerts.toAlert(error));
+          })
+          .finally(() => commitRoot(commit, LOADING_OFF));
+      },
+
+      removeLifeCycleStage({ commit }, { params: { id }, lifeCycleStageId }) {
+        commitRoot(commit, LOADING_ON);
+
+        const request = new RemoveLifeCycleStage(id, lifeCycleStageId);
+
+        return api.removeLifeCycleStage(request)
+          .then(() => {
+            commit(REMOVE_LIFECYCLESTAGE, lifeCycleStageId)
             commitRoot(commit, SET_ALERT, success.dienstverleningAangepast);
           })
           .catch((error) => {

@@ -1,5 +1,26 @@
 <template>
   <dv-grid class="col--10-12 col--1-1--s">
+    <div
+      class="overlay"
+      v-if="removal.showConfirmation">
+      <div
+        class="modal-dialog"
+        tabindex="-1"
+        role="document"
+        aria-hidden="true">
+        <h2 class="modal-dialog__title">
+          Levensloopfase verwijderen?
+        </h2>
+        <div class="modal-dialog__content">
+          Bent u zeker dat u deze levensloopfase wilt verwijderen? Deze actie kan niet ongedaan worden.
+        </div>
+        <div class="modal-dialog__buttons">
+          <a href="#" @click.prevent="confirmRemoval" role="button" class="button modal-dialog__button">Verwijderen</a>
+          <a href="#" @click.prevent="cancelRemoval" role="button" class="modal-dialog__button"><i class="vi vi-cross vi-u-link"></i>Annuleren</a>
+        </div>
+      </div>
+    </div>
+
     <dv-column>
       <div class="cta-title">
         <h1 class="h2 cta-title__title">Levensloop</h1>
@@ -32,7 +53,7 @@
           <template slot="actions" slot-scope="props">
             <div class="custom-actions u-align-right">
               <router-link class="vi vi-u-badge vi-u-badge--grey vi-u-badge--small vi-edit" :to="{ name: 'my-service-edit-life-cycle', params: { localId: props.rowData.localId }}"></router-link>
-              <a href="" class="vi vi-u-badge vi-u-badge--grey vi-u-badge--small vi-trash"></a>
+              <a href="" @click.prevent="askConfirmationForRemoval(props.rowData.localId)" class="vi vi-u-badge vi-u-badge--grey vi-u-badge--small vi-trash"></a>
             </div>
           </template>
       </dv-data-table>
@@ -82,6 +103,22 @@ export default {
     dataManager(sortOrder, paging) {
       this.$store.dispatch('services/loadLifeCycle', { sortOrder, paging, routerParams: this.$router.currentRoute.params });
     },
+    askConfirmationForRemoval(lifeCycleStageId) {
+      this.removal = {
+        showConfirmation: true,
+        lifeCycleStageId: lifeCycleStageId
+      };
+    },
+    cancelRemoval() {
+      this.removal.showConfirmation = false;
+    },
+    confirmRemoval() {
+      this.$store.dispatch(
+        "services/removeLifeCycleStage", {
+          params: this.$router.currentRoute.params,
+          lifeCycleStageId: this.removal.lifeCycleStageId,
+        }).finally(() => this.removal.showConfirmation = false);
+    }
   },
   watch: {
     lifeCycle(lifeCycle) {
@@ -90,6 +127,9 @@ export default {
   },
   data() {
     return {
+      removal: {
+        showConfirmation: false,
+      },
       lifeCycleFields: [
         {
           name: '__slot:lifeCycleStage',

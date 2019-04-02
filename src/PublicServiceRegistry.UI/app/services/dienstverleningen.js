@@ -104,6 +104,11 @@ export default {
     return axios.put(location, body);
   },
 
+  removeLifeCycleStage({ publicServiceId, lifeCycleStageId }) {
+    const location = `/v1/dienstverleningen/${publicServiceId}/levensloop/fases/${lifeCycleStageId}`;
+    return axios.delete(location);
+  },
+
   removeService(id, reasonForRemoval) {
     const location = `/v1/dienstverleningen/${id}`;
     return axios.delete(location, { data: { reden: reasonForRemoval } });
