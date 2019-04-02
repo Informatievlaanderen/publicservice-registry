@@ -86,9 +86,11 @@ export default {
     ...mapGetters({
       isLoading: 'isLoading',
     }),
-    ...mapGetters('services', {
+    ...mapGetters('services/lifeCycle', {
       lifeCycle: 'lifeCycle',
       count: 'numberOfLifeCycleStages',
+    }),
+    ...mapGetters('services', {
       sortColumn: 'sortColumn',
       paging: 'paging',
     }),
@@ -101,7 +103,7 @@ export default {
   },
   methods: {
     dataManager(sortOrder, paging) {
-      this.$store.dispatch('services/loadLifeCycle', { sortOrder, paging, routerParams: this.$router.currentRoute.params });
+      this.$store.dispatch('services/lifeCycle/loadLifeCycle', { sortOrder, paging, routerParams: this.$router.currentRoute.params });
     },
     askConfirmationForRemoval(lifeCycleStageId) {
       this.removal = {
@@ -114,7 +116,7 @@ export default {
     },
     confirmRemoval() {
       this.$store.dispatch(
-        "services/removeLifeCycleStage", {
+        "services/lifeCycle/removeLifeCycleStage", {
           params: this.$router.currentRoute.params,
           lifeCycleStageId: this.removal.lifeCycleStageId,
         }).finally(() => this.removal.showConfirmation = false);

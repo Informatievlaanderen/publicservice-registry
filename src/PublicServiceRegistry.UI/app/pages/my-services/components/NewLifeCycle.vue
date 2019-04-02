@@ -127,7 +127,7 @@ export default {
         .then(isSucces => {
           if(isSucces){
             this.$store.dispatch(
-              "services/setPeriodForLifeCycle", {
+              "services/lifeCycle/addStageToLifeCycle", {
                 params: this.$router.currentRoute.params,
                 data: {
                   levensloopfaseType: this.selectedLifeCycleStageType,

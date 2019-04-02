@@ -13,6 +13,7 @@ import createStore from 'store/root';
 import User from 'store/user';
 import localStorage from 'store/user/localstorage';
 import Services from 'store/services';
+import ServiceLifeCycle from 'store/services/life-cycle';
 import Ipdc from 'store/ipdc';
 import Parameters from 'store/parameters';
 
@@ -144,7 +145,7 @@ Vue.use(formatDatePlugin);
 const router = routerFactory();
 const store = createStore(
   new User(localStorage, router, oidcClient),
-  new Services(router),
+  new Services(router, new ServiceLifeCycle()),
   new Ipdc(),
   new Parameters());
 
