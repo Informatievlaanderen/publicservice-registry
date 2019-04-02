@@ -36,7 +36,7 @@
         :dataManager="dataManager"
         :isLoading="isLoading"
         track-by="id">
-          <template slot="lifeCycleStage" slot-scope="props">
+          <template slot="lifeCycleStageType" slot-scope="props">
             <div class="custom-actions">
               {{props.rowData.lifeCycleStageTypeName}}
             </div>
@@ -89,8 +89,6 @@ export default {
     ...mapGetters('services/lifeCycle', {
       lifeCycle: 'lifeCycle',
       count: 'numberOfLifeCycleStages',
-    }),
-    ...mapGetters('services', {
       sortColumn: 'sortColumn',
       paging: 'paging',
     }),
@@ -134,8 +132,8 @@ export default {
       },
       lifeCycleFields: [
         {
-          name: '__slot:lifeCycleStage',
-          sortField: 'LifeCycleStage',
+          name: '__slot:lifeCycleStageType',
+          sortField: 'LifeCycleStageType',
           title: 'Levensfase',
           widthPercentage: 50,
         },
