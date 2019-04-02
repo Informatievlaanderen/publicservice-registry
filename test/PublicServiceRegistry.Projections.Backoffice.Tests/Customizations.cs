@@ -29,5 +29,27 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
                             LabelType.All[generator.Next() % LabelType.All.Length],
                             new LabelValue(fixture.Create<string>())
                         )).OmitAutoProperties());
+
+        public static void CustomizeLifeCycleStagePeriod(this IFixture fixture) =>
+            fixture.Customize<LifeCycleStagePeriod>(customization =>
+                customization
+                    .FromFactory(generator =>
+                    {
+                        var from = fixture.Create<DateTime?>();
+                        var to = from.HasValue ? from + fixture.Create<TimeSpan>() : fixture.Create<DateTime?>();
+
+                        return new LifeCycleStagePeriod(new ValidFrom(from), new ValidTo(to));
+                    }));
+
+        public static void CustomizeStageWasAddedToLifeCycle(this IFixture fixture) =>
+            fixture.Customize<StageWasAddedToLifeCycle>(customization =>
+                customization
+                    .FromFactory(generator =>
+                        new StageWasAddedToLifeCycle(
+                            PublicServiceId.FromNumber(fixture.Create<int>()),
+                            fixture.Create<int>(),
+                            LifeCycleStageType.All[generator.Next() % LifeCycleStageType.All.Length],
+                            fixture.Create<LifeCycleStagePeriod>()
+                        )).OmitAutoProperties());
     }
 }
