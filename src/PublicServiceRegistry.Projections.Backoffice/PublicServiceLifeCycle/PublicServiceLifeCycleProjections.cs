@@ -41,6 +41,17 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceLifeCycle
                 publicServiceLifeCycleItem.To = message.Message.To;
             });
 
+            When<Envelope<LifeCycleStageWasRemoved>>(async (context, message, ct) =>
+            {
+                var publicServiceLifeCycleItem = await FindPublicServiceLifeCycleItemOrNull(
+                    context,
+                    message.Message.PublicServiceId,
+                    message.Message.LifeCycleStageId,
+                    ct);
+
+                context.PublicServiceLifeCycleList.Remove(publicServiceLifeCycleItem);
+            });
+
             When<Envelope<PublicServiceWasRemoved>>(async (context, message, ct) =>
             {
                 var items = await AllItems(
