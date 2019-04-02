@@ -62,7 +62,7 @@ export default {
       inputDisabled: 'isLoading',
       isLoading: 'isLoading',
     }),
-    ...mapGetters('services', {
+    ...mapGetters('services/lifeCycle', {
       currentLifeCycleStage: 'currentLifeCycleStage'
     }),
     from() {
@@ -90,7 +90,7 @@ export default {
         .then(isSucces => {
           if(isSucces){
             this.$store.dispatch(
-              "services/changePeriodForLifeCycleStage", {
+              "services/lifeCycle/changePeriodForLifeCycleStage", {
                 params: this.$router.currentRoute.params,
                 data: {
                   from: this.from,
@@ -106,7 +106,7 @@ export default {
   },
   mounted() {
     this.$store.dispatch(
-      'services/loadLifeCycleStage',
+      'services/lifeCycle/loadLifeCycleStage',
       {
         publicServiceId: this.$route.params.id,
         lifeCycleStageId: this.$route.params.localId

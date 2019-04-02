@@ -1,7 +1,5 @@
 import uuid from 'uuid';
 
-import moment from 'moment';
-
 import _ from 'lodash';
 
 import api from 'services/dienstverleningen';
@@ -14,19 +12,6 @@ import {
 } from 'store/mutation-types';
 import success from 'store/successes';
 import csvExporter from 'services/csvExporter';
-
-import {
-  ChangePeriodForLifeCycleStage,
-  RemoveLifeCycleStage,
-} from 'services/requests';
-
-function formatOptionalDate(date) {
-  if (!date || date === '') {
-    return date;
-  }
-
-  return moment(date).format('DD.MM.YYYY');
-}
 
 const RECEIVE_ALL_SERVICES = 'RECEIVE_ALL_SERVICES';
 const RECEIVE_SORTING = 'RECEIVE_SORTING';
@@ -44,13 +29,8 @@ const SET_MYSERVICE = 'SET_MYSERVICE';
 const RESET_NEWSERVICE = 'RESET_NEWSERVICE';
 
 const SET_LABELTYPES = 'SET_LABELTYPES';
-const SET_LIFECYCLESTAGETYPES = 'SET_LIFECYCLESTAGES';
-
-const SET_CURRENT_LIFECYCLESTAGE = 'SET_CURRENT_LIFECYCLESTAGE';
 
 const SET_ALTERNATIVELABELS = 'SET_ALTERNATIVELABELS';
-const SET_MYSERVICE_LIFECYCLE = 'SET_MYSERVICE_LIFECYCLE';
-const REMOVE_LIFECYCLESTAGE = 'REMOVE_LIFECYCLESTAGE';
 
 function commitRoot(commit, type, payload) {
   commit(type, payload, { root: true });
@@ -82,15 +62,7 @@ const initialState = {
       limit: 10,
     },
   },
-  labelTypes: [],
-  lifeCycleStageTypes: [],
-  currentLifeCycleStage: {
-    lifeCycleStageType: '',
-    from: '',
-    to: '',
-  },
   alternativeLabels: [],
-  lifeCycle: [],
 };
 
 // getters
@@ -113,7 +85,6 @@ const getters = {
   },
   paging: state => state.listProperties.paging,
   labelTypes: state => state.labelTypes.map(x => x.id),
-  lifeCycleStageTypes: state => state.lifeCycleStageTypes,
   alternativeLabels: state => _.reduce(state.alternativeLabels, (result, value) => {
     // eslint-disable-next-line no-param-reassign
     result = result || {};
@@ -121,10 +92,6 @@ const getters = {
     result[value.labelType] = value.labelValue;
     return result;
   }, {}),
-  lifeCycle: state => state.lifeCycle || [],
-  lifeCycleStage: state => state.lifeCycleStage,
-  currentLifeCycleStage: state => state.currentLifeCycleStage,
-  numberOfLifeCycleStages: state => (state.lifeCycle || []).length,
 };
 
 const mutations = {
@@ -184,22 +151,8 @@ const mutations = {
   [SET_LABELTYPES](state, labelTypes) {
     state.labelTypes = labelTypes;
   },
-  [SET_LIFECYCLESTAGETYPES](state, lifeCycleStageTypes) {
-    state.lifeCycleStageTypes = lifeCycleStageTypes;
-  },
-  [SET_CURRENT_LIFECYCLESTAGE](state, lifeCycleStage) {
-    state.currentLifeCycleStage.lifeCycleStageType = lifeCycleStage.levensloopfaseType;
-    state.currentLifeCycleStage.from = formatOptionalDate(lifeCycleStage.van);
-    state.currentLifeCycleStage.to = formatOptionalDate(lifeCycleStage.tot);
-  },
   [SET_ALTERNATIVELABELS](state, alternativeLabels) {
     state.alternativeLabels = alternativeLabels;
-  },
-  [SET_MYSERVICE_LIFECYCLE](state, lifeCycle) {
-    state.lifeCycle = lifeCycle;
-  },
-  [REMOVE_LIFECYCLESTAGE](state, lifeCycleStageId) {
-    state.lifeCycle = state.lifeCycle.filter(x => x.localId !== lifeCycleStageId);
   },
 };
 
@@ -209,7 +162,10 @@ export default class {
   state = initialState;
   getters = getters;
   mutations = mutations;
-  constructor(router) {
+  constructor(router, lifeCycleStore) {
+    this.modules = {
+      lifeCycle: lifeCycleStore,
+    };
     this.actions = {
       save({ commit }, payload) {
         commitRoot(commit, LOADING_ON);
@@ -276,79 +232,6 @@ export default class {
           .finally(() => commitRoot(commit, LOADING_OFF));
       },
 
-      loadLifeCycle({ commit }, payload = {}) {
-        commit(RECEIVE_ALL_SERVICES, {});
-        commit(RECEIVE_SORTING, {});
-        commitRoot(commit, LOADING_ON);
-
-        return api.getLifeCycle(payload.routerParams.id)
-          .then(({ data, headers }) => {
-            commit(SET_MYSERVICE_LIFECYCLE, data);
-            commit(RECEIVE_SORTING, JSON.parse(headers['x-sorting'] || null));
-            commit(RECEIVE_PAGING, JSON.parse(headers['x-pagination'] || null));
-          }).catch((error) => {
-            commitRoot(commit, SET_ALERT, alerts.toAlert(error));
-          }).finally(() => {
-            commitRoot(commit, LOADING_OFF);
-          });
-      },
-
-      loadLifeCycleStage({ commit }, { publicServiceId, lifeCycleStageId }) {
-        commitRoot(commit, LOADING_ON);
-
-        return api.getLifeCycleStage(publicServiceId, lifeCycleStageId)
-          .then(lifeCycleStage => commit(SET_CURRENT_LIFECYCLESTAGE, lifeCycleStage.data))
-          .catch((error) => {
-            commitRoot(commit, SET_ALERT, alerts.toAlert(error));
-          }).finally(() => {
-            commitRoot(commit, LOADING_OFF);
-          });
-      },
-
-      setPeriodForLifeCycle({ commit }, { params: { id }, data }) {
-        commitRoot(commit, LOADING_ON);
-
-        api
-          .addStageToLifeCycle(id, data)
-          .then(() => {
-            commitRoot(commit, SET_ALERT, success.dienstverleningAangepast);
-          })
-          .catch((error) => {
-            commitRoot(commit, SET_ALERT, alerts.toAlert(error));
-          })
-          .finally(() => commitRoot(commit, LOADING_OFF));
-      },
-
-      changePeriodForLifeCycleStage({ commit }, { params: { id, localId }, data }) {
-        commitRoot(commit, LOADING_ON);
-
-        const request = new ChangePeriodForLifeCycleStage(id, localId, data);
-
-        return api.changePeriodOfLifeCycleStage(request)
-          .then(() => {
-            commitRoot(commit, SET_ALERT, success.dienstverleningAangepast);
-          })
-          .catch((error) => {
-            commitRoot(commit, SET_ALERT, alerts.toAlert(error));
-          })
-          .finally(() => commitRoot(commit, LOADING_OFF));
-      },
-
-      removeLifeCycleStage({ commit }, { params: { id }, lifeCycleStageId }) {
-        commitRoot(commit, LOADING_ON);
-
-        const request = new RemoveLifeCycleStage(id, lifeCycleStageId);
-
-        return api.removeLifeCycleStage(request)
-          .then(() => {
-            commit(REMOVE_LIFECYCLESTAGE, lifeCycleStageId);
-            commitRoot(commit, SET_ALERT, success.dienstverleningAangepast);
-          })
-          .catch((error) => {
-            commitRoot(commit, SET_ALERT, alerts.toAlert(error));
-          })
-          .finally(() => commitRoot(commit, LOADING_OFF));
-      },
 
       saveMyService({ commit, state }) {
         commitRoot(commit, LOADING_ON);
