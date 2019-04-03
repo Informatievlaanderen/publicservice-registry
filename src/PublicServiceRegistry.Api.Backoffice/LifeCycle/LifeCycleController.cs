@@ -20,6 +20,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
     using Microsoft.EntityFrameworkCore;
     using Newtonsoft.Json.Converters;
     using Projections.Backoffice;
+    using Projections.Backoffice.PublicServiceLifeCycle;
     using PublicService.Responses;
     using PublicServiceRegistry.PublicService.Commands;
     using Queries;
@@ -58,6 +59,9 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
             [FromRoute] string id,
             CancellationToken cancellationToken = default)
         {
+            var projectionPosition = await context.GetProjectionPositionAsync(nameof(PublicServiceLifeCycleListProjections), cancellationToken);
+            Response.Headers.Add(PublicServiceHeaderNames.LastObservedPosition, projectionPosition.ToString());
+
             var filter = Request.ExtractFilteringRequest<LifeCycleFilter>();
             var sorting = Request.ExtractSortingRequest();
             var pagination = Request.ExtractPaginationRequest();
