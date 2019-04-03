@@ -79,7 +79,7 @@ export default {
     return axios.get(location);
   },
 
-  getLifeCycle(id, sortOrder = {}, paging = {}) {
+  getLifeCycle(id, sortOrder = {}, paging = {}, lop) {
     const location = `/v1/dienstverleningen/${id}/levensloop/fases`;
 
     const callParameters = {
@@ -92,6 +92,10 @@ export default {
 
     if (paging.offset != null && paging.limit != null) {
       callParameters.headers['x-pagination'] = `${paging.offset},${paging.limit}`;
+    }
+
+    if (lop) {
+      callParameters.lop = lop;
     }
 
     return axios.get(location, callParameters);

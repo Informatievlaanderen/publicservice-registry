@@ -101,7 +101,7 @@ export default {
   },
   methods: {
     dataManager(sortOrder, paging) {
-      this.$store.dispatch('services/lifeCycle/loadLifeCycle', { sortOrder, paging, routerParams: this.$router.currentRoute.params });
+      this.$store.dispatch('services/lifeCycle/loadLifeCycle', { sortOrder, paging, id: this.$router.currentRoute.params.id });
     },
     askConfirmationForRemoval(lifeCycleStageId) {
       this.removal = {

@@ -24,6 +24,8 @@ const RECEIVE_PAGING = 'RECEIVE_PAGING';
 const SET_MYSERVICE_LIFECYCLE = 'SET_MYSERVICE_LIFECYCLE';
 const REMOVE_LIFECYCLESTAGE = 'REMOVE_LIFECYCLESTAGE';
 
+const OBSERVE_LOP = 'OBSERVE_LOP';
+
 function commitRoot(commit, type, payload) {
   commit(type, payload, { root: true });
 }
@@ -54,6 +56,7 @@ const initialState = {
       limit: 10,
     },
   },
+  lop: 0,
 };
 
 // getters
@@ -107,6 +110,9 @@ const mutations = {
   [REMOVE_LIFECYCLESTAGE](state, lifeCycleStageId) {
     state.lifeCycle = state.lifeCycle.filter(x => x.localId !== lifeCycleStageId);
   },
+  [OBSERVE_LOP](state, lop) {
+    state.lop = lop;
+  },
 };
 
 export default class {
@@ -122,9 +128,10 @@ export default class {
         commit(RECEIVE_SORTING, {});
         commitRoot(commit, LOADING_ON);
 
-        return api.getLifeCycle(payload.routerParams.id,
+        return api.getLifeCycle(payload.id,
           payload.sortOrder,
-          payload.paging || state.listProperties.paging)
+          payload.paging || state.listProperties.paging,
+          payload.lop)
           .then(({ data, headers }) => {
             commit(SET_MYSERVICE_LIFECYCLE, data);
             commit(RECEIVE_SORTING, JSON.parse(headers['x-sorting'] || null));
@@ -177,15 +184,18 @@ export default class {
           .finally(() => commitRoot(commit, LOADING_OFF));
       },
 
-      removeLifeCycleStage({ commit }, { params: { id }, lifeCycleStageId }) {
+      removeLifeCycleStage({ commit, state, dispatch }, { params: { id }, lifeCycleStageId }) {
         commitRoot(commit, LOADING_ON);
 
         const request = new RemoveLifeCycleStage(id, lifeCycleStageId);
 
         return api.removeLifeCycleStage(request)
-          .then(() => {
+          .then((result) => {
+            commit(OBSERVE_LOP, result.data);
             commit(REMOVE_LIFECYCLESTAGE, lifeCycleStageId);
             commitRoot(commit, SET_ALERT, success.dienstverleningAangepast);
+            // next line messes up with the loading on/off. TODO: Look into alternatives!
+            dispatch('loadLifeCycle', { id, lop: state.lop });
           })
           .catch((error) => {
             commitRoot(commit, SET_ALERT, alerts.toAlert(error));
