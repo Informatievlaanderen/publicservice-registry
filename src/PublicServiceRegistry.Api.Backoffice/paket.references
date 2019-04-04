@@ -10,6 +10,8 @@ Microsoft.AspNetCore.Authentication.Cookies
 Microsoft.AspNetCore.Authentication.JwtBearer
 Microsoft.Extensions.Configuration.UserSecrets
 
+AspNetCore.HealthChecks.SqlServer
+
 Microsoft.IdentityModel.Tokens
 IdentityModel
 

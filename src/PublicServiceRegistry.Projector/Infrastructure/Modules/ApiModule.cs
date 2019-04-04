@@ -39,7 +39,9 @@ namespace PublicServiceRegistry.Projector.Infrastructure.Modules
 
         protected override void Load(ContainerBuilder builder)
         {
-            builder.RegisterModule(new DataDogModule(_configuration));
+            builder
+                .RegisterModule(new LoggingModule(_configuration, _services))
+                .RegisterModule(new DataDogModule(_configuration));
 
             RegisterProjectionSetup(builder);
 
