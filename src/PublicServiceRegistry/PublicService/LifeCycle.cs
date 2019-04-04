@@ -25,7 +25,7 @@ namespace PublicServiceRegistry.PublicService
 
         private void When(StageWasAddedToLifeCycle @event)
         {
-            _lastUsedId++;
+            _lastUsedId = @event.Id;
 
             var lifeCycleStagePeriod = new LifeCycleStagePeriod(new ValidFrom(@event.From), new ValidTo(@event.To));
 
