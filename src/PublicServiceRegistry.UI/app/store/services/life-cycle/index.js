@@ -125,13 +125,13 @@ export default class {
     this.actions = {
 
       loadLifeCycle({ commit, state }, payload = {}) {
-        commit(RECEIVE_SORTING, {});
+        commit(SET_MYSERVICE_LIFECYCLE, []);
         commitRoot(commit, LOADING_ON);
 
         return api.getLifeCycle(payload.id,
-          payload.sortOrder,
+          payload.sortOrder || state.listProperties.sorting,
           payload.paging || state.listProperties.paging,
-          payload.lop)
+          payload.lop || state.lop)
           .then(({ data, headers }) => {
             commit(SET_MYSERVICE_LIFECYCLE, data);
             commit(RECEIVE_SORTING, JSON.parse(headers['x-sorting'] || null));
@@ -184,7 +184,7 @@ export default class {
           .finally(() => commitRoot(commit, LOADING_OFF));
       },
 
-      removeLifeCycleStage({ commit, state, dispatch }, { params: { id }, lifeCycleStageId }) {
+      removeLifeCycleStage({ commit }, { params: { id }, lifeCycleStageId }) {
         commitRoot(commit, LOADING_ON);
 
         const request = new RemoveLifeCycleStage(id, lifeCycleStageId);
@@ -194,8 +194,6 @@ export default class {
             commit(OBSERVE_LOP, result.data);
             commit(REMOVE_LIFECYCLESTAGE, lifeCycleStageId);
             commitRoot(commit, SET_ALERT, success.dienstverleningAangepast);
-            // next line messes up with the loading on/off. TODO: Look into alternatives!
-            dispatch('loadLifeCycle', { id, lop: state.lop });
           })
           .catch((error) => {
             commitRoot(commit, SET_ALERT, alerts.toAlert(error));

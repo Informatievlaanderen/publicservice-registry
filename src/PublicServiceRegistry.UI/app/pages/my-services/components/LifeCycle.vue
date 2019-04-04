@@ -117,7 +117,11 @@ export default {
         "services/lifeCycle/removeLifeCycleStage", {
           params: this.$router.currentRoute.params,
           lifeCycleStageId: this.removal.lifeCycleStageId,
-        }).finally(() => this.removal.showConfirmation = false);
+        }).finally(() => {
+          this.removal.showConfirmation = false;
+          this.$store.dispatch('services/lifeCycle/loadLifeCycle',
+            { id: this.$router.currentRoute.params.id });
+        });
     }
   },
   watch: {
