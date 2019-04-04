@@ -1,6 +1,7 @@
 namespace PublicServiceRegistry.Api.Backoffice.Infrastructure
 {
     using System;
+    using System.Globalization;
     using System.Linq;
     using System.Reflection;
     using Autofac;
@@ -21,6 +22,7 @@ namespace PublicServiceRegistry.Api.Backoffice.Infrastructure
     using Microsoft.Extensions.Logging;
     using Microsoft.Net.Http.Headers;
     using Modules;
+    using Projections.Backoffice;
     using Security;
     using SqlStreamStore;
     using Swashbuckle.AspNetCore.Swagger;
@@ -28,6 +30,10 @@ namespace PublicServiceRegistry.Api.Backoffice.Infrastructure
     /// <summary>Represents the startup process for the application.</summary>
     public class Startup
     {
+        private const string DatabaseTag = "db";
+        private const string DefaultCulture = "nl-BE";
+        private const string SupportedCultures = "nl-BE;nl";
+
         private IContainer _applicationContainer;
 
         private readonly IConfiguration _configuration;
@@ -65,26 +71,67 @@ namespace PublicServiceRegistry.Api.Backoffice.Infrastructure
                 });
 
             services
-                .ConfigureDefaultForApi<Startup>(
-                    (provider, description) => new Info
+                .ConfigureDefaultForApi<Startup, SharedResources>(new StartupConfigureOptions
+                {
+                    Cors =
                     {
-                        Version = description.ApiVersion.ToString(),
-                        Title = "Basisregisters Vlaanderen Public Service Registry API",
-                        Description = GetApiLeadingText(description),
-                        Contact = new Contact
-                        {
-                            Name = "Informatie Vlaanderen",
-                            Email = "informatie.vlaanderen@vlaanderen.be",
-                            Url = "https://legacy.basisregisters.vlaanderen"
-                        }
+                        Origins = _configuration
+                            .GetSection("Cors")
+                            .GetChildren()
+                            .Select(c => c.Value)
+                            .ToArray(),
+                        Headers = new[] { PublicServiceHeaderNames.LastObservedPosition },
+                        ExposedHeaders = new[] { PublicServiceHeaderNames.LastObservedPosition }
                     },
-                    new[] { typeof(Startup).GetTypeInfo().Assembly.GetName().Name },
-                    corsOrigins: _configuration.GetSection("Cors").GetChildren().Select(c => c.Value).ToArray(),
-                    corsHeaders: new[] { PublicServiceHeaderNames.LastObservedPosition },
-                    corsExposedHeaders: new[] { PublicServiceHeaderNames.LastObservedPosition },
-                    configureMvcBuilder: x => x
-                        .AddMvcOptions(options => options.OutputFormatters.Add(new CsvOutputFormatter(new CsvFormatterOptions())))
-                        .AddFormatterMappings(mappings => mappings.SetMediaTypeMappingForFormat(CsvOutputFormatter.Format, MediaTypeHeaderValue.Parse(CsvOutputFormatter.ContentType))));
+                    Swagger =
+                    {
+                        ApiInfo = (provider, description) => new Info
+                        {
+                            Version = description.ApiVersion.ToString(),
+                            Title = "Basisregisters Vlaanderen Public Service Registry API",
+                            Description = GetApiLeadingText(description),
+                            Contact = new Contact
+                            {
+                                Name = "Informatie Vlaanderen",
+                                Email = "informatie.vlaanderen@vlaanderen.be",
+                                Url = "https://legacy.basisregisters.vlaanderen"
+                            }
+                        },
+                        XmlCommentPaths = new [] { typeof(Startup).GetTypeInfo().Assembly.GetName().Name }
+                    },
+                    Localization =
+                    {
+                        DefaultCulture = new CultureInfo(DefaultCulture),
+                        SupportedCultures = SupportedCultures
+                            .Split(';', StringSplitOptions.RemoveEmptyEntries)
+                            .Select(x => new CultureInfo(x))
+                            .ToArray()
+                    },
+                    MiddlewareHooks =
+                    {
+                        FluentValidation = fv => fv.RegisterValidatorsFromAssemblyContaining<Startup>(),
+
+                        AfterHealthChecks = health =>
+                        {
+                            var connectionStrings = _configuration
+                                .GetSection("ConnectionStrings")
+                                .GetChildren();
+
+                            foreach (var connectionString in connectionStrings)
+                                health.AddSqlServer(
+                                    connectionString.Value,
+                                    name: $"sqlserver-{connectionString.Key.ToLowerInvariant()}",
+                                    tags: new[] { DatabaseTag, "sql", "sqlserver" });
+
+                            health.AddDbContextCheck<BackofficeContext>(
+                                $"dbcontext-{nameof(BackofficeContext).ToLowerInvariant()}",
+                                tags: new[] { DatabaseTag, "sql", "sqlserver" });
+                        },
+                        AfterMvc = x => x
+                            .AddMvcOptions(options => options.OutputFormatters.Add(new CsvOutputFormatter(new CsvFormatterOptions())))
+                            .AddFormatterMappings(mappings => mappings.SetMediaTypeMappingForFormat(CsvOutputFormatter.Format, MediaTypeHeaderValue.Parse(CsvOutputFormatter.ContentType)))
+                    }
+                });
 
             var containerBuilder = new ContainerBuilder();
             containerBuilder.RegisterModule(new ApiModule(_configuration, services, _loggerFactory));
@@ -117,13 +164,16 @@ namespace PublicServiceRegistry.Api.Backoffice.Infrastructure
                     pathToCheck => pathToCheck != "/");
             }
 
-            app.UseDefaultForApi(new StartupOptions
+            app.UseDefaultForApi(new StartupUseOptions
             {
-                ApplicationContainer = _applicationContainer,
-                ServiceProvider = serviceProvider,
-                HostingEnvironment = env,
-                ApplicationLifetime = appLifetime,
-                LoggerFactory = loggerFactory,
+                Common =
+                {
+                    ApplicationContainer = _applicationContainer,
+                    ServiceProvider = serviceProvider,
+                    HostingEnvironment = env,
+                    ApplicationLifetime = appLifetime,
+                    LoggerFactory = loggerFactory
+                },
                 Api =
                 {
                     VersionProvider = apiVersionProvider,
