@@ -56,7 +56,7 @@ export default [
         component: ServiceNewLifeCycle,
       },
       {
-        path: 'levensloop/edit/:localId',
+        path: 'levensloop/edit/:lifeCycleStageId',
         name: 'my-service-edit-life-cycle',
         component: ServiceEditLifeCycle,
       },

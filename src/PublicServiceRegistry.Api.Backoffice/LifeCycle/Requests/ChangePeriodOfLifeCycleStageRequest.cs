@@ -2,19 +2,23 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Requests
 {
     using System;
     using System.Globalization;
+    using System.Runtime.Serialization;
     using PublicServiceRegistry.PublicService.Commands;
     using Swashbuckle.AspNetCore.Filters;
 
+    [DataContract(Name = "ChangePeriodOfLifeCycleStage", Namespace = "")]
     public class ChangePeriodOfLifeCycleStageRequest
     {
         /// <summary>
         /// Begindatum van de levensloopfase (inclusief).
         /// </summary>
-        public DateTime? Van { get; set; }
+        [DataMember(Name = "Vanaf", Order = 1)]
+        public DateTime? Vanaf { get; set; }
 
         /// <summary>
         /// Einddatum van de levensloopfase (inclusief).
         /// </summary>
+        [DataMember(Name = "Tot", Order = 2)]
         public DateTime? Tot { get; set; }
     }
 
@@ -24,7 +28,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Requests
         {
             return new ChangePeriodOfLifeCycleStageRequest
             {
-                Van = DateTime.ParseExact("13.03.2019", "dd.MM.yyyy", CultureInfo.InvariantCulture),
+                Vanaf = DateTime.ParseExact("13.03.2019", "dd.MM.yyyy", CultureInfo.InvariantCulture),
                 Tot = DateTime.ParseExact("13.03.2020", "dd.MM.yyyy", CultureInfo.InvariantCulture),
             };
         }
@@ -38,7 +42,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Requests
                 new PublicServiceId(id),
                 faseId,
                 new LifeCycleStagePeriod(
-                    new ValidFrom(message.Van),
+                    new ValidFrom(message.Vanaf),
                     new ValidTo(message.Tot)));
         }
     }

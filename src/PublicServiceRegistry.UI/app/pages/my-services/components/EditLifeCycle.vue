@@ -91,7 +91,8 @@ export default {
           if(isSucces){
             this.$store.dispatch(
               "services/lifeCycle/changePeriodForLifeCycleStage", {
-                params: this.$router.currentRoute.params,
+                id: this.$router.currentRoute.params.id,
+                lifeCycleStageId: this.$router.currentRoute.params.lifeCycleStageId,
                 data: {
                   from: this.from,
                   to: this.to,
@@ -109,7 +110,7 @@ export default {
       'services/lifeCycle/loadLifeCycleStage',
       {
         publicServiceId: this.$route.params.id,
-        lifeCycleStageId: this.$route.params.localId
+        lifeCycleStageId: this.$route.params.lifeCycleStageId
       });
   },
   data() {

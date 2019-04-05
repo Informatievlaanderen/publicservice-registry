@@ -2,25 +2,30 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Requests
 {
     using System;
     using System.Globalization;
+    using System.Runtime.Serialization;
     using PublicServiceRegistry.PublicService.Commands;
     using Swashbuckle.AspNetCore.Filters;
     using LifeCycleStageType = PublicServiceRegistry.LifeCycleStageType;
 
+    [DataContract(Name = "AddStageToLifeCycle", Namespace = "")]
     public class AddStageToLifeCycleRequest
     {
         /// <summary>
-        /// Levensloopfase.
+        /// Type van de levensloopfase.
         /// </summary>
+        [DataMember(Name = "LevensloopfaseType", Order = 1)]
         public string LevensloopfaseType { get; set; }
 
         /// <summary>
-        /// Begindatum van de levensfase (inclusief).
+        /// Begindatum van de levensloopfase (inclusief).
         /// </summary>
+        [DataMember(Name = "Vanaf", Order = 2)]
         public DateTime? Vanaf { get; set; }
 
         /// <summary>
-        /// Einddatum van de levensfase (inclusief).
+        /// Einddatum van de levensloopfase (inclusief).
         /// </summary>
+        [DataMember(Name = "Tot", Order = 3)]
         public DateTime? Tot { get; set; }
     }
 

@@ -1,6 +1,5 @@
 namespace PublicServiceRegistry.Tests.PublicServiceCommands
 {
-    using AutoFixture;
     using Be.Vlaanderen.Basisregisters.AggregateSource.Testing;
     using Framework;
     using PublicService.Commands;

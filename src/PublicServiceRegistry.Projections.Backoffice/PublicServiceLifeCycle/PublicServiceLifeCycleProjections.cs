@@ -18,7 +18,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceLifeCycle
                 var publicServiceLifeCycleItem = new PublicServiceLifeCycleItem
                 {
                     PublicServiceId = message.Message.PublicServiceId,
-                    LocalId = message.Message.Id,
+                    LocalId = message.Message.LifeCycleStageId,
                     LifeCycleStageType = message.Message.LifeCycleStageType,
                     From = message.Message.From,
                     To = message.Message.To
@@ -34,7 +34,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceLifeCycle
                 var publicServiceLifeCycleItem = await FindPublicServiceLifeCycleItemOrNull(
                     context,
                     message.Message.PublicServiceId,
-                    message.Message.Id,
+                    message.Message.LifeCycleStageId,
                     ct);
 
                 publicServiceLifeCycleItem.From = message.Message.From;

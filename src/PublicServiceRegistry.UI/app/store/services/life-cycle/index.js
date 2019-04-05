@@ -1,5 +1,3 @@
-import moment from 'moment';
-
 import api from 'services/dienstverleningen';
 
 import alerts from 'store/alerts';
@@ -12,9 +10,15 @@ import {
 import success from 'store/successes';
 
 import {
+  AddStageToLifeCycle,
   ChangePeriodForLifeCycleStage,
   RemoveLifeCycleStage,
 } from 'services/requests';
+
+import {
+  LifeCycleResponse,
+  LifeCycleStageResponse,
+} from 'services/responses';
 
 const SET_CURRENT_LIFECYCLESTAGE = 'SET_CURRENT_LIFECYCLESTAGE';
 
@@ -28,14 +32,6 @@ const OBSERVE_LOP = 'OBSERVE_LOP';
 
 function commitRoot(commit, type, payload) {
   commit(type, payload, { root: true });
-}
-
-function formatOptionalDate(date) {
-  if (!date || date === '') {
-    return date;
-  }
-
-  return moment(date).format('DD.MM.YYYY');
 }
 
 const initialState = {
@@ -100,9 +96,7 @@ const mutations = {
     };
   },
   [SET_CURRENT_LIFECYCLESTAGE](state, lifeCycleStage) {
-    state.currentLifeCycleStage.lifeCycleStageType = lifeCycleStage.levensloopfaseType;
-    state.currentLifeCycleStage.from = formatOptionalDate(lifeCycleStage.van);
-    state.currentLifeCycleStage.to = formatOptionalDate(lifeCycleStage.tot);
+    state.currentLifeCycleStage = lifeCycleStage;
   },
   [SET_MYSERVICE_LIFECYCLE](state, lifeCycle) {
     state.lifeCycle = lifeCycle;
@@ -132,10 +126,11 @@ export default class {
           payload.sortOrder || state.listProperties.sorting,
           payload.paging || state.listProperties.paging,
           payload.lop || state.lop)
-          .then(({ data, headers }) => {
-            commit(SET_MYSERVICE_LIFECYCLE, data);
-            commit(RECEIVE_SORTING, JSON.parse(headers['x-sorting'] || null));
-            commit(RECEIVE_PAGING, JSON.parse(headers['x-pagination'] || null));
+          .then((response) => {
+            const lifeCycleResponse = new LifeCycleResponse(response);
+            commit(SET_MYSERVICE_LIFECYCLE, lifeCycleResponse.lifeCycle);
+            commit(RECEIVE_SORTING, lifeCycleResponse.sorting);
+            commit(RECEIVE_PAGING, lifeCycleResponse.pagination);
           }).catch((error) => {
             commitRoot(commit, SET_ALERT, alerts.toAlert(error));
           }).finally(() => {
@@ -147,7 +142,9 @@ export default class {
         commitRoot(commit, LOADING_ON);
 
         return api.getLifeCycleStage(publicServiceId, lifeCycleStageId)
-          .then(lifeCycleStage => commit(SET_CURRENT_LIFECYCLESTAGE, lifeCycleStage.data))
+          .then(response => commit(
+            SET_CURRENT_LIFECYCLESTAGE,
+            new LifeCycleStageResponse(response).lifeCycleStage))
           .catch((error) => {
             commitRoot(commit, SET_ALERT, alerts.toAlert(error));
           }).finally(() => {
@@ -155,11 +152,11 @@ export default class {
           });
       },
 
-      addStageToLifeCycle({ commit }, { params: { id }, data }) {
+      addStageToLifeCycle({ commit }, { id, data }) {
         commitRoot(commit, LOADING_ON);
 
         api
-          .addStageToLifeCycle(id, data)
+          .addStageToLifeCycle(new AddStageToLifeCycle(id, data))
           .then(() => {
             commitRoot(commit, SET_ALERT, success.dienstverleningAangepast);
           })
@@ -169,10 +166,10 @@ export default class {
           .finally(() => commitRoot(commit, LOADING_OFF));
       },
 
-      changePeriodForLifeCycleStage({ commit }, { params: { id, localId }, data }) {
+      changePeriodForLifeCycleStage({ commit }, { id, lifeCycleStageId, data }) {
         commitRoot(commit, LOADING_ON);
 
-        const request = new ChangePeriodForLifeCycleStage(id, localId, data);
+        const request = new ChangePeriodForLifeCycleStage(id, lifeCycleStageId, data);
 
         return api.changePeriodOfLifeCycleStage(request)
           .then(() => {
@@ -184,7 +181,7 @@ export default class {
           .finally(() => commitRoot(commit, LOADING_OFF));
       },
 
-      removeLifeCycleStage({ commit }, { params: { id }, lifeCycleStageId }) {
+      removeLifeCycleStage({ commit }, { id, lifeCycleStageId }) {
         commitRoot(commit, LOADING_ON);
 
         const request = new RemoveLifeCycleStage(id, lifeCycleStageId);

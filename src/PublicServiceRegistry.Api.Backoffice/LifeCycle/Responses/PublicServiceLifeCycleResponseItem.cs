@@ -9,50 +9,50 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Responses
     public class PublicServiceLifeCycleResponseItem
     {
         /// <summary>
-        /// Id van de dienstverlening
+        /// Id van de dienstverlening.
         /// </summary>
-        [DataMember(Name = "PublicServiceId", Order = 1)]
-        public string PublicServiceId { get; }
+        [DataMember(Name = "DienstverleningId", Order = 1)]
+        public string DienstverleningId { get; }
 
         /// <summary>
-        /// Locale id van de levensloopfase
+        /// Id van de levensloopfase.
         /// </summary>
-        [DataMember(Name = "LocalId", Order = 5)]
-        public int LocalId { get; }
+        [DataMember(Name = "LevensloopfaseId", Order = 2)]
+        public int LevensloopfaseId { get; }
 
         /// <summary>
-        /// Id van het type van de levensloopfase
+        /// Id van het type van de levensloopfase.
         /// </summary>
-        [DataMember(Name = "LifeCycleStageTypeId", Order = 5)]
-        public string LifeCycleStageTypeId { get; }
+        [DataMember(Name = "LevensloopfaseTypeId", Order = 3)]
+        public string LevensloopfaseTypeId { get; }
 
         /// <summary>
-        /// Naam van het type van de levensloopfase
+        /// Naam van het type van de levensloopfase.
         /// </summary>
-        [DataMember(Name = "LifeCycleStageTypeName", Order = 5)]
-        public string LifeCycleStageTypeName { get; set; }
+        [DataMember(Name = "LevensloopfaseTypeNaam", Order = 4)]
+        public string LevensloopfaseTypeNaam { get; set; }
 
         /// <summary>
-        /// Startdatum van de levensloopfase
+        /// Startdatum van de levensloopfase (inclusief).
         /// </summary>
-        [DataMember(Name = "From", Order = 5)]
-        public DateTime? From { get; }
+        [DataMember(Name = "Vanaf", Order = 5)]
+        public DateTime? Vanaf { get; }
 
         /// <summary>
-        /// Einddatum van de levensloopfase
+        /// Einddatum van de levensloopfase (inclusief).
         /// </summary>
-        [DataMember(Name = "To", Order = 5)]
-        public DateTime? To { get; }
+        [DataMember(Name = "Tot", Order = 6)]
+        public DateTime? Tot { get; }
 
 
         public PublicServiceLifeCycleResponseItem(string publicServiceId, int localId, string lifeCycleStageTypeId, DateTime? from, DateTime? to)
         {
-            PublicServiceId = publicServiceId;
-            LocalId = localId;
-            LifeCycleStageTypeId = lifeCycleStageTypeId;
-            LifeCycleStageTypeName = PublicServiceRegistry.LifeCycleStageType.Parse(lifeCycleStageTypeId).Translation.Name;
-            From = from;
-            To = to;
+            DienstverleningId = publicServiceId;
+            LevensloopfaseId = localId;
+            LevensloopfaseTypeId = lifeCycleStageTypeId;
+            LevensloopfaseTypeNaam = PublicServiceRegistry.LifeCycleStageType.Parse(lifeCycleStageTypeId).Translation.Name;
+            Vanaf = from;
+            Tot = to;
         }
     }
 

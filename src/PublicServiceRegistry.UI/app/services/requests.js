@@ -8,6 +8,20 @@ function formatDate(date) {
   return moment(date, 'DD.MM.YYYY').format('YYYY-MM-DD');
 }
 
+export class AddStageToLifeCycle {
+  constructor(
+    publicServiceId,
+    data) {
+    this.publicServiceId = publicServiceId;
+
+    this.body = {
+      levensloopfaseType: data.lifeCycleStageType,
+      vanaf: formatDate(data.from),
+      tot: formatDate(data.to),
+    };
+  }
+}
+
 export class ChangePeriodForLifeCycleStage {
   constructor(
     publicServiceId,
@@ -17,7 +31,7 @@ export class ChangePeriodForLifeCycleStage {
     this.lifeCycleStageId = lifeCycleStageId;
 
     this.body = {
-      van: formatDate(data.from),
+      vanaf: formatDate(data.from),
       tot: formatDate(data.to),
     };
   }

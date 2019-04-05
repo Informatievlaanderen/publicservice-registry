@@ -5,21 +5,21 @@ namespace PublicServiceRegistry.PublicService.Events
     using Newtonsoft.Json;
 
     [EventName("PeriodOfLifeCycleStageWasChanged")]
-    [EventDescription("De periode van een levensfase van de dienstverlening werd gewijzigd.")]
+    [EventDescription("De periode van een levensloopfase van de dienstverlening werd gewijzigd.")]
     public class PeriodOfLifeCycleStageWasChanged
     {
         public string PublicServiceId { get; }
-        public int Id { get; }
+        public int LifeCycleStageId { get; }
         public DateTime? From { get; }
         public DateTime? To { get; }
 
         public PeriodOfLifeCycleStageWasChanged(
             PublicServiceId publicServiceId,
-            int id,
+            int lifeCycleStageId,
             LifeCycleStagePeriod period)
         {
             PublicServiceId = publicServiceId;
-            Id = id;
+            LifeCycleStageId = lifeCycleStageId;
             From = period.Start;
             To = period.End;
         }
@@ -27,12 +27,12 @@ namespace PublicServiceRegistry.PublicService.Events
         [JsonConstructor]
         private PeriodOfLifeCycleStageWasChanged(
             string publicServiceId,
-            int id,
+            int lifeCycleStageId,
             DateTime? from,
             DateTime? to) :
             this(
                 new PublicServiceId(publicServiceId),
-                id,
+                lifeCycleStageId,
                 new LifeCycleStagePeriod(new ValidFrom(from), new ValidTo(to))) { }
     }
 }
