@@ -31,7 +31,7 @@
 
     <dv-form-row>
       <dv-button
-        label="Toevoegen"
+        label="Bewerken"
         type="submit"
         :mod-is-loading="isLoading"
         :disabled="buttonDisabled" />
