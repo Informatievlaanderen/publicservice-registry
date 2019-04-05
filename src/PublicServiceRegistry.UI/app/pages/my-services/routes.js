@@ -26,9 +26,9 @@ export default [
     },
   },
   {
-    path: '/mijn-dienstverleningen/:id/edit',
+    path: '/mijn-dienstverleningen/:id/bewerk',
     name: 'my-service',
-    redirect: '/mijn-dienstverleningen/:id/edit/info',
+    redirect: '/mijn-dienstverleningen/:id/bewerk/info',
     component: Service,
     meta: {
       requiresAuth: true,
@@ -51,12 +51,12 @@ export default [
         component: ServiceLifeCycle,
       },
       {
-        path: 'levensloop/new',
+        path: 'levensloop/nieuw',
         name: 'my-service-new-life-cycle',
         component: ServiceNewLifeCycle,
       },
       {
-        path: 'levensloop/edit/:lifeCycleStageId',
+        path: 'levensloop/:lifeCycleStageId',
         name: 'my-service-edit-life-cycle',
         component: ServiceEditLifeCycle,
       },
