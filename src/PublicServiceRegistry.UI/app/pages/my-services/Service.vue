@@ -9,11 +9,11 @@
         <nav class="side-navigation col--2-12 col--1-1--s">
           <div class="side-navigation__content">
             <ul class="side-navigation__group">
-              <router-link tag="li" class="side-navigation__item" active-class="side-navigation__item js-scrollspy-active" :exact="true" :to="'info'">
+              <router-link tag="li" class="side-navigation__item" active-class="side-navigation__item js-scrollspy-active" :exact="false" :to="{ name: 'my-service-info' }">
                 <a link>Algemene informatie</a>
               </router-link>
 
-              <router-link tag="li" class="side-navigation__item" active-class="side-navigation__item js-scrollspy-active" :exact="true" :to="'benamingen'">
+              <router-link tag="li" class="side-navigation__item" active-class="side-navigation__item js-scrollspy-active" :exact="false" :to="{ name: 'my-service-alternative-names' }">
                 <a link>Alternatieve benamingen</a>
               </router-link>
 
