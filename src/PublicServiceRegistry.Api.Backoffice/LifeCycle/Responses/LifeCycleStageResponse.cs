@@ -17,23 +17,31 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Responses
         public string LevensloopfaseType { get; }
 
         /// <summary>
+        /// Het type van de levensloopfase.
+        /// </summary>
+        [DataMember(Name = "LevensloopfaseTypeNaam", Order = 2)]
+        public string LifeCycleStageTypeNaam { get; }
+
+        /// <summary>
         /// De startdatum van de levensloopfase (inclusief).
         /// </summary>
-        [DataMember(Name = "Vanaf", Order = 2)]
+        [DataMember(Name = "Vanaf", Order = 3)]
         public DateTime? Vanaf { get; }
 
         /// <summary>
         /// De einddatum van de levensloopfase (inclusief).
         /// </summary>
-        [DataMember(Name = "Tot", Order = 3)]
+        [DataMember(Name = "Tot", Order = 4)]
         public DateTime? Tot { get; }
 
         public LifeCycleStageResponse(
             string lifeCycleStageType,
+            string lifeCycleStageTypeName,
             DateTime? from,
             DateTime? to)
         {
             LevensloopfaseType = lifeCycleStageType;
+            LifeCycleStageTypeNaam = lifeCycleStageTypeName;
             Vanaf = from;
             Tot = to;
         }
@@ -44,8 +52,8 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Responses
         public object GetExamples() =>
             new List<LifeCycleStageResponse>
             {
-                new LifeCycleStageResponse(PublicServiceRegistry.LifeCycleStageType.Active.ToString(), DateTime.Now.Date, DateTime.Now.Date.AddDays(1)),
-                new LifeCycleStageResponse(PublicServiceRegistry.LifeCycleStageType.PhasingOut.ToString(), DateTime.Now.Date, DateTime.Now.Date.AddDays(1)),
+                new LifeCycleStageResponse(PublicServiceRegistry.LifeCycleStageType.Active.ToString(), PublicServiceRegistry.LifeCycleStageType.Active.Translation.Name, DateTime.Now.Date, DateTime.Now.Date.AddDays(1)),
+                new LifeCycleStageResponse(PublicServiceRegistry.LifeCycleStageType.PhasingOut.ToString(), PublicServiceRegistry.LifeCycleStageType.PhasingOut.Translation.Name, DateTime.Now.Date, DateTime.Now.Date.AddDays(1)),
             };
     }
 

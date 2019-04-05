@@ -5,6 +5,16 @@
     </div>
 
     <dv-form-row>
+      <dv-label class="label" for="from">Levensfase</dv-label>
+      <dv-select
+        id="lifeCycleStage"
+        name="Levensfase"
+        :options="lifeCycleStageTypes"
+        :disabled="true" />
+      <dv-form-error id="Levensfase"></dv-form-error>
+    </dv-form-row>
+
+    <dv-form-row>
       <dv-label class="label" for="from">Geldig vanaf</dv-label>
       <dv-date-picker
         id="from"
@@ -43,6 +53,7 @@
 import { mapGetters } from 'vuex';
 
 import DvFormRow from 'components/form-elements/form-row/FormRow';
+import DvSelect from 'components/form-elements/select/Select';
 import DvLabel from 'components/form-elements/label/Label';
 import DvButton from 'components/form-elements/button/Button';
 import DvDatePicker from 'components/form-elements/date-picker/DatePicker';
@@ -52,6 +63,7 @@ export default {
   inject: ['$validator'],
   components: {
     DvFormRow,
+    DvSelect,
     DvLabel,
     DvDatePicker,
     DvButton,
@@ -65,6 +77,16 @@ export default {
     ...mapGetters('services/lifeCycle', {
       currentLifeCycleStage: 'currentLifeCycleStage'
     }),
+    lifeCycleStageTypes() {
+      return [
+        {
+          type: 'option',
+          value: this.currentLifeCycleStage.lifeCycleStageType,
+          label: this.currentLifeCycleStage.lifeCycleStageTypeName,
+          selected: true,
+        }
+      ]
+    },
     from() {
       return this.localState.from || this.currentLifeCycleStage.from;
     },
