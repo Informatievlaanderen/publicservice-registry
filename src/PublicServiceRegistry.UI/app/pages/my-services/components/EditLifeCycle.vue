@@ -21,7 +21,7 @@
         name="Geldig vanaf"
         :value="from"
         @change.native="updateChangedFrom"
-        :validation="'required|date_format:DD.MM.YYYY' + (to ? '|before:' + to + ', true' : '')"
+        :validation="'date_format:DD.MM.YYYY' + (to ? '|before:' + to + ', true' : '')"
         :disabled="inputDisabled" />
       <dv-form-error id="Geldig vanaf"></dv-form-error>
     </dv-form-row>
