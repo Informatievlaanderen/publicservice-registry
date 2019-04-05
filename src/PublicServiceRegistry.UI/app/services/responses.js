@@ -27,6 +27,7 @@ export class LifeCycleStageResponse {
   constructor({ data }) {
     this.lifeCycleStage = {
       lifeCycleStageType: data.levensloopfaseType,
+      lifeCycleStageTypeName: data.levensloopfaseTypeNaam,
       from: formatDate(data.vanaf),
       to: formatDate(data.tot),
     };

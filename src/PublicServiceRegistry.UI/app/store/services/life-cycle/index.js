@@ -37,6 +37,7 @@ function commitRoot(commit, type, payload) {
 const initialState = {
   currentLifeCycleStage: {
     lifeCycleStageType: '',
+    lifeCycleStageTypeName: '',
     from: '',
     to: '',
   },

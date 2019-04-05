@@ -112,6 +112,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
             return Ok(
                 new LifeCycleStageResponse(
                     publicService.LifeCycleStageType,
+                    PublicServiceRegistry.LifeCycleStageType.Parse(publicService.LifeCycleStageType).Translation.Name,
                     publicService.From,
                     publicService.To));
         }
