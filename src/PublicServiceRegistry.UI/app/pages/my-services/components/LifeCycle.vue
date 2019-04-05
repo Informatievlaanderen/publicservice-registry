@@ -38,22 +38,22 @@
         track-by="id">
           <template slot="lifeCycleStageType" slot-scope="props">
             <div class="custom-actions">
-              {{props.rowData.lifeCycleStageTypeName}}
+              {{ props.rowData.lifeCycleStageTypeName }}
             </div>
           </template>
 
           <template slot="van" slot-scope="props">
-            {{props.rowData.from | moment('DD.MM.YYYY') }}
+            {{ props.rowData.from }}
           </template>
 
           <template slot="tot" slot-scope="props">
-            {{props.rowData.to | moment('DD.MM.YYYY') }}
+            {{ props.rowData.to }}
           </template>
 
           <template slot="actions" slot-scope="props">
             <div class="custom-actions u-align-right">
-              <router-link class="vi vi-u-badge vi-u-badge--grey vi-u-badge--small vi-edit" :to="{ name: 'my-service-edit-life-cycle', params: { localId: props.rowData.localId }}"></router-link>
-              <a href="" @click.prevent="askConfirmationForRemoval(props.rowData.localId)" class="vi vi-u-badge vi-u-badge--grey vi-u-badge--small vi-trash"></a>
+              <router-link class="vi vi-u-badge vi-u-badge--grey vi-u-badge--small vi-edit" :to="{ name: 'my-service-edit-life-cycle', params: { lifeCycleStageId: props.rowData.lifeCycleStageId }}"></router-link>
+              <a href="" @click.prevent="askConfirmationForRemoval(props.rowData.lifeCycleStageId)" class="vi vi-u-badge vi-u-badge--grey vi-u-badge--small vi-trash"></a>
             </div>
           </template>
       </dv-data-table>
@@ -115,7 +115,7 @@ export default {
     confirmRemoval() {
       this.$store.dispatch(
         "services/lifeCycle/removeLifeCycleStage", {
-          params: this.$router.currentRoute.params,
+          id: this.$router.currentRoute.params.id,
           lifeCycleStageId: this.removal.lifeCycleStageId,
         }).finally(() => {
           this.removal.showConfirmation = false;

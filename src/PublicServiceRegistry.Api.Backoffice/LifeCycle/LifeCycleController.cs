@@ -5,7 +5,6 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
     using System.Threading;
     using System.Threading.Tasks;
     using Be.Vlaanderen.Basisregisters.Api;
-    using Be.Vlaanderen.Basisregisters.Api.ETag;
     using Be.Vlaanderen.Basisregisters.Api.Exceptions;
     using Be.Vlaanderen.Basisregisters.Api.Search;
     using Be.Vlaanderen.Basisregisters.Api.Search.Filtering;
@@ -21,7 +20,6 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
     using Newtonsoft.Json.Converters;
     using Projections.Backoffice;
     using Projections.Backoffice.PublicServiceLifeCycle;
-    using PublicService.Responses;
     using PublicServiceRegistry.PublicService.Commands;
     using Queries;
     using Requests;
@@ -32,35 +30,35 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
     [ApiVersion("1.0")]
     [AdvertiseApiVersions("1.0")]
     [ApiRoute("dienstverleningen/{id}/levensloop")]
-    [ApiExplorerSettings(GroupName = "Dienstverleningen")]
+    [ApiExplorerSettings(GroupName = "Dienstverleningen\nLevensloop")]
     [PublicServiceRegistryAuthorize]
     public class LifeCycleController : ApiBusController
     {
         public LifeCycleController(ICommandHandlerResolver bus) : base(bus) { }
 
         /// <summary>
-        /// Vraag de levensloop van een dienstverlening op.
+        /// Vraag de levensloopfases van een dienstverlening op.
         /// </summary>
         /// <param name="context"></param>
-        /// <param name="id"></param>
+        /// <param name="id">Id van de dienstverlening.</param>
         /// <param name="cancellationToken"></param>
-        /// <response code="200">Als de opvraging van levensloop gelukt is.</response>
+        /// <response code="200">Als de opvraging van levensloopfases gelukt is.</response>
         /// <response code="500">Als er een interne fout is opgetreden.</response>
         [HttpGet("fases")]
-        [ProducesResponseType(typeof(List<LifeCycleResponse>), StatusCodes.Status200OK)]
-        [ProducesResponseType(typeof(BasicApiProblem), StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(typeof(PreconditionFailedResult), StatusCodes.Status412PreconditionFailed)]
-        [ProducesResponseType(typeof(BasicApiProblem), StatusCodes.Status500InternalServerError)]
-        [SwaggerResponseExample(StatusCodes.Status200OK, typeof(LifeCycleResponseExamples), jsonConverter: typeof(StringEnumConverter))]
-        [SwaggerResponseExample(StatusCodes.Status500InternalServerError, typeof(InternalServerErrorResponseExamples), jsonConverter: typeof(StringEnumConverter))]
         [AllowAnonymous]
-        public async Task<IActionResult> List(
+        [ProducesResponseType(typeof(List<PublicServiceLifeCycleResponseItem>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(BasicApiProblem), StatusCodes.Status500InternalServerError)]
+        [SwaggerResponseExample(StatusCodes.Status200OK, typeof(PublicServiceLifeCycleResponseItemExamples), jsonConverter: typeof(StringEnumConverter))]
+        [SwaggerResponseExample(StatusCodes.Status500InternalServerError, typeof(InternalServerErrorResponseExamples), jsonConverter: typeof(StringEnumConverter))]
+        public async Task<IActionResult> ListLifeCycleStages(
             [FromServices] BackofficeContext context,
             [FromRoute] string id,
             CancellationToken cancellationToken = default)
         {
             var projectionPosition = await context.GetProjectionPositionAsync(nameof(PublicServiceLifeCycleListProjections), cancellationToken);
             Response.Headers.Add(PublicServiceHeaderNames.LastObservedPosition, projectionPosition.ToString());
+
+            // idea: if dienstverleningid does not exist => 404 + documentatie aanpassen swagger
 
             var filter = Request.ExtractFilteringRequest<LifeCycleFilter>();
             var sorting = Request.ExtractSortingRequest();
@@ -76,32 +74,30 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
         }
 
         /// <summary>
-        /// Vraag een levensloopfase van de dienstverlening op.
+        /// Vraag een levensloopfase van een dienstverlening op.
         /// </summary>
         /// <param name="context"></param>
         /// <param name="id">Id van de dienstverlening.</param>
         /// <param name="faseId">Id van de levensloopfase.</param>
         /// <param name="cancellationToken"></param>
-        /// <response code="200">Als de fase van de dienstverlening gevonden is.</response>
-        /// <response code="404">Als de fase van de dienstverlening niet gevonden kan worden.</response>
+        /// <response code="200">Als de levensloopfase van de dienstverlening gevonden is.</response>
+        /// <response code="404">Als de levensloopfase van de dienstverlening niet gevonden kan worden.</response>
         /// <response code="500">Als er een interne fout is opgetreden.</response>
         [HttpGet("fases/{faseId}")]
-        [ProducesResponseType(typeof(PublicServiceResponse), StatusCodes.Status200OK)]
-        [ProducesResponseType(typeof(BasicApiProblem), StatusCodes.Status404NotFound)]
-        [ProducesResponseType(typeof(BasicApiProblem), StatusCodes.Status412PreconditionFailed)]
-        [ProducesResponseType(typeof(BasicApiProblem), StatusCodes.Status500InternalServerError)]
-        [SwaggerResponseExample(StatusCodes.Status200OK, typeof(PublicServiceResponseExamples), jsonConverter: typeof(StringEnumConverter))]
-        [SwaggerResponseExample(StatusCodes.Status404NotFound, typeof(PublicServiceNotFoundResponseExamples), jsonConverter: typeof(StringEnumConverter))]
-        [SwaggerResponseExample(StatusCodes.Status412PreconditionFailed, typeof(PreconditionFailedResponseExamples), jsonConverter: typeof(StringEnumConverter))]
-        [SwaggerResponseExample(StatusCodes.Status500InternalServerError, typeof(InternalServerErrorResponseExamples), jsonConverter: typeof(StringEnumConverter))]
         [AllowAnonymous]
-        public async Task<IActionResult> Put(
+        [ProducesResponseType(typeof(LifeCycleStageResponse), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(BasicApiProblem), StatusCodes.Status404NotFound)]
+        [ProducesResponseType(typeof(BasicApiProblem), StatusCodes.Status500InternalServerError)]
+        [SwaggerResponseExample(StatusCodes.Status200OK, typeof(LifeCycleStageResponseExamples), jsonConverter: typeof(StringEnumConverter))]
+        [SwaggerResponseExample(StatusCodes.Status404NotFound, typeof(LifeCycleStageNotFoundResponseExamples), jsonConverter: typeof(StringEnumConverter))]
+        [SwaggerResponseExample(StatusCodes.Status500InternalServerError, typeof(InternalServerErrorResponseExamples), jsonConverter: typeof(StringEnumConverter))]
+        public async Task<IActionResult> GetLifeCyclePhase(
             [FromServices] BackofficeContext context,
             [FromRoute] string id,
             [FromRoute] int faseId,
             CancellationToken cancellationToken = default)
         {
-            var projectionPosition = await context.GetProjectionPositionAsync(cancellationToken);
+            var projectionPosition = await context.GetProjectionPositionAsync(nameof(PublicServiceLifeCycleListProjections), cancellationToken);
             Response.Headers.Add(PublicServiceHeaderNames.LastObservedPosition, projectionPosition.ToString());
 
             var publicService =
@@ -121,18 +117,24 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
         }
 
         /// <summary>
-        /// Voeg een levensloopfase toe aan de levenscyclus van een dienstverlening.
+        /// Voeg een fase toe aan de levensloop van een dienstverlening.
         /// </summary>
         /// <param name="commandId">Unieke id voor het verzoek.</param>
         /// <param name="id">Id van de dienstverlening.</param>
         /// <param name="request"></param>
         /// <param name="cancellationToken"></param>
-        /// <returns></returns>
+        /// <response code="202">Als het verzoek aanvaard werd.</response>
+        /// <response code="400">Als het verzoek ongeldige data bevat.</response>
+        /// <response code="500">Als er een interne fout is opgetreden.</response>
         [HttpPost("fases")]
-        [ProducesResponseType(typeof(List<AcceptedResult>), StatusCodes.Status202Accepted)]
-        [ProducesResponseType(typeof(List<BadRequestObjectResult>), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(long), StatusCodes.Status202Accepted)]
+        [ProducesResponseType(typeof(BasicApiValidationProblem), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(BasicApiProblem), StatusCodes.Status500InternalServerError)]
         [SwaggerRequestExample(typeof(AddStageToLifeCycleRequest), typeof(AddStageToLifeCycleRequestExample))]
-        public async Task<IActionResult> Put(
+        [SwaggerResponseExample(StatusCodes.Status202Accepted, typeof(EventStorePositionResponseExamples), jsonConverter: typeof(StringEnumConverter))]
+        [SwaggerResponseExample(StatusCodes.Status400BadRequest, typeof(ValidationErrorResponseExamples), jsonConverter: typeof(StringEnumConverter))]
+        [SwaggerResponseExample(StatusCodes.Status500InternalServerError, typeof(InternalServerErrorResponseExamples), jsonConverter: typeof(StringEnumConverter))]
+        public async Task<IActionResult> AddStageToLifeCycle(
             [FromCommandId] Guid commandId,
             [FromRoute] string id,
             [FromBody] AddStageToLifeCycleRequest request,
@@ -150,19 +152,25 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
         }
 
         /// <summary>
-        /// Pas een levensloopfase aan in de levenscyclus van een dienstverlening.
+        /// Verander de periode van een fase in de levensloop van een dienstverlening.
         /// </summary>
         /// <param name="commandId">Unieke id voor het verzoek.</param>
         /// <param name="id">Id van de dienstverlening.</param>
         /// <param name="faseId">Id van de levensloopfase.</param>
         /// <param name="request"></param>
         /// <param name="cancellationToken"></param>
-        /// <returns></returns>
+        /// <response code="202">Als het verzoek aanvaard werd.</response>
+        /// <response code="400">Als het verzoek ongeldige data bevat.</response>
+        /// <response code="500">Als er een interne fout is opgetreden.</response>
         [HttpPut("fases/{faseId}")]
-        [ProducesResponseType(typeof(List<AcceptedResult>), StatusCodes.Status202Accepted)]
-        [ProducesResponseType(typeof(List<BadRequestObjectResult>), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(long), StatusCodes.Status202Accepted)]
+        [ProducesResponseType(typeof(BasicApiValidationProblem), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(BasicApiProblem), StatusCodes.Status500InternalServerError)]
         [SwaggerRequestExample(typeof(ChangePeriodOfLifeCycleStageRequest), typeof(ChangePeriodOfLifeCycleStageRequestExample))]
-        public async Task<IActionResult> Put(
+        [SwaggerResponseExample(StatusCodes.Status202Accepted, typeof(EventStorePositionResponseExamples), jsonConverter: typeof(StringEnumConverter))]
+        [SwaggerResponseExample(StatusCodes.Status400BadRequest, typeof(ValidationErrorResponseExamples), jsonConverter: typeof(StringEnumConverter))]
+        [SwaggerResponseExample(StatusCodes.Status500InternalServerError, typeof(InternalServerErrorResponseExamples), jsonConverter: typeof(StringEnumConverter))]
+        public async Task<IActionResult> ChangePeriodOfLifeCycleStage(
             [FromCommandId] Guid? commandId,
             [FromRoute] string id,
             [FromRoute] int faseId,
@@ -181,17 +189,20 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
         }
 
         /// <summary>
-        /// Verwijder een bestaande levensloopfase.
+        /// Verwijder een fase in de levensloop van een dienstverlening.
         /// </summary>
         /// <param name="commandId">Unieke id voor het verzoek.</param>
         /// <param name="id">Id van de dienstverlening.</param>
         /// <param name="faseId">Id van de levensloopfase.</param>
         /// <param name="cancellationToken"></param>
-        /// <returns></returns>
+        /// <response code="202">Als het verzoek aanvaard werd.</response>
+        /// <response code="500">Als er een interne fout is opgetreden.</response>
         [HttpDelete("fases/{faseId}")]
-        [ProducesResponseType(typeof(AcceptedResult), StatusCodes.Status202Accepted)]
-        [ProducesResponseType(typeof(BadRequestObjectResult), StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> Delete(
+        [ProducesResponseType(typeof(long), StatusCodes.Status202Accepted)]
+        [ProducesResponseType(typeof(BasicApiProblem), StatusCodes.Status500InternalServerError)]
+        [SwaggerResponseExample(StatusCodes.Status202Accepted, typeof(EventStorePositionResponseExamples), jsonConverter: typeof(StringEnumConverter))]
+        [SwaggerResponseExample(StatusCodes.Status500InternalServerError, typeof(InternalServerErrorResponseExamples), jsonConverter: typeof(StringEnumConverter))]
+        public async Task<IActionResult> RemoveStageFromLifeCycle(
             [FromCommandId] Guid commandId,
             [FromRoute] string id,
             [FromRoute] int faseId,

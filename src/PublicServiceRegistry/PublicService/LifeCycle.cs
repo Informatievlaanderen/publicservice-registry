@@ -10,8 +10,9 @@ namespace PublicServiceRegistry.PublicService
     public class LifeCycle : Entity
     {
         private readonly Dictionary<int, LifeCycleStagePeriod> _lifeCycleStagePeriods;
-        private PublicServiceId _publicServiceId;
         private int _lastUsedId = 0;
+
+        private PublicServiceId _publicServiceId;
 
         public LifeCycle(Action<object> applyChange) : base(applyChange)
         {
@@ -25,18 +26,18 @@ namespace PublicServiceRegistry.PublicService
 
         private void When(StageWasAddedToLifeCycle @event)
         {
-            _lastUsedId = @event.Id;
+            _lastUsedId = @event.LifeCycleStageId;
 
             var lifeCycleStagePeriod = new LifeCycleStagePeriod(new ValidFrom(@event.From), new ValidTo(@event.To));
 
-            _lifeCycleStagePeriods[@event.Id] = lifeCycleStagePeriod;
+            _lifeCycleStagePeriods[@event.LifeCycleStageId] = lifeCycleStagePeriod;
         }
 
         private void When(PeriodOfLifeCycleStageWasChanged @event)
         {
             var lifeCycleStagePeriod = new LifeCycleStagePeriod(new ValidFrom(@event.From), new ValidTo(@event.To));
 
-            _lifeCycleStagePeriods[@event.Id] = lifeCycleStagePeriod;
+            _lifeCycleStagePeriods[@event.LifeCycleStageId] = lifeCycleStagePeriod;
         }
 
         private void When(LifeCycleStageWasRemoved @event)

@@ -43,11 +43,11 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
                 {
                     var publicService =
                         await context.PublicServiceLifeCycleList.FirstAsync(a =>
-                            a.PublicServiceId == stageWasAddedToLifeCycle.PublicServiceId && a.LocalId == stageWasAddedToLifeCycle.Id);
+                            a.PublicServiceId == stageWasAddedToLifeCycle.PublicServiceId && a.LocalId == stageWasAddedToLifeCycle.LifeCycleStageId);
 
                     publicService.Should().BeEquivalentTo(new PublicServiceLifeCycleItem()
                     {
-                        LocalId = stageWasAddedToLifeCycle.Id,
+                        LocalId = stageWasAddedToLifeCycle.LifeCycleStageId,
                         PublicServiceId = stageWasAddedToLifeCycle.PublicServiceId,
                         LifeCycleStageType = stageWasAddedToLifeCycle.LifeCycleStageType,
                         From = stageWasAddedToLifeCycle.From,
@@ -68,7 +68,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
             var stageWasAddedToLifeCycle = _fixture.Create<StageWasAddedToLifeCycle>();
             var periodOfLifeCycleStageWasChanged = new PeriodOfLifeCycleStageWasChanged(
                 new PublicServiceId(stageWasAddedToLifeCycle.PublicServiceId),
-                stageWasAddedToLifeCycle.Id,
+                stageWasAddedToLifeCycle.LifeCycleStageId,
                 _fixture.Create<LifeCycleStagePeriod>());
 
         await new ConnectedProjectionScenario<BackofficeContext>(resolver)
@@ -79,11 +79,11 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
                 {
                     var publicService =
                         await context.PublicServiceLifeCycleList.FirstAsync(a =>
-                            a.PublicServiceId == stageWasAddedToLifeCycle.PublicServiceId && a.LocalId == stageWasAddedToLifeCycle.Id);
+                            a.PublicServiceId == stageWasAddedToLifeCycle.PublicServiceId && a.LocalId == stageWasAddedToLifeCycle.LifeCycleStageId);
 
                     publicService.Should().BeEquivalentTo(new PublicServiceLifeCycleItem()
                     {
-                        LocalId = stageWasAddedToLifeCycle.Id,
+                        LocalId = stageWasAddedToLifeCycle.LifeCycleStageId,
                         PublicServiceId = stageWasAddedToLifeCycle.PublicServiceId,
                         LifeCycleStageType = stageWasAddedToLifeCycle.LifeCycleStageType,
                         From = periodOfLifeCycleStageWasChanged.From,
@@ -104,7 +104,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
             var stageWasAddedToLifeCycle = _fixture.Create<StageWasAddedToLifeCycle>();
             var lifeCycleStageWasRemoved = new LifeCycleStageWasRemoved(
                 new PublicServiceId(stageWasAddedToLifeCycle.PublicServiceId),
-                stageWasAddedToLifeCycle.Id);
+                stageWasAddedToLifeCycle.LifeCycleStageId);
 
             await new ConnectedProjectionScenario<BackofficeContext>(resolver)
                 .Given(
@@ -114,7 +114,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
                 {
                     var publicService =
                         await context.PublicServiceLifeCycleList.FirstOrDefaultAsync(a =>
-                            a.PublicServiceId == stageWasAddedToLifeCycle.PublicServiceId && a.LocalId == stageWasAddedToLifeCycle.Id);
+                            a.PublicServiceId == stageWasAddedToLifeCycle.PublicServiceId && a.LocalId == stageWasAddedToLifeCycle.LifeCycleStageId);
 
                     publicService.Should().BeNull();
 
@@ -142,7 +142,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
                 {
                     var publicService =
                         await context.PublicServiceLifeCycleList.FirstOrDefaultAsync(a =>
-                            a.PublicServiceId == stageWasAddedToLifeCycle.PublicServiceId && a.LocalId == stageWasAddedToLifeCycle.Id);
+                            a.PublicServiceId == stageWasAddedToLifeCycle.PublicServiceId && a.LocalId == stageWasAddedToLifeCycle.LifeCycleStageId);
 
                     publicService.Should().BeNull();
 

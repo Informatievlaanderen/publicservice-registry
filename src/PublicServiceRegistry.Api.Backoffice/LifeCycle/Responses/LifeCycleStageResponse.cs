@@ -3,27 +3,29 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Responses
     using System;
     using System.Collections.Generic;
     using System.Runtime.Serialization;
+    using Be.Vlaanderen.Basisregisters.Api.Exceptions;
+    using Microsoft.AspNetCore.Http;
     using Swashbuckle.AspNetCore.Filters;
 
     [DataContract(Name = "Levensloop", Namespace = "")]
     public class LifeCycleStageResponse
     {
         /// <summary>
-        /// Het type van de levensloopfase
+        /// Het type van de levensloopfase.
         /// </summary>
         [DataMember(Name = "LevensloopfaseType", Order = 1)]
         public string LevensloopfaseType { get; }
 
         /// <summary>
-        /// De startdatum van de levensloopfase
+        /// De startdatum van de levensloopfase (inclusief).
         /// </summary>
-        [DataMember(Name = "Van", Order = 1)]
-        public DateTime? Van { get; }
+        [DataMember(Name = "Vanaf", Order = 2)]
+        public DateTime? Vanaf { get; }
 
         /// <summary>
-        /// De einddatum van de levensloopfase
+        /// De einddatum van de levensloopfase (inclusief).
         /// </summary>
-        [DataMember(Name = "Tot", Order = 1)]
+        [DataMember(Name = "Tot", Order = 3)]
         public DateTime? Tot { get; }
 
         public LifeCycleStageResponse(
@@ -32,7 +34,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Responses
             DateTime? to)
         {
             LevensloopfaseType = lifeCycleStageType;
-            Van = from;
+            Vanaf = from;
             Tot = to;
         }
     }
@@ -45,5 +47,19 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Responses
                 new LifeCycleStageResponse(PublicServiceRegistry.LifeCycleStageType.Active.ToString(), DateTime.Now.Date, DateTime.Now.Date.AddDays(1)),
                 new LifeCycleStageResponse(PublicServiceRegistry.LifeCycleStageType.PhasingOut.ToString(), DateTime.Now.Date, DateTime.Now.Date.AddDays(1)),
             };
+    }
+
+    public class LifeCycleStageNotFoundResponseExamples : IExamplesProvider
+    {
+        public object GetExamples()
+        {
+            return new BasicApiProblem
+            {
+                HttpStatus = StatusCodes.Status404NotFound,
+                Title = BasicApiProblem.DefaultTitle,
+                Detail = "Onbestaande levensloopfase.",
+                ProblemInstanceUri = BasicApiProblem.GetProblemNumber()
+            };
+        }
     }
 }

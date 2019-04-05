@@ -128,11 +128,11 @@ export default {
           if(isSucces){
             this.$store.dispatch(
               "services/lifeCycle/addStageToLifeCycle", {
-                params: this.$router.currentRoute.params,
+                id: this.$router.currentRoute.params.id,
                 data: {
-                  levensloopfaseType: this.selectedLifeCycleStageType,
-                  vanaf: this.$formatDate(this.from),
-                  tot: this.$formatDate(this.to),
+                  lifeCycleStageType: this.selectedLifeCycleStageType,
+                  from: this.from,
+                  to: this.to,
                 }
               });
           }

@@ -5,9 +5,8 @@ namespace PublicServiceRegistry
     public class LifeCycleStageType : IEquatable<LifeCycleStageType>
     {
         private readonly string _value;
-        private readonly DutchTranslation _dutchTranslation;
 
-        public DutchTranslation Translation => _dutchTranslation;
+        public DutchTranslation Translation { get; }
 
         public static readonly LifeCycleStageType Active = new LifeCycleStageType(nameof(Active), new DutchTranslation("Actief"));
         public static readonly LifeCycleStageType Planned = new LifeCycleStageType(nameof(Planned), new DutchTranslation("Gepland"));
@@ -25,7 +24,7 @@ namespace PublicServiceRegistry
         private LifeCycleStageType(string value, DutchTranslation dutchTranslation)
         {
             _value = value;
-            _dutchTranslation = dutchTranslation;
+            Translation = dutchTranslation;
         }
 
         public static bool CanParse(string value)

@@ -111,9 +111,9 @@ export default {
     return axios.patch(location, { labels });
   },
 
-  addStageToLifeCycle(id, data) {
-    const location = `/v1/dienstverleningen/${id}/levensloop/fases`;
-    return axios.post(location, data);
+  addStageToLifeCycle({ publicServiceId, body }) {
+    const location = `/v1/dienstverleningen/${publicServiceId}/levensloop/fases`;
+    return axios.post(location, body);
   },
 
   changePeriodOfLifeCycleStage({ publicServiceId, lifeCycleStageId, body }) {
