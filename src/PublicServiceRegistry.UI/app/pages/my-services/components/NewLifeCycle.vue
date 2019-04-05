@@ -67,10 +67,8 @@ import DvRouteButton from 'components/buttons/RouteButton';
 import DvFormRow from 'components/form-elements/form-row/FormRow';
 import DvLabel from 'components/form-elements/label/Label';
 import DvButton from 'components/form-elements/button/Button';
-import DvInputField from 'components/form-elements/input-field/InputField';
 import DvDatePicker from 'components/form-elements/date-picker/DatePicker';
 import DvSelect from 'components/form-elements/select/Select';
-import DvCheckbox from 'components/form-elements/checkbox/Checkbox';
 import DvFormError from 'components/form-elements/form-error/FormError';
 
 export default {
@@ -80,11 +78,9 @@ export default {
     DvDataTable,
     DvFormRow,
     DvLabel,
-    DvInputField,
     DvDatePicker,
     DvSelect,
     DvButton,
-    DvCheckbox,
     DvFormError,
   },
   computed: {
