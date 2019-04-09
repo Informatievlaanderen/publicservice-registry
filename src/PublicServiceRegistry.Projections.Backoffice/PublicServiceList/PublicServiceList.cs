@@ -1,5 +1,6 @@
 namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceList
 {
+    using System;
     using Infrastructure;
     using Microsoft.EntityFrameworkCore;
     using Microsoft.EntityFrameworkCore.Metadata.Builders;
@@ -11,6 +12,9 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceList
         public string CompetentAuthorityCode { get; set; }
         public string CompetentAuthorityName { get; set; }
         public bool ExportToOrafin { get; set; }
+        public string CurrentLifeCycleStageType { get; set; }
+        public int? CurrentLifeCycleStageId { get; set; }
+        public DateTime? CurrentLifeCycleStageEndsAt { get; set; }
     }
 
     public class PublicServiceListConfiguration : IEntityTypeConfiguration<PublicServiceListItem>
@@ -27,6 +31,9 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceList
             b.Property(p => p.CompetentAuthorityCode);
             b.Property(p => p.CompetentAuthorityName);
             b.Property(p => p.ExportToOrafin);
+            b.Property(p => p.CurrentLifeCycleStageId);
+            b.Property(p => p.CurrentLifeCycleStageType);
+            b.Property(p => p.CurrentLifeCycleStageEndsAt);
 
             b.HasIndex(p => p.Name);
         }

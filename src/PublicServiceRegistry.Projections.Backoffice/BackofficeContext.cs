@@ -14,7 +14,10 @@ namespace PublicServiceRegistry.Projections.Backoffice
         public override string ProjectionStateSchema => Schema.Backoffice;
 
         public DbSet<PublicServiceListItem> PublicServiceList { get; set; }
+        public DbSet<LifeCycleStageItemForPublicServiceList> LifeCycleStagesForPublicServiceList { get; set; }
+
         public DbSet<PublicServiceLabelListItem> PublicServiceLabelList { get; set; }
+
         public DbSet<PublicServiceLifeCycleItem> PublicServiceLifeCycleList { get; set; }
 
         // This needs to be here to please EF
