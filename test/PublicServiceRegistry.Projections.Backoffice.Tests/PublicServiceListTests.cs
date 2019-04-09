@@ -3,16 +3,13 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    using System.Text;
     using System.Threading.Tasks;
     using AutoFixture;
     using Be.Vlaanderen.Basisregisters.ProjectionHandling.Connector;
     using Be.Vlaanderen.Basisregisters.ProjectionHandling.Connector.Testing;
     using Be.Vlaanderen.Basisregisters.ProjectionHandling.SqlStreamStore;
     using FluentAssertions;
-    using KellermanSoftware.CompareNetObjects;
     using Microsoft.EntityFrameworkCore;
-    using Newtonsoft.Json;
     using PublicServiceList;
     using PublicServiceRegistry.PublicService.Events;
     using Xunit;
@@ -20,6 +17,14 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
     public class PublicServiceListTests
     {
         private readonly Fixture _fixture;
+
+        private static readonly DateTime Today = DateTime.Now.Date;
+        private static readonly DateTime Tomorrow = DateTime.Now.AddDays(1).Date;
+
+        private static readonly LifeCycleStagePeriod PeriodValidAlways = new LifeCycleStagePeriod(new ValidFrom(), new ValidTo());
+        private static readonly LifeCycleStagePeriod PeriodOverlappingWithToday = new LifeCycleStagePeriod(new ValidFrom(Today), new ValidTo(Today));
+        private static readonly LifeCycleStagePeriod PeriodOverlappingWithTomorrow = new LifeCycleStagePeriod(new ValidFrom(Tomorrow), new ValidTo(Tomorrow));
+        private static readonly LifeCycleStagePeriod PeriodOverlappingWithYesterday = new LifeCycleStagePeriod(new ValidFrom(Tomorrow), new ValidTo(Tomorrow));
 
         public PublicServiceListTests()
         {
@@ -30,7 +35,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
         [Fact]
         public async Task WhenPublicServiceWasRegistered()
         {
-            var projection = new PublicServiceListProjections();
+            var projection = new PublicServiceListProjections(new ClockProviderStub(DateTime.Now));
             var resolver = ConcurrentResolve.WhenEqualToHandlerMessageType(projection.Handlers);
 
             var publicServiceId = PublicServiceId.FromNumber(123);
@@ -79,7 +84,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
                     };
                 }).ToList();
 
-            return new PublicServiceListProjections()
+            return new PublicServiceListProjections(new ClockProviderStub(DateTime.Now))
                 .Scenario()
                 .Given(data.Select(d => d.events))
                 .Expect(data
@@ -94,73 +99,217 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
             var publicServiceWasRegistered = _fixture.Create<PublicServiceWasRegistered>();
             var publicServiceWasRemoved = new PublicServiceWasRemoved(new PublicServiceId(publicServiceWasRegistered.PublicServiceId), new ReasonForRemoval("because"));
 
-            return new PublicServiceListProjections()
+            return new PublicServiceListProjections(new ClockProviderStub(DateTime.Now))
                 .Scenario()
                 .Given(publicServiceWasRegistered, publicServiceWasRemoved)
                 .Expect();
         }
-    }
 
-    public static class StringBuilderExtensions
-    {
-        public static StringBuilder AppendTitleBlock(
-            this StringBuilder builder,
-            string title,
-            Action<StringBuilder> addContent)
+        [Fact]
+        public Task ShowsLifeCycleStageWhenLifeCycleStageWasAddedThatOverlapsWithToday()
         {
-            builder.AppendLine($"{title}:");
-            addContent(builder);
-            builder.AppendLine();
+            var clockProviderStub = new ClockProviderStub(Today);
 
-            return builder;
+            var publicServiceId = new PublicServiceId("DVR000000001");
+            var events = new object[]
+            {
+                new PublicServiceWasRegistered(publicServiceId, new PublicServiceName("Test"), PrivateZoneId.Unregistered),
+                new StageWasAddedToLifeCycle(publicServiceId, 1, LifeCycleStageType.Active, PeriodValidAlways),
+            };
+
+            return new PublicServiceListProjections(clockProviderStub)
+                .Scenario()
+                .Given(events)
+                .Expect(new PublicServiceListItem
+                {
+                    Name = "Test",
+                    PublicServiceId = "DVR000000001",
+                    CurrentLifeCycleStageType = "Active",
+                    CurrentLifeCycleStageId = 1,
+                });
         }
 
-        public static StringBuilder AppendTitleBlock(
-            this StringBuilder builder,
-            string title,
-            string content)
+        [Fact]
+        public Task ShowsLifeCycleStageWhenPeriodWasChangedToOverlapWithToday()
         {
-            return builder.AppendTitleBlock(title, b => b.AppendLine(content));
+            var clockProviderStub = new ClockProviderStub(Today);
+
+            var publicServiceId = new PublicServiceId("DVR000000001");
+            var events = new object[]
+            {
+                new PublicServiceWasRegistered(publicServiceId, new PublicServiceName("Test"), PrivateZoneId.Unregistered),
+                new StageWasAddedToLifeCycle(publicServiceId, 1, LifeCycleStageType.Active, PeriodOverlappingWithTomorrow),
+                new PeriodOfLifeCycleStageWasChanged(publicServiceId, 1, PeriodOverlappingWithToday),
+            };
+
+            return new PublicServiceListProjections(clockProviderStub)
+                .Scenario()
+                .Given(events)
+                .Expect(new PublicServiceListItem
+                {
+                    Name = "Test",
+                    PublicServiceId = "DVR000000001",
+                    CurrentLifeCycleStageType = "Active",
+                    CurrentLifeCycleStageId = 1,
+                    CurrentLifeCycleStageEndsAt = Today,
+                });
         }
 
-        public static StringBuilder AppendTitleBlock<T>(
-            this StringBuilder builder,
-            string title,
-            IEnumerable<T> collection,
-            Func<T, string> formatter)
+        [Fact]
+        public Task DoesNotShowLifeCycleStageWhenLifeCycleStageWasAddedThatDoesNotOverlapWithToday()
         {
-            return builder.AppendTitleBlock(title, b => b.AppendLines(collection, formatter));
+            var clockProviderStub = new ClockProviderStub(Today);
+
+            var publicServiceId = new PublicServiceId("DVR000000001");
+            var events = new object[]
+            {
+                new PublicServiceWasRegistered(publicServiceId, new PublicServiceName("Test"), PrivateZoneId.Unregistered),
+                new StageWasAddedToLifeCycle(publicServiceId, 1, LifeCycleStageType.Active, PeriodOverlappingWithTomorrow),
+            };
+
+            return new PublicServiceListProjections(clockProviderStub)
+                .Scenario()
+                .Given(events)
+                .Expect(new PublicServiceListItem
+                {
+                    Name = "Test",
+                    PublicServiceId = "DVR000000001",
+                    CurrentLifeCycleStageType = null,
+                    CurrentLifeCycleStageId = null,
+                });
         }
 
-        public static StringBuilder AppendLines<T>(
-            this StringBuilder builder,
-            IEnumerable<T> collection,
-            Func<T, string> formatter)
+        [Fact]
+        public Task ClearsLifeCycleStageWhenActiveLifeCycleStageNoLongerOverlapsWithToday()
         {
-            foreach (var item in collection)
-                builder.AppendLine(formatter(item));
+            var clockProviderStub = new ClockProviderStub(Today);
 
-            return builder;
+            var publicServiceId = new PublicServiceId("DVR000000001");
+            var events = new object[]
+            {
+                new PublicServiceWasRegistered(publicServiceId, new PublicServiceName("Test"), PrivateZoneId.Unregistered),
+                new StageWasAddedToLifeCycle(publicServiceId, 1, LifeCycleStageType.Active, PeriodValidAlways),
+                new PeriodOfLifeCycleStageWasChanged(publicServiceId, 1, PeriodOverlappingWithTomorrow),
+            };
+
+            return new PublicServiceListProjections(clockProviderStub)
+                .Scenario()
+                .Given(events)
+                .Expect(new PublicServiceListItem
+                {
+                    Name = "Test",
+                    PublicServiceId = "DVR000000001",
+                    CurrentLifeCycleStageType = null,
+                    CurrentLifeCycleStageId = null,
+                });
         }
-    }
 
-    public static class Formatters
-    {
-        public static string NamedJsonMessage<T>(T message) => $"{message.GetType().Name} - {JsonConvert.SerializeObject(message, Formatting.Indented)}";
-    }
-
-    public static class ComparisonResultExtensions
-    {
-        public static string CreateDifferenceMessage(this ComparisonResult result, object[] actual, object[] expected)
+        [Fact]
+        public Task DoesNotClearLifeCycleStageWhenAnotherLifeCycleStageNoLongerOverlapsWithToday()
         {
-            var message = new StringBuilder();
+            var clockProviderStub = new ClockProviderStub(Today);
 
-            message
-                .AppendTitleBlock("Expected", expected, Formatters.NamedJsonMessage)
-                .AppendTitleBlock("But", actual, Formatters.NamedJsonMessage)
-                .AppendTitleBlock("Difference", result.DifferencesString.Trim());
+            var publicServiceId = new PublicServiceId("DVR000000001");
+            var events = new object[]
+            {
+                new PublicServiceWasRegistered(publicServiceId, new PublicServiceName("Test"), PrivateZoneId.Unregistered),
+                new StageWasAddedToLifeCycle(publicServiceId, 1, LifeCycleStageType.Active, PeriodOverlappingWithToday),
+                new StageWasAddedToLifeCycle(publicServiceId, 2, LifeCycleStageType.PhasingOut, PeriodOverlappingWithTomorrow),
+                new PeriodOfLifeCycleStageWasChanged(publicServiceId, 2, PeriodOverlappingWithYesterday),
+            };
 
-            return message.ToString();
+            return new PublicServiceListProjections(clockProviderStub)
+                .Scenario()
+                .Given(events)
+                .Expect(new PublicServiceListItem
+                {
+                    Name = "Test",
+                    PublicServiceId = "DVR000000001",
+                    CurrentLifeCycleStageType = "Active",
+                    CurrentLifeCycleStageId = 1,
+                    CurrentLifeCycleStageEndsAt = Today,
+                });
+        }
+
+        [Fact]
+        public Task ClearsLifeCycleStageWhenLastDayHasPassed()
+        {
+            var clockProviderStub = new ClockProviderStub(Today);
+
+            var publicServiceId = new PublicServiceId("DVR000000001");
+            var events = new object[]
+            {
+                new PublicServiceWasRegistered(publicServiceId, new PublicServiceName("Test"), PrivateZoneId.Unregistered),
+                new StageWasAddedToLifeCycle(publicServiceId, 1, LifeCycleStageType.Active, PeriodOverlappingWithToday),
+                new ClockHasTicked(Tomorrow),
+            };
+
+            return new PublicServiceListProjections(clockProviderStub)
+                .Scenario()
+                .Given(events)
+                .Expect(new PublicServiceListItem
+                {
+                    Name = "Test",
+                    PublicServiceId = "DVR000000001",
+                    CurrentLifeCycleStageType = null,
+                    CurrentLifeCycleStageId = null,
+                    CurrentLifeCycleStageEndsAt = null,
+                });
+        }
+
+        [Fact]
+        public Task SetsNextLifeCycleStageWhenDayHasPassed()
+        {
+            var clockProviderStub = new ClockProviderStub(Today);
+
+            var publicServiceId = new PublicServiceId("DVR000000001");
+            var events = new object[]
+            {
+                new PublicServiceWasRegistered(publicServiceId, new PublicServiceName("Test"), PrivateZoneId.Unregistered),
+                new StageWasAddedToLifeCycle(publicServiceId, 1, LifeCycleStageType.Active, PeriodOverlappingWithToday),
+                new StageWasAddedToLifeCycle(publicServiceId, 2, LifeCycleStageType.PhasingOut, PeriodOverlappingWithTomorrow),
+                new ClockHasTicked(Tomorrow),
+            };
+
+            return new PublicServiceListProjections(clockProviderStub)
+                .Scenario()
+                .Given(events)
+                .Expect(new PublicServiceListItem
+                {
+                    Name = "Test",
+                    PublicServiceId = "DVR000000001",
+                    CurrentLifeCycleStageType = "PhasingOut",
+                    CurrentLifeCycleStageId = 2,
+                    CurrentLifeCycleStageEndsAt = Tomorrow,
+                });
+        }
+
+        [Fact]
+        public Task DoesNotSetNextLifeCycleStageWhenDayHasPassedWhenThatLifeCycleStageWasRemoved()
+        {
+            var clockProviderStub = new ClockProviderStub(Today);
+
+            var publicServiceId = new PublicServiceId("DVR000000001");
+            var events = new object[]
+            {
+                new PublicServiceWasRegistered(publicServiceId, new PublicServiceName("Test"), PrivateZoneId.Unregistered),
+                new StageWasAddedToLifeCycle(publicServiceId, 1, LifeCycleStageType.Active, PeriodOverlappingWithToday),
+                new StageWasAddedToLifeCycle(publicServiceId, 2, LifeCycleStageType.PhasingOut, PeriodOverlappingWithTomorrow),
+                new LifeCycleStageWasRemoved(publicServiceId, 2),
+                new ClockHasTicked(Tomorrow),
+            };
+
+            return new PublicServiceListProjections(clockProviderStub)
+                .Scenario()
+                .Given(events)
+                .Expect(new PublicServiceListItem
+                {
+                    Name = "Test",
+                    PublicServiceId = "DVR000000001",
+                    CurrentLifeCycleStageType = null,
+                    CurrentLifeCycleStageId = null,
+                    CurrentLifeCycleStageEndsAt = null,
+                });
         }
     }
 }

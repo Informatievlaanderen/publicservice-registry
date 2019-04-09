@@ -1,5 +1,7 @@
 namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceList
 {
+    using System;
+    using System.Linq;
     using System.Threading;
     using System.Threading.Tasks;
     using Be.Vlaanderen.Basisregisters.ProjectionHandling.Connector;
@@ -8,19 +10,19 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceList
 
     public class PublicServiceListProjections : ConnectedProjection<BackofficeContext>
     {
-        public PublicServiceListProjections()
+        public PublicServiceListProjections(IClockProvider clockProvider)
         {
             When<Envelope<PublicServiceWasRegistered>>(async (context, message, ct) =>
             {
+                var publicServiceListItem = new PublicServiceListItem
+                {
+                    PublicServiceId = message.Message.PublicServiceId,
+                    Name = message.Message.Name
+                };
+
                 await context
                     .PublicServiceList
-                    .AddAsync(
-                        new PublicServiceListItem
-                        {
-                            PublicServiceId = message.Message.PublicServiceId,
-                            Name = message.Message.Name
-                        },
-                        ct);
+                    .AddAsync(publicServiceListItem, ct);
             });
 
             When<Envelope<PublicServiceWasRenamed>>(async (context, message, ct) =>
@@ -63,6 +65,121 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceList
 
                 context.Remove(publicServiceListItem);
             });
+
+            When<Envelope<StageWasAddedToLifeCycle>>(async (context, message, ct) =>
+            {
+                await AddLifeCycleStage(message, context, ct);
+
+                var period = new LifeCycleStagePeriod(
+                    new ValidFrom(message.Message.From),
+                    new ValidTo(message.Message.To));
+
+                if (!period.OverlapsWith(clockProvider.Today))
+                    return;
+
+                var publicServiceListItem = await FindPublicService(
+                    context,
+                    message.Message.PublicServiceId,
+                    ct);
+
+                publicServiceListItem.CurrentLifeCycleStageType = message.Message.LifeCycleStageType;
+                publicServiceListItem.CurrentLifeCycleStageId = message.Message.LifeCycleStageId;
+                publicServiceListItem.CurrentLifeCycleStageEndsAt = message.Message.To;
+            });
+
+            When<Envelope<PeriodOfLifeCycleStageWasChanged>>(async (context, message, ct) =>
+            {
+                var publicServiceLifeCycleItem = await FindPublicServiceLifeCycleItemOrNull(
+                    context,
+                    message.Message.PublicServiceId,
+                    message.Message.LifeCycleStageId,
+                    ct);
+
+                publicServiceLifeCycleItem.From = message.Message.From;
+                publicServiceLifeCycleItem.To = message.Message.To;
+
+                var publicServiceListItem = await FindPublicService(
+                    context,
+                    message.Message.PublicServiceId,
+                    ct);
+
+                var period = new LifeCycleStagePeriod(new ValidFrom(message.Message.From), new ValidTo(message.Message.To));
+                if (period.OverlapsWith(clockProvider.Today))
+                {
+                    publicServiceListItem.CurrentLifeCycleStageId = message.Message.LifeCycleStageId;
+                    publicServiceListItem.CurrentLifeCycleStageType = publicServiceLifeCycleItem.LifeCycleStageType;
+                    publicServiceListItem.CurrentLifeCycleStageEndsAt = message.Message.To;
+                }
+                else if (publicServiceListItem.CurrentLifeCycleStageId == message.Message.LifeCycleStageId &&
+                         !period.OverlapsWith(clockProvider.Today))
+                {
+                    publicServiceListItem.CurrentLifeCycleStageId = null;
+                    publicServiceListItem.CurrentLifeCycleStageType = null;
+                    publicServiceListItem.CurrentLifeCycleStageEndsAt = null;
+                }
+            });
+
+            When<Envelope<LifeCycleStageWasRemoved>>(async (context, message, ct) =>
+            {
+                var publicServiceLifeCycleItem = await FindPublicServiceLifeCycleItemOrNull(
+                    context,
+                    message.Message.PublicServiceId,
+                    message.Message.LifeCycleStageId,
+                    ct);
+
+                context.LifeCycleStagesForPublicServiceList.Remove(publicServiceLifeCycleItem);
+
+                var publicServiceListItem = await FindPublicService(
+                    context,
+                    message.Message.PublicServiceId,
+                    ct);
+
+                if (publicServiceListItem.CurrentLifeCycleStageId == publicServiceLifeCycleItem.LifeCycleStageId)
+                {
+                    publicServiceListItem.CurrentLifeCycleStageId = null;
+                    publicServiceListItem.CurrentLifeCycleStageType = null;
+                    publicServiceListItem.CurrentLifeCycleStageEndsAt = null;
+                }
+            });
+
+            When<Envelope<ClockHasTicked>>(async (context, message, ct) =>
+            {
+                foreach (var publicServiceListItem in context.PublicServiceList.Where(item => item.CurrentLifeCycleStageEndsAt != null && item.CurrentLifeCycleStageEndsAt < message.Message.DateTime.Date))
+                {
+                    UpdateCurrentLifeCycleStage(context, publicServiceListItem, message.Message.DateTime);
+                }
+            });
+        }
+
+        private static async Task AddLifeCycleStage(Envelope<StageWasAddedToLifeCycle> message, BackofficeContext context, CancellationToken ct)
+        {
+            var publicServiceLifeCycleItem = new LifeCycleStageItemForPublicServiceList
+            {
+                PublicServiceId = message.Message.PublicServiceId,
+                LifeCycleStageId = message.Message.LifeCycleStageId,
+                LifeCycleStageType = message.Message.LifeCycleStageType,
+                From = message.Message.From,
+                To = message.Message.To
+            };
+
+            await context
+                .LifeCycleStagesForPublicServiceList
+                .AddAsync(publicServiceLifeCycleItem, ct);
+        }
+
+        private static void UpdateCurrentLifeCycleStage(BackofficeContext context, PublicServiceListItem publicServiceListItem, DateTime today)
+        {
+            var currentLifeCycleStage =
+                context
+                    .LifeCycleStagesForPublicServiceList
+                    .SingleOrDefault(stage =>
+                        stage.PublicServiceId == publicServiceListItem.PublicServiceId &&
+                        (stage.From == null || stage.From <= today) &&
+                        (stage.To == null || stage.To >= today));
+
+            publicServiceListItem.CurrentLifeCycleStageType = currentLifeCycleStage?.LifeCycleStageType;
+            publicServiceListItem.CurrentLifeCycleStageId = currentLifeCycleStage?.LifeCycleStageId;
+            publicServiceListItem.CurrentLifeCycleStageEndsAt = currentLifeCycleStage?.To;
         }
 
         private static async Task<PublicServiceListItem> FindPublicService(
@@ -74,5 +191,19 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceList
                 .FindAsync(
                     new object[] { publicServiceId },
                     cancellationToken);
+
+
+        private static async Task<LifeCycleStageItemForPublicServiceList> FindPublicServiceLifeCycleItemOrNull(
+            BackofficeContext context,
+            string publicServiceId,
+            int localId,
+            CancellationToken cancellationToken)
+            => await context.LifeCycleStagesForPublicServiceList
+                .FindAsync(
+                    new object[]
+                    {
+                        publicServiceId,
+                        localId
+                    }, cancellationToken);
     }
 }
