@@ -4,6 +4,7 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService.Responses
     using Be.Vlaanderen.Basisregisters.Api.Exceptions;
     using Microsoft.AspNetCore.Http;
     using Swashbuckle.AspNetCore.Filters;
+    using LifeCycleStageType = PublicServiceRegistry.LifeCycleStageType;
 
     [DataContract(Name = "Dienstverlening", Namespace = "")]
     public class PublicServiceResponse
@@ -28,18 +29,30 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService.Responses
         [DataMember(Name = "ExportNaarOrafin", Order = 5)]
         public bool ExportNaarOrafin { get; set; }
 
+        /// <summary>Huidige levensloopfase type.</summary>
+        [DataMember(Name = "HuidigeLevensloopfaseType", Order = 6)]
+        public string CurrentLifeCycleStageType { get; }
+
+        /// <summary>Naam van het huidige levensloopfase type.</summary>
+        [DataMember(Name = "HuidigeLevensloopfaseTypeNaam", Order = 7)]
+        public string CurrentLifeCycleStageTypeName { get; }
+
         public PublicServiceResponse(
             string id,
             string name,
             string competentAuthorityCode,
             string competentAuthorityName,
-            bool exportToOrafin)
+            bool exportToOrafin,
+            string currentLifeCycleStageType,
+            string currentLifeCycleStageTypeName)
         {
             Id = id;
             Naam = name;
             VerantwoordelijkeAutoriteitCode = competentAuthorityCode;
             VerantwoordelijkeAutoriteitNaam = competentAuthorityName;
             ExportNaarOrafin = exportToOrafin;
+            CurrentLifeCycleStageType = currentLifeCycleStageType;
+            CurrentLifeCycleStageTypeName = currentLifeCycleStageTypeName;
         }
     }
 
@@ -52,7 +65,9 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService.Responses
                 "Schooltoelage voor het basisonderwijs en het secundair onderwijs",
                 "OVO001951",
                 "Agentschap voor Hoger Onderwijs, Volwassenenonderwijs, Kwalificaties en Studietoelagen",
-                true);
+                true,
+                LifeCycleStageType.PhasingOut,
+                LifeCycleStageType.PhasingOut.Translation.Name);
         }
     }
 

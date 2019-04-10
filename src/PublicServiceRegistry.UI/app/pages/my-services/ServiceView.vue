@@ -11,6 +11,7 @@
         <dl>
           <dt class="properties__label">Bevoegde organisatie: </dt><dd class="properties__data">{{ myServiceCompetentAuthority }}</dd>
           <dt class="properties__label">Is subsidie: </dt><dd class="properties__data">{{ myServiceIsSubsidy }}</dd>
+          <dt class="properties__label">Status: </dt><dd class="properties__data">{{ myServiceLifeCycleStageTypeName }}</dd>
         </dl>
       </div>
 
@@ -44,6 +45,7 @@ export default {
       myServiceName: 'currentMyServiceName',
       myServiceCompetentAuthority: 'currentMyServiceCompetentAuthority',
       myServiceIsSubsidy: 'currentMyServiceIsSubsidy',
+      myServiceLifeCycleStageTypeName: 'currentMyServiceCurrentLifeCycleStageTypeName',
       alternativeLabels: 'alternativeLabels',
     }),
   },

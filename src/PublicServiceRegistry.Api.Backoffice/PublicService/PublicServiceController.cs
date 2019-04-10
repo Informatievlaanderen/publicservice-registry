@@ -78,7 +78,11 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService
                     publicService.Name,
                     publicService.CompetentAuthorityCode,
                     publicService.CompetentAuthorityName,
-                    publicService.ExportToOrafin));
+                    publicService.ExportToOrafin,
+                    publicService.CurrentLifeCycleStageType,
+                    !string.IsNullOrEmpty(publicService.CurrentLifeCycleStageType)
+                        ? PublicServiceRegistry.LifeCycleStageType.Parse(publicService.CurrentLifeCycleStageType).Translation.Name
+                        : ""));
         }
 
         /// <summary>
