@@ -11,6 +11,7 @@
       data-datepicker
       :data-datepicker-min="min"
       :data-datepicker-max="max"
+      @input="onInput"
       :value="inputValue"
       v-validate="validation" />
   </div>
