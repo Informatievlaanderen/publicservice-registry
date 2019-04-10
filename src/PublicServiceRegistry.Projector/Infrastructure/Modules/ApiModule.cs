@@ -84,7 +84,7 @@ namespace PublicServiceRegistry.Projector.Infrastructure.Modules
                     _loggerFactory)
 
                 .RegisterProjections<PublicServiceProjections, BackofficeContext>()
-                .RegisterProjections<PublicServiceListProjections, BackofficeContext>()
+                .RegisterProjections<PublicServiceListProjections, BackofficeContext>(() => new PublicServiceListProjections(new ClockProvider()))
                 .RegisterProjections<PublicServiceLabelListProjections, BackofficeContext>()
                 .RegisterProjections<PublicServiceLifeCycleListProjections, BackofficeContext>();
         }
