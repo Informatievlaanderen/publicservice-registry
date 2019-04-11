@@ -23,7 +23,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Queries
         protected override Expression<Func<PublicServiceLifeCycleItem, PublicServiceLifeCycleResponseItem>> Transformation =>
             x => new PublicServiceLifeCycleResponseItem(
                 x.PublicServiceId,
-                x.LocalId,
+                x.LifeCycleStageId,
                 x.LifeCycleStageType,
                 x.From,
                 x.To);

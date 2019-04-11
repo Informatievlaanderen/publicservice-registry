@@ -18,7 +18,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceLifeCycle
                 var publicServiceLifeCycleItem = new PublicServiceLifeCycleItem
                 {
                     PublicServiceId = message.Message.PublicServiceId,
-                    LocalId = message.Message.LifeCycleStageId,
+                    LifeCycleStageId = message.Message.LifeCycleStageId,
                     LifeCycleStageType = message.Message.LifeCycleStageType,
                     From = message.Message.From,
                     To = message.Message.To
