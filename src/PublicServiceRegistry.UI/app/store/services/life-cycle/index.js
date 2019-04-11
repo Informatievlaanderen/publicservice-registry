@@ -170,7 +170,9 @@ export default class {
       changePeriodForLifeCycleStage({ commit }, { id, lifeCycleStageId, data }) {
         commitRoot(commit, LOADING_ON);
 
+        console.log('data', data);
         const request = new ChangePeriodForLifeCycleStage(id, lifeCycleStageId, data);
+        console.log('request', request);
 
         return api.changePeriodOfLifeCycleStage(request)
           .then(() => {

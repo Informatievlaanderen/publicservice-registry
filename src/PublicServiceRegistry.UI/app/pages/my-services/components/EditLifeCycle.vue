@@ -88,10 +88,14 @@ export default {
       ]
     },
     from() {
-      return this.localState.from || this.currentLifeCycleStage.from;
+      return this.localState.from !== null ?
+        this.localState.from :
+        this.currentLifeCycleStage.from;
     },
     to() {
-      return this.localState.to || this.currentLifeCycleStage.to;
+      return this.localState.to !== null ?
+        this.localState.to :
+        this.currentLifeCycleStage.to;
     },
     inputDisabled() {
       return this.isLoading;B
