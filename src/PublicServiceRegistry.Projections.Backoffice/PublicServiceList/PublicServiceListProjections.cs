@@ -6,6 +6,8 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceList
     using System.Threading.Tasks;
     using Be.Vlaanderen.Basisregisters.ProjectionHandling.Connector;
     using Be.Vlaanderen.Basisregisters.ProjectionHandling.SqlStreamStore;
+    using NodaTime;
+    using PublicServiceLifeCycle;
     using PublicServiceRegistry.PublicService.Events;
 
     public class PublicServiceListProjections : ConnectedProjection<BackofficeContext>
@@ -144,9 +146,11 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceList
 
             When<Envelope<ClockHasTicked>>(async (context, message, ct) =>
             {
-                foreach (var publicServiceListItem in context.PublicServiceList.Where(item => item.CurrentLifeCycleStageEndsAt != null && item.CurrentLifeCycleStageEndsAt < message.Message.DateTime.Date))
+                var date = LocalDate.FromDateTime(message.Message.DateTime);
+                var dateAsInt = date.ToInt();
+                foreach (var publicServiceListItem in context.PublicServiceList.Where(item => item.CurrentLifeCycleStageEndsAtAsInt != null && item.CurrentLifeCycleStageEndsAtAsInt < dateAsInt))
                 {
-                    UpdateCurrentLifeCycleStage(context, publicServiceListItem, message.Message.DateTime);
+                    UpdateCurrentLifeCycleStage(context, publicServiceListItem, date);
                 }
             });
         }
@@ -167,15 +171,16 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceList
                 .AddAsync(publicServiceLifeCycleItem, ct);
         }
 
-        private static void UpdateCurrentLifeCycleStage(BackofficeContext context, PublicServiceListItem publicServiceListItem, DateTime today)
+        private static void UpdateCurrentLifeCycleStage(BackofficeContext context, PublicServiceListItem publicServiceListItem, LocalDate today)
         {
+            var todayAsInt = today.ToInt();
             var currentLifeCycleStage =
                 context
                     .LifeCycleStagesForPublicServiceList
                     .SingleOrDefault(stage =>
                         stage.PublicServiceId == publicServiceListItem.PublicServiceId &&
-                        (stage.From == null || stage.From <= today) &&
-                        (stage.To == null || stage.To >= today));
+                        (stage.FromAsInt == null || stage.FromAsInt <= todayAsInt) &&
+                        (stage.ToAsInt == null || stage.ToAsInt >= todayAsInt));
 
             publicServiceListItem.CurrentLifeCycleStageType = currentLifeCycleStage?.LifeCycleStageType;
             publicServiceListItem.CurrentLifeCycleStageId = currentLifeCycleStage?.LifeCycleStageId;

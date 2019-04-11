@@ -43,11 +43,11 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
                 {
                     var publicService =
                         await context.PublicServiceLifeCycleList.FirstAsync(a =>
-                            a.PublicServiceId == stageWasAddedToLifeCycle.PublicServiceId && a.LocalId == stageWasAddedToLifeCycle.LifeCycleStageId);
+                            a.PublicServiceId == stageWasAddedToLifeCycle.PublicServiceId && a.LifeCycleStageId == stageWasAddedToLifeCycle.LifeCycleStageId);
 
                     publicService.Should().BeEquivalentTo(new PublicServiceLifeCycleItem()
                     {
-                        LocalId = stageWasAddedToLifeCycle.LifeCycleStageId,
+                        LifeCycleStageId = stageWasAddedToLifeCycle.LifeCycleStageId,
                         PublicServiceId = stageWasAddedToLifeCycle.PublicServiceId,
                         LifeCycleStageType = stageWasAddedToLifeCycle.LifeCycleStageType,
                         From = stageWasAddedToLifeCycle.From,
@@ -79,11 +79,11 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
                 {
                     var publicService =
                         await context.PublicServiceLifeCycleList.FirstAsync(a =>
-                            a.PublicServiceId == stageWasAddedToLifeCycle.PublicServiceId && a.LocalId == stageWasAddedToLifeCycle.LifeCycleStageId);
+                            a.PublicServiceId == stageWasAddedToLifeCycle.PublicServiceId && a.LifeCycleStageId == stageWasAddedToLifeCycle.LifeCycleStageId);
 
                     publicService.Should().BeEquivalentTo(new PublicServiceLifeCycleItem()
                     {
-                        LocalId = stageWasAddedToLifeCycle.LifeCycleStageId,
+                        LifeCycleStageId = stageWasAddedToLifeCycle.LifeCycleStageId,
                         PublicServiceId = stageWasAddedToLifeCycle.PublicServiceId,
                         LifeCycleStageType = stageWasAddedToLifeCycle.LifeCycleStageType,
                         From = periodOfLifeCycleStageWasChanged.From,
@@ -114,7 +114,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
                 {
                     var publicService =
                         await context.PublicServiceLifeCycleList.FirstOrDefaultAsync(a =>
-                            a.PublicServiceId == stageWasAddedToLifeCycle.PublicServiceId && a.LocalId == stageWasAddedToLifeCycle.LifeCycleStageId);
+                            a.PublicServiceId == stageWasAddedToLifeCycle.PublicServiceId && a.LifeCycleStageId == stageWasAddedToLifeCycle.LifeCycleStageId);
 
                     publicService.Should().BeNull();
 
@@ -142,7 +142,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
                 {
                     var publicService =
                         await context.PublicServiceLifeCycleList.FirstOrDefaultAsync(a =>
-                            a.PublicServiceId == stageWasAddedToLifeCycle.PublicServiceId && a.LocalId == stageWasAddedToLifeCycle.LifeCycleStageId);
+                            a.PublicServiceId == stageWasAddedToLifeCycle.PublicServiceId && a.LifeCycleStageId == stageWasAddedToLifeCycle.LifeCycleStageId);
 
                     publicService.Should().BeNull();
 

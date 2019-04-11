@@ -1,6 +1,7 @@
 namespace PublicServiceRegistry.Projections.Backoffice.Tests
 {
     using System;
+    using NodaTime;
 
     public class ClockProviderStub : IClockProvider
     {
@@ -16,6 +17,6 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
             _now = now;
         }
 
-        public DateTime Today => _now.Date;
+        public LocalDate Today => LocalDate.FromDateTime(_now.Date);
     }
 }
