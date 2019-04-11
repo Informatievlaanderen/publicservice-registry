@@ -104,7 +104,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
                 await context
                     .PublicServiceLifeCycleList
                     .AsNoTracking()
-                    .SingleOrDefaultAsync(item => item.PublicServiceId == id && item.LocalId == faseId, cancellationToken);
+                    .SingleOrDefaultAsync(item => item.PublicServiceId == id && item.LifeCycleStageId == faseId, cancellationToken);
 
             if (publicService == null)
                 return NotFound();
