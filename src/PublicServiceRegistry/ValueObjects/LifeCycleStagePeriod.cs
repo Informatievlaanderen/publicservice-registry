@@ -3,6 +3,7 @@ namespace PublicServiceRegistry
     using System;
     using System.Collections.Generic;
     using Be.Vlaanderen.Basisregisters.AggregateSource;
+    using NodaTime;
     using PublicService.Exceptions;
 
     public class LifeCycleStagePeriod : ValueObject<LifeCycleStagePeriod>
@@ -15,8 +16,8 @@ namespace PublicServiceRegistry
 
         public LifeCycleStagePeriod(ValidFrom start, ValidTo end)
         {
-            var endDate = end.DateTime;
-            var startDate = start.DateTime;
+            var endDate = end.Date;
+            var startDate = start.Date;
             if (endDate < startDate)
                 throw new StartDateCannotBeAfterEndDateException();
 
@@ -34,15 +35,15 @@ namespace PublicServiceRegistry
             if (period == null)
                 return false;
 
-            var periodEndDate = period.End.DateTime;
-            var startDate = Start.DateTime;
+            var periodEndDate = period.End.Date;
+            var startDate = Start.Date;
             if (periodEndDate < startDate)
             {
                 return false;
             }
 
-            var endDate = End.DateTime;
-            var periodStartDate = period.Start.DateTime;
+            var endDate = End.Date;
+            var periodStartDate = period.Start.Date;
             if (endDate < periodStartDate)
             {
                 return false;
@@ -51,7 +52,7 @@ namespace PublicServiceRegistry
             return true;
         }
 
-        public bool OverlapsWith(DateTime date)
+        public bool OverlapsWith(LocalDate date)
         {
             return OverlapsWith(
                 new LifeCycleStagePeriod(

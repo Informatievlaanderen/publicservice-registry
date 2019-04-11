@@ -10,6 +10,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
     using Be.Vlaanderen.Basisregisters.ProjectionHandling.SqlStreamStore;
     using FluentAssertions;
     using Microsoft.EntityFrameworkCore;
+    using NodaTime;
     using PublicServiceList;
     using PublicServiceRegistry.PublicService.Events;
     using Xunit;
@@ -20,11 +21,12 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
 
         private static readonly DateTime Today = DateTime.Now.Date;
         private static readonly DateTime Tomorrow = DateTime.Now.AddDays(1).Date;
+        private static readonly DateTime Yesterday = DateTime.Now.AddDays(-1).Date;
 
         private static readonly LifeCycleStagePeriod PeriodValidAlways = new LifeCycleStagePeriod(new ValidFrom(), new ValidTo());
-        private static readonly LifeCycleStagePeriod PeriodOverlappingWithToday = new LifeCycleStagePeriod(new ValidFrom(Today), new ValidTo(Today));
-        private static readonly LifeCycleStagePeriod PeriodOverlappingWithTomorrow = new LifeCycleStagePeriod(new ValidFrom(Tomorrow), new ValidTo(Tomorrow));
-        private static readonly LifeCycleStagePeriod PeriodOverlappingWithYesterday = new LifeCycleStagePeriod(new ValidFrom(Tomorrow), new ValidTo(Tomorrow));
+        private static readonly LifeCycleStagePeriod PeriodOverlappingWithToday = new LifeCycleStagePeriod(new ValidFrom(LocalDate.FromDateTime(Today)), new ValidTo(LocalDate.FromDateTime(Today)));
+        private static readonly LifeCycleStagePeriod PeriodOverlappingWithTomorrow = new LifeCycleStagePeriod(new ValidFrom(LocalDate.FromDateTime(Tomorrow)), new ValidTo(LocalDate.FromDateTime(Tomorrow)));
+        private static readonly LifeCycleStagePeriod PeriodOverlappingWithYesterday = new LifeCycleStagePeriod(new ValidFrom(LocalDate.FromDateTime(Yesterday)), new ValidTo(LocalDate.FromDateTime(Yesterday)));
 
         public PublicServiceListTests()
         {
@@ -151,7 +153,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
                     PublicServiceId = "DVR000000001",
                     CurrentLifeCycleStageType = "Active",
                     CurrentLifeCycleStageId = 1,
-                    CurrentLifeCycleStageEndsAt = Today,
+                    CurrentLifeCycleStageEndsAt = LocalDate.FromDateTime(Today),
                 });
         }
 
@@ -227,7 +229,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
                     PublicServiceId = "DVR000000001",
                     CurrentLifeCycleStageType = "Active",
                     CurrentLifeCycleStageId = 1,
-                    CurrentLifeCycleStageEndsAt = Today,
+                    CurrentLifeCycleStageEndsAt = LocalDate.FromDateTime(Today),
                 });
         }
 
@@ -280,7 +282,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
                     PublicServiceId = "DVR000000001",
                     CurrentLifeCycleStageType = "PhasingOut",
                     CurrentLifeCycleStageId = 2,
-                    CurrentLifeCycleStageEndsAt = Tomorrow,
+                    CurrentLifeCycleStageEndsAt = LocalDate.FromDateTime(Tomorrow),
                 });
         }
 

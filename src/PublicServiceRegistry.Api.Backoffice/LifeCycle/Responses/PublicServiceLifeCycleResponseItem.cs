@@ -3,6 +3,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Responses
     using System;
     using System.Collections.Generic;
     using System.Runtime.Serialization;
+    using NodaTime;
     using Swashbuckle.AspNetCore.Filters;
 
     [DataContract(Name = "Levensloopfase", Namespace = "")]
@@ -45,14 +46,14 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Responses
         public DateTime? Tot { get; }
 
 
-        public PublicServiceLifeCycleResponseItem(string publicServiceId, int localId, string lifeCycleStageTypeId, DateTime? from, DateTime? to)
+        public PublicServiceLifeCycleResponseItem(string publicServiceId, int localId, string lifeCycleStageTypeId, LocalDate? from, LocalDate? to)
         {
             DienstverleningId = publicServiceId;
             LevensloopfaseId = localId;
             LevensloopfaseTypeId = lifeCycleStageTypeId;
             LevensloopfaseTypeNaam = PublicServiceRegistry.LifeCycleStageType.Parse(lifeCycleStageTypeId).Translation.Name;
-            Vanaf = from;
-            Tot = to;
+            Vanaf = from?.ToDateTimeUnspecified();
+            Tot = to?.ToDateTimeUnspecified();
         }
     }
 
@@ -67,15 +68,15 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Responses
                     "DVR000000001",
                     1,
                     "Active",
-                    DateTime.Now,
-                    DateTime.Now.AddDays(1)),
+                    LocalDate.FromDateTime(DateTime.Now),
+                    LocalDate.FromDateTime(DateTime.Now.AddDays(1))),
 
                 new PublicServiceLifeCycleResponseItem(
                     "DVR000000001",
                     2,
                     "Planned",
-                    DateTime.Now.AddDays(3),
-                    DateTime.Now.AddDays(4)),
+                    LocalDate.FromDateTime(DateTime.Now.AddDays(3)),
+                    LocalDate.FromDateTime(DateTime.Now.AddDays(4))),
             };
         }
     }

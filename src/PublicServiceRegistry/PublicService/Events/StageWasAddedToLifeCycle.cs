@@ -3,6 +3,7 @@ namespace PublicServiceRegistry.PublicService.Events
     using System;
     using Be.Vlaanderen.Basisregisters.EventHandling;
     using Newtonsoft.Json;
+    using NodaTime;
 
     [EventName("StageWasAddedToLifeCycle")]
     [EventDescription("Er werd een periode toegekend aan een levensloopfase van de dienstverlening.")]
@@ -11,8 +12,8 @@ namespace PublicServiceRegistry.PublicService.Events
         public string PublicServiceId { get; }
         public int LifeCycleStageId { get; }
         public string LifeCycleStageType { get; }
-        public DateTime? From { get; }
-        public DateTime? To { get; }
+        public LocalDate? From { get; }
+        public LocalDate? To { get; }
 
         public StageWasAddedToLifeCycle(PublicServiceId publicServiceId,
             int lifeCycleStageId,
@@ -31,8 +32,8 @@ namespace PublicServiceRegistry.PublicService.Events
             string publicServiceId,
             int lifeCycleStageId,
             string lifeCycleStageType,
-            DateTime? from,
-            DateTime? to) :
+            LocalDate? from,
+            LocalDate? to) :
             this(
                 new PublicServiceId(publicServiceId),
                 lifeCycleStageId,

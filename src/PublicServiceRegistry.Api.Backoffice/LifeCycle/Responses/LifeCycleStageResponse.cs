@@ -5,6 +5,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Responses
     using System.Runtime.Serialization;
     using Be.Vlaanderen.Basisregisters.Api.Exceptions;
     using Microsoft.AspNetCore.Http;
+    using NodaTime;
     using Swashbuckle.AspNetCore.Filters;
 
     [DataContract(Name = "Levensloop", Namespace = "")]
@@ -37,13 +38,13 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Responses
         public LifeCycleStageResponse(
             string lifeCycleStageType,
             string lifeCycleStageTypeName,
-            DateTime? from,
-            DateTime? to)
+            LocalDate? from,
+            LocalDate? to)
         {
             LevensloopfaseType = lifeCycleStageType;
             LifeCycleStageTypeNaam = lifeCycleStageTypeName;
-            Vanaf = from;
-            Tot = to;
+            Vanaf = from?.ToDateTimeUnspecified();
+            Tot = to?.ToDateTimeUnspecified();
         }
     }
 
@@ -52,8 +53,8 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Responses
         public object GetExamples() =>
             new List<LifeCycleStageResponse>
             {
-                new LifeCycleStageResponse(PublicServiceRegistry.LifeCycleStageType.Active.ToString(), PublicServiceRegistry.LifeCycleStageType.Active.Translation.Name, DateTime.Now.Date, DateTime.Now.Date.AddDays(1)),
-                new LifeCycleStageResponse(PublicServiceRegistry.LifeCycleStageType.PhasingOut.ToString(), PublicServiceRegistry.LifeCycleStageType.PhasingOut.Translation.Name, DateTime.Now.Date, DateTime.Now.Date.AddDays(1)),
+                new LifeCycleStageResponse(PublicServiceRegistry.LifeCycleStageType.Active.ToString(), PublicServiceRegistry.LifeCycleStageType.Active.Translation.Name, LocalDate.FromDateTime(DateTime.Now.Date), LocalDate.FromDateTime(DateTime.Now.Date.AddDays(1))),
+                new LifeCycleStageResponse(PublicServiceRegistry.LifeCycleStageType.PhasingOut.ToString(), PublicServiceRegistry.LifeCycleStageType.PhasingOut.Translation.Name, LocalDate.FromDateTime(DateTime.Now.Date), LocalDate.FromDateTime(DateTime.Now.Date.AddDays(1))),
             };
     }
 

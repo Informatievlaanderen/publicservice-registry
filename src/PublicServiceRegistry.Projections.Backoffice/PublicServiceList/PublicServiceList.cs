@@ -4,6 +4,8 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceList
     using Infrastructure;
     using Microsoft.EntityFrameworkCore;
     using Microsoft.EntityFrameworkCore.Metadata.Builders;
+    using NodaTime;
+    using PublicServiceLifeCycle;
 
     public class PublicServiceListItem
     {
@@ -14,7 +16,13 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceList
         public bool ExportToOrafin { get; set; }
         public string CurrentLifeCycleStageType { get; set; }
         public int? CurrentLifeCycleStageId { get; set; }
-        public DateTime? CurrentLifeCycleStageEndsAt { get; set; }
+        public int? CurrentLifeCycleStageEndsAtAsInt { get; set; }
+
+        public LocalDate? CurrentLifeCycleStageEndsAt
+        {
+            get => CurrentLifeCycleStageEndsAtAsInt.ToLocalDate();
+            set => CurrentLifeCycleStageEndsAtAsInt = value.ToInt();
+        }
     }
 
     public class PublicServiceListConfiguration : IEntityTypeConfiguration<PublicServiceListItem>
@@ -33,7 +41,9 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceList
             b.Property(p => p.ExportToOrafin);
             b.Property(p => p.CurrentLifeCycleStageId);
             b.Property(p => p.CurrentLifeCycleStageType);
-            b.Property(p => p.CurrentLifeCycleStageEndsAt);
+            b.Property(p => p.CurrentLifeCycleStageEndsAtAsInt).HasColumnName("CurrentLifeCycleStageEndsAt");
+
+            b.Ignore(p => p.CurrentLifeCycleStageEndsAt);
 
             b.HasIndex(p => p.Name);
         }

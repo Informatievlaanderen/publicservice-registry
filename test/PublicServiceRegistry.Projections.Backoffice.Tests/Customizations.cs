@@ -3,6 +3,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
     using System;
     using AutoFixture;
     using AutoFixture.Dsl;
+    using NodaTime;
     using PublicServiceRegistry.PublicService.Events;
 
     internal static class Customizations
@@ -38,7 +39,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
                         var from = fixture.Create<DateTime?>();
                         var to = from.HasValue ? from + fixture.Create<TimeSpan>() : fixture.Create<DateTime?>();
 
-                        return new LifeCycleStagePeriod(new ValidFrom(from), new ValidTo(to));
+                        return new LifeCycleStagePeriod(new ValidFrom(from.HasValue ? LocalDate.FromDateTime(from.Value) : (LocalDate?) null), new ValidTo(to.HasValue ? LocalDate.FromDateTime(to.Value) : (LocalDate?) null));
                     }));
 
         public static void CustomizeStageWasAddedToLifeCycle(this IFixture fixture) =>

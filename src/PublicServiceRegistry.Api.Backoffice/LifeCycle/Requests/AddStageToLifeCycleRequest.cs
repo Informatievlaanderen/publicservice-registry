@@ -3,6 +3,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Requests
     using System;
     using System.Globalization;
     using System.Runtime.Serialization;
+    using NodaTime;
     using PublicServiceRegistry.PublicService.Commands;
     using Swashbuckle.AspNetCore.Filters;
     using LifeCycleStageType = PublicServiceRegistry.LifeCycleStageType;
@@ -49,7 +50,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Requests
                 new PublicServiceId(id),
                 LifeCycleStageType.Parse(message.LevensloopfaseType),
                 new LifeCycleStagePeriod(
-                    new ValidFrom(message.Vanaf),
-                    new ValidTo(message.Tot)));
+                    new ValidFrom(message.Vanaf.HasValue ? LocalDate.FromDateTime(message.Vanaf.Value) : (LocalDate?)null),
+                    new ValidTo(message.Tot.HasValue ? LocalDate.FromDateTime(message.Tot.Value) : (LocalDate?)null)));
     }
 }

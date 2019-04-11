@@ -1,41 +1,43 @@
 namespace PublicServiceRegistry
 {
     using System;
+    using System.Globalization;
+    using NodaTime;
 
     public struct ValidTo : IEquatable<ValidTo>, IComparable<ValidTo>
     {
-        public DateTime? DateTime { get; }
+        public LocalDate? Date { get; }
 
-        public bool IsInfinite => !DateTime.HasValue;
+        public bool IsInfinite => !Date.HasValue;
 
-        public ValidTo(DateTime? dateTime)
+        public ValidTo(LocalDate? localDate)
         {
-            DateTime = dateTime;
+            Date = localDate;
         }
 
         public ValidTo(int year, int month, int day)
         {
-            DateTime = new DateTime(year, month, day);
+            Date = new LocalDate(year, month, day);
         }
 
-        public static implicit operator DateTime? (ValidTo validTo)
+        public static implicit operator LocalDate? (ValidTo validTo)
         {
-            return validTo.DateTime;
+            return validTo.Date;
         }
 
         public override string ToString()
         {
-            return DateTime.HasValue ? DateTime.Value.ToString("yyyy-MM-dd") : "~";
+            return Date.HasValue ? Date.Value.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture) : "~";
         }
 
-        public bool IsInFutureOf(DateTime date, bool inclusive = false)
+        public bool IsInFutureOf(LocalDate date, bool inclusive = false)
         {
             return inclusive
                 ? this >= new ValidTo(date)
                 : this > new ValidTo(date);
         }
 
-        public bool IsInPastOf(DateTime date, bool inclusive = false)
+        public bool IsInPastOf(LocalDate date, bool inclusive = false)
         {
             return inclusive
                 ? this <= new ValidTo(date)
@@ -56,22 +58,22 @@ namespace PublicServiceRegistry
 
         public int CompareTo(ValidTo other)
         {
-            if (!DateTime.HasValue && !other.DateTime.HasValue)
+            if (!Date.HasValue && !other.Date.HasValue)
                 return 0;
 
-            if (!DateTime.HasValue)
+            if (!Date.HasValue)
                 return 1;
 
-            if (!other.DateTime.HasValue)
+            if (!other.Date.HasValue)
                 return -1;
 
-            return DateTime.Value.CompareTo(other.DateTime.Value);
+            return Date.Value.CompareTo(other.Date.Value);
         }
 
         public override bool Equals(object obj) => obj is ValidTo && Equals((ValidTo)obj);
 
-        public bool Equals(ValidTo other) => DateTime == other.DateTime;
+        public bool Equals(ValidTo other) => Date == other.Date;
 
-        public override int GetHashCode() => DateTime.GetHashCode();
+        public override int GetHashCode() => Date.GetHashCode();
     }
 }

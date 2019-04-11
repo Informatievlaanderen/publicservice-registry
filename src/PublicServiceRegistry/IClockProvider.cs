@@ -1,14 +1,15 @@
 namespace PublicServiceRegistry
 {
     using System;
+    using NodaTime;
 
     public interface IClockProvider
     {
-        DateTime Today { get; }
+        LocalDate Today { get; }
     }
 
     public class ClockProvider : IClockProvider
     {
-        public DateTime Today => DateTime.Today;
+        public LocalDate Today => LocalDate.FromDateTime(DateTime.Today);
     }
 }

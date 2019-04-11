@@ -5,11 +5,11 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceList
     using Infrastructure;
     using Microsoft.EntityFrameworkCore;
     using Microsoft.EntityFrameworkCore.Metadata.Builders;
+    using NodaTime;
+    using PublicServiceLifeCycle;
 
     public class LifeCycleStageItemForPublicServiceList
     {
-        private const string DateFormat = "yyyyMMdd";
-
         public string PublicServiceId { get; set; }
         public int LifeCycleStageId { get; set; }
         public string LifeCycleStageType { get; set; }
@@ -17,24 +17,16 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceList
         public int? FromAsInt { get; set; }
         public int? ToAsInt { get; set; }
 
-        public DateTime? From
+        public LocalDate? From
         {
-            get => FromAsInt.HasValue
-                ? DateTime.ParseExact(FromAsInt.ToString(), DateFormat, CultureInfo.InvariantCulture, DateTimeStyles.AssumeLocal)
-                : (DateTime?) null;
-            set => FromAsInt = value.HasValue
-                ? Convert.ToInt32(value.Value.ToString(DateFormat, CultureInfo.InvariantCulture))
-                : (int?) null;
+            get => FromAsInt.ToLocalDate();
+            set => FromAsInt = value.ToInt();
         }
 
-        public DateTime? To
+        public LocalDate? To
         {
-            get => ToAsInt.HasValue
-                ? DateTime.ParseExact(ToAsInt.ToString(), DateFormat, CultureInfo.InvariantCulture, DateTimeStyles.AssumeLocal)
-                : (DateTime?)null;
-            set => ToAsInt = value.HasValue
-                ? Convert.ToInt32(value.Value.ToString(DateFormat, CultureInfo.InvariantCulture))
-                : (int?)null;
+            get => ToAsInt.ToLocalDate();
+            set => ToAsInt = value.ToInt();
         }
     }
 

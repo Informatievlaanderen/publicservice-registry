@@ -2,6 +2,7 @@ namespace PublicServiceRegistry.Tests.Framework
 {
     using System;
     using AutoFixture;
+    using NodaTime;
 
     public class WithLifeCycleStagePeriod : ICustomization
     {
@@ -14,7 +15,7 @@ namespace PublicServiceRegistry.Tests.Framework
                     from + fixture.Create<TimeSpan>() :
                     fixture.Create<DateTime?>();
 
-                return new LifeCycleStagePeriod(new ValidFrom(from), new ValidTo(to));
+                return new LifeCycleStagePeriod(new ValidFrom(from.HasValue ? LocalDate.FromDateTime(from.Value) : (LocalDate?) null), new ValidTo(to.HasValue ? LocalDate.FromDateTime(to.Value) : (LocalDate?) null));
             }));
         }
     }
