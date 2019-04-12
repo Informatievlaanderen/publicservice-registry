@@ -10,6 +10,7 @@ namespace Be.Vlaanderen.Basisregisters.Testing.Infrastructure.Events
     using System.Runtime.CompilerServices;
     using AggregateSource;
     using Newtonsoft.Json;
+    using PublicServiceRegistry.PublicService.Events;
 
     /// <summary>
     /// This class was generated using a nuget package called Be.Vlaanderen.Basisregisters.Testing.Infrastructure.Events.
@@ -97,7 +98,8 @@ namespace Be.Vlaanderen.Basisregisters.Testing.Infrastructure.Events
         [Fact]
         public void HasJsonConstructor()
         {
-            foreach (var type in _eventTypes)
+            foreach (var type in _eventTypes.Where(x =>
+                x.Name != nameof(ClockHasTicked)))
             {
                 type.GetConstructors(BindingFlags.NonPublic | BindingFlags.Instance)
                     .SelectMany(s => s.GetCustomAttributes(typeof(JsonConstructorAttribute), true))
