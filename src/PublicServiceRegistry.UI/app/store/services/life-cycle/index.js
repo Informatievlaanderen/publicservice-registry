@@ -158,8 +158,8 @@ export default class {
 
         api
           .addStageToLifeCycle(new AddStageToLifeCycle(id, data))
-          .then(result => {
-            router.push({ name: 'my-service-life-cycle', params: { id: id, lop: result.data } });
+          .then((result) => {
+            router.push({ name: 'my-service-life-cycle', params: { id, lop: result.data } });
             commitRoot(commit, SET_ALERT, success.dienstverleningAangepast);
           })
           .catch((error) => {
@@ -171,13 +171,11 @@ export default class {
       changePeriodForLifeCycleStage({ commit }, { id, lifeCycleStageId, data }) {
         commitRoot(commit, LOADING_ON);
 
-        console.log('data', data);
         const request = new ChangePeriodForLifeCycleStage(id, lifeCycleStageId, data);
-        console.log('request', request);
 
         return api.changePeriodOfLifeCycleStage(request)
-          .then(result => {
-            router.push({ name: 'my-service-life-cycle', params: { id: id, lop: result.data } });
+          .then((result) => {
+            router.push({ name: 'my-service-life-cycle', params: { id, lop: result.data } });
             commitRoot(commit, SET_ALERT, success.dienstverleningAangepast);
           })
           .catch((error) => {
