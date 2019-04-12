@@ -2,6 +2,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Responses
 {
     using System;
     using System.Collections.Generic;
+    using System.Globalization;
     using System.Runtime.Serialization;
     using NodaTime;
     using Swashbuckle.AspNetCore.Filters;
@@ -37,13 +38,13 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Responses
         /// Startdatum van de levensloopfase (inclusief).
         /// </summary>
         [DataMember(Name = "Vanaf", Order = 5)]
-        public DateTime? Vanaf { get; }
+        public string Vanaf { get; }
 
         /// <summary>
         /// Einddatum van de levensloopfase (inclusief).
         /// </summary>
         [DataMember(Name = "Tot", Order = 6)]
-        public DateTime? Tot { get; }
+        public string Tot { get; }
 
 
         public PublicServiceLifeCycleResponseItem(string publicServiceId, int localId, string lifeCycleStageTypeId, LocalDate? from, LocalDate? to)
@@ -52,8 +53,8 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Responses
             LevensloopfaseId = localId;
             LevensloopfaseTypeId = lifeCycleStageTypeId;
             LevensloopfaseTypeNaam = PublicServiceRegistry.LifeCycleStageType.Parse(lifeCycleStageTypeId).Translation.Name;
-            Vanaf = from?.ToDateTimeUnspecified();
-            Tot = to?.ToDateTimeUnspecified();
+            Vanaf = from?.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture);
+            Tot = to?.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture);
         }
     }
 

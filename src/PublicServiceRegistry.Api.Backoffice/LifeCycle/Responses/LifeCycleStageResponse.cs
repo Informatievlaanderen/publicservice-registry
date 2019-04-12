@@ -2,6 +2,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Responses
 {
     using System;
     using System.Collections.Generic;
+    using System.Globalization;
     using System.Runtime.Serialization;
     using Be.Vlaanderen.Basisregisters.Api.Exceptions;
     using Microsoft.AspNetCore.Http;
@@ -27,13 +28,13 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Responses
         /// De startdatum van de levensloopfase (inclusief).
         /// </summary>
         [DataMember(Name = "Vanaf", Order = 3)]
-        public DateTime? Vanaf { get; }
+        public string Vanaf { get; }
 
         /// <summary>
         /// De einddatum van de levensloopfase (inclusief).
         /// </summary>
         [DataMember(Name = "Tot", Order = 4)]
-        public DateTime? Tot { get; }
+        public string Tot { get; }
 
         public LifeCycleStageResponse(
             string lifeCycleStageType,
@@ -43,8 +44,8 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Responses
         {
             LevensloopfaseType = lifeCycleStageType;
             LifeCycleStageTypeNaam = lifeCycleStageTypeName;
-            Vanaf = from?.ToDateTimeUnspecified();
-            Tot = to?.ToDateTimeUnspecified();
+            Vanaf = from?.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture);
+            Tot = to?.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture);
         }
     }
 
