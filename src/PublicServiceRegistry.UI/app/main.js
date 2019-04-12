@@ -145,7 +145,7 @@ Vue.use(formatDatePlugin);
 const router = routerFactory();
 const store = createStore(
   new User(localStorage, router, oidcClient),
-  new Services(router, new ServiceLifeCycle()),
+  new Services(router, new ServiceLifeCycle(router)),
   new Ipdc(),
   new Parameters());
 
