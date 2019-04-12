@@ -116,7 +116,7 @@ export default class {
   state = initialState;
   getters = getters;
   mutations = mutations;
-  constructor() {
+  constructor(router) {
     this.actions = {
 
       loadLifeCycle({ commit, state }, payload = {}) {
@@ -158,7 +158,8 @@ export default class {
 
         api
           .addStageToLifeCycle(new AddStageToLifeCycle(id, data))
-          .then(() => {
+          .then(result => {
+            router.push({ name: 'my-service-life-cycle', params: { id: id, lop: result.data } });
             commitRoot(commit, SET_ALERT, success.dienstverleningAangepast);
           })
           .catch((error) => {
@@ -175,7 +176,8 @@ export default class {
         console.log('request', request);
 
         return api.changePeriodOfLifeCycleStage(request)
-          .then(() => {
+          .then(result => {
+            router.push({ name: 'my-service-life-cycle', params: { id: id, lop: result.data } });
             commitRoot(commit, SET_ALERT, success.dienstverleningAangepast);
           })
           .catch((error) => {
