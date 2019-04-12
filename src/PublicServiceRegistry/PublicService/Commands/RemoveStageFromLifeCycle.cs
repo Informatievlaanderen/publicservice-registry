@@ -4,11 +4,11 @@ namespace PublicServiceRegistry.PublicService.Commands
     {
         public PublicServiceId PublicServiceId { get; }
 
-        public int LifeCycleStageId { get; }
+        public LifeCycleStageId LifeCycleStageId { get; }
 
         public RemoveStageFromLifeCycle(
             PublicServiceId publicServiceId,
-            int lifeCycleStageId)
+            LifeCycleStageId lifeCycleStageId)
         {
             PublicServiceId = publicServiceId;
             LifeCycleStageId = lifeCycleStageId;

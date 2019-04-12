@@ -10,7 +10,7 @@ namespace PublicServiceRegistry.PublicService
     public class LifeCycle : Entity
     {
         private readonly Dictionary<int, LifeCycleStagePeriod> _lifeCycleStagePeriods;
-        private int _lastUsedId = 0;
+        private LifeCycleStageId _lastUsedId = LifeCycleStageId.Zero();
 
         private PublicServiceId _publicServiceId;
 
@@ -26,7 +26,7 @@ namespace PublicServiceRegistry.PublicService
 
         private void When(StageWasAddedToLifeCycle @event)
         {
-            _lastUsedId = @event.LifeCycleStageId;
+            _lastUsedId = LifeCycleStageId.FromNumber(@event.LifeCycleStageId);
 
             var lifeCycleStagePeriod = new LifeCycleStagePeriod(new ValidFrom(@event.From), new ValidTo(@event.To));
 
@@ -58,26 +58,26 @@ namespace PublicServiceRegistry.PublicService
             Apply(
                 new StageWasAddedToLifeCycle(
                     _publicServiceId,
-                    ++_lastUsedId,
+                    _lastUsedId.Next(),
                     lifeCycleStageType,
                     period));
         }
 
-        public void ChangePeriod(int localId, LifeCycleStagePeriod period)
+        public void ChangePeriod(LifeCycleStageId lifeCycleStageId, LifeCycleStagePeriod period)
         {
             if (_lifeCycleStagePeriods
-                .Where(pair => pair.Key != localId)
+                .Where(pair => pair.Key != lifeCycleStageId)
                 .Any(pair => pair.Value.OverlapsWith(period)))
                 throw new LifeCycleCannotHaveOverlappingPeriods();
 
             Apply(
                 new PeriodOfLifeCycleStageWasChanged(
                     _publicServiceId,
-                    localId,
+                    lifeCycleStageId,
                     period));
         }
 
-        public void RemoveStage(int lifeCycleStageId)
+        public void RemoveStage(LifeCycleStageId lifeCycleStageId)
         {
             if (!_lifeCycleStagePeriods.ContainsKey(lifeCycleStageId))
                 throw new LifeCycleStageWithGivenIdNotFound(lifeCycleStageId);

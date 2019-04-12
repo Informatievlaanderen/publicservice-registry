@@ -13,6 +13,7 @@ namespace PublicServiceRegistry.Tests.Framework
             new WithLabelType(),
             new WithLabelValue(),
             new WithLifeCycleStage(),
-            new WithLifeCycleStagePeriod()) { }
+            new WithLifeCycleStagePeriod(),
+            new WithLifeCycleStageId()) { }
     }
 }

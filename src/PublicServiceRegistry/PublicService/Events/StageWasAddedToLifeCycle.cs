@@ -16,7 +16,7 @@ namespace PublicServiceRegistry.PublicService.Events
         public LocalDate? To { get; }
 
         public StageWasAddedToLifeCycle(PublicServiceId publicServiceId,
-            int lifeCycleStageId,
+            LifeCycleStageId lifeCycleStageId,
             LifeCycleStageType lifeCycleStageType,
             LifeCycleStagePeriod period)
         {
@@ -36,7 +36,7 @@ namespace PublicServiceRegistry.PublicService.Events
             LocalDate? to) :
             this(
                 new PublicServiceId(publicServiceId),
-                lifeCycleStageId,
+                PublicServiceRegistry.LifeCycleStageId.FromNumber(lifeCycleStageId),
                 PublicServiceRegistry.LifeCycleStageType.Parse(lifeCycleStageType),
                 new LifeCycleStagePeriod(new ValidFrom(from), new ValidTo(to)))
         {

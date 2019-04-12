@@ -37,11 +37,11 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Requests
 
     public static class ChangePeriodOfLifeCycleStageRequestMapping
     {
-        public static ChangePeriodOfLifeCycleStage Map(string id, int faseId, ChangePeriodOfLifeCycleStageRequest message)
+        public static ChangePeriodOfLifeCycleStage Map(string id, int lifeCycleStageId, ChangePeriodOfLifeCycleStageRequest message)
         {
             return new ChangePeriodOfLifeCycleStage(
                 new PublicServiceId(id),
-                faseId,
+                LifeCycleStageId.FromNumber(lifeCycleStageId),
                 new LifeCycleStagePeriod(
                     new ValidFrom(message.Vanaf.HasValue ? LocalDate.FromDateTime(message.Vanaf.Value) : (LocalDate?)null),
                     new ValidTo(message.Tot.HasValue ? LocalDate.FromDateTime(message.Tot.Value) : (LocalDate?)null)));

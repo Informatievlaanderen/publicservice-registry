@@ -23,9 +23,9 @@ namespace PublicServiceRegistry.Tests.PublicServiceCommands
             Assert(new Scenario()
                 .Given(publicServiceId,
                     new PublicServiceWasRegistered(publicServiceId, publicServiceName, PrivateZoneId.Unregistered),
-                    new StageWasAddedToLifeCycle(publicServiceId, 1, LifeCycleStageType.PhasingOut, period),
+                    new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(1), LifeCycleStageType.PhasingOut, period),
                     new PublicServiceWasRemoved(publicServiceId, reasonForRemoval))
-                .When(new RemoveStageFromLifeCycle(publicServiceId, 1))
+                .When(new RemoveStageFromLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(1)))
                 .Throws(new CannotPerformActionOnRemovedPublicService()));
         }
 
@@ -40,10 +40,10 @@ namespace PublicServiceRegistry.Tests.PublicServiceCommands
                 new Scenario()
                     .Given(publicServiceId,
                         new PublicServiceWasRegistered(publicServiceId, publicServiceName, PrivateZoneId.Unregistered),
-                        new StageWasAddedToLifeCycle(publicServiceId, 1, LifeCycleStageType.PhasingOut, period))
-                    .When(new RemoveStageFromLifeCycle(publicServiceId, 1))
+                        new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(1), LifeCycleStageType.PhasingOut, period))
+                    .When(new RemoveStageFromLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(1)))
                     .Then(publicServiceId,
-                        new LifeCycleStageWasRemoved(publicServiceId, 1)));
+                        new LifeCycleStageWasRemoved(publicServiceId, LifeCycleStageId.FromNumber(1))));
         }
 
         [Theory]
@@ -57,9 +57,9 @@ namespace PublicServiceRegistry.Tests.PublicServiceCommands
                 new Scenario()
                     .Given(publicServiceId,
                         new PublicServiceWasRegistered(publicServiceId, publicServiceName, PrivateZoneId.Unregistered),
-                        new StageWasAddedToLifeCycle(publicServiceId, 1, LifeCycleStageType.PhasingOut, period),
-                        new LifeCycleStageWasRemoved(publicServiceId, 1))
-                    .When(new RemoveStageFromLifeCycle(publicServiceId, 1))
+                        new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(1), LifeCycleStageType.PhasingOut, period),
+                        new LifeCycleStageWasRemoved(publicServiceId, LifeCycleStageId.FromNumber(1)))
+                    .When(new RemoveStageFromLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(1)))
                     .Throws(new LifeCycleStageWithGivenIdNotFound(1)));
         }
     }

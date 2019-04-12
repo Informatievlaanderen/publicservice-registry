@@ -48,7 +48,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
                     .FromFactory(generator =>
                         new StageWasAddedToLifeCycle(
                             PublicServiceId.FromNumber(fixture.Create<int>()),
-                            fixture.Create<int>(),
+                            LifeCycleStageId.FromNumber(fixture.Create<int>()),
                             LifeCycleStageType.All[generator.Next() % LifeCycleStageType.All.Length],
                             fixture.Create<LifeCycleStagePeriod>()
                         )).OmitAutoProperties());

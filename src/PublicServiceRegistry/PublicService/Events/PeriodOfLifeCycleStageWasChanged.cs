@@ -16,7 +16,7 @@ namespace PublicServiceRegistry.PublicService.Events
 
         public PeriodOfLifeCycleStageWasChanged(
             PublicServiceId publicServiceId,
-            int lifeCycleStageId,
+            LifeCycleStageId lifeCycleStageId,
             LifeCycleStagePeriod period)
         {
             PublicServiceId = publicServiceId;
@@ -33,7 +33,7 @@ namespace PublicServiceRegistry.PublicService.Events
             LocalDate? to) :
             this(
                 new PublicServiceId(publicServiceId),
-                lifeCycleStageId,
+                PublicServiceRegistry.LifeCycleStageId.FromNumber(lifeCycleStageId),
                 new LifeCycleStagePeriod(new ValidFrom(from), new ValidTo(to))) { }
     }
 }

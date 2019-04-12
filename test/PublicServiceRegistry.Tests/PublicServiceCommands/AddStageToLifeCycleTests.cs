@@ -42,7 +42,7 @@ namespace PublicServiceRegistry.Tests.PublicServiceCommands
                     new PublicServiceWasRegistered(publicServiceId, publicServiceName, PrivateZoneId.Unregistered))
                 .When(new AddStageToLifeCycle(publicServiceId, lifeCycleStageType, period))
                 .Then(publicServiceId,
-                    new StageWasAddedToLifeCycle(publicServiceId, 1, lifeCycleStageType, period)));
+                    new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(1), lifeCycleStageType, period)));
         }
 
         [Theory]
@@ -57,10 +57,10 @@ namespace PublicServiceRegistry.Tests.PublicServiceCommands
             Assert(new Scenario()
                 .Given(publicServiceId,
                     new PublicServiceWasRegistered(publicServiceId, publicServiceName, PrivateZoneId.Unregistered),
-                    new StageWasAddedToLifeCycle(publicServiceId, 1, lifeCycleStageType, period))
+                    new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(1), lifeCycleStageType, period))
                 .When(new AddStageToLifeCycle(publicServiceId, lifeCycleStageType, newPeriod))
                 .Then(publicServiceId,
-                    new StageWasAddedToLifeCycle(publicServiceId, 2, lifeCycleStageType, newPeriod)));
+                    new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(2), lifeCycleStageType, newPeriod)));
         }
 
         [Theory]
@@ -71,13 +71,13 @@ namespace PublicServiceRegistry.Tests.PublicServiceCommands
             LifeCycleStageType lifeCycleStage1,
             LifeCycleStageType lifeCycleStage2)
         {
-            var period1 = new LifeCycleStagePeriod(new ValidFrom(2018, 1, 1), new ValidTo(2020, 1, 1));
-            var period2 = new LifeCycleStagePeriod(new ValidFrom(2019, 1, 1), new ValidTo(2021, 1, 1));
+            var period1 = new LifeCycleStagePeriod(new ValidFrom(2018, LifeCycleStageId.FromNumber(1), 1), new ValidTo(2020, LifeCycleStageId.FromNumber(1), 1));
+            var period2 = new LifeCycleStagePeriod(new ValidFrom(2019, LifeCycleStageId.FromNumber(1), 1), new ValidTo(2021, LifeCycleStageId.FromNumber(1), 1));
 
             Assert(new Scenario()
                 .Given(publicServiceId,
                     new PublicServiceWasRegistered(publicServiceId, publicServiceName, PrivateZoneId.Unregistered),
-                    new StageWasAddedToLifeCycle(publicServiceId, 1, lifeCycleStage1, period1))
+                    new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(1), lifeCycleStage1, period1))
                 .When(new AddStageToLifeCycle(publicServiceId, lifeCycleStage2, period2))
                 .Throws(new LifeCycleCannotHaveOverlappingPeriods()));
         }
@@ -89,19 +89,19 @@ namespace PublicServiceRegistry.Tests.PublicServiceCommands
             PublicServiceName publicServiceName,
             LifeCycleStageType lifeCycleStageType)
         {
-            var period1 = new LifeCycleStagePeriod(new ValidFrom(2018, 1, 1), new ValidTo(2018, 1, 1));
-            var period2 = new LifeCycleStagePeriod(new ValidFrom(2025, 1, 1), new ValidTo(2025, 1, 1));
+            var period1 = new LifeCycleStagePeriod(new ValidFrom(2018, LifeCycleStageId.FromNumber(1), 1), new ValidTo(2018, LifeCycleStageId.FromNumber(1), 1));
+            var period2 = new LifeCycleStagePeriod(new ValidFrom(2025, LifeCycleStageId.FromNumber(1), 1), new ValidTo(2025, LifeCycleStageId.FromNumber(1), 1));
             // Combining period3 with period4 will cause an overlap.
-            var period3 = new LifeCycleStagePeriod(new ValidFrom(2019, 1, 1), new ValidTo(2021, 1, 1));
-            var period4 = new LifeCycleStagePeriod(new ValidFrom(2019, 1, 1), new ValidTo(2021, 1, 1));
+            var period3 = new LifeCycleStagePeriod(new ValidFrom(2019, LifeCycleStageId.FromNumber(1), 1), new ValidTo(2021, LifeCycleStageId.FromNumber(1), 1));
+            var period4 = new LifeCycleStagePeriod(new ValidFrom(2019, LifeCycleStageId.FromNumber(1), 1), new ValidTo(2021, LifeCycleStageId.FromNumber(1), 1));
 
             Assert(new Scenario()
                 .Given(publicServiceId,
                     new PublicServiceWasRegistered(publicServiceId, publicServiceName, PrivateZoneId.Unregistered),
-                    new StageWasAddedToLifeCycle(publicServiceId, 1, lifeCycleStageType, period1),
-                    new StageWasAddedToLifeCycle(publicServiceId, 2, lifeCycleStageType, period2),
-                    new PeriodOfLifeCycleStageWasChanged(publicServiceId, 1, period3))
-                .When(new ChangePeriodOfLifeCycleStage(publicServiceId, 2, period4))
+                    new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(1), lifeCycleStageType, period1),
+                    new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(2), lifeCycleStageType, period2),
+                    new PeriodOfLifeCycleStageWasChanged(publicServiceId, LifeCycleStageId.FromNumber(1), period3))
+                .When(new ChangePeriodOfLifeCycleStage(publicServiceId, LifeCycleStageId.FromNumber(2), period4))
                 .Throws(new LifeCycleCannotHaveOverlappingPeriods()));
         }
     }
