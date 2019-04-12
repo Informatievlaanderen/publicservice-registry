@@ -143,13 +143,13 @@ export default {
         },
         {
           name: '__slot:van',
-          sortField: 'From',
+          sortField: 'FromAsInt',
           title: 'Van',
           widthPercentage: 20,
         },
         {
           name: '__slot:tot',
-          sortField: 'To',
+          sortField: 'ToAsInt',
           title: 'Tot',
           widthPercentage: 20,
         },
