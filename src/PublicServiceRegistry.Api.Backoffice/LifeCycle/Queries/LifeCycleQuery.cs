@@ -46,12 +46,12 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Queries
             public IEnumerable<string> SortableFields { get; } = new[]
             {
                 nameof(PublicServiceLifeCycleItem.LifeCycleStageType),
-                nameof(PublicServiceLifeCycleItem.From),
-                nameof(PublicServiceLifeCycleItem.To)
+                nameof(PublicServiceLifeCycleItem.FromAsInt),
+                nameof(PublicServiceLifeCycleItem.ToAsInt)
             };
 
             public SortingHeader DefaultSortingHeader { get; } =
-                new SortingHeader(nameof(PublicServiceLifeCycleItem.From), SortOrder.Ascending);
+                new SortingHeader(nameof(PublicServiceLifeCycleItem.FromAsInt), SortOrder.Ascending);
         }
     }
 
