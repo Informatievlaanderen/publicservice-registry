@@ -68,14 +68,14 @@ namespace PublicServiceRegistry.PublicService
             _lifeCycle.AddStage(lifeCycleStageType, period);
         }
 
-        public void ChangePeriodOfLifeCycleStage(int localId, LifeCycleStagePeriod period)
+        public void ChangePeriodOfLifeCycleStage(LifeCycleStageId lifeCycleStageId, LifeCycleStagePeriod period)
         {
             EnsureNotRemoved();
 
-            _lifeCycle.ChangePeriod(localId, period);
+            _lifeCycle.ChangePeriod(lifeCycleStageId, period);
         }
 
-        public void RemoveLifeCycleStage(int lifeCycleStageId)
+        public void RemoveLifeCycleStage(LifeCycleStageId lifeCycleStageId)
         {
             EnsureNotRemoved();
 

@@ -21,14 +21,14 @@ namespace PublicServiceRegistry.Tests.PublicServiceCommands
             ReasonForRemoval reasonForRemoval,
             LifeCycleStageType lifeCycleStageType,
             LifeCycleStagePeriod period,
-            int lifeCycleStageLocalId)
+            LifeCycleStageId lifeCycleStageId)
         {
             Assert(new Scenario()
                 .Given(publicServiceId,
                     new PublicServiceWasRegistered(publicServiceId, publicServiceName, PrivateZoneId.Unregistered),
-                    new StageWasAddedToLifeCycle(publicServiceId, lifeCycleStageLocalId, lifeCycleStageType, period),
+                    new StageWasAddedToLifeCycle(publicServiceId, lifeCycleStageId, lifeCycleStageType, period),
                     new PublicServiceWasRemoved(publicServiceId, reasonForRemoval))
-                .When(new ChangePeriodOfLifeCycleStage(publicServiceId, lifeCycleStageLocalId, period))
+                .When(new ChangePeriodOfLifeCycleStage(publicServiceId, lifeCycleStageId, period))
                 .Throws(new CannotPerformActionOnRemovedPublicService()));
         }
 
@@ -39,7 +39,7 @@ namespace PublicServiceRegistry.Tests.PublicServiceCommands
             PublicServiceName publicServiceName,
             LifeCycleStageType lifeCycleStageType,
             LifeCycleStagePeriod period,
-            int lifeCycleStageLocalId)
+            LifeCycleStageId lifeCycleStageLocalId)
         {
             Assert(new Scenario()
                 .Given(publicServiceId,
@@ -58,7 +58,7 @@ namespace PublicServiceRegistry.Tests.PublicServiceCommands
             LifeCycleStageType lifeCycleStageType,
             LifeCycleStagePeriod period,
             LifeCycleStagePeriod newPeriod,
-            int lifeCycleStageLocalId)
+            LifeCycleStageId lifeCycleStageLocalId)
         {
             Assert(new Scenario()
                 .Given(publicServiceId,
@@ -86,9 +86,9 @@ namespace PublicServiceRegistry.Tests.PublicServiceCommands
             Assert(new Scenario()
                 .Given(publicServiceId,
                     new PublicServiceWasRegistered(publicServiceId, publicServiceName, PrivateZoneId.Unregistered),
-                    new StageWasAddedToLifeCycle(publicServiceId, 1, lifeCycleStageType, period1),
-                    new StageWasAddedToLifeCycle(publicServiceId, 2, lifeCycleStageType, period2))
-                .When(new ChangePeriodOfLifeCycleStage(publicServiceId, 2, period3))
+                    new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(1), lifeCycleStageType, period1),
+                    new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(2), lifeCycleStageType, period2))
+                .When(new ChangePeriodOfLifeCycleStage(publicServiceId, LifeCycleStageId.FromNumber(2), period3))
                 .Throws(new LifeCycleCannotHaveOverlappingPeriods()));
         }
 
@@ -107,8 +107,8 @@ namespace PublicServiceRegistry.Tests.PublicServiceCommands
             Assert(new Scenario()
                 .Given(publicServiceId,
                     new PublicServiceWasRegistered(publicServiceId, publicServiceName, PrivateZoneId.Unregistered),
-                    new StageWasAddedToLifeCycle(publicServiceId, 1, lifeCycleStageType, period1),
-                    new PeriodOfLifeCycleStageWasChanged(publicServiceId, 1, period2))
+                    new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(1), lifeCycleStageType, period1),
+                    new PeriodOfLifeCycleStageWasChanged(publicServiceId, LifeCycleStageId.FromNumber(1), period2))
                 .When(new AddStageToLifeCycle(publicServiceId, lifeCycleStageType, period3))
                 .Throws(new LifeCycleCannotHaveOverlappingPeriods()));
         }
@@ -129,11 +129,11 @@ namespace PublicServiceRegistry.Tests.PublicServiceCommands
             Assert(new Scenario()
                 .Given(publicServiceId,
                     new PublicServiceWasRegistered(publicServiceId, publicServiceName, PrivateZoneId.Unregistered),
-                    new StageWasAddedToLifeCycle(publicServiceId, 1, lifeCycleStageType, period1),
-                    new StageWasAddedToLifeCycle(publicServiceId, 2, lifeCycleStageType, period2))
-                .When(new ChangePeriodOfLifeCycleStage(publicServiceId, 1, period3))
+                    new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(1), lifeCycleStageType, period1),
+                    new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(2), lifeCycleStageType, period2))
+                .When(new ChangePeriodOfLifeCycleStage(publicServiceId, LifeCycleStageId.FromNumber(1), period3))
                 .Then(publicServiceId,
-                    new PeriodOfLifeCycleStageWasChanged(publicServiceId, 1, period3)));
+                    new PeriodOfLifeCycleStageWasChanged(publicServiceId, LifeCycleStageId.FromNumber(1), period3)));
         }
     }
 }

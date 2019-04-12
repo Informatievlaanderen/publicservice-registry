@@ -68,7 +68,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
             var stageWasAddedToLifeCycle = _fixture.Create<StageWasAddedToLifeCycle>();
             var periodOfLifeCycleStageWasChanged = new PeriodOfLifeCycleStageWasChanged(
                 new PublicServiceId(stageWasAddedToLifeCycle.PublicServiceId),
-                stageWasAddedToLifeCycle.LifeCycleStageId,
+                LifeCycleStageId.FromNumber(stageWasAddedToLifeCycle.LifeCycleStageId),
                 _fixture.Create<LifeCycleStagePeriod>());
 
         await new ConnectedProjectionScenario<BackofficeContext>(resolver)
@@ -104,7 +104,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
             var stageWasAddedToLifeCycle = _fixture.Create<StageWasAddedToLifeCycle>();
             var lifeCycleStageWasRemoved = new LifeCycleStageWasRemoved(
                 new PublicServiceId(stageWasAddedToLifeCycle.PublicServiceId),
-                stageWasAddedToLifeCycle.LifeCycleStageId);
+                LifeCycleStageId.FromNumber(stageWasAddedToLifeCycle.LifeCycleStageId));
 
             await new ConnectedProjectionScenario<BackofficeContext>(resolver)
                 .Given(

@@ -116,7 +116,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
             var events = new object[]
             {
                 new PublicServiceWasRegistered(publicServiceId, new PublicServiceName("Test"), PrivateZoneId.Unregistered),
-                new StageWasAddedToLifeCycle(publicServiceId, 1, LifeCycleStageType.Active, PeriodValidAlways),
+                new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(1), LifeCycleStageType.Active, PeriodValidAlways),
             };
 
             return new PublicServiceListProjections(clockProviderStub)
@@ -140,8 +140,8 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
             var events = new object[]
             {
                 new PublicServiceWasRegistered(publicServiceId, new PublicServiceName("Test"), PrivateZoneId.Unregistered),
-                new StageWasAddedToLifeCycle(publicServiceId, 1, LifeCycleStageType.Active, PeriodOverlappingWithTomorrow),
-                new PeriodOfLifeCycleStageWasChanged(publicServiceId, 1, PeriodOverlappingWithToday),
+                new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(1), LifeCycleStageType.Active, PeriodOverlappingWithTomorrow),
+                new PeriodOfLifeCycleStageWasChanged(publicServiceId, LifeCycleStageId.FromNumber(1), PeriodOverlappingWithToday),
             };
 
             return new PublicServiceListProjections(clockProviderStub)
@@ -166,7 +166,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
             var events = new object[]
             {
                 new PublicServiceWasRegistered(publicServiceId, new PublicServiceName("Test"), PrivateZoneId.Unregistered),
-                new StageWasAddedToLifeCycle(publicServiceId, 1, LifeCycleStageType.Active, PeriodOverlappingWithTomorrow),
+                new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(1), LifeCycleStageType.Active, PeriodOverlappingWithTomorrow),
             };
 
             return new PublicServiceListProjections(clockProviderStub)
@@ -190,8 +190,8 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
             var events = new object[]
             {
                 new PublicServiceWasRegistered(publicServiceId, new PublicServiceName("Test"), PrivateZoneId.Unregistered),
-                new StageWasAddedToLifeCycle(publicServiceId, 1, LifeCycleStageType.Active, PeriodValidAlways),
-                new PeriodOfLifeCycleStageWasChanged(publicServiceId, 1, PeriodOverlappingWithTomorrow),
+                new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(1), LifeCycleStageType.Active, PeriodValidAlways),
+                new PeriodOfLifeCycleStageWasChanged(publicServiceId, LifeCycleStageId.FromNumber(1), PeriodOverlappingWithTomorrow),
             };
 
             return new PublicServiceListProjections(clockProviderStub)
@@ -215,9 +215,9 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
             var events = new object[]
             {
                 new PublicServiceWasRegistered(publicServiceId, new PublicServiceName("Test"), PrivateZoneId.Unregistered),
-                new StageWasAddedToLifeCycle(publicServiceId, 1, LifeCycleStageType.Active, PeriodOverlappingWithToday),
-                new StageWasAddedToLifeCycle(publicServiceId, 2, LifeCycleStageType.PhasingOut, PeriodOverlappingWithTomorrow),
-                new PeriodOfLifeCycleStageWasChanged(publicServiceId, 2, PeriodOverlappingWithYesterday),
+                new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(1), LifeCycleStageType.Active, PeriodOverlappingWithToday),
+                new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(2), LifeCycleStageType.PhasingOut, PeriodOverlappingWithTomorrow),
+                new PeriodOfLifeCycleStageWasChanged(publicServiceId, LifeCycleStageId.FromNumber(2), PeriodOverlappingWithYesterday),
             };
 
             return new PublicServiceListProjections(clockProviderStub)
@@ -242,7 +242,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
             var events = new object[]
             {
                 new PublicServiceWasRegistered(publicServiceId, new PublicServiceName("Test"), PrivateZoneId.Unregistered),
-                new StageWasAddedToLifeCycle(publicServiceId, 1, LifeCycleStageType.Active, PeriodOverlappingWithToday),
+                new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(1), LifeCycleStageType.Active, PeriodOverlappingWithToday),
                 new ClockHasTicked(Tomorrow),
             };
 
@@ -268,8 +268,8 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
             var events = new object[]
             {
                 new PublicServiceWasRegistered(publicServiceId, new PublicServiceName("Test"), PrivateZoneId.Unregistered),
-                new StageWasAddedToLifeCycle(publicServiceId, 1, LifeCycleStageType.Active, PeriodOverlappingWithToday),
-                new StageWasAddedToLifeCycle(publicServiceId, 2, LifeCycleStageType.PhasingOut, PeriodOverlappingWithTomorrow),
+                new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(1), LifeCycleStageType.Active, PeriodOverlappingWithToday),
+                new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(2), LifeCycleStageType.PhasingOut, PeriodOverlappingWithTomorrow),
                 new ClockHasTicked(Tomorrow),
             };
 
@@ -295,9 +295,9 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
             var events = new object[]
             {
                 new PublicServiceWasRegistered(publicServiceId, new PublicServiceName("Test"), PrivateZoneId.Unregistered),
-                new StageWasAddedToLifeCycle(publicServiceId, 1, LifeCycleStageType.Active, PeriodOverlappingWithToday),
-                new StageWasAddedToLifeCycle(publicServiceId, 2, LifeCycleStageType.PhasingOut, PeriodOverlappingWithTomorrow),
-                new LifeCycleStageWasRemoved(publicServiceId, 2),
+                new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(1), LifeCycleStageType.Active, PeriodOverlappingWithToday),
+                new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(2), LifeCycleStageType.PhasingOut, PeriodOverlappingWithTomorrow),
+                new LifeCycleStageWasRemoved(publicServiceId, LifeCycleStageId.FromNumber(2)),
                 new ClockHasTicked(Tomorrow),
             };
 

@@ -12,7 +12,7 @@ namespace PublicServiceRegistry.PublicService.Events
 
         public LifeCycleStageWasRemoved(
             PublicServiceId publicServiceId,
-            int lifeCycleStageId)
+            LifeCycleStageId lifeCycleStageId)
         {
             PublicServiceId = publicServiceId;
             LifeCycleStageId = lifeCycleStageId;
@@ -24,7 +24,7 @@ namespace PublicServiceRegistry.PublicService.Events
             int lifeCycleStageId) :
             this(
                 new PublicServiceId(publicServiceId),
-                lifeCycleStageId)
+                PublicServiceRegistry.LifeCycleStageId.FromNumber(lifeCycleStageId))
         { }
     }
 }

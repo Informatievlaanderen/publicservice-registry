@@ -103,7 +103,8 @@ namespace PublicServiceRegistry.PublicService
                     var publicServiceId = message.Command.PublicServiceId;
                     var publicService = await publicServices.GetAsync(publicServiceId, ct);
 
-                    publicService.RemoveLifeCycleStage(message.Command.LifeCycleStageId);
+                    publicService.RemoveLifeCycleStage(
+                        LifeCycleStageId.FromNumber(message.Command.LifeCycleStageId));
                 });
 
             For<RemovePublicService>()

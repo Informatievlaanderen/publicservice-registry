@@ -4,6 +4,7 @@ namespace PublicServiceRegistry.Tests
     using FluentAssertions;
     using Xunit;
 
+
     public class PublicServiceIdTests
     {
         [Fact]

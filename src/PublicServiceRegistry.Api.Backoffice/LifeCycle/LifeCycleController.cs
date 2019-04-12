@@ -212,7 +212,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
             return Accepted(
                 await Bus.Dispatch(
                     commandId,
-                    new RemoveStageFromLifeCycle(new PublicServiceId(id), faseId),
+                    new RemoveStageFromLifeCycle(new PublicServiceId(id), LifeCycleStageId.FromNumber(faseId)),
                     GetMetadata(),
                     cancellationToken));
         }
