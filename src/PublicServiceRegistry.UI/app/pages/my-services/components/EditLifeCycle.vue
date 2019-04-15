@@ -98,7 +98,7 @@ export default {
         this.currentLifeCycleStage.to;
     },
     inputDisabled() {
-      return this.isLoading;B
+      return this.isLoading;
     },
     buttonDisabled() {
       return this.isLoading || this.$validator.errors.any();
