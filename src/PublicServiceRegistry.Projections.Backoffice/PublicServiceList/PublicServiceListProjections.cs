@@ -6,6 +6,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceList
     using System.Threading.Tasks;
     using Be.Vlaanderen.Basisregisters.ProjectionHandling.Connector;
     using Be.Vlaanderen.Basisregisters.ProjectionHandling.SqlStreamStore;
+    using Microsoft.EntityFrameworkCore;
     using NodaTime;
     using PublicServiceLifeCycle;
     using PublicServiceRegistry.PublicService.Events;
@@ -150,7 +151,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceList
                 var dateAsInt = date.ToInt();
                 foreach (var publicServiceListItem in context.PublicServiceList.Where(item => item.CurrentLifeCycleStageEndsAtAsInt != null && item.CurrentLifeCycleStageEndsAtAsInt < dateAsInt))
                 {
-                    UpdateCurrentLifeCycleStage(context, publicServiceListItem, date);
+                    await UpdateCurrentLifeCycleStage(context, publicServiceListItem, date, ct);
                 }
             });
         }
@@ -171,16 +172,20 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceList
                 .AddAsync(publicServiceLifeCycleItem, ct);
         }
 
-        private static void UpdateCurrentLifeCycleStage(BackofficeContext context, PublicServiceListItem publicServiceListItem, LocalDate today)
+        private static async Task UpdateCurrentLifeCycleStage(
+            BackofficeContext context,
+            PublicServiceListItem publicServiceListItem,
+            LocalDate today,
+            CancellationToken cancellationToken)
         {
             var todayAsInt = today.ToInt();
-            var currentLifeCycleStage =
+            var currentLifeCycleStage = await
                 context
                     .LifeCycleStagesForPublicServiceList
-                    .SingleOrDefault(stage =>
+                    .SingleOrDefaultAsync(stage =>
                         stage.PublicServiceId == publicServiceListItem.PublicServiceId &&
                         (stage.FromAsInt == null || stage.FromAsInt <= todayAsInt) &&
-                        (stage.ToAsInt == null || stage.ToAsInt >= todayAsInt));
+                        (stage.ToAsInt == null || stage.ToAsInt >= todayAsInt), cancellationToken);
 
             publicServiceListItem.CurrentLifeCycleStageType = currentLifeCycleStage?.LifeCycleStageType;
             publicServiceListItem.CurrentLifeCycleStageId = currentLifeCycleStage?.LifeCycleStageId;
