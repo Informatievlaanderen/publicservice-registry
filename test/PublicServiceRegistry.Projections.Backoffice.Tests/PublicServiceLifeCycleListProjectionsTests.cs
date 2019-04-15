@@ -71,7 +71,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
                 LifeCycleStageId.FromNumber(stageWasAddedToLifeCycle.LifeCycleStageId),
                 _fixture.Create<LifeCycleStagePeriod>());
 
-        await new ConnectedProjectionScenario<BackofficeContext>(resolver)
+            await new ConnectedProjectionScenario<BackofficeContext>(resolver)
                 .Given(
                     new Envelope<StageWasAddedToLifeCycle>(new Envelope(stageWasAddedToLifeCycle, new Dictionary<string, object>())),
                     new Envelope<PeriodOfLifeCycleStageWasChanged>(new Envelope(periodOfLifeCycleStageWasChanged, new Dictionary<string, object>())))

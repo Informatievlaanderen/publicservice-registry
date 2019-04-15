@@ -82,7 +82,7 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService
                     publicService.CurrentLifeCycleStageType,
                     !string.IsNullOrEmpty(publicService.CurrentLifeCycleStageType)
                         ? PublicServiceRegistry.LifeCycleStageType.Parse(publicService.CurrentLifeCycleStageType).Translation.Name
-                        : ""));
+                        : string.Empty));
         }
 
         /// <summary>

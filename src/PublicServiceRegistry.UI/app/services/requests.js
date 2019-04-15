@@ -46,6 +46,5 @@ export class RemoveLifeCycleStage {
   }
 }
 
-
 export default {
 };
