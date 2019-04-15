@@ -12,7 +12,6 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycleStageType.Responses
         [DataMember(Name = "Id", Order = 1)]
         public string Id { get; set; }
 
-
         /// <summary>Naam van het type levensloopfase.</summary>
         [DataMember(Name = "Naam", Order = 2)]
         public string Naam { get; set; }
