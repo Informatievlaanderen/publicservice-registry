@@ -172,7 +172,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
         [SwaggerResponseExample(StatusCodes.Status400BadRequest, typeof(ValidationErrorResponseExamples), jsonConverter: typeof(StringEnumConverter))]
         [SwaggerResponseExample(StatusCodes.Status500InternalServerError, typeof(InternalServerErrorResponseExamples), jsonConverter: typeof(StringEnumConverter))]
         public async Task<IActionResult> ChangePeriodOfLifeCycleStage(
-            [FromCommandId] Guid? commandId,
+            [FromCommandId] Guid commandId,
             [FromRoute] string id,
             [FromRoute] int faseId,
             [FromBody] ChangePeriodOfLifeCycleStageRequest request,
@@ -183,7 +183,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
 
             return Accepted(
                 await Bus.Dispatch(
-                    commandId ?? Guid.NewGuid(),
+                    commandId,
                     ChangePeriodOfLifeCycleStageRequestMapping.Map(id, faseId, request),
                     GetMetadata(),
                     cancellationToken));
