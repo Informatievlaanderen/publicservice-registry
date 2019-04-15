@@ -45,7 +45,7 @@ namespace PublicServiceRegistry.Projector.Infrastructure
                 {
                     Cors =
                     {
-                        Headers = _configuration
+                        Origins = _configuration
                             .GetSection("Cors")
                             .GetChildren()
                             .Select(c => c.Value)
