@@ -10,14 +10,17 @@ namespace PublicServiceRegistry.Projector.Infrastructure
     using Autofac.Extensions.DependencyInjection;
     using Be.Vlaanderen.Basisregisters.Projector.ConnectedProjections;
     using Configuration;
+    using HostedServices;
     using Microsoft.AspNetCore.Builder;
-    using Microsoft.AspNetCore.Hosting;
     using Microsoft.AspNetCore.Mvc.ApiExplorer;
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
+    using Microsoft.Extensions.Hosting;
     using Microsoft.Extensions.Logging;
     using Modules;
     using Swashbuckle.AspNetCore.Swagger;
+    using IApplicationLifetime = Microsoft.AspNetCore.Hosting.IApplicationLifetime;
+    using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
     using TraceSource = Be.Vlaanderen.Basisregisters.DataDog.Tracing.TraceSource;
 
     /// <summary>Represents the startup process for the application.</summary>
@@ -67,7 +70,8 @@ namespace PublicServiceRegistry.Projector.Infrastructure
                         },
                         XmlCommentPaths = new [] { typeof(Startup).GetTypeInfo().Assembly.GetName().Name }
                     }
-                });
+                })
+                .AddSingleton<IHostedService, ClockTickingService>();
 
             var containerBuilder = new ContainerBuilder();
             containerBuilder.RegisterModule(new ApiModule(_configuration, services, _loggerFactory));

@@ -18,5 +18,6 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
         }
 
         public LocalDate Today => LocalDate.FromDateTime(_now.Date);
+        public DateTime Now => _now;
     }
 }

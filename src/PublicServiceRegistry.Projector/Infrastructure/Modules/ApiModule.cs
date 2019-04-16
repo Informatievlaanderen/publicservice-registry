@@ -76,6 +76,10 @@ namespace PublicServiceRegistry.Projector.Infrastructure.Modules
                         _loggerFactory));
 
             builder
+                .RegisterType<ClockProvider>()
+                .As<IClockProvider>();
+
+            builder
                 .RegisterProjectionMigrator<BackofficeContextMigrationFactory>(
                     _configuration,
                     _loggerFactory)
