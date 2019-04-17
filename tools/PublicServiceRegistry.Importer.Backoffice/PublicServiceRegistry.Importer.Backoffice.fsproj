@@ -31,5 +31,10 @@
     <Compile Include="Info.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
+
+  <Target Name="VSTest">
+      <Message Text="This line here because we otherwise we get issues with dotnet test ;(" />
+  </Target>
+
   <Import Project="..\..\.paket\Paket.Restore.targets" />
 </Project>
