@@ -61,7 +61,9 @@ namespace PublicServiceRegistry.Projector.Infrastructure.HostedServices
             }
         }
 
-        private async Task AppendClockHasTicked(CancellationToken cancellationToken, StreamId clockStreamId,
+        private async Task AppendClockHasTicked(
+            CancellationToken cancellationToken,
+            StreamId clockStreamId,
             EventMapping eventMapping)
         {
             var clockHasTicked = new ClockHasTicked(_clockProvider.Now);
