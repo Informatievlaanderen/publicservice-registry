@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.1.0...v1.1.1) (2019-04-25)
+
+
+### Bug Fixes
+
+* correct entrypoint for Dockerfile ([8649653](https://github.com/informatievlaanderen/publicservice-registry/commit/8649653))
+
 # [1.1.0](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.0.1...v1.1.0) (2019-04-15)
 
 
