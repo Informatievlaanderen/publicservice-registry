@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.1.1...v1.2.0) (2019-04-25)
+
+
+### Features
+
+* update vbr projector package ([833225b](https://github.com/informatievlaanderen/publicservice-registry/commit/833225b))
+
 ## [1.1.1](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.1.0...v1.1.1) (2019-04-25)
 
 
