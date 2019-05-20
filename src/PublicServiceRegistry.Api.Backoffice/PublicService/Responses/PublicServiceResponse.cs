@@ -5,6 +5,7 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService.Responses
     using Microsoft.AspNetCore.Http;
     using Swashbuckle.AspNetCore.Filters;
     using LifeCycleStageType = PublicServiceRegistry.LifeCycleStageType;
+    using ProblemDetails = Be.Vlaanderen.Basisregisters.BasicApiProblem.ProblemDetails;
 
     [DataContract(Name = "Dienstverlening", Namespace = "")]
     public class PublicServiceResponse
@@ -75,12 +76,12 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService.Responses
     {
         public object GetExamples()
         {
-            return new BasicApiProblem
+            return new ProblemDetails
             {
                 HttpStatus = StatusCodes.Status404NotFound,
-                Title = BasicApiProblem.DefaultTitle,
+                Title = ProblemDetails.DefaultTitle,
                 Detail = "Onbestaande dienstverlening.",
-                ProblemInstanceUri = BasicApiProblem.GetProblemNumber()
+                ProblemInstanceUri = ProblemDetails.GetProblemNumber()
             };
         }
     }

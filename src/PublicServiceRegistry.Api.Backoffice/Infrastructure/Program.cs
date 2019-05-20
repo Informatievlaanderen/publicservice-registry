@@ -8,21 +8,34 @@ namespace PublicServiceRegistry.Api.Backoffice.Infrastructure
 
     public class Program
     {
-        private static class DevelopmentCertificate
-        {
-            internal const string Name = "api.dienstverlening-test.basisregisters.vlaanderen.pfx";
-            internal const string Key = "dienstverlening!";
-        }
+        private static readonly DevelopmentCertificate DevelopmentCertificate =
+            new DevelopmentCertificate(
+                "api.dienstverlening-test.basisregisters.vlaanderen.pfx",
+                "dienstverlening!");
 
         public static void Main(string[] args) => CreateWebHostBuilder(args).Build().Run();
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args)
             => new WebHostBuilder()
                 .UseDefaultForApi<Startup>(
-                    httpPort: 2090,
-                    httpsPort: 2443,
-                    httpsCertificate: () => new X509Certificate2(DevelopmentCertificate.Name, DevelopmentCertificate.Key),
-                    commandLineArgs: args)
+                    new ProgramOptions
+                    {
+                        Hosting =
+                        {
+                            HttpPort = 8002,
+                            HttpsPort = 8003,
+                            HttpsCertificate = DevelopmentCertificate.ToCertificate
+                        },
+                        Logging =
+                        {
+                            WriteTextToConsole = false,
+                            WriteJsonToConsole = false
+                        },
+                        Runtime =
+                        {
+                            CommandLineArgs = args
+                        }
+                    })
                 .ConfigureAppConfiguration((hostingContext, config) =>
                 {
                     if (hostingContext.HostingEnvironment.IsDevelopment())

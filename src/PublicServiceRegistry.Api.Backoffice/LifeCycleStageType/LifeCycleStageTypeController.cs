@@ -12,6 +12,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycleStageType
     using Security;
     using Swashbuckle.AspNetCore.Filters;
     using LifeCycleStageType = PublicServiceRegistry.LifeCycleStageType;
+    using ProblemDetails = Be.Vlaanderen.Basisregisters.BasicApiProblem.ProblemDetails;
 
     [ApiVersion("1.0")]
     [AdvertiseApiVersions("1.0")]
@@ -28,7 +29,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycleStageType
         [HttpGet]
         [AllowAnonymous]
         [ProducesResponseType(typeof(List<LifeCycleStageTypeListResponse>), StatusCodes.Status200OK)]
-        [ProducesResponseType(typeof(BasicApiProblem), StatusCodes.Status500InternalServerError)]
+        [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
         [SwaggerResponseExample(StatusCodes.Status200OK, typeof(LifeCycleStageTypeListResponseExamples), jsonConverter: typeof(StringEnumConverter))]
         [SwaggerResponseExample(StatusCodes.Status500InternalServerError, typeof(InternalServerErrorResponseExamples), jsonConverter: typeof(StringEnumConverter))]
         public IActionResult ListLifeCycleStageTypes() =>

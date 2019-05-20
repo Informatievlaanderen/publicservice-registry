@@ -26,6 +26,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
     using Responses;
     using Security;
     using Swashbuckle.AspNetCore.Filters;
+    using ProblemDetails = Be.Vlaanderen.Basisregisters.BasicApiProblem.ProblemDetails;
 
     [ApiVersion("1.0")]
     [AdvertiseApiVersions("1.0")]
@@ -47,7 +48,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
         [HttpGet("fases")]
         [AllowAnonymous]
         [ProducesResponseType(typeof(List<PublicServiceLifeCycleResponseItem>), StatusCodes.Status200OK)]
-        [ProducesResponseType(typeof(BasicApiProblem), StatusCodes.Status500InternalServerError)]
+        [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
         [SwaggerResponseExample(StatusCodes.Status200OK, typeof(PublicServiceLifeCycleResponseItemExamples), jsonConverter: typeof(StringEnumConverter))]
         [SwaggerResponseExample(StatusCodes.Status500InternalServerError, typeof(InternalServerErrorResponseExamples), jsonConverter: typeof(StringEnumConverter))]
         public async Task<IActionResult> ListLifeCycleStages(
@@ -86,8 +87,8 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
         [HttpGet("fases/{faseId}")]
         [AllowAnonymous]
         [ProducesResponseType(typeof(LifeCycleStageResponse), StatusCodes.Status200OK)]
-        [ProducesResponseType(typeof(BasicApiProblem), StatusCodes.Status404NotFound)]
-        [ProducesResponseType(typeof(BasicApiProblem), StatusCodes.Status500InternalServerError)]
+        [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status404NotFound)]
+        [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
         [SwaggerResponseExample(StatusCodes.Status200OK, typeof(LifeCycleStageResponseExamples), jsonConverter: typeof(StringEnumConverter))]
         [SwaggerResponseExample(StatusCodes.Status404NotFound, typeof(LifeCycleStageNotFoundResponseExamples), jsonConverter: typeof(StringEnumConverter))]
         [SwaggerResponseExample(StatusCodes.Status500InternalServerError, typeof(InternalServerErrorResponseExamples), jsonConverter: typeof(StringEnumConverter))]
@@ -129,8 +130,8 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
         /// <response code="500">Als er een interne fout is opgetreden.</response>
         [HttpPost("fases")]
         [ProducesResponseType(typeof(long), StatusCodes.Status202Accepted)]
-        [ProducesResponseType(typeof(BasicApiValidationProblem), StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(typeof(BasicApiProblem), StatusCodes.Status500InternalServerError)]
+        [ProducesResponseType(typeof(ValidationProblemDetails), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
         [SwaggerRequestExample(typeof(AddStageToLifeCycleRequest), typeof(AddStageToLifeCycleRequestExample))]
         [SwaggerResponseExample(StatusCodes.Status202Accepted, typeof(EventStorePositionResponseExamples), jsonConverter: typeof(StringEnumConverter))]
         [SwaggerResponseExample(StatusCodes.Status400BadRequest, typeof(ValidationErrorResponseExamples), jsonConverter: typeof(StringEnumConverter))]
@@ -165,8 +166,8 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
         /// <response code="500">Als er een interne fout is opgetreden.</response>
         [HttpPut("fases/{faseId}")]
         [ProducesResponseType(typeof(long), StatusCodes.Status202Accepted)]
-        [ProducesResponseType(typeof(BasicApiValidationProblem), StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(typeof(BasicApiProblem), StatusCodes.Status500InternalServerError)]
+        [ProducesResponseType(typeof(ValidationProblemDetails), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
         [SwaggerRequestExample(typeof(ChangePeriodOfLifeCycleStageRequest), typeof(ChangePeriodOfLifeCycleStageRequestExample))]
         [SwaggerResponseExample(StatusCodes.Status202Accepted, typeof(EventStorePositionResponseExamples), jsonConverter: typeof(StringEnumConverter))]
         [SwaggerResponseExample(StatusCodes.Status400BadRequest, typeof(ValidationErrorResponseExamples), jsonConverter: typeof(StringEnumConverter))]
@@ -200,7 +201,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
         /// <response code="500">Als er een interne fout is opgetreden.</response>
         [HttpDelete("fases/{faseId}")]
         [ProducesResponseType(typeof(long), StatusCodes.Status202Accepted)]
-        [ProducesResponseType(typeof(BasicApiProblem), StatusCodes.Status500InternalServerError)]
+        [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
         [SwaggerResponseExample(StatusCodes.Status202Accepted, typeof(EventStorePositionResponseExamples), jsonConverter: typeof(StringEnumConverter))]
         [SwaggerResponseExample(StatusCodes.Status500InternalServerError, typeof(InternalServerErrorResponseExamples), jsonConverter: typeof(StringEnumConverter))]
         public async Task<IActionResult> RemoveStageFromLifeCycle(
