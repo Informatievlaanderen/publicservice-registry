@@ -9,10 +9,13 @@ namespace PublicServiceRegistry.PublicService
         private PublicServiceName _name;
         private OvoNumber _competentAuthorityOvoNumber;
         private bool _exportToOrafin;
+        private IpdcCode _ipdcCode;
+
         private readonly Dictionary<LabelType, LabelValue> _labels;
         private readonly LifeCycle _lifeCycle;
 
         private bool IsRemoved { get; set; }
+        private bool IsIpdcCodeSet => _ipdcCode != null;
 
         private PublicService()
         {
@@ -27,6 +30,7 @@ namespace PublicServiceRegistry.PublicService
             Register<StageWasAddedToLifeCycle>(When);
             Register<PeriodOfLifeCycleStageWasChanged>(When);
             Register<LifeCycleStageWasRemoved>(When);
+            Register<IpdcCodeWasSet>(When);
             Register<PublicServiceWasRemoved>(When);
         }
 
@@ -72,6 +76,11 @@ namespace PublicServiceRegistry.PublicService
         private void When(LifeCycleStageWasRemoved @event)
         {
             _lifeCycle.Route(@event);
+        }
+
+        private void When(IpdcCodeWasSet @event)
+        {
+            _ipdcCode = new IpdcCode(@event.IpdcCode);
         }
 
         private void When(PublicServiceWasRemoved @event)
