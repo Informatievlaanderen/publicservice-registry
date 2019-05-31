@@ -8,6 +8,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Responses
     using Microsoft.AspNetCore.Http;
     using NodaTime;
     using Swashbuckle.AspNetCore.Filters;
+    using ProblemDetails = Be.Vlaanderen.Basisregisters.BasicApiProblem.ProblemDetails;
 
     [DataContract(Name = "Levensloop", Namespace = "")]
     public class LifeCycleStageResponse
@@ -63,12 +64,12 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Responses
     {
         public object GetExamples()
         {
-            return new BasicApiProblem
+            return new ProblemDetails
             {
                 HttpStatus = StatusCodes.Status404NotFound,
-                Title = BasicApiProblem.DefaultTitle,
+                Title = ProblemDetails.DefaultTitle,
                 Detail = "Onbestaande levensloopfase.",
-                ProblemInstanceUri = BasicApiProblem.GetProblemNumber()
+                ProblemInstanceUri = ProblemDetails.GetProblemNumber()
             };
         }
     }

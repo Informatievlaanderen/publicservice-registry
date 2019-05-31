@@ -6,20 +6,34 @@ namespace PublicServiceRegistry.Projector.Infrastructure
 
     public class Program
     {
-        private static class DevelopmentCertificate
-        {
-            internal const string Name = "api.dienstverlening-test.basisregisters.vlaanderen.pfx";
-            internal const string Key = "dienstverlening!";
-        }
+        private static readonly DevelopmentCertificate DevelopmentCertificate =
+            new DevelopmentCertificate(
+                "api.dienstverlening-test.basisregisters.vlaanderen.pfx",
+                "dienstverlening!");
 
         public static void Main(string[] args) => CreateWebHostBuilder(args).Build().Run();
+
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args)
             => new WebHostBuilder()
                 .UseDefaultForApi<Startup>(
-                    httpPort: 1090,
-                    httpsPort: 1444,
-                    httpsCertificate: () => new X509Certificate2(DevelopmentCertificate.Name, DevelopmentCertificate.Key),
-                    commandLineArgs: args);
+                    new ProgramOptions
+                    {
+                        Hosting =
+                        {
+                            HttpPort = 8006,
+                            HttpsPort = 8007,
+                            HttpsCertificate = DevelopmentCertificate.ToCertificate
+                        },
+                        Logging =
+                        {
+                            WriteTextToConsole = false,
+                            WriteJsonToConsole = false
+                        },
+                        Runtime =
+                        {
+                            CommandLineArgs = args
+                        }
+                    });
     }
 }
