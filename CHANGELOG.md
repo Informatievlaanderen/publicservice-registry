@@ -1,3 +1,20 @@
+# [1.4.0](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.3.0...v1.4.0) (2019-05-31)
+
+
+### Bug Fixes
+
+* dvr-92: add labeltypes to state ([6a7f9e8](https://github.com/informatievlaanderen/publicservice-registry/commit/6a7f9e8))
+
+
+### Features
+
+* dvr-92: allow ipdc code to be set on public service ([b26dc23](https://github.com/informatievlaanderen/publicservice-registry/commit/b26dc23))
+* dvr-92: expose ipdc code on public service GET ([6bbd484](https://github.com/informatievlaanderen/publicservice-registry/commit/6bbd484))
+* dvr-92: project ipdc code via GET public service ([57f39fb](https://github.com/informatievlaanderen/publicservice-registry/commit/57f39fb))
+* dvr-92: show ipdc code on public service view ([2e190c3](https://github.com/informatievlaanderen/publicservice-registry/commit/2e190c3))
+* dvr-92: Show link to ipdc fiche ([0143d0a](https://github.com/informatievlaanderen/publicservice-registry/commit/0143d0a))
+* dvr-92: validate ipdc code format ([26769e4](https://github.com/informatievlaanderen/publicservice-registry/commit/26769e4))
+
 # [1.3.0](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.2.2...v1.3.0) (2019-05-31)
 
 
