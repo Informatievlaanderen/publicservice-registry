@@ -22,7 +22,7 @@ namespace PublicServiceRegistry.Api.Backoffice.IpdcCode
         public IpdcCodeController(ICommandHandlerResolver bus) : base(bus) { }
 
         /// <summary>
-        /// Wijs de ipdc code aan van een bestaande dienstverlening.
+        /// Wijs de ipdc code toe aan een bestaande dienstverlening.
         /// </summary>
         /// <param name="commandId">Unieke id voor het verzoek.</param>
         /// <param name="id">Id van de bestaande dienstverlening.</param>

@@ -120,7 +120,6 @@ namespace PublicServiceRegistry.PublicService
                     publicService.Remove(message.Command.ReasonForRemoval);
                 });
 
-
             For<SetIpdcCode>()
                 .AddSqlStreamStore(getStreamStore, getUnitOfWork, eventMapping, eventSerializer)
                 .RequiresRole(PublicServiceRegistryClaims.AdminRole)
