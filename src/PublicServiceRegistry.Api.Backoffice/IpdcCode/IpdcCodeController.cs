@@ -21,7 +21,6 @@ namespace PublicServiceRegistry.Api.Backoffice.IpdcCode
     {
         public IpdcCodeController(ICommandHandlerResolver bus) : base(bus) { }
 
-
         /// <summary>
         /// Wijs de ipdc code aan van een bestaande dienstverlening.
         /// </summary>
