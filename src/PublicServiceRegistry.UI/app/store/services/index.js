@@ -53,6 +53,7 @@ const initialState = {
     competentAuthority: '',
   },
   services: [],
+  labelTypes: [],
   listProperties: {
     sorting: {
       field: '',
