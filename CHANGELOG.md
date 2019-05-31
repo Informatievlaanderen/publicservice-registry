@@ -1,3 +1,16 @@
+# [1.3.0](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.2.2...v1.3.0) (2019-05-31)
+
+
+### Bug Fixes
+
+* dvr-116: add dummy vsTest target ([017196c](https://github.com/informatievlaanderen/publicservice-registry/commit/017196c))
+
+
+### Features
+
+* dvr-116: add hosted service to feed ClockHasTicked events ([dab9636](https://github.com/informatievlaanderen/publicservice-registry/commit/dab9636))
+* dvr-116: resolve ClockProvider ([f78733f](https://github.com/informatievlaanderen/publicservice-registry/commit/f78733f))
+
 ## [1.2.2](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.2.1...v1.2.2) (2019-05-21)
 
 ## [1.2.1](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.2.0...v1.2.1) (2019-05-20)
