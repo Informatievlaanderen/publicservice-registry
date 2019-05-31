@@ -1375,7 +1375,7 @@ NUGET
       System.Reflection (>= 4.3) - restriction: || (&& (== net472) (< net45)) (== netcoreapp2.2) (== netstandard2.0)
       System.Reflection.Primitives (>= 4.3) - restriction: || (&& (== net472) (< net45)) (== netcoreapp2.2) (== netstandard2.0)
       System.Runtime (>= 4.3) - restriction: || (&& (== net472) (< net45)) (== netcoreapp2.2) (== netstandard2.0)
-    System.Reflection.Emit.Lightweight (4.3) - restriction: || (&& (== net472) (< net45)) (&& (== net472) (>= netcoreapp1.0)) (== netcoreapp2.2) (== netstandard2.0)
+    System.Reflection.Emit.Lightweight (4.3) - restriction: || (&& (== net472) (< net45)) (&& (== net472) (>= netcoreapp1.0)) (&& (== net472) (< portable-net45+win8+wp8+wpa81)) (== netcoreapp2.2) (== netstandard2.0)
       System.Reflection (>= 4.3) - restriction: || (&& (== net472) (< net45)) (== netcoreapp2.2) (== netstandard2.0)
       System.Reflection.Emit.ILGeneration (>= 4.3) - restriction: || (&& (== net472) (< net45)) (== netcoreapp2.2) (== netstandard2.0)
       System.Reflection.Primitives (>= 4.3) - restriction: || (&& (== net472) (< net45)) (== netcoreapp2.2) (== netstandard2.0)
