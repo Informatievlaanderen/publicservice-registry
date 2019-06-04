@@ -15,6 +15,7 @@ namespace PublicServiceRegistry.Tests.Framework
             new WithLifeCycleStage(),
             new WithLifeCycleStagePeriod(),
             new WithLifeCycleStageId(),
-            new WithIpdcCode()) { }
+            new WithIpdcCode(),
+            new WithLegislativeDocumentId()) { }
     }
 }

@@ -10,12 +10,14 @@ namespace PublicServiceRegistry.PublicService
         private OvoNumber _competentAuthorityOvoNumber;
         private bool _exportToOrafin;
         private IpdcCode _ipdcCode;
+        private LegislativeDocumentId _legislativeDocumentId;
 
         private readonly Dictionary<LabelType, LabelValue> _labels;
         private readonly LifeCycle _lifeCycle;
 
         private bool IsRemoved { get; set; }
         private bool IsIpdcCodeSet => _ipdcCode != null;
+        private bool IsLegislativeDocumentIdSet => _legislativeDocumentId != null;
 
         private PublicService()
         {
@@ -31,6 +33,7 @@ namespace PublicServiceRegistry.PublicService
             Register<PeriodOfLifeCycleStageWasChanged>(When);
             Register<LifeCycleStageWasRemoved>(When);
             Register<IpdcCodeWasSet>(When);
+            Register<LegislativeDocumentIdWasSet>(When);
             Register<PublicServiceWasRemoved>(When);
         }
 
@@ -81,6 +84,11 @@ namespace PublicServiceRegistry.PublicService
         private void When(IpdcCodeWasSet @event)
         {
             _ipdcCode = new IpdcCode(@event.IpdcCode);
+        }
+
+        private void When(LegislativeDocumentIdWasSet @event)
+        {
+            _legislativeDocumentId = new LegislativeDocumentId(@event.LegislativeDocumentId);
         }
 
         private void When(PublicServiceWasRemoved @event)

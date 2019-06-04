@@ -84,7 +84,8 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService
                     !string.IsNullOrEmpty(publicService.CurrentLifeCycleStageType)
                         ? PublicServiceRegistry.LifeCycleStageType.Parse(publicService.CurrentLifeCycleStageType).Translation.Name
                         : string.Empty,
-                    publicService.IpdcCode));
+                    publicService.IpdcCode,
+                    publicService.LegislativeDocumentId));
         }
 
         /// <summary>

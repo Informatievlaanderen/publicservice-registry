@@ -1,4 +1,4 @@
-namespace PublicServiceRegistry.Api.Backoffice.IpdcCode
+namespace PublicServiceRegistry.Api.Backoffice.LegislativeDocument
 {
     using System;
     using System.Threading;
@@ -14,38 +14,38 @@ namespace PublicServiceRegistry.Api.Backoffice.IpdcCode
 
     [ApiVersion("1.0")]
     [AdvertiseApiVersions("1.0")]
-    [ApiRoute("dienstverleningen/{id}/ipdccode")]
+    [ApiRoute("dienstverleningen/{id}/wetgevenddocument")]
     [ApiExplorerSettings(GroupName = "Dienstverleningen")]
     [PublicServiceRegistryAuthorize]
-    public class IpdcCodeController : ApiBusController
+    public class LegaslitiveDocumentIdController : ApiBusController
     {
-        public IpdcCodeController(ICommandHandlerResolver bus) : base(bus) { }
+        public LegaslitiveDocumentIdController(ICommandHandlerResolver bus) : base(bus) { }
 
         /// <summary>
-        /// Wijs de ipdc code toe aan een bestaande dienstverlening.
+        /// Wijs het id van het wetgevend document toe aan een bestaande dienstverlening.
         /// </summary>
         /// <param name="commandId">Unieke id voor het verzoek.</param>
         /// <param name="id">Id van de bestaande dienstverlening.</param>
-        /// <param name="setIpdcCode"></param>
+        /// <param name="setLegislativeDocumentId"></param>
         /// <param name="cancellationToken"></param>
         /// <returns></returns>
-        [HttpPut("{id}")]
+        [HttpPut()]
         [ProducesResponseType(typeof(AcceptedResult), StatusCodes.Status202Accepted)]
         [ProducesResponseType(typeof(BadRequestObjectResult), StatusCodes.Status400BadRequest)]
-        [SwaggerRequestExample(typeof(SetIpdcCodeRequest), typeof(SetIpdcCodeRequestExample))]
+        [SwaggerRequestExample(typeof(SetLegislativeDocumentIdRequest), typeof(SetLegislativeDocumentIdRequestExample))]
         public async Task<IActionResult> Put(
             [FromCommandId] Guid commandId,
             [FromRoute] string id,
-            [FromBody] SetIpdcCodeRequest setIpdcCode,
+            [FromBody] SetLegislativeDocumentIdRequest setLegislativeDocumentId,
             CancellationToken cancellationToken = default)
         {
-            if (!TryValidateModel(setIpdcCode))
+            if (!TryValidateModel(setLegislativeDocumentId))
                 return BadRequest(ModelState);
 
             return Accepted(
                 await Bus.Dispatch(
                     commandId,
-                    SetIpdcCodeRequestMapping.Map(id, setIpdcCode),
+                    SetLegislativeDocumentIdRequestMapping.Map(id, setLegislativeDocumentId),
                     GetMetadata(),
                     cancellationToken));
         }

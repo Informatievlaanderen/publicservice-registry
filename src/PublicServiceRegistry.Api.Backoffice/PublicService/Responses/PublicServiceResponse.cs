@@ -43,15 +43,19 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService.Responses
         [DataMember(Name = "IpdcCode", Order = 8)]
         public string IpdcCode { get; }
 
-        public PublicServiceResponse(
-            string id,
+        /// <summary>Id van het corresponderende wetgevend document..</summary>
+        [DataMember(Name = "WetgevendDocumentId", Order = 9)]
+        public string LegislativeDocumentId { get; }
+
+        public PublicServiceResponse(string id,
             string name,
             string competentAuthorityCode,
             string competentAuthorityName,
             bool exportToOrafin,
             string currentLifeCycleStageType,
             string currentLifeCycleStageTypeName,
-            string ipdcCode)
+            string ipdcCode,
+            string legislativeDocumentId)
         {
             Id = id;
             Naam = name;
@@ -61,6 +65,7 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService.Responses
             CurrentLifeCycleStageType = currentLifeCycleStageType;
             CurrentLifeCycleStageTypeName = currentLifeCycleStageTypeName;
             IpdcCode = ipdcCode;
+            LegislativeDocumentId = legislativeDocumentId;
         }
     }
 
@@ -76,7 +81,8 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService.Responses
                 true,
                 LifeCycleStageType.PhasingOut,
                 LifeCycleStageType.PhasingOut.Translation.Name,
-                "1234");
+                "1234",
+                "1234567");
         }
     }
 

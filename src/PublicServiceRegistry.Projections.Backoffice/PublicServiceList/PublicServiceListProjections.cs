@@ -155,6 +155,16 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceList
                 publicServiceListItem.IpdcCode = message.Message.IpdcCode;
             });
 
+            When<Envelope<LegislativeDocumentIdWasSet>>(async (context, message, ct) =>
+            {
+                var publicServiceListItem = await FindPublicService(
+                    context,
+                    message.Message.PublicServiceId,
+                    ct);
+
+                publicServiceListItem.LegislativeDocumentId = message.Message.LegislativeDocumentId;
+            });
+
             When<Envelope<ClockHasTicked>>(async (context, message, ct) =>
             {
                 var date = LocalDate.FromDateTime(message.Message.DateTime);

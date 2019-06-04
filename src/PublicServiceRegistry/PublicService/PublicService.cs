@@ -105,10 +105,24 @@ namespace PublicServiceRegistry.PublicService
             ApplyChange(new IpdcCodeWasSet(_id, ipdcCode));
         }
 
+        public void SetLegislativeDocumentId(LegislativeDocumentId legislativeDocumentId)
+        {
+            EnsureNotRemoved();
+            EnsureLegislativeDocumentIdNotSet();
+
+            ApplyChange(new LegislativeDocumentIdWasSet(_id, legislativeDocumentId));
+        }
+
         private void EnsureIpdcCodeNotSet()
         {
             if (IsIpdcCodeSet)
                 throw new IpdcCodeWasAlreadySet();
+        }
+
+        private void EnsureLegislativeDocumentIdNotSet()
+        {
+            if (IsLegislativeDocumentIdSet)
+                throw new LegislativeDocumentIdWasAlreadySet();
         }
 
         private void EnsureNotRemoved()

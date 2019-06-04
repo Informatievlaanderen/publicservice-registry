@@ -16,6 +16,10 @@
           <dd v-if="myServiceIpdcCode" class="properties__data">
             <a target="_blank" :href="myServiceIpdcCodeLink">{{ myServiceIpdcCode }}</a>
           </dd>
+          <dt class="properties__label">Wetgevende Basis: </dt>
+          <dd v-if="myServiceLegislativeDocumentId" class="properties__data">
+            <a target="_blank" :href="myServiceLegislativeDocumentIdLink">{{ myServiceLegislativeDocumentId }}</a>
+          </dd>
         </dl>
       </div>
 
@@ -51,10 +55,14 @@ export default {
       myServiceIsSubsidy: 'currentMyServiceIsSubsidy',
       myServiceLifeCycleStageTypeName: 'currentMyServiceCurrentLifeCycleStageTypeName',
       myServiceIpdcCode: 'currentMyServiceIpdcCode',
+      myServiceLegislativeDocumentId: 'currentMyServiceLegislativeDocumentId',
       alternativeLabels: 'alternativeLabels',
     }),
     myServiceIpdcCodeLink() {
       return `https://productencatalogus.vlaanderen.be/fiche/${this.myServiceIpdcCode}`;
+    },
+    myServiceLegislativeDocumentIdLink() {
+      return `https://codex.vlaanderen.be/Zoeken/Document.aspx?DID=${this.myServiceLegislativeDocumentId}&param=informatie`;
     }
   },
   methods: {
