@@ -14,7 +14,7 @@ namespace PublicServiceRegistry.Api.Backoffice.IpdcCode
 
     [ApiVersion("1.0")]
     [AdvertiseApiVersions("1.0")]
-    [ApiRoute("dienstverleningen/ipdccode")]
+    [ApiRoute("dienstverleningen/{id}/ipdccode")]
     [ApiExplorerSettings(GroupName = "Dienstverleningen")]
     [PublicServiceRegistryAuthorize]
     public class IpdcCodeController : ApiBusController
