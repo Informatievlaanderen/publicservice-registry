@@ -97,6 +97,20 @@ namespace PublicServiceRegistry.PublicService
             ApplyChange(new PublicServiceWasRemoved(_id, reasonForRemoval));
         }
 
+        public void SetIpdcCode(IpdcCode ipdcCode)
+        {
+            EnsureNotRemoved();
+            EnsureIpdcCodeNotSet();
+
+            ApplyChange(new IpdcCodeWasSet(_id, ipdcCode));
+        }
+
+        private void EnsureIpdcCodeNotSet()
+        {
+            if (IsIpdcCodeSet)
+                throw new IpdcCodeWasAlreadySet();
+        }
+
         private void EnsureNotRemoved()
         {
             if (IsRemoved)

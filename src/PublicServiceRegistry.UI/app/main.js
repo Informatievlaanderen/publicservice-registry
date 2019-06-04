@@ -35,7 +35,7 @@ shim();
 
 axios.defaults.baseURL =
   window.dienstverleningApiEndpoint ||
-  'https://api.dienstverlening-test.basisregisters.vlaanderen:2443/';
+  'https://api.dienstverlening-test.basisregisters.vlaanderen:8003/';
 
 const oidcClient = new OidcClient(axios);
 

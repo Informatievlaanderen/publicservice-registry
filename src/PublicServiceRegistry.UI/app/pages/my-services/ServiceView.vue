@@ -12,6 +12,10 @@
           <dt class="properties__label">Bevoegde organisatie: </dt><dd class="properties__data">{{ myServiceCompetentAuthority }}</dd>
           <dt class="properties__label">Is subsidie: </dt><dd class="properties__data">{{ myServiceIsSubsidy }}</dd>
           <dt class="properties__label">Status: </dt><dd class="properties__data">{{ myServiceLifeCycleStageTypeName }}</dd>
+          <dt class="properties__label">Ipdc Code: </dt>
+          <dd v-if="myServiceIpdcCode" class="properties__data">
+            <a target="_blank" :href="myServiceIpdcCodeLink">{{ myServiceIpdcCode }}</a>
+          </dd>
         </dl>
       </div>
 
@@ -46,8 +50,12 @@ export default {
       myServiceCompetentAuthority: 'currentMyServiceCompetentAuthority',
       myServiceIsSubsidy: 'currentMyServiceIsSubsidy',
       myServiceLifeCycleStageTypeName: 'currentMyServiceCurrentLifeCycleStageTypeName',
+      myServiceIpdcCode: 'currentMyServiceIpdcCode',
       alternativeLabels: 'alternativeLabels',
     }),
+    myServiceIpdcCodeLink() {
+      return `https://productencatalogus.vlaanderen.be/fiche/${this.myServiceIpdcCode}`;
+    }
   },
   methods: {
     valueFor(labelType) {

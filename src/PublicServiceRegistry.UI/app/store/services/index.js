@@ -45,6 +45,7 @@ const initialState = {
     competentAuthority: '',
     isSubsidy: false,
     currentLifeCycleStageTypeName: '',
+    ipdcCode: '',
   },
   servicesFilter: {
     name: '',
@@ -52,6 +53,7 @@ const initialState = {
     competentAuthority: '',
   },
   services: [],
+  labelTypes: [],
   listProperties: {
     sorting: {
       field: '',
@@ -78,6 +80,7 @@ const getters = {
   currentMyServiceCompetentAuthority: state => state.currentMyService.competentAuthority,
   currentMyServiceIsSubsidy: state => state.currentMyService.isSubsidy,
   currentMyServiceCurrentLifeCycleStageTypeName: state => state.currentMyService.currentLifeCycleStageTypeName,
+  currentMyServiceIpdcCode: state => state.currentMyService.ipdcCode,
   sortColumn: (state) => {
     const sorting = state.listProperties.sorting;
     return {
@@ -150,6 +153,7 @@ const mutations = {
     state.currentMyService.competentAuthority = myService.verantwoordelijkeAutoriteitCode;
     state.currentMyService.isSubsidy = myService.exportNaarOrafin;
     state.currentMyService.currentLifeCycleStageTypeName = myService.huidigeLevensloopfaseTypeNaam;
+    state.currentMyService.ipdcCode = myService.ipdcCode;
   },
   [SET_LABELTYPES](state, labelTypes) {
     state.labelTypes = labelTypes;

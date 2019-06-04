@@ -10,19 +10,26 @@ namespace PublicServiceRegistry.Projector.Infrastructure
     using Autofac.Extensions.DependencyInjection;
     using Be.Vlaanderen.Basisregisters.Projector.ConnectedProjections;
     using Configuration;
+    using HostedServices;
     using Microsoft.AspNetCore.Builder;
-    using Microsoft.AspNetCore.Hosting;
     using Microsoft.AspNetCore.Mvc.ApiExplorer;
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
+    using Microsoft.Extensions.Hosting;
+    using Microsoft.Extensions.Diagnostics.HealthChecks;
     using Microsoft.Extensions.Logging;
     using Modules;
+    using PublicServiceRegistry.Projections.Backoffice;
     using Swashbuckle.AspNetCore.Swagger;
+    using IApplicationLifetime = Microsoft.AspNetCore.Hosting.IApplicationLifetime;
+    using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
     using TraceSource = Be.Vlaanderen.Basisregisters.DataDog.Tracing.TraceSource;
 
     /// <summary>Represents the startup process for the application.</summary>
     public class Startup
     {
+        private const string DatabaseTag = "db";
+
         private IContainer _applicationContainer;
 
         private readonly IConfiguration _configuration;
@@ -66,8 +73,28 @@ namespace PublicServiceRegistry.Projector.Infrastructure
                             }
                         },
                         XmlCommentPaths = new [] { typeof(Startup).GetTypeInfo().Assembly.GetName().Name }
+                    },
+                    MiddlewareHooks =
+                    {
+                        AfterHealthChecks = health =>
+                        {
+                            var connectionStrings = _configuration
+                                .GetSection("ConnectionStrings")
+                                .GetChildren();
+
+                            foreach (var connectionString in connectionStrings)
+                                health.AddSqlServer(
+                                    connectionString.Value,
+                                    name: $"sqlserver-{connectionString.Key.ToLowerInvariant()}",
+                                    tags: new[] { DatabaseTag, "sql", "sqlserver" });
+
+                            health.AddDbContextCheck<BackofficeContext>(
+                                $"dbcontext-{nameof(BackofficeContext).ToLowerInvariant()}",
+                                tags: new[] { DatabaseTag, "sql", "sqlserver" });
+                        }
                     }
-                });
+                })
+                .AddSingleton<IHostedService, ClockTickingService>();
 
             var containerBuilder = new ContainerBuilder();
             containerBuilder.RegisterModule(new ApiModule(_configuration, services, _loggerFactory));
@@ -84,39 +111,39 @@ namespace PublicServiceRegistry.Projector.Infrastructure
             ILoggerFactory loggerFactory,
             IApiVersionDescriptionProvider apiVersionProvider,
             ApiDataDogToggle datadogToggle,
-            ApiDebugDataDogToggle debugDataDogToggle)
+            ApiDebugDataDogToggle debugDataDogToggle,
+            HealthCheckService healthCheckService)
         {
-            if (datadogToggle.FeatureEnabled)
-            {
-                if (debugDataDogToggle.FeatureEnabled)
-                    StartupHelpers.SetupSourceListener(serviceProvider.GetRequiredService<TraceSource>());
+            StartupHelpers.CheckDatabases(healthCheckService, DatabaseTag).GetAwaiter().GetResult();
 
-                app.UseDataDogTracing(
-                    serviceProvider.GetRequiredService<TraceSource>(),
-                    _configuration["DataDog:ServiceName"],
-                    pathToCheck => pathToCheck != "/");
-            }
+            app
+                .UseDatadog<Startup>(
+                    serviceProvider,
+                    loggerFactory,
+                    datadogToggle,
+                    debugDataDogToggle,
+                    _configuration["DataDog:ServiceName"])
 
-            app.UseDefaultForApi(new StartupUseOptions
-            {
-                Common =
+                .UseDefaultForApi(new StartupUseOptions
                 {
-                    ApplicationContainer = _applicationContainer,
-                    ServiceProvider = serviceProvider,
-                    HostingEnvironment = env,
-                    ApplicationLifetime = appLifetime,
-                    LoggerFactory = loggerFactory
-                },
-                Api =
-                {
-                    VersionProvider = apiVersionProvider,
-                    Info = groupName => $"Basisregisters Vlaanderen - Public Service Registry API {groupName}"
-                },
-                MiddlewareHooks =
-                {
-                    AfterMiddleware = x => x.UseMiddleware<AddNoCacheHeadersMiddleware>(),
-                }
-            });
+                    Common =
+                    {
+                        ApplicationContainer = _applicationContainer,
+                        ServiceProvider = serviceProvider,
+                        HostingEnvironment = env,
+                        ApplicationLifetime = appLifetime,
+                        LoggerFactory = loggerFactory
+                    },
+                    Api =
+                    {
+                        VersionProvider = apiVersionProvider,
+                        Info = groupName => $"Basisregisters Vlaanderen - Public Service Registry API {groupName}"
+                    },
+                    MiddlewareHooks =
+                    {
+                        AfterMiddleware = x => x.UseMiddleware<AddNoCacheHeadersMiddleware>(),
+                    }
+                });
 
             var projectionsManager = serviceProvider.GetRequiredService<IConnectedProjectionsManager>();
             projectionsManager.Start();

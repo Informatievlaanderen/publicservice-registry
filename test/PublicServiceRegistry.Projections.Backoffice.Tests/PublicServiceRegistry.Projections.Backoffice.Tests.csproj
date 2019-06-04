@@ -9,6 +9,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\src\PublicServiceRegistry.Api.Backoffice\PublicServiceRegistry.Api.Backoffice.csproj" />
     <ProjectReference Include="..\..\src\PublicServiceRegistry.Projections.Backoffice\PublicServiceRegistry.Projections.Backoffice.csproj" />
+    <ProjectReference Include="..\..\src\PublicServiceRegistry.Projector\PublicServiceRegistry.Projector.csproj" />
   </ItemGroup>
 
   <Import Project="..\..\.paket\Paket.Restore.targets" />

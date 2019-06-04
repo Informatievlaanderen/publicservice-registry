@@ -5,6 +5,7 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService.Responses
     using Microsoft.AspNetCore.Http;
     using Swashbuckle.AspNetCore.Filters;
     using LifeCycleStageType = PublicServiceRegistry.LifeCycleStageType;
+    using ProblemDetails = Be.Vlaanderen.Basisregisters.BasicApiProblem.ProblemDetails;
 
     [DataContract(Name = "Dienstverlening", Namespace = "")]
     public class PublicServiceResponse
@@ -37,6 +38,11 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService.Responses
         [DataMember(Name = "HuidigeLevensloopfaseTypeNaam", Order = 7)]
         public string CurrentLifeCycleStageTypeName { get; }
 
+
+        /// <summary>Corresponderende Ipdc code.</summary>
+        [DataMember(Name = "IpdcCode", Order = 8)]
+        public string IpdcCode { get; }
+
         public PublicServiceResponse(
             string id,
             string name,
@@ -44,7 +50,8 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService.Responses
             string competentAuthorityName,
             bool exportToOrafin,
             string currentLifeCycleStageType,
-            string currentLifeCycleStageTypeName)
+            string currentLifeCycleStageTypeName,
+            string ipdcCode)
         {
             Id = id;
             Naam = name;
@@ -53,6 +60,7 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService.Responses
             ExportNaarOrafin = exportToOrafin;
             CurrentLifeCycleStageType = currentLifeCycleStageType;
             CurrentLifeCycleStageTypeName = currentLifeCycleStageTypeName;
+            IpdcCode = ipdcCode;
         }
     }
 
@@ -67,7 +75,8 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService.Responses
                 "Agentschap voor Hoger Onderwijs, Volwassenenonderwijs, Kwalificaties en Studietoelagen",
                 true,
                 LifeCycleStageType.PhasingOut,
-                LifeCycleStageType.PhasingOut.Translation.Name);
+                LifeCycleStageType.PhasingOut.Translation.Name,
+                "1234");
         }
     }
 
@@ -75,12 +84,12 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService.Responses
     {
         public object GetExamples()
         {
-            return new BasicApiProblem
+            return new ProblemDetails
             {
                 HttpStatus = StatusCodes.Status404NotFound,
-                Title = BasicApiProblem.DefaultTitle,
+                Title = ProblemDetails.DefaultTitle,
                 Detail = "Onbestaande dienstverlening.",
-                ProblemInstanceUri = BasicApiProblem.GetProblemNumber()
+                ProblemInstanceUri = ProblemDetails.GetProblemNumber()
             };
         }
     }

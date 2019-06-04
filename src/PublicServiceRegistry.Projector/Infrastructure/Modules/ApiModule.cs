@@ -76,12 +76,16 @@ namespace PublicServiceRegistry.Projector.Infrastructure.Modules
                         _loggerFactory));
 
             builder
+                .RegisterType<ClockProvider>()
+                .As<IClockProvider>();
+
+            builder
                 .RegisterProjectionMigrator<BackofficeContextMigrationFactory>(
                     _configuration,
                     _loggerFactory)
 
                 .RegisterProjections<PublicServiceProjections, BackofficeContext>()
-                .RegisterProjections<PublicServiceListProjections, BackofficeContext>(() => new PublicServiceListProjections(new ClockProvider()))
+                .RegisterProjections<PublicServiceListProjections, BackofficeContext>(x => new PublicServiceListProjections(x.Resolve<IClockProvider>()))
                 .RegisterProjections<PublicServiceLabelListProjections, BackofficeContext>()
                 .RegisterProjections<PublicServiceLifeCycleListProjections, BackofficeContext>();
         }

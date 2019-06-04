@@ -19,6 +19,7 @@ namespace PublicServiceRegistry.Api.Backoffice.Infrastructure
     using Microsoft.AspNetCore.Mvc.ApiExplorer;
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
+    using Microsoft.Extensions.Diagnostics.HealthChecks;
     using Microsoft.Extensions.Logging;
     using Microsoft.Net.Http.Headers;
     using Modules;
@@ -149,46 +150,45 @@ namespace PublicServiceRegistry.Api.Backoffice.Infrastructure
             IApiVersionDescriptionProvider apiVersionProvider,
             MsSqlStreamStore streamStore,
             ApiDataDogToggle datadogToggle,
-            ApiDebugDataDogToggle debugDataDogToggle)
+            ApiDebugDataDogToggle debugDataDogToggle,
+            HealthCheckService healthCheckService)
         {
+            StartupHelpers.CheckDatabases(healthCheckService, DatabaseTag).GetAwaiter().GetResult();
             StartupHelpers.EnsureSqlStreamStoreSchema<Startup>(streamStore, loggerFactory);
 
-            if (datadogToggle.FeatureEnabled)
-            {
-                if (debugDataDogToggle.FeatureEnabled)
-                    StartupHelpers.SetupSourceListener(serviceProvider.GetRequiredService<TraceSource>());
+            app
+                .UseDatadog<Startup>(
+                    serviceProvider,
+                    loggerFactory,
+                    datadogToggle,
+                    debugDataDogToggle,
+                    _configuration["DataDog:ServiceName"])
 
-                app.UseDataDogTracing(
-                    serviceProvider.GetRequiredService<TraceSource>(),
-                    _configuration["DataDog:ServiceName"],
-                    pathToCheck => pathToCheck != "/");
-            }
-
-            app.UseDefaultForApi(new StartupUseOptions
-            {
-                Common =
+                .UseDefaultForApi(new StartupUseOptions
                 {
-                    ApplicationContainer = _applicationContainer,
-                    ServiceProvider = serviceProvider,
-                    HostingEnvironment = env,
-                    ApplicationLifetime = appLifetime,
-                    LoggerFactory = loggerFactory
-                },
-                Api =
-                {
-                    VersionProvider = apiVersionProvider,
-                    Info = groupName => $"Basisregisters Vlaanderen - Dienstverleningsregister API {groupName}",
-                    CustomExceptionHandlers = new []
+                    Common =
                     {
-                        new GetOrganisationFailedHandler()
+                        ApplicationContainer = _applicationContainer,
+                        ServiceProvider = serviceProvider,
+                        HostingEnvironment = env,
+                        ApplicationLifetime = appLifetime,
+                        LoggerFactory = loggerFactory
+                    },
+                    Api =
+                    {
+                        VersionProvider = apiVersionProvider,
+                        Info = groupName => $"Basisregisters Vlaanderen - Dienstverleningsregister API {groupName}",
+                        CustomExceptionHandlers = new []
+                        {
+                            new GetOrganisationFailedHandler()
+                        }
+                    },
+                    MiddlewareHooks =
+                    {
+                        AfterApiExceptionHandler = x => x.UseAuthentication(),
+                        AfterMiddleware = x => x.UseMiddleware<AddNoCacheHeadersMiddleware>(),
                     }
-                },
-                MiddlewareHooks =
-                {
-                    AfterApiExceptionHandler = x => x.UseAuthentication(),
-                    AfterMiddleware = x => x.UseMiddleware<AddNoCacheHeadersMiddleware>(),
-                }
-            });
+                });
         }
 
         private static string GetApiLeadingText(ApiVersionDescription description)

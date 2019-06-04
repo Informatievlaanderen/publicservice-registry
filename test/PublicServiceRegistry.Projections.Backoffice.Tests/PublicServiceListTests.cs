@@ -313,5 +313,31 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
                     CurrentLifeCycleStageEndsAt = null,
                 });
         }
+
+        [Fact]
+        public Task WhenIpdcCodeWasSet()
+        {
+            var clockProviderStub = new ClockProviderStub(Today);
+
+            var publicServiceId = new PublicServiceId("DVR000000001");
+            var events = new object[]
+            {
+                new PublicServiceWasRegistered(publicServiceId, new PublicServiceName("Test"), PrivateZoneId.Unregistered),
+                new IpdcCodeWasSet(publicServiceId, new IpdcCode("1234")),
+            };
+
+            return new PublicServiceListProjections(clockProviderStub)
+                .Scenario()
+                .Given(events)
+                .Expect(new PublicServiceListItem
+                {
+                    Name = "Test",
+                    PublicServiceId = "DVR000000001",
+                    CurrentLifeCycleStageType = null,
+                    CurrentLifeCycleStageId = null,
+                    CurrentLifeCycleStageEndsAt = null,
+                    IpdcCode = "1234"
+                });
+        }
     }
 }

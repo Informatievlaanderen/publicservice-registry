@@ -6,6 +6,7 @@ namespace PublicServiceRegistry.Api.Backoffice.Tests
     using Microsoft.AspNetCore.Http;
     using PublicServiceRegistry.PublicService.Exceptions;
     using Xunit;
+    using ProblemDetails = Be.Vlaanderen.Basisregisters.BasicApiProblem.ProblemDetails;
 
     public class GetOrganisationFailedHandlerTests
     {
@@ -63,7 +64,7 @@ namespace PublicServiceRegistry.Api.Backoffice.Tests
         [Fact]
         public void ThenTheProblemTitleShouldBeTheDefaultApiProblemTitle()
         {
-            _handledProblem.Title.Should().Be(BasicApiProblem.DefaultTitle);
+            _handledProblem.Title.Should().Be(ProblemDetails.DefaultTitle);
         }
 
         [Fact]
