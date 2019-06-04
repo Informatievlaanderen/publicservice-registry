@@ -132,6 +132,19 @@ namespace PublicServiceRegistry.PublicService
 
                     publicService.SetIpdcCode(message.Command.IpdcCode);
                 });
+
+            For<SetLegislativeDocumentId>()
+                .AddSqlStreamStore(getStreamStore, getUnitOfWork, eventMapping, eventSerializer)
+                .RequiresRole(PublicServiceRegistryClaims.AdminRole)
+                .Handle(async (message, ct) =>
+                {
+                    var publicServices = getPublicServices();
+
+                    var publicServiceId = message.Command.PublicServiceId;
+                    var publicService = await publicServices.GetAsync(publicServiceId, ct);
+
+                    publicService.SetLegislativeDocumentId(message.Command.LegislativeDocumentId);
+                });
         }
     }
 }
