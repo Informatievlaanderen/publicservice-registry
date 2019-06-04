@@ -1,3 +1,12 @@
+# [1.5.0](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.4.0...v1.5.0) (2019-06-04)
+
+
+### Features
+
+* dvr-141: allow legaslative document id to be set on public service ([d3fa066](https://github.com/informatievlaanderen/publicservice-registry/commit/d3fa066))
+* dvr-92: reuse uri style from legislative document id ([fc6459a](https://github.com/informatievlaanderen/publicservice-registry/commit/fc6459a))
+* update vbr projector package ([d0e4af0](https://github.com/informatievlaanderen/publicservice-registry/commit/d0e4af0))
+
 # [1.4.0](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.3.0...v1.4.0) (2019-05-31)
 
 
