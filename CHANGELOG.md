@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.5.0...v1.5.1) (2019-06-13)
+
+
+### Bug Fixes
+
+* dvr-92: remove duplicate routing param ([9328eb3](https://github.com/informatievlaanderen/publicservice-registry/commit/9328eb3))
+
 # [1.5.0](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.4.0...v1.5.0) (2019-06-04)
 
 
