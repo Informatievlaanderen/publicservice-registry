@@ -29,7 +29,7 @@ namespace PublicServiceRegistry.Api.Backoffice.IpdcCode
         /// <param name="setIpdcCode"></param>
         /// <param name="cancellationToken"></param>
         /// <returns></returns>
-        [HttpPut("{id}")]
+        [HttpPut()]
         [ProducesResponseType(typeof(AcceptedResult), StatusCodes.Status202Accepted)]
         [ProducesResponseType(typeof(BadRequestObjectResult), StatusCodes.Status400BadRequest)]
         [SwaggerRequestExample(typeof(SetIpdcCodeRequest), typeof(SetIpdcCodeRequestExample))]
