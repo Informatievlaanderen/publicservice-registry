@@ -24,7 +24,8 @@
     <Content Include="appsettings.*.json" CopyToOutputDirectory="Always" />
     <Content Include="paket.template" CopyToOutputDirectory="Always" />
     <Content Include="Dockerfile" CopyToOutputDirectory="Always" />
-  </ItemGroup>
+    <Content Include="init.sh" CopyToOutputDirectory="Always" />
+</ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\PublicServiceRegistry.Infrastructure\PublicServiceRegistry.Infrastructure.csproj" />

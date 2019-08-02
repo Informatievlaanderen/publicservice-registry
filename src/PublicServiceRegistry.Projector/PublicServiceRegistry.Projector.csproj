@@ -19,7 +19,8 @@
     <Content Include="Dockerfile" CopyToOutputDirectory="Always" />
     <Content Include="appsettings.json" CopyToOutputDirectory="Always" />
     <Content Include="appsettings.*.json" CopyToOutputDirectory="Always" />
-  </ItemGroup>
+    <Content Include="init.sh" CopyToOutputDirectory="Always" />
+</ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\PublicServiceRegistry.Infrastructure\PublicServiceRegistry.Infrastructure.csproj" />

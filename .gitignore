@@ -5,6 +5,7 @@ tracing*.log
 .vscode/
 .fake/
 .idea/
+.ionide/
 
 [Pp]ackages/
 [Pp]aket-files/
