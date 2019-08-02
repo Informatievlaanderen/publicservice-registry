@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.5.1...v1.6.0) (2019-08-02)
+
+
+### Features
+
+* prepare for production ([11842e3](https://github.com/informatievlaanderen/publicservice-registry/commit/11842e3))
+
 ## [1.5.1](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.5.0...v1.5.1) (2019-06-13)
 
 
