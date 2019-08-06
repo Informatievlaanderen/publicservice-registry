@@ -29,10 +29,10 @@ export default {
   allowedHosts: [
     '.basisregisters.vlaanderen'
   ],
-  https: {
-    pfx: fs.readFileSync(path.join(projectRoot, 'dienstverlening-test.basisregisters.vlaanderen.pfx')),
-    passphrase: 'dienstverlening!'
-  },
+  // https: {
+  //   pfx: fs.readFileSync(path.join(projectRoot, 'dienstverlening-test.basisregisters.vlaanderen.pfx')),
+  //   passphrase: 'dienstverlening!'
+  // },
 
   // Remember to also update jsconfig.json
   aliases: {
