@@ -82,6 +82,7 @@ Target "Site_Build" (fun _ ->
   CopyFile dist (source @@ "Dockerfile")
   CopyFile dist (source @@ "default.conf")
   CopyFile dist (source @@ "config.js")
+  CopyFile dist (source @@ "init.sh")
 )
 
 Target "Test_Solution" (fun _ -> test "PublicServiceRegistry")
