@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.7.0...v1.7.1) (2019-08-06)
+
+
+### Bug Fixes
+
+* clean up readme ([5d554f0](https://github.com/informatievlaanderen/publicservice-registry/commit/5d554f0))
+
 # [1.7.0](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.6.0...v1.7.0) (2019-08-06)
 
 
