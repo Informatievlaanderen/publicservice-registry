@@ -1,3 +1,10 @@
+## [1.7.2](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.7.1...v1.7.2) (2019-08-06)
+
+
+### Bug Fixes
+
+* copy correct docker images from test ([ec5c148](https://github.com/informatievlaanderen/publicservice-registry/commit/ec5c148))
+
 ## [1.7.1](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.7.0...v1.7.1) (2019-08-06)
 
 
