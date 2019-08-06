@@ -1,3 +1,17 @@
+# [1.8.0](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.7.3...v1.8.0) (2019-08-06)
+
+
+### Bug Fixes
+
+* add init.sh ([f1bbb09](https://github.com/informatievlaanderen/publicservice-registry/commit/f1bbb09))
+* copy config.js ([865e16c](https://github.com/informatievlaanderen/publicservice-registry/commit/865e16c))
+* correct nginx command ([9323b55](https://github.com/informatievlaanderen/publicservice-registry/commit/9323b55))
+
+
+### Features
+
+* make docker ui configurable ([32181d2](https://github.com/informatievlaanderen/publicservice-registry/commit/32181d2))
+
 ## [1.7.3](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.7.2...v1.7.3) (2019-08-06)
 
 
