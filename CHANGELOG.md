@@ -1,3 +1,11 @@
+## [1.7.3](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.7.2...v1.7.3) (2019-08-06)
+
+
+### Bug Fixes
+
+* change docker port ([40b19cb](https://github.com/informatievlaanderen/publicservice-registry/commit/40b19cb))
+* no need for https ([8f6c15e](https://github.com/informatievlaanderen/publicservice-registry/commit/8f6c15e))
+
 ## [1.7.2](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.7.1...v1.7.2) (2019-08-06)
 
 
