@@ -81,6 +81,7 @@ Target "Site_Build" (fun _ ->
   CopyDir (dist @@ "wwwroot") (source @@ "wwwroot") (fun _ -> true)
   CopyFile dist (source @@ "Dockerfile")
   CopyFile dist (source @@ "default.conf")
+  CopyFile dist (source @@ "config.js")
 )
 
 Target "Test_Solution" (fun _ -> test "PublicServiceRegistry")
