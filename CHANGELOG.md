@@ -1,3 +1,10 @@
+## [1.8.2](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.8.1...v1.8.2) (2019-08-09)
+
+
+### Bug Fixes
+
+* fix container id in logging ([830b2ab](https://github.com/informatievlaanderen/publicservice-registry/commit/830b2ab))
+
 ## [1.8.1](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.8.0...v1.8.1) (2019-08-08)
 
 
