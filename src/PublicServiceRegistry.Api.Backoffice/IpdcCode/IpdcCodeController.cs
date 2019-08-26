@@ -29,9 +29,9 @@ namespace PublicServiceRegistry.Api.Backoffice.IpdcCode
         /// <param name="setIpdcCode"></param>
         /// <param name="cancellationToken"></param>
         /// <returns></returns>
-        [HttpPut()]
-        [ProducesResponseType(typeof(AcceptedResult), StatusCodes.Status202Accepted)]
-        [ProducesResponseType(typeof(BadRequestObjectResult), StatusCodes.Status400BadRequest)]
+        [HttpPut]
+        [ProducesResponseType(typeof(void), StatusCodes.Status202Accepted)]
+        [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status400BadRequest)]
         [SwaggerRequestExample(typeof(SetIpdcCodeRequest), typeof(SetIpdcCodeRequestExample))]
         public async Task<IActionResult> Put(
             [FromCommandId] Guid commandId,

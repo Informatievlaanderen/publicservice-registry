@@ -29,9 +29,9 @@ namespace PublicServiceRegistry.Api.Backoffice.LegislativeDocument
         /// <param name="setLegislativeDocumentId"></param>
         /// <param name="cancellationToken"></param>
         /// <returns></returns>
-        [HttpPut()]
-        [ProducesResponseType(typeof(AcceptedResult), StatusCodes.Status202Accepted)]
-        [ProducesResponseType(typeof(BadRequestObjectResult), StatusCodes.Status400BadRequest)]
+        [HttpPut]
+        [ProducesResponseType(typeof(void), StatusCodes.Status202Accepted)]
+        [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status400BadRequest)]
         [SwaggerRequestExample(typeof(SetLegislativeDocumentIdRequest), typeof(SetLegislativeDocumentIdRequestExample))]
         public async Task<IActionResult> Put(
             [FromCommandId] Guid commandId,

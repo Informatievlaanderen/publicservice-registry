@@ -148,7 +148,16 @@ namespace PublicServiceRegistry.Projector.Infrastructure
                     Api =
                     {
                         VersionProvider = apiVersionProvider,
-                        Info = groupName => $"Basisregisters Vlaanderen - Public Service Registry API {groupName}"
+                        Info = groupName => $"Basisregisters Vlaanderen - Public Service Registry API {groupName}",
+                        CSharpClientOptions =
+                        {
+                            ClassName = "PublicServiceRegistryProjector",
+                            Namespace = "Be.Vlaanderen.Basisregisters"
+                        },
+                        TypeScriptClientOptions =
+                        {
+                            ClassName = "PublicServiceRegistryProjector"
+                        }
                     },
                     MiddlewareHooks =
                     {

@@ -192,6 +192,15 @@ namespace PublicServiceRegistry.Api.Backoffice.Infrastructure
                         CustomExceptionHandlers = new []
                         {
                             new GetOrganisationFailedHandler()
+                        },
+                        CSharpClientOptions =
+                        {
+                            ClassName = "PublicServiceRegistry",
+                            Namespace = "Be.Vlaanderen.Basisregisters"
+                        },
+                        TypeScriptClientOptions =
+                        {
+                            ClassName = "PublicServiceRegistry"
                         }
                     },
                     MiddlewareHooks =

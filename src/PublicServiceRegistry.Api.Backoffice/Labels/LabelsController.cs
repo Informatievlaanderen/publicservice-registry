@@ -71,8 +71,8 @@ namespace PublicServiceRegistry.Api.Backoffice.Labels
         /// <param name="cancellationToken"></param>
         /// <returns></returns>
         [HttpPatch]
-        [ProducesResponseType(typeof(AcceptedResult), StatusCodes.Status202Accepted)]
-        [ProducesResponseType(typeof(BadRequestObjectResult), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(void), StatusCodes.Status202Accepted)]
+        [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status400BadRequest)]
         [SwaggerRequestExample(typeof(UpdateLabelsRequest), typeof(UpdateLabelsRequestExample))]
         public async Task<IActionResult> Put(
             [FromCommandId] Guid commandId,

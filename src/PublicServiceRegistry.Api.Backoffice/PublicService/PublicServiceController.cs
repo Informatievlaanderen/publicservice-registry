@@ -137,8 +137,8 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService
         /// <param name="cancellationToken"></param>
         /// <returns></returns>
         [HttpPost]
-        [ProducesResponseType(typeof(AcceptedResult), StatusCodes.Status202Accepted)]
-        [ProducesResponseType(typeof(BadRequestObjectResult), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(void), StatusCodes.Status202Accepted)]
+        [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status400BadRequest)]
         [SwaggerRequestExample(typeof(RegisterPublicServiceRequest), typeof(RegisterPublicServiceRequestExample))]
         public async Task<IActionResult> Post(
             [FromServices] BackofficeContext context,
@@ -170,8 +170,8 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService
         /// <param name="cancellationToken"></param>
         /// <returns></returns>
         [HttpPut("{id}")]
-        [ProducesResponseType(typeof(AcceptedResult), StatusCodes.Status202Accepted)]
-        [ProducesResponseType(typeof(BadRequestObjectResult), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(void), StatusCodes.Status202Accepted)]
+        [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status400BadRequest)]
         [SwaggerRequestExample(typeof(UpdatePublicServiceRequest), typeof(UpdatePublicServiceRequestExample))]
         public async Task<IActionResult> Put(
             [FromCommandId] Guid commandId,
@@ -201,8 +201,8 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService
         /// <param name="cancellationToken"></param>
         /// <returns></returns>
         [HttpDelete("{id}")]
-        [ProducesResponseType(typeof(AcceptedResult), StatusCodes.Status202Accepted)]
-        [ProducesResponseType(typeof(BadRequestObjectResult), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(void), StatusCodes.Status202Accepted)]
+        [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status400BadRequest)]
         [SwaggerRequestExample(typeof(RemovePublicServiceRequest), typeof(RemovePublicServiceRequestExample))]
         public async Task<IActionResult> Delete(
             [FromCommandId] Guid commandId,
