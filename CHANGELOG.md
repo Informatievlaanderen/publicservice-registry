@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.9.0...v1.9.1) (2019-08-26)
+
+
+### Bug Fixes
+
+* fix swagger ([563f3ab](https://github.com/informatievlaanderen/publicservice-registry/commit/563f3ab))
+
 # [1.9.0](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.8.2...v1.9.0) (2019-08-26)
 
 
