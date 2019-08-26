@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.8.2...v1.9.0) (2019-08-26)
+
+
+### Features
+
+* bump to .net 2.2.6 ([4406279](https://github.com/informatievlaanderen/publicservice-registry/commit/4406279))
+
 ## [1.8.2](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.8.1...v1.8.2) (2019-08-09)
 
 
