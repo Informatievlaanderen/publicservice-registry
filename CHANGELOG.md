@@ -1,3 +1,10 @@
+## [1.9.4](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.9.3...v1.9.4) (2019-08-27)
+
+
+### Bug Fixes
+
+* make datadog tracing check more for nulls ([7606752](https://github.com/informatievlaanderen/publicservice-registry/commit/7606752))
+
 ## [1.9.3](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.9.2...v1.9.3) (2019-08-27)
 
 
