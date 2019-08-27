@@ -1,3 +1,10 @@
+## [1.9.2](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.9.1...v1.9.2) (2019-08-27)
+
+
+### Bug Fixes
+
+* use fixed datadog tracing ([10bffde](https://github.com/informatievlaanderen/publicservice-registry/commit/10bffde))
+
 ## [1.9.1](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.9.0...v1.9.1) (2019-08-26)
 
 
