@@ -1,3 +1,5 @@
+## [1.9.5](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.9.4...v1.9.5) (2019-08-29)
+
 ## [1.9.4](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.9.3...v1.9.4) (2019-08-27)
 
 
