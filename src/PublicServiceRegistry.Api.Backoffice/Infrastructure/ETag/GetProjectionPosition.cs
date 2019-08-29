@@ -1,5 +1,6 @@
 namespace PublicServiceRegistry.Api.Backoffice.Infrastructure.ETag
 {
+    using System;
     using System.Threading;
     using System.Threading.Tasks;
     using Microsoft.EntityFrameworkCore;
@@ -7,11 +8,14 @@ namespace PublicServiceRegistry.Api.Backoffice.Infrastructure.ETag
 
     public static class GetProjectionPositionExtension
     {
-        public static Task<long> GetProjectionPositionAsync(this BackofficeContext context, CancellationToken cancellationToken)
-            => context.GetProjectionPositionAsync(PublicServiceBackofficeRunner.Name, cancellationToken);
-
-        public static async Task<long> GetProjectionPositionAsync(this BackofficeContext context, string projectionName, CancellationToken cancellationToken)
+        // TODO: Deal with having to be explicit about which projection you want to be up to date
+        // PublicServiceRegistry.Projections.Backoffice.PublicServiceLabelList.PublicServiceLabelListProjections
+        // PublicServiceRegistry.Projections.Backoffice.PublicServiceLifeCycle.PublicServiceLifeCycleListProjections
+        // PublicServiceRegistry.Projections.Backoffice.PublicServiceList.PublicServiceListProjections
+        public static async Task<long> GetProjectionPositionAsync(this BackofficeContext context, Type projection, CancellationToken cancellationToken)
         {
+            var projectionName = projection.FullName;
+
             var projectionState =
                 await context
                     .ProjectionStates

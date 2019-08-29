@@ -16,6 +16,7 @@ namespace PublicServiceRegistry.Api.Backoffice.Labels
     using Microsoft.EntityFrameworkCore;
     using Newtonsoft.Json.Converters;
     using Projections.Backoffice;
+    using PublicService;
     using Requests;
     using Responses;
     using Security;
@@ -55,14 +56,21 @@ namespace PublicServiceRegistry.Api.Backoffice.Labels
             [FromServices] BackofficeContext context,
             [FromRoute] string id,
             CancellationToken cancellationToken = default)
-            => Ok(await context
-                .PublicServiceLabelList
-                .Where(item => item.PublicServiceId == id)
-                .ToListAsync(cancellationToken));
+        {
+            await context.CheckPublicServiceAsync(id, cancellationToken);
+
+            return Ok(
+                await context
+                    .PublicServiceLabelList
+                    .AsNoTracking()
+                    .Where(item => item.PublicServiceId == id)
+                    .ToListAsync(cancellationToken));
+        }
 
         /// <summary>
         /// Wijzig een bestaande dienstverlening.
         /// </summary>
+        /// <param name="context"></param>
         /// <param name="commandId">Unieke id voor het verzoek.</param>
         /// <param name="id">Id van de bestaande dienstverlening.</param>
         /// <param name="updateLabelsRequest"></param>
@@ -73,6 +81,7 @@ namespace PublicServiceRegistry.Api.Backoffice.Labels
         [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status400BadRequest)]
         [SwaggerRequestExample(typeof(UpdateLabelsRequest), typeof(UpdateLabelsRequestExample))]
         public async Task<IActionResult> Put(
+            [FromServices] BackofficeContext context,
             [FromCommandId] Guid commandId,
             [FromRoute] string id,
             [FromBody] UpdateLabelsRequest updateLabelsRequest,
@@ -80,6 +89,8 @@ namespace PublicServiceRegistry.Api.Backoffice.Labels
         {
             if (!TryValidateModel(updateLabelsRequest))
                 return BadRequest(ModelState);
+
+            await context.CheckPublicServiceAsync(id, cancellationToken);
 
             return Accepted(
                 await Bus.Dispatch(

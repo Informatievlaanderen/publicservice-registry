@@ -2,6 +2,7 @@ namespace PublicServiceRegistry.OrafinUpload
 {
     using System.Collections.Generic;
     using System.Linq;
+    using Microsoft.EntityFrameworkCore;
     using Projections.Backoffice;
     using Projections.Backoffice.PublicServiceList;
 
@@ -19,6 +20,8 @@ namespace PublicServiceRegistry.OrafinUpload
         public IEnumerable<PublicServiceListItem> GetActiveSubsidies()
             => _context
                 .PublicServiceList
-                .Where(service => service.ExportToOrafin);
+                .AsNoTracking()
+                .Where(x => !x.Removed)
+                .Where(x => x.ExportToOrafin);
     }
 }

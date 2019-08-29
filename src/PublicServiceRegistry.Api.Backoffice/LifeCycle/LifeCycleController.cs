@@ -20,6 +20,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
     using Newtonsoft.Json.Converters;
     using Projections.Backoffice;
     using Projections.Backoffice.PublicServiceLifeCycle;
+    using PublicService;
     using PublicServiceRegistry.PublicService.Commands;
     using Queries;
     using Requests;
@@ -56,10 +57,10 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
             [FromRoute] string id,
             CancellationToken cancellationToken = default)
         {
-            var projectionPosition = await context.GetProjectionPositionAsync(nameof(PublicServiceLifeCycleListProjections), cancellationToken);
+            var projectionPosition = await context.GetProjectionPositionAsync(typeof(PublicServiceLifeCycleListProjections), cancellationToken);
             Response.Headers.Add(PublicServiceHeaderNames.LastObservedPosition, projectionPosition.ToString());
 
-            // TODO: idea: if dienstverleningid does not exist => 404 + documentatie aanpassen swagger
+            await context.CheckPublicServiceAsync(id, cancellationToken);
 
             var filter = Request.ExtractFilteringRequest<LifeCycleFilter>();
             var sorting = Request.ExtractSortingRequest();
@@ -98,29 +99,36 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
             [FromRoute] int faseId,
             CancellationToken cancellationToken = default)
         {
-            var projectionPosition = await context.GetProjectionPositionAsync(nameof(PublicServiceLifeCycleListProjections), cancellationToken);
+            var projectionPosition = await context.GetProjectionPositionAsync(typeof(PublicServiceLifeCycleListProjections), cancellationToken);
             Response.Headers.Add(PublicServiceHeaderNames.LastObservedPosition, projectionPosition.ToString());
 
-            var publicService =
+            await context.CheckPublicServiceAsync(id, cancellationToken);
+
+            var publicServiceLifeCycleItem =
                 await context
                     .PublicServiceLifeCycleList
                     .AsNoTracking()
                     .SingleOrDefaultAsync(item => item.PublicServiceId == id && item.LifeCycleStageId == faseId, cancellationToken);
 
-            if (publicService == null)
-                return NotFound();
+            if (publicServiceLifeCycleItem == null)
+                throw new ApiException("Onbestaande levensloopfase.", StatusCodes.Status404NotFound);
+
+            // TODO: Introduce soft delete for lifecycle
+            //if (publicServiceLifeCycleItem.Removed)
+            //    throw new ApiException("Levensloopfase werd verwijderd.", StatusCodes.Status410Gone);
 
             return Ok(
                 new LifeCycleStageResponse(
-                    publicService.LifeCycleStageType,
-                    PublicServiceRegistry.LifeCycleStageType.Parse(publicService.LifeCycleStageType).Translation.Name,
-                    publicService.From,
-                    publicService.To));
+                    publicServiceLifeCycleItem.LifeCycleStageType,
+                    PublicServiceRegistry.LifeCycleStageType.Parse(publicServiceLifeCycleItem.LifeCycleStageType).Translation.Name,
+                    publicServiceLifeCycleItem.From,
+                    publicServiceLifeCycleItem.To));
         }
 
         /// <summary>
         /// Voeg een fase toe aan de levensloop van een dienstverlening.
         /// </summary>
+        /// <param name="context"></param>
         /// <param name="commandId">Unieke id voor het verzoek.</param>
         /// <param name="id">Id van de dienstverlening.</param>
         /// <param name="request"></param>
@@ -137,6 +145,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
         [SwaggerResponseExample(StatusCodes.Status400BadRequest, typeof(ValidationErrorResponseExamples), jsonConverter: typeof(StringEnumConverter))]
         [SwaggerResponseExample(StatusCodes.Status500InternalServerError, typeof(InternalServerErrorResponseExamples), jsonConverter: typeof(StringEnumConverter))]
         public async Task<IActionResult> AddStageToLifeCycle(
+            [FromServices] BackofficeContext context,
             [FromCommandId] Guid commandId,
             [FromRoute] string id,
             [FromBody] AddStageToLifeCycleRequest request,
@@ -144,6 +153,8 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
         {
             if (!TryValidateModel(request))
                 return BadRequest(ModelState);
+
+            await context.CheckPublicServiceAsync(id, cancellationToken);
 
             return Accepted(
                 await Bus.Dispatch(
@@ -156,6 +167,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
         /// <summary>
         /// Verander de periode van een fase in de levensloop van een dienstverlening.
         /// </summary>
+        /// <param name="context"></param>
         /// <param name="commandId">Unieke id voor het verzoek.</param>
         /// <param name="id">Id van de dienstverlening.</param>
         /// <param name="faseId">Id van de levensloopfase.</param>
@@ -173,6 +185,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
         [SwaggerResponseExample(StatusCodes.Status400BadRequest, typeof(ValidationErrorResponseExamples), jsonConverter: typeof(StringEnumConverter))]
         [SwaggerResponseExample(StatusCodes.Status500InternalServerError, typeof(InternalServerErrorResponseExamples), jsonConverter: typeof(StringEnumConverter))]
         public async Task<IActionResult> ChangePeriodOfLifeCycleStage(
+            [FromServices] BackofficeContext context,
             [FromCommandId] Guid commandId,
             [FromRoute] string id,
             [FromRoute] int faseId,
@@ -181,6 +194,8 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
         {
             if (!TryValidateModel(request))
                 return BadRequest(ModelState);
+
+            await context.CheckPublicServiceAsync(id, cancellationToken);
 
             return Accepted(
                 await Bus.Dispatch(
@@ -193,6 +208,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
         /// <summary>
         /// Verwijder een fase in de levensloop van een dienstverlening.
         /// </summary>
+        /// <param name="context"></param>
         /// <param name="commandId">Unieke id voor het verzoek.</param>
         /// <param name="id">Id van de dienstverlening.</param>
         /// <param name="faseId">Id van de levensloopfase.</param>
@@ -205,11 +221,14 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
         [SwaggerResponseExample(StatusCodes.Status202Accepted, typeof(EventStorePositionResponseExamples), jsonConverter: typeof(StringEnumConverter))]
         [SwaggerResponseExample(StatusCodes.Status500InternalServerError, typeof(InternalServerErrorResponseExamples), jsonConverter: typeof(StringEnumConverter))]
         public async Task<IActionResult> RemoveStageFromLifeCycle(
+            [FromServices] BackofficeContext context,
             [FromCommandId] Guid commandId,
             [FromRoute] string id,
             [FromRoute] int faseId,
             CancellationToken cancellationToken = default)
         {
+            await context.CheckPublicServiceAsync(id, cancellationToken);
+
             return Accepted(
                 await Bus.Dispatch(
                     commandId,

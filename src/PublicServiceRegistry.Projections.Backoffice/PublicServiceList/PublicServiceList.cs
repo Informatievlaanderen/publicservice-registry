@@ -18,6 +18,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceList
         public int? CurrentLifeCycleStageEndsAtAsInt { get; set; }
         public string IpdcCode { get; set; }
         public string LegislativeDocumentId { get; set; }
+        public bool Removed { get; set; }
 
         public LocalDate? CurrentLifeCycleStageEndsAt
         {
@@ -45,10 +46,12 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceList
             b.Property(p => p.CurrentLifeCycleStageEndsAtAsInt).HasColumnName("CurrentLifeCycleStageEndsAt");
             b.Property(p => p.IpdcCode);
             b.Property(p => p.LegislativeDocumentId);
+            b.Property(p => p.Removed);
 
             b.Ignore(p => p.CurrentLifeCycleStageEndsAt);
 
             b.HasIndex(p => p.Name);
+            b.HasIndex(p => p.Removed);
         }
     }
 }

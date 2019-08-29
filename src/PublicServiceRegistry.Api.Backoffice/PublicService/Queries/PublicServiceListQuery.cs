@@ -35,8 +35,8 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService.Queries
         {
             var publicServices = _context
                 .PublicServiceList
-                // TODO: Add a filter on Removed
-                .AsNoTracking();
+                .AsNoTracking()
+                .Where(x => !x.Removed);
 
             if (!filtering.ShouldFilter)
                 return publicServices;

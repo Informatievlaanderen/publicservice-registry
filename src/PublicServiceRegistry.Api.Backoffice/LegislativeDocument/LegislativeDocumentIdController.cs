@@ -8,6 +8,8 @@ namespace PublicServiceRegistry.Api.Backoffice.LegislativeDocument
     using Infrastructure;
     using Microsoft.AspNetCore.Http;
     using Microsoft.AspNetCore.Mvc;
+    using Projections.Backoffice;
+    using PublicService;
     using Requests;
     using Security;
     using Swashbuckle.AspNetCore.Filters;
@@ -24,6 +26,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LegislativeDocument
         /// <summary>
         /// Wijs het id van het wetgevend document toe aan een bestaande dienstverlening.
         /// </summary>
+        /// <param name="context"></param>
         /// <param name="commandId">Unieke id voor het verzoek.</param>
         /// <param name="id">Id van de bestaande dienstverlening.</param>
         /// <param name="setLegislativeDocumentId"></param>
@@ -34,6 +37,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LegislativeDocument
         [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status400BadRequest)]
         [SwaggerRequestExample(typeof(SetLegislativeDocumentIdRequest), typeof(SetLegislativeDocumentIdRequestExample))]
         public async Task<IActionResult> Put(
+            [FromServices] BackofficeContext context,
             [FromCommandId] Guid commandId,
             [FromRoute] string id,
             [FromBody] SetLegislativeDocumentIdRequest setLegislativeDocumentId,
@@ -41,6 +45,8 @@ namespace PublicServiceRegistry.Api.Backoffice.LegislativeDocument
         {
             if (!TryValidateModel(setLegislativeDocumentId))
                 return BadRequest(ModelState);
+
+            await context.CheckPublicServiceAsync(id, cancellationToken);
 
             return Accepted(
                 await Bus.Dispatch(

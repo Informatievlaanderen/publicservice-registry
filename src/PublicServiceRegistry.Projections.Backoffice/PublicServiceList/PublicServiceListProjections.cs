@@ -1,6 +1,5 @@
 namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceList
 {
-    using System;
     using System.Linq;
     using System.Threading;
     using System.Threading.Tasks;
@@ -9,7 +8,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceList
     using Microsoft.EntityFrameworkCore;
     using NodaTime;
     using PublicServiceLifeCycle;
-    using PublicServiceRegistry.PublicService.Events;
+    using PublicService.Events;
 
     public class PublicServiceListProjections : ConnectedProjection<BackofficeContext>
     {
@@ -20,7 +19,8 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceList
                 var publicServiceListItem = new PublicServiceListItem
                 {
                     PublicServiceId = message.Message.PublicServiceId,
-                    Name = message.Message.Name
+                    Name = message.Message.Name,
+                    Removed = false
                 };
 
                 await context
@@ -66,8 +66,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceList
                     message.Message.PublicServiceId,
                     ct);
 
-                // TODO: This should become a soft Delete to support 410 Gone responses
-                context.Remove(publicServiceListItem);
+                publicServiceListItem.Removed = true;
             });
 
             When<Envelope<StageWasAddedToLifeCycle>>(async (context, message, ct) =>
@@ -172,6 +171,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceList
                 var date = LocalDate.FromDateTime(message.Message.DateTime);
                 var dateAsInt = date.ToInt();
 
+                // TODO: This needs to query on both local and db
                 foreach (var publicServiceListItem in context.PublicServiceList.Where(item => item.CurrentLifeCycleStageEndsAtAsInt != null && item.CurrentLifeCycleStageEndsAtAsInt < dateAsInt))
                     await UpdateCurrentLifeCycleStage(context, publicServiceListItem, date, ct);
             });
@@ -199,6 +199,8 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceList
             LocalDate today,
             CancellationToken cancellationToken)
         {
+            // TODO: This probably needs to query on both local and db
+
             var todayAsInt = today.ToInt();
             var currentLifeCycleStage = await
                 context

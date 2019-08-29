@@ -20,6 +20,7 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService
     using Microsoft.EntityFrameworkCore;
     using Newtonsoft.Json.Converters;
     using Projections.Backoffice;
+    using Projections.Backoffice.PublicServiceList;
     using Queries;
     using Requests;
     using Responses;
@@ -61,7 +62,7 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService
             [FromRoute] string id,
             CancellationToken cancellationToken = default)
         {
-            var projectionPosition = await context.GetProjectionPositionAsync(cancellationToken);
+            var projectionPosition = await context.GetProjectionPositionAsync(typeof(PublicServiceListProjections), cancellationToken);
             Response.Headers.Add(PublicServiceHeaderNames.LastObservedPosition, projectionPosition.ToString());
 
             var publicService =
@@ -70,10 +71,7 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService
                     .AsNoTracking()
                     .SingleOrDefaultAsync(item => item.PublicServiceId == id, cancellationToken);
 
-            if (publicService == null)
-                return NotFound();
-
-            // TODO: Here we will need to check for Delete -> Gone
+            await context.CheckPublicServiceAsync(id, cancellationToken);
 
             return Ok(
                 new PublicServiceResponse(
@@ -123,7 +121,7 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService
 
             Response.AddPagedQueryResultHeaders(pagedOrganisations);
 
-            var projectionPosition = await context.GetProjectionPositionAsync(cancellationToken);
+            var projectionPosition = await context.GetProjectionPositionAsync(typeof(PublicServiceListProjections), cancellationToken);
             Response.Headers.Add(PublicServiceHeaderNames.LastObservedPosition, projectionPosition.ToString());
 
             return Ok(await pagedOrganisations.Items.ToListAsync(cancellationToken));
@@ -166,6 +164,7 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService
         /// <summary>
         /// Wijzig een bestaande dienstverlening.
         /// </summary>
+        /// <param name="context"></param>
         /// <param name="commandId">Unieke id voor het verzoek.</param>
         /// <param name="id">Id van de bestaande dienstverlening.</param>
         /// <param name="updatePublicService"></param>
@@ -176,6 +175,7 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService
         [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status400BadRequest)]
         [SwaggerRequestExample(typeof(UpdatePublicServiceRequest), typeof(UpdatePublicServiceRequestExample))]
         public async Task<IActionResult> Put(
+            [FromServices] BackofficeContext context,
             [FromCommandId] Guid commandId,
             [FromRoute] string id,
             [FromBody] UpdatePublicServiceRequest updatePublicService,
@@ -185,6 +185,8 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService
 
             if (!TryValidateModel(internalMessage))
                 return BadRequest(ModelState);
+
+            await context.CheckPublicServiceAsync(id, cancellationToken);
 
             return Accepted(
                 await Bus.Dispatch(
@@ -197,6 +199,7 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService
         /// <summary>
         /// Verwijder een bestaande dienstverlening.
         /// </summary>
+        /// <param name="context"></param>
         /// <param name="commandId">Unieke id voor het verzoek.</param>
         /// <param name="id">Id van de bestaande dienstverlening.</param>
         /// <param name="removePublicServiceRequest"></param>
@@ -207,6 +210,7 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService
         [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status400BadRequest)]
         [SwaggerRequestExample(typeof(RemovePublicServiceRequest), typeof(RemovePublicServiceRequestExample))]
         public async Task<IActionResult> Delete(
+            [FromServices] BackofficeContext context,
             [FromCommandId] Guid commandId,
             [FromRoute] string id,
             [FromBody] RemovePublicServiceRequest removePublicServiceRequest,
@@ -214,6 +218,8 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService
         {
             if (!TryValidateModel(removePublicServiceRequest))
                 return BadRequest(ModelState);
+
+            await context.CheckPublicServiceAsync(id, cancellationToken);
 
             return Accepted(
                 await Bus.Dispatch(

@@ -12,7 +12,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
     using Microsoft.EntityFrameworkCore;
     using NodaTime;
     using PublicServiceList;
-    using PublicServiceRegistry.PublicService.Events;
+    using PublicService.Events;
     using Xunit;
 
     public class PublicServiceListTests
@@ -98,13 +98,20 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
         [Fact]
         public Task WhenPublicServiceWasRemoved()
         {
-            var publicServiceWasRegistered = _fixture.Create<PublicServiceWasRegistered>();
+            var publicServiceId = new PublicServiceId("DVR000000001");
+            var publicServiceName = new PublicServiceName("Test");
+            var publicServiceWasRegistered = new PublicServiceWasRegistered(publicServiceId, publicServiceName, PrivateZoneId.Unregistered);
             var publicServiceWasRemoved = new PublicServiceWasRemoved(new PublicServiceId(publicServiceWasRegistered.PublicServiceId), new ReasonForRemoval("because"));
 
             return new PublicServiceListProjections(new ClockProviderStub(DateTime.Now))
                 .Scenario()
                 .Given(publicServiceWasRegistered, publicServiceWasRemoved)
-                .Expect();
+                .Expect(new PublicServiceListItem
+                {
+                    Name = publicServiceName,
+                    PublicServiceId = publicServiceId,
+                    Removed = true
+                });
         }
 
         [Fact]
@@ -113,9 +120,10 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
             var clockProviderStub = new ClockProviderStub(Today);
 
             var publicServiceId = new PublicServiceId("DVR000000001");
+            var publicServiceName = new PublicServiceName("Test");
             var events = new object[]
             {
-                new PublicServiceWasRegistered(publicServiceId, new PublicServiceName("Test"), PrivateZoneId.Unregistered),
+                new PublicServiceWasRegistered(publicServiceId, publicServiceName, PrivateZoneId.Unregistered),
                 new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(1), LifeCycleStageType.Active, PeriodValidAlways),
             };
 
@@ -124,8 +132,8 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
                 .Given(events)
                 .Expect(new PublicServiceListItem
                 {
-                    Name = "Test",
-                    PublicServiceId = "DVR000000001",
+                    Name = publicServiceName,
+                    PublicServiceId = publicServiceId,
                     CurrentLifeCycleStageType = "Active",
                     CurrentLifeCycleStageId = 1,
                 });
@@ -137,9 +145,10 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
             var clockProviderStub = new ClockProviderStub(Today);
 
             var publicServiceId = new PublicServiceId("DVR000000001");
+            var publicServiceName = new PublicServiceName("Test");
             var events = new object[]
             {
-                new PublicServiceWasRegistered(publicServiceId, new PublicServiceName("Test"), PrivateZoneId.Unregistered),
+                new PublicServiceWasRegistered(publicServiceId, publicServiceName, PrivateZoneId.Unregistered),
                 new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(1), LifeCycleStageType.Active, PeriodOverlappingWithTomorrow),
                 new PeriodOfLifeCycleStageWasChanged(publicServiceId, LifeCycleStageId.FromNumber(1), PeriodOverlappingWithToday),
             };
@@ -149,8 +158,8 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
                 .Given(events)
                 .Expect(new PublicServiceListItem
                 {
-                    Name = "Test",
-                    PublicServiceId = "DVR000000001",
+                    Name = publicServiceName,
+                    PublicServiceId = publicServiceId,
                     CurrentLifeCycleStageType = "Active",
                     CurrentLifeCycleStageId = 1,
                     CurrentLifeCycleStageEndsAt = LocalDate.FromDateTime(Today),
@@ -163,9 +172,10 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
             var clockProviderStub = new ClockProviderStub(Today);
 
             var publicServiceId = new PublicServiceId("DVR000000001");
+            var publicServiceName = new PublicServiceName("Test");
             var events = new object[]
             {
-                new PublicServiceWasRegistered(publicServiceId, new PublicServiceName("Test"), PrivateZoneId.Unregistered),
+                new PublicServiceWasRegistered(publicServiceId, publicServiceName, PrivateZoneId.Unregistered),
                 new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(1), LifeCycleStageType.Active, PeriodOverlappingWithTomorrow),
             };
 
@@ -174,8 +184,8 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
                 .Given(events)
                 .Expect(new PublicServiceListItem
                 {
-                    Name = "Test",
-                    PublicServiceId = "DVR000000001",
+                    Name = publicServiceName,
+                    PublicServiceId = publicServiceId,
                     CurrentLifeCycleStageType = null,
                     CurrentLifeCycleStageId = null,
                 });
@@ -187,9 +197,10 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
             var clockProviderStub = new ClockProviderStub(Today);
 
             var publicServiceId = new PublicServiceId("DVR000000001");
+            var publicServiceName = new PublicServiceName("Test");
             var events = new object[]
             {
-                new PublicServiceWasRegistered(publicServiceId, new PublicServiceName("Test"), PrivateZoneId.Unregistered),
+                new PublicServiceWasRegistered(publicServiceId, publicServiceName, PrivateZoneId.Unregistered),
                 new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(1), LifeCycleStageType.Active, PeriodValidAlways),
                 new PeriodOfLifeCycleStageWasChanged(publicServiceId, LifeCycleStageId.FromNumber(1), PeriodOverlappingWithTomorrow),
             };
@@ -199,8 +210,8 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
                 .Given(events)
                 .Expect(new PublicServiceListItem
                 {
-                    Name = "Test",
-                    PublicServiceId = "DVR000000001",
+                    Name = publicServiceName,
+                    PublicServiceId = publicServiceId,
                     CurrentLifeCycleStageType = null,
                     CurrentLifeCycleStageId = null,
                 });
@@ -212,9 +223,10 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
             var clockProviderStub = new ClockProviderStub(Today);
 
             var publicServiceId = new PublicServiceId("DVR000000001");
+            var publicServiceName = new PublicServiceName("Test");
             var events = new object[]
             {
-                new PublicServiceWasRegistered(publicServiceId, new PublicServiceName("Test"), PrivateZoneId.Unregistered),
+                new PublicServiceWasRegistered(publicServiceId, publicServiceName, PrivateZoneId.Unregistered),
                 new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(1), LifeCycleStageType.Active, PeriodOverlappingWithToday),
                 new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(2), LifeCycleStageType.PhasingOut, PeriodOverlappingWithTomorrow),
                 new PeriodOfLifeCycleStageWasChanged(publicServiceId, LifeCycleStageId.FromNumber(2), PeriodOverlappingWithYesterday),
@@ -225,8 +237,8 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
                 .Given(events)
                 .Expect(new PublicServiceListItem
                 {
-                    Name = "Test",
-                    PublicServiceId = "DVR000000001",
+                    Name = publicServiceName,
+                    PublicServiceId = publicServiceId,
                     CurrentLifeCycleStageType = "Active",
                     CurrentLifeCycleStageId = 1,
                     CurrentLifeCycleStageEndsAt = LocalDate.FromDateTime(Today),
@@ -239,9 +251,10 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
             var clockProviderStub = new ClockProviderStub(Today);
 
             var publicServiceId = new PublicServiceId("DVR000000001");
+            var publicServiceName = new PublicServiceName("Test");
             var events = new object[]
             {
-                new PublicServiceWasRegistered(publicServiceId, new PublicServiceName("Test"), PrivateZoneId.Unregistered),
+                new PublicServiceWasRegistered(publicServiceId, publicServiceName, PrivateZoneId.Unregistered),
                 new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(1), LifeCycleStageType.Active, PeriodOverlappingWithToday),
                 new ClockHasTicked(Tomorrow),
             };
@@ -251,8 +264,8 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
                 .Given(events)
                 .Expect(new PublicServiceListItem
                 {
-                    Name = "Test",
-                    PublicServiceId = "DVR000000001",
+                    Name = publicServiceName,
+                    PublicServiceId = publicServiceId,
                     CurrentLifeCycleStageType = null,
                     CurrentLifeCycleStageId = null,
                     CurrentLifeCycleStageEndsAt = null,
@@ -265,9 +278,10 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
             var clockProviderStub = new ClockProviderStub(Today);
 
             var publicServiceId = new PublicServiceId("DVR000000001");
+            var publicServiceName = new PublicServiceName("Test");
             var events = new object[]
             {
-                new PublicServiceWasRegistered(publicServiceId, new PublicServiceName("Test"), PrivateZoneId.Unregistered),
+                new PublicServiceWasRegistered(publicServiceId, publicServiceName, PrivateZoneId.Unregistered),
                 new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(1), LifeCycleStageType.Active, PeriodOverlappingWithToday),
                 new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(2), LifeCycleStageType.PhasingOut, PeriodOverlappingWithTomorrow),
                 new ClockHasTicked(Tomorrow),
@@ -278,8 +292,8 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
                 .Given(events)
                 .Expect(new PublicServiceListItem
                 {
-                    Name = "Test",
-                    PublicServiceId = "DVR000000001",
+                    Name = publicServiceName,
+                    PublicServiceId = publicServiceId,
                     CurrentLifeCycleStageType = "PhasingOut",
                     CurrentLifeCycleStageId = 2,
                     CurrentLifeCycleStageEndsAt = LocalDate.FromDateTime(Tomorrow),
@@ -292,9 +306,10 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
             var clockProviderStub = new ClockProviderStub(Today);
 
             var publicServiceId = new PublicServiceId("DVR000000001");
+            var publicServiceName = new PublicServiceName("Test");
             var events = new object[]
             {
-                new PublicServiceWasRegistered(publicServiceId, new PublicServiceName("Test"), PrivateZoneId.Unregistered),
+                new PublicServiceWasRegistered(publicServiceId, publicServiceName, PrivateZoneId.Unregistered),
                 new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(1), LifeCycleStageType.Active, PeriodOverlappingWithToday),
                 new StageWasAddedToLifeCycle(publicServiceId, LifeCycleStageId.FromNumber(2), LifeCycleStageType.PhasingOut, PeriodOverlappingWithTomorrow),
                 new LifeCycleStageWasRemoved(publicServiceId, LifeCycleStageId.FromNumber(2)),
@@ -306,8 +321,8 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
                 .Given(events)
                 .Expect(new PublicServiceListItem
                 {
-                    Name = "Test",
-                    PublicServiceId = "DVR000000001",
+                    Name = publicServiceName,
+                    PublicServiceId = publicServiceId,
                     CurrentLifeCycleStageType = null,
                     CurrentLifeCycleStageId = null,
                     CurrentLifeCycleStageEndsAt = null,
@@ -320,9 +335,10 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
             var clockProviderStub = new ClockProviderStub(Today);
 
             var publicServiceId = new PublicServiceId("DVR000000001");
+            var publicServiceName = new PublicServiceName("Test");
             var events = new object[]
             {
-                new PublicServiceWasRegistered(publicServiceId, new PublicServiceName("Test"), PrivateZoneId.Unregistered),
+                new PublicServiceWasRegistered(publicServiceId, publicServiceName, PrivateZoneId.Unregistered),
                 new IpdcCodeWasSet(publicServiceId, new IpdcCode("1234")),
             };
 
@@ -331,8 +347,8 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
                 .Given(events)
                 .Expect(new PublicServiceListItem
                 {
-                    Name = "Test",
-                    PublicServiceId = "DVR000000001",
+                    Name = publicServiceName,
+                    PublicServiceId = publicServiceId,
                     CurrentLifeCycleStageType = null,
                     CurrentLifeCycleStageId = null,
                     CurrentLifeCycleStageEndsAt = null,

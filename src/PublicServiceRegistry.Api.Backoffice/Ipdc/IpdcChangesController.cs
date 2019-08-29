@@ -32,8 +32,8 @@ namespace PublicServiceRegistry.Api.Backoffice.Ipdc
         /// <response code="404">Als de dienstverlening niet gevonden kan worden.</response>
         /// <response code="412">Als de gevraagde minimum positie van de event store nog niet bereikt is.</response>
         /// <response code="500">Als er een interne fout is opgetreden.</response>
-        [HttpGet("{changedSince}")]
         [AllowAnonymous]
+        [HttpGet("{changedSince}")]
         public async Task<IActionResult> Get(
             [FromRoute] string changedSince,
             CancellationToken cancellationToken = default)
@@ -62,8 +62,8 @@ namespace PublicServiceRegistry.Api.Backoffice.Ipdc
             return Ok(changedProducts);
         }
 
-        [HttpGet("product/{id}")]
         [AllowAnonymous]
+        [HttpGet("product/{id}")]
         public async Task<IActionResult> GetProduct(
             [FromRoute] string id,
             CancellationToken cancellationToken = default)

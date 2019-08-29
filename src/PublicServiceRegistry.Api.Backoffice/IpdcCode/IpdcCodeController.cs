@@ -8,6 +8,8 @@ namespace PublicServiceRegistry.Api.Backoffice.IpdcCode
     using Infrastructure;
     using Microsoft.AspNetCore.Http;
     using Microsoft.AspNetCore.Mvc;
+    using Projections.Backoffice;
+    using PublicService;
     using Requests;
     using Security;
     using Swashbuckle.AspNetCore.Filters;
@@ -24,6 +26,7 @@ namespace PublicServiceRegistry.Api.Backoffice.IpdcCode
         /// <summary>
         /// Wijs de ipdc code toe aan een bestaande dienstverlening.
         /// </summary>
+        /// <param name="context"></param>
         /// <param name="commandId">Unieke id voor het verzoek.</param>
         /// <param name="id">Id van de bestaande dienstverlening.</param>
         /// <param name="setIpdcCode"></param>
@@ -34,6 +37,7 @@ namespace PublicServiceRegistry.Api.Backoffice.IpdcCode
         [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status400BadRequest)]
         [SwaggerRequestExample(typeof(SetIpdcCodeRequest), typeof(SetIpdcCodeRequestExample))]
         public async Task<IActionResult> Put(
+            [FromServices] BackofficeContext context,
             [FromCommandId] Guid commandId,
             [FromRoute] string id,
             [FromBody] SetIpdcCodeRequest setIpdcCode,
@@ -41,6 +45,8 @@ namespace PublicServiceRegistry.Api.Backoffice.IpdcCode
         {
             if (!TryValidateModel(setIpdcCode))
                 return BadRequest(ModelState);
+
+            await context.CheckPublicServiceAsync(id, cancellationToken);
 
             return Accepted(
                 await Bus.Dispatch(
