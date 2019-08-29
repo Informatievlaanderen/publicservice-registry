@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.9.5...v1.10.0) (2019-08-29)
+
+
+### Features
+
+* deleted publicservices return gone ([2c4f7d6](https://github.com/informatievlaanderen/publicservice-registry/commit/2c4f7d6))
+
 ## [1.9.5](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.9.4...v1.9.5) (2019-08-29)
 
 ## [1.9.4](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.9.3...v1.9.4) (2019-08-27)
