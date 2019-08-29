@@ -1,14 +1,13 @@
 namespace PublicServiceRegistry.Projections.Backoffice.Tests
 {
     using System;
-    using System.Collections.Generic;
     using System.Threading;
     using System.Threading.Tasks;
     using Be.Vlaanderen.Basisregisters.EventHandling;
     using FluentAssertions;
     using Newtonsoft.Json;
     using Projector.Infrastructure.HostedServices;
-    using PublicServiceRegistry.PublicService.Events;
+    using PublicService.Events;
     using SqlStreamStore;
     using SqlStreamStore.Streams;
     using Xunit;

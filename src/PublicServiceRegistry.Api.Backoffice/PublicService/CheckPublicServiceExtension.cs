@@ -6,6 +6,7 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService
     using Microsoft.AspNetCore.Http;
     using Microsoft.EntityFrameworkCore;
     using Projections.Backoffice;
+    using Projections.Backoffice.PublicServiceList;
 
     public static class CheckPublicServiceExtension
     {
@@ -20,6 +21,12 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService
                     .AsNoTracking()
                     .SingleOrDefaultAsync(item => item.PublicServiceId == id, cancellationToken);
 
+            publicService.CheckPublicService();
+        }
+
+        public static void CheckPublicService(
+            this PublicServiceListItem publicService)
+        {
             if (publicService == null)
                 throw new ApiException("Onbestaande dienstverlening.", StatusCodes.Status404NotFound);
 

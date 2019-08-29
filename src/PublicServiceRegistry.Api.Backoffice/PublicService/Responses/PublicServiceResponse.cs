@@ -86,13 +86,23 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService.Responses
 
     public class PublicServiceNotFoundResponseExamples : IExamplesProvider
     {
-        public object GetExamples()
-            => new ProblemDetails
-            {
-                HttpStatus = StatusCodes.Status404NotFound,
-                Title = ProblemDetails.DefaultTitle,
-                Detail = "Onbestaande dienstverlening.",
-                ProblemInstanceUri = ProblemDetails.GetProblemNumber()
-            };
+        public object GetExamples() => new ProblemDetails
+        {
+            HttpStatus = StatusCodes.Status404NotFound,
+            Title = ProblemDetails.DefaultTitle,
+            Detail = "Onbestaande dienstverlening.",
+            ProblemInstanceUri = ProblemDetails.GetProblemNumber()
+        };
+    }
+
+    public class PublicServiceGoneResponseExamples : IExamplesProvider
+    {
+        public object GetExamples() => new ProblemDetails
+        {
+            HttpStatus = StatusCodes.Status410Gone,
+            Title = ProblemDetails.DefaultTitle,
+            Detail = "Dienstverlening werd verwijderd.",
+            ProblemInstanceUri = ProblemDetails.GetProblemNumber()
+        };
     }
 }

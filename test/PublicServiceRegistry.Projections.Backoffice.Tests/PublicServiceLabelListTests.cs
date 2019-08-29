@@ -5,7 +5,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
     using System.Threading.Tasks;
     using AutoFixture;
     using PublicServiceLabelList;
-    using PublicServiceRegistry.PublicService.Events;
+    using PublicService.Events;
     using Xunit;
 
     public class PublicServiceLabelListTests

@@ -45,15 +45,18 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService
         /// <param name="cancellationToken"></param>
         /// <response code="200">Als de dienstverlening gevonden is.</response>
         /// <response code="404">Als de dienstverlening niet gevonden kan worden.</response>
+        /// <response code="410">Als de dienstverlening verwijderd is.</response>
         /// <response code="412">Als de gevraagde minimum positie van de event store nog niet bereikt is.</response>
         /// <response code="500">Als er een interne fout is opgetreden.</response>
         [HttpGet("{id}")]
         [ProducesResponseType(typeof(PublicServiceResponse), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status404NotFound)]
+        [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status410Gone)]
         [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status412PreconditionFailed)]
         [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
         [SwaggerResponseExample(StatusCodes.Status200OK, typeof(PublicServiceResponseExamples), jsonConverter: typeof(StringEnumConverter))]
         [SwaggerResponseExample(StatusCodes.Status404NotFound, typeof(PublicServiceNotFoundResponseExamples), jsonConverter: typeof(StringEnumConverter))]
+        [SwaggerResponseExample(StatusCodes.Status410Gone, typeof(PublicServiceGoneResponseExamples), jsonConverter: typeof(StringEnumConverter))]
         [SwaggerResponseExample(StatusCodes.Status412PreconditionFailed, typeof(PreconditionFailedResponseExamples), jsonConverter: typeof(StringEnumConverter))]
         [SwaggerResponseExample(StatusCodes.Status500InternalServerError, typeof(InternalServerErrorResponseExamples), jsonConverter: typeof(StringEnumConverter))]
         [AllowAnonymous]
@@ -71,7 +74,7 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService
                     .AsNoTracking()
                     .SingleOrDefaultAsync(item => item.PublicServiceId == id, cancellationToken);
 
-            await context.CheckPublicServiceAsync(id, cancellationToken);
+            publicService.CheckPublicService();
 
             return Ok(
                 new PublicServiceResponse(

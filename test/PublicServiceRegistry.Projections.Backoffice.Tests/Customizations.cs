@@ -4,7 +4,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.Tests
     using AutoFixture;
     using AutoFixture.Dsl;
     using NodaTime;
-    using PublicServiceRegistry.PublicService.Events;
+    using PublicService.Events;
 
     internal static class Customizations
     {

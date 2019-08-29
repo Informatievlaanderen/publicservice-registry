@@ -1,21 +1,15 @@
 namespace PublicServiceRegistry.Projections.Backoffice.Tests
 {
-    using System;
     using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
     using System.Threading.Tasks;
     using AutoFixture;
     using Be.Vlaanderen.Basisregisters.ProjectionHandling.Connector;
     using Be.Vlaanderen.Basisregisters.ProjectionHandling.Connector.Testing;
     using Be.Vlaanderen.Basisregisters.ProjectionHandling.SqlStreamStore;
     using FluentAssertions;
-    using KellermanSoftware.CompareNetObjects;
     using Microsoft.EntityFrameworkCore;
-    using Newtonsoft.Json;
     using PublicServiceLifeCycle;
-    using PublicServiceList;
-    using PublicServiceRegistry.PublicService.Events;
+    using PublicService.Events;
     using Xunit;
 
     public class PublicServiceLifeCycleListProjectionsTests
