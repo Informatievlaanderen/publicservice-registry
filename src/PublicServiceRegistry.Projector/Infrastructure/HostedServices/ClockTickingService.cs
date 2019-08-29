@@ -55,9 +55,7 @@ namespace PublicServiceRegistry.Projector.Infrastructure.HostedServices
                 var lastClockTick = JsonConvert.DeserializeObject<ClockHasTicked>(lastClockTickJsonData);
 
                 if (LocalDate.FromDateTime(lastClockTick.DateTime.Date) != _clockProvider.Today)
-                {
                     await AppendClockHasTicked(cancellationToken, clockStreamId, eventMapping);
-                }
             }
         }
 

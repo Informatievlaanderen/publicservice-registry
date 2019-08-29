@@ -19,9 +19,7 @@ namespace PublicServiceRegistry.Projector.Infrastructure.HostedServices
 
             // If the task is completed then return it
             if (_executingTask.IsCompleted)
-            {
                 return _executingTask;
-            }
 
             // Otherwise it's running
             return Task.CompletedTask;
@@ -31,9 +29,7 @@ namespace PublicServiceRegistry.Projector.Infrastructure.HostedServices
         {
             // Stop called without start
             if (_executingTask == null)
-            {
                 return;
-            }
 
             // Signal cancellation to the executing method
             _cts.Cancel();
