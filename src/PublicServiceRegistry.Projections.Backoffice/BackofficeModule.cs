@@ -3,6 +3,7 @@ namespace PublicServiceRegistry.Projections.Backoffice
     using System;
     using System.Data.SqlClient;
     using Be.Vlaanderen.Basisregisters.DataDog.Tracing.Sql.EntityFrameworkCore;
+    using Be.Vlaanderen.Basisregisters.ProjectionHandling.Runner.MigrationExtensions;
     using Autofac;
     using Infrastructure;
     using Microsoft.EntityFrameworkCore;
@@ -51,7 +52,8 @@ namespace PublicServiceRegistry.Projections.Backoffice
                     {
                         sqlServerOptions.EnableRetryOnFailure();
                         sqlServerOptions.MigrationsHistoryTable(MigrationTables.Backoffice, Schema.Backoffice);
-                    }));
+                    })
+                    .UseExtendedSqlServerMigrations());
         }
 
         private static void RunInMemoryDb(IServiceCollection services, ILoggerFactory loggerFactory, ILogger<BackofficeModule> logger)
