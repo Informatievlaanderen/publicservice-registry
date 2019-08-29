@@ -69,9 +69,9 @@ namespace PublicServiceRegistry.Api.Backoffice.Infrastructure
                 {
                     options.TokenValidationParameters =
                         new PublicServiceRegistryTokenValidationParameters(openIdConfiguration);
-                });
+                })
+                .Services
 
-            services
                 .ConfigureDefaultForApi<Startup, SharedResources>(new StartupConfigureOptions
                 {
                     Cors =

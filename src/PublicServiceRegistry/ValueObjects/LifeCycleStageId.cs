@@ -6,20 +6,12 @@ namespace PublicServiceRegistry
 
     public class LifeCycleStageId: IntegerValueObject<LifeCycleStageId>
     {
-        private LifeCycleStageId([JsonProperty("value")] int lifeCycleStageId) : base(lifeCycleStageId)
-        {
+        private LifeCycleStageId([JsonProperty("value")] int lifeCycleStageId)
+            : base(lifeCycleStageId) { }
 
-        }
+        public static LifeCycleStageId Zero() => new LifeCycleStageId(0);
 
-        public static LifeCycleStageId Zero()
-        {
-            return new LifeCycleStageId(0);
-        }
-
-        public LifeCycleStageId Next()
-        {
-            return new LifeCycleStageId(Value + 1);
-        }
+        public LifeCycleStageId Next() => new LifeCycleStageId(Value + 1);
 
         public static LifeCycleStageId FromNumber(int value)
         {

@@ -5,8 +5,6 @@ namespace PublicServiceRegistry.PublicService.Exceptions
         private const string ExceptionMessage = "De levenscyclus van een dienstverlening mag geen overlappende periodes bevatten.";
 
         public LifeCycleCannotHaveOverlappingPeriods()
-            : base(ExceptionMessage)
-        {
-        }
+            : base(ExceptionMessage) { }
     }
 }

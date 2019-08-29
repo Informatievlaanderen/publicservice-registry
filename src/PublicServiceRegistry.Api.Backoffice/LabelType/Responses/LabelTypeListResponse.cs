@@ -16,8 +16,8 @@ namespace PublicServiceRegistry.Api.Backoffice.LabelType.Responses
 
     public class LabelTypeListResponseExamples : IExamplesProvider
     {
-        public object GetExamples() =>
-            new List<LabelTypeListResponse>
+        public object GetExamples()
+            => new List<LabelTypeListResponse>
             {
                 new LabelTypeListResponse("Ipdc"),
                 new LabelTypeListResponse("Subsidieregister")

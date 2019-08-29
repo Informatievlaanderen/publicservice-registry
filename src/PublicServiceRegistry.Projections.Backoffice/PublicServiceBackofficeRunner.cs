@@ -22,7 +22,6 @@ namespace PublicServiceRegistry.Projections.Backoffice
                 envelopeFactory,
                 logger,
                 new PublicServiceListProjections(new ClockProvider()),
-                new PublicServiceProjections(),
                 new PublicServiceLabelListProjections(),
                 new PublicServiceLifeCycleListProjections()) { }
     }

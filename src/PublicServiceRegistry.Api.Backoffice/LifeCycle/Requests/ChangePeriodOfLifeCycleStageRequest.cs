@@ -26,25 +26,24 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Requests
     public class ChangePeriodOfLifeCycleStageRequestExample : IExamplesProvider
     {
         public object GetExamples()
-        {
-            return new ChangePeriodOfLifeCycleStageRequest
+            => new ChangePeriodOfLifeCycleStageRequest
             {
                 Vanaf = DateTime.ParseExact("13.03.2019", "dd.MM.yyyy", CultureInfo.InvariantCulture),
                 Tot = DateTime.ParseExact("13.03.2020", "dd.MM.yyyy", CultureInfo.InvariantCulture),
             };
-        }
     }
 
     public static class ChangePeriodOfLifeCycleStageRequestMapping
     {
-        public static ChangePeriodOfLifeCycleStage Map(string id, int lifeCycleStageId, ChangePeriodOfLifeCycleStageRequest message)
-        {
-            return new ChangePeriodOfLifeCycleStage(
+        public static ChangePeriodOfLifeCycleStage Map(
+            string id,
+            int lifeCycleStageId,
+            ChangePeriodOfLifeCycleStageRequest message) =>
+            new ChangePeriodOfLifeCycleStage(
                 new PublicServiceId(id),
                 LifeCycleStageId.FromNumber(lifeCycleStageId),
                 new LifeCycleStagePeriod(
                     new ValidFrom(message.Vanaf.HasValue ? LocalDate.FromDateTime(message.Vanaf.Value) : (LocalDate?)null),
                     new ValidTo(message.Tot.HasValue ? LocalDate.FromDateTime(message.Tot.Value) : (LocalDate?)null)));
-        }
     }
 }

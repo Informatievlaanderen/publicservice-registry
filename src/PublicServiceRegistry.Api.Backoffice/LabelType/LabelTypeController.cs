@@ -8,7 +8,6 @@ namespace PublicServiceRegistry.Api.Backoffice.LabelType
     using Microsoft.AspNetCore.Http;
     using Microsoft.AspNetCore.Mvc;
     using Newtonsoft.Json.Converters;
-    using Projections.Backoffice;
     using Responses;
     using Security;
     using Swashbuckle.AspNetCore.Filters;
@@ -25,7 +24,6 @@ namespace PublicServiceRegistry.Api.Backoffice.LabelType
         /// <summary>
         /// Vraag een lijst met dienstverleningen op.
         /// </summary>
-        /// <param name="context"></param>
         /// <response code="200">Als de opvraging van een lijst met dienstverlening gelukt is.</response>
         /// <response code="500">Als er een interne fout is opgetreden.</response>
         [HttpGet]
@@ -34,8 +32,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LabelType
         [SwaggerResponseExample(StatusCodes.Status200OK, typeof(LabelTypeListResponseExamples), jsonConverter: typeof(StringEnumConverter))]
         [SwaggerResponseExample(StatusCodes.Status500InternalServerError, typeof(InternalServerErrorResponseExamples), jsonConverter: typeof(StringEnumConverter))]
         [AllowAnonymous]
-        public IActionResult List(
-            [FromServices] BackofficeContext context) =>
+        public IActionResult List() =>
             Ok(LabelType.All.Select(x => new LabelTypeListResponse(x)));
     }
 }

@@ -33,14 +33,12 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Requests
     public class AddStageToLifeCycleRequestExample : IExamplesProvider
     {
         public object GetExamples()
-        {
-            return new AddStageToLifeCycleRequest
+            => new AddStageToLifeCycleRequest
             {
                 LevensloopfaseType = LifeCycleStageType.Active.ToString(),
                 Vanaf = DateTime.ParseExact("13.03.2019", "dd.MM.yyyy", CultureInfo.InvariantCulture),
                 Tot = DateTime.ParseExact("13.03.2020", "dd.MM.yyyy", CultureInfo.InvariantCulture),
             };
-        }
     }
 
     public static class AddStageToLifeCycleRequestMapping

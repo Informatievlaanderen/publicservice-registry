@@ -45,8 +45,7 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService.Responses
     public class PublicServiceListResponseExamples : IExamplesProvider
     {
         public object GetExamples()
-        {
-            return new List<PublicServiceListResponse>
+            => new List<PublicServiceListResponse>
             {
                 new PublicServiceListResponse(
                     "DVR000000001",
@@ -62,6 +61,5 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService.Responses
                     "Agentschap voor Hoger Onderwijs, Volwassenenonderwijs, Kwalificaties en Studietoelagen",
                     false)
             };
-        }
     }
 }

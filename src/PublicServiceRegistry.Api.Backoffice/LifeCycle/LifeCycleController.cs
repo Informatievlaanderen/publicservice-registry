@@ -59,7 +59,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle
             var projectionPosition = await context.GetProjectionPositionAsync(nameof(PublicServiceLifeCycleListProjections), cancellationToken);
             Response.Headers.Add(PublicServiceHeaderNames.LastObservedPosition, projectionPosition.ToString());
 
-            // idea: if dienstverleningid does not exist => 404 + documentatie aanpassen swagger
+            // TODO: idea: if dienstverleningid does not exist => 404 + documentatie aanpassen swagger
 
             var filter = Request.ExtractFilteringRequest<LifeCycleFilter>();
             var sorting = Request.ExtractSortingRequest();

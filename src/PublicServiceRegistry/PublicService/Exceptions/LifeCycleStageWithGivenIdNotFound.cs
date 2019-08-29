@@ -5,8 +5,6 @@ namespace PublicServiceRegistry.PublicService.Exceptions
         private const string ExceptionMessage = "De levensloopfase met id {0} kon niet gevonden worden.";
 
         public LifeCycleStageWithGivenIdNotFound(int lifeCycleStageId)
-            : base(string.Format(ExceptionMessage, lifeCycleStageId))
-        {
-        }
+            : base(string.Format(ExceptionMessage, lifeCycleStageId)) { }
     }
 }

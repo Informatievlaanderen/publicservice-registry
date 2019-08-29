@@ -55,12 +55,10 @@ namespace PublicServiceRegistry.Api.Backoffice.Labels
             [FromServices] BackofficeContext context,
             [FromRoute] string id,
             CancellationToken cancellationToken = default)
-        {
-            return Ok(await context
+            => Ok(await context
                 .PublicServiceLabelList
                 .Where(item => item.PublicServiceId == id)
                 .ToListAsync(cancellationToken));
-        }
 
         /// <summary>
         /// Wijzig een bestaande dienstverlening.

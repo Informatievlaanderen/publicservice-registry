@@ -18,6 +18,7 @@ namespace PublicServiceRegistry.PublicService.Providers.OrganisationProviderSour
 
         public WegwijsProvider()
         {
+            // TODO: Use HttpFactory
             _wegwijsVlaanderenClient = new HttpClient
             {
                 BaseAddress = new Uri(WegwijsBaseUri),
@@ -30,6 +31,7 @@ namespace PublicServiceRegistry.PublicService.Providers.OrganisationProviderSour
 
         public async Task<Optional<Organisation>> GetOrganisationAsync(OvoNumber ovoNumber)
         {
+            // TODO: Use HttpFactory
             var responseMessage = await _wegwijsVlaanderenClient.GetAsync("organisations?q=ovoNumber:" + ovoNumber);
 
             var responseText = await responseMessage.Content.ReadAsStringAsync();

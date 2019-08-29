@@ -44,6 +44,7 @@ namespace PublicServiceRegistry.Api.Backoffice.Ipdc
                 CultureInfo.InvariantCulture,
                 DateTimeStyles.None);
 
+            // TODO: Use HttpFactory and trace the call
             var client = new HttpClient();
             var result =
                 await client.GetAsync(
@@ -67,6 +68,7 @@ namespace PublicServiceRegistry.Api.Backoffice.Ipdc
             [FromRoute] string id,
             CancellationToken cancellationToken = default)
         {
+            // TODO: Use HttpFactory and trace the call
             var client = new HttpClient();
             var result =
                 await client.GetAsync(

@@ -13,8 +13,8 @@ namespace PublicServiceRegistry.Api.Backoffice.LegislativeDocument.Requests
 
     public class SetLegislativeDocumentIdRequestExample : IExamplesProvider
     {
-        public object GetExamples() =>
-            new SetLegislativeDocumentIdRequest
+        public object GetExamples()
+            => new SetLegislativeDocumentIdRequest
             {
                 LegislativeDocumentId = "1030039"
             };

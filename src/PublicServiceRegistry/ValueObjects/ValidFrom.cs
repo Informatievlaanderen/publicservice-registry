@@ -10,39 +10,23 @@ namespace PublicServiceRegistry
 
         public bool IsInfinite => !Date.HasValue;
 
-        public ValidFrom(LocalDate? localDate)
-        {
-            Date = localDate;
-        }
+        public ValidFrom(LocalDate? localDate) => Date = localDate;
 
-        public ValidFrom(int year, int month, int day)
-        {
-            Date = new LocalDate(year, month, day);
-        }
+        public ValidFrom(int year, int month, int day) => Date = new LocalDate(year, month, day);
 
-        public static implicit operator LocalDate? (ValidFrom validFrom)
-        {
-            return validFrom.Date;
-        }
+        public static implicit operator LocalDate? (ValidFrom validFrom) => validFrom.Date;
 
-        public override string ToString()
-        {
-            return Date.HasValue ? Date.Value.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture) : "~";
-        }
+        public override string ToString() => Date.HasValue ? Date.Value.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture) : "~";
 
-        public bool IsInFutureOf(LocalDate date, bool inclusive = false)
-        {
-            return inclusive
+        public bool IsInFutureOf(LocalDate date, bool inclusive = false) =>
+            inclusive
                 ? this >= new ValidFrom(date)
                 : this > new ValidFrom(date);
-        }
 
-        public bool IsInPastOf(LocalDate date, bool inclusive = false)
-        {
-            return inclusive
+        public bool IsInPastOf(LocalDate date, bool inclusive = false) =>
+            inclusive
                 ? this <= new ValidFrom(date)
                 : this < new ValidFrom(date);
-        }
 
         public static bool operator ==(ValidFrom left, ValidFrom right) => left.Equals(right);
 

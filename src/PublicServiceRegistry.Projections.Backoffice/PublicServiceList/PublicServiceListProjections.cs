@@ -66,6 +66,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceList
                     message.Message.PublicServiceId,
                     ct);
 
+                // TODO: This should become a soft Delete to support 410 Gone responses
                 context.Remove(publicServiceListItem);
             });
 
@@ -130,6 +131,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceList
                     message.Message.LifeCycleStageId,
                     ct);
 
+                // TODO: does this work properly in catch up mode? Implementing soft-delete might solve this indirectly
                 context.LifeCycleStagesForPublicServiceList.Remove(publicServiceLifeCycleItem);
 
                 var publicServiceListItem = await FindPublicService(
@@ -169,10 +171,9 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceList
             {
                 var date = LocalDate.FromDateTime(message.Message.DateTime);
                 var dateAsInt = date.ToInt();
+
                 foreach (var publicServiceListItem in context.PublicServiceList.Where(item => item.CurrentLifeCycleStageEndsAtAsInt != null && item.CurrentLifeCycleStageEndsAtAsInt < dateAsInt))
-                {
                     await UpdateCurrentLifeCycleStage(context, publicServiceListItem, date, ct);
-                }
             });
         }
 
@@ -221,7 +222,6 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceList
                 .FindAsync(
                     new object[] { publicServiceId },
                     cancellationToken);
-
 
         private static async Task<LifeCycleStageItemForPublicServiceList> FindPublicServiceLifeCycleItemOrNull(
             BackofficeContext context,

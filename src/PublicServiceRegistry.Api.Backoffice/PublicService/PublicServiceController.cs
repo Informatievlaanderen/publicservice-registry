@@ -73,6 +73,8 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService
             if (publicService == null)
                 return NotFound();
 
+            // TODO: Here we will need to check for Delete -> Gone
+
             return Ok(
                 new PublicServiceResponse(
                     publicService.PublicServiceId,

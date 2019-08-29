@@ -16,14 +16,12 @@ namespace PublicServiceRegistry.Api.Backoffice.Infrastructure.Modules
         {
             containerBuilder
                 .RegisterInstance<IConfigureOptions<OpenIdConnectConfiguration>>(
-                    new ConfigureFromConfigurationOptions<OpenIdConnectConfiguration>(
-                        _configuration.GetSection(OpenIdConnectConfiguration.Section)))
+                    new ConfigureFromConfigurationOptions<OpenIdConnectConfiguration>(_configuration.GetSection(OpenIdConnectConfiguration.Section)))
                 .SingleInstance();
 
             containerBuilder
                 .RegisterInstance<IConfigureOptions<OIDCAuthAcmConfiguration>>(
-                    new ConfigureFromConfigurationOptions<OIDCAuthAcmConfiguration>(
-                        _configuration.GetSection(OIDCAuthAcmConfiguration.Section)))
+                    new ConfigureFromConfigurationOptions<OIDCAuthAcmConfiguration>(_configuration.GetSection(OIDCAuthAcmConfiguration.Section)))
                 .SingleInstance();
         }
     }

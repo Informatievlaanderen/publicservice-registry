@@ -1,7 +1,6 @@
 namespace PublicServiceRegistry.Api.Backoffice.PublicService.Responses
 {
     using System.Runtime.Serialization;
-    using Be.Vlaanderen.Basisregisters.Api.Exceptions;
     using Microsoft.AspNetCore.Http;
     using Swashbuckle.AspNetCore.Filters;
     using LifeCycleStageType = PublicServiceRegistry.LifeCycleStageType;
@@ -47,7 +46,8 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService.Responses
         [DataMember(Name = "WetgevendDocumentId", Order = 9)]
         public string LegislativeDocumentId { get; }
 
-        public PublicServiceResponse(string id,
+        public PublicServiceResponse(
+            string id,
             string name,
             string competentAuthorityCode,
             string competentAuthorityName,
@@ -72,8 +72,7 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService.Responses
     public class PublicServiceResponseExamples : IExamplesProvider
     {
         public object GetExamples()
-        {
-            return new PublicServiceResponse(
+            => new PublicServiceResponse(
                 "DVR000000002",
                 "Schooltoelage voor het basisonderwijs en het secundair onderwijs",
                 "OVO001951",
@@ -83,20 +82,17 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService.Responses
                 LifeCycleStageType.PhasingOut.Translation.Name,
                 "1234",
                 "1234567");
-        }
     }
 
     public class PublicServiceNotFoundResponseExamples : IExamplesProvider
     {
         public object GetExamples()
-        {
-            return new ProblemDetails
+            => new ProblemDetails
             {
                 HttpStatus = StatusCodes.Status404NotFound,
                 Title = ProblemDetails.DefaultTitle,
                 Detail = "Onbestaande dienstverlening.",
                 ProblemInstanceUri = ProblemDetails.GetProblemNumber()
             };
-        }
     }
 }

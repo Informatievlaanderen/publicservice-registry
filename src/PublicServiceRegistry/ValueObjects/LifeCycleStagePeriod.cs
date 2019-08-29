@@ -1,6 +1,5 @@
 namespace PublicServiceRegistry
 {
-    using System;
     using System.Collections.Generic;
     using Be.Vlaanderen.Basisregisters.AggregateSource;
     using NodaTime;
@@ -38,31 +37,22 @@ namespace PublicServiceRegistry
             var periodEndDate = period.End.Date;
             var startDate = Start.Date;
             if (periodEndDate < startDate)
-            {
                 return false;
-            }
 
             var endDate = End.Date;
             var periodStartDate = period.Start.Date;
             if (endDate < periodStartDate)
-            {
                 return false;
-            }
 
             return true;
         }
 
         public bool OverlapsWith(LocalDate date)
-        {
-            return OverlapsWith(
+            => OverlapsWith(
                 new LifeCycleStagePeriod(
                     new ValidFrom(date),
                     new ValidTo(date)));
-        }
 
-        public override string ToString()
-        {
-            return $"{Start} => {End}";
-        }
+        public override string ToString() => $"{Start} => {End}";
     }
 }

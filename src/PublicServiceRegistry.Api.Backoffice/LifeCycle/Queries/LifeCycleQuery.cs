@@ -40,19 +40,19 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Queries
                 .PublicServiceLifeCycleList
                 .AsNoTracking()
                 .Where(item => item.PublicServiceId == _publicServiceId);
+    }
 
-        private class LifeCycleSorting : ISorting
+    internal class LifeCycleSorting : ISorting
+    {
+        public IEnumerable<string> SortableFields { get; } = new[]
         {
-            public IEnumerable<string> SortableFields { get; } = new[]
-            {
-                nameof(PublicServiceLifeCycleItem.LifeCycleStageType),
-                nameof(PublicServiceLifeCycleItem.FromAsInt),
-                nameof(PublicServiceLifeCycleItem.ToAsInt)
-            };
+            nameof(PublicServiceLifeCycleItem.LifeCycleStageType),
+            nameof(PublicServiceLifeCycleItem.FromAsInt),
+            nameof(PublicServiceLifeCycleItem.ToAsInt)
+        };
 
-            public SortingHeader DefaultSortingHeader { get; } =
-                new SortingHeader(nameof(PublicServiceLifeCycleItem.FromAsInt), SortOrder.Ascending);
-        }
+        public SortingHeader DefaultSortingHeader { get; } =
+            new SortingHeader(nameof(PublicServiceLifeCycleItem.FromAsInt), SortOrder.Ascending);
     }
 
     public class LifeCycleFilter { }

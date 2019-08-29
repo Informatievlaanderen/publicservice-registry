@@ -4,7 +4,6 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Responses
     using System.Collections.Generic;
     using System.Globalization;
     using System.Runtime.Serialization;
-    using Be.Vlaanderen.Basisregisters.Api.Exceptions;
     using Microsoft.AspNetCore.Http;
     using NodaTime;
     using Swashbuckle.AspNetCore.Filters;
@@ -52,8 +51,8 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Responses
 
     public class LifeCycleStageResponseExamples : IExamplesProvider
     {
-        public object GetExamples() =>
-            new List<LifeCycleStageResponse>
+        public object GetExamples()
+            => new List<LifeCycleStageResponse>
             {
                 new LifeCycleStageResponse(PublicServiceRegistry.LifeCycleStageType.Active.ToString(), PublicServiceRegistry.LifeCycleStageType.Active.Translation.Name, LocalDate.FromDateTime(DateTime.Now.Date), LocalDate.FromDateTime(DateTime.Now.Date.AddDays(1))),
                 new LifeCycleStageResponse(PublicServiceRegistry.LifeCycleStageType.PhasingOut.ToString(), PublicServiceRegistry.LifeCycleStageType.PhasingOut.Translation.Name, LocalDate.FromDateTime(DateTime.Now.Date), LocalDate.FromDateTime(DateTime.Now.Date.AddDays(1))),
@@ -63,14 +62,12 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Responses
     public class LifeCycleStageNotFoundResponseExamples : IExamplesProvider
     {
         public object GetExamples()
-        {
-            return new ProblemDetails
+            => new ProblemDetails
             {
                 HttpStatus = StatusCodes.Status404NotFound,
                 Title = ProblemDetails.DefaultTitle,
                 Detail = "Onbestaande levensloopfase.",
                 ProblemInstanceUri = ProblemDetails.GetProblemNumber()
             };
-        }
     }
 }

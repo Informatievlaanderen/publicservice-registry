@@ -123,6 +123,7 @@ namespace PublicServiceRegistry.Api.Backoffice.Security
         {
             if (Request.Cookies[_openIdConnectConfiguration.JwtCookieName] == null)
                 return NotFound();
+
             var i = 0;
             return Ok(
                 User

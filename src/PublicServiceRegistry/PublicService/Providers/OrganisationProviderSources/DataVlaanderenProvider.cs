@@ -19,6 +19,7 @@ namespace PublicServiceRegistry.PublicService.Providers.OrganisationProviderSour
             // TODO: We moeten met Geert praten hierover, blijkbaar zijn er issues met HttpClient
             // Hij heeft RestSharp client liggen die dit oplost (moeten het ook in andere projecten aanpassen)
 
+            // TODO: Use HttpFactory
             _dataVlaanderenClient = new HttpClient
             {
                 BaseAddress = new Uri(DataVlaanderenBaseUri),
@@ -31,6 +32,7 @@ namespace PublicServiceRegistry.PublicService.Providers.OrganisationProviderSour
 
         public async Task<Optional<Organisation>> GetOrganisationAsync(OvoNumber ovoNumber)
         {
+            // TODO: Use HttpFactory
             var httpResponseMessage = await _dataVlaanderenClient.GetAsync(ovoNumber);
             var responseContent = await httpResponseMessage.Content.ReadAsStringAsync();
 

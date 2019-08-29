@@ -1,6 +1,5 @@
 namespace PublicServiceRegistry.PublicService.Events
 {
-    using System;
     using Be.Vlaanderen.Basisregisters.EventHandling;
     using Newtonsoft.Json;
     using NodaTime;
@@ -15,7 +14,8 @@ namespace PublicServiceRegistry.PublicService.Events
         public LocalDate? From { get; }
         public LocalDate? To { get; }
 
-        public StageWasAddedToLifeCycle(PublicServiceId publicServiceId,
+        public StageWasAddedToLifeCycle(
+            PublicServiceId publicServiceId,
             LifeCycleStageId lifeCycleStageId,
             LifeCycleStageType lifeCycleStageType,
             LifeCycleStagePeriod period)
@@ -38,8 +38,6 @@ namespace PublicServiceRegistry.PublicService.Events
                 new PublicServiceId(publicServiceId),
                 PublicServiceRegistry.LifeCycleStageId.FromNumber(lifeCycleStageId),
                 PublicServiceRegistry.LifeCycleStageType.Parse(lifeCycleStageType),
-                new LifeCycleStagePeriod(new ValidFrom(from), new ValidTo(to)))
-        {
-        }
+                new LifeCycleStagePeriod(new ValidFrom(from), new ValidTo(to))) { }
     }
 }

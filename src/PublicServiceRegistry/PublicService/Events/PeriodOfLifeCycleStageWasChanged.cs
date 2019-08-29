@@ -1,6 +1,5 @@
 namespace PublicServiceRegistry.PublicService.Events
 {
-    using System;
     using Be.Vlaanderen.Basisregisters.EventHandling;
     using Newtonsoft.Json;
     using NodaTime;

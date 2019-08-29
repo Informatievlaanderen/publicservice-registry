@@ -1,7 +1,5 @@
 namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceList
 {
-    using System;
-    using System.Globalization;
     using Infrastructure;
     using Microsoft.EntityFrameworkCore;
     using Microsoft.EntityFrameworkCore.Metadata.Builders;

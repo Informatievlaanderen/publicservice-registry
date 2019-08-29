@@ -35,6 +35,7 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService.Queries
         {
             var publicServices = _context
                 .PublicServiceList
+                // TODO: Add a filter on Removed
                 .AsNoTracking();
 
             if (!filtering.ShouldFilter)
@@ -51,20 +52,20 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService.Queries
 
             return publicServices;
         }
+    }
 
-        private class PublicServiceListSorting : ISorting
+    internal class PublicServiceListSorting : ISorting
+    {
+        public IEnumerable<string> SortableFields { get; } = new[]
         {
-            public IEnumerable<string> SortableFields { get; } = new[]
-            {
-                nameof(PublicServiceListItem.PublicServiceId),
-                nameof(PublicServiceListItem.Name),
-                nameof(PublicServiceListItem.CompetentAuthorityName),
-                nameof(PublicServiceListItem.ExportToOrafin)
-            };
+            nameof(PublicServiceListItem.PublicServiceId),
+            nameof(PublicServiceListItem.Name),
+            nameof(PublicServiceListItem.CompetentAuthorityName),
+            nameof(PublicServiceListItem.ExportToOrafin)
+        };
 
-            public SortingHeader DefaultSortingHeader { get; } =
-                new SortingHeader(nameof(PublicServiceListItem.PublicServiceId), SortOrder.Ascending);
-        }
+        public SortingHeader DefaultSortingHeader { get; } =
+            new SortingHeader(nameof(PublicServiceListItem.PublicServiceId), SortOrder.Ascending);
     }
 
     public class PublicServiceListItemFilter

@@ -24,7 +24,6 @@ namespace PublicServiceRegistry.PublicService.Events
             int lifeCycleStageId) :
             this(
                 new PublicServiceId(publicServiceId),
-                PublicServiceRegistry.LifeCycleStageId.FromNumber(lifeCycleStageId))
-        { }
+                PublicServiceRegistry.LifeCycleStageId.FromNumber(lifeCycleStageId)) { }
     }
 }

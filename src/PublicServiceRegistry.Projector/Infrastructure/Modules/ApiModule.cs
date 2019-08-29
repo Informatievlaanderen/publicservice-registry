@@ -14,7 +14,6 @@ namespace PublicServiceRegistry.Projector.Infrastructure.Modules
     using Microsoft.Extensions.Logging;
     using PublicServiceRegistry.Infrastructure;
     using PublicServiceRegistry.Projections.Backoffice;
-    using PublicServiceRegistry.Projections.Backoffice.PublicService;
     using PublicServiceRegistry.Projections.Backoffice.PublicServiceLabelList;
     using PublicServiceRegistry.Projections.Backoffice.PublicServiceLifeCycle;
     using PublicServiceRegistry.Projections.Backoffice.PublicServiceList;
@@ -84,7 +83,6 @@ namespace PublicServiceRegistry.Projector.Infrastructure.Modules
                     _configuration,
                     _loggerFactory)
 
-                .RegisterProjections<PublicServiceProjections, BackofficeContext>()
                 .RegisterProjections<PublicServiceListProjections, BackofficeContext>(x => new PublicServiceListProjections(x.Resolve<IClockProvider>()))
                 .RegisterProjections<PublicServiceLabelListProjections, BackofficeContext>()
                 .RegisterProjections<PublicServiceLifeCycleListProjections, BackofficeContext>();

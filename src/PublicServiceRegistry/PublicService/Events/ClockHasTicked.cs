@@ -9,9 +9,6 @@ namespace PublicServiceRegistry.PublicService.Events
     {
         public DateTime DateTime { get; }
 
-        public ClockHasTicked(DateTime dateTime)
-        {
-            DateTime = dateTime;
-        }
+        public ClockHasTicked(DateTime dateTime) => DateTime = dateTime;
     }
 }
