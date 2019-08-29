@@ -8,8 +8,10 @@ namespace PublicServiceRegistry.Projections.Backoffice
     using PublicServiceLifeCycle;
     using PublicServiceList;
 
+    // TODO: This class can be removed
     public class PublicServiceBackofficeRunner : Runner<BackofficeContext>
     {
+        // TODO: With the new projector this is probably wrong
         public const string Name = "PublicServiceBackofficeRunner";
 
         public PublicServiceBackofficeRunner(
