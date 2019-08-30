@@ -45,7 +45,7 @@ namespace PublicServiceRegistry.Api.Backoffice.Labels
         [HttpGet]
         [ProducesResponseType(typeof(List<LabelListResponse>), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(typeof(PreconditionFailedResult), StatusCodes.Status412PreconditionFailed)]
+        [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status412PreconditionFailed)]
         [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
         [SwaggerResponseExample(StatusCodes.Status200OK, typeof(LabelListResponseExamples), jsonConverter: typeof(StringEnumConverter))]
         [SwaggerResponseExample(StatusCodes.Status400BadRequest, typeof(BadRequestResponseExamples), jsonConverter: typeof(StringEnumConverter))]

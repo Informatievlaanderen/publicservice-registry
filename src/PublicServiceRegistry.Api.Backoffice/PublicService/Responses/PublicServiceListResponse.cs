@@ -9,23 +9,23 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService.Responses
     {
         /// <summary>Id van de dienstverlening.</summary>
         [DataMember(Name = "Id", Order = 1)]
-        public string Id { get; set; }
+        public string Id { get; private set; }
 
         /// <summary>Naam van de dienstverlening.</summary>
         [DataMember(Name = "Naam", Order = 2)]
-        public string Naam { get; set; }
+        public string Naam { get; private set; }
 
         /// <summary>Code van de verantwoordelijke autoriteit</summary>
         [DataMember(Name = "VerantwoordelijkeAutoriteitCode", Order = 3)]
-        public string VerantwoordelijkeAutoriteitCode { get; set; }
+        public string VerantwoordelijkeAutoriteitCode { get; private set; }
 
         /// <summary>Naam van de verantwoordelijke autoriteit</summary>
         [DataMember(Name = "VerantwoordelijkeAutoriteitNaam", Order = 4)]
-        public string VerantwoordelijkeAutoriteitNaam { get; set; }
+        public string VerantwoordelijkeAutoriteitNaam { get; private set; }
 
         /// <summary>Of de dienstverlening al dan niet naar Orafin geexporteerd wordt.</summary>
         [DataMember(Name = "ExportNaarOrafin", Order = 5)]
-        public bool ExportNaarOrafin { get; set; }
+        public bool ExportNaarOrafin { get; private set; }
 
         public PublicServiceListResponse(
             string id,

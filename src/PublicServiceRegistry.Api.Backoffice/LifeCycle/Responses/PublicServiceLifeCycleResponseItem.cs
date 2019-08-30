@@ -14,37 +14,37 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Responses
         /// Id van de dienstverlening.
         /// </summary>
         [DataMember(Name = "DienstverleningId", Order = 1)]
-        public string DienstverleningId { get; }
+        public string DienstverleningId { get; private set; }
 
         /// <summary>
         /// Id van de levensloopfase.
         /// </summary>
         [DataMember(Name = "LevensloopfaseId", Order = 2)]
-        public int LevensloopfaseId { get; }
+        public int LevensloopfaseId { get; private set; }
 
         /// <summary>
         /// Id van het type van de levensloopfase.
         /// </summary>
         [DataMember(Name = "LevensloopfaseTypeId", Order = 3)]
-        public string LevensloopfaseTypeId { get; }
+        public string LevensloopfaseTypeId { get; private set; }
 
         /// <summary>
         /// Naam van het type van de levensloopfase.
         /// </summary>
         [DataMember(Name = "LevensloopfaseTypeNaam", Order = 4)]
-        public string LevensloopfaseTypeNaam { get; set; }
+        public string LevensloopfaseTypeNaam { get; private set; }
 
         /// <summary>
         /// Startdatum van de levensloopfase (inclusief).
         /// </summary>
         [DataMember(Name = "Vanaf", Order = 5)]
-        public string Vanaf { get; }
+        public string Vanaf { get; private set; }
 
         /// <summary>
         /// Einddatum van de levensloopfase (inclusief).
         /// </summary>
         [DataMember(Name = "Tot", Order = 6)]
-        public string Tot { get; }
+        public string Tot { get; private set; }
 
 
         public PublicServiceLifeCycleResponseItem(string publicServiceId, int localId, string lifeCycleStageTypeId, LocalDate? from, LocalDate? to)

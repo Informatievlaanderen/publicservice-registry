@@ -9,7 +9,7 @@ namespace PublicServiceRegistry.Api.Backoffice.LabelType.Responses
     {
         /// <summary>Id van de alternatieve benamingstype.</summary>
         [DataMember(Name = "Id", Order = 1)]
-        public string Id { get; set; }
+        public string Id { get; private set; }
 
         public LabelTypeListResponse(string id) => Id = id;
     }

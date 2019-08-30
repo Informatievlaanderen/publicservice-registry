@@ -16,25 +16,25 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Responses
         /// Het type van de levensloopfase.
         /// </summary>
         [DataMember(Name = "LevensloopfaseType", Order = 1)]
-        public string LevensloopfaseType { get; }
+        public string LevensloopfaseType { get; private set; }
 
         /// <summary>
         /// Het type van de levensloopfase.
         /// </summary>
         [DataMember(Name = "LevensloopfaseTypeNaam", Order = 2)]
-        public string LifeCycleStageTypeNaam { get; }
+        public string LifeCycleStageTypeNaam { get; private set; }
 
         /// <summary>
         /// De startdatum van de levensloopfase (inclusief).
         /// </summary>
         [DataMember(Name = "Vanaf", Order = 3)]
-        public string Vanaf { get; }
+        public string Vanaf { get; private set; }
 
         /// <summary>
         /// De einddatum van de levensloopfase (inclusief).
         /// </summary>
         [DataMember(Name = "Tot", Order = 4)]
-        public string Tot { get; }
+        public string Tot { get; private set; }
 
         public LifeCycleStageResponse(
             string lifeCycleStageType,
