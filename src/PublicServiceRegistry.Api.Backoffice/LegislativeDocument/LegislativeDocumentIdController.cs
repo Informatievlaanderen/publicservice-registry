@@ -13,15 +13,16 @@ namespace PublicServiceRegistry.Api.Backoffice.LegislativeDocument
     using Requests;
     using Security;
     using Swashbuckle.AspNetCore.Filters;
+    using ProblemDetails = Be.Vlaanderen.Basisregisters.BasicApiProblem.ProblemDetails;
 
     [ApiVersion("1.0")]
     [AdvertiseApiVersions("1.0")]
     [ApiRoute("dienstverleningen/{id}/wetgevenddocument")]
     [ApiExplorerSettings(GroupName = "Dienstverleningen")]
     [PublicServiceRegistryAuthorize]
-    public class LegaslitiveDocumentIdController : ApiBusController
+    public class LegislativeDocumentIdController : ApiBusController
     {
-        public LegaslitiveDocumentIdController(ICommandHandlerResolver bus) : base(bus) { }
+        public LegislativeDocumentIdController(ICommandHandlerResolver bus) : base(bus) { }
 
         /// <summary>
         /// Wijs het id van het wetgevend document toe aan een bestaande dienstverlening.
