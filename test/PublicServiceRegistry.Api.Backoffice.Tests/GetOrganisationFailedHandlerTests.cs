@@ -1,6 +1,5 @@
 namespace PublicServiceRegistry.Api.Backoffice.Tests
 {
-    using Be.Vlaanderen.Basisregisters.Api.Exceptions;
     using FluentAssertions;
     using Infrastructure.ExceptionHandlers;
     using Microsoft.AspNetCore.Http;

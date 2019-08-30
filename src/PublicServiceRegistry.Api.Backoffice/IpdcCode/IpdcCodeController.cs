@@ -13,6 +13,7 @@ namespace PublicServiceRegistry.Api.Backoffice.IpdcCode
     using Requests;
     using Security;
     using Swashbuckle.AspNetCore.Filters;
+    using ProblemDetails = Be.Vlaanderen.Basisregisters.BasicApiProblem.ProblemDetails;
 
     [ApiVersion("1.0")]
     [AdvertiseApiVersions("1.0")]
