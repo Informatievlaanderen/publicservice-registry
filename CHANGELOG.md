@@ -1,3 +1,12 @@
+## [1.10.1](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.10.0...v1.10.1) (2019-08-30)
+
+
+### Bug Fixes
+
+* correct spelling for legislative ([25f5743](https://github.com/informatievlaanderen/publicservice-registry/commit/25f5743))
+* make sure swagger documentation gets generated ([ea816a7](https://github.com/informatievlaanderen/publicservice-registry/commit/ea816a7))
+* use correct problemdetails ([2023696](https://github.com/informatievlaanderen/publicservice-registry/commit/2023696))
+
 # [1.10.0](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.9.5...v1.10.0) (2019-08-29)
 
 
