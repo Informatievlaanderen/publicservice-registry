@@ -1,3 +1,10 @@
+## [1.10.2](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.10.1...v1.10.2) (2019-09-03)
+
+
+### Bug Fixes
+
+* update problemdetails for xml response GR-829 ([cad9231](https://github.com/informatievlaanderen/publicservice-registry/commit/cad9231))
+
 ## [1.10.1](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.10.0...v1.10.1) (2019-08-30)
 
 
