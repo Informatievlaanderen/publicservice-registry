@@ -1,3 +1,10 @@
+## [1.10.3](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.10.2...v1.10.3) (2019-09-05)
+
+
+### Bug Fixes
+
+* report correct version number ([5eaae66](https://github.com/informatievlaanderen/publicservice-registry/commit/5eaae66))
+
 ## [1.10.2](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.10.1...v1.10.2) (2019-09-03)
 
 
