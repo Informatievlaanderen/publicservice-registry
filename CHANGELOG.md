@@ -1,3 +1,10 @@
+## [1.10.4](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.10.3...v1.10.4) (2019-09-05)
+
+
+### Bug Fixes
+
+* initial jira version ([ef7fcaf](https://github.com/informatievlaanderen/publicservice-registry/commit/ef7fcaf))
+
 ## [1.10.3](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.10.2...v1.10.3) (2019-09-05)
 
 
