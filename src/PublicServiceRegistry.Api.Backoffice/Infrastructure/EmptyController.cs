@@ -14,6 +14,6 @@ namespace PublicServiceRegistry.Api.Backoffice.Infrastructure
         public IActionResult Get()
             => Request.Headers[HeaderNames.Accept].ToString().Contains("text/html")
                 ? (IActionResult)new RedirectResult("/docs")
-                : new OkObjectResult($"Welcome to the Basisregisters Vlaanderen Public Service Api v{Assembly.GetEntryAssembly().GetName().Version}.");
+                : new OkObjectResult($"Welcome to the Basisregisters Vlaanderen Public Service Api {Assembly.GetEntryAssembly().GetVersionText()}.");
     }
 }

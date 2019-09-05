@@ -1,6 +1,5 @@
 namespace PublicServiceRegistry.Api.Backoffice.Infrastructure
 {
-    using System;
     using Be.Vlaanderen.Basisregisters.Api;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.Extensions.Configuration;

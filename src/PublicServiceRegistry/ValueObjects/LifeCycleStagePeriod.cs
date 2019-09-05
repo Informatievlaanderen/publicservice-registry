@@ -2,6 +2,7 @@ namespace PublicServiceRegistry
 {
     using System.Collections.Generic;
     using Be.Vlaanderen.Basisregisters.AggregateSource;
+    using Newtonsoft.Json;
     using NodaTime;
     using PublicService.Exceptions;
 
@@ -13,7 +14,9 @@ namespace PublicServiceRegistry
         public bool HasFixedStart => !Start.IsInfinite;
         public bool HasFixedEnd => !End.IsInfinite;
 
-        public LifeCycleStagePeriod(ValidFrom start, ValidTo end)
+        public LifeCycleStagePeriod(
+            [JsonProperty("start")] ValidFrom start,
+            [JsonProperty("end")] ValidTo end)
         {
             var endDate = end.Date;
             var startDate = start.Date;

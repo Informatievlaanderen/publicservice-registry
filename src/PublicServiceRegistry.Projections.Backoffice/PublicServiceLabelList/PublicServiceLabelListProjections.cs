@@ -7,7 +7,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceLabelList
     using Be.Vlaanderen.Basisregisters.ProjectionHandling.Connector;
     using Be.Vlaanderen.Basisregisters.ProjectionHandling.SqlStreamStore;
     using Microsoft.EntityFrameworkCore;
-    using PublicServiceRegistry.PublicService.Events;
+    using PublicService.Events;
 
     public class PublicServiceLabelListProjections : ConnectedProjection<BackofficeContext>
     {

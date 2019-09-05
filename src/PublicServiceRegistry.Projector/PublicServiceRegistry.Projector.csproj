@@ -20,12 +20,16 @@
     <Content Include="appsettings.json" CopyToOutputDirectory="Always" />
     <Content Include="appsettings.*.json" CopyToOutputDirectory="Always" />
     <Content Include="init.sh" CopyToOutputDirectory="Always" />
-</ItemGroup>
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\PublicServiceRegistry.Infrastructure\PublicServiceRegistry.Infrastructure.csproj" />
     <ProjectReference Include="..\PublicServiceRegistry.Projections.Backoffice\PublicServiceRegistry.Projections.Backoffice.csproj" />
     <ProjectReference Include="..\PublicServiceRegistry.Projections.LastChangedList\PublicServiceRegistry.Projections.LastChangedList.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\SolutionInfo.cs" Link="Properties\SolutionInfo.cs" />
   </ItemGroup>
 
   <Import Project="..\..\.paket\Paket.Restore.targets" />

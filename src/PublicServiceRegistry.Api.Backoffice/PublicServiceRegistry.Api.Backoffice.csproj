@@ -7,7 +7,6 @@
 
   <PropertyGroup>
     <UserSecretsId>7b893681-63d1-446f-8323-93987866cead</UserSecretsId>
-    <LangVersion>7.1</LangVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -25,12 +24,16 @@
     <Content Include="paket.template" CopyToOutputDirectory="Always" />
     <Content Include="Dockerfile" CopyToOutputDirectory="Always" />
     <Content Include="init.sh" CopyToOutputDirectory="Always" />
-</ItemGroup>
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\PublicServiceRegistry.Infrastructure\PublicServiceRegistry.Infrastructure.csproj" />
     <ProjectReference Include="..\PublicServiceRegistry.Projections.Backoffice\PublicServiceRegistry.Projections.Backoffice.csproj" />
     <ProjectReference Include="..\PublicServiceRegistry\PublicServiceRegistry.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\SolutionInfo.cs" Link="Properties\SolutionInfo.cs" />
   </ItemGroup>
 
   <Import Project="..\..\.paket\Paket.Restore.targets" />

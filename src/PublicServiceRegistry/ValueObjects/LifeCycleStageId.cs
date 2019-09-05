@@ -4,7 +4,7 @@ namespace PublicServiceRegistry
     using Be.Vlaanderen.Basisregisters.AggregateSource;
     using Newtonsoft.Json;
 
-    public class LifeCycleStageId: IntegerValueObject<LifeCycleStageId>
+    public class LifeCycleStageId : IntegerValueObject<LifeCycleStageId>
     {
         private LifeCycleStageId([JsonProperty("value")] int lifeCycleStageId)
             : base(lifeCycleStageId) { }
