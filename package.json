@@ -248,6 +248,10 @@
       {
         "path": "@semantic-release/exec",
         "cmd": "./packages/Be.Vlaanderen.Basisregisters.Build.Pipeline/Content/ci-confluence.sh"
+      },
+      {
+        "path": "@semantic-release/exec",
+        "cmd": "JIRA_VERSION=${nextRelease.version} JIRA_PREFIX=PublicService JIRA_PROJECT=DVR ./packages/Be.Vlaanderen.Basisregisters.Build.Pipeline/Content/ci-jira.sh"
       }
     ],
     "success": [
