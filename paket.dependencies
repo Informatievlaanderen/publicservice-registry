@@ -22,7 +22,7 @@ nuget Microsoft.AspNetCore.Authentication.JwtBearer 2.2.0
 
 nuget Microsoft.Extensions.Configuration.UserSecrets 2.2.0
 
-nuget FluentFTP 27.0.3
+nuget FluentFTP 27.1.0
 nuget IdentityModel 3.10.10
 
 // For more healtchecks, look at https://github.com/Xabaril/AspNetCore.Diagnostics.HealthChecks
@@ -51,12 +51,12 @@ nuget Be.Vlaanderen.Basisregisters.CommandHandling.SqlStreamStore ~> 3.2
 nuget Be.Vlaanderen.Basisregisters.EventHandling ~> 1.1
 nuget Be.Vlaanderen.Basisregisters.EventHandling.Autofac ~> 1.1
 
-nuget Be.Vlaanderen.Basisregisters.ProjectionHandling.LastChangedList ~> 4.4
-nuget Be.Vlaanderen.Basisregisters.ProjectionHandling.SqlStreamStore ~> 4.4
-nuget Be.Vlaanderen.Basisregisters.ProjectionHandling.SqlStreamStore.Autofac ~> 4.4
-nuget Be.Vlaanderen.Basisregisters.ProjectionHandling.Runner ~> 4.4
-nuget Be.Vlaanderen.Basisregisters.ProjectionHandling.Connector ~> 4.4
-nuget Be.Vlaanderen.Basisregisters.ProjectionHandling.Connector.Testing ~> 4.4
+nuget Be.Vlaanderen.Basisregisters.ProjectionHandling.LastChangedList ~> 4.5
+nuget Be.Vlaanderen.Basisregisters.ProjectionHandling.SqlStreamStore ~> 4.5
+nuget Be.Vlaanderen.Basisregisters.ProjectionHandling.SqlStreamStore.Autofac ~> 4.5
+nuget Be.Vlaanderen.Basisregisters.ProjectionHandling.Runner ~> 4.5
+nuget Be.Vlaanderen.Basisregisters.ProjectionHandling.Connector ~> 4.5
+nuget Be.Vlaanderen.Basisregisters.ProjectionHandling.Connector.Testing ~> 4.5
 
 nuget Be.Vlaanderen.Basisregisters.Projector ~> 3.3
 
