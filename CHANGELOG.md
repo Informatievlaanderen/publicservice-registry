@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.10.4...v1.11.0) (2019-09-12)
+
+
+### Features
+
+* keep track of how many times lastchanged has errored ([407d8d2](https://github.com/informatievlaanderen/publicservice-registry/commit/407d8d2))
+
 ## [1.10.4](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.10.3...v1.10.4) (2019-09-05)
 
 
