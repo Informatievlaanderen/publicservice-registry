@@ -1,3 +1,10 @@
+## [1.11.1](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.11.0...v1.11.1) (2019-09-13)
+
+
+### Bug Fixes
+
+* update redis lastchangedlist to log time of lasterror ([e6e1108](https://github.com/informatievlaanderen/publicservice-registry/commit/e6e1108))
+
 # [1.11.0](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.10.4...v1.11.0) (2019-09-12)
 
 
