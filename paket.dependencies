@@ -22,7 +22,7 @@ nuget Microsoft.AspNetCore.Authentication.JwtBearer 2.2.0
 
 nuget Microsoft.Extensions.Configuration.UserSecrets 2.2.0
 
-nuget FluentFTP 27.1.0
+nuget FluentFTP 27.1.1
 nuget IdentityModel 3.10.10
 
 // For more healtchecks, look at https://github.com/Xabaril/AspNetCore.Diagnostics.HealthChecks
@@ -60,9 +60,9 @@ nuget Be.Vlaanderen.Basisregisters.ProjectionHandling.Connector.Testing ~> 4.5
 
 nuget Be.Vlaanderen.Basisregisters.Projector ~> 3.3
 
-nuget Be.Vlaanderen.Basisregisters.DataDog.Tracing.Autofac ~> 3.7
-nuget Be.Vlaanderen.Basisregisters.DataDog.Tracing.Sql ~> 3.7
-nuget Be.Vlaanderen.Basisregisters.DataDog.Tracing.SqlStreamStore ~> 3.7
+nuget Be.Vlaanderen.Basisregisters.DataDog.Tracing.Autofac ~> 3.9
+nuget Be.Vlaanderen.Basisregisters.DataDog.Tracing.Sql ~> 3.9
+nuget Be.Vlaanderen.Basisregisters.DataDog.Tracing.SqlStreamStore ~> 3.9
 
 // DOCS STUFF
 nuget Structurizr.Core 0.9.0
@@ -91,5 +91,5 @@ nuget SourceLink.Copy.PdbFiles 2.8.3 copy_local: true
 
 // STUFF FOR TOOLS
 nuget FSharp.Core 4.7.0
-nuget Fsharp.Data 3.1.1
+nuget Fsharp.Data 3.2.4
 nuget Serilog.Sinks.Network 2.0.2.68

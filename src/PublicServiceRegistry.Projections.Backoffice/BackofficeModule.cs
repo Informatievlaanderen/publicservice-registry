@@ -43,12 +43,12 @@ namespace PublicServiceRegistry.Projections.Backoffice
             string backofficeProjectionsConnectionString)
         {
             services
-                .AddScoped(s => new TraceDbConnection(
+                .AddScoped(s => new TraceDbConnection<BackofficeContext>(
                     new SqlConnection(backofficeProjectionsConnectionString),
                     configuration["DataDog:ServiceName"]))
                 .AddDbContext<BackofficeContext>((provider, options) => options
                     .UseLoggerFactory(loggerFactory)
-                    .UseSqlServer(provider.GetRequiredService<TraceDbConnection>(), sqlServerOptions =>
+                    .UseSqlServer(provider.GetRequiredService<TraceDbConnection<BackofficeContext>>(), sqlServerOptions =>
                     {
                         sqlServerOptions.EnableRetryOnFailure();
                         sqlServerOptions.MigrationsHistoryTable(MigrationTables.Backoffice, Schema.Backoffice);
