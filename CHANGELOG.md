@@ -1,3 +1,10 @@
+## [1.11.3](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.11.2...v1.11.3) (2019-09-17)
+
+
+### Bug Fixes
+
+* upgrade api for error headers ([364de4d](https://github.com/informatievlaanderen/publicservice-registry/commit/364de4d))
+
 ## [1.11.2](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.11.1...v1.11.2) (2019-09-17)
 
 
