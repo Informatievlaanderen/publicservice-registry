@@ -1,3 +1,10 @@
+## [1.11.2](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.11.1...v1.11.2) (2019-09-17)
+
+
+### Bug Fixes
+
+* use generic dbtraceconnection ([78efa8f](https://github.com/informatievlaanderen/publicservice-registry/commit/78efa8f))
+
 ## [1.11.1](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.11.0...v1.11.1) (2019-09-13)
 
 
