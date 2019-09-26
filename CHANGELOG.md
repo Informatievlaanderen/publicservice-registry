@@ -1,3 +1,10 @@
+## [1.12.1](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.12.0...v1.12.1) (2019-09-26)
+
+
+### Bug Fixes
+
+* add json formatting compact reference ([fd52397](https://github.com/informatievlaanderen/publicservice-registry/commit/fd52397))
+
 # [1.12.0](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.11.3...v1.12.0) (2019-09-26)
 
 
