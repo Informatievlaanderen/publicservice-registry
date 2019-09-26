@@ -4,11 +4,10 @@ namespace PublicServiceRegistry.Projector.Infrastructure
     using System.Linq;
     using System.Reflection;
     using Be.Vlaanderen.Basisregisters.Api;
-    using Be.Vlaanderen.Basisregisters.DataDog.Tracing.AspNetCore;
     using Be.Vlaanderen.Basisregisters.DataDog.Tracing.Autofac;
     using Autofac;
     using Autofac.Extensions.DependencyInjection;
-    using Be.Vlaanderen.Basisregisters.Projector.ConnectedProjections;
+    using Be.Vlaanderen.Basisregisters.Projector;
     using Configuration;
     using HostedServices;
     using Microsoft.AspNetCore.Builder;
@@ -23,7 +22,6 @@ namespace PublicServiceRegistry.Projector.Infrastructure
     using Swashbuckle.AspNetCore.Swagger;
     using IApplicationLifetime = Microsoft.AspNetCore.Hosting.IApplicationLifetime;
     using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
-    using TraceSource = Be.Vlaanderen.Basisregisters.DataDog.Tracing.TraceSource;
 
     /// <summary>Represents the startup process for the application.</summary>
     public class Startup
@@ -163,10 +161,16 @@ namespace PublicServiceRegistry.Projector.Infrastructure
                     {
                         AfterMiddleware = x => x.UseMiddleware<AddNoCacheHeadersMiddleware>(),
                     }
-                });
+                })
 
-            var projectionsManager = serviceProvider.GetRequiredService<IConnectedProjectionsManager>();
-            projectionsManager.Start();
+                .UseProjectionsManager(new ProjectionsManagerOptions
+                {
+                    Common =
+                    {
+                        ServiceProvider = serviceProvider,
+                        ApplicationLifetime = appLifetime
+                    }
+                });
         }
 
         private static string GetApiLeadingText(ApiVersionDescription description)
