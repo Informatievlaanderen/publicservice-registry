@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.11.3...v1.12.0) (2019-09-26)
+
+
+### Features
+
+* upgrade projector and resume projections on start ([e83dfe9](https://github.com/informatievlaanderen/publicservice-registry/commit/e83dfe9))
+
 ## [1.11.3](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.11.2...v1.11.3) (2019-09-17)
 
 
