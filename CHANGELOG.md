@@ -1,3 +1,12 @@
+## [1.12.2](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.12.1...v1.12.2) (2019-11-14)
+
+
+### Bug Fixes
+
+* force build ([2f9ea59](https://github.com/informatievlaanderen/publicservice-registry/commit/2f9ea59))
+* push to correct docker repo ([0267217](https://github.com/informatievlaanderen/publicservice-registry/commit/0267217))
+* push to correct docker repo ([f4580fe](https://github.com/informatievlaanderen/publicservice-registry/commit/f4580fe))
+
 ## [1.12.1](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.12.0...v1.12.1) (2019-09-26)
 
 
