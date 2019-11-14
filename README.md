@@ -27,7 +27,7 @@
 
 ### Getting started
 
-TODO: More to come :)
+TODO: More to come! :)
 
 ### Generating documentation
 
