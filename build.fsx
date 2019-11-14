@@ -50,7 +50,7 @@ let product = "Basisregisters Vlaanderen"
 let copyright = "Copyright (c) Vlaamse overheid"
 let company = "Vlaamse overheid"
 
-let dockerRepository = "publicserviceregistry"
+let dockerRepository = "public-service-registry"
 let assemblyVersionNumber = (sprintf "2.%s")
 let nugetVersionNumber = (sprintf "%s")
 
@@ -110,7 +110,7 @@ Target "Containerize_ApiBackoffice" (fun _ -> containerize "PublicServiceRegistr
 Target "PushContainer_ApiBackoffice" (fun _ -> push "api")
 
 Target "Containerize_Projections" (fun _ -> containerize "PublicServiceRegistry.Projector" "projections")
-Target "PushContainer_Projections" (fun _ -> push "projections")
+Target "PushContainer_Projections" (fun _ -> push "projector")
 
 Target "Containerize_OrafinUpload" (fun _ -> containerize "PublicServiceRegistry.OrafinUpload" "batch-orafin")
 Target "PushContainer_OrafinUpload" (fun _ -> push "batch-orafin")
