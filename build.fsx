@@ -109,7 +109,7 @@ Target "Pack_Solution" (fun _ ->
 Target "Containerize_ApiBackoffice" (fun _ -> containerize "PublicServiceRegistry.Api.Backoffice" "api")
 Target "PushContainer_ApiBackoffice" (fun _ -> push "api")
 
-Target "Containerize_Projections" (fun _ -> containerize "PublicServiceRegistry.Projector" "projections")
+Target "Containerize_Projections" (fun _ -> containerize "PublicServiceRegistry.Projector" "projector")
 Target "PushContainer_Projections" (fun _ -> push "projector")
 
 Target "Containerize_OrafinUpload" (fun _ -> containerize "PublicServiceRegistry.OrafinUpload" "batch-orafin")
