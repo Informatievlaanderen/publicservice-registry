@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.12.2...v2.0.0) (2020-01-27)
+
+
+### Features
+
+* upgrade to netcoreapp31 ([087e9e7](https://github.com/informatievlaanderen/publicservice-registry/commit/087e9e7))
+
+
+### BREAKING CHANGES
+
+* Upgrade to .NET Core 3.1
+
 ## [1.12.2](https://github.com/informatievlaanderen/publicservice-registry/compare/v1.12.1...v1.12.2) (2019-11-14)
 
 
