@@ -59,9 +59,9 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Responses
     }
 
 
-    public class PublicServiceLifeCycleResponseItemExamples : IExamplesProvider
+    public class PublicServiceLifeCycleResponseItemExamples : IExamplesProvider<List<PublicServiceLifeCycleResponseItem>>
     {
-        public object GetExamples()
+        public List<PublicServiceLifeCycleResponseItem> GetExamples()
         {
             return new List<PublicServiceLifeCycleResponseItem>
             {

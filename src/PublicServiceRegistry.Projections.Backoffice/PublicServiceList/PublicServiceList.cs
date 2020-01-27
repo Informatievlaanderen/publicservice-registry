@@ -9,15 +9,15 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceList
     public class PublicServiceListItem
     {
         public string PublicServiceId { get; set; }
-        public string Name { get; set; }
-        public string CompetentAuthorityCode { get; set; }
-        public string CompetentAuthorityName { get; set; }
+        public string? Name { get; set; }
+        public string? CompetentAuthorityCode { get; set; }
+        public string? CompetentAuthorityName { get; set; }
         public bool ExportToOrafin { get; set; }
-        public string CurrentLifeCycleStageType { get; set; }
+        public string? CurrentLifeCycleStageType { get; set; }
         public int? CurrentLifeCycleStageId { get; set; }
         public int? CurrentLifeCycleStageEndsAtAsInt { get; set; }
-        public string IpdcCode { get; set; }
-        public string LegislativeDocumentId { get; set; }
+        public string? IpdcCode { get; set; }
+        public string? LegislativeDocumentId { get; set; }
         public bool Removed { get; set; }
 
         public LocalDate? CurrentLifeCycleStageEndsAt
@@ -35,7 +35,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceList
         {
             b.ToTable(TableName, Schema.Backoffice)
                 .HasKey(p => p.PublicServiceId)
-                .ForSqlServerIsClustered();
+                .IsClustered();
 
             b.Property(p => p.Name);
             b.Property(p => p.CompetentAuthorityCode);

@@ -49,9 +49,9 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Responses
         }
     }
 
-    public class LifeCycleStageResponseExamples : IExamplesProvider
+    public class LifeCycleStageResponseExamples : IExamplesProvider<List<LifeCycleStageResponse>>
     {
-        public object GetExamples()
+        public List<LifeCycleStageResponse> GetExamples()
             => new List<LifeCycleStageResponse>
             {
                 new LifeCycleStageResponse(PublicServiceRegistry.LifeCycleStageType.Active.ToString(), PublicServiceRegistry.LifeCycleStageType.Active.Translation.Name, LocalDate.FromDateTime(DateTime.Now.Date), LocalDate.FromDateTime(DateTime.Now.Date.AddDays(1))),
@@ -59,9 +59,9 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Responses
             };
     }
 
-    public class LifeCycleStageNotFoundResponseExamples : IExamplesProvider
+    public class LifeCycleStageNotFoundResponseExamples : IExamplesProvider<ProblemDetails>
     {
-        public object GetExamples()
+        public ProblemDetails GetExamples()
             => new ProblemDetails
             {
                 HttpStatus = StatusCodes.Status404NotFound,

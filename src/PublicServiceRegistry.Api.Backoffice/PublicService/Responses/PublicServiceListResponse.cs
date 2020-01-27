@@ -42,9 +42,9 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService.Responses
         }
     }
 
-    public class PublicServiceListResponseExamples : IExamplesProvider
+    public class PublicServiceListResponseExamples : IExamplesProvider<List<PublicServiceListResponse>>
     {
-        public object GetExamples()
+        public List<PublicServiceListResponse> GetExamples()
             => new List<PublicServiceListResponse>
             {
                 new PublicServiceListResponse(

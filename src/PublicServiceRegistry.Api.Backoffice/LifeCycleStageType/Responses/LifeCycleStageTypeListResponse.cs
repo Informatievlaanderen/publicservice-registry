@@ -23,9 +23,9 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycleStageType.Responses
         }
     }
 
-    public class LifeCycleStageTypeListResponseExamples : IExamplesProvider
+    public class LifeCycleStageTypeListResponseExamples : IExamplesProvider<List<LifeCycleStageTypeListResponse>>
     {
-        public object GetExamples() =>
+        public List<LifeCycleStageTypeListResponse> GetExamples() =>
             new List<LifeCycleStageTypeListResponse>
             {
                 new LifeCycleStageTypeListResponse(LifeCycleStageType.Active),

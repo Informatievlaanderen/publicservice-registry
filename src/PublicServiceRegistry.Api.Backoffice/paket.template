@@ -15,13 +15,13 @@ licenseUrl https://opensource.org/licenses/EUPL-1.2
 description Public Service Registry.
 
 files
-  PublicServiceRegistry.Api.Backoffice.dll => lib\netcoreapp2.2
-  PublicServiceRegistry.Api.Backoffice.pdb => lib\netcoreapp2.2
-  PublicServiceRegistry.Api.Backoffice.xml => lib\netcoreapp2.2
+  PublicServiceRegistry.Api.Backoffice.dll => lib\netcoreapp3.1
+  PublicServiceRegistry.Api.Backoffice.pdb => lib\netcoreapp3.1
+  PublicServiceRegistry.Api.Backoffice.xml => lib\netcoreapp3.1
   PublicServiceRegistry.Api.Backoffice.xml => content
 
-  PublicServiceRegistry.Projections.Backoffice.dll => lib\netcoreapp2.2
-  PublicServiceRegistry.Projections.Backoffice.pdb => lib\netcoreapp2.2
+  PublicServiceRegistry.Projections.Backoffice.dll => lib\netcoreapp3.1
+  PublicServiceRegistry.Projections.Backoffice.pdb => lib\netcoreapp3.1
 
-  PublicServiceRegistry.dll => lib\netcoreapp2.2
-  PublicServiceRegistry.pdb => lib\netcoreapp2.2
+  PublicServiceRegistry.dll => lib\netcoreapp3.1
+  PublicServiceRegistry.pdb => lib\netcoreapp3.1

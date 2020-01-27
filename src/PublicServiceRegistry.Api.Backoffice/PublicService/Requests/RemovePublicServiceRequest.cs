@@ -11,9 +11,9 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService.Requests
         public string Reden { get; set; }
     }
 
-    public class RemovePublicServiceRequestExample : IExamplesProvider
+    public class RemovePublicServiceRequestExample : IExamplesProvider<RemovePublicServiceRequest>
     {
-        public object GetExamples() =>
+        public RemovePublicServiceRequest GetExamples() =>
             new RemovePublicServiceRequest
             {
                 Reden = "De reden waarom deze dienstverlening mag verwijderd worden.",

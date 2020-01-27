@@ -8,7 +8,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceLabelList
     {
         public string PublicServiceId { get; set; }
         public string LabelType { get; set; }
-        public string LabelValue { get; set; }
+        public string? LabelValue { get; set; }
     }
 
     public class PublicServiceLabelListConfiguration : IEntityTypeConfiguration<PublicServiceLabelListItem>
@@ -19,7 +19,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceLabelList
         {
             b.ToTable(TableName, Schema.Backoffice)
                 .HasKey(p => new { p.PublicServiceId, p.LabelType })
-                .ForSqlServerIsClustered();
+                .IsClustered();
 
             b.Property(p => p.LabelType);
             b.Property(p => p.LabelValue);

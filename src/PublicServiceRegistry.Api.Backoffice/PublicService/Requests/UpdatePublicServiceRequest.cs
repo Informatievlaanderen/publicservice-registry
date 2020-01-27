@@ -30,9 +30,9 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService.Requests
         public bool IsSubsidie { get; set; }
     }
 
-    public class UpdatePublicServiceRequestExample : IExamplesProvider
+    public class UpdatePublicServiceRequestExample : IExamplesProvider<UpdatePublicServiceRequest>
     {
-        public object GetExamples() =>
+        public UpdatePublicServiceRequest GetExamples() =>
             new UpdatePublicServiceRequest
             {
                 Naam = "Nieuwe naam",

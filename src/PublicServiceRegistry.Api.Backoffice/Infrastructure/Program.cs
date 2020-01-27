@@ -29,8 +29,8 @@ namespace PublicServiceRegistry.Api.Backoffice.Infrastructure
                     })
                 .ConfigureAppConfiguration((hostingContext, config) =>
                 {
-                    if (hostingContext.HostingEnvironment.IsDevelopment())
-                        config.AddUserSecrets<Startup>();
+                    // if (hostingContext.HostingEnvironment.IsDevelopment())
+                    //     config.AddUserSecrets<Startup>();
                 });
     }
 }

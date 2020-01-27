@@ -23,9 +23,9 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Requests
         public DateTime? Tot { get; set; }
     }
 
-    public class ChangePeriodOfLifeCycleStageRequestExample : IExamplesProvider
+    public class ChangePeriodOfLifeCycleStageRequestExample : IExamplesProvider<ChangePeriodOfLifeCycleStageRequest>
     {
-        public object GetExamples()
+        public ChangePeriodOfLifeCycleStageRequest GetExamples()
             => new ChangePeriodOfLifeCycleStageRequest
             {
                 Vanaf = DateTime.ParseExact("13.03.2019", "dd.MM.yyyy", CultureInfo.InvariantCulture),

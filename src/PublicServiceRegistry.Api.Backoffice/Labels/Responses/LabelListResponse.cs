@@ -24,9 +24,9 @@ namespace PublicServiceRegistry.Api.Backoffice.Labels.Responses
         }
     }
 
-    public class LabelListResponseExamples : IExamplesProvider
+    public class LabelListResponseExamples : IExamplesProvider<List<LabelListResponse>>
     {
-        public object GetExamples()
+        public List<LabelListResponse> GetExamples()
             => new List<LabelListResponse>
             {
                 new LabelListResponse("Ipdc", "Werkplek duaal leren"),

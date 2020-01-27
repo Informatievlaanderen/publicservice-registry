@@ -14,9 +14,9 @@ namespace PublicServiceRegistry.Api.Backoffice.Labels.Requests
         public Dictionary<string, string> Labels { get; set; }
     }
 
-    public class UpdateLabelsRequestExample : IExamplesProvider
+    public class UpdateLabelsRequestExample : IExamplesProvider<UpdateLabelsRequest>
     {
-        public object GetExamples() =>
+        public UpdateLabelsRequest GetExamples() =>
             new UpdateLabelsRequest
             {
                 Labels = new Dictionary<string, string> { { "Ipdc", "Alternatieve naam" } }

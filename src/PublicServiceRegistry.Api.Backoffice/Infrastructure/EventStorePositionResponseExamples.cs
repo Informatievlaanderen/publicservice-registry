@@ -2,8 +2,8 @@ namespace PublicServiceRegistry.Api.Backoffice.Infrastructure
 {
     using Swashbuckle.AspNetCore.Filters;
 
-    public class EventStorePositionResponseExamples : IExamplesProvider
+    public class EventStorePositionResponseExamples : IExamplesProvider<int>
     {
-        public object GetExamples() => 42;
+        public int GetExamples() => 42;
     }
 }

@@ -30,9 +30,9 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Requests
         public DateTime? Tot { get; set; }
     }
 
-    public class AddStageToLifeCycleRequestExample : IExamplesProvider
+    public class AddStageToLifeCycleRequestExample : IExamplesProvider<AddStageToLifeCycleRequest>
     {
-        public object GetExamples()
+        public AddStageToLifeCycleRequest GetExamples()
             => new AddStageToLifeCycleRequest
             {
                 LevensloopfaseType = LifeCycleStageType.Active.ToString(),

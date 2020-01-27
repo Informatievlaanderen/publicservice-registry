@@ -25,9 +25,9 @@ namespace PublicServiceRegistry.Api.Backoffice.LifeCycle.Responses
         }
     }
 
-    public class LifeCycleResponseExamples : IExamplesProvider
+    public class LifeCycleResponseExamples : IExamplesProvider<List<LabelListResponse>>
     {
-        public object GetExamples()
+        public List<LabelListResponse> GetExamples()
             => new List<LabelListResponse>
             {
                 new LabelListResponse("Ipdc", "Werkplek duaal leren"),

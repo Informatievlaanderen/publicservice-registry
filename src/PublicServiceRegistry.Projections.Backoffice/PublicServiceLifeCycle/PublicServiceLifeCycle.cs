@@ -9,7 +9,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceLifeCycle
     {
         public string PublicServiceId { get; set; }
         public int LifeCycleStageId { get; set; }
-        public string LifeCycleStageType { get; set; }
+        public string? LifeCycleStageType { get; set; }
 
         public int? FromAsInt { get; set; }
         public int? ToAsInt { get; set; }
@@ -35,7 +35,7 @@ namespace PublicServiceRegistry.Projections.Backoffice.PublicServiceLifeCycle
         {
             b.ToTable(TableName, Schema.Backoffice)
                 .HasKey(p => new { p.PublicServiceId, LocalId = p.LifeCycleStageId })
-                .ForSqlServerIsClustered();
+                .IsClustered();
 
             b.Property(p => p.LifeCycleStageId).IsRequired();
             b.Property(p => p.LifeCycleStageType).IsRequired();

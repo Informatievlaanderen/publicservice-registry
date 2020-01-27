@@ -69,9 +69,9 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService.Responses
         }
     }
 
-    public class PublicServiceResponseExamples : IExamplesProvider
+    public class PublicServiceResponseExamples : IExamplesProvider<PublicServiceResponse>
     {
-        public object GetExamples()
+        public PublicServiceResponse GetExamples()
             => new PublicServiceResponse(
                 "DVR000000002",
                 "Schooltoelage voor het basisonderwijs en het secundair onderwijs",
@@ -84,9 +84,9 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService.Responses
                 "1234567");
     }
 
-    public class PublicServiceNotFoundResponseExamples : IExamplesProvider
+    public class PublicServiceNotFoundResponseExamples : IExamplesProvider<ProblemDetails>
     {
-        public object GetExamples() => new ProblemDetails
+        public ProblemDetails GetExamples() => new ProblemDetails
         {
             HttpStatus = StatusCodes.Status404NotFound,
             Title = ProblemDetails.DefaultTitle,
@@ -95,9 +95,9 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService.Responses
         };
     }
 
-    public class PublicServiceGoneResponseExamples : IExamplesProvider
+    public class PublicServiceGoneResponseExamples : IExamplesProvider<ProblemDetails>
     {
-        public object GetExamples() => new ProblemDetails
+        public ProblemDetails GetExamples() => new ProblemDetails
         {
             HttpStatus = StatusCodes.Status410Gone,
             Title = ProblemDetails.DefaultTitle,

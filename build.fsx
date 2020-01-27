@@ -1,7 +1,18 @@
+#r "paket:
+version 5.241.2
+framework: netstandard20
+source https://api.nuget.org/v3/index.json
+nuget Be.Vlaanderen.Basisregisters.Build.Pipeline 3.2.0
+nuget Fake.JavaScript.Npm 5.19.0
+nuget Fake.IO.FileSystem 5.19.0 //"
+
 #load "packages/Be.Vlaanderen.Basisregisters.Build.Pipeline/Content/build-generic.fsx"
 
-open Fake
-open Fake.NpmHelper
+open Fake.Core
+open Fake.Core.TargetOperators
+open Fake.IO
+open Fake.IO.FileSystemOperators
+open Fake.JavaScript
 open ``Build-generic``
 
 // The buildserver passes in `BITBUCKET_BUILD_NUMBER` as an integer to version the results
@@ -62,38 +73,35 @@ let pack = pack nugetVersionNumber
 let containerize = containerize dockerRepository
 let push = push dockerRepository
 
-Target "CleanAll" (fun _ ->
-  CleanDir buildDir
-  CleanDir ("src" @@ "PublicServiceRegistry.UI" @@ "wwwroot")
+Target.create "CleanAll" (fun _ ->
+  Shell.cleanDir buildDir
+  Shell.cleanDir ("src" @@ "PublicServiceRegistry.UI" @@ "wwwroot")
 )
 
 // Solution -----------------------------------------------------------------------
 
-Target "Restore_Solution" (fun _ -> restore "PublicServiceRegistry")
+Target.create "Restore_Solution" (fun _ -> restore "PublicServiceRegistry")
 
-Target "Build_Solution" (fun _ ->
+Target.create "Build_Solution" (fun _ ->
   setVersions "SolutionInfo.cs"
   build "PublicServiceRegistry")
 
-Target "Site_Build" (fun _ ->
-  Npm (fun p ->
-    { p with
-        Command = (Run "build")
-    })
+Target.create "Site_Build" (fun _ ->
+  Npm.exec "build" id
 
   let dist = (buildDir @@ "PublicServiceRegistry.UI" @@ "linux")
   let source = "src" @@ "PublicServiceRegistry.UI"
 
-  CopyDir (dist @@ "wwwroot") (source @@ "wwwroot") (fun _ -> true)
-  CopyFile dist (source @@ "Dockerfile")
-  CopyFile dist (source @@ "default.conf")
-  CopyFile dist (source @@ "config.js")
-  CopyFile dist (source @@ "init.sh")
+  Shell.copyDir (dist @@ "wwwroot") (source @@ "wwwroot") (fun _ -> true)
+  Shell.copyFile dist (source @@ "Dockerfile")
+  Shell.copyFile dist (source @@ "default.conf")
+  Shell.copyFile dist (source @@ "config.js")
+  Shell.copyFile dist (source @@ "init.sh")
 )
 
-Target "Test_Solution" (fun _ -> test "PublicServiceRegistry")
+Target.create "Test_Solution" (fun _ -> test "PublicServiceRegistry")
 
-Target "Publish_Solution" (fun _ ->
+Target.create "Publish_Solution" (fun _ ->
   [
     "PublicServiceRegistry.Api.Backoffice"
     "PublicServiceRegistry.Projector"
@@ -101,62 +109,68 @@ Target "Publish_Solution" (fun _ ->
     "PublicServiceRegistry.OrafinUpload"
   ] |> List.iter publish)
 
-Target "Pack_Solution" (fun _ ->
+Target.create "Pack_Solution" (fun _ ->
   [
     "PublicServiceRegistry.Api.Backoffice"
   ] |> List.iter pack)
 
-Target "Containerize_ApiBackoffice" (fun _ -> containerize "PublicServiceRegistry.Api.Backoffice" "api")
-Target "PushContainer_ApiBackoffice" (fun _ -> push "api")
+Target.create "Containerize_ApiBackoffice" (fun _ -> containerize "PublicServiceRegistry.Api.Backoffice" "api")
+Target.create "PushContainer_ApiBackoffice" (fun _ -> push "api")
 
-Target "Containerize_Projections" (fun _ -> containerize "PublicServiceRegistry.Projector" "projector")
-Target "PushContainer_Projections" (fun _ -> push "projector")
+Target.create "Containerize_Projections" (fun _ -> containerize "PublicServiceRegistry.Projector" "projector")
+Target.create "PushContainer_Projections" (fun _ -> push "projector")
 
-Target "Containerize_OrafinUpload" (fun _ -> containerize "PublicServiceRegistry.OrafinUpload" "batch-orafin")
-Target "PushContainer_OrafinUpload" (fun _ -> push "batch-orafin")
+Target.create "Containerize_OrafinUpload" (fun _ -> containerize "PublicServiceRegistry.OrafinUpload" "batch-orafin")
+Target.create "PushContainer_OrafinUpload" (fun _ -> push "batch-orafin")
 
-Target "Containerize_Site" (fun _ -> containerize "PublicServiceRegistry.UI" "ui")
-Target "PushContainer_Site" (fun _ -> push "ui")
+Target.create "Containerize_Site" (fun _ -> containerize "PublicServiceRegistry.UI" "ui")
+Target.create "PushContainer_Site" (fun _ -> push "ui")
 
 // --------------------------------------------------------------------------------
 
-Target "Build" DoNothing
-Target "Test" DoNothing
-Target "Publish" DoNothing
-Target "Pack" DoNothing
-Target "Containerize" DoNothing
-Target "Push" DoNothing
+Target.create "Build" ignore
+Target.create "Test" ignore
+Target.create "Publish" ignore
+Target.create "Pack" ignore
+Target.create "Containerize" ignore
+Target.create "Push" ignore
 
-"NpmInstall"         ==> "Build"
-"DotNetCli"          ==> "Build"
-"CleanAll"           ==> "Build"
-"Restore_Solution"   ==> "Build"
-"Build_Solution"     ==> "Build"
+"NpmInstall"
+ // ==> "DotNetCli"
+  ==> "CleanAll"
+  ==> "Restore_Solution"
+  ==> "Build_Solution"
+  ==> "Build"
 
-"Build"              ==> "Test"
-"Site_Build"         ==> "Test"
-"Test_Solution"      ==> "Test"
+"Build"
+  ==> "Site_Build"
+  ==> "Test_Solution"
+  ==> "Test"
 
-"Test"               ==> "Publish"
-"Publish_Solution"   ==> "Publish"
+"Test"
+  ==> "Publish_Solution"
+  ==> "Publish"
 
-"Publish"            ==> "Pack"
-"Pack_Solution"      ==> "Pack"
+"Publish"
+  ==> "Pack_Solution"
+  ==> "Pack"
 
-"Pack"                                ==> "Containerize"
-"Containerize_ApiBackoffice"          ==> "Containerize"
-"Containerize_Projections"            ==> "Containerize"
-"Containerize_OrafinUpload"           ==> "Containerize"
-"Containerize_Site"                   ==> "Containerize"
+"Pack"
+  ==> "Containerize_ApiBackoffice"
+  ==> "Containerize_Projections"
+  ==> "Containerize_OrafinUpload"
+  ==> "Containerize_Site"
+  ==> "Containerize"
 // Possibly add more projects to containerize here
 
-"Containerize"                        ==> "Push"
-"DockerLogin"                         ==> "Push"
-"PushContainer_ApiBackoffice"         ==> "Push"
-"PushContainer_Projections"           ==> "Push"
-"PushContainer_OrafinUpload"          ==> "Push"
-"PushContainer_Site"                  ==> "Push"
+"Containerize"
+  ==> "DockerLogin"
+  ==> "PushContainer_ApiBackoffice"
+  ==> "PushContainer_Projections"
+  ==> "PushContainer_OrafinUpload"
+  ==> "PushContainer_Site"
+  ==> "Push"
 // Possibly add more projects to push here
 
 // By default we build & test
-RunTargetOrDefault "Test"
+Target.runOrDefault "Test"

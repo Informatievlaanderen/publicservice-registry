@@ -11,9 +11,9 @@ namespace PublicServiceRegistry.Api.Backoffice.PublicService.Requests
         public string Naam { get; set; }
     }
 
-    public class RegisterPublicServiceRequestExample : IExamplesProvider
+    public class RegisterPublicServiceRequestExample : IExamplesProvider<RegisterPublicServiceRequest>
     {
-        public object GetExamples() =>
+        public RegisterPublicServiceRequest GetExamples() =>
             new RegisterPublicServiceRequest
             {
                 Naam = "Schooltoelage voor het basisonderwijs en het secundair onderwijs"

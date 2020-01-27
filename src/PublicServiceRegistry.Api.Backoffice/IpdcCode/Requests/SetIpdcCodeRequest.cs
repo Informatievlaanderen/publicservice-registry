@@ -12,9 +12,9 @@ namespace PublicServiceRegistry.Api.Backoffice.IpdcCode.Requests
         public string IpdcCode { get; set; }
     }
 
-    public class SetIpdcCodeRequestExample : IExamplesProvider
+    public class SetIpdcCodeRequestExample : IExamplesProvider<SetIpdcCodeRequest>
     {
-        public object GetExamples() =>
+        public SetIpdcCodeRequest GetExamples() =>
             new SetIpdcCodeRequest
             {
                 IpdcCode = "1928"
