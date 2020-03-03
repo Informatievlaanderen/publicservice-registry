@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/informatievlaanderen/publicservice-registry/compare/v2.1.0...v2.1.1) (2020-03-03)
+
+
+### Bug Fixes
+
+* update dockerid detection ([3726089](https://github.com/informatievlaanderen/publicservice-registry/commit/3726089))
+
 # [2.1.0](https://github.com/informatievlaanderen/publicservice-registry/compare/v2.0.0...v2.1.0) (2020-02-01)
 
 
