@@ -112,7 +112,7 @@
     "sass-loader": "^7.0.1",
     "selenium-server": "^3.11.0",
     "semver": "^5.3.0",
-    "semantic-release": "15.13.23",
+    "semantic-release": "17.2.3",
     "shelljs": "^0.8.1",
     "style-loader": "^0.21.0",
     "uglifyjs-webpack-plugin": "^1.2.5",
